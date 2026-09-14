@@ -7254,9 +7254,9 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spTutorialSignEsp",width:196,height:80,transparent:!1,smooth:!1,preload:!1,xOrigin:98,yOrigin:40,bboxRight:195,bboxBottom:79,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[19,18,25,16,21,23,20,24,26,15,22,17,27],sequence:
+		pName:"spTutorialSignEsp",width:192,height:80,transparent:!1,smooth:!1,preload:!1,xOrigin:96,yOrigin:40,bboxRight:191,bboxBottom:79,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[25,26,23,17,27,16,20,15,21,22,18,19,24],sequence:
 		{
-			pName:"spTutorialSignEsp",playback:1,playbackSpeed:1,playbackSpeedType:1,length:13,xorigin:98,yorigin:40,volume:1,width:0,height:0,keyframeStore:[],tracks:[
+			pName:"spTutorialSignEsp",playback:1,playbackSpeed:1,playbackSpeedType:1,length:13,xorigin:96,yorigin:40,volume:1,width:0,height:0,keyframeStore:[],tracks:[
 			{
 				modelName:"GMSpriteFramesTrack",pName:"frames",builtinName:0,traits:0,creationTrack:0,tags:[],ownedResourceModels:[],tracks:[],keyframeStore:[
 				{
@@ -11838,43 +11838,43 @@ var JSON_game=
 		x:840,y:619,w:128,h:128,XOffset:0,YOffset:0,CropWidth:128,CropHeight:128,ow:128,oh:128,tp:1	}
 	,
 	{
-		x:559,y:920,w:196,h:80,XOffset:0,YOffset:0,CropWidth:196,CropHeight:80,ow:196,oh:80,tp:1	}
+		x:559,y:920,w:192,h:80,XOffset:0,YOffset:0,CropWidth:192,CropHeight:80,ow:192,oh:80,tp:1	}
 	,
 	{
-		x:771,y:920,w:196,h:80,XOffset:0,YOffset:0,CropWidth:196,CropHeight:80,ow:196,oh:80,tp:1	}
+		x:767,y:920,w:192,h:80,XOffset:0,YOffset:0,CropWidth:192,CropHeight:80,ow:192,oh:80,tp:1	}
 	,
 	{
-		x:264,y:334,w:196,h:80,XOffset:0,YOffset:0,CropWidth:196,CropHeight:80,ow:196,oh:80,tp:2	}
+		x:264,y:334,w:192,h:80,XOffset:0,YOffset:0,CropWidth:192,CropHeight:80,ow:192,oh:80,tp:2	}
 	,
 	{
-		x:815,y:152,w:196,h:80,XOffset:0,YOffset:0,CropWidth:196,CropHeight:80,ow:196,oh:80,tp:2	}
+		x:815,y:152,w:192,h:80,XOffset:0,YOffset:0,CropWidth:192,CropHeight:80,ow:192,oh:80,tp:2	}
 	,
 	{
-		x:476,y:334,w:196,h:80,XOffset:0,YOffset:0,CropWidth:196,CropHeight:80,ow:196,oh:80,tp:2	}
+		x:472,y:334,w:192,h:80,XOffset:0,YOffset:0,CropWidth:192,CropHeight:80,ow:192,oh:80,tp:2	}
 	,
 	{
-		x:815,y:248,w:196,h:80,XOffset:0,YOffset:0,CropWidth:196,CropHeight:80,ow:196,oh:80,tp:2	}
+		x:815,y:248,w:192,h:80,XOffset:0,YOffset:0,CropWidth:192,CropHeight:80,ow:192,oh:80,tp:2	}
 	,
 	{
-		x:688,y:344,w:196,h:80,XOffset:0,YOffset:0,CropWidth:196,CropHeight:80,ow:196,oh:80,tp:2	}
+		x:680,y:344,w:192,h:80,XOffset:0,YOffset:0,CropWidth:192,CropHeight:80,ow:192,oh:80,tp:2	}
 	,
 	{
-		x:264,y:430,w:196,h:80,XOffset:0,YOffset:0,CropWidth:196,CropHeight:80,ow:196,oh:80,tp:2	}
+		x:264,y:430,w:192,h:80,XOffset:0,YOffset:0,CropWidth:192,CropHeight:80,ow:192,oh:80,tp:2	}
 	,
 	{
-		x:476,y:430,w:196,h:80,XOffset:0,YOffset:0,CropWidth:196,CropHeight:80,ow:196,oh:80,tp:2	}
+		x:472,y:430,w:192,h:80,XOffset:0,YOffset:0,CropWidth:192,CropHeight:80,ow:192,oh:80,tp:2	}
 	,
 	{
-		x:688,y:440,w:196,h:80,XOffset:0,YOffset:0,CropWidth:196,CropHeight:80,ow:196,oh:80,tp:2	}
+		x:680,y:440,w:192,h:80,XOffset:0,YOffset:0,CropWidth:192,CropHeight:80,ow:192,oh:80,tp:2	}
 	,
 	{
-		x:8,y:536,w:196,h:80,XOffset:0,YOffset:0,CropWidth:196,CropHeight:80,ow:196,oh:80,tp:2	}
+		x:8,y:536,w:192,h:80,XOffset:0,YOffset:0,CropWidth:192,CropHeight:80,ow:192,oh:80,tp:2	}
 	,
 	{
-		x:8,y:632,w:196,h:80,XOffset:0,YOffset:0,CropWidth:196,CropHeight:80,ow:196,oh:80,tp:2	}
+		x:8,y:632,w:192,h:80,XOffset:0,YOffset:0,CropWidth:192,CropHeight:80,ow:192,oh:80,tp:2	}
 	,
 	{
-		x:8,y:728,w:196,h:80,XOffset:0,YOffset:0,CropWidth:196,CropHeight:80,ow:196,oh:80,tp:2	}
+		x:8,y:728,w:192,h:80,XOffset:0,YOffset:0,CropWidth:192,CropHeight:80,ow:192,oh:80,tp:2	}
 	,
 	{
 		x:840,y:763,w:109,h:92,XOffset:3,YOffset:3,CropWidth:109,CropHeight:92,ow:112,oh:96,tp:1	}
@@ -11913,19 +11913,19 @@ var JSON_game=
 		x:200,y:824,w:72,h:64,XOffset:6,YOffset:7,CropWidth:72,CropHeight:64,ow:88,oh:88,tp:2	}
 	,
 	{
-		x:220,y:536,w:62,h:69,XOffset:13,YOffset:14,CropWidth:62,CropHeight:69,ow:88,oh:88,tp:2	}
+		x:216,y:536,w:62,h:69,XOffset:13,YOffset:14,CropWidth:62,CropHeight:69,ow:88,oh:88,tp:2	}
 	,
 	{
-		x:220,y:621,w:63,h:67,XOffset:9,YOffset:6,CropWidth:63,CropHeight:67,ow:80,oh:80,tp:2	}
+		x:216,y:621,w:63,h:67,XOffset:9,YOffset:6,CropWidth:63,CropHeight:67,ow:80,oh:80,tp:2	}
 	,
 	{
-		x:220,y:621,w:63,h:67,XOffset:9,YOffset:6,CropWidth:63,CropHeight:67,ow:80,oh:80,tp:2	}
+		x:216,y:621,w:63,h:67,XOffset:9,YOffset:6,CropWidth:63,CropHeight:67,ow:80,oh:80,tp:2	}
 	,
 	{
-		x:220,y:704,w:72,h:54,XOffset:5,YOffset:2,CropWidth:72,CropHeight:54,ow:80,oh:80,tp:2	}
+		x:216,y:704,w:72,h:54,XOffset:5,YOffset:2,CropWidth:72,CropHeight:54,ow:80,oh:80,tp:2	}
 	,
 	{
-		x:220,y:704,w:72,h:54,XOffset:5,YOffset:2,CropWidth:72,CropHeight:54,ow:80,oh:80,tp:2	}
+		x:216,y:704,w:72,h:54,XOffset:5,YOffset:2,CropWidth:72,CropHeight:54,ow:80,oh:80,tp:2	}
 	,
 	{
 		x:288,y:774,w:68,h:57,XOffset:7,YOffset:4,CropWidth:68,CropHeight:57,ow:80,oh:80,tp:2	}
@@ -11943,19 +11943,19 @@ var JSON_game=
 		x:279,y:926,w:77,h:48,XOffset:2,YOffset:1,CropWidth:77,CropHeight:48,ow:80,oh:80,tp:2	}
 	,
 	{
-		x:308,y:536,w:60,h:60,XOffset:2,YOffset:2,CropWidth:60,CropHeight:60,ow:64,oh:64,tp:2	}
+		x:304,y:536,w:60,h:60,XOffset:2,YOffset:2,CropWidth:60,CropHeight:60,ow:64,oh:64,tp:2	}
 	,
 	{
-		x:308,y:612,w:68,h:50,XOffset:9,YOffset:10,CropWidth:68,CropHeight:50,ow:88,oh:88,tp:2	}
+		x:304,y:612,w:68,h:50,XOffset:9,YOffset:10,CropWidth:68,CropHeight:50,ow:88,oh:88,tp:2	}
 	,
 	{
-		x:308,y:612,w:68,h:50,XOffset:9,YOffset:10,CropWidth:68,CropHeight:50,ow:88,oh:88,tp:2	}
+		x:304,y:612,w:68,h:50,XOffset:9,YOffset:10,CropWidth:68,CropHeight:50,ow:88,oh:88,tp:2	}
 	,
 	{
-		x:308,y:678,w:73,h:46,XOffset:3,YOffset:1,CropWidth:73,CropHeight:46,ow:80,oh:80,tp:2	}
+		x:304,y:678,w:73,h:46,XOffset:3,YOffset:1,CropWidth:73,CropHeight:46,ow:80,oh:80,tp:2	}
 	,
 	{
-		x:308,y:678,w:73,h:46,XOffset:3,YOffset:1,CropWidth:73,CropHeight:46,ow:80,oh:80,tp:2	}
+		x:304,y:678,w:73,h:46,XOffset:3,YOffset:1,CropWidth:73,CropHeight:46,ow:80,oh:80,tp:2	}
 	,
 	{
 		x:372,y:740,w:70,h:43,XOffset:4,YOffset:2,CropWidth:70,CropHeight:43,ow:80,oh:80,tp:2	}
@@ -11982,7 +11982,7 @@ var JSON_game=
 		x:372,y:866,w:50,h:46,XOffset:7,YOffset:6,CropWidth:50,CropHeight:46,ow:64,oh:56,tp:2	}
 	,
 	{
-		x:397,y:536,w:45,h:49,XOffset:10,YOffset:11,CropWidth:45,CropHeight:49,ow:64,oh:64,tp:2	}
+		x:393,y:536,w:45,h:49,XOffset:10,YOffset:11,CropWidth:45,CropHeight:49,ow:64,oh:64,tp:2	}
 	,
 	{
 		x:372,y:928,w:46,h:46,XOffset:17,YOffset:17,CropWidth:46,CropHeight:46,ow:80,oh:80,tp:2	}
@@ -11991,46 +11991,46 @@ var JSON_game=
 		x:372,y:928,w:46,h:46,XOffset:17,YOffset:17,CropWidth:46,CropHeight:46,ow:80,oh:80,tp:2	}
 	,
 	{
-		x:392,y:601,w:42,h:43,XOffset:4,YOffset:2,CropWidth:42,CropHeight:43,ow:48,oh:48,tp:2	}
+		x:388,y:601,w:42,h:43,XOffset:4,YOffset:2,CropWidth:42,CropHeight:43,ow:48,oh:48,tp:2	}
 	,
 	{
-		x:975,y:126,w:40,h:43,XOffset:13,YOffset:13,CropWidth:40,CropHeight:43,ow:64,oh:64,tp:1	}
+		x:975,y:894,w:40,h:43,XOffset:13,YOffset:13,CropWidth:40,CropHeight:43,ow:64,oh:64,tp:1	}
 	,
 	{
-		x:975,y:185,w:37,h:45,XOffset:5,YOffset:0,CropWidth:37,CropHeight:45,ow:48,oh:48,tp:1	}
+		x:975,y:953,w:37,h:45,XOffset:5,YOffset:0,CropWidth:37,CropHeight:45,ow:48,oh:48,tp:1	}
 	,
 	{
-		x:975,y:246,w:37,h:45,XOffset:5,YOffset:0,CropWidth:37,CropHeight:45,ow:48,oh:48,tp:1	}
+		x:975,y:126,w:37,h:45,XOffset:5,YOffset:0,CropWidth:37,CropHeight:45,ow:48,oh:48,tp:1	}
 	,
 	{
-		x:975,y:307,w:34,h:46,XOffset:9,YOffset:1,CropWidth:34,CropHeight:46,ow:48,oh:48,tp:1	}
+		x:975,y:187,w:34,h:46,XOffset:9,YOffset:1,CropWidth:34,CropHeight:46,ow:48,oh:48,tp:1	}
 	,
 	{
-		x:975,y:369,w:36,h:43,XOffset:5,YOffset:1,CropWidth:36,CropHeight:43,ow:48,oh:48,tp:1	}
+		x:975,y:249,w:36,h:43,XOffset:5,YOffset:1,CropWidth:36,CropHeight:43,ow:48,oh:48,tp:1	}
 	,
 	{
-		x:984,y:428,w:30,h:47,XOffset:0,YOffset:14,CropWidth:30,CropHeight:47,ow:32,oh:64,tp:1	}
+		x:984,y:308,w:30,h:47,XOffset:0,YOffset:14,CropWidth:30,CropHeight:47,ow:32,oh:64,tp:1	}
 	,
 	{
-		x:984,y:491,w:31,h:45,XOffset:9,YOffset:1,CropWidth:31,CropHeight:45,ow:48,oh:48,tp:1	}
+		x:984,y:371,w:31,h:45,XOffset:9,YOffset:1,CropWidth:31,CropHeight:45,ow:48,oh:48,tp:1	}
 	,
 	{
-		x:984,y:552,w:30,h:46,XOffset:1,YOffset:15,CropWidth:30,CropHeight:46,ow:32,oh:64,tp:1	}
+		x:984,y:432,w:30,h:46,XOffset:1,YOffset:15,CropWidth:30,CropHeight:46,ow:32,oh:64,tp:1	}
 	,
 	{
-		x:984,y:614,w:30,h:46,XOffset:2,YOffset:15,CropWidth:30,CropHeight:46,ow:32,oh:64,tp:1	}
+		x:984,y:494,w:30,h:46,XOffset:2,YOffset:15,CropWidth:30,CropHeight:46,ow:32,oh:64,tp:1	}
 	,
 	{
-		x:397,y:660,w:39,h:35,XOffset:6,YOffset:7,CropWidth:39,CropHeight:35,ow:48,oh:48,tp:2	}
+		x:393,y:660,w:39,h:35,XOffset:6,YOffset:7,CropWidth:39,CropHeight:35,ow:48,oh:48,tp:2	}
 	,
 	{
-		x:984,y:676,w:29,h:47,XOffset:2,YOffset:14,CropWidth:29,CropHeight:47,ow:32,oh:64,tp:1	}
+		x:984,y:556,w:29,h:47,XOffset:2,YOffset:14,CropWidth:29,CropHeight:47,ow:32,oh:64,tp:1	}
 	,
 	{
-		x:983,y:894,w:32,h:42,XOffset:7,YOffset:4,CropWidth:32,CropHeight:42,ow:48,oh:48,tp:1	}
+		x:984,y:619,w:32,h:42,XOffset:7,YOffset:4,CropWidth:32,CropHeight:42,ow:48,oh:48,tp:1	}
 	,
 	{
-		x:983,y:952,w:29,h:46,XOffset:3,YOffset:15,CropWidth:29,CropHeight:46,ow:32,oh:64,tp:1	}
+		x:984,y:677,w:29,h:46,XOffset:3,YOffset:15,CropWidth:29,CropHeight:46,ow:32,oh:64,tp:1	}
 	,
 	{
 		x:434,y:928,w:32,h:41,XOffset:7,YOffset:3,CropWidth:32,CropHeight:41,ow:48,oh:48,tp:2	}
@@ -12246,598 +12246,601 @@ var JSON_game=
 		x:805,y:536,w:24,h:24,XOffset:3,YOffset:2,CropWidth:24,CropHeight:24,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:805,y:576,w:25,h:23,XOffset:4,YOffset:3,CropWidth:25,CropHeight:23,ow:32,oh:32,tp:2	}
+		x:8,y:477,w:25,h:23,XOffset:4,YOffset:3,CropWidth:25,CropHeight:23,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:795,y:615,w:30,h:19,XOffset:1,YOffset:9,CropWidth:30,CropHeight:19,ow:32,oh:32,tp:2	}
+		x:49,y:477,w:30,h:19,XOffset:1,YOffset:9,CropWidth:30,CropHeight:19,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:751,y:617,w:21,h:27,XOffset:6,YOffset:0,CropWidth:21,CropHeight:27,ow:32,oh:32,tp:2	}
+		x:95,y:477,w:21,h:27,XOffset:6,YOffset:0,CropWidth:21,CropHeight:27,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:764,y:536,w:20,h:28,XOffset:6,YOffset:11,CropWidth:20,CropHeight:28,ow:32,oh:40,tp:2	}
+		x:132,y:477,w:20,h:28,XOffset:6,YOffset:11,CropWidth:20,CropHeight:28,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:789,y:650,w:23,h:24,XOffset:5,YOffset:3,CropWidth:23,CropHeight:24,ow:32,oh:32,tp:2	}
+		x:168,y:477,w:23,h:24,XOffset:5,YOffset:3,CropWidth:23,CropHeight:24,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:789,y:690,w:22,h:25,XOffset:8,YOffset:2,CropWidth:22,CropHeight:25,ow:32,oh:32,tp:2	}
+		x:207,y:477,w:22,h:25,XOffset:8,YOffset:2,CropWidth:22,CropHeight:25,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:789,y:731,w:25,h:22,XOffset:3,YOffset:11,CropWidth:25,CropHeight:22,ow:32,oh:40,tp:2	}
+		x:216,y:774,w:25,h:22,XOffset:3,YOffset:11,CropWidth:25,CropHeight:22,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:805,y:769,w:22,h:25,XOffset:5,YOffset:5,CropWidth:22,CropHeight:25,ow:32,oh:40,tp:2	}
+		x:279,y:990,w:22,h:25,XOffset:5,YOffset:5,CropWidth:22,CropHeight:25,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:805,y:810,w:21,h:26,XOffset:5,YOffset:1,CropWidth:21,CropHeight:26,ow:32,oh:32,tp:2	}
+		x:317,y:990,w:21,h:26,XOffset:5,YOffset:1,CropWidth:21,CropHeight:26,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:805,y:852,w:17,h:32,XOffset:7,YOffset:4,CropWidth:17,CropHeight:32,ow:32,oh:40,tp:2	}
+		x:506,y:579,w:17,h:32,XOffset:7,YOffset:4,CropWidth:17,CropHeight:32,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:805,y:852,w:17,h:32,XOffset:7,YOffset:4,CropWidth:17,CropHeight:32,ow:32,oh:40,tp:2	}
+		x:506,y:579,w:17,h:32,XOffset:7,YOffset:4,CropWidth:17,CropHeight:32,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:805,y:900,w:18,h:30,XOffset:7,YOffset:4,CropWidth:18,CropHeight:30,ow:32,oh:40,tp:2	}
+		x:434,y:985,w:18,h:30,XOffset:7,YOffset:4,CropWidth:18,CropHeight:30,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:797,y:946,w:20,h:27,XOffset:6,YOffset:6,CropWidth:20,CropHeight:27,ow:32,oh:40,tp:2	}
+		x:762,y:576,w:20,h:27,XOffset:6,YOffset:6,CropWidth:20,CropHeight:27,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:794,y:989,w:20,h:27,XOffset:6,YOffset:6,CropWidth:20,CropHeight:27,ow:32,oh:40,tp:2	}
+		x:764,y:619,w:20,h:27,XOffset:6,YOffset:6,CropWidth:20,CropHeight:27,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:8,y:477,w:19,h:28,XOffset:6,YOffset:6,CropWidth:19,CropHeight:28,ow:32,oh:40,tp:2	}
+		x:764,y:662,w:19,h:28,XOffset:6,YOffset:6,CropWidth:19,CropHeight:28,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:43,y:477,w:28,h:19,XOffset:4,YOffset:5,CropWidth:28,CropHeight:19,ow:32,oh:32,tp:2	}
+		x:354,y:990,w:28,h:19,XOffset:4,YOffset:5,CropWidth:28,CropHeight:19,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:87,y:477,w:28,h:19,XOffset:4,YOffset:6,CropWidth:28,CropHeight:19,ow:32,oh:32,tp:2	}
+		x:767,y:706,w:28,h:19,XOffset:4,YOffset:6,CropWidth:28,CropHeight:19,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:131,y:477,w:22,h:24,XOffset:5,YOffset:2,CropWidth:22,CropHeight:24,ow:32,oh:32,tp:2	}
+		x:797,y:918,w:22,h:24,XOffset:5,YOffset:2,CropWidth:22,CropHeight:24,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:169,y:477,w:24,h:22,XOffset:6,YOffset:3,CropWidth:24,CropHeight:22,ow:32,oh:32,tp:2	}
+		x:794,y:958,w:24,h:22,XOffset:6,YOffset:3,CropWidth:24,CropHeight:22,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:209,y:477,w:21,h:25,XOffset:5,YOffset:8,CropWidth:21,CropHeight:25,ow:32,oh:40,tp:2	}
+		x:845,y:536,w:21,h:25,XOffset:5,YOffset:8,CropWidth:21,CropHeight:25,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:220,y:774,w:19,h:27,XOffset:6,YOffset:12,CropWidth:19,CropHeight:27,ow:32,oh:40,tp:2	}
+		x:789,y:741,w:19,h:27,XOffset:6,YOffset:12,CropWidth:19,CropHeight:27,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:434,y:985,w:19,h:27,XOffset:6,YOffset:7,CropWidth:19,CropHeight:27,ow:32,oh:40,tp:2	}
+		x:799,y:662,w:19,h:27,XOffset:6,YOffset:7,CropWidth:19,CropHeight:27,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:506,y:579,w:19,h:27,XOffset:7,YOffset:5,CropWidth:19,CropHeight:27,ow:32,oh:40,tp:2	}
+		x:834,y:958,w:19,h:27,XOffset:7,YOffset:5,CropWidth:19,CropHeight:27,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:279,y:990,w:23,h:22,XOffset:5,YOffset:5,CropWidth:23,CropHeight:22,ow:32,oh:32,tp:2	}
+		x:764,y:536,w:23,h:22,XOffset:5,YOffset:5,CropWidth:23,CropHeight:22,ow:32,oh:32,tp:2	}
 	,
 	{
 		x:638,y:568,w:18,h:28,XOffset:8,YOffset:6,CropWidth:18,CropHeight:28,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:318,y:990,w:21,h:24,XOffset:6,YOffset:2,CropWidth:21,CropHeight:24,ow:32,oh:32,tp:2	}
+		x:798,y:576,w:21,h:24,XOffset:6,YOffset:2,CropWidth:21,CropHeight:24,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:355,y:990,w:21,h:24,XOffset:4,YOffset:7,CropWidth:21,CropHeight:24,ow:32,oh:40,tp:2	}
+		x:795,y:784,w:21,h:24,XOffset:4,YOffset:7,CropWidth:21,CropHeight:24,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:392,y:990,w:20,h:25,XOffset:7,YOffset:5,CropWidth:20,CropHeight:25,ow:32,oh:40,tp:2	}
+		x:398,y:990,w:20,h:25,XOffset:7,YOffset:5,CropWidth:20,CropHeight:25,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:662,y:1001,w:41,h:12,XOffset:3,YOffset:18,CropWidth:41,CropHeight:12,ow:48,oh:48,tp:2	}
+		x:304,y:740,w:41,h:12,XOffset:3,YOffset:18,CropWidth:41,CropHeight:12,ow:48,oh:48,tp:2	}
 	,
 	{
-		x:846,y:536,w:18,h:27,XOffset:6,YOffset:0,CropWidth:18,CropHeight:27,ow:32,oh:32,tp:2	}
+		x:835,y:577,w:18,h:27,XOffset:6,YOffset:0,CropWidth:18,CropHeight:27,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:828,y:650,w:18,h:27,XOffset:7,YOffset:0,CropWidth:18,CropHeight:27,ow:32,oh:32,tp:2	}
+		x:795,y:824,w:18,h:27,XOffset:7,YOffset:0,CropWidth:18,CropHeight:27,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:842,y:810,w:18,h:27,XOffset:7,YOffset:6,CropWidth:18,CropHeight:27,ow:32,oh:40,tp:2	}
+		x:832,y:705,w:18,h:27,XOffset:7,YOffset:6,CropWidth:18,CropHeight:27,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:833,y:946,w:18,h:27,XOffset:7,YOffset:6,CropWidth:18,CropHeight:27,ow:32,oh:40,tp:2	}
+		x:800,y:616,w:18,h:27,XOffset:7,YOffset:6,CropWidth:18,CropHeight:27,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:830,y:989,w:22,h:22,XOffset:22,YOffset:20,CropWidth:22,CropHeight:22,ow:64,oh:64,tp:2	}
+		x:829,y:824,w:22,h:22,XOffset:22,YOffset:20,CropWidth:22,CropHeight:22,ow:64,oh:64,tp:2	}
 	,
 	{
-		x:830,y:693,w:21,h:23,XOffset:6,YOffset:3,CropWidth:21,CropHeight:23,ow:32,oh:32,tp:2	}
+		x:805,y:867,w:21,h:23,XOffset:6,YOffset:3,CropWidth:21,CropHeight:23,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:846,y:579,w:13,h:37,XOffset:9,YOffset:1,CropWidth:13,CropHeight:37,ow:32,oh:40,tp:2	}
+		x:834,y:620,w:13,h:37,XOffset:9,YOffset:1,CropWidth:13,CropHeight:37,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:255,y:774,w:17,h:28,XOffset:6,YOffset:4,CropWidth:17,CropHeight:28,ow:32,oh:32,tp:2	}
+		x:832,y:748,w:17,h:28,XOffset:6,YOffset:4,CropWidth:17,CropHeight:28,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:838,y:853,w:19,h:25,XOffset:5,YOffset:9,CropWidth:19,CropHeight:25,ow:32,oh:40,tp:2	}
+		x:842,y:862,w:19,h:25,XOffset:5,YOffset:9,CropWidth:19,CropHeight:25,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:843,y:732,w:19,h:25,XOffset:7,YOffset:9,CropWidth:19,CropHeight:25,ow:32,oh:40,tp:2	}
+		x:835,y:906,w:19,h:25,XOffset:7,YOffset:9,CropWidth:19,CropHeight:25,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:862,y:632,w:18,h:26,XOffset:5,YOffset:1,CropWidth:18,CropHeight:26,ow:32,oh:32,tp:2	}
+		x:888,y:344,w:18,h:26,XOffset:5,YOffset:1,CropWidth:18,CropHeight:26,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:839,y:894,w:18,h:26,XOffset:7,YOffset:8,CropWidth:18,CropHeight:26,ow:32,oh:40,tp:2	}
+		x:888,y:386,w:18,h:26,XOffset:7,YOffset:8,CropWidth:18,CropHeight:26,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:867,y:674,w:18,h:26,XOffset:6,YOffset:1,CropWidth:18,CropHeight:26,ow:32,oh:32,tp:2	}
+		x:888,y:428,w:18,h:26,XOffset:6,YOffset:1,CropWidth:18,CropHeight:26,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:901,y:344,w:18,h:26,XOffset:6,YOffset:1,CropWidth:18,CropHeight:26,ow:32,oh:32,tp:2	}
+		x:888,y:470,w:18,h:26,XOffset:6,YOffset:1,CropWidth:18,CropHeight:26,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:901,y:386,w:17,h:27,XOffset:6,YOffset:4,CropWidth:17,CropHeight:27,ow:32,oh:32,tp:2	}
+		x:888,y:512,w:17,h:27,XOffset:6,YOffset:4,CropWidth:17,CropHeight:27,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:901,y:429,w:19,h:24,XOffset:7,YOffset:7,CropWidth:19,CropHeight:24,ow:32,oh:32,tp:2	}
+		x:882,y:555,w:19,h:24,XOffset:7,YOffset:7,CropWidth:19,CropHeight:24,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:901,y:469,w:24,h:19,XOffset:0,YOffset:3,CropWidth:24,CropHeight:19,ow:24,oh:24,tp:2	}
+		x:877,y:595,w:24,h:19,XOffset:0,YOffset:3,CropWidth:24,CropHeight:19,ow:24,oh:24,tp:2	}
 	,
 	{
-		x:901,y:504,w:25,h:18,XOffset:4,YOffset:9,CropWidth:25,CropHeight:18,ow:32,oh:32,tp:2	}
+		x:866,y:630,w:25,h:18,XOffset:4,YOffset:9,CropWidth:25,CropHeight:18,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:901,y:538,w:25,h:18,XOffset:5,YOffset:16,CropWidth:25,CropHeight:18,ow:32,oh:40,tp:2	}
+		x:866,y:664,w:25,h:18,XOffset:5,YOffset:16,CropWidth:25,CropHeight:18,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:880,y:572,w:17,h:26,XOffset:8,YOffset:8,CropWidth:17,CropHeight:26,ow:32,oh:40,tp:2	}
+		x:866,y:698,w:17,h:26,XOffset:8,YOffset:8,CropWidth:17,CropHeight:26,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:896,y:614,w:21,h:21,XOffset:1,YOffset:1,CropWidth:21,CropHeight:21,ow:24,oh:24,tp:2	}
+		x:866,y:740,w:21,h:21,XOffset:1,YOffset:1,CropWidth:21,CropHeight:21,ow:24,oh:24,tp:2	}
 	,
 	{
-		x:901,y:651,w:21,h:21,XOffset:21,YOffset:21,CropWidth:21,CropHeight:21,ow:64,oh:64,tp:2	}
+		x:865,y:777,w:21,h:21,XOffset:21,YOffset:21,CropWidth:21,CropHeight:21,ow:64,oh:64,tp:2	}
 	,
 	{
-		x:901,y:688,w:22,h:20,XOffset:9,YOffset:6,CropWidth:22,CropHeight:20,ow:32,oh:32,tp:2	}
+		x:867,y:814,w:22,h:20,XOffset:9,YOffset:6,CropWidth:22,CropHeight:20,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:878,y:724,w:23,h:19,XOffset:4,YOffset:12,CropWidth:23,CropHeight:19,ow:32,oh:40,tp:2	}
+		x:877,y:850,w:23,h:19,XOffset:4,YOffset:12,CropWidth:23,CropHeight:19,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:878,y:759,w:19,h:23,XOffset:7,YOffset:10,CropWidth:19,CropHeight:23,ow:32,oh:40,tp:2	}
+		x:877,y:885,w:19,h:23,XOffset:7,YOffset:10,CropWidth:19,CropHeight:23,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:876,y:798,w:19,h:23,XOffset:7,YOffset:14,CropWidth:19,CropHeight:23,ow:32,oh:40,tp:2	}
+		x:870,y:924,w:19,h:23,XOffset:7,YOffset:14,CropWidth:19,CropHeight:23,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:876,y:837,w:19,h:23,XOffset:7,YOffset:3,CropWidth:19,CropHeight:23,ow:32,oh:32,tp:2	}
+		x:869,y:963,w:19,h:23,XOffset:7,YOffset:3,CropWidth:19,CropHeight:23,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:873,y:876,w:18,h:24,XOffset:7,YOffset:3,CropWidth:18,CropHeight:24,ow:32,oh:32,tp:2	}
+		x:922,y:344,w:18,h:24,XOffset:7,YOffset:3,CropWidth:18,CropHeight:24,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:873,y:916,w:21,h:20,XOffset:5,YOffset:4,CropWidth:21,CropHeight:20,ow:32,oh:32,tp:2	}
+		x:922,y:384,w:21,h:20,XOffset:5,YOffset:4,CropWidth:21,CropHeight:20,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:868,y:952,w:21,h:20,XOffset:1,YOffset:1,CropWidth:21,CropHeight:20,ow:24,oh:24,tp:2	}
+		x:922,y:420,w:21,h:20,XOffset:1,YOffset:1,CropWidth:21,CropHeight:20,ow:24,oh:24,tp:2	}
 	,
 	{
-		x:911,y:798,w:14,h:30,XOffset:1,YOffset:2,CropWidth:14,CropHeight:30,ow:16,oh:32,tp:2	}
+		x:922,y:456,w:14,h:30,XOffset:1,YOffset:2,CropWidth:14,CropHeight:30,ow:16,oh:32,tp:2	}
 	,
 	{
-		x:905,y:952,w:20,h:21,XOffset:2,YOffset:1,CropWidth:20,CropHeight:21,ow:24,oh:24,tp:2	}
+		x:959,y:344,w:20,h:21,XOffset:2,YOffset:1,CropWidth:20,CropHeight:21,ow:24,oh:24,tp:2	}
 	,
 	{
-		x:868,y:989,w:22,h:19,XOffset:6,YOffset:14,CropWidth:22,CropHeight:19,ow:32,oh:40,tp:2	}
+		x:959,y:381,w:22,h:19,XOffset:6,YOffset:14,CropWidth:22,CropHeight:19,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:907,y:876,w:19,h:22,XOffset:7,YOffset:11,CropWidth:19,CropHeight:22,ow:32,oh:40,tp:2	}
+		x:997,y:344,w:19,h:22,XOffset:7,YOffset:11,CropWidth:19,CropHeight:22,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:906,y:989,w:16,h:26,XOffset:8,YOffset:3,CropWidth:16,CropHeight:26,ow:32,oh:32,tp:2	}
+		x:959,y:416,w:16,h:26,XOffset:8,YOffset:3,CropWidth:16,CropHeight:26,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:913,y:572,w:17,h:24,XOffset:7,YOffset:1,CropWidth:17,CropHeight:24,ow:32,oh:32,tp:2	}
+		x:997,y:382,w:17,h:24,XOffset:7,YOffset:1,CropWidth:17,CropHeight:24,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:946,y:344,w:24,h:17,XOffset:6,YOffset:2,CropWidth:24,CropHeight:17,ow:32,oh:24,tp:2	}
+		x:952,y:458,w:24,h:17,XOffset:6,YOffset:2,CropWidth:24,CropHeight:17,ow:32,oh:24,tp:2	}
 	,
 	{
-		x:946,y:377,w:15,h:27,XOffset:10,YOffset:2,CropWidth:15,CropHeight:27,ow:32,oh:32,tp:2	}
+		x:992,y:422,w:15,h:27,XOffset:10,YOffset:2,CropWidth:15,CropHeight:27,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:946,y:420,w:20,h:20,XOffset:1,YOffset:1,CropWidth:20,CropHeight:20,ow:24,oh:24,tp:2	}
+		x:992,y:465,w:20,h:20,XOffset:1,YOffset:1,CropWidth:20,CropHeight:20,ow:24,oh:24,tp:2	}
 	,
 	{
-		x:946,y:456,w:16,h:25,XOffset:8,YOffset:0,CropWidth:16,CropHeight:25,ow:32,oh:32,tp:2	}
+		x:952,y:491,w:16,h:25,XOffset:8,YOffset:0,CropWidth:16,CropHeight:25,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:946,y:497,w:16,h:25,XOffset:8,YOffset:0,CropWidth:16,CropHeight:25,ow:32,oh:32,tp:2	}
+		x:984,y:501,w:16,h:25,XOffset:8,YOffset:0,CropWidth:16,CropHeight:25,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:946,y:538,w:19,h:21,XOffset:6,YOffset:11,CropWidth:19,CropHeight:21,ow:32,oh:40,tp:2	}
+		x:921,y:532,w:19,h:21,XOffset:6,YOffset:11,CropWidth:19,CropHeight:21,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:986,y:344,w:17,h:23,XOffset:6,YOffset:9,CropWidth:17,CropHeight:23,ow:32,oh:40,tp:2	}
+		x:956,y:542,w:17,h:23,XOffset:6,YOffset:9,CropWidth:17,CropHeight:23,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:977,y:383,w:39,h:10,XOffset:1,YOffset:4,CropWidth:39,CropHeight:10,ow:40,oh:16,tp:2	}
+		x:917,y:581,w:39,h:10,XOffset:1,YOffset:4,CropWidth:39,CropHeight:10,ow:40,oh:16,tp:2	}
 	,
 	{
-		x:982,y:409,w:20,h:19,XOffset:7,YOffset:7,CropWidth:20,CropHeight:19,ow:32,oh:32,tp:2	}
+		x:989,y:542,w:20,h:19,XOffset:7,YOffset:7,CropWidth:20,CropHeight:19,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:982,y:444,w:20,h:19,XOffset:2,YOffset:2,CropWidth:20,CropHeight:19,ow:24,oh:24,tp:2	}
+		x:989,y:577,w:20,h:19,XOffset:2,YOffset:2,CropWidth:20,CropHeight:19,ow:24,oh:24,tp:2	}
 	,
 	{
-		x:981,y:479,w:20,h:19,XOffset:2,YOffset:2,CropWidth:20,CropHeight:19,ow:24,oh:24,tp:2	}
+		x:917,y:607,w:20,h:19,XOffset:2,YOffset:2,CropWidth:20,CropHeight:19,ow:24,oh:24,tp:2	}
 	,
 	{
-		x:981,y:514,w:15,h:25,XOffset:8,YOffset:1,CropWidth:15,CropHeight:25,ow:32,oh:32,tp:2	}
+		x:953,y:607,w:15,h:25,XOffset:8,YOffset:1,CropWidth:15,CropHeight:25,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:981,y:555,w:22,h:17,XOffset:5,YOffset:17,CropWidth:22,CropHeight:17,ow:32,oh:40,tp:2	}
+		x:984,y:612,w:22,h:17,XOffset:5,YOffset:17,CropWidth:22,CropHeight:17,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:946,y:588,w:22,h:17,XOffset:6,YOffset:2,CropWidth:22,CropHeight:17,ow:32,oh:24,tp:2	}
+		x:907,y:642,w:22,h:17,XOffset:6,YOffset:2,CropWidth:22,CropHeight:17,ow:32,oh:24,tp:2	}
 	,
 	{
-		x:984,y:588,w:19,h:18,XOffset:4,YOffset:0,CropWidth:19,CropHeight:18,ow:32,oh:24,tp:2	}
+		x:916,y:675,w:19,h:18,XOffset:4,YOffset:0,CropWidth:19,CropHeight:18,ow:32,oh:24,tp:2	}
 	,
 	{
-		x:938,y:621,w:21,h:16,XOffset:1,YOffset:0,CropWidth:21,CropHeight:16,ow:24,oh:16,tp:2	}
+		x:916,y:709,w:21,h:16,XOffset:1,YOffset:0,CropWidth:21,CropHeight:16,ow:24,oh:16,tp:2	}
 	,
 	{
-		x:942,y:653,w:18,h:18,XOffset:7,YOffset:8,CropWidth:18,CropHeight:18,ow:32,oh:32,tp:2	}
+		x:916,y:741,w:18,h:18,XOffset:7,YOffset:8,CropWidth:18,CropHeight:18,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:559,y:152,w:16,h:20,XOffset:8,YOffset:7,CropWidth:16,CropHeight:20,ow:32,oh:32,tp:2	}
+		x:903,y:775,w:16,h:20,XOffset:8,YOffset:7,CropWidth:16,CropHeight:20,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:591,y:152,w:20,h:16,XOffset:0,YOffset:0,CropWidth:20,CropHeight:16,ow:32,oh:16,tp:2	}
+		x:905,y:811,w:20,h:16,XOffset:0,YOffset:0,CropWidth:20,CropHeight:16,ow:32,oh:16,tp:2	}
 	,
 	{
-		x:559,y:188,w:18,h:17,XOffset:6,YOffset:8,CropWidth:18,CropHeight:17,ow:32,oh:32,tp:2	}
+		x:916,y:843,w:18,h:17,XOffset:6,YOffset:8,CropWidth:18,CropHeight:17,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:627,y:152,w:17,h:18,XOffset:4,YOffset:2,CropWidth:17,CropHeight:18,ow:24,oh:24,tp:2	}
+		x:916,y:876,w:17,h:18,XOffset:4,YOffset:2,CropWidth:17,CropHeight:18,ow:24,oh:24,tp:2	}
 	,
 	{
-		x:660,y:152,w:17,h:17,XOffset:7,YOffset:7,CropWidth:17,CropHeight:17,ow:32,oh:32,tp:2	}
+		x:912,y:910,w:17,h:17,XOffset:7,YOffset:7,CropWidth:17,CropHeight:17,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:593,y:184,w:16,h:18,XOffset:8,YOffset:8,CropWidth:16,CropHeight:18,ow:32,oh:32,tp:2	}
+		x:905,y:943,w:16,h:18,XOffset:8,YOffset:8,CropWidth:16,CropHeight:18,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:693,y:152,w:18,h:16,XOffset:7,YOffset:9,CropWidth:18,CropHeight:16,ow:32,oh:32,tp:2	}
+		x:904,y:977,w:18,h:16,XOffset:7,YOffset:9,CropWidth:18,CropHeight:16,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:660,y:185,w:16,h:18,XOffset:8,YOffset:8,CropWidth:16,CropHeight:18,ow:32,oh:32,tp:2	}
+		x:559,y:152,w:16,h:18,XOffset:8,YOffset:8,CropWidth:16,CropHeight:18,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:727,y:152,w:18,h:16,XOffset:0,YOffset:0,CropWidth:18,CropHeight:16,ow:32,oh:16,tp:2	}
+		x:591,y:152,w:18,h:16,XOffset:0,YOffset:0,CropWidth:18,CropHeight:16,ow:32,oh:16,tp:2	}
 	,
 	{
-		x:693,y:184,w:22,h:13,XOffset:7,YOffset:3,CropWidth:22,CropHeight:13,ow:32,oh:24,tp:2	}
+		x:662,y:1002,w:22,h:13,XOffset:7,YOffset:3,CropWidth:22,CropHeight:13,ow:32,oh:24,tp:2	}
 	,
 	{
-		x:625,y:186,w:15,h:19,XOffset:0,YOffset:2,CropWidth:15,CropHeight:19,ow:16,oh:24,tp:2	}
+		x:559,y:186,w:15,h:19,XOffset:0,YOffset:2,CropWidth:15,CropHeight:19,ow:16,oh:24,tp:2	}
 	,
 	{
-		x:761,y:152,w:20,h:14,XOffset:6,YOffset:1,CropWidth:20,CropHeight:14,ow:32,oh:16,tp:2	}
+		x:625,y:152,w:20,h:14,XOffset:6,YOffset:1,CropWidth:20,CropHeight:14,ow:32,oh:16,tp:2	}
 	,
 	{
-		x:731,y:184,w:20,h:14,XOffset:0,YOffset:1,CropWidth:20,CropHeight:14,ow:24,oh:16,tp:2	}
+		x:591,y:184,w:20,h:14,XOffset:0,YOffset:1,CropWidth:20,CropHeight:14,ow:24,oh:16,tp:2	}
 	,
 	{
-		x:767,y:182,w:19,h:14,XOffset:1,YOffset:1,CropWidth:19,CropHeight:14,ow:24,oh:16,tp:2	}
+		x:700,y:1001,w:19,h:14,XOffset:1,YOffset:1,CropWidth:19,CropHeight:14,ow:24,oh:16,tp:2	}
 	,
 	{
-		x:308,y:740,w:22,h:12,XOffset:1,YOffset:3,CropWidth:22,CropHeight:12,ow:24,oh:16,tp:2	}
+		x:661,y:152,w:22,h:12,XOffset:1,YOffset:3,CropWidth:22,CropHeight:12,ow:24,oh:16,tp:2	}
 	,
 	{
-		x:397,y:711,w:20,h:13,XOffset:1,YOffset:2,CropWidth:20,CropHeight:13,ow:24,oh:16,tp:2	}
+		x:627,y:182,w:20,h:13,XOffset:1,YOffset:2,CropWidth:20,CropHeight:13,ow:24,oh:16,tp:2	}
 	,
 	{
-		x:458,y:763,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
+		x:699,y:152,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:527,y:1000,w:16,h:16,XOffset:16,YOffset:16,CropWidth:16,CropHeight:16,ow:48,oh:48,tp:2	}
+		x:731,y:152,w:16,h:16,XOffset:16,YOffset:16,CropWidth:16,CropHeight:16,ow:48,oh:48,tp:2	}
 	,
 	{
-		x:634,y:757,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:32,oh:16,tp:2	}
+		x:663,y:180,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:32,oh:16,tp:2	}
 	,
 	{
-		x:762,y:580,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
+		x:763,y:152,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:754,y:998,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
+		x:695,y:184,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:843,y:773,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
+		x:727,y:184,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:917,y:724,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
+		x:759,y:184,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:913,y:759,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
+		x:953,y:648,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:941,y:914,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
+		x:953,y:680,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:911,y:844,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
+		x:985,y:645,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:938,y:989,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
+		x:985,y:677,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:976,y:622,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
+		x:985,y:709,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:939,y:687,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
+		x:953,y:712,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:973,y:687,w:16,h:16,XOffset:1,YOffset:0,CropWidth:16,CropHeight:16,ow:24,oh:16,tp:2	}
+		x:950,y:744,w:16,h:16,XOffset:1,YOffset:0,CropWidth:16,CropHeight:16,ow:24,oh:16,tp:2	}
 	,
 	{
-		x:910,y:914,w:15,h:17,XOffset:0,YOffset:3,CropWidth:15,CropHeight:17,ow:16,oh:24,tp:2	}
+		x:458,y:763,w:15,h:17,XOffset:0,YOffset:3,CropWidth:15,CropHeight:17,ow:16,oh:24,tp:2	}
 	,
 	{
-		x:945,y:756,w:15,h:17,XOffset:4,YOffset:7,CropWidth:15,CropHeight:17,ow:24,oh:32,tp:2	}
+		x:634,y:757,w:15,h:17,XOffset:4,YOffset:7,CropWidth:15,CropHeight:17,ow:24,oh:32,tp:2	}
 	,
 	{
-		x:941,y:791,w:15,h:17,XOffset:4,YOffset:7,CropWidth:15,CropHeight:17,ow:24,oh:32,tp:2	}
+		x:257,y:774,w:15,h:17,XOffset:4,YOffset:7,CropWidth:15,CropHeight:17,ow:24,oh:32,tp:2	}
 	,
 	{
-		x:942,y:876,w:15,h:17,XOffset:4,YOffset:7,CropWidth:15,CropHeight:17,ow:24,oh:32,tp:2	}
+		x:754,y:998,w:15,h:17,XOffset:4,YOffset:7,CropWidth:15,CropHeight:17,ow:24,oh:32,tp:2	}
 	,
 	{
-		x:970,y:946,w:15,h:17,XOffset:4,YOffset:7,CropWidth:15,CropHeight:17,ow:24,oh:32,tp:2	}
+		x:794,y:996,w:15,h:17,XOffset:4,YOffset:7,CropWidth:15,CropHeight:17,ow:24,oh:32,tp:2	}
 	,
 	{
-		x:949,y:719,w:14,h:18,XOffset:2,YOffset:5,CropWidth:14,CropHeight:18,ow:16,oh:32,tp:2	}
+		x:949,y:876,w:14,h:18,XOffset:2,YOffset:5,CropWidth:14,CropHeight:18,ow:16,oh:32,tp:2	}
 	,
 	{
-		x:943,y:824,w:14,h:18,XOffset:2,YOffset:8,CropWidth:14,CropHeight:18,ow:16,oh:32,tp:2	}
+		x:945,y:910,w:14,h:18,XOffset:2,YOffset:8,CropWidth:14,CropHeight:18,ow:16,oh:32,tp:2	}
 	,
 	{
-		x:554,y:718,w:25,h:10,XOffset:3,YOffset:4,CropWidth:25,CropHeight:10,ow:32,oh:16,tp:2	}
+		x:393,y:711,w:25,h:10,XOffset:3,YOffset:4,CropWidth:25,CropHeight:10,ow:32,oh:16,tp:2	}
 	,
 	{
-		x:506,y:622,w:16,h:15,XOffset:15,YOffset:28,CropWidth:16,CropHeight:15,ow:48,oh:48,tp:2	}
+		x:527,y:1000,w:16,h:15,XOffset:15,YOffset:28,CropWidth:16,CropHeight:15,ow:48,oh:48,tp:2	}
 	,
 	{
-		x:719,y:1001,w:16,h:15,XOffset:6,YOffset:0,CropWidth:16,CropHeight:15,ow:24,oh:16,tp:2	}
+		x:834,y:673,w:16,h:15,XOffset:6,YOffset:0,CropWidth:16,CropHeight:15,ow:24,oh:16,tp:2	}
 	,
 	{
-		x:192,y:1003,w:20,h:12,XOffset:5,YOffset:13,CropWidth:20,CropHeight:12,ow:32,oh:32,tp:2	}
+		x:554,y:718,w:20,h:12,XOffset:5,YOffset:13,CropWidth:20,CropHeight:12,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:976,y:654,w:16,h:15,XOffset:0,YOffset:6,CropWidth:16,CropHeight:15,ow:16,oh:24,tp:2	}
+		x:832,y:792,w:16,h:15,XOffset:0,YOffset:6,CropWidth:16,CropHeight:15,ow:16,oh:24,tp:2	}
 	,
 	{
-		x:970,y:979,w:16,h:15,XOffset:0,YOffset:1,CropWidth:16,CropHeight:15,ow:16,oh:16,tp:2	}
+		x:985,y:741,w:16,h:15,XOffset:0,YOffset:1,CropWidth:16,CropHeight:15,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:973,y:789,w:17,h:14,XOffset:1,YOffset:1,CropWidth:17,CropHeight:14,ow:24,oh:16,tp:2	}
+		x:935,y:776,w:17,h:14,XOffset:1,YOffset:1,CropWidth:17,CropHeight:14,ow:24,oh:16,tp:2	}
 	,
 	{
-		x:941,y:946,w:13,h:18,XOffset:2,YOffset:9,CropWidth:13,CropHeight:18,ow:16,oh:32,tp:2	}
+		x:979,y:776,w:13,h:18,XOffset:2,YOffset:9,CropWidth:13,CropHeight:18,ow:16,oh:32,tp:2	}
 	,
 	{
-		x:973,y:819,w:13,h:18,XOffset:1,YOffset:2,CropWidth:13,CropHeight:18,ow:16,oh:24,tp:2	}
+		x:975,y:910,w:13,h:18,XOffset:1,YOffset:2,CropWidth:13,CropHeight:18,ow:16,oh:24,tp:2	}
 	,
 	{
-		x:979,y:719,w:16,h:14,XOffset:0,YOffset:2,CropWidth:16,CropHeight:14,ow:16,oh:16,tp:2	}
+		x:825,y:1001,w:16,h:14,XOffset:0,YOffset:2,CropWidth:16,CropHeight:14,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:976,y:753,w:14,h:16,XOffset:1,YOffset:0,CropWidth:14,CropHeight:16,ow:16,oh:16,tp:2	}
+		x:938,y:944,w:14,h:16,XOffset:1,YOffset:0,CropWidth:14,CropHeight:16,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:973,y:853,w:16,h:14,XOffset:0,YOffset:2,CropWidth:16,CropHeight:14,ow:16,oh:16,tp:2	}
+		x:941,y:806,w:16,h:14,XOffset:0,YOffset:2,CropWidth:16,CropHeight:14,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:1002,y:819,w:14,h:16,XOffset:1,YOffset:0,CropWidth:14,CropHeight:16,ow:16,oh:16,tp:2	}
+		x:979,y:810,w:14,h:16,XOffset:1,YOffset:0,CropWidth:14,CropHeight:16,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:1002,y:883,w:14,h:16,XOffset:5,YOffset:0,CropWidth:14,CropHeight:16,ow:24,oh:16,tp:2	}
+		x:968,y:944,w:14,h:16,XOffset:5,YOffset:0,CropWidth:14,CropHeight:16,ow:24,oh:16,tp:2	}
 	,
 	{
-		x:469,y:1005,w:20,h:11,XOffset:6,YOffset:2,CropWidth:20,CropHeight:11,ow:32,oh:16,tp:2	}
+		x:192,y:1003,w:20,h:11,XOffset:6,YOffset:2,CropWidth:20,CropHeight:11,ow:32,oh:16,tp:2	}
 	,
 	{
-		x:1002,y:915,w:14,h:15,XOffset:1,YOffset:0,CropWidth:14,CropHeight:15,ow:16,oh:16,tp:2	}
+		x:938,y:976,w:14,h:15,XOffset:1,YOffset:0,CropWidth:14,CropHeight:15,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:1001,y:946,w:15,h:14,XOffset:0,YOffset:1,CropWidth:15,CropHeight:14,ow:16,oh:16,tp:2	}
+		x:857,y:1002,w:15,h:14,XOffset:0,YOffset:1,CropWidth:15,CropHeight:14,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:831,y:8,w:15,h:14,XOffset:3,YOffset:7,CropWidth:15,CropHeight:14,ow:24,oh:24,tp:2	}
+		x:979,y:842,w:15,h:14,XOffset:3,YOffset:7,CropWidth:15,CropHeight:14,ow:24,oh:24,tp:2	}
 	,
 	{
-		x:831,y:38,w:16,h:13,XOffset:7,YOffset:1,CropWidth:16,CropHeight:13,ow:24,oh:16,tp:2	}
+		x:998,y:944,w:16,h:13,XOffset:7,YOffset:1,CropWidth:16,CropHeight:13,ow:24,oh:16,tp:2	}
 	,
 	{
-		x:831,y:67,w:20,h:10,XOffset:6,YOffset:3,CropWidth:20,CropHeight:10,ow:32,oh:16,tp:2	}
+		x:506,y:627,w:20,h:10,XOffset:6,YOffset:3,CropWidth:20,CropHeight:10,ow:32,oh:16,tp:2	}
 	,
 	{
-		x:831,y:93,w:14,h:14,XOffset:1,YOffset:1,CropWidth:14,CropHeight:14,ow:16,oh:16,tp:2	}
+		x:979,y:872,w:14,h:14,XOffset:1,YOffset:1,CropWidth:14,CropHeight:14,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:861,y:93,w:14,h:14,XOffset:1,YOffset:1,CropWidth:14,CropHeight:14,ow:16,oh:16,tp:2	}
+		x:968,y:976,w:14,h:14,XOffset:1,YOffset:1,CropWidth:14,CropHeight:14,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:867,y:8,w:21,h:9,XOffset:5,YOffset:18,CropWidth:21,CropHeight:9,ow:32,oh:32,tp:2	}
+		x:468,y:1005,w:21,h:9,XOffset:5,YOffset:18,CropWidth:21,CropHeight:9,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:867,y:33,w:9,h:21,XOffset:3,YOffset:6,CropWidth:9,CropHeight:21,ow:16,oh:32,tp:2	}
+		x:950,y:836,w:9,h:21,XOffset:3,YOffset:6,CropWidth:9,CropHeight:21,ow:16,oh:32,tp:2	}
 	,
 	{
 		x:984,y:739,w:31,h:6,XOffset:0,YOffset:5,CropWidth:31,CropHeight:6,ow:32,oh:16,tp:1	}
 	,
 	{
-		x:891,y:70,w:14,h:13,XOffset:1,YOffset:4,CropWidth:14,CropHeight:13,ow:16,oh:32,tp:2	}
+		x:922,y:502,w:14,h:13,XOffset:1,YOffset:4,CropWidth:14,CropHeight:13,ow:16,oh:32,tp:2	}
 	,
 	{
-		x:891,y:99,w:14,h:13,XOffset:1,YOffset:3,CropWidth:14,CropHeight:13,ow:16,oh:16,tp:2	}
+		x:228,y:1003,w:14,h:13,XOffset:1,YOffset:3,CropWidth:14,CropHeight:13,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:892,y:33,w:12,h:14,XOffset:2,YOffset:2,CropWidth:12,CropHeight:14,ow:16,oh:16,tp:2	}
+		x:683,y:627,w:12,h:14,XOffset:2,YOffset:2,CropWidth:12,CropHeight:14,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:831,y:123,w:12,h:12,XOffset:2,YOffset:2,CropWidth:12,CropHeight:12,ow:16,oh:16,tp:2	}
+		x:998,y:973,w:12,h:12,XOffset:2,YOffset:2,CropWidth:12,CropHeight:12,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:859,y:123,w:12,h:12,XOffset:2,YOffset:2,CropWidth:12,CropHeight:12,ow:16,oh:16,tp:2	}
+		x:1004,y:902,w:12,h:12,XOffset:2,YOffset:2,CropWidth:12,CropHeight:12,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:921,y:8,w:12,h:12,XOffset:2,YOffset:2,CropWidth:12,CropHeight:12,ow:16,oh:16,tp:2	}
+		x:998,y:1001,w:12,h:12,XOffset:2,YOffset:2,CropWidth:12,CropHeight:12,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:921,y:36,w:12,h:12,XOffset:2,YOffset:2,CropWidth:12,CropHeight:12,ow:16,oh:16,tp:2	}
+		x:831,y:8,w:12,h:12,XOffset:2,YOffset:2,CropWidth:12,CropHeight:12,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:921,y:64,w:12,h:12,XOffset:6,YOffset:6,CropWidth:12,CropHeight:12,ow:24,oh:24,tp:2	}
+		x:831,y:36,w:12,h:12,XOffset:6,YOffset:6,CropWidth:12,CropHeight:12,ow:24,oh:24,tp:2	}
 	,
 	{
-		x:921,y:92,w:11,h:11,XOffset:2,YOffset:4,CropWidth:11,CropHeight:11,ow:16,oh:16,tp:2	}
+		x:831,y:64,w:11,h:11,XOffset:2,YOffset:4,CropWidth:11,CropHeight:11,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:953,y:894,w:11,h:10,XOffset:3,YOffset:3,CropWidth:11,CropHeight:10,ow:16,oh:16,tp:1	}
+		x:831,y:91,w:11,h:10,XOffset:3,YOffset:3,CropWidth:11,CropHeight:10,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:921,y:119,w:10,h:10,XOffset:3,YOffset:3,CropWidth:10,CropHeight:10,ow:16,oh:16,tp:2	}
+		x:831,y:117,w:10,h:10,XOffset:3,YOffset:3,CropWidth:10,CropHeight:10,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:949,y:8,w:10,h:10,XOffset:3,YOffset:3,CropWidth:10,CropHeight:10,ow:16,oh:16,tp:2	}
+		x:857,y:117,w:10,h:10,XOffset:3,YOffset:3,CropWidth:10,CropHeight:10,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:949,y:34,w:10,h:10,XOffset:3,YOffset:3,CropWidth:10,CropHeight:10,ow:16,oh:16,tp:2	}
+		x:858,y:64,w:10,h:10,XOffset:3,YOffset:3,CropWidth:10,CropHeight:10,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:949,y:60,w:10,h:10,XOffset:3,YOffset:3,CropWidth:10,CropHeight:10,ow:16,oh:16,tp:2	}
+		x:858,y:90,w:10,h:10,XOffset:3,YOffset:3,CropWidth:10,CropHeight:10,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:949,y:86,w:10,h:10,XOffset:3,YOffset:4,CropWidth:10,CropHeight:10,ow:16,oh:16,tp:2	}
+		x:859,y:8,w:10,h:10,XOffset:3,YOffset:4,CropWidth:10,CropHeight:10,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:948,y:112,w:11,h:9,XOffset:3,YOffset:4,CropWidth:11,CropHeight:9,ow:16,oh:16,tp:2	}
+		x:859,y:34,w:11,h:9,XOffset:3,YOffset:4,CropWidth:11,CropHeight:9,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:975,y:8,w:8,h:12,XOffset:0,YOffset:2,CropWidth:8,CropHeight:12,ow:8,oh:16,tp:2	}
+		x:884,y:59,w:8,h:12,XOffset:0,YOffset:2,CropWidth:8,CropHeight:12,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:975,y:36,w:7,h:13,XOffset:17,YOffset:1,CropWidth:7,CropHeight:13,ow:24,oh:16,tp:2	}
+		x:884,y:87,w:7,h:13,XOffset:17,YOffset:1,CropWidth:7,CropHeight:13,ow:24,oh:16,tp:2	}
 	,
 	{
-		x:975,y:65,w:8,h:11,XOffset:0,YOffset:3,CropWidth:8,CropHeight:11,ow:8,oh:16,tp:2	}
+		x:886,y:8,w:8,h:11,XOffset:0,YOffset:3,CropWidth:8,CropHeight:11,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:975,y:92,w:8,h:11,XOffset:0,YOffset:3,CropWidth:8,CropHeight:11,ow:8,oh:16,tp:2	}
+		x:908,y:35,w:8,h:11,XOffset:0,YOffset:3,CropWidth:8,CropHeight:11,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:975,y:119,w:8,h:11,XOffset:0,YOffset:2,CropWidth:8,CropHeight:11,ow:8,oh:16,tp:2	}
+		x:908,y:62,w:8,h:11,XOffset:0,YOffset:2,CropWidth:8,CropHeight:11,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:999,y:8,w:12,h:7,XOffset:2,YOffset:5,CropWidth:12,CropHeight:7,ow:16,oh:16,tp:2	}
+		x:907,y:89,w:12,h:7,XOffset:2,YOffset:5,CropWidth:12,CropHeight:7,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:999,y:31,w:7,h:12,XOffset:4,YOffset:2,CropWidth:7,CropHeight:12,ow:16,oh:16,tp:2	}
+		x:907,y:112,w:7,h:12,XOffset:4,YOffset:2,CropWidth:7,CropHeight:12,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:970,y:1010,w:14,h:6,XOffset:1,YOffset:5,CropWidth:14,CropHeight:6,ow:16,oh:16,tp:2	}
+		x:935,y:8,w:14,h:6,XOffset:1,YOffset:5,CropWidth:14,CropHeight:6,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:1006,y:749,w:7,h:12,XOffset:0,YOffset:2,CropWidth:7,CropHeight:12,ow:8,oh:16,tp:2	}
+		x:935,y:30,w:7,h:12,XOffset:0,YOffset:2,CropWidth:7,CropHeight:12,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:1006,y:777,w:7,h:12,XOffset:0,YOffset:2,CropWidth:7,CropHeight:12,ow:8,oh:16,tp:2	}
+		x:935,y:58,w:7,h:12,XOffset:0,YOffset:2,CropWidth:7,CropHeight:12,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:973,y:883,w:7,h:12,XOffset:0,YOffset:2,CropWidth:7,CropHeight:12,ow:8,oh:16,tp:2	}
+		x:935,y:86,w:7,h:12,XOffset:0,YOffset:2,CropWidth:7,CropHeight:12,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:973,y:911,w:7,h:12,XOffset:0,YOffset:2,CropWidth:7,CropHeight:12,ow:8,oh:16,tp:2	}
+		x:930,y:114,w:7,h:12,XOffset:0,YOffset:2,CropWidth:7,CropHeight:12,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:1005,y:851,w:7,h:12,XOffset:0,YOffset:2,CropWidth:7,CropHeight:12,ow:8,oh:16,tp:2	}
+		x:953,y:114,w:7,h:12,XOffset:0,YOffset:2,CropWidth:7,CropHeight:12,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:1002,y:976,w:7,h:12,XOffset:0,YOffset:2,CropWidth:7,CropHeight:12,ow:8,oh:16,tp:2	}
+		x:958,y:30,w:7,h:12,XOffset:0,YOffset:2,CropWidth:7,CropHeight:12,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:1002,y:1004,w:7,h:12,XOffset:0,YOffset:2,CropWidth:7,CropHeight:12,ow:8,oh:16,tp:2	}
+		x:958,y:58,w:7,h:12,XOffset:0,YOffset:2,CropWidth:7,CropHeight:12,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:999,y:59,w:7,h:12,XOffset:0,YOffset:2,CropWidth:7,CropHeight:12,ow:8,oh:16,tp:2	}
+		x:958,y:86,w:7,h:12,XOffset:0,YOffset:2,CropWidth:7,CropHeight:12,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:887,y:128,w:12,h:7,XOffset:0,YOffset:0,CropWidth:12,CropHeight:7,ow:16,oh:8,tp:2	}
+		x:981,y:8,w:12,h:7,XOffset:0,YOffset:0,CropWidth:12,CropHeight:7,ow:16,oh:8,tp:2	}
 	,
 	{
-		x:999,y:87,w:12,h:7,XOffset:0,YOffset:0,CropWidth:12,CropHeight:7,ow:16,oh:8,tp:2	}
+		x:981,y:31,w:12,h:7,XOffset:0,YOffset:0,CropWidth:12,CropHeight:7,ow:16,oh:8,tp:2	}
 	,
 	{
-		x:999,y:110,w:12,h:7,XOffset:0,YOffset:0,CropWidth:12,CropHeight:7,ow:16,oh:8,tp:2	}
+		x:981,y:54,w:12,h:7,XOffset:0,YOffset:0,CropWidth:12,CropHeight:7,ow:16,oh:8,tp:2	}
 	,
 	{
-		x:228,y:1003,w:12,h:7,XOffset:0,YOffset:0,CropWidth:12,CropHeight:7,ow:16,oh:8,tp:2	}
+		x:981,y:77,w:12,h:7,XOffset:0,YOffset:0,CropWidth:12,CropHeight:7,ow:16,oh:8,tp:2	}
 	,
 	{
-		x:1008,y:622,w:8,h:10,XOffset:0,YOffset:4,CropWidth:8,CropHeight:10,ow:8,oh:16,tp:2	}
+		x:968,y:1006,w:8,h:10,XOffset:0,YOffset:4,CropWidth:8,CropHeight:10,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:1005,y:685,w:10,h:8,XOffset:4,YOffset:4,CropWidth:10,CropHeight:8,ow:16,oh:16,tp:2	}
+		x:938,y:1007,w:10,h:8,XOffset:4,YOffset:4,CropWidth:10,CropHeight:8,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:1008,y:648,w:8,h:10,XOffset:4,YOffset:3,CropWidth:8,CropHeight:10,ow:16,oh:16,tp:2	}
+		x:883,y:116,w:8,h:10,XOffset:4,YOffset:3,CropWidth:8,CropHeight:10,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:101,y:1006,w:8,h:10,XOffset:4,YOffset:3,CropWidth:8,CropHeight:10,ow:16,oh:16,tp:2	}
+		x:910,y:8,w:8,h:10,XOffset:4,YOffset:3,CropWidth:8,CropHeight:10,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:346,y:740,w:7,h:11,XOffset:0,YOffset:3,CropWidth:7,CropHeight:11,ow:8,oh:16,tp:2	}
+		x:981,y:100,w:7,h:11,XOffset:0,YOffset:3,CropWidth:7,CropHeight:11,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:433,y:711,w:7,h:11,XOffset:0,YOffset:3,CropWidth:7,CropHeight:11,ow:8,oh:16,tp:2	}
+		x:1009,y:8,w:7,h:11,XOffset:0,YOffset:3,CropWidth:7,CropHeight:11,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:256,y:1003,w:7,h:11,XOffset:0,YOffset:3,CropWidth:7,CropHeight:11,ow:8,oh:16,tp:2	}
+		x:1009,y:35,w:7,h:11,XOffset:0,YOffset:3,CropWidth:7,CropHeight:11,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:125,y:1006,w:9,h:8,XOffset:11,YOffset:4,CropWidth:9,CropHeight:8,ow:32,oh:16,tp:2	}
+		x:976,y:127,w:9,h:8,XOffset:11,YOffset:4,CropWidth:9,CropHeight:8,ow:32,oh:16,tp:2	}
 	,
 	{
-		x:767,y:660,w:6,h:12,XOffset:0,YOffset:2,CropWidth:6,CropHeight:12,ow:8,oh:16,tp:2	}
+		x:1004,y:100,w:6,h:12,XOffset:0,YOffset:2,CropWidth:6,CropHeight:12,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:683,y:627,w:6,h:12,XOffset:0,YOffset:3,CropWidth:6,CropHeight:12,ow:8,oh:16,tp:2	}
+		x:1009,y:62,w:6,h:12,XOffset:0,YOffset:3,CropWidth:6,CropHeight:12,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:8,y:56,w:8,h:9,XOffset:4,YOffset:4,CropWidth:8,CropHeight:9,ow:16,oh:16,tp:3	}
+		x:434,y:711,w:8,h:9,XOffset:4,YOffset:4,CropWidth:8,CropHeight:9,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:633,y:891,w:9,h:8,XOffset:4,YOffset:4,CropWidth:9,CropHeight:8,ow:16,oh:16,tp:2	}
+		x:49,y:512,w:9,h:8,XOffset:4,YOffset:4,CropWidth:9,CropHeight:8,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:150,y:1006,w:9,h:8,XOffset:4,YOffset:4,CropWidth:9,CropHeight:8,ow:16,oh:16,tp:2	}
+		x:1001,y:128,w:9,h:8,XOffset:4,YOffset:4,CropWidth:9,CropHeight:8,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:68,y:512,w:9,h:8,XOffset:4,YOffset:4,CropWidth:9,CropHeight:8,ow:16,oh:16,tp:2	}
+		x:126,y:1006,w:9,h:8,XOffset:4,YOffset:4,CropWidth:9,CropHeight:8,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:43,y:512,w:9,h:8,XOffset:4,YOffset:4,CropWidth:9,CropHeight:8,ow:16,oh:16,tp:2	}
+		x:101,y:1006,w:9,h:8,XOffset:4,YOffset:4,CropWidth:9,CropHeight:8,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:43,y:512,w:9,h:8,XOffset:4,YOffset:4,CropWidth:9,CropHeight:8,ow:16,oh:16,tp:2	}
+		x:101,y:1006,w:9,h:8,XOffset:4,YOffset:4,CropWidth:9,CropHeight:8,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:68,y:512,w:9,h:8,XOffset:4,YOffset:4,CropWidth:9,CropHeight:8,ow:16,oh:16,tp:2	}
+		x:126,y:1006,w:9,h:8,XOffset:4,YOffset:4,CropWidth:9,CropHeight:8,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:93,y:512,w:9,h:8,XOffset:4,YOffset:4,CropWidth:9,CropHeight:8,ow:16,oh:16,tp:2	}
+		x:151,y:1006,w:9,h:8,XOffset:4,YOffset:4,CropWidth:9,CropHeight:8,ow:16,oh:16,tp:2	}
+	,
+	{
+		x:49,y:512,w:9,h:8,XOffset:4,YOffset:4,CropWidth:9,CropHeight:8,ow:16,oh:16,tp:2	}
 	,
 	{
 		x:633,y:891,w:9,h:8,XOffset:4,YOffset:4,CropWidth:9,CropHeight:8,ow:16,oh:16,tp:2	}
@@ -12846,1141 +12849,1138 @@ var JSON_game=
 		x:8,y:8,w:9,h:8,XOffset:4,YOffset:4,CropWidth:9,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:8,y:32,w:9,h:8,XOffset:4,YOffset:4,CropWidth:9,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:434,y:711,w:8,h:9,XOffset:4,YOffset:4,CropWidth:8,CropHeight:9,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:8,y:56,w:8,h:9,XOffset:4,YOffset:4,CropWidth:8,CropHeight:9,ow:16,oh:16,tp:3	}
+		x:1008,y:772,w:8,h:9,XOffset:0,YOffset:3,CropWidth:8,CropHeight:9,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:8,y:81,w:8,h:9,XOffset:0,YOffset:3,CropWidth:8,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:791,y:184,w:8,h:9,XOffset:0,YOffset:3,CropWidth:8,CropHeight:9,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:8,y:106,w:8,h:9,XOffset:0,YOffset:3,CropWidth:8,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:8,y:32,w:8,h:9,XOffset:0,YOffset:3,CropWidth:8,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:8,y:131,w:8,h:9,XOffset:0,YOffset:3,CropWidth:8,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:8,y:57,w:8,h:9,XOffset:0,YOffset:3,CropWidth:8,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:8,y:156,w:8,h:9,XOffset:0,YOffset:3,CropWidth:8,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:1009,y:797,w:7,h:10,XOffset:1,YOffset:4,CropWidth:7,CropHeight:10,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:8,y:181,w:7,h:10,XOffset:1,YOffset:4,CropWidth:7,CropHeight:10,ow:8,oh:16,tp:3	}
-	,
-	{
-		x:8,y:207,w:7,h:10,XOffset:0,YOffset:0,CropWidth:7,CropHeight:10,ow:7,oh:11,tp:3	}
-	,
-	{
-		x:767,y:688,w:6,h:11,XOffset:0,YOffset:3,CropWidth:6,CropHeight:11,ow:8,oh:16,tp:2	}
+		x:1009,y:872,w:7,h:10,XOffset:0,YOffset:0,CropWidth:7,CropHeight:10,ow:7,oh:11,tp:2	}
 	,
 	{
 		x:505,y:1005,w:6,h:11,XOffset:0,YOffset:3,CropWidth:6,CropHeight:11,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:767,y:715,w:6,h:11,XOffset:0,YOffset:3,CropWidth:6,CropHeight:11,ow:8,oh:16,tp:2	}
+		x:1010,y:823,w:6,h:11,XOffset:0,YOffset:3,CropWidth:6,CropHeight:11,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:31,y:205,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:8,y:82,w:6,h:11,XOffset:0,YOffset:3,CropWidth:6,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:8,y:401,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:8,y:397,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:33,y:32,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
-	,
-	{
-		x:8,y:425,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
-	,
-	{
-		x:8,y:281,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
-	,
-	{
-		x:8,y:305,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
-	,
-	{
-		x:8,y:257,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
-	,
-	{
-		x:8,y:233,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
-	,
-	{
-		x:129,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
-	,
-	{
-		x:105,y:32,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
-	,
-	{
-		x:105,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
-	,
-	{
-		x:8,y:329,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
-	,
-	{
-		x:8,y:257,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
-	,
-	{
-		x:153,y:32,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
-	,
-	{
-		x:8,y:281,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
-	,
-	{
-		x:8,y:305,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
-	,
-	{
-		x:33,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
-	,
-	{
-		x:129,y:32,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
-	,
-	{
-		x:8,y:329,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
-	,
-	{
-		x:153,y:32,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:8,y:277,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
 		x:32,y:56,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:177,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:8,y:301,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:81,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:8,y:157,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:8,y:353,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:8,y:181,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:8,y:377,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:8,y:133,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:8,y:401,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
-	,
-	{
-		x:8,y:425,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:8,y:109,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
 		x:153,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:8,y:449,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
-	,
-	{
-		x:8,y:473,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
-	,
-	{
-		x:31,y:181,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
-	,
-	{
-		x:31,y:205,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
-	,
-	{
-		x:32,y:56,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
-	,
-	{
-		x:32,y:80,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
-	,
-	{
-		x:32,y:80,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
-	,
-	{
-		x:32,y:104,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
-	,
-	{
-		x:32,y:128,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
-	,
-	{
-		x:32,y:128,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
-	,
-	{
-		x:32,y:152,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
-	,
-	{
-		x:57,y:32,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
-	,
-	{
-		x:33,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
-	,
-	{
-		x:33,y:32,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
-	,
-	{
-		x:57,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
-	,
-	{
-		x:57,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
-	,
-	{
-		x:57,y:32,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
-	,
-	{
-		x:81,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:177,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
 		x:105,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:81,y:32,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:8,y:205,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:129,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:8,y:133,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:105,y:32,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:273,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:153,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:8,y:157,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:129,y:32,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:8,y:181,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:177,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
-	,
-	{
-		x:153,y:32,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
-	,
-	{
-		x:201,y:8,w:8,h:8,XOffset:0,YOffset:4,CropWidth:8,CropHeight:8,ow:8,oh:16,tp:3	}
-	,
-	{
-		x:177,y:32,w:8,h:8,XOffset:0,YOffset:4,CropWidth:8,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:32,y:32,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
 		x:225,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:201,y:32,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:8,y:205,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:249,y:8,w:8,h:8,XOffset:0,YOffset:0,CropWidth:8,CropHeight:8,ow:8,oh:8,tp:3	}
+		x:273,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:273,y:8,w:7,h:9,XOffset:0,YOffset:5,CropWidth:7,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:8,y:421,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:296,y:8,w:7,h:9,XOffset:0,YOffset:5,CropWidth:7,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:249,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:319,y:8,w:7,h:9,XOffset:0,YOffset:3,CropWidth:7,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:81,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:1011,y:709,w:5,h:12,XOffset:0,YOffset:3,CropWidth:5,CropHeight:12,ow:8,oh:16,tp:2	}
+		x:8,y:229,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:559,y:1010,w:10,h:6,XOffset:4,YOffset:5,CropWidth:10,CropHeight:6,ow:16,oh:16,tp:2	}
+		x:8,y:253,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:342,y:8,w:6,h:10,XOffset:0,YOffset:2,CropWidth:6,CropHeight:10,ow:8,oh:16,tp:3	}
+		x:8,y:277,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:364,y:8,w:6,h:10,XOffset:1,YOffset:2,CropWidth:6,CropHeight:10,ow:8,oh:16,tp:3	}
+		x:8,y:301,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:225,y:32,w:7,h:8,XOffset:4,YOffset:4,CropWidth:7,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:201,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:867,y:70,w:8,h:7,XOffset:4,YOffset:5,CropWidth:8,CropHeight:7,ow:16,oh:16,tp:2	}
+		x:8,y:325,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:386,y:8,w:7,h:8,XOffset:4,YOffset:4,CropWidth:7,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:8,y:349,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:248,y:32,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:8,y:373,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:409,y:8,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:8,y:397,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:386,y:32,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:8,y:421,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:432,y:8,w:7,h:8,XOffset:1,YOffset:5,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:8,y:445,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:409,y:32,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:8,y:445,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:455,y:8,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:8,y:469,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:271,y:33,w:8,h:7,XOffset:0,YOffset:5,CropWidth:8,CropHeight:7,ow:8,oh:16,tp:3	}
+		x:8,y:493,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:432,y:32,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:8,y:493,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:478,y:8,w:8,h:7,XOffset:0,YOffset:5,CropWidth:8,CropHeight:7,ow:8,oh:16,tp:3	}
+		x:30,y:82,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:455,y:32,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:57,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:478,y:31,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:32,y:32,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:295,y:33,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:32,y:56,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:318,y:33,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:33,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:341,y:34,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:33,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:364,y:56,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:57,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:387,y:56,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:81,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:410,y:56,w:7,h:8,XOffset:0,YOffset:0,CropWidth:7,CropHeight:8,ow:8,oh:8,tp:3	}
+		x:105,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:880,y:536,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:2	}
+		x:129,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:433,y:56,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:153,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:454,y:56,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:177,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:475,y:56,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:201,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:496,y:55,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:225,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:56,y:83,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:249,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:56,y:110,w:5,h:11,XOffset:1,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:273,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:56,y:137,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:297,y:8,w:8,h:8,XOffset:0,YOffset:4,CropWidth:8,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:56,y:164,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:321,y:8,w:8,h:8,XOffset:0,YOffset:4,CropWidth:8,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:55,y:191,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:345,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:55,y:218,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:369,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:32,y:229,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:393,y:8,w:8,h:8,XOffset:0,YOffset:0,CropWidth:8,CropHeight:8,ow:8,oh:8,tp:3	}
 	,
 	{
-		x:53,y:245,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:417,y:8,w:7,h:9,XOffset:0,YOffset:5,CropWidth:7,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:32,y:256,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:440,y:8,w:7,h:9,XOffset:0,YOffset:5,CropWidth:7,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:53,y:272,w:5,h:11,XOffset:0,YOffset:5,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:463,y:8,w:7,h:9,XOffset:0,YOffset:3,CropWidth:7,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:32,y:283,w:5,h:11,XOffset:0,YOffset:5,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:258,y:1003,w:5,h:12,XOffset:0,YOffset:3,CropWidth:5,CropHeight:12,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:53,y:299,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:888,y:1009,w:10,h:6,XOffset:4,YOffset:5,CropWidth:10,CropHeight:6,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:32,y:310,w:5,h:11,XOffset:0,YOffset:5,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:953,y:894,w:6,h:10,XOffset:0,YOffset:2,CropWidth:6,CropHeight:10,ow:8,oh:16,tp:1	}
 	,
 	{
-		x:53,y:326,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:486,y:8,w:6,h:10,XOffset:1,YOffset:2,CropWidth:6,CropHeight:10,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:53,y:380,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:56,y:34,w:7,h:8,XOffset:4,YOffset:4,CropWidth:7,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:32,y:337,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:914,y:1009,w:8,h:7,XOffset:4,YOffset:5,CropWidth:8,CropHeight:7,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:53,y:353,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:56,y:58,w:7,h:8,XOffset:4,YOffset:4,CropWidth:7,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:32,y:364,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:54,y:82,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:53,y:380,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:77,y:82,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:32,y:391,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:79,y:34,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:53,y:407,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:79,y:58,w:7,h:8,XOffset:1,YOffset:5,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:32,y:418,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:102,y:32,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:53,y:434,w:5,h:11,XOffset:0,YOffset:5,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:100,y:82,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:32,y:445,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:125,y:32,w:8,h:7,XOffset:0,YOffset:5,CropWidth:8,CropHeight:7,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:53,y:461,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:123,y:56,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:32,y:472,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:149,y:32,w:8,h:7,XOffset:0,YOffset:5,CropWidth:8,CropHeight:7,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:53,y:488,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:123,y:80,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:74,y:245,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:146,y:55,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:74,y:272,w:5,h:11,XOffset:0,YOffset:4,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:173,y:32,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:74,y:299,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:146,y:79,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:74,y:326,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:196,y:32,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:74,y:353,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:169,y:56,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:74,y:380,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:219,y:32,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:74,y:407,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:192,y:56,w:7,h:8,XOffset:0,YOffset:0,CropWidth:7,CropHeight:8,ow:8,oh:8,tp:3	}
 	,
 	{
-		x:74,y:434,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:811,y:705,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:74,y:461,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:242,y:32,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:74,y:488,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:263,y:32,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:76,y:191,w:5,h:11,XOffset:3,YOffset:2,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:215,y:56,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:76,y:218,w:5,h:11,XOffset:1,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:284,y:32,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:77,y:83,w:5,h:11,XOffset:1,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:236,y:59,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:77,y:110,w:5,h:11,XOffset:2,YOffset:2,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:305,y:32,w:5,h:11,XOffset:1,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:77,y:137,w:5,h:11,XOffset:2,YOffset:2,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:257,y:59,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:77,y:164,w:5,h:11,XOffset:2,YOffset:2,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:326,y:32,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:97,y:191,w:5,h:11,XOffset:1,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:278,y:59,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:97,y:218,w:6,h:9,XOffset:0,YOffset:5,CropWidth:6,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:347,y:32,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:585,y:1010,w:9,h:6,XOffset:4,YOffset:5,CropWidth:9,CropHeight:6,ow:16,oh:16,tp:2	}
+		x:299,y:59,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:97,y:243,w:6,h:9,XOffset:1,YOffset:3,CropWidth:6,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:368,y:32,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:95,y:268,w:6,h:9,XOffset:1,YOffset:3,CropWidth:6,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:320,y:59,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:95,y:293,w:6,h:9,XOffset:1,YOffset:3,CropWidth:6,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:389,y:32,w:5,h:11,XOffset:0,YOffset:5,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:95,y:318,w:6,h:9,XOffset:1,YOffset:5,CropWidth:6,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:341,y:59,w:5,h:11,XOffset:0,YOffset:5,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:95,y:343,w:6,h:9,XOffset:1,YOffset:3,CropWidth:6,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:410,y:33,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:95,y:368,w:6,h:9,XOffset:1,YOffset:5,CropWidth:6,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:431,y:33,w:5,h:11,XOffset:0,YOffset:5,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:95,y:393,w:6,h:9,XOffset:1,YOffset:3,CropWidth:6,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:362,y:59,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:95,y:418,w:6,h:9,XOffset:1,YOffset:3,CropWidth:6,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:494,y:34,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:95,y:443,w:6,h:9,XOffset:1,YOffset:5,CropWidth:6,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:452,y:33,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:95,y:468,w:6,h:9,XOffset:1,YOffset:0,CropWidth:6,CropHeight:9,ow:7,oh:11,tp:3	}
+		x:383,y:59,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:95,y:493,w:6,h:9,XOffset:1,YOffset:0,CropWidth:6,CropHeight:9,ow:7,oh:11,tp:3	}
+		x:473,y:34,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:1012,y:514,w:4,h:13,XOffset:0,YOffset:3,CropWidth:4,CropHeight:13,ow:8,oh:16,tp:2	}
+		x:494,y:34,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:117,y:268,w:5,h:10,XOffset:2,YOffset:0,CropWidth:5,CropHeight:10,ow:7,oh:11,tp:3	}
+		x:404,y:60,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:117,y:294,w:5,h:10,XOffset:2,YOffset:0,CropWidth:5,CropHeight:10,ow:7,oh:11,tp:3	}
+		x:425,y:60,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:117,y:320,w:5,h:10,XOffset:1,YOffset:0,CropWidth:5,CropHeight:10,ow:7,oh:11,tp:3	}
+		x:446,y:60,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:117,y:346,w:5,h:10,XOffset:2,YOffset:0,CropWidth:5,CropHeight:10,ow:7,oh:11,tp:3	}
+		x:467,y:61,w:5,h:11,XOffset:0,YOffset:5,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:117,y:372,w:5,h:10,XOffset:2,YOffset:1,CropWidth:5,CropHeight:10,ow:7,oh:11,tp:3	}
+		x:488,y:61,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:117,y:398,w:7,h:7,XOffset:0,YOffset:5,CropWidth:7,CropHeight:7,ow:8,oh:16,tp:3	}
+		x:169,y:80,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:117,y:421,w:7,h:7,XOffset:1,YOffset:5,CropWidth:7,CropHeight:7,ow:8,oh:16,tp:3	}
+		x:190,y:80,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:117,y:444,w:7,h:7,XOffset:1,YOffset:5,CropWidth:7,CropHeight:7,ow:8,oh:16,tp:3	}
+		x:211,y:83,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:117,y:467,w:7,h:7,XOffset:0,YOffset:5,CropWidth:7,CropHeight:7,ow:8,oh:16,tp:3	}
+		x:232,y:86,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:117,y:490,w:6,h:8,XOffset:4,YOffset:4,CropWidth:6,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:253,y:86,w:5,h:11,XOffset:0,YOffset:4,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:117,y:490,w:6,h:8,XOffset:4,YOffset:4,CropWidth:6,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:274,y:86,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:138,y:107,w:6,h:8,XOffset:4,YOffset:4,CropWidth:6,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:295,y:86,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:138,y:83,w:6,h:8,XOffset:5,YOffset:4,CropWidth:6,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:316,y:86,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:138,y:107,w:6,h:8,XOffset:4,YOffset:4,CropWidth:6,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:337,y:86,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:98,y:131,w:6,h:8,XOffset:5,YOffset:4,CropWidth:6,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:358,y:86,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:138,y:131,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:379,y:86,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:98,y:56,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:400,y:87,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:98,y:155,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:421,y:87,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:138,y:155,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:442,y:87,w:5,h:11,XOffset:3,YOffset:2,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:56,y:56,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:463,y:88,w:5,h:11,XOffset:1,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:120,y:56,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:484,y:88,w:5,h:11,XOffset:1,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:98,y:80,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:32,y:115,w:5,h:11,XOffset:2,YOffset:2,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:118,y:179,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:32,y:142,w:5,h:11,XOffset:2,YOffset:2,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:142,y:56,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:32,y:169,w:5,h:11,XOffset:2,YOffset:2,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:98,y:104,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:32,y:196,w:5,h:11,XOffset:1,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:119,y:203,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:32,y:223,w:6,h:9,XOffset:0,YOffset:5,CropWidth:6,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:164,y:56,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:559,y:1010,w:9,h:6,XOffset:4,YOffset:5,CropWidth:9,CropHeight:6,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:119,y:227,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:32,y:248,w:6,h:9,XOffset:1,YOffset:3,CropWidth:6,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:186,y:56,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:32,y:273,w:6,h:9,XOffset:1,YOffset:3,CropWidth:6,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:138,y:251,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:32,y:298,w:6,h:9,XOffset:1,YOffset:3,CropWidth:6,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:208,y:56,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:32,y:323,w:6,h:9,XOffset:1,YOffset:5,CropWidth:6,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:138,y:275,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:32,y:348,w:6,h:9,XOffset:1,YOffset:3,CropWidth:6,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:230,y:56,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:32,y:373,w:6,h:9,XOffset:1,YOffset:5,CropWidth:6,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:138,y:299,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:32,y:398,w:6,h:9,XOffset:1,YOffset:3,CropWidth:6,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:252,y:56,w:6,h:8,XOffset:1,YOffset:0,CropWidth:6,CropHeight:8,ow:7,oh:11,tp:3	}
+		x:32,y:423,w:6,h:9,XOffset:1,YOffset:3,CropWidth:6,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:138,y:323,w:6,h:8,XOffset:1,YOffset:3,CropWidth:6,CropHeight:8,ow:7,oh:11,tp:3	}
+		x:32,y:448,w:6,h:9,XOffset:1,YOffset:5,CropWidth:6,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:274,y:57,w:6,h:8,XOffset:1,YOffset:1,CropWidth:6,CropHeight:8,ow:7,oh:11,tp:3	}
+		x:32,y:473,w:6,h:9,XOffset:1,YOffset:0,CropWidth:6,CropHeight:9,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:138,y:347,w:6,h:8,XOffset:1,YOffset:1,CropWidth:6,CropHeight:8,ow:7,oh:11,tp:3	}
+		x:53,y:115,w:6,h:9,XOffset:1,YOffset:0,CropWidth:6,CropHeight:9,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:296,y:57,w:6,h:8,XOffset:1,YOffset:3,CropWidth:6,CropHeight:8,ow:7,oh:11,tp:3	}
+		x:795,y:152,w:4,h:13,XOffset:0,YOffset:3,CropWidth:4,CropHeight:13,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:138,y:371,w:6,h:8,XOffset:1,YOffset:0,CropWidth:6,CropHeight:8,ow:7,oh:11,tp:3	}
+		x:54,y:140,w:5,h:10,XOffset:2,YOffset:0,CropWidth:5,CropHeight:10,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:318,y:57,w:6,h:8,XOffset:1,YOffset:2,CropWidth:6,CropHeight:8,ow:7,oh:11,tp:3	}
+		x:54,y:166,w:5,h:10,XOffset:2,YOffset:0,CropWidth:5,CropHeight:10,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:340,y:58,w:6,h:8,XOffset:1,YOffset:3,CropWidth:6,CropHeight:8,ow:7,oh:11,tp:3	}
+		x:54,y:192,w:5,h:10,XOffset:1,YOffset:0,CropWidth:5,CropHeight:10,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:140,y:179,w:6,h:8,XOffset:1,YOffset:1,CropWidth:6,CropHeight:8,ow:7,oh:11,tp:3	}
+		x:54,y:218,w:5,h:10,XOffset:2,YOffset:0,CropWidth:5,CropHeight:10,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:141,y:203,w:5,h:9,XOffset:0,YOffset:5,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:54,y:244,w:5,h:10,XOffset:2,YOffset:1,CropWidth:5,CropHeight:10,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:162,y:80,w:5,h:9,XOffset:0,YOffset:5,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:54,y:270,w:7,h:7,XOffset:0,YOffset:5,CropWidth:7,CropHeight:7,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:183,y:80,w:5,h:9,XOffset:0,YOffset:5,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:54,y:293,w:7,h:7,XOffset:1,YOffset:5,CropWidth:7,CropHeight:7,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:204,y:80,w:5,h:9,XOffset:0,YOffset:5,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:54,y:316,w:7,h:7,XOffset:1,YOffset:5,CropWidth:7,CropHeight:7,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:225,y:80,w:5,h:9,XOffset:0,YOffset:5,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:54,y:339,w:7,h:7,XOffset:0,YOffset:5,CropWidth:7,CropHeight:7,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:246,y:80,w:5,h:9,XOffset:0,YOffset:5,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:886,y:35,w:6,h:8,XOffset:4,YOffset:4,CropWidth:6,CropHeight:8,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:267,y:81,w:5,h:9,XOffset:0,YOffset:5,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:886,y:35,w:6,h:8,XOffset:4,YOffset:4,CropWidth:6,CropHeight:8,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:288,y:81,w:5,h:9,XOffset:0,YOffset:5,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:54,y:386,w:6,h:8,XOffset:4,YOffset:4,CropWidth:6,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:309,y:81,w:5,h:9,XOffset:0,YOffset:5,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:54,y:362,w:6,h:8,XOffset:5,YOffset:4,CropWidth:6,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:330,y:82,w:5,h:9,XOffset:0,YOffset:5,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:54,y:386,w:6,h:8,XOffset:4,YOffset:4,CropWidth:6,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:351,y:82,w:5,h:9,XOffset:1,YOffset:3,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:54,y:410,w:6,h:8,XOffset:5,YOffset:4,CropWidth:6,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:372,y:80,w:5,h:9,XOffset:2,YOffset:4,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:54,y:434,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:393,y:80,w:5,h:9,XOffset:2,YOffset:2,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:54,y:458,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:414,y:83,w:4,h:11,XOffset:0,YOffset:3,CropWidth:4,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:54,y:482,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:434,y:83,w:4,h:11,XOffset:0,YOffset:3,CropWidth:4,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:75,y:115,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:454,y:83,w:4,h:11,XOffset:0,YOffset:3,CropWidth:4,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:75,y:139,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:474,y:83,w:4,h:11,XOffset:0,YOffset:3,CropWidth:4,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:75,y:163,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:494,y:83,w:4,h:11,XOffset:0,YOffset:3,CropWidth:4,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:75,y:187,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:160,y:107,w:4,h:11,XOffset:0,YOffset:3,CropWidth:4,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:75,y:211,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:160,y:134,w:7,h:6,XOffset:0,YOffset:2,CropWidth:7,CropHeight:6,ow:8,oh:16,tp:3	}
+		x:75,y:235,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:160,y:156,w:7,h:6,XOffset:4,YOffset:3,CropWidth:7,CropHeight:6,ow:16,oh:16,tp:3	}
+		x:77,y:259,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:162,y:178,w:7,h:6,XOffset:4,YOffset:3,CropWidth:7,CropHeight:6,ow:16,oh:16,tp:3	}
+		x:77,y:283,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:162,y:200,w:6,h:7,XOffset:1,YOffset:5,CropWidth:6,CropHeight:7,ow:8,oh:16,tp:3	}
+		x:77,y:307,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:162,y:223,w:6,h:7,XOffset:1,YOffset:5,CropWidth:6,CropHeight:7,ow:8,oh:16,tp:3	}
+		x:77,y:331,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:160,y:246,w:6,h:7,XOffset:1,YOffset:5,CropWidth:6,CropHeight:7,ow:8,oh:16,tp:3	}
+		x:77,y:355,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:160,y:269,w:6,h:7,XOffset:1,YOffset:4,CropWidth:6,CropHeight:7,ow:8,oh:16,tp:3	}
+		x:76,y:379,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:160,y:292,w:6,h:7,XOffset:1,YOffset:5,CropWidth:6,CropHeight:7,ow:8,oh:16,tp:3	}
+		x:76,y:403,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:160,y:315,w:6,h:7,XOffset:1,YOffset:5,CropWidth:6,CropHeight:7,ow:8,oh:16,tp:3	}
+		x:76,y:427,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:160,y:338,w:7,h:6,XOffset:0,YOffset:3,CropWidth:7,CropHeight:6,ow:8,oh:16,tp:3	}
+		x:76,y:451,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:160,y:360,w:6,h:7,XOffset:1,YOffset:5,CropWidth:6,CropHeight:7,ow:8,oh:16,tp:3	}
+		x:76,y:475,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:160,y:383,w:6,h:7,XOffset:1,YOffset:5,CropWidth:6,CropHeight:7,ow:8,oh:16,tp:3	}
+		x:97,y:115,w:6,h:8,XOffset:1,YOffset:0,CropWidth:6,CropHeight:8,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:140,y:406,w:6,h:7,XOffset:1,YOffset:5,CropWidth:6,CropHeight:7,ow:8,oh:16,tp:3	}
+		x:97,y:139,w:6,h:8,XOffset:1,YOffset:3,CropWidth:6,CropHeight:8,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:162,y:406,w:6,h:7,XOffset:1,YOffset:4,CropWidth:6,CropHeight:7,ow:8,oh:16,tp:3	}
+		x:97,y:163,w:6,h:8,XOffset:1,YOffset:1,CropWidth:6,CropHeight:8,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:140,y:429,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:97,y:187,w:6,h:8,XOffset:1,YOffset:1,CropWidth:6,CropHeight:8,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:162,y:429,w:6,h:7,XOffset:1,YOffset:1,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:97,y:211,w:6,h:8,XOffset:1,YOffset:3,CropWidth:6,CropHeight:8,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:140,y:452,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:97,y:235,w:6,h:8,XOffset:1,YOffset:0,CropWidth:6,CropHeight:8,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:162,y:452,w:6,h:7,XOffset:1,YOffset:1,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:99,y:259,w:6,h:8,XOffset:1,YOffset:2,CropWidth:6,CropHeight:8,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:140,y:475,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:99,y:283,w:6,h:8,XOffset:1,YOffset:3,CropWidth:6,CropHeight:8,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:162,y:475,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:99,y:307,w:6,h:8,XOffset:1,YOffset:1,CropWidth:6,CropHeight:8,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:185,y:110,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:99,y:331,w:5,h:9,XOffset:0,YOffset:5,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:185,y:133,w:6,h:7,XOffset:1,YOffset:1,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:99,y:356,w:5,h:9,XOffset:0,YOffset:5,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:185,y:156,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:98,y:381,w:5,h:9,XOffset:0,YOffset:5,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:185,y:179,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:98,y:406,w:5,h:9,XOffset:0,YOffset:5,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:184,y:202,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:98,y:431,w:5,h:9,XOffset:0,YOffset:5,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:184,y:225,w:6,h:7,XOffset:1,YOffset:1,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:98,y:456,w:5,h:9,XOffset:0,YOffset:5,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:182,y:248,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:98,y:481,w:5,h:9,XOffset:0,YOffset:5,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:182,y:271,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:119,y:115,w:5,h:9,XOffset:0,YOffset:5,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:182,y:294,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:119,y:140,w:5,h:9,XOffset:0,YOffset:5,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:183,y:317,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:119,y:165,w:5,h:9,XOffset:0,YOffset:5,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:183,y:340,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:119,y:190,w:5,h:9,XOffset:1,YOffset:3,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:182,y:363,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:119,y:215,w:5,h:9,XOffset:2,YOffset:4,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:184,y:386,w:6,h:7,XOffset:1,YOffset:1,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:121,y:240,w:5,h:9,XOffset:2,YOffset:2,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:184,y:409,w:6,h:7,XOffset:1,YOffset:1,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:121,y:265,w:4,h:11,XOffset:0,YOffset:3,CropWidth:4,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:184,y:432,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:121,y:292,w:4,h:11,XOffset:0,YOffset:3,CropWidth:4,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:184,y:455,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:121,y:319,w:4,h:11,XOffset:0,YOffset:3,CropWidth:4,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:184,y:478,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:120,y:346,w:4,h:11,XOffset:0,YOffset:3,CropWidth:4,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:207,y:110,w:6,h:7,XOffset:1,YOffset:1,CropWidth:6,CropHeight:7,ow:8,oh:8,tp:3	}
+		x:120,y:373,w:4,h:11,XOffset:0,YOffset:3,CropWidth:4,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:207,y:133,w:4,h:10,XOffset:0,YOffset:6,CropWidth:4,CropHeight:10,ow:8,oh:16,tp:3	}
+		x:119,y:400,w:4,h:11,XOffset:0,YOffset:3,CropWidth:4,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:207,y:159,w:4,h:10,XOffset:6,YOffset:3,CropWidth:4,CropHeight:10,ow:16,oh:16,tp:3	}
+		x:584,y:1010,w:7,h:6,XOffset:0,YOffset:2,CropWidth:7,CropHeight:6,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:207,y:185,w:4,h:10,XOffset:6,YOffset:3,CropWidth:4,CropHeight:10,ow:16,oh:16,tp:3	}
+		x:119,y:427,w:7,h:6,XOffset:4,YOffset:3,CropWidth:7,CropHeight:6,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:206,y:211,w:5,h:8,XOffset:1,YOffset:4,CropWidth:5,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:119,y:449,w:7,h:6,XOffset:4,YOffset:3,CropWidth:7,CropHeight:6,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:206,y:235,w:5,h:8,XOffset:2,YOffset:1,CropWidth:5,CropHeight:8,ow:7,oh:11,tp:3	}
+		x:119,y:471,w:6,h:7,XOffset:1,YOffset:5,CropWidth:6,CropHeight:7,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:204,y:259,w:5,h:8,XOffset:2,YOffset:1,CropWidth:5,CropHeight:8,ow:7,oh:11,tp:3	}
+		x:119,y:494,w:6,h:7,XOffset:1,YOffset:5,CropWidth:6,CropHeight:7,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:204,y:283,w:5,h:8,XOffset:2,YOffset:1,CropWidth:5,CropHeight:8,ow:7,oh:11,tp:3	}
+		x:139,y:400,w:6,h:7,XOffset:1,YOffset:5,CropWidth:6,CropHeight:7,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:205,y:307,w:5,h:8,XOffset:1,YOffset:2,CropWidth:5,CropHeight:8,ow:7,oh:11,tp:3	}
+		x:140,y:346,w:6,h:7,XOffset:1,YOffset:4,CropWidth:6,CropHeight:7,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:205,y:331,w:4,h:10,XOffset:2,YOffset:0,CropWidth:4,CropHeight:10,ow:7,oh:11,tp:3	}
+		x:140,y:369,w:6,h:7,XOffset:1,YOffset:5,CropWidth:6,CropHeight:7,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:205,y:357,w:5,h:8,XOffset:2,YOffset:1,CropWidth:5,CropHeight:8,ow:7,oh:11,tp:3	}
+		x:141,y:265,w:6,h:7,XOffset:1,YOffset:5,CropWidth:6,CropHeight:7,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:206,y:381,w:5,h:8,XOffset:2,YOffset:3,CropWidth:5,CropHeight:8,ow:7,oh:11,tp:3	}
+		x:141,y:288,w:7,h:6,XOffset:0,YOffset:3,CropWidth:7,CropHeight:6,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:206,y:405,w:5,h:8,XOffset:2,YOffset:0,CropWidth:5,CropHeight:8,ow:7,oh:11,tp:3	}
+		x:141,y:310,w:6,h:7,XOffset:1,YOffset:5,CropWidth:6,CropHeight:7,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:206,y:429,w:4,h:10,XOffset:2,YOffset:0,CropWidth:4,CropHeight:10,ow:7,oh:11,tp:3	}
+		x:162,y:333,w:6,h:7,XOffset:1,YOffset:5,CropWidth:6,CropHeight:7,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:206,y:455,w:6,h:6,XOffset:1,YOffset:6,CropWidth:6,CropHeight:6,ow:8,oh:16,tp:3	}
+		x:162,y:356,w:6,h:7,XOffset:1,YOffset:5,CropWidth:6,CropHeight:7,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:206,y:477,w:6,h:6,XOffset:0,YOffset:6,CropWidth:6,CropHeight:6,ow:8,oh:16,tp:3	}
+		x:162,y:379,w:6,h:7,XOffset:1,YOffset:4,CropWidth:6,CropHeight:7,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:738,y:924,w:3,h:12,XOffset:0,YOffset:2,CropWidth:3,CropHeight:12,ow:8,oh:16,tp:2	}
+		x:161,y:402,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:225,y:259,w:3,h:12,XOffset:3,YOffset:1,CropWidth:3,CropHeight:12,ow:8,oh:16,tp:3	}
+		x:142,y:425,w:6,h:7,XOffset:1,YOffset:1,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:226,y:287,w:6,h:6,XOffset:1,YOffset:3,CropWidth:6,CropHeight:6,ow:7,oh:11,tp:3	}
+		x:142,y:448,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:226,y:309,w:6,h:6,XOffset:1,YOffset:3,CropWidth:6,CropHeight:6,ow:7,oh:11,tp:3	}
+		x:163,y:310,w:6,h:7,XOffset:1,YOffset:1,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:226,y:331,w:6,h:6,XOffset:1,YOffset:3,CropWidth:6,CropHeight:6,ow:7,oh:11,tp:3	}
+		x:164,y:115,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:226,y:353,w:6,h:6,XOffset:1,YOffset:3,CropWidth:6,CropHeight:6,ow:7,oh:11,tp:3	}
+		x:164,y:138,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:227,y:375,w:6,h:6,XOffset:1,YOffset:3,CropWidth:6,CropHeight:6,ow:7,oh:11,tp:3	}
+		x:140,y:161,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:227,y:397,w:6,h:6,XOffset:1,YOffset:3,CropWidth:6,CropHeight:6,ow:7,oh:11,tp:3	}
+		x:163,y:161,w:6,h:7,XOffset:1,YOffset:1,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:227,y:419,w:6,h:6,XOffset:1,YOffset:3,CropWidth:6,CropHeight:6,ow:7,oh:11,tp:3	}
+		x:140,y:104,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:228,y:441,w:6,h:6,XOffset:1,YOffset:1,CropWidth:6,CropHeight:6,ow:8,oh:8,tp:3	}
+		x:140,y:184,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:228,y:463,w:6,h:6,XOffset:5,YOffset:5,CropWidth:6,CropHeight:6,ow:16,oh:16,tp:3	}
+		x:163,y:184,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:228,y:485,w:6,h:6,XOffset:1,YOffset:1,CropWidth:6,CropHeight:6,ow:8,oh:8,tp:3	}
+		x:140,y:127,w:6,h:7,XOffset:1,YOffset:1,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:169,y:515,w:7,h:5,XOffset:0,YOffset:6,CropWidth:7,CropHeight:5,ow:8,oh:16,tp:2	}
+		x:140,y:207,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:250,y:110,w:5,h:7,XOffset:1,YOffset:5,CropWidth:5,CropHeight:7,ow:8,oh:16,tp:3	}
+		x:163,y:207,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:250,y:133,w:5,h:7,XOffset:1,YOffset:2,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:142,y:230,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:227,y:133,w:5,h:7,XOffset:2,YOffset:1,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:164,y:230,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:227,y:156,w:5,h:7,XOffset:2,YOffset:2,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:163,y:253,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:248,y:156,w:5,h:7,XOffset:1,YOffset:2,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:164,y:276,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:229,y:105,w:5,h:7,XOffset:2,YOffset:1,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:186,y:115,w:6,h:7,XOffset:1,YOffset:1,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:227,y:179,w:5,h:7,XOffset:1,YOffset:2,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:186,y:138,w:6,h:7,XOffset:1,YOffset:1,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:248,y:179,w:5,h:7,XOffset:1,YOffset:2,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:186,y:161,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:227,y:202,w:5,h:7,XOffset:1,YOffset:2,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:185,y:184,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:248,y:202,w:5,h:7,XOffset:1,YOffset:2,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:185,y:207,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:227,y:225,w:5,h:7,XOffset:1,YOffset:2,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:186,y:230,w:6,h:7,XOffset:1,YOffset:1,CropWidth:6,CropHeight:7,ow:8,oh:8,tp:3	}
 	,
 	{
-		x:248,y:225,w:5,h:7,XOffset:2,YOffset:1,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:186,y:253,w:4,h:10,XOffset:0,YOffset:6,CropWidth:4,CropHeight:10,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:244,y:248,w:5,h:7,XOffset:2,YOffset:1,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:186,y:279,w:4,h:10,XOffset:6,YOffset:3,CropWidth:4,CropHeight:10,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:248,y:271,w:5,h:7,XOffset:1,YOffset:2,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:185,y:305,w:4,h:10,XOffset:6,YOffset:3,CropWidth:4,CropHeight:10,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:248,y:294,w:5,h:7,XOffset:2,YOffset:1,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:74,y:512,w:5,h:8,XOffset:1,YOffset:4,CropWidth:5,CropHeight:8,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:248,y:317,w:5,h:7,XOffset:2,YOffset:1,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:185,y:331,w:5,h:8,XOffset:2,YOffset:1,CropWidth:5,CropHeight:8,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:250,y:367,w:3,h:11,XOffset:0,YOffset:3,CropWidth:3,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:184,y:355,w:5,h:8,XOffset:2,YOffset:1,CropWidth:5,CropHeight:8,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:248,y:340,w:3,h:11,XOffset:0,YOffset:3,CropWidth:3,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:184,y:379,w:5,h:8,XOffset:2,YOffset:1,CropWidth:5,CropHeight:8,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:250,y:367,w:3,h:11,XOffset:0,YOffset:3,CropWidth:3,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:183,y:403,w:5,h:8,XOffset:1,YOffset:2,CropWidth:5,CropHeight:8,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:250,y:394,w:3,h:11,XOffset:0,YOffset:3,CropWidth:3,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:164,y:427,w:4,h:10,XOffset:2,YOffset:0,CropWidth:4,CropHeight:10,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:250,y:421,w:3,h:11,XOffset:0,YOffset:4,CropWidth:3,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:184,y:427,w:5,h:8,XOffset:2,YOffset:1,CropWidth:5,CropHeight:8,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:250,y:448,w:4,h:8,XOffset:6,YOffset:4,CropWidth:4,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:164,y:453,w:5,h:8,XOffset:2,YOffset:3,CropWidth:5,CropHeight:8,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:250,y:472,w:4,h:8,XOffset:6,YOffset:4,CropWidth:4,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:141,y:471,w:5,h:8,XOffset:2,YOffset:0,CropWidth:5,CropHeight:8,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:250,y:496,w:4,h:8,XOffset:6,YOffset:4,CropWidth:4,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:185,y:451,w:4,h:10,XOffset:2,YOffset:0,CropWidth:4,CropHeight:10,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:271,y:110,w:4,h:8,XOffset:6,YOffset:4,CropWidth:4,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:1010,y:850,w:6,h:6,XOffset:1,YOffset:6,CropWidth:6,CropHeight:6,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:271,y:134,w:5,h:6,XOffset:0,YOffset:3,CropWidth:5,CropHeight:6,ow:8,oh:16,tp:3	}
+		x:162,y:477,w:6,h:6,XOffset:0,YOffset:6,CropWidth:6,CropHeight:6,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:292,y:106,w:5,h:6,XOffset:1,YOffset:8,CropWidth:5,CropHeight:6,ow:8,oh:16,tp:3	}
+		x:735,y:1001,w:3,h:12,XOffset:0,YOffset:2,CropWidth:3,CropHeight:12,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:313,y:107,w:6,h:5,XOffset:1,YOffset:5,CropWidth:6,CropHeight:5,ow:8,oh:16,tp:3	}
+		x:245,y:477,w:3,h:12,XOffset:3,YOffset:1,CropWidth:3,CropHeight:12,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:292,y:128,w:5,h:6,XOffset:2,YOffset:3,CropWidth:5,CropHeight:6,ow:7,oh:11,tp:3	}
+		x:184,y:477,w:6,h:6,XOffset:1,YOffset:3,CropWidth:6,CropHeight:6,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:335,y:107,w:3,h:10,XOffset:3,YOffset:0,CropWidth:3,CropHeight:10,ow:7,oh:11,tp:3	}
+		x:208,y:115,w:6,h:6,XOffset:1,YOffset:3,CropWidth:6,CropHeight:6,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:354,y:107,w:5,h:6,XOffset:2,YOffset:3,CropWidth:5,CropHeight:6,ow:7,oh:11,tp:3	}
+		x:208,y:137,w:6,h:6,XOffset:1,YOffset:3,CropWidth:6,CropHeight:6,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:313,y:128,w:5,h:6,XOffset:2,YOffset:2,CropWidth:5,CropHeight:6,ow:7,oh:11,tp:3	}
+		x:208,y:159,w:6,h:6,XOffset:1,YOffset:3,CropWidth:6,CropHeight:6,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:375,y:105,w:5,h:6,XOffset:2,YOffset:3,CropWidth:5,CropHeight:6,ow:7,oh:11,tp:3	}
+		x:208,y:181,w:6,h:6,XOffset:1,YOffset:3,CropWidth:6,CropHeight:6,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:354,y:129,w:5,h:6,XOffset:2,YOffset:3,CropWidth:5,CropHeight:6,ow:7,oh:11,tp:3	}
+		x:207,y:203,w:6,h:6,XOffset:1,YOffset:3,CropWidth:6,CropHeight:6,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:396,y:110,w:5,h:6,XOffset:2,YOffset:2,CropWidth:5,CropHeight:6,ow:7,oh:11,tp:3	}
+		x:208,y:225,w:6,h:6,XOffset:1,YOffset:3,CropWidth:6,CropHeight:6,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:417,y:110,w:5,h:6,XOffset:2,YOffset:3,CropWidth:5,CropHeight:6,ow:7,oh:11,tp:3	}
+		x:208,y:247,w:6,h:6,XOffset:1,YOffset:1,CropWidth:6,CropHeight:6,ow:8,oh:8,tp:3	}
 	,
 	{
-		x:375,y:132,w:6,h:5,XOffset:1,YOffset:0,CropWidth:6,CropHeight:5,ow:7,oh:11,tp:3	}
+		x:206,y:269,w:6,h:6,XOffset:5,YOffset:5,CropWidth:6,CropHeight:6,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:438,y:110,w:5,h:6,XOffset:2,YOffset:3,CropWidth:5,CropHeight:6,ow:7,oh:11,tp:3	}
+		x:206,y:291,w:6,h:6,XOffset:1,YOffset:1,CropWidth:6,CropHeight:6,ow:8,oh:8,tp:3	}
 	,
 	{
-		x:397,y:132,w:5,h:6,XOffset:1,YOffset:1,CropWidth:5,CropHeight:6,ow:8,oh:8,tp:3	}
+		x:206,y:313,w:7,h:5,XOffset:0,YOffset:6,CropWidth:7,CropHeight:5,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:459,y:110,w:7,h:4,XOffset:0,YOffset:7,CropWidth:7,CropHeight:4,ow:8,oh:16,tp:3	}
+		x:206,y:334,w:5,h:7,XOffset:1,YOffset:5,CropWidth:5,CropHeight:7,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:418,y:132,w:7,h:4,XOffset:1,YOffset:5,CropWidth:7,CropHeight:4,ow:8,oh:16,tp:3	}
+		x:205,y:357,w:5,h:7,XOffset:1,YOffset:2,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:334,y:133,w:4,h:7,XOffset:2,YOffset:2,CropWidth:4,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:205,y:380,w:5,h:7,XOffset:2,YOffset:1,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:118,y:517,w:9,h:3,XOffset:3,YOffset:10,CropWidth:9,CropHeight:3,ow:16,oh:16,tp:2	}
+		x:205,y:403,w:5,h:7,XOffset:2,YOffset:2,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:482,y:110,w:3,h:9,XOffset:2,YOffset:3,CropWidth:3,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:205,y:426,w:5,h:7,XOffset:1,YOffset:2,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:501,y:110,w:3,h:9,XOffset:3,YOffset:4,CropWidth:3,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:205,y:449,w:5,h:7,XOffset:2,YOffset:1,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:459,y:130,w:5,h:5,XOffset:0,YOffset:3,CropWidth:5,CropHeight:5,ow:8,oh:16,tp:3	}
+		x:206,y:472,w:5,h:7,XOffset:1,YOffset:2,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:480,y:135,w:5,h:5,XOffset:1,YOffset:3,CropWidth:5,CropHeight:5,ow:8,oh:16,tp:3	}
+		x:206,y:495,w:5,h:7,XOffset:1,YOffset:2,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:292,y:150,w:5,h:5,XOffset:2,YOffset:1,CropWidth:5,CropHeight:5,ow:7,oh:11,tp:3	}
+		x:230,y:115,w:5,h:7,XOffset:1,YOffset:2,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:313,y:150,w:5,h:5,XOffset:2,YOffset:2,CropWidth:5,CropHeight:5,ow:7,oh:11,tp:3	}
+		x:230,y:138,w:5,h:7,XOffset:1,YOffset:2,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:269,y:156,w:3,h:8,XOffset:0,YOffset:6,CropWidth:3,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:230,y:161,w:5,h:7,XOffset:1,YOffset:2,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:143,y:517,w:8,h:3,XOffset:0,YOffset:12,CropWidth:8,CropHeight:3,ow:8,oh:16,tp:2	}
+		x:230,y:184,w:5,h:7,XOffset:2,YOffset:1,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:8,y:1013,w:8,h:3,XOffset:0,YOffset:10,CropWidth:8,CropHeight:3,ow:8,oh:16,tp:2	}
+		x:230,y:207,w:5,h:7,XOffset:2,YOffset:1,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:269,y:180,w:3,h:8,XOffset:2,YOffset:0,CropWidth:3,CropHeight:8,ow:7,oh:11,tp:3	}
+		x:230,y:230,w:5,h:7,XOffset:1,YOffset:2,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:269,y:204,w:6,h:4,XOffset:1,YOffset:3,CropWidth:6,CropHeight:4,ow:7,oh:11,tp:3	}
+		x:230,y:253,w:5,h:7,XOffset:2,YOffset:1,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:270,y:224,w:3,h:8,XOffset:3,YOffset:2,CropWidth:3,CropHeight:8,ow:7,oh:11,tp:3	}
+		x:229,y:276,w:5,h:7,XOffset:2,YOffset:1,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:32,y:1013,w:7,h:3,XOffset:4,YOffset:7,CropWidth:7,CropHeight:3,ow:16,oh:16,tp:2	}
+		x:738,y:924,w:3,h:11,XOffset:0,YOffset:3,CropWidth:3,CropHeight:11,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:270,y:248,w:3,h:7,XOffset:3,YOffset:4,CropWidth:3,CropHeight:7,ow:8,oh:16,tp:3	}
+		x:245,y:505,w:3,h:11,XOffset:0,YOffset:3,CropWidth:3,CropHeight:11,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:270,y:271,w:4,h:5,XOffset:0,YOffset:11,CropWidth:4,CropHeight:5,ow:8,oh:16,tp:3	}
+		x:738,y:924,w:3,h:11,XOffset:0,YOffset:3,CropWidth:3,CropHeight:11,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:270,y:292,w:4,h:5,XOffset:6,YOffset:9,CropWidth:4,CropHeight:5,ow:16,oh:16,tp:3	}
+		x:229,y:299,w:3,h:11,XOffset:0,YOffset:3,CropWidth:3,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:270,y:313,w:4,h:5,XOffset:6,YOffset:2,CropWidth:4,CropHeight:5,ow:16,oh:16,tp:3	}
+		x:229,y:326,w:3,h:11,XOffset:0,YOffset:4,CropWidth:3,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:270,y:334,w:5,h:4,XOffset:1,YOffset:3,CropWidth:5,CropHeight:4,ow:8,oh:16,tp:3	}
+		x:227,y:353,w:4,h:8,XOffset:6,YOffset:4,CropWidth:4,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:270,y:354,w:5,h:4,XOffset:1,YOffset:0,CropWidth:5,CropHeight:4,ow:7,oh:11,tp:3	}
+		x:226,y:377,w:4,h:8,XOffset:6,YOffset:4,CropWidth:4,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:55,y:1013,w:6,h:3,XOffset:5,YOffset:3,CropWidth:6,CropHeight:3,ow:16,oh:16,tp:2	}
+		x:226,y:401,w:4,h:8,XOffset:6,YOffset:4,CropWidth:4,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:77,y:1013,w:6,h:3,XOffset:1,YOffset:7,CropWidth:6,CropHeight:3,ow:7,oh:11,tp:2	}
+		x:226,y:425,w:4,h:8,XOffset:6,YOffset:4,CropWidth:4,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:270,y:374,w:3,h:6,XOffset:2,YOffset:2,CropWidth:3,CropHeight:6,ow:7,oh:11,tp:3	}
+		x:226,y:449,w:5,h:6,XOffset:0,YOffset:3,CropWidth:5,CropHeight:6,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:270,y:396,w:4,h:4,XOffset:1,YOffset:1,CropWidth:4,CropHeight:4,ow:8,oh:16,tp:3	}
+		x:227,y:471,w:5,h:6,XOffset:1,YOffset:8,CropWidth:5,CropHeight:6,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:270,y:416,w:4,h:4,XOffset:1,YOffset:8,CropWidth:4,CropHeight:4,ow:8,oh:16,tp:3	}
+		x:227,y:493,w:6,h:5,XOffset:1,YOffset:5,CropWidth:6,CropHeight:5,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:270,y:436,w:4,h:4,XOffset:2,YOffset:1,CropWidth:4,CropHeight:4,ow:8,oh:16,tp:3	}
+		x:251,y:115,w:5,h:6,XOffset:2,YOffset:3,CropWidth:5,CropHeight:6,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:270,y:456,w:4,h:4,XOffset:2,YOffset:5,CropWidth:4,CropHeight:4,ow:7,oh:11,tp:3	}
+		x:251,y:137,w:3,h:10,XOffset:3,YOffset:0,CropWidth:3,CropHeight:10,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:270,y:476,w:4,h:4,XOffset:1,YOffset:2,CropWidth:4,CropHeight:4,ow:8,oh:8,tp:3	}
+		x:251,y:163,w:5,h:6,XOffset:2,YOffset:3,CropWidth:5,CropHeight:6,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:270,y:496,w:4,h:4,XOffset:6,YOffset:6,CropWidth:4,CropHeight:4,ow:16,oh:16,tp:3	}
+		x:251,y:185,w:5,h:6,XOffset:2,YOffset:2,CropWidth:5,CropHeight:6,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:999,y:133,w:5,h:3,XOffset:0,YOffset:8,CropWidth:5,CropHeight:3,ow:8,oh:16,tp:2	}
+		x:251,y:207,w:5,h:6,XOffset:2,YOffset:3,CropWidth:5,CropHeight:6,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:291,y:171,w:3,h:5,XOffset:1,YOffset:3,CropWidth:3,CropHeight:5,ow:8,oh:16,tp:3	}
+		x:251,y:229,w:5,h:6,XOffset:2,YOffset:3,CropWidth:5,CropHeight:6,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:291,y:192,w:5,h:3,XOffset:1,YOffset:7,CropWidth:5,CropHeight:3,ow:8,oh:16,tp:3	}
+		x:251,y:251,w:5,h:6,XOffset:2,YOffset:2,CropWidth:5,CropHeight:6,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:291,y:211,w:4,h:3,XOffset:6,YOffset:9,CropWidth:4,CropHeight:3,ow:16,oh:16,tp:3	}
+		x:251,y:273,w:5,h:6,XOffset:2,YOffset:3,CropWidth:5,CropHeight:6,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:289,y:230,w:4,h:3,XOffset:6,YOffset:3,CropWidth:4,CropHeight:3,ow:16,oh:16,tp:3	}
+		x:250,y:295,w:6,h:5,XOffset:1,YOffset:0,CropWidth:6,CropHeight:5,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:289,y:249,w:3,h:4,XOffset:2,YOffset:3,CropWidth:3,CropHeight:4,ow:8,oh:16,tp:3	}
+		x:249,y:316,w:5,h:6,XOffset:2,YOffset:3,CropWidth:5,CropHeight:6,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:290,y:269,w:4,h:3,XOffset:3,YOffset:0,CropWidth:4,CropHeight:3,ow:7,oh:11,tp:3	}
+		x:249,y:338,w:5,h:6,XOffset:1,YOffset:1,CropWidth:5,CropHeight:6,ow:8,oh:8,tp:3	}
 	,
 	{
-		x:290,y:288,w:3,h:4,XOffset:2,YOffset:0,CropWidth:3,CropHeight:4,ow:7,oh:11,tp:3	}
+		x:8,y:516,w:7,h:4,XOffset:0,YOffset:7,CropWidth:7,CropHeight:4,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:290,y:308,w:4,h:3,XOffset:2,YOffset:3,CropWidth:4,CropHeight:3,ow:7,oh:11,tp:3	}
+		x:247,y:360,w:7,h:4,XOffset:1,YOffset:5,CropWidth:7,CropHeight:4,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:291,y:327,w:3,h:3,XOffset:0,YOffset:11,CropWidth:3,CropHeight:3,ow:8,oh:16,tp:3	}
+		x:246,y:380,w:4,h:7,XOffset:2,YOffset:2,CropWidth:4,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:291,y:346,w:3,h:3,XOffset:2,YOffset:5,CropWidth:3,CropHeight:3,ow:7,oh:11,tp:3	}
+		x:8,y:1013,w:9,h:3,XOffset:3,YOffset:10,CropWidth:9,CropHeight:3,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:797,y:152,w:2,h:3,XOffset:3,YOffset:2,CropWidth:2,CropHeight:3,ow:8,oh:8,tp:2	}
+		x:246,y:403,w:3,h:9,XOffset:2,YOffset:3,CropWidth:3,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:983,y:1014,w:2,h:2,XOffset:3,YOffset:3,CropWidth:2,CropHeight:2,ow:8,oh:8,tp:1	}
+		x:247,y:428,w:3,h:9,XOffset:3,YOffset:4,CropWidth:3,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:983,y:1014,w:2,h:2,XOffset:3,YOffset:3,CropWidth:2,CropHeight:2,ow:8,oh:8,tp:1	}
+		x:249,y:453,w:5,h:5,XOffset:0,YOffset:3,CropWidth:5,CropHeight:5,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:1001,y:1014,w:2,h:2,XOffset:7,YOffset:7,CropWidth:2,CropHeight:2,ow:16,oh:16,tp:1	}
+		x:249,y:474,w:5,h:5,XOffset:1,YOffset:3,CropWidth:5,CropHeight:5,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:841,y:632,w:1,h:1,XOffset:0,YOffset:0,CropWidth:1,CropHeight:1,ow:8,oh:16,tp:2	}
+		x:249,y:495,w:5,h:5,XOffset:2,YOffset:1,CropWidth:5,CropHeight:5,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:841,y:632,w:1,h:1,XOffset:0,YOffset:0,CropWidth:1,CropHeight:1,ow:16,oh:16,tp:2	}
+		x:272,y:115,w:5,h:5,XOffset:2,YOffset:2,CropWidth:5,CropHeight:5,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:841,y:632,w:1,h:1,XOffset:0,YOffset:0,CropWidth:1,CropHeight:1,ow:8,oh:16,tp:2	}
+		x:272,y:136,w:3,h:8,XOffset:0,YOffset:6,CropWidth:3,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:841,y:632,w:1,h:1,XOffset:0,YOffset:0,CropWidth:1,CropHeight:1,ow:7,oh:11,tp:2	}
+		x:33,y:1013,w:8,h:3,XOffset:0,YOffset:12,CropWidth:8,CropHeight:3,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:841,y:632,w:1,h:1,XOffset:0,YOffset:0,CropWidth:1,CropHeight:1,ow:16,oh:16,tp:2	}
+		x:57,y:1013,w:8,h:3,XOffset:0,YOffset:10,CropWidth:8,CropHeight:3,ow:8,oh:16,tp:2	}
+	,
+	{
+		x:272,y:160,w:3,h:8,XOffset:2,YOffset:0,CropWidth:3,CropHeight:8,ow:7,oh:11,tp:3	}
+	,
+	{
+		x:272,y:184,w:6,h:4,XOffset:1,YOffset:3,CropWidth:6,CropHeight:4,ow:7,oh:11,tp:3	}
+	,
+	{
+		x:272,y:204,w:3,h:8,XOffset:3,YOffset:2,CropWidth:3,CropHeight:8,ow:7,oh:11,tp:3	}
+	,
+	{
+		x:168,y:517,w:7,h:3,XOffset:4,YOffset:7,CropWidth:7,CropHeight:3,ow:16,oh:16,tp:2	}
+	,
+	{
+		x:272,y:228,w:3,h:7,XOffset:3,YOffset:4,CropWidth:3,CropHeight:7,ow:8,oh:16,tp:3	}
+	,
+	{
+		x:272,y:251,w:4,h:5,XOffset:0,YOffset:11,CropWidth:4,CropHeight:5,ow:8,oh:16,tp:3	}
+	,
+	{
+		x:272,y:272,w:4,h:5,XOffset:6,YOffset:9,CropWidth:4,CropHeight:5,ow:16,oh:16,tp:3	}
+	,
+	{
+		x:272,y:293,w:4,h:5,XOffset:6,YOffset:2,CropWidth:4,CropHeight:5,ow:16,oh:16,tp:3	}
+	,
+	{
+		x:272,y:314,w:5,h:4,XOffset:1,YOffset:3,CropWidth:5,CropHeight:4,ow:8,oh:16,tp:3	}
+	,
+	{
+		x:270,y:334,w:5,h:4,XOffset:1,YOffset:0,CropWidth:5,CropHeight:4,ow:7,oh:11,tp:3	}
+	,
+	{
+		x:270,y:354,w:6,h:3,XOffset:5,YOffset:3,CropWidth:6,CropHeight:3,ow:16,oh:16,tp:3	}
+	,
+	{
+		x:270,y:373,w:6,h:3,XOffset:1,YOffset:7,CropWidth:6,CropHeight:3,ow:7,oh:11,tp:3	}
+	,
+	{
+		x:266,y:392,w:3,h:6,XOffset:2,YOffset:2,CropWidth:3,CropHeight:6,ow:7,oh:11,tp:3	}
+	,
+	{
+		x:266,y:414,w:4,h:4,XOffset:1,YOffset:1,CropWidth:4,CropHeight:4,ow:8,oh:16,tp:3	}
+	,
+	{
+		x:270,y:434,w:4,h:4,XOffset:1,YOffset:8,CropWidth:4,CropHeight:4,ow:8,oh:16,tp:3	}
+	,
+	{
+		x:270,y:454,w:4,h:4,XOffset:2,YOffset:1,CropWidth:4,CropHeight:4,ow:8,oh:16,tp:3	}
+	,
+	{
+		x:270,y:474,w:4,h:4,XOffset:2,YOffset:5,CropWidth:4,CropHeight:4,ow:7,oh:11,tp:3	}
+	,
+	{
+		x:270,y:494,w:4,h:4,XOffset:1,YOffset:2,CropWidth:4,CropHeight:4,ow:8,oh:8,tp:3	}
+	,
+	{
+		x:285,y:392,w:4,h:4,XOffset:6,YOffset:6,CropWidth:4,CropHeight:4,ow:16,oh:16,tp:3	}
+	,
+	{
+		x:286,y:412,w:5,h:3,XOffset:0,YOffset:8,CropWidth:5,CropHeight:3,ow:8,oh:16,tp:3	}
+	,
+	{
+		x:290,y:431,w:3,h:5,XOffset:1,YOffset:3,CropWidth:3,CropHeight:5,ow:8,oh:16,tp:3	}
+	,
+	{
+		x:290,y:452,w:5,h:3,XOffset:1,YOffset:7,CropWidth:5,CropHeight:3,ow:8,oh:16,tp:3	}
+	,
+	{
+		x:81,y:1013,w:4,h:3,XOffset:6,YOffset:9,CropWidth:4,CropHeight:3,ow:16,oh:16,tp:2	}
+	,
+	{
+		x:290,y:471,w:4,h:3,XOffset:6,YOffset:3,CropWidth:4,CropHeight:3,ow:16,oh:16,tp:3	}
+	,
+	{
+		x:290,y:490,w:3,h:4,XOffset:2,YOffset:3,CropWidth:3,CropHeight:4,ow:8,oh:16,tp:3	}
+	,
+	{
+		x:311,y:115,w:4,h:3,XOffset:3,YOffset:0,CropWidth:4,CropHeight:3,ow:7,oh:11,tp:3	}
+	,
+	{
+		x:311,y:134,w:3,h:4,XOffset:2,YOffset:0,CropWidth:3,CropHeight:4,ow:7,oh:11,tp:3	}
+	,
+	{
+		x:291,y:136,w:4,h:3,XOffset:2,YOffset:3,CropWidth:4,CropHeight:3,ow:7,oh:11,tp:3	}
+	,
+	{
+		x:311,y:154,w:3,h:3,XOffset:0,YOffset:11,CropWidth:3,CropHeight:3,ow:8,oh:16,tp:3	}
+	,
+	{
+		x:311,y:173,w:3,h:3,XOffset:2,YOffset:5,CropWidth:3,CropHeight:3,ow:7,oh:11,tp:3	}
+	,
+	{
+		x:31,y:516,w:2,h:3,XOffset:3,YOffset:2,CropWidth:2,CropHeight:3,ow:8,oh:8,tp:2	}
+	,
+	{
+		x:975,y:1014,w:2,h:2,XOffset:3,YOffset:3,CropWidth:2,CropHeight:2,ow:8,oh:8,tp:1	}
+	,
+	{
+		x:975,y:1014,w:2,h:2,XOffset:3,YOffset:3,CropWidth:2,CropHeight:2,ow:8,oh:8,tp:1	}
+	,
+	{
+		x:993,y:1014,w:2,h:2,XOffset:7,YOffset:7,CropWidth:2,CropHeight:2,ow:16,oh:16,tp:1	}
+	,
+	{
+		x:1011,y:1014,w:1,h:1,XOffset:0,YOffset:0,CropWidth:1,CropHeight:1,ow:8,oh:16,tp:1	}
+	,
+	{
+		x:1011,y:1014,w:1,h:1,XOffset:0,YOffset:0,CropWidth:1,CropHeight:1,ow:16,oh:16,tp:1	}
+	,
+	{
+		x:1011,y:1014,w:1,h:1,XOffset:0,YOffset:0,CropWidth:1,CropHeight:1,ow:8,oh:16,tp:1	}
+	,
+	{
+		x:1011,y:1014,w:1,h:1,XOffset:0,YOffset:0,CropWidth:1,CropHeight:1,ow:7,oh:11,tp:1	}
+	,
+	{
+		x:1011,y:1014,w:1,h:1,XOffset:0,YOffset:0,CropWidth:1,CropHeight:1,ow:16,oh:16,tp:1	}
 	],Textures:["limskito_texture_0.png","limskito_texture_1.png","limskito_texture_2.png","limskito_texture_3.png"],TexturesBlocks:[
 	{
 		MipsToGenerate:0	}
@@ -14004,7 +14004,7 @@ var JSON_game=
 		"subscription":"subscription","gx_mod_wallpaper":"gx_mod_wallpaper","gmrt-android":"gmrt-android","gmrt-linux":"gmrt-linux","gmrt-macos":"gmrt-macos","filt+fx":"filt+fx","intellisense":"intellisense","nullish":"nullish","login_sso":"login_sso","operagx-yyc":"operagx-yyc","gm-auth-login":"gm-auth-login","mqtt":"mqtt","audio-fx":"audio-fx","intellisense":"intellisense","test":"test","custom_env":"custom_env","filt+fx":"filt+fx","gx_mod_wallpaper":"gx_mod_wallpaper","gx_mod_gamestrip":"gx_mod_gamestrip","live_wallpaper_subscription":"live_wallpaper_subscription","code-editor":"code-editor","strip_unused_assets":"strip_unused_assets","update-process":"update-process","package-manager":"package-manager","prefab-library":"prefab-library","svg":"svg","reddit":"reddit","cronus":"cronus"	}
 	,Options:
 	{
-		debugMode:!1,AssetCompilerMajorVersion:2,AssetCompilerMinorVersion:0,AssetCompilerBuildVersion:0,GameSpeed:60,DrawColour:4294967295,xscreensize:400,yscreensize:288,gameId:0,gameGuid:"6e99d733-f729-4081-8d5d-ee22eb436bdf",fullScreen:!1,interpolatePixels:!0,showCursor:!0,scale:1,allowFullScreenKey:!1,freezeOnLostFocus:!1,showLoadingBar:!1,displayErrors:!1,writeErrors:!1,abortErrors:!1,variableErrors:!0,outputDebugToConsole:!0,WebGL:1,WebGLPreserveDrawingBuffer:0,CollisionCompatibility:!0,LegacyPrimitiveDrawing:!0,UseNewAudio:!0,GameDir:"html5game",Config:"Default",ViewColour:0,CreateEventOrder:!1,UseParticles:!1,UseBuiltinFont:!1,LocalRunAlert:!0,crc:0,ProjectName:"limskito",md5:[34,39,14,0,0,0,0,0,0,0,0,0,0,0,0,0],MajorVersion:1,MinorVersion:0,BuildVersion:0,RevisionVersion:0,DisplayName:"limskito",UseFBExtension:!1,tm:1789145278,AllowStatistics:"True",loadingBarCallback:"ImageLoadBar_hook"	}
+		debugMode:!1,AssetCompilerMajorVersion:2,AssetCompilerMinorVersion:0,AssetCompilerBuildVersion:0,GameSpeed:60,DrawColour:4294967295,xscreensize:400,yscreensize:288,gameId:0,gameGuid:"6e99d733-f729-4081-8d5d-ee22eb436bdf",fullScreen:!1,interpolatePixels:!0,showCursor:!0,scale:1,allowFullScreenKey:!1,freezeOnLostFocus:!1,showLoadingBar:!1,displayErrors:!1,writeErrors:!1,abortErrors:!1,variableErrors:!0,outputDebugToConsole:!0,WebGL:1,WebGLPreserveDrawingBuffer:0,CollisionCompatibility:!0,LegacyPrimitiveDrawing:!0,UseNewAudio:!0,GameDir:"html5game",Config:"Default",ViewColour:0,CreateEventOrder:!1,UseParticles:!1,UseBuiltinFont:!1,LocalRunAlert:!0,crc:0,ProjectName:"limskito",md5:[34,39,14,0,0,0,0,0,0,0,0,0,0,0,0,0],MajorVersion:1,MinorVersion:0,BuildVersion:0,RevisionVersion:0,DisplayName:"limskito",UseFBExtension:!1,tm:1789396046,AllowStatistics:"True",loadingBarCallback:"ImageLoadBar_hook"	}
 }
 ;
 
@@ -14575,6 +14575,7 @@ function gml_Script_pickup_init(_inst,_other,argument0)
 
 function gml_GlobalScript_entity_scripts(_inst,_other)
 {
+	(_inst.gmlent_move_collide=__yy_method(_inst,gml_Script_ent_move_collide));
 	(_inst.gmlget_ent_targets=__yy_method(_inst,gml_Script_get_ent_targets));
 	(_inst.gmlent_state_machine=__yy_method(_inst,gml_Script_ent_state_machine));
 	(_inst.gmlent_prestate_event=__yy_method(_inst,gml_Script_ent_prestate_event));
@@ -14585,6 +14586,80 @@ function gml_GlobalScript_entity_scripts(_inst,_other)
 	(_inst.gmlent_player_canhit=__yy_method(_inst,gml_Script_ent_player_canhit));
 	(_inst.gmlhurt_player=__yy_method(_inst,gml_Script_hurt_player));
 	(_inst.gmlent_add_knockback=__yy_method(_inst,gml_Script_ent_add_knockback));
+}
+
+function gml_Script_anon_40_345_40_ent_move_collide_40_entity_scripts(_inst,_other,argument0)
+{
+
+		{
+		if(yyGetBool(argument0))
+		{
+
+						{
+				_inst.gmlxvel=0;
+				_inst.gmlxvel_fract=0;
+			}
+		}
+		else 
+		{
+
+						{
+				_inst.gmlyvel=0;
+				_inst.gmlyvel_fract=0;
+			}
+		}
+		;
+	}
+}
+
+function gml_Script_ent_move_collide(_inst,_other,argument0,argument1)
+{
+
+		{
+		if(yyfequal(argument0,g_pBuiltIn.undefined))
+		{
+			argument0=(-1)		}
+		;
+	}
+
+		{
+		var gml_ignore_all=yyfequal(argument1,2);
+		var gml_ignore_plat=!yyGetBool(yyfequal(argument1,1));
+		var gml_collide;
+		if(yyfequal(argument0,(-1)))
+		{
+			var gml_collide=__yy_method(_inst,gml_Script_anon_40_345_40_ent_move_collide_40_entity_scripts)		}
+		else 
+		{
+			var gml_collide=argument0		}
+		;
+		gml_Script_round_vel(_inst,_other);
+		var gml_trueyvel=_inst.gmlyvel_int;
+		if(yyflessequal(_inst.y,(-32)))
+		{
+
+						{
+				gml_trueyvel=max(0,_inst.gmlyvel_int);
+			}
+		}
+		;
+		if(!yyGetBool(gml_Script_move_x(_inst,_other,_inst.gmlxvel_int,_inst,gml_ignore_all)))
+		{
+
+						{
+				__yyg_call_method(gml_collide)(_inst,_other,true);
+			}
+		}
+		;
+		if(!yyGetBool(gml_Script_move_y(_inst,_other,gml_trueyvel,_inst,gml_ignore_plat,gml_ignore_all)))
+		{
+
+						{
+				__yyg_call_method(gml_collide)(_inst,_other,false);
+			}
+		}
+		;
+	}
 }
 
 function gml_Script_get_ent_targets(_inst,_other,argument0)
@@ -14692,7 +14767,7 @@ function gml_Script_ent_spawnlist_index(_inst,_other)
 	}
 }
 
-function gml_Script_anon_40_2008_40_hurtData_40_entity_scripts(_inst,_other)
+function gml_Script_anon_40_2338_40_hurtData_40_entity_scripts(_inst,_other)
 {
 
 		{
@@ -14722,7 +14797,7 @@ function gml_Script_hurtData(_inst,_other,argument0)
 			if(!global.gml_Script_hurtData_prototype_yy_staticInitialiser)
 			{
 				global.gml_Script_hurtData_prototype_yy_staticInitialiser=true;
-				gml_Script_hurtData.prototype.gmlexists=__yy_method(undefined,gml_Script_anon_40_2008_40_hurtData_40_entity_scripts);
+				gml_Script_hurtData.prototype.gmlexists=__yy_method(undefined,gml_Script_anon_40_2338_40_hurtData_40_entity_scripts);
 			}
 			;
 			_inst.gmlhitcheck=yyfnotequal(argument0,(-4));
@@ -14839,7 +14914,7 @@ function gml_Script_ent_add_knockback(_inst,_other,argument0,argument1,argument2
 
 function gml_GlobalScript_game_init(_inst,_other)
 {
-	global.gmlkeys=(__yy_gml_array_create([65,68,87,83,32,16,74,69,75]));
+	global.gmlkeys=(__yy_gml_array_create([65,68,87,83,32,16,74,75,82]));
 	global.gmldefault_keys=variable_clone(global.gmlkeys);
 	global.gmlconfig=__yy_gml_object_create(_inst,(global.gml___struct___0=__yy_method(_inst,gml_Script____struct___0)));
 	global.gmlplayer_stats=__yy_gml_object_create(_inst,(global.gml___struct___1=__yy_method(_inst,gml_Script____struct___1)));
@@ -19326,7 +19401,7 @@ function gml_Script_pl_shoot_atk(_inst,_other)
 			;
 			_inst.gmlatk_dir=yyfmod(__yy_gml_errCheck(_inst.gmlatk_dir),360);
 			_inst.gmlatk_keydelay=(yyGetBool(_inst.gmlatk_keydelay)?yyfminus(__yy_gml_errCheck(_inst.gmlatk_keydelay),1):_inst.gmlatk_keydelay);
-			_inst.gmlatk_reloaddelay=((yyGetBool(_inst.gmlkshoot))&&(yyGetBool(_inst.gmlkdown))?10:(yyfgreater(_inst.gmlatk_reloaddelay,0)?yyfminus(__yy_gml_errCheck(_inst.gmlatk_reloaddelay),1):0));
+			_inst.gmlatk_reloaddelay=(yyGetBool(_inst.gmlkreload)?10:(yyfgreater(_inst.gmlatk_reloaddelay,0)?yyfminus(__yy_gml_errCheck(_inst.gmlatk_reloaddelay),1):0));
 			if(yyfequal(gmlatk_state_noshoot,false))
 			{
 				var ___sw100___=gml_firemode;
@@ -19401,11 +19476,11 @@ function gml_Script_pl_shoot_atk(_inst,_other)
 			{
 
 								{
-					if((yyGetBool(_inst.gmlatk_autoreload))&&(yyGetBool((yyGetBool(_inst.gmlatk_keydelay))&&(yyGetBool(!yyGetBool((yyGetBool(_inst.gmlkdown))&&(yyGetBool(_inst.gmlgrounded))))))))
+					if((yyGetBool(_inst.gmlatk_autoreload))&&(yyGetBool(_inst.gmlatk_keydelay)))
 					{
 						_inst.gmlatk_autoreload=false					}
 					;
-					if((yyGetBool(!yyGetBool(gml_nogun)))&&(yyGetBool(yyfless(_inst.gmlatk_ammo,gml_ammomax)))&&(yyGetBool((yyGetBool(_inst.gmlatk_autoreload))||(yyGetBool((yyGetBool(_inst.gmlkpshoot))&&(yyGetBool(!yyGetBool(_inst.gmlatk_ammo)))))||(yyGetBool((yyGetBool(_inst.gmlatk_reloaddelay))&&(yyGetBool((yyGetBool((yyGetBool(_inst.gmlground_w))&&(yyGetBool(!yyGetBool(_inst.gmlatk_ammo)))))||(yyGetBool(yyfgreaterequal(_inst.gmlground_timer,4))))))))))
+					if((yyGetBool(!yyGetBool(gml_nogun)))&&(yyGetBool(yyfless(_inst.gmlatk_ammo,gml_ammomax)))&&(yyGetBool((yyGetBool(_inst.gmlatk_autoreload))||(yyGetBool((yyGetBool(_inst.gmlkpshoot))&&(yyGetBool(!yyGetBool(_inst.gmlatk_ammo)))))||(yyGetBool(_inst.gmlatk_reloaddelay)))))
 					{
 
 												{
@@ -19457,7 +19532,6 @@ function gml_Script_pl_shoot_atk(_inst,_other)
 				}
 			}
 			;
-			gml_Script_pl_switch_gun(_inst,_other);
 			_inst.gmlatk_shoot_timer=(yyfgreater(_inst.gmlatk_shoot_timer,0)?yyfminus(__yy_gml_errCheck(_inst.gmlatk_shoot_timer),1):_inst.gmlatk_shoot_timer);
 			if((yyGetBool(yyflessequal(_inst.gmlatk_shoot_timer,0)))&&(yyGetBool(_inst.gmlatk_shots_left)))
 			{
@@ -19505,18 +19579,18 @@ function gml_Script_pl_shoot_atk(_inst,_other)
 						{
 							case 0:
 							{
-								if(yyfgreater(_inst.gmlyvel,1))
+								if(yyfgreater(_inst.gmlyvel,0.4))
 								{
-									_inst.gmlyvel=1								}
+									_inst.gmlyvel=0.4								}
 								;
 								break;
 							}
 							case 1:
 							{
-								_inst.gmlxvel=yyftime(_inst.gmlxvel,0.3);
-								if(yyfgreater(_inst.gmlyvel,0.2))
+								_inst.gmlxvel=yyftime(_inst.gmlxvel,0.2);
+								if(yyfgreater(_inst.gmlyvel,(-0.3)))
 								{
-									_inst.gmlyvel=0.2								}
+									_inst.gmlyvel=(-0.3)								}
 								;
 								break;
 							}
@@ -21704,25 +21778,7 @@ function gml_Object_oEnCoffin_Step_0(_inst,_other)
 		}
 	}
 	;
-	gml_Script_round_vel(_inst,_other);
-	if(!yyGetBool(gml_Script_move_x(_inst,_other,_inst.gmlxvel_int)))
-	{
-
-				{
-			_inst.gmlxvel=0;
-			_inst.gmlxvel_fract=0;
-		}
-	}
-	;
-	if(!yyGetBool(gml_Script_move_y(_inst,_other,_inst.gmlyvel_int,_inst,!yyGetBool(_inst.gmlent_no_platform))))
-	{
-
-				{
-			_inst.gmlyvel=0;
-			_inst.gmlyvel_fract=0;
-		}
-	}
-	;
+	gml_Script_ent_move_collide(_inst,_other,(-1),_inst.gmlent_no_platform);
 }
 
 function gml_Object_oEnDemonBomb_Create_0(_inst,_other)
@@ -21733,6 +21789,7 @@ function gml_Object_oEnDemonBomb_Create_0(_inst,_other)
 	_inst.gmlbasehp=_inst.gmlhp;
 	_inst.gmlm_xdir=1;
 	_inst.gmlm_ydir=1;
+	_inst.gmlent_no_platform=true;
 	_inst.gmlm_spd=2.7;
 	_inst.gmlm_acc=0.08;
 	_inst.gmlm_rand=irandom_range(0,59);
@@ -21742,8 +21799,8 @@ function gml_Object_oEnDemonBomb_Create_0(_inst,_other)
 	_inst.gmlsprite_anim=(-1);
 	_inst.gmlsprite_prev=(-1);
 	_inst.gml_enemystate=__yy_gml_object_create(_inst,(global.gml___struct___53=__yy_method(_inst,gml_Script____struct___53_40_gml_Object_oEnDemonBomb_Create_0)),5,6);
-	_inst.gmlhurt_callback=__yy_method(_inst,gml_Script_anon_40_368_40_gml_Object_oEnDemonBomb_Create_0);
-	_inst.gmldraw_event=__yy_method(_inst,gml_Script_anon_40_665_40_gml_Object_oEnDemonBomb_Create_0);
+	_inst.gmlhurt_callback=__yy_method(_inst,gml_Script_anon_40_392_40_gml_Object_oEnDemonBomb_Create_0);
+	_inst.gmldraw_event=__yy_method(_inst,gml_Script_anon_40_689_40_gml_Object_oEnDemonBomb_Create_0);
 }
 
 function gml_Script____struct___53_40_gml_Object_oEnDemonBomb_Create_0(_inst,_other)
@@ -21775,7 +21832,7 @@ function gml_Script____struct___53_40_gml_Object_oEnDemonBomb_Create_0(_inst,_ot
 	}
 }
 
-function gml_Script_anon_40_368_40_gml_Object_oEnDemonBomb_Create_0(_inst,_other)
+function gml_Script_anon_40_392_40_gml_Object_oEnDemonBomb_Create_0(_inst,_other)
 {
 
 		{
@@ -21786,7 +21843,7 @@ function gml_Script_anon_40_368_40_gml_Object_oEnDemonBomb_Create_0(_inst,_other
 	}
 }
 
-function gml_Script_anon_40_665_40_gml_Object_oEnDemonBomb_Create_0(_inst,_other)
+function gml_Script_anon_40_689_40_gml_Object_oEnDemonBomb_Create_0(_inst,_other)
 {
 
 		{
@@ -22076,25 +22133,31 @@ function gml_Object_oEnDemonBomb_Step_0(_inst,_other)
 		}
 	}
 	;
-	gml_Script_round_vel(_inst,_other);
-	if(!yyGetBool(gml_Script_move_x(_inst,_other,_inst.gmlxvel_int)))
-	{
+	gml_Script_ent_move_collide(_inst,_other,__yy_method(_inst,gml_Script_anon_40_4387_40_gml_Object_oEnDemonBomb_Step_0),_inst.gmlent_no_platform);
+}
 
-				{
-			_inst.gmlxvel=0;
-			_inst.gmlxvel_fract=0;
-		}
-	}
-	;
-	if(!yyGetBool(gml_Script_move_y(_inst,_other,_inst.gmlyvel_int,_inst,false)))
-	{
+function gml_Script_anon_40_4387_40_gml_Object_oEnDemonBomb_Step_0(_inst,_other,argument0)
+{
 
-				{
-			_inst.gmlyvel=(yyfgreaterequal(abs(_inst.gmlyvel),1)?yyftime(__yy_gml_errCheck(__yy_gml_errCheck(-__yy_gml_errCheck(_inst.gmlyvel))),0.4):0);
-			_inst.gmlyvel_fract=0;
+		{
+		if(yyGetBool(argument0))
+		{
+
+						{
+				_inst.gmlxvel=0;
+				_inst.gmlxvel_fract=0;
+			}
 		}
+		else 
+		{
+
+						{
+				_inst.gmlyvel=(yyfgreaterequal(abs(_inst.gmlyvel),1)?yyftime(__yy_gml_errCheck(__yy_gml_errCheck(-__yy_gml_errCheck(_inst.gmlyvel))),0.4):0);
+				_inst.gmlyvel_fract=0;
+			}
+		}
+		;
 	}
-	;
 }
 
 function gml_Object_oEnDemonSnake_Create_0(_inst,_other)
@@ -22108,14 +22171,15 @@ function gml_Object_oEnDemonSnake_Create_0(_inst,_other)
 	_inst.gmlm_dirlerp=0;
 	_inst.gmlm_dirlerp_prev=0;
 	_inst.gmlm_dirlerp_timer=0;
+	_inst.gmlent_no_platform=true;
 	_inst.gmlenemy_segment=0;
 	_inst.gmlenemy_follow=(-4);
 	_inst.gmlenemy_followed=(-4);
 	_inst.gmlenemy_amount=15;
-	_inst.gmldraw_event=__yy_method(_inst,gml_Script_anon_40_302_40_gml_Object_oEnDemonSnake_Create_0);
+	_inst.gmldraw_event=__yy_method(_inst,gml_Script_anon_40_326_40_gml_Object_oEnDemonSnake_Create_0);
 }
 
-function gml_Script_anon_40_302_40_gml_Object_oEnDemonSnake_Create_0(_inst,_other)
+function gml_Script_anon_40_326_40_gml_Object_oEnDemonSnake_Create_0(_inst,_other)
 {
 
 		{
@@ -22279,25 +22343,7 @@ function gml_Object_oEnDemonSnake_Step_0(_inst,_other)
 		}
 	}
 	;
-	gml_Script_round_vel(_inst,_other);
-	if(!yyGetBool(gml_Script_move_x(_inst,_other,_inst.gmlxvel_int)))
-	{
-
-				{
-			_inst.gmlxvel=0;
-			_inst.gmlxvel_fract=0;
-		}
-	}
-	;
-	if(!yyGetBool(gml_Script_move_y(_inst,_other,_inst.gmlyvel_int,_inst,false)))
-	{
-
-				{
-			_inst.gmlyvel=0;
-			_inst.gmlyvel_fract=0;
-		}
-	}
-	;
+	gml_Script_ent_move_collide(_inst,_other,(-1),_inst.gmlent_no_platform);
 }
 
 function gml_Object_oEnDemonSnakeBody_Create_0(_inst,_other)
@@ -22306,6 +22352,7 @@ function gml_Object_oEnDemonSnakeBody_Create_0(_inst,_other)
 	_inst.gmlhp=4;
 	_inst.gmlbasehp=_inst.gmlhp;
 	_inst.gmlent_visible=false;
+	_inst.gmlent_no_platform=true;
 	_inst.gmlm_dir=0;
 	_inst.gmlm_spd=2.4;
 	_inst.gmlm_acc=0.08;
@@ -22314,11 +22361,11 @@ function gml_Object_oEnDemonSnakeBody_Create_0(_inst,_other)
 	_inst.gmlenemy_followed=(-4);
 	_inst.gmlenemy_pos_queue=ds_queue_create();
 	_inst.gmlenemy_amount=15;
-	_inst.gmlhurt_callback=__yy_method(_inst,gml_Script_anon_40_268_40_gml_Object_oEnDemonSnakeBody_Create_0);
-	_inst.gmldraw_event=__yy_method(_inst,gml_Script_anon_40_334_40_gml_Object_oEnDemonSnakeBody_Create_0);
+	_inst.gmlhurt_callback=__yy_method(_inst,gml_Script_anon_40_292_40_gml_Object_oEnDemonSnakeBody_Create_0);
+	_inst.gmldraw_event=__yy_method(_inst,gml_Script_anon_40_358_40_gml_Object_oEnDemonSnakeBody_Create_0);
 }
 
-function gml_Script_anon_40_268_40_gml_Object_oEnDemonSnakeBody_Create_0(_inst,_other)
+function gml_Script_anon_40_292_40_gml_Object_oEnDemonSnakeBody_Create_0(_inst,_other)
 {
 
 		{
@@ -22326,7 +22373,7 @@ function gml_Script_anon_40_268_40_gml_Object_oEnDemonSnakeBody_Create_0(_inst,_
 	}
 }
 
-function gml_Script_anon_40_334_40_gml_Object_oEnDemonSnakeBody_Create_0(_inst,_other)
+function gml_Script_anon_40_358_40_gml_Object_oEnDemonSnakeBody_Create_0(_inst,_other)
 {
 
 		{
@@ -22488,25 +22535,7 @@ function gml_Object_oEnDemonSnakeBody_Step_0(_inst,_other)
 		}
 	}
 	;
-	gml_Script_round_vel(_inst,_other);
-	if(!yyGetBool(gml_Script_move_x(_inst,_other,_inst.gmlxvel_int)))
-	{
-
-				{
-			_inst.gmlxvel=0;
-			_inst.gmlxvel_fract=0;
-		}
-	}
-	;
-	if(!yyGetBool(gml_Script_move_y(_inst,_other,_inst.gmlyvel_int,_inst,false)))
-	{
-
-				{
-			_inst.gmlyvel=0;
-			_inst.gmlyvel_fract=0;
-		}
-	}
-	;
+	gml_Script_ent_move_collide(_inst,_other,(-1),_inst.gmlent_no_platform);
 }
 
 function gml_Object_oEnDemonSnakeBody_CleanUp_0(_inst,_other)
@@ -22522,16 +22551,17 @@ function gml_Object_oEnDrippler_Create_0(_inst,_other)
 	event_inherited(_inst,_other);
 	_inst.gmlhp=23;
 	_inst.gmlbasehp=_inst.gmlhp;
+	_inst.gmlent_no_platform=true;
 	_inst.gmlm_move=false;
 	_inst.gmlm_xdir=1;
 	_inst.gmlm_ydir=0;
 	_inst.gmlm_fxdir=0;
 	_inst.gmlm_ytimer=yyftime(__yy_gml_errCheck(irandom_range(1,3)),30);
 	_inst.gmlatk_timer=irandom_range(30,45);
-	_inst.gmldraw_event=__yy_method(_inst,gml_Script_anon_40_192_40_gml_Object_oEnDrippler_Create_0);
+	_inst.gmldraw_event=__yy_method(_inst,gml_Script_anon_40_216_40_gml_Object_oEnDrippler_Create_0);
 }
 
-function gml_Script_anon_40_192_40_gml_Object_oEnDrippler_Create_0(_inst,_other)
+function gml_Script_anon_40_216_40_gml_Object_oEnDrippler_Create_0(_inst,_other)
 {
 
 		{
@@ -22612,7 +22642,13 @@ function gml_Object_oEnDrippler_Step_0(_inst,_other)
 					{
 						_inst.gmlm_move=true					}
 					;
-					_inst.gmlm_ydir=((yyGetBool(yyfgreaterequal(_inst.y,yyfplus(__yy_gml_errCheck(gml_yref),96))))||(yyGetBool(yyfgreaterequal(_inst.y,yyInst(_inst,_other,_inst.gmltarget).y)))?(-1):(yyfless(_inst.y,yyfplus(__yy_gml_errCheck(gml_yref),32))?1:choose(0.5,0,(-0.5))));
+					if((yyGetBool(yyfgreaterequal(_inst.y,yyfplus(__yy_gml_errCheck(gml_yref),96))))||(yyGetBool(yyfgreaterequal(_inst.y,yyInst(_inst,_other,_inst.gmltarget).y))))
+					{
+						_inst.gmlm_ydir=(-1)					}
+					else 
+					{
+						_inst.gmlm_ydir=(yyfless(_inst.y,yyfplus(__yy_gml_errCheck(gml_yref),32))?2:choose(0.5,0,(-0.5)))					}
+					;
 					_inst.gmlm_ytimer=yyftime(__yy_gml_errCheck(irandom_range(1,4)),15);
 				}
 			}
@@ -22677,25 +22713,7 @@ function gml_Object_oEnDrippler_Step_0(_inst,_other)
 		}
 	}
 	;
-	gml_Script_round_vel(_inst,_other);
-	if(!yyGetBool(gml_Script_move_x(_inst,_other,_inst.gmlxvel_int)))
-	{
-
-				{
-			_inst.gmlxvel=0;
-			_inst.gmlxvel_fract=0;
-		}
-	}
-	;
-	if(!yyGetBool(gml_Script_move_y(_inst,_other,_inst.gmlyvel_int,_inst,!yyGetBool(_inst.gmlent_no_platform))))
-	{
-
-				{
-			_inst.gmlyvel=0;
-			_inst.gmlyvel_fract=0;
-		}
-	}
-	;
+	gml_Script_ent_move_collide(_inst,_other,(-1),_inst.gmlent_no_platform);
 }
 
 function gml_Object_oEnemy_Create_0(_inst,_other)
@@ -22795,25 +22813,7 @@ function gml_Object_oEnemy_Step_0(_inst,_other)
 		}
 	}
 	;
-	gml_Script_round_vel(_inst,_other);
-	if(!yyGetBool(gml_Script_move_x(_inst,_other,_inst.gmlxvel_int)))
-	{
-
-				{
-			_inst.gmlxvel=0;
-			_inst.gmlxvel_fract=0;
-		}
-	}
-	;
-	if(!yyGetBool(gml_Script_move_y(_inst,_other,_inst.gmlyvel_int,_inst,!yyGetBool(_inst.gmlent_no_platform))))
-	{
-
-				{
-			_inst.gmlyvel=0;
-			_inst.gmlyvel_fract=0;
-		}
-	}
-	;
+	gml_Script_ent_move_collide(_inst,_other,(-1),_inst.gmlent_no_platform);
 }
 
 function gml_Object_oEnemy_Draw_0(_inst,_other)
@@ -23098,7 +23098,7 @@ function gml_Object_oEnEvilBalloon_Step_0(_inst,_other)
 			}
 			;
 			_inst.gmlyvel=gml_Script_approach(_inst,_other,_inst.gmlyvel,(-1),0.02);
-			if(yyfless(_inst.y,(-32)))
+			if(yyfless(_inst.y,(-16)))
 			{
 				instance_destroy(_inst)			}
 			;
@@ -23120,9 +23120,7 @@ function gml_Object_oEnEvilBalloon_Step_0(_inst,_other)
 		}
 	}
 	;
-	gml_Script_round_vel(_inst,_other);
-	gml_Script_move_x(_inst,_other,_inst.gmlxvel_int,_inst,true);
-	gml_Script_move_y(_inst,_other,_inst.gmlyvel_int,_inst,false,true);
+	gml_Script_ent_move_collide(_inst,_other,(-1),2);
 }
 
 function gml_Object_oEnExploder_Step_0(_inst,_other)
@@ -23373,7 +23371,7 @@ function gml_Object_oEnExploder_Step_0(_inst,_other)
 								__yy__v60.mask_index=_inst.mask_index;
 								__yy__v60.gmlxsprite=_inst.gmlxsprite;
 								__yy__v60.gmltimer=75;
-								__yy__v60.gmlcollision_call=__yy_method(__yy__v60,gml_Script_anon_40_4375_40_gml_Object_oEnExploder_Step_0);
+								__yy__v60.gmlcollision_call=__yy_method(__yy__v60,gml_Script_anon_40_4384_40_gml_Object_oEnExploder_Step_0);
 							}
 						}
 					}
@@ -23423,28 +23421,10 @@ function gml_Object_oEnExploder_Step_0(_inst,_other)
 		}
 	}
 	;
-	gml_Script_round_vel(_inst,_other);
-	if(!yyGetBool(gml_Script_move_x(_inst,_other,_inst.gmlxvel_int)))
-	{
-
-				{
-			_inst.gmlxvel=0;
-			_inst.gmlxvel_fract=0;
-		}
-	}
-	;
-	if(!yyGetBool(gml_Script_move_y(_inst,_other,_inst.gmlyvel_int,_inst,!yyGetBool(_inst.gmlent_no_platform))))
-	{
-
-				{
-			_inst.gmlyvel=0;
-			_inst.gmlyvel_fract=0;
-		}
-	}
-	;
+	gml_Script_ent_move_collide(_inst,_other,(-1),_inst.gmlent_no_platform);
 }
 
-function gml_Script_anon_40_4375_40_gml_Object_oEnExploder_Step_0(_inst,_other)
+function gml_Script_anon_40_4384_40_gml_Object_oEnExploder_Step_0(_inst,_other)
 {
 
 		{
@@ -23731,25 +23711,7 @@ function gml_Object_oEnGhostshot_Step_0(_inst,_other)
 		}
 	}
 	;
-	gml_Script_round_vel(_inst,_other);
-	if(!yyGetBool(gml_Script_move_x(_inst,_other,_inst.gmlxvel_int)))
-	{
-
-				{
-			_inst.gmlxvel=0;
-			_inst.gmlxvel_fract=0;
-		}
-	}
-	;
-	if(!yyGetBool(gml_Script_move_y(_inst,_other,_inst.gmlyvel_int,_inst,!yyGetBool(_inst.gmlent_no_platform))))
-	{
-
-				{
-			_inst.gmlyvel=0;
-			_inst.gmlyvel_fract=0;
-		}
-	}
-	;
+	gml_Script_ent_move_collide(_inst,_other,(-1),_inst.gmlent_no_platform);
 }
 
 function gml_Object_oEnLeaper_Create_0(_inst,_other)
@@ -24629,7 +24591,7 @@ function gml_Object_oEnZombie_Step_0(_inst,_other)
 								__yy__v63.mask_index=_inst.mask_index;
 								__yy__v63.gmlxsprite=_inst.gmlxsprite;
 								__yy__v63.gmltimer=75;
-								__yy__v63.gmlcollision_call=__yy_method(__yy__v63,gml_Script_anon_40_5869_40_gml_Object_oEnZombie_Step_0);
+								__yy__v63.gmlcollision_call=__yy_method(__yy__v63,gml_Script_anon_40_5878_40_gml_Object_oEnZombie_Step_0);
 							}
 						}
 					}
@@ -24661,28 +24623,10 @@ function gml_Object_oEnZombie_Step_0(_inst,_other)
 		}
 	}
 	;
-	gml_Script_round_vel(_inst,_other);
-	if(!yyGetBool(gml_Script_move_x(_inst,_other,_inst.gmlxvel_int)))
-	{
-
-				{
-			_inst.gmlxvel=0;
-			_inst.gmlxvel_fract=0;
-		}
-	}
-	;
-	if(!yyGetBool(gml_Script_move_y(_inst,_other,_inst.gmlyvel_int,_inst,!yyGetBool(_inst.gmlent_no_platform))))
-	{
-
-				{
-			_inst.gmlyvel=0;
-			_inst.gmlyvel_fract=0;
-		}
-	}
-	;
+	gml_Script_ent_move_collide(_inst,_other,(-1),_inst.gmlent_no_platform);
 }
 
-function gml_Script_anon_40_5869_40_gml_Object_oEnZombie_Step_0(_inst,_other)
+function gml_Script_anon_40_5878_40_gml_Object_oEnZombie_Step_0(_inst,_other)
 {
 
 		{
@@ -24812,32 +24756,38 @@ function gml_Object_oFloatUmbrella_Step_0(_inst,_other)
 		}
 	}
 	;
-	gml_Script_round_vel(_inst,_other);
-	if(!yyGetBool(gml_Script_move_x(_inst,_other,_inst.gmlxvel_int)))
-	{
+	gml_Script_ent_move_collide(_inst,_other,__yy_method(_inst,gml_Script_anon_40_407_40_gml_Object_oFloatUmbrella_Step_0),1);
+}
 
-				{
-			_inst.gmlx_dir=__yy_gml_errCheck(-__yy_gml_errCheck(gml_Script_wall_on_side(_inst,_other,1)));
-			if(yyfgreaterequal(abs(_inst.gmlxvel),0.3))
-			{
-				_inst.gmlxvel=yyftime(__yy_gml_errCheck(_inst.gmlx_dir),__yy_gml_errCheck(_inst.gmlm_spd))			}
-			else 
-			{
-				_inst.gmlxvel=0			}
-			;
-			_inst.gmlxvel_fract=0;
-		}
-	}
-	;
-	if(!yyGetBool(gml_Script_move_y(_inst,_other,_inst.gmlyvel_int)))
-	{
+function gml_Script_anon_40_407_40_gml_Object_oFloatUmbrella_Step_0(_inst,_other,argument0)
+{
 
+		{
+		if(yyGetBool(argument0))
+		{
+
+						{
+				_inst.gmlx_dir=__yy_gml_errCheck(-__yy_gml_errCheck(gml_Script_wall_on_side(_inst,_other,1)));
+				if(yyfgreaterequal(abs(_inst.gmlxvel),0.3))
 				{
-			_inst.gmlyvel=0;
-			_inst.gmlyvel_fract=0;
+					_inst.gmlxvel=yyftime(__yy_gml_errCheck(_inst.gmlx_dir),__yy_gml_errCheck(_inst.gmlm_spd))				}
+				else 
+				{
+					_inst.gmlxvel=0				}
+				;
+				_inst.gmlxvel_fract=0;
+			}
 		}
+		else 
+		{
+
+						{
+				_inst.gmlyvel=0;
+				_inst.gmlyvel_fract=0;
+			}
+		}
+		;
 	}
-	;
 }
 
 function gml_Object_oFloatUmbrella_Draw_0(_inst,_other)
@@ -27793,9 +27743,7 @@ function gml_Object_oGiftFlying_Step_0(_inst,_other)
 	_inst.gmlxvel=gml_Script_approach(_inst,_other,_inst.gmlxvel,yyftime(__yy_gml_errCheck(_inst.gmlm_dir),__yy_gml_errCheck(_inst.gmlm_spd)),0.02);
 	_inst.gmlyvel=gml_Script_approach(_inst,_other,_inst.gmlyvel,yyftime(__yy_gml_errCheck(__yy_gml_errCheck(-__yy_gml_errCheck(dsin(yyftime(__yy_gml_errCheck(_inst.gmlfx_timer),1.4))))),0.5),0.12);
 	_inst.gmlfx_timer=(_inst.gmlfx_timer instanceof Long?_inst.gmlfx_timer.add(1):++_inst.gmlfx_timer);
-	gml_Script_round_vel(_inst,_other);
-	gml_Script_move_x(_inst,_other,_inst.gmlxvel_int,_inst,true);
-	gml_Script_move_y(_inst,_other,_inst.gmlyvel_int,_inst,false,true);
+	gml_Script_ent_move_collide(_inst,_other,(-1),2);
 }
 
 function gml_Object_oGiftFlying_Draw_0(_inst,_other)
@@ -28243,10 +28191,11 @@ function gml_Object_oPlayer_Step_0(_inst,_other)
 	_inst.gmlkshoot=keyboard_check(global.gmlkeys[__yy_gml_array_check_index(6,global.gmlkeys)]);
 	_inst.gmlkreload=keyboard_check(global.gmlkeys[__yy_gml_array_check_index(8,global.gmlkeys)]);
 	_inst.gmlkpdash=keyboard_check_pressed(global.gmlkeys[__yy_gml_array_check_index(5,global.gmlkeys)]);
+	_inst.gmlkalt=keyboard_check(global.gmlkeys[__yy_gml_array_check_index(7,global.gmlkeys)]);
 	_inst.gmlkpalt=keyboard_check_pressed(global.gmlkeys[__yy_gml_array_check_index(7,global.gmlkeys)]);
 	_inst.gmlxaxis=yyfminus(__yy_gml_errCheck(_inst.gmlkright),__yy_gml_errCheck(_inst.gmlkleft));
 	_inst.gmlyaxis=yyfminus(__yy_gml_errCheck(_inst.gmlkdown),__yy_gml_errCheck(_inst.gmlkup));
-	_inst.gmlaim_hold=_inst.gmlkreload;
+	_inst.gmlaim_hold=_inst.gmlkalt;
 	_inst.gmlgrounded=gml_Script_on_ground(_inst,_other);
 	if(yyfnotequal(_inst.gmlstate_current,kgml_Script_pl_state_hurt))
 	{
@@ -28863,25 +28812,7 @@ function gml_Object_oPropBomb_Step_0(_inst,_other)
 	{
 		_inst.gmlbomb_active=true	}
 	;
-	gml_Script_round_vel(_inst,_other);
-	if(!yyGetBool(gml_Script_move_x(_inst,_other,_inst.gmlxvel_int)))
-	{
-
-				{
-			_inst.gmlxvel=0;
-			_inst.gmlxvel_fract=0;
-		}
-	}
-	;
-	if(!yyGetBool(gml_Script_move_y(_inst,_other,_inst.gmlyvel_int,_inst,!yyGetBool(_inst.gmlent_no_platform))))
-	{
-
-				{
-			_inst.gmlyvel=0;
-			_inst.gmlyvel_fract=0;
-		}
-	}
-	;
+	gml_Script_ent_move_collide(_inst,_other,(-1),_inst.gmlent_no_platform);
 }
 
 function gml_Script_anon_40_346_40_gml_Object_oPropBomb_Step_0(_inst,_other,argument0)
@@ -28984,25 +28915,7 @@ function gml_Object_oPropNuke_Step_0(_inst,_other)
 		}
 	}
 	;
-	gml_Script_round_vel(_inst,_other);
-	if(!yyGetBool(gml_Script_move_x(_inst,_other,_inst.gmlxvel_int)))
-	{
-
-				{
-			_inst.gmlxvel=0;
-			_inst.gmlxvel_fract=0;
-		}
-	}
-	;
-	if(!yyGetBool(gml_Script_move_y(_inst,_other,_inst.gmlyvel_int,_inst,!yyGetBool(_inst.gmlent_no_platform))))
-	{
-
-				{
-			_inst.gmlyvel=0;
-			_inst.gmlyvel_fract=0;
-		}
-	}
-	;
+	gml_Script_ent_move_collide(_inst,_other,(-1),_inst.gmlent_no_platform);
 }
 
 function gml_Script_anon_40_328_40_gml_Object_oPropNuke_Step_0(_inst,_other,argument0)
@@ -29459,25 +29372,7 @@ function gml_Object_oWaveTrigger_Step_0(_inst,_other)
 	{
 		instance_destroy(_inst)	}
 	;
-	gml_Script_round_vel(_inst,_other);
-	if(!yyGetBool(gml_Script_move_x(_inst,_other,_inst.gmlxvel_int)))
-	{
-
-				{
-			_inst.gmlxvel=0;
-			_inst.gmlxvel_fract=0;
-		}
-	}
-	;
-	if(!yyGetBool(gml_Script_move_y(_inst,_other,_inst.gmlyvel_int)))
-	{
-
-				{
-			_inst.gmlyvel=0;
-			_inst.gmlyvel_fract=0;
-		}
-	}
-	;
+	gml_Script_ent_move_collide(_inst,_other,(-1),0);
 }
 
 function gml_Object_oWaveTrigger_Draw_0(_inst,_other)
@@ -29689,10 +29584,10 @@ function gmlGameEndScripts()
 Tags=["@@constructor","PARENT"];
 IDToTagList=[
 {
-	key:83986114,ids:[0]}
+	key:83986116,ids:[0]}
 ,
 {
-	key:83986133,ids:[0]}
+	key:83986135,ids:[0]}
 ,
 {
 	key:18,ids:[1]}
@@ -29724,8 +29619,8 @@ IDToTagList=[
 {
 	key:70,ids:[1]}
 ];
-JSON_game.ScriptNames=["gml_GlobalScript_all_macros","gml_GlobalScript_angle_lerp","gml_Script_angle_lerp","gml_GlobalScript_animation_end","gml_Script_animation_end","gml_GlobalScript_approach","gml_Script_approach","gml_GlobalScript_audio_play_sfx","gml_Script_audio_play_sfx","gml_GlobalScript_entity_inits","gml_Script_platformer_init","gml_Script_entity_init","gml_Script_anon@790@hittable_init@entity_inits","gml_Script_anon@961@hittable_init@entity_inits","gml_Script_hittable_init","gml_Script_anon@1310@hittablewall_init@entity_inits","gml_Script_anon@1365@hittablewall_init@entity_inits","gml_Script_hittablewall_init","gml_Script_anon@1750@player_init@entity_inits","gml_Script_player_init","gml_Script_anon@2392@prop_init@entity_inits","gml_Script_anon@2716@prop_init@entity_inits","gml_Script_prop_init","gml_Script_enemy_init","gml_Script_projectile_init","gml_Script_hitbox_init","gml_Script_pickup_init","gml_GlobalScript_entity_scripts","gml_Script_get_ent_targets","gml_Script_ent_state_machine","gml_Script_ent_prestate_event","gml_Script_ent_death_event","gml_Script_ent_spawnlist_index","gml_Script_anon@2008@hurtData@entity_scripts","gml_Script_hurtData","gml_Script_hurt_entity","gml_Script_ent_player_canhit","gml_Script_hurt_player","gml_Script_ent_add_knockback","gml_GlobalScript_game_init","gml_Script____struct___0","gml_Script____struct___1","gml_Script____struct___2","gml_Script_game_init","gml_Script_load_playerdata","gml_Script____struct___3@save_settings@game_init","gml_Script_save_settings","gml_Script____struct___4@save_playerdata@game_init","gml_Script_save_playerdata","gml_Script_choose_weighted","gml_Script_outside_view","gml_Script_sqr_ceil","gml_Script_anon@5557@color@game_init","gml_Script_color","gml_Script_draw_key_tip","gml_Script_timer_show","gml_GlobalScript_gmcallback_imgloadbar","gml_Script_gmcallback_imgloadbar","gml_GlobalScript_gun_struct","gml_Script_get_gun_sprite","gml_Script_get_gun_name","gml_Script_get_gun","gml_Script____struct___8@___struct___7@___struct___6@___struct___5@gun_struct","gml_Script____struct___9@___struct___7@___struct___6@___struct___5@gun_struct","gml_Script____struct___7@___struct___6@___struct___5@gun_struct","gml_Script____struct___6@___struct___5@gun_struct","gml_Script____struct___14@___struct___13@___struct___12@___struct___5@gun_struct","gml_Script____struct___15@___struct___13@___struct___12@___struct___5@gun_struct","gml_Script____struct___13@___struct___12@___struct___5@gun_struct","gml_Script____struct___16@___struct___12@___struct___5@gun_struct","gml_Script____struct___12@___struct___5@gun_struct","gml_Script____struct___20@___struct___19@___struct___18@___struct___5@gun_struct","gml_Script____struct___21@___struct___19@___struct___18@___struct___5@gun_struct","gml_Script____struct___19@___struct___18@___struct___5@gun_struct","gml_Script____struct___18@___struct___5@gun_struct","gml_Script____struct___26@___struct___25@___struct___24@___struct___5@gun_struct","gml_Script____struct___27@___struct___25@___struct___24@___struct___5@gun_struct","gml_Script____struct___25@___struct___24@___struct___5@gun_struct","gml_Script____struct___28@___struct___24@___struct___5@gun_struct","gml_Script____struct___24@___struct___5@gun_struct","gml_Script____struct___32@___struct___31@___struct___30@___struct___5@gun_struct","gml_Script____struct___33@___struct___31@___struct___30@___struct___5@gun_struct","gml_Script____struct___31@___struct___30@___struct___5@gun_struct","gml_Script____struct___30@___struct___5@gun_struct","gml_Script____struct___38@___struct___37@___struct___36@___struct___5@gun_struct","gml_Script____struct___39@___struct___37@___struct___36@___struct___5@gun_struct","gml_Script____struct___37@___struct___36@___struct___5@gun_struct","gml_Script____struct___36@___struct___5@gun_struct","gml_Script____struct___44@___struct___43@___struct___42@___struct___5@gun_struct","gml_Script____struct___45@___struct___43@___struct___42@___struct___5@gun_struct","gml_Script____struct___43@___struct___42@___struct___5@gun_struct","gml_Script____struct___42@___struct___5@gun_struct","gml_Script____struct___5","gml_GlobalScript_key_get_string","gml_Script_key_get_string","gml_GlobalScript_listloop","gml_Script_listloop","gml_GlobalScript_menu_options_init","gml_Script____struct___48@menu_options_init@menu_options_init","gml_Script_menu_options_init","gml_Script____struct___49@pause_menu_options_init@menu_options_init","gml_Script_pause_menu_options_init","gml_Script____struct___50@game_over_optioms_init@menu_options_init","gml_Script_game_over_optioms_init","gml_Script_options_change","gml_Script_anon@6362@menu_options_draw@menu_options_init","gml_Script_anon@6778@menu_options_draw@menu_options_init","gml_Script_anon@7499@menu_options_draw@menu_options_init","gml_Script_anon@7977@menu_options_draw@menu_options_init","gml_Script_anon@8748@menu_options_draw@menu_options_init","gml_Script_anon@9282@menu_options_draw@menu_options_init","gml_Script_anon@9633@menu_options_draw@menu_options_init","gml_Script_anon@10023@menu_options_draw@menu_options_init","gml_Script_menu_options_draw","gml_GlobalScript_platformer_scripts","gml_Script_on_ground","gml_Script_on_wall","gml_Script_on_slope","gml_Script_on_platform","gml_Script_move_x","gml_Script_wall_above","gml_Script_move_y","gml_Script_round_vel","gml_Script_slope_move","gml_Script_wall_on_side","gml_Script_on_top","gml_Script_coll_x","gml_Script_coll_y","gml_Script_move_platform_x","gml_Script_move_platform_y","gml_Script_coll_x_list","gml_Script_coll_y_list","gml_Script_instances_reset_position","gml_Script_instances_update_previous_position","gml_GlobalScript_player_scripts","gml_Script_pl_hurt_player","gml_Script_pl_post_state","gml_GlobalScript_player_shoot_atk","gml_Script_pl_obtain_gun","gml_Script_pl_switch_gun","gml_Script_pl_shoot_atk","gml_GlobalScript_player_states","gml_Script_pl_jump","gml_Script_anon@4045@pl_state_free@player_states","gml_Script_pl_state_free","gml_Script_pl_state_dash","gml_Script_pl_state_room_exit","gml_Script_pl_state_room_enter","gml_Script_pl_state_hurt","gml_GlobalScript_set_new_room","gml_Script_room_get_type","gml_Script_set_new_room","gml_Script_anon@136@gml_Object_oBulBlood_Create_0","gml_Script_anon@269@gml_Object_oBulBlood_Create_0","gml_Script_anon@375@gml_Object_oBulBlood_Create_0","gml_Script_anon@130@gml_Object_oBulFlak_Create_0","gml_Script_anon@485@gml_Object_oBulFlak_Create_0","gml_Script_anon@730@gml_Object_oBulFlak_Create_0","gml_Script_anon@877@gml_Object_oBulFlak_Create_0","gml_Script_anon@139@gml_Object_oBulFlyingBomb_Create_0","gml_Script_anon@283@gml_Object_oBulFlyingBomb_Create_0","gml_Script_anon@74@gml_Object_oBulSkull_Create_0","gml_Script_anon@373@gml_Object_oBulSkull_Create_0","gml_Script_anon@43@gml_Object_oDoorTest_Create_0","gml_Script____struct___51@gml_Object_oEnClatter_Create_0","gml_Script_anon@244@gml_Object_oEnClatter_Create_0","gml_Script____struct___52@gml_Object_oEnCoffin_Create_0","gml_Script_anon@402@gml_Object_oEnCoffin_Create_0","gml_Script____struct___53@gml_Object_oEnDemonBomb_Create_0","gml_Script_anon@368@gml_Object_oEnDemonBomb_Create_0","gml_Script_anon@665@gml_Object_oEnDemonBomb_Create_0","gml_Script_anon@302@gml_Object_oEnDemonSnake_Create_0","gml_Script_anon@268@gml_Object_oEnDemonSnakeBody_Create_0","gml_Script_anon@334@gml_Object_oEnDemonSnakeBody_Create_0","gml_Script_anon@192@gml_Object_oEnDrippler_Create_0","gml_Script_anon@97@gml_Object_oEnemyBullet_Create_0","gml_Script_anon@253@gml_Object_oEnemyBullet_Create_0","gml_Script_anon@375@gml_Object_oEnemyBullet_Create_0","gml_Script_anon@182@gml_Object_oEnEvilBalloon_Create_0","gml_Script_anon@4375@gml_Object_oEnExploder_Step_0","gml_Script____struct___54@gml_Object_oEnGhostshot_Create_0","gml_Script_anon@294@gml_Object_oEnGhostshot_Create_0","gml_Script____struct___55@gml_Object_oEnLeaper_Create_0","gml_Script_anon@170@gml_Object_oEntRisingWall_Create_0","gml_Script____struct___56@gml_Object_oEnZombie_Create_0","gml_Script_anon@474@gml_Object_oEnZombie_Create_0","gml_Script_anon@5869@gml_Object_oEnZombie_Step_0","gml_Script_anon@304@gml_Object_oExplosion_Step_0","gml_Script_anon@102@gml_Object_oFloatUmbrella_Create_0","gml_Script_anon@231@gml_Object_oFxGib_Create_0","gml_Script_anon@130@gml_Object_oGamePause_Create_0","gml_Script_anon@548@gml_Object_oGamePause_Create_0","gml_Script_anon@785@gml_Object_oGamePause_Create_0","gml_Script_anon@1025@gml_Object_oGamePause_Create_0","gml_Script____struct___58@gml_Object_oGameSetup_Create_0","gml_Script____struct___59@anon@1294@gml_Object_oGameSetup_Create_0","gml_Script_anon@1294@gml_Object_oGameSetup_Create_0","gml_Script____struct___60@gml_Object_oGameSpawner_Create_0","gml_Script____struct___61@gml_Object_oGameSpawner_Create_0","gml_Script____struct___62@gml_Object_oGameSpawner_Create_0","gml_Script____struct___63@gml_Object_oGameSpawner_Create_0","gml_Script____struct___64@gml_Object_oGameSpawner_Create_0","gml_Script____struct___65@gml_Object_oGameSpawner_Create_0","gml_Script____struct___66@gml_Object_oGameSpawner_Create_0","gml_Script____struct___67@gml_Object_oGameSpawner_Create_0","gml_Script_anon@991@gml_Object_oGameSpawner_Create_0","gml_Script_anon@189@gml_Object_oGiftFlying_Create_0","gml_Script_anon@293@gml_Object_oHitrunPlayer_Create_0","gml_Script_anon@880@gml_Object_oPlayer_Create_0","gml_Script_anon@216@gml_Object_oPlayerBulRegular_Create_0","gml_Script_anon@271@gml_Object_oPlayerBulRegular_Step_0","gml_Script_anon@1353@gml_Object_oPlayerBulRegular_Step_0","gml_Script_anon@1963@gml_Object_oPlayerBulRegular_Step_0","gml_Script_anon@411@gml_Object_oPlayerHitbox_Step_0","gml_Script_anon@152@gml_Object_oPropBomb_Create_0","gml_Script_anon@346@gml_Object_oPropBomb_Step_0","gml_Script_anon@143@gml_Object_oPropNuke_Create_0","gml_Script_anon@328@gml_Object_oPropNuke_Step_0","gml_Script_anon@657@gml_Object_oStageExit_Step_0","gml_Script_anon@254@gml_Object_oTestSpawner_Create_0","gml_Script_anon@107@gml_Object_oWaveTrigger_Create_0"];
-JSON_game.Scripts=[gml_GlobalScript_all_macros,gml_GlobalScript_angle_lerp,gml_Script_angle_lerp,gml_GlobalScript_animation_end,gml_Script_animation_end,gml_GlobalScript_approach,gml_Script_approach,gml_GlobalScript_audio_play_sfx,gml_Script_audio_play_sfx,gml_GlobalScript_entity_inits,gml_Script_platformer_init,gml_Script_entity_init,gml_Script_anon_40_790_40_hittable_init_40_entity_inits,gml_Script_anon_40_961_40_hittable_init_40_entity_inits,gml_Script_hittable_init,gml_Script_anon_40_1310_40_hittablewall_init_40_entity_inits,gml_Script_anon_40_1365_40_hittablewall_init_40_entity_inits,gml_Script_hittablewall_init,gml_Script_anon_40_1750_40_player_init_40_entity_inits,gml_Script_player_init,gml_Script_anon_40_2392_40_prop_init_40_entity_inits,gml_Script_anon_40_2716_40_prop_init_40_entity_inits,gml_Script_prop_init,gml_Script_enemy_init,gml_Script_projectile_init,gml_Script_hitbox_init,gml_Script_pickup_init,gml_GlobalScript_entity_scripts,gml_Script_get_ent_targets,gml_Script_ent_state_machine,gml_Script_ent_prestate_event,gml_Script_ent_death_event,gml_Script_ent_spawnlist_index,gml_Script_anon_40_2008_40_hurtData_40_entity_scripts,gml_Script_hurtData,gml_Script_hurt_entity,gml_Script_ent_player_canhit,gml_Script_hurt_player,gml_Script_ent_add_knockback,gml_GlobalScript_game_init,gml_Script____struct___0,gml_Script____struct___1,gml_Script____struct___2,gml_Script_game_init,gml_Script_load_playerdata,gml_Script____struct___3_40_save_settings_40_game_init,gml_Script_save_settings,gml_Script____struct___4_40_save_playerdata_40_game_init,gml_Script_save_playerdata,gml_Script_choose_weighted,gml_Script_outside_view,gml_Script_sqr_ceil,gml_Script_anon_40_5557_40_color_40_game_init,gml_Script_color,gml_Script_draw_key_tip,gml_Script_timer_show,gml_GlobalScript_gmcallback_imgloadbar,gml_Script_gmcallback_imgloadbar,gml_GlobalScript_gun_struct,gml_Script_get_gun_sprite,gml_Script_get_gun_name,gml_Script_get_gun,gml_Script____struct___8_40____struct___7_40____struct___6_40____struct___5_40_gun_struct,gml_Script____struct___9_40____struct___7_40____struct___6_40____struct___5_40_gun_struct,gml_Script____struct___7_40____struct___6_40____struct___5_40_gun_struct,gml_Script____struct___6_40____struct___5_40_gun_struct,gml_Script____struct___14_40____struct___13_40____struct___12_40____struct___5_40_gun_struct,gml_Script____struct___15_40____struct___13_40____struct___12_40____struct___5_40_gun_struct,gml_Script____struct___13_40____struct___12_40____struct___5_40_gun_struct,gml_Script____struct___16_40____struct___12_40____struct___5_40_gun_struct,gml_Script____struct___12_40____struct___5_40_gun_struct,gml_Script____struct___20_40____struct___19_40____struct___18_40____struct___5_40_gun_struct,gml_Script____struct___21_40____struct___19_40____struct___18_40____struct___5_40_gun_struct,gml_Script____struct___19_40____struct___18_40____struct___5_40_gun_struct,gml_Script____struct___18_40____struct___5_40_gun_struct,gml_Script____struct___26_40____struct___25_40____struct___24_40____struct___5_40_gun_struct,gml_Script____struct___27_40____struct___25_40____struct___24_40____struct___5_40_gun_struct,gml_Script____struct___25_40____struct___24_40____struct___5_40_gun_struct,gml_Script____struct___28_40____struct___24_40____struct___5_40_gun_struct,gml_Script____struct___24_40____struct___5_40_gun_struct,gml_Script____struct___32_40____struct___31_40____struct___30_40____struct___5_40_gun_struct,gml_Script____struct___33_40____struct___31_40____struct___30_40____struct___5_40_gun_struct,gml_Script____struct___31_40____struct___30_40____struct___5_40_gun_struct,gml_Script____struct___30_40____struct___5_40_gun_struct,gml_Script____struct___38_40____struct___37_40____struct___36_40____struct___5_40_gun_struct,gml_Script____struct___39_40____struct___37_40____struct___36_40____struct___5_40_gun_struct,gml_Script____struct___37_40____struct___36_40____struct___5_40_gun_struct,gml_Script____struct___36_40____struct___5_40_gun_struct,gml_Script____struct___44_40____struct___43_40____struct___42_40____struct___5_40_gun_struct,gml_Script____struct___45_40____struct___43_40____struct___42_40____struct___5_40_gun_struct,gml_Script____struct___43_40____struct___42_40____struct___5_40_gun_struct,gml_Script____struct___42_40____struct___5_40_gun_struct,gml_Script____struct___5,gml_GlobalScript_key_get_string,gml_Script_key_get_string,gml_GlobalScript_listloop,gml_Script_listloop,gml_GlobalScript_menu_options_init,gml_Script____struct___48_40_menu_options_init_40_menu_options_init,gml_Script_menu_options_init,gml_Script____struct___49_40_pause_menu_options_init_40_menu_options_init,gml_Script_pause_menu_options_init,gml_Script____struct___50_40_game_over_optioms_init_40_menu_options_init,gml_Script_game_over_optioms_init,gml_Script_options_change,gml_Script_anon_40_6362_40_menu_options_draw_40_menu_options_init,gml_Script_anon_40_6778_40_menu_options_draw_40_menu_options_init,gml_Script_anon_40_7499_40_menu_options_draw_40_menu_options_init,gml_Script_anon_40_7977_40_menu_options_draw_40_menu_options_init,gml_Script_anon_40_8748_40_menu_options_draw_40_menu_options_init,gml_Script_anon_40_9282_40_menu_options_draw_40_menu_options_init,gml_Script_anon_40_9633_40_menu_options_draw_40_menu_options_init,gml_Script_anon_40_10023_40_menu_options_draw_40_menu_options_init,gml_Script_menu_options_draw,gml_GlobalScript_platformer_scripts,gml_Script_on_ground,gml_Script_on_wall,gml_Script_on_slope,gml_Script_on_platform,gml_Script_move_x,gml_Script_wall_above,gml_Script_move_y,gml_Script_round_vel,gml_Script_slope_move,gml_Script_wall_on_side,gml_Script_on_top,gml_Script_coll_x,gml_Script_coll_y,gml_Script_move_platform_x,gml_Script_move_platform_y,gml_Script_coll_x_list,gml_Script_coll_y_list,gml_Script_instances_reset_position,gml_Script_instances_update_previous_position,gml_GlobalScript_player_scripts,gml_Script_pl_hurt_player,gml_Script_pl_post_state,gml_GlobalScript_player_shoot_atk,gml_Script_pl_obtain_gun,gml_Script_pl_switch_gun,gml_Script_pl_shoot_atk,gml_GlobalScript_player_states,gml_Script_pl_jump,gml_Script_anon_40_4045_40_pl_state_free_40_player_states,gml_Script_pl_state_free,gml_Script_pl_state_dash,gml_Script_pl_state_room_exit,gml_Script_pl_state_room_enter,gml_Script_pl_state_hurt,gml_GlobalScript_set_new_room,gml_Script_room_get_type,gml_Script_set_new_room,gml_Script_anon_40_136_40_gml_Object_oBulBlood_Create_0,gml_Script_anon_40_269_40_gml_Object_oBulBlood_Create_0,gml_Script_anon_40_375_40_gml_Object_oBulBlood_Create_0,gml_Script_anon_40_130_40_gml_Object_oBulFlak_Create_0,gml_Script_anon_40_485_40_gml_Object_oBulFlak_Create_0,gml_Script_anon_40_730_40_gml_Object_oBulFlak_Create_0,gml_Script_anon_40_877_40_gml_Object_oBulFlak_Create_0,gml_Script_anon_40_139_40_gml_Object_oBulFlyingBomb_Create_0,gml_Script_anon_40_283_40_gml_Object_oBulFlyingBomb_Create_0,gml_Script_anon_40_74_40_gml_Object_oBulSkull_Create_0,gml_Script_anon_40_373_40_gml_Object_oBulSkull_Create_0,gml_Script_anon_40_43_40_gml_Object_oDoorTest_Create_0,gml_Script____struct___51_40_gml_Object_oEnClatter_Create_0,gml_Script_anon_40_244_40_gml_Object_oEnClatter_Create_0,gml_Script____struct___52_40_gml_Object_oEnCoffin_Create_0,gml_Script_anon_40_402_40_gml_Object_oEnCoffin_Create_0,gml_Script____struct___53_40_gml_Object_oEnDemonBomb_Create_0,gml_Script_anon_40_368_40_gml_Object_oEnDemonBomb_Create_0,gml_Script_anon_40_665_40_gml_Object_oEnDemonBomb_Create_0,gml_Script_anon_40_302_40_gml_Object_oEnDemonSnake_Create_0,gml_Script_anon_40_268_40_gml_Object_oEnDemonSnakeBody_Create_0,gml_Script_anon_40_334_40_gml_Object_oEnDemonSnakeBody_Create_0,gml_Script_anon_40_192_40_gml_Object_oEnDrippler_Create_0,gml_Script_anon_40_97_40_gml_Object_oEnemyBullet_Create_0,gml_Script_anon_40_253_40_gml_Object_oEnemyBullet_Create_0,gml_Script_anon_40_375_40_gml_Object_oEnemyBullet_Create_0,gml_Script_anon_40_182_40_gml_Object_oEnEvilBalloon_Create_0,gml_Script_anon_40_4375_40_gml_Object_oEnExploder_Step_0,gml_Script____struct___54_40_gml_Object_oEnGhostshot_Create_0,gml_Script_anon_40_294_40_gml_Object_oEnGhostshot_Create_0,gml_Script____struct___55_40_gml_Object_oEnLeaper_Create_0,gml_Script_anon_40_170_40_gml_Object_oEntRisingWall_Create_0,gml_Script____struct___56_40_gml_Object_oEnZombie_Create_0,gml_Script_anon_40_474_40_gml_Object_oEnZombie_Create_0,gml_Script_anon_40_5869_40_gml_Object_oEnZombie_Step_0,gml_Script_anon_40_304_40_gml_Object_oExplosion_Step_0,gml_Script_anon_40_102_40_gml_Object_oFloatUmbrella_Create_0,gml_Script_anon_40_231_40_gml_Object_oFxGib_Create_0,gml_Script_anon_40_130_40_gml_Object_oGamePause_Create_0,gml_Script_anon_40_548_40_gml_Object_oGamePause_Create_0,gml_Script_anon_40_785_40_gml_Object_oGamePause_Create_0,gml_Script_anon_40_1025_40_gml_Object_oGamePause_Create_0,gml_Script____struct___58_40_gml_Object_oGameSetup_Create_0,gml_Script____struct___59_40_anon_40_1294_40_gml_Object_oGameSetup_Create_0,gml_Script_anon_40_1294_40_gml_Object_oGameSetup_Create_0,gml_Script____struct___60_40_gml_Object_oGameSpawner_Create_0,gml_Script____struct___61_40_gml_Object_oGameSpawner_Create_0,gml_Script____struct___62_40_gml_Object_oGameSpawner_Create_0,gml_Script____struct___63_40_gml_Object_oGameSpawner_Create_0,gml_Script____struct___64_40_gml_Object_oGameSpawner_Create_0,gml_Script____struct___65_40_gml_Object_oGameSpawner_Create_0,gml_Script____struct___66_40_gml_Object_oGameSpawner_Create_0,gml_Script____struct___67_40_gml_Object_oGameSpawner_Create_0,gml_Script_anon_40_991_40_gml_Object_oGameSpawner_Create_0,gml_Script_anon_40_189_40_gml_Object_oGiftFlying_Create_0,gml_Script_anon_40_293_40_gml_Object_oHitrunPlayer_Create_0,gml_Script_anon_40_880_40_gml_Object_oPlayer_Create_0,gml_Script_anon_40_216_40_gml_Object_oPlayerBulRegular_Create_0,gml_Script_anon_40_271_40_gml_Object_oPlayerBulRegular_Step_0,gml_Script_anon_40_1353_40_gml_Object_oPlayerBulRegular_Step_0,gml_Script_anon_40_1963_40_gml_Object_oPlayerBulRegular_Step_0,gml_Script_anon_40_411_40_gml_Object_oPlayerHitbox_Step_0,gml_Script_anon_40_152_40_gml_Object_oPropBomb_Create_0,gml_Script_anon_40_346_40_gml_Object_oPropBomb_Step_0,gml_Script_anon_40_143_40_gml_Object_oPropNuke_Create_0,gml_Script_anon_40_328_40_gml_Object_oPropNuke_Step_0,gml_Script_anon_40_657_40_gml_Object_oStageExit_Step_0,gml_Script_anon_40_254_40_gml_Object_oTestSpawner_Create_0,gml_Script_anon_40_107_40_gml_Object_oWaveTrigger_Create_0];
+JSON_game.ScriptNames=["gml_GlobalScript_all_macros","gml_GlobalScript_angle_lerp","gml_Script_angle_lerp","gml_GlobalScript_animation_end","gml_Script_animation_end","gml_GlobalScript_approach","gml_Script_approach","gml_GlobalScript_audio_play_sfx","gml_Script_audio_play_sfx","gml_GlobalScript_entity_inits","gml_Script_platformer_init","gml_Script_entity_init","gml_Script_anon@790@hittable_init@entity_inits","gml_Script_anon@961@hittable_init@entity_inits","gml_Script_hittable_init","gml_Script_anon@1310@hittablewall_init@entity_inits","gml_Script_anon@1365@hittablewall_init@entity_inits","gml_Script_hittablewall_init","gml_Script_anon@1750@player_init@entity_inits","gml_Script_player_init","gml_Script_anon@2392@prop_init@entity_inits","gml_Script_anon@2716@prop_init@entity_inits","gml_Script_prop_init","gml_Script_enemy_init","gml_Script_projectile_init","gml_Script_hitbox_init","gml_Script_pickup_init","gml_GlobalScript_entity_scripts","gml_Script_anon@345@ent_move_collide@entity_scripts","gml_Script_ent_move_collide","gml_Script_get_ent_targets","gml_Script_ent_state_machine","gml_Script_ent_prestate_event","gml_Script_ent_death_event","gml_Script_ent_spawnlist_index","gml_Script_anon@2338@hurtData@entity_scripts","gml_Script_hurtData","gml_Script_hurt_entity","gml_Script_ent_player_canhit","gml_Script_hurt_player","gml_Script_ent_add_knockback","gml_GlobalScript_game_init","gml_Script____struct___0","gml_Script____struct___1","gml_Script____struct___2","gml_Script_game_init","gml_Script_load_playerdata","gml_Script____struct___3@save_settings@game_init","gml_Script_save_settings","gml_Script____struct___4@save_playerdata@game_init","gml_Script_save_playerdata","gml_Script_choose_weighted","gml_Script_outside_view","gml_Script_sqr_ceil","gml_Script_anon@5557@color@game_init","gml_Script_color","gml_Script_draw_key_tip","gml_Script_timer_show","gml_GlobalScript_gmcallback_imgloadbar","gml_Script_gmcallback_imgloadbar","gml_GlobalScript_gun_struct","gml_Script_get_gun_sprite","gml_Script_get_gun_name","gml_Script_get_gun","gml_Script____struct___8@___struct___7@___struct___6@___struct___5@gun_struct","gml_Script____struct___9@___struct___7@___struct___6@___struct___5@gun_struct","gml_Script____struct___7@___struct___6@___struct___5@gun_struct","gml_Script____struct___6@___struct___5@gun_struct","gml_Script____struct___14@___struct___13@___struct___12@___struct___5@gun_struct","gml_Script____struct___15@___struct___13@___struct___12@___struct___5@gun_struct","gml_Script____struct___13@___struct___12@___struct___5@gun_struct","gml_Script____struct___16@___struct___12@___struct___5@gun_struct","gml_Script____struct___12@___struct___5@gun_struct","gml_Script____struct___20@___struct___19@___struct___18@___struct___5@gun_struct","gml_Script____struct___21@___struct___19@___struct___18@___struct___5@gun_struct","gml_Script____struct___19@___struct___18@___struct___5@gun_struct","gml_Script____struct___18@___struct___5@gun_struct","gml_Script____struct___26@___struct___25@___struct___24@___struct___5@gun_struct","gml_Script____struct___27@___struct___25@___struct___24@___struct___5@gun_struct","gml_Script____struct___25@___struct___24@___struct___5@gun_struct","gml_Script____struct___28@___struct___24@___struct___5@gun_struct","gml_Script____struct___24@___struct___5@gun_struct","gml_Script____struct___32@___struct___31@___struct___30@___struct___5@gun_struct","gml_Script____struct___33@___struct___31@___struct___30@___struct___5@gun_struct","gml_Script____struct___31@___struct___30@___struct___5@gun_struct","gml_Script____struct___30@___struct___5@gun_struct","gml_Script____struct___38@___struct___37@___struct___36@___struct___5@gun_struct","gml_Script____struct___39@___struct___37@___struct___36@___struct___5@gun_struct","gml_Script____struct___37@___struct___36@___struct___5@gun_struct","gml_Script____struct___36@___struct___5@gun_struct","gml_Script____struct___44@___struct___43@___struct___42@___struct___5@gun_struct","gml_Script____struct___45@___struct___43@___struct___42@___struct___5@gun_struct","gml_Script____struct___43@___struct___42@___struct___5@gun_struct","gml_Script____struct___42@___struct___5@gun_struct","gml_Script____struct___5","gml_GlobalScript_key_get_string","gml_Script_key_get_string","gml_GlobalScript_listloop","gml_Script_listloop","gml_GlobalScript_menu_options_init","gml_Script____struct___48@menu_options_init@menu_options_init","gml_Script_menu_options_init","gml_Script____struct___49@pause_menu_options_init@menu_options_init","gml_Script_pause_menu_options_init","gml_Script____struct___50@game_over_optioms_init@menu_options_init","gml_Script_game_over_optioms_init","gml_Script_options_change","gml_Script_anon@6362@menu_options_draw@menu_options_init","gml_Script_anon@6778@menu_options_draw@menu_options_init","gml_Script_anon@7499@menu_options_draw@menu_options_init","gml_Script_anon@7977@menu_options_draw@menu_options_init","gml_Script_anon@8748@menu_options_draw@menu_options_init","gml_Script_anon@9282@menu_options_draw@menu_options_init","gml_Script_anon@9633@menu_options_draw@menu_options_init","gml_Script_anon@10023@menu_options_draw@menu_options_init","gml_Script_menu_options_draw","gml_GlobalScript_platformer_scripts","gml_Script_on_ground","gml_Script_on_wall","gml_Script_on_slope","gml_Script_on_platform","gml_Script_move_x","gml_Script_wall_above","gml_Script_move_y","gml_Script_round_vel","gml_Script_slope_move","gml_Script_wall_on_side","gml_Script_on_top","gml_Script_coll_x","gml_Script_coll_y","gml_Script_move_platform_x","gml_Script_move_platform_y","gml_Script_coll_x_list","gml_Script_coll_y_list","gml_Script_instances_reset_position","gml_Script_instances_update_previous_position","gml_GlobalScript_player_scripts","gml_Script_pl_hurt_player","gml_Script_pl_post_state","gml_GlobalScript_player_shoot_atk","gml_Script_pl_obtain_gun","gml_Script_pl_switch_gun","gml_Script_pl_shoot_atk","gml_GlobalScript_player_states","gml_Script_pl_jump","gml_Script_anon@4045@pl_state_free@player_states","gml_Script_pl_state_free","gml_Script_pl_state_dash","gml_Script_pl_state_room_exit","gml_Script_pl_state_room_enter","gml_Script_pl_state_hurt","gml_GlobalScript_set_new_room","gml_Script_room_get_type","gml_Script_set_new_room","gml_Script_anon@136@gml_Object_oBulBlood_Create_0","gml_Script_anon@269@gml_Object_oBulBlood_Create_0","gml_Script_anon@375@gml_Object_oBulBlood_Create_0","gml_Script_anon@130@gml_Object_oBulFlak_Create_0","gml_Script_anon@485@gml_Object_oBulFlak_Create_0","gml_Script_anon@730@gml_Object_oBulFlak_Create_0","gml_Script_anon@877@gml_Object_oBulFlak_Create_0","gml_Script_anon@139@gml_Object_oBulFlyingBomb_Create_0","gml_Script_anon@283@gml_Object_oBulFlyingBomb_Create_0","gml_Script_anon@74@gml_Object_oBulSkull_Create_0","gml_Script_anon@373@gml_Object_oBulSkull_Create_0","gml_Script_anon@43@gml_Object_oDoorTest_Create_0","gml_Script____struct___51@gml_Object_oEnClatter_Create_0","gml_Script_anon@244@gml_Object_oEnClatter_Create_0","gml_Script____struct___52@gml_Object_oEnCoffin_Create_0","gml_Script_anon@402@gml_Object_oEnCoffin_Create_0","gml_Script____struct___53@gml_Object_oEnDemonBomb_Create_0","gml_Script_anon@392@gml_Object_oEnDemonBomb_Create_0","gml_Script_anon@689@gml_Object_oEnDemonBomb_Create_0","gml_Script_anon@4387@gml_Object_oEnDemonBomb_Step_0","gml_Script_anon@326@gml_Object_oEnDemonSnake_Create_0","gml_Script_anon@292@gml_Object_oEnDemonSnakeBody_Create_0","gml_Script_anon@358@gml_Object_oEnDemonSnakeBody_Create_0","gml_Script_anon@216@gml_Object_oEnDrippler_Create_0","gml_Script_anon@97@gml_Object_oEnemyBullet_Create_0","gml_Script_anon@253@gml_Object_oEnemyBullet_Create_0","gml_Script_anon@375@gml_Object_oEnemyBullet_Create_0","gml_Script_anon@182@gml_Object_oEnEvilBalloon_Create_0","gml_Script_anon@4384@gml_Object_oEnExploder_Step_0","gml_Script____struct___54@gml_Object_oEnGhostshot_Create_0","gml_Script_anon@294@gml_Object_oEnGhostshot_Create_0","gml_Script____struct___55@gml_Object_oEnLeaper_Create_0","gml_Script_anon@170@gml_Object_oEntRisingWall_Create_0","gml_Script____struct___56@gml_Object_oEnZombie_Create_0","gml_Script_anon@474@gml_Object_oEnZombie_Create_0","gml_Script_anon@5878@gml_Object_oEnZombie_Step_0","gml_Script_anon@304@gml_Object_oExplosion_Step_0","gml_Script_anon@102@gml_Object_oFloatUmbrella_Create_0","gml_Script_anon@407@gml_Object_oFloatUmbrella_Step_0","gml_Script_anon@231@gml_Object_oFxGib_Create_0","gml_Script_anon@130@gml_Object_oGamePause_Create_0","gml_Script_anon@548@gml_Object_oGamePause_Create_0","gml_Script_anon@785@gml_Object_oGamePause_Create_0","gml_Script_anon@1025@gml_Object_oGamePause_Create_0","gml_Script____struct___58@gml_Object_oGameSetup_Create_0","gml_Script____struct___59@anon@1294@gml_Object_oGameSetup_Create_0","gml_Script_anon@1294@gml_Object_oGameSetup_Create_0","gml_Script____struct___60@gml_Object_oGameSpawner_Create_0","gml_Script____struct___61@gml_Object_oGameSpawner_Create_0","gml_Script____struct___62@gml_Object_oGameSpawner_Create_0","gml_Script____struct___63@gml_Object_oGameSpawner_Create_0","gml_Script____struct___64@gml_Object_oGameSpawner_Create_0","gml_Script____struct___65@gml_Object_oGameSpawner_Create_0","gml_Script____struct___66@gml_Object_oGameSpawner_Create_0","gml_Script____struct___67@gml_Object_oGameSpawner_Create_0","gml_Script_anon@991@gml_Object_oGameSpawner_Create_0","gml_Script_anon@189@gml_Object_oGiftFlying_Create_0","gml_Script_anon@293@gml_Object_oHitrunPlayer_Create_0","gml_Script_anon@880@gml_Object_oPlayer_Create_0","gml_Script_anon@216@gml_Object_oPlayerBulRegular_Create_0","gml_Script_anon@271@gml_Object_oPlayerBulRegular_Step_0","gml_Script_anon@1353@gml_Object_oPlayerBulRegular_Step_0","gml_Script_anon@1963@gml_Object_oPlayerBulRegular_Step_0","gml_Script_anon@411@gml_Object_oPlayerHitbox_Step_0","gml_Script_anon@152@gml_Object_oPropBomb_Create_0","gml_Script_anon@346@gml_Object_oPropBomb_Step_0","gml_Script_anon@143@gml_Object_oPropNuke_Create_0","gml_Script_anon@328@gml_Object_oPropNuke_Step_0","gml_Script_anon@657@gml_Object_oStageExit_Step_0","gml_Script_anon@254@gml_Object_oTestSpawner_Create_0","gml_Script_anon@107@gml_Object_oWaveTrigger_Create_0"];
+JSON_game.Scripts=[gml_GlobalScript_all_macros,gml_GlobalScript_angle_lerp,gml_Script_angle_lerp,gml_GlobalScript_animation_end,gml_Script_animation_end,gml_GlobalScript_approach,gml_Script_approach,gml_GlobalScript_audio_play_sfx,gml_Script_audio_play_sfx,gml_GlobalScript_entity_inits,gml_Script_platformer_init,gml_Script_entity_init,gml_Script_anon_40_790_40_hittable_init_40_entity_inits,gml_Script_anon_40_961_40_hittable_init_40_entity_inits,gml_Script_hittable_init,gml_Script_anon_40_1310_40_hittablewall_init_40_entity_inits,gml_Script_anon_40_1365_40_hittablewall_init_40_entity_inits,gml_Script_hittablewall_init,gml_Script_anon_40_1750_40_player_init_40_entity_inits,gml_Script_player_init,gml_Script_anon_40_2392_40_prop_init_40_entity_inits,gml_Script_anon_40_2716_40_prop_init_40_entity_inits,gml_Script_prop_init,gml_Script_enemy_init,gml_Script_projectile_init,gml_Script_hitbox_init,gml_Script_pickup_init,gml_GlobalScript_entity_scripts,gml_Script_anon_40_345_40_ent_move_collide_40_entity_scripts,gml_Script_ent_move_collide,gml_Script_get_ent_targets,gml_Script_ent_state_machine,gml_Script_ent_prestate_event,gml_Script_ent_death_event,gml_Script_ent_spawnlist_index,gml_Script_anon_40_2338_40_hurtData_40_entity_scripts,gml_Script_hurtData,gml_Script_hurt_entity,gml_Script_ent_player_canhit,gml_Script_hurt_player,gml_Script_ent_add_knockback,gml_GlobalScript_game_init,gml_Script____struct___0,gml_Script____struct___1,gml_Script____struct___2,gml_Script_game_init,gml_Script_load_playerdata,gml_Script____struct___3_40_save_settings_40_game_init,gml_Script_save_settings,gml_Script____struct___4_40_save_playerdata_40_game_init,gml_Script_save_playerdata,gml_Script_choose_weighted,gml_Script_outside_view,gml_Script_sqr_ceil,gml_Script_anon_40_5557_40_color_40_game_init,gml_Script_color,gml_Script_draw_key_tip,gml_Script_timer_show,gml_GlobalScript_gmcallback_imgloadbar,gml_Script_gmcallback_imgloadbar,gml_GlobalScript_gun_struct,gml_Script_get_gun_sprite,gml_Script_get_gun_name,gml_Script_get_gun,gml_Script____struct___8_40____struct___7_40____struct___6_40____struct___5_40_gun_struct,gml_Script____struct___9_40____struct___7_40____struct___6_40____struct___5_40_gun_struct,gml_Script____struct___7_40____struct___6_40____struct___5_40_gun_struct,gml_Script____struct___6_40____struct___5_40_gun_struct,gml_Script____struct___14_40____struct___13_40____struct___12_40____struct___5_40_gun_struct,gml_Script____struct___15_40____struct___13_40____struct___12_40____struct___5_40_gun_struct,gml_Script____struct___13_40____struct___12_40____struct___5_40_gun_struct,gml_Script____struct___16_40____struct___12_40____struct___5_40_gun_struct,gml_Script____struct___12_40____struct___5_40_gun_struct,gml_Script____struct___20_40____struct___19_40____struct___18_40____struct___5_40_gun_struct,gml_Script____struct___21_40____struct___19_40____struct___18_40____struct___5_40_gun_struct,gml_Script____struct___19_40____struct___18_40____struct___5_40_gun_struct,gml_Script____struct___18_40____struct___5_40_gun_struct,gml_Script____struct___26_40____struct___25_40____struct___24_40____struct___5_40_gun_struct,gml_Script____struct___27_40____struct___25_40____struct___24_40____struct___5_40_gun_struct,gml_Script____struct___25_40____struct___24_40____struct___5_40_gun_struct,gml_Script____struct___28_40____struct___24_40____struct___5_40_gun_struct,gml_Script____struct___24_40____struct___5_40_gun_struct,gml_Script____struct___32_40____struct___31_40____struct___30_40____struct___5_40_gun_struct,gml_Script____struct___33_40____struct___31_40____struct___30_40____struct___5_40_gun_struct,gml_Script____struct___31_40____struct___30_40____struct___5_40_gun_struct,gml_Script____struct___30_40____struct___5_40_gun_struct,gml_Script____struct___38_40____struct___37_40____struct___36_40____struct___5_40_gun_struct,gml_Script____struct___39_40____struct___37_40____struct___36_40____struct___5_40_gun_struct,gml_Script____struct___37_40____struct___36_40____struct___5_40_gun_struct,gml_Script____struct___36_40____struct___5_40_gun_struct,gml_Script____struct___44_40____struct___43_40____struct___42_40____struct___5_40_gun_struct,gml_Script____struct___45_40____struct___43_40____struct___42_40____struct___5_40_gun_struct,gml_Script____struct___43_40____struct___42_40____struct___5_40_gun_struct,gml_Script____struct___42_40____struct___5_40_gun_struct,gml_Script____struct___5,gml_GlobalScript_key_get_string,gml_Script_key_get_string,gml_GlobalScript_listloop,gml_Script_listloop,gml_GlobalScript_menu_options_init,gml_Script____struct___48_40_menu_options_init_40_menu_options_init,gml_Script_menu_options_init,gml_Script____struct___49_40_pause_menu_options_init_40_menu_options_init,gml_Script_pause_menu_options_init,gml_Script____struct___50_40_game_over_optioms_init_40_menu_options_init,gml_Script_game_over_optioms_init,gml_Script_options_change,gml_Script_anon_40_6362_40_menu_options_draw_40_menu_options_init,gml_Script_anon_40_6778_40_menu_options_draw_40_menu_options_init,gml_Script_anon_40_7499_40_menu_options_draw_40_menu_options_init,gml_Script_anon_40_7977_40_menu_options_draw_40_menu_options_init,gml_Script_anon_40_8748_40_menu_options_draw_40_menu_options_init,gml_Script_anon_40_9282_40_menu_options_draw_40_menu_options_init,gml_Script_anon_40_9633_40_menu_options_draw_40_menu_options_init,gml_Script_anon_40_10023_40_menu_options_draw_40_menu_options_init,gml_Script_menu_options_draw,gml_GlobalScript_platformer_scripts,gml_Script_on_ground,gml_Script_on_wall,gml_Script_on_slope,gml_Script_on_platform,gml_Script_move_x,gml_Script_wall_above,gml_Script_move_y,gml_Script_round_vel,gml_Script_slope_move,gml_Script_wall_on_side,gml_Script_on_top,gml_Script_coll_x,gml_Script_coll_y,gml_Script_move_platform_x,gml_Script_move_platform_y,gml_Script_coll_x_list,gml_Script_coll_y_list,gml_Script_instances_reset_position,gml_Script_instances_update_previous_position,gml_GlobalScript_player_scripts,gml_Script_pl_hurt_player,gml_Script_pl_post_state,gml_GlobalScript_player_shoot_atk,gml_Script_pl_obtain_gun,gml_Script_pl_switch_gun,gml_Script_pl_shoot_atk,gml_GlobalScript_player_states,gml_Script_pl_jump,gml_Script_anon_40_4045_40_pl_state_free_40_player_states,gml_Script_pl_state_free,gml_Script_pl_state_dash,gml_Script_pl_state_room_exit,gml_Script_pl_state_room_enter,gml_Script_pl_state_hurt,gml_GlobalScript_set_new_room,gml_Script_room_get_type,gml_Script_set_new_room,gml_Script_anon_40_136_40_gml_Object_oBulBlood_Create_0,gml_Script_anon_40_269_40_gml_Object_oBulBlood_Create_0,gml_Script_anon_40_375_40_gml_Object_oBulBlood_Create_0,gml_Script_anon_40_130_40_gml_Object_oBulFlak_Create_0,gml_Script_anon_40_485_40_gml_Object_oBulFlak_Create_0,gml_Script_anon_40_730_40_gml_Object_oBulFlak_Create_0,gml_Script_anon_40_877_40_gml_Object_oBulFlak_Create_0,gml_Script_anon_40_139_40_gml_Object_oBulFlyingBomb_Create_0,gml_Script_anon_40_283_40_gml_Object_oBulFlyingBomb_Create_0,gml_Script_anon_40_74_40_gml_Object_oBulSkull_Create_0,gml_Script_anon_40_373_40_gml_Object_oBulSkull_Create_0,gml_Script_anon_40_43_40_gml_Object_oDoorTest_Create_0,gml_Script____struct___51_40_gml_Object_oEnClatter_Create_0,gml_Script_anon_40_244_40_gml_Object_oEnClatter_Create_0,gml_Script____struct___52_40_gml_Object_oEnCoffin_Create_0,gml_Script_anon_40_402_40_gml_Object_oEnCoffin_Create_0,gml_Script____struct___53_40_gml_Object_oEnDemonBomb_Create_0,gml_Script_anon_40_392_40_gml_Object_oEnDemonBomb_Create_0,gml_Script_anon_40_689_40_gml_Object_oEnDemonBomb_Create_0,gml_Script_anon_40_4387_40_gml_Object_oEnDemonBomb_Step_0,gml_Script_anon_40_326_40_gml_Object_oEnDemonSnake_Create_0,gml_Script_anon_40_292_40_gml_Object_oEnDemonSnakeBody_Create_0,gml_Script_anon_40_358_40_gml_Object_oEnDemonSnakeBody_Create_0,gml_Script_anon_40_216_40_gml_Object_oEnDrippler_Create_0,gml_Script_anon_40_97_40_gml_Object_oEnemyBullet_Create_0,gml_Script_anon_40_253_40_gml_Object_oEnemyBullet_Create_0,gml_Script_anon_40_375_40_gml_Object_oEnemyBullet_Create_0,gml_Script_anon_40_182_40_gml_Object_oEnEvilBalloon_Create_0,gml_Script_anon_40_4384_40_gml_Object_oEnExploder_Step_0,gml_Script____struct___54_40_gml_Object_oEnGhostshot_Create_0,gml_Script_anon_40_294_40_gml_Object_oEnGhostshot_Create_0,gml_Script____struct___55_40_gml_Object_oEnLeaper_Create_0,gml_Script_anon_40_170_40_gml_Object_oEntRisingWall_Create_0,gml_Script____struct___56_40_gml_Object_oEnZombie_Create_0,gml_Script_anon_40_474_40_gml_Object_oEnZombie_Create_0,gml_Script_anon_40_5878_40_gml_Object_oEnZombie_Step_0,gml_Script_anon_40_304_40_gml_Object_oExplosion_Step_0,gml_Script_anon_40_102_40_gml_Object_oFloatUmbrella_Create_0,gml_Script_anon_40_407_40_gml_Object_oFloatUmbrella_Step_0,gml_Script_anon_40_231_40_gml_Object_oFxGib_Create_0,gml_Script_anon_40_130_40_gml_Object_oGamePause_Create_0,gml_Script_anon_40_548_40_gml_Object_oGamePause_Create_0,gml_Script_anon_40_785_40_gml_Object_oGamePause_Create_0,gml_Script_anon_40_1025_40_gml_Object_oGamePause_Create_0,gml_Script____struct___58_40_gml_Object_oGameSetup_Create_0,gml_Script____struct___59_40_anon_40_1294_40_gml_Object_oGameSetup_Create_0,gml_Script_anon_40_1294_40_gml_Object_oGameSetup_Create_0,gml_Script____struct___60_40_gml_Object_oGameSpawner_Create_0,gml_Script____struct___61_40_gml_Object_oGameSpawner_Create_0,gml_Script____struct___62_40_gml_Object_oGameSpawner_Create_0,gml_Script____struct___63_40_gml_Object_oGameSpawner_Create_0,gml_Script____struct___64_40_gml_Object_oGameSpawner_Create_0,gml_Script____struct___65_40_gml_Object_oGameSpawner_Create_0,gml_Script____struct___66_40_gml_Object_oGameSpawner_Create_0,gml_Script____struct___67_40_gml_Object_oGameSpawner_Create_0,gml_Script_anon_40_991_40_gml_Object_oGameSpawner_Create_0,gml_Script_anon_40_189_40_gml_Object_oGiftFlying_Create_0,gml_Script_anon_40_293_40_gml_Object_oHitrunPlayer_Create_0,gml_Script_anon_40_880_40_gml_Object_oPlayer_Create_0,gml_Script_anon_40_216_40_gml_Object_oPlayerBulRegular_Create_0,gml_Script_anon_40_271_40_gml_Object_oPlayerBulRegular_Step_0,gml_Script_anon_40_1353_40_gml_Object_oPlayerBulRegular_Step_0,gml_Script_anon_40_1963_40_gml_Object_oPlayerBulRegular_Step_0,gml_Script_anon_40_411_40_gml_Object_oPlayerHitbox_Step_0,gml_Script_anon_40_152_40_gml_Object_oPropBomb_Create_0,gml_Script_anon_40_346_40_gml_Object_oPropBomb_Step_0,gml_Script_anon_40_143_40_gml_Object_oPropNuke_Create_0,gml_Script_anon_40_328_40_gml_Object_oPropNuke_Step_0,gml_Script_anon_40_657_40_gml_Object_oStageExit_Step_0,gml_Script_anon_40_254_40_gml_Object_oTestSpawner_Create_0,gml_Script_anon_40_107_40_gml_Object_oWaveTrigger_Create_0];
 const kgml_GlobalScript_all_macros=100000;
 const kgml_GlobalScript_angle_lerp=100001;
 const kgml_Script_angle_lerp=100002;
@@ -29754,199 +29649,203 @@ const kgml_Script_projectile_init=100024;
 const kgml_Script_hitbox_init=100025;
 const kgml_Script_pickup_init=100026;
 const kgml_GlobalScript_entity_scripts=100027;
-const kgml_Script_get_ent_targets=100028;
-const kgml_Script_ent_state_machine=100029;
-const kgml_Script_ent_prestate_event=100030;
-const kgml_Script_ent_death_event=100031;
-const kgml_Script_ent_spawnlist_index=100032;
-const kgml_Script_anon_40_2008_40_hurtData_40_entity_scripts=100033;
-const kgml_Script_hurtData=100034;
-const kgml_Script_hurt_entity=100035;
-const kgml_Script_ent_player_canhit=100036;
-const kgml_Script_hurt_player=100037;
-const kgml_Script_ent_add_knockback=100038;
-const kgml_GlobalScript_game_init=100039;
-const kgml_Script____struct___0=100040;
-const kgml_Script____struct___1=100041;
-const kgml_Script____struct___2=100042;
-const kgml_Script_game_init=100043;
-const kgml_Script_load_playerdata=100044;
-const kgml_Script____struct___3_40_save_settings_40_game_init=100045;
-const kgml_Script_save_settings=100046;
-const kgml_Script____struct___4_40_save_playerdata_40_game_init=100047;
-const kgml_Script_save_playerdata=100048;
-const kgml_Script_choose_weighted=100049;
-const kgml_Script_outside_view=100050;
-const kgml_Script_sqr_ceil=100051;
-const kgml_Script_anon_40_5557_40_color_40_game_init=100052;
-const kgml_Script_color=100053;
-const kgml_Script_draw_key_tip=100054;
-const kgml_Script_timer_show=100055;
-const kgml_GlobalScript_gmcallback_imgloadbar=100056;
-const kgml_Script_gmcallback_imgloadbar=100057;
-const kgml_GlobalScript_gun_struct=100058;
-const kgml_Script_get_gun_sprite=100059;
-const kgml_Script_get_gun_name=100060;
-const kgml_Script_get_gun=100061;
-const kgml_Script____struct___8_40____struct___7_40____struct___6_40____struct___5_40_gun_struct=100062;
-const kgml_Script____struct___9_40____struct___7_40____struct___6_40____struct___5_40_gun_struct=100063;
-const kgml_Script____struct___7_40____struct___6_40____struct___5_40_gun_struct=100064;
-const kgml_Script____struct___6_40____struct___5_40_gun_struct=100065;
-const kgml_Script____struct___14_40____struct___13_40____struct___12_40____struct___5_40_gun_struct=100066;
-const kgml_Script____struct___15_40____struct___13_40____struct___12_40____struct___5_40_gun_struct=100067;
-const kgml_Script____struct___13_40____struct___12_40____struct___5_40_gun_struct=100068;
-const kgml_Script____struct___16_40____struct___12_40____struct___5_40_gun_struct=100069;
-const kgml_Script____struct___12_40____struct___5_40_gun_struct=100070;
-const kgml_Script____struct___20_40____struct___19_40____struct___18_40____struct___5_40_gun_struct=100071;
-const kgml_Script____struct___21_40____struct___19_40____struct___18_40____struct___5_40_gun_struct=100072;
-const kgml_Script____struct___19_40____struct___18_40____struct___5_40_gun_struct=100073;
-const kgml_Script____struct___18_40____struct___5_40_gun_struct=100074;
-const kgml_Script____struct___26_40____struct___25_40____struct___24_40____struct___5_40_gun_struct=100075;
-const kgml_Script____struct___27_40____struct___25_40____struct___24_40____struct___5_40_gun_struct=100076;
-const kgml_Script____struct___25_40____struct___24_40____struct___5_40_gun_struct=100077;
-const kgml_Script____struct___28_40____struct___24_40____struct___5_40_gun_struct=100078;
-const kgml_Script____struct___24_40____struct___5_40_gun_struct=100079;
-const kgml_Script____struct___32_40____struct___31_40____struct___30_40____struct___5_40_gun_struct=100080;
-const kgml_Script____struct___33_40____struct___31_40____struct___30_40____struct___5_40_gun_struct=100081;
-const kgml_Script____struct___31_40____struct___30_40____struct___5_40_gun_struct=100082;
-const kgml_Script____struct___30_40____struct___5_40_gun_struct=100083;
-const kgml_Script____struct___38_40____struct___37_40____struct___36_40____struct___5_40_gun_struct=100084;
-const kgml_Script____struct___39_40____struct___37_40____struct___36_40____struct___5_40_gun_struct=100085;
-const kgml_Script____struct___37_40____struct___36_40____struct___5_40_gun_struct=100086;
-const kgml_Script____struct___36_40____struct___5_40_gun_struct=100087;
-const kgml_Script____struct___44_40____struct___43_40____struct___42_40____struct___5_40_gun_struct=100088;
-const kgml_Script____struct___45_40____struct___43_40____struct___42_40____struct___5_40_gun_struct=100089;
-const kgml_Script____struct___43_40____struct___42_40____struct___5_40_gun_struct=100090;
-const kgml_Script____struct___42_40____struct___5_40_gun_struct=100091;
-const kgml_Script____struct___5=100092;
-const kgml_GlobalScript_key_get_string=100093;
-const kgml_Script_key_get_string=100094;
-const kgml_GlobalScript_listloop=100095;
-const kgml_Script_listloop=100096;
-const kgml_GlobalScript_menu_options_init=100097;
-const kgml_Script____struct___48_40_menu_options_init_40_menu_options_init=100098;
-const kgml_Script_menu_options_init=100099;
-const kgml_Script____struct___49_40_pause_menu_options_init_40_menu_options_init=100100;
-const kgml_Script_pause_menu_options_init=100101;
-const kgml_Script____struct___50_40_game_over_optioms_init_40_menu_options_init=100102;
-const kgml_Script_game_over_optioms_init=100103;
-const kgml_Script_options_change=100104;
-const kgml_Script_anon_40_6362_40_menu_options_draw_40_menu_options_init=100105;
-const kgml_Script_anon_40_6778_40_menu_options_draw_40_menu_options_init=100106;
-const kgml_Script_anon_40_7499_40_menu_options_draw_40_menu_options_init=100107;
-const kgml_Script_anon_40_7977_40_menu_options_draw_40_menu_options_init=100108;
-const kgml_Script_anon_40_8748_40_menu_options_draw_40_menu_options_init=100109;
-const kgml_Script_anon_40_9282_40_menu_options_draw_40_menu_options_init=100110;
-const kgml_Script_anon_40_9633_40_menu_options_draw_40_menu_options_init=100111;
-const kgml_Script_anon_40_10023_40_menu_options_draw_40_menu_options_init=100112;
-const kgml_Script_menu_options_draw=100113;
-const kgml_GlobalScript_platformer_scripts=100114;
-const kgml_Script_on_ground=100115;
-const kgml_Script_on_wall=100116;
-const kgml_Script_on_slope=100117;
-const kgml_Script_on_platform=100118;
-const kgml_Script_move_x=100119;
-const kgml_Script_wall_above=100120;
-const kgml_Script_move_y=100121;
-const kgml_Script_round_vel=100122;
-const kgml_Script_slope_move=100123;
-const kgml_Script_wall_on_side=100124;
-const kgml_Script_on_top=100125;
-const kgml_Script_coll_x=100126;
-const kgml_Script_coll_y=100127;
-const kgml_Script_move_platform_x=100128;
-const kgml_Script_move_platform_y=100129;
-const kgml_Script_coll_x_list=100130;
-const kgml_Script_coll_y_list=100131;
-const kgml_Script_instances_reset_position=100132;
-const kgml_Script_instances_update_previous_position=100133;
-const kgml_GlobalScript_player_scripts=100134;
-const kgml_Script_pl_hurt_player=100135;
-const kgml_Script_pl_post_state=100136;
-const kgml_GlobalScript_player_shoot_atk=100137;
-const kgml_Script_pl_obtain_gun=100138;
-const kgml_Script_pl_switch_gun=100139;
-const kgml_Script_pl_shoot_atk=100140;
-const kgml_GlobalScript_player_states=100141;
-const kgml_Script_pl_jump=100142;
-const kgml_Script_anon_40_4045_40_pl_state_free_40_player_states=100143;
-const kgml_Script_pl_state_free=100144;
-const kgml_Script_pl_state_dash=100145;
-const kgml_Script_pl_state_room_exit=100146;
-const kgml_Script_pl_state_room_enter=100147;
-const kgml_Script_pl_state_hurt=100148;
-const kgml_GlobalScript_set_new_room=100149;
-const kgml_Script_room_get_type=100150;
-const kgml_Script_set_new_room=100151;
-const kgml_Script_anon_40_136_40_gml_Object_oBulBlood_Create_0=100152;
-const kgml_Script_anon_40_269_40_gml_Object_oBulBlood_Create_0=100153;
-const kgml_Script_anon_40_375_40_gml_Object_oBulBlood_Create_0=100154;
-const kgml_Script_anon_40_130_40_gml_Object_oBulFlak_Create_0=100155;
-const kgml_Script_anon_40_485_40_gml_Object_oBulFlak_Create_0=100156;
-const kgml_Script_anon_40_730_40_gml_Object_oBulFlak_Create_0=100157;
-const kgml_Script_anon_40_877_40_gml_Object_oBulFlak_Create_0=100158;
-const kgml_Script_anon_40_139_40_gml_Object_oBulFlyingBomb_Create_0=100159;
-const kgml_Script_anon_40_283_40_gml_Object_oBulFlyingBomb_Create_0=100160;
-const kgml_Script_anon_40_74_40_gml_Object_oBulSkull_Create_0=100161;
-const kgml_Script_anon_40_373_40_gml_Object_oBulSkull_Create_0=100162;
-const kgml_Script_anon_40_43_40_gml_Object_oDoorTest_Create_0=100163;
-const kgml_Script____struct___51_40_gml_Object_oEnClatter_Create_0=100164;
-const kgml_Script_anon_40_244_40_gml_Object_oEnClatter_Create_0=100165;
-const kgml_Script____struct___52_40_gml_Object_oEnCoffin_Create_0=100166;
-const kgml_Script_anon_40_402_40_gml_Object_oEnCoffin_Create_0=100167;
-const kgml_Script____struct___53_40_gml_Object_oEnDemonBomb_Create_0=100168;
-const kgml_Script_anon_40_368_40_gml_Object_oEnDemonBomb_Create_0=100169;
-const kgml_Script_anon_40_665_40_gml_Object_oEnDemonBomb_Create_0=100170;
-const kgml_Script_anon_40_302_40_gml_Object_oEnDemonSnake_Create_0=100171;
-const kgml_Script_anon_40_268_40_gml_Object_oEnDemonSnakeBody_Create_0=100172;
-const kgml_Script_anon_40_334_40_gml_Object_oEnDemonSnakeBody_Create_0=100173;
-const kgml_Script_anon_40_192_40_gml_Object_oEnDrippler_Create_0=100174;
-const kgml_Script_anon_40_97_40_gml_Object_oEnemyBullet_Create_0=100175;
-const kgml_Script_anon_40_253_40_gml_Object_oEnemyBullet_Create_0=100176;
-const kgml_Script_anon_40_375_40_gml_Object_oEnemyBullet_Create_0=100177;
-const kgml_Script_anon_40_182_40_gml_Object_oEnEvilBalloon_Create_0=100178;
-const kgml_Script_anon_40_4375_40_gml_Object_oEnExploder_Step_0=100179;
-const kgml_Script____struct___54_40_gml_Object_oEnGhostshot_Create_0=100180;
-const kgml_Script_anon_40_294_40_gml_Object_oEnGhostshot_Create_0=100181;
-const kgml_Script____struct___55_40_gml_Object_oEnLeaper_Create_0=100182;
-const kgml_Script_anon_40_170_40_gml_Object_oEntRisingWall_Create_0=100183;
-const kgml_Script____struct___56_40_gml_Object_oEnZombie_Create_0=100184;
-const kgml_Script_anon_40_474_40_gml_Object_oEnZombie_Create_0=100185;
-const kgml_Script_anon_40_5869_40_gml_Object_oEnZombie_Step_0=100186;
-const kgml_Script_anon_40_304_40_gml_Object_oExplosion_Step_0=100187;
-const kgml_Script_anon_40_102_40_gml_Object_oFloatUmbrella_Create_0=100188;
-const kgml_Script_anon_40_231_40_gml_Object_oFxGib_Create_0=100189;
-const kgml_Script_anon_40_130_40_gml_Object_oGamePause_Create_0=100190;
-const kgml_Script_anon_40_548_40_gml_Object_oGamePause_Create_0=100191;
-const kgml_Script_anon_40_785_40_gml_Object_oGamePause_Create_0=100192;
-const kgml_Script_anon_40_1025_40_gml_Object_oGamePause_Create_0=100193;
-const kgml_Script____struct___58_40_gml_Object_oGameSetup_Create_0=100194;
-const kgml_Script____struct___59_40_anon_40_1294_40_gml_Object_oGameSetup_Create_0=100195;
-const kgml_Script_anon_40_1294_40_gml_Object_oGameSetup_Create_0=100196;
-const kgml_Script____struct___60_40_gml_Object_oGameSpawner_Create_0=100197;
-const kgml_Script____struct___61_40_gml_Object_oGameSpawner_Create_0=100198;
-const kgml_Script____struct___62_40_gml_Object_oGameSpawner_Create_0=100199;
-const kgml_Script____struct___63_40_gml_Object_oGameSpawner_Create_0=100200;
-const kgml_Script____struct___64_40_gml_Object_oGameSpawner_Create_0=100201;
-const kgml_Script____struct___65_40_gml_Object_oGameSpawner_Create_0=100202;
-const kgml_Script____struct___66_40_gml_Object_oGameSpawner_Create_0=100203;
-const kgml_Script____struct___67_40_gml_Object_oGameSpawner_Create_0=100204;
-const kgml_Script_anon_40_991_40_gml_Object_oGameSpawner_Create_0=100205;
-const kgml_Script_anon_40_189_40_gml_Object_oGiftFlying_Create_0=100206;
-const kgml_Script_anon_40_293_40_gml_Object_oHitrunPlayer_Create_0=100207;
-const kgml_Script_anon_40_880_40_gml_Object_oPlayer_Create_0=100208;
-const kgml_Script_anon_40_216_40_gml_Object_oPlayerBulRegular_Create_0=100209;
-const kgml_Script_anon_40_271_40_gml_Object_oPlayerBulRegular_Step_0=100210;
-const kgml_Script_anon_40_1353_40_gml_Object_oPlayerBulRegular_Step_0=100211;
-const kgml_Script_anon_40_1963_40_gml_Object_oPlayerBulRegular_Step_0=100212;
-const kgml_Script_anon_40_411_40_gml_Object_oPlayerHitbox_Step_0=100213;
-const kgml_Script_anon_40_152_40_gml_Object_oPropBomb_Create_0=100214;
-const kgml_Script_anon_40_346_40_gml_Object_oPropBomb_Step_0=100215;
-const kgml_Script_anon_40_143_40_gml_Object_oPropNuke_Create_0=100216;
-const kgml_Script_anon_40_328_40_gml_Object_oPropNuke_Step_0=100217;
-const kgml_Script_anon_40_657_40_gml_Object_oStageExit_Step_0=100218;
-const kgml_Script_anon_40_254_40_gml_Object_oTestSpawner_Create_0=100219;
-const kgml_Script_anon_40_107_40_gml_Object_oWaveTrigger_Create_0=100220;
+const kgml_Script_anon_40_345_40_ent_move_collide_40_entity_scripts=100028;
+const kgml_Script_ent_move_collide=100029;
+const kgml_Script_get_ent_targets=100030;
+const kgml_Script_ent_state_machine=100031;
+const kgml_Script_ent_prestate_event=100032;
+const kgml_Script_ent_death_event=100033;
+const kgml_Script_ent_spawnlist_index=100034;
+const kgml_Script_anon_40_2338_40_hurtData_40_entity_scripts=100035;
+const kgml_Script_hurtData=100036;
+const kgml_Script_hurt_entity=100037;
+const kgml_Script_ent_player_canhit=100038;
+const kgml_Script_hurt_player=100039;
+const kgml_Script_ent_add_knockback=100040;
+const kgml_GlobalScript_game_init=100041;
+const kgml_Script____struct___0=100042;
+const kgml_Script____struct___1=100043;
+const kgml_Script____struct___2=100044;
+const kgml_Script_game_init=100045;
+const kgml_Script_load_playerdata=100046;
+const kgml_Script____struct___3_40_save_settings_40_game_init=100047;
+const kgml_Script_save_settings=100048;
+const kgml_Script____struct___4_40_save_playerdata_40_game_init=100049;
+const kgml_Script_save_playerdata=100050;
+const kgml_Script_choose_weighted=100051;
+const kgml_Script_outside_view=100052;
+const kgml_Script_sqr_ceil=100053;
+const kgml_Script_anon_40_5557_40_color_40_game_init=100054;
+const kgml_Script_color=100055;
+const kgml_Script_draw_key_tip=100056;
+const kgml_Script_timer_show=100057;
+const kgml_GlobalScript_gmcallback_imgloadbar=100058;
+const kgml_Script_gmcallback_imgloadbar=100059;
+const kgml_GlobalScript_gun_struct=100060;
+const kgml_Script_get_gun_sprite=100061;
+const kgml_Script_get_gun_name=100062;
+const kgml_Script_get_gun=100063;
+const kgml_Script____struct___8_40____struct___7_40____struct___6_40____struct___5_40_gun_struct=100064;
+const kgml_Script____struct___9_40____struct___7_40____struct___6_40____struct___5_40_gun_struct=100065;
+const kgml_Script____struct___7_40____struct___6_40____struct___5_40_gun_struct=100066;
+const kgml_Script____struct___6_40____struct___5_40_gun_struct=100067;
+const kgml_Script____struct___14_40____struct___13_40____struct___12_40____struct___5_40_gun_struct=100068;
+const kgml_Script____struct___15_40____struct___13_40____struct___12_40____struct___5_40_gun_struct=100069;
+const kgml_Script____struct___13_40____struct___12_40____struct___5_40_gun_struct=100070;
+const kgml_Script____struct___16_40____struct___12_40____struct___5_40_gun_struct=100071;
+const kgml_Script____struct___12_40____struct___5_40_gun_struct=100072;
+const kgml_Script____struct___20_40____struct___19_40____struct___18_40____struct___5_40_gun_struct=100073;
+const kgml_Script____struct___21_40____struct___19_40____struct___18_40____struct___5_40_gun_struct=100074;
+const kgml_Script____struct___19_40____struct___18_40____struct___5_40_gun_struct=100075;
+const kgml_Script____struct___18_40____struct___5_40_gun_struct=100076;
+const kgml_Script____struct___26_40____struct___25_40____struct___24_40____struct___5_40_gun_struct=100077;
+const kgml_Script____struct___27_40____struct___25_40____struct___24_40____struct___5_40_gun_struct=100078;
+const kgml_Script____struct___25_40____struct___24_40____struct___5_40_gun_struct=100079;
+const kgml_Script____struct___28_40____struct___24_40____struct___5_40_gun_struct=100080;
+const kgml_Script____struct___24_40____struct___5_40_gun_struct=100081;
+const kgml_Script____struct___32_40____struct___31_40____struct___30_40____struct___5_40_gun_struct=100082;
+const kgml_Script____struct___33_40____struct___31_40____struct___30_40____struct___5_40_gun_struct=100083;
+const kgml_Script____struct___31_40____struct___30_40____struct___5_40_gun_struct=100084;
+const kgml_Script____struct___30_40____struct___5_40_gun_struct=100085;
+const kgml_Script____struct___38_40____struct___37_40____struct___36_40____struct___5_40_gun_struct=100086;
+const kgml_Script____struct___39_40____struct___37_40____struct___36_40____struct___5_40_gun_struct=100087;
+const kgml_Script____struct___37_40____struct___36_40____struct___5_40_gun_struct=100088;
+const kgml_Script____struct___36_40____struct___5_40_gun_struct=100089;
+const kgml_Script____struct___44_40____struct___43_40____struct___42_40____struct___5_40_gun_struct=100090;
+const kgml_Script____struct___45_40____struct___43_40____struct___42_40____struct___5_40_gun_struct=100091;
+const kgml_Script____struct___43_40____struct___42_40____struct___5_40_gun_struct=100092;
+const kgml_Script____struct___42_40____struct___5_40_gun_struct=100093;
+const kgml_Script____struct___5=100094;
+const kgml_GlobalScript_key_get_string=100095;
+const kgml_Script_key_get_string=100096;
+const kgml_GlobalScript_listloop=100097;
+const kgml_Script_listloop=100098;
+const kgml_GlobalScript_menu_options_init=100099;
+const kgml_Script____struct___48_40_menu_options_init_40_menu_options_init=100100;
+const kgml_Script_menu_options_init=100101;
+const kgml_Script____struct___49_40_pause_menu_options_init_40_menu_options_init=100102;
+const kgml_Script_pause_menu_options_init=100103;
+const kgml_Script____struct___50_40_game_over_optioms_init_40_menu_options_init=100104;
+const kgml_Script_game_over_optioms_init=100105;
+const kgml_Script_options_change=100106;
+const kgml_Script_anon_40_6362_40_menu_options_draw_40_menu_options_init=100107;
+const kgml_Script_anon_40_6778_40_menu_options_draw_40_menu_options_init=100108;
+const kgml_Script_anon_40_7499_40_menu_options_draw_40_menu_options_init=100109;
+const kgml_Script_anon_40_7977_40_menu_options_draw_40_menu_options_init=100110;
+const kgml_Script_anon_40_8748_40_menu_options_draw_40_menu_options_init=100111;
+const kgml_Script_anon_40_9282_40_menu_options_draw_40_menu_options_init=100112;
+const kgml_Script_anon_40_9633_40_menu_options_draw_40_menu_options_init=100113;
+const kgml_Script_anon_40_10023_40_menu_options_draw_40_menu_options_init=100114;
+const kgml_Script_menu_options_draw=100115;
+const kgml_GlobalScript_platformer_scripts=100116;
+const kgml_Script_on_ground=100117;
+const kgml_Script_on_wall=100118;
+const kgml_Script_on_slope=100119;
+const kgml_Script_on_platform=100120;
+const kgml_Script_move_x=100121;
+const kgml_Script_wall_above=100122;
+const kgml_Script_move_y=100123;
+const kgml_Script_round_vel=100124;
+const kgml_Script_slope_move=100125;
+const kgml_Script_wall_on_side=100126;
+const kgml_Script_on_top=100127;
+const kgml_Script_coll_x=100128;
+const kgml_Script_coll_y=100129;
+const kgml_Script_move_platform_x=100130;
+const kgml_Script_move_platform_y=100131;
+const kgml_Script_coll_x_list=100132;
+const kgml_Script_coll_y_list=100133;
+const kgml_Script_instances_reset_position=100134;
+const kgml_Script_instances_update_previous_position=100135;
+const kgml_GlobalScript_player_scripts=100136;
+const kgml_Script_pl_hurt_player=100137;
+const kgml_Script_pl_post_state=100138;
+const kgml_GlobalScript_player_shoot_atk=100139;
+const kgml_Script_pl_obtain_gun=100140;
+const kgml_Script_pl_switch_gun=100141;
+const kgml_Script_pl_shoot_atk=100142;
+const kgml_GlobalScript_player_states=100143;
+const kgml_Script_pl_jump=100144;
+const kgml_Script_anon_40_4045_40_pl_state_free_40_player_states=100145;
+const kgml_Script_pl_state_free=100146;
+const kgml_Script_pl_state_dash=100147;
+const kgml_Script_pl_state_room_exit=100148;
+const kgml_Script_pl_state_room_enter=100149;
+const kgml_Script_pl_state_hurt=100150;
+const kgml_GlobalScript_set_new_room=100151;
+const kgml_Script_room_get_type=100152;
+const kgml_Script_set_new_room=100153;
+const kgml_Script_anon_40_136_40_gml_Object_oBulBlood_Create_0=100154;
+const kgml_Script_anon_40_269_40_gml_Object_oBulBlood_Create_0=100155;
+const kgml_Script_anon_40_375_40_gml_Object_oBulBlood_Create_0=100156;
+const kgml_Script_anon_40_130_40_gml_Object_oBulFlak_Create_0=100157;
+const kgml_Script_anon_40_485_40_gml_Object_oBulFlak_Create_0=100158;
+const kgml_Script_anon_40_730_40_gml_Object_oBulFlak_Create_0=100159;
+const kgml_Script_anon_40_877_40_gml_Object_oBulFlak_Create_0=100160;
+const kgml_Script_anon_40_139_40_gml_Object_oBulFlyingBomb_Create_0=100161;
+const kgml_Script_anon_40_283_40_gml_Object_oBulFlyingBomb_Create_0=100162;
+const kgml_Script_anon_40_74_40_gml_Object_oBulSkull_Create_0=100163;
+const kgml_Script_anon_40_373_40_gml_Object_oBulSkull_Create_0=100164;
+const kgml_Script_anon_40_43_40_gml_Object_oDoorTest_Create_0=100165;
+const kgml_Script____struct___51_40_gml_Object_oEnClatter_Create_0=100166;
+const kgml_Script_anon_40_244_40_gml_Object_oEnClatter_Create_0=100167;
+const kgml_Script____struct___52_40_gml_Object_oEnCoffin_Create_0=100168;
+const kgml_Script_anon_40_402_40_gml_Object_oEnCoffin_Create_0=100169;
+const kgml_Script____struct___53_40_gml_Object_oEnDemonBomb_Create_0=100170;
+const kgml_Script_anon_40_392_40_gml_Object_oEnDemonBomb_Create_0=100171;
+const kgml_Script_anon_40_689_40_gml_Object_oEnDemonBomb_Create_0=100172;
+const kgml_Script_anon_40_4387_40_gml_Object_oEnDemonBomb_Step_0=100173;
+const kgml_Script_anon_40_326_40_gml_Object_oEnDemonSnake_Create_0=100174;
+const kgml_Script_anon_40_292_40_gml_Object_oEnDemonSnakeBody_Create_0=100175;
+const kgml_Script_anon_40_358_40_gml_Object_oEnDemonSnakeBody_Create_0=100176;
+const kgml_Script_anon_40_216_40_gml_Object_oEnDrippler_Create_0=100177;
+const kgml_Script_anon_40_97_40_gml_Object_oEnemyBullet_Create_0=100178;
+const kgml_Script_anon_40_253_40_gml_Object_oEnemyBullet_Create_0=100179;
+const kgml_Script_anon_40_375_40_gml_Object_oEnemyBullet_Create_0=100180;
+const kgml_Script_anon_40_182_40_gml_Object_oEnEvilBalloon_Create_0=100181;
+const kgml_Script_anon_40_4384_40_gml_Object_oEnExploder_Step_0=100182;
+const kgml_Script____struct___54_40_gml_Object_oEnGhostshot_Create_0=100183;
+const kgml_Script_anon_40_294_40_gml_Object_oEnGhostshot_Create_0=100184;
+const kgml_Script____struct___55_40_gml_Object_oEnLeaper_Create_0=100185;
+const kgml_Script_anon_40_170_40_gml_Object_oEntRisingWall_Create_0=100186;
+const kgml_Script____struct___56_40_gml_Object_oEnZombie_Create_0=100187;
+const kgml_Script_anon_40_474_40_gml_Object_oEnZombie_Create_0=100188;
+const kgml_Script_anon_40_5878_40_gml_Object_oEnZombie_Step_0=100189;
+const kgml_Script_anon_40_304_40_gml_Object_oExplosion_Step_0=100190;
+const kgml_Script_anon_40_102_40_gml_Object_oFloatUmbrella_Create_0=100191;
+const kgml_Script_anon_40_407_40_gml_Object_oFloatUmbrella_Step_0=100192;
+const kgml_Script_anon_40_231_40_gml_Object_oFxGib_Create_0=100193;
+const kgml_Script_anon_40_130_40_gml_Object_oGamePause_Create_0=100194;
+const kgml_Script_anon_40_548_40_gml_Object_oGamePause_Create_0=100195;
+const kgml_Script_anon_40_785_40_gml_Object_oGamePause_Create_0=100196;
+const kgml_Script_anon_40_1025_40_gml_Object_oGamePause_Create_0=100197;
+const kgml_Script____struct___58_40_gml_Object_oGameSetup_Create_0=100198;
+const kgml_Script____struct___59_40_anon_40_1294_40_gml_Object_oGameSetup_Create_0=100199;
+const kgml_Script_anon_40_1294_40_gml_Object_oGameSetup_Create_0=100200;
+const kgml_Script____struct___60_40_gml_Object_oGameSpawner_Create_0=100201;
+const kgml_Script____struct___61_40_gml_Object_oGameSpawner_Create_0=100202;
+const kgml_Script____struct___62_40_gml_Object_oGameSpawner_Create_0=100203;
+const kgml_Script____struct___63_40_gml_Object_oGameSpawner_Create_0=100204;
+const kgml_Script____struct___64_40_gml_Object_oGameSpawner_Create_0=100205;
+const kgml_Script____struct___65_40_gml_Object_oGameSpawner_Create_0=100206;
+const kgml_Script____struct___66_40_gml_Object_oGameSpawner_Create_0=100207;
+const kgml_Script____struct___67_40_gml_Object_oGameSpawner_Create_0=100208;
+const kgml_Script_anon_40_991_40_gml_Object_oGameSpawner_Create_0=100209;
+const kgml_Script_anon_40_189_40_gml_Object_oGiftFlying_Create_0=100210;
+const kgml_Script_anon_40_293_40_gml_Object_oHitrunPlayer_Create_0=100211;
+const kgml_Script_anon_40_880_40_gml_Object_oPlayer_Create_0=100212;
+const kgml_Script_anon_40_216_40_gml_Object_oPlayerBulRegular_Create_0=100213;
+const kgml_Script_anon_40_271_40_gml_Object_oPlayerBulRegular_Step_0=100214;
+const kgml_Script_anon_40_1353_40_gml_Object_oPlayerBulRegular_Step_0=100215;
+const kgml_Script_anon_40_1963_40_gml_Object_oPlayerBulRegular_Step_0=100216;
+const kgml_Script_anon_40_411_40_gml_Object_oPlayerHitbox_Step_0=100217;
+const kgml_Script_anon_40_152_40_gml_Object_oPropBomb_Create_0=100218;
+const kgml_Script_anon_40_346_40_gml_Object_oPropBomb_Step_0=100219;
+const kgml_Script_anon_40_143_40_gml_Object_oPropNuke_Create_0=100220;
+const kgml_Script_anon_40_328_40_gml_Object_oPropNuke_Step_0=100221;
+const kgml_Script_anon_40_657_40_gml_Object_oStageExit_Step_0=100222;
+const kgml_Script_anon_40_254_40_gml_Object_oTestSpawner_Create_0=100223;
+const kgml_Script_anon_40_107_40_gml_Object_oWaveTrigger_Create_0=100224;
 var __yyg__SetImageIndexGML=
 function(frame)
 {
