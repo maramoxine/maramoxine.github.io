@@ -123,6 +123,9 @@ var JSON_game=
 		pName:"sfxRicochetBullet",kind:0,extension:"",origName:"sfxRicochetBullet",effects:0,volume:1,pan:0,preload:!1,groupId:1,duration:0.09	}
 	,
 	{
+		pName:"sfxTargetHit",kind:0,extension:"",origName:"sfxTargetHit",effects:0,volume:1,pan:0,preload:!1,groupId:0,duration:2.04	}
+	,
+	{
 		pName:"sfxVoxZombieDead",kind:0,extension:"",origName:"sfxVoxZombieDead",effects:0,volume:1,pan:0,preload:!1,groupId:1,duration:1.01	}
 	,
 	{
@@ -300,7 +303,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spBulletPellet",transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:8,bboxLeft:2,bboxRight:13,bboxTop:2,bboxBottom:13,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[305,316,306,317],sequence:
+		pName:"spBulletPellet",transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:8,bboxLeft:2,bboxRight:13,bboxTop:2,bboxBottom:13,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[315,326,316,327],sequence:
 		{
 			pName:"spBulletPellet",playback:1,playbackSpeed:1,playbackSpeedType:1,length:4,xorigin:8,yorigin:8,volume:1,width:16,height:16,keyframeStore:[],tracks:[
 			{
@@ -345,7 +348,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spBulletRegular",transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:8,bboxLeft:1,bboxRight:14,bboxTop:5,bboxBottom:10,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[318],sequence:
+		pName:"spBulletRegular",transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:8,bboxLeft:1,bboxRight:14,bboxTop:5,bboxBottom:10,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[328],sequence:
 		{
 			pName:"spBulletRegular",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:8,yorigin:8,volume:1,width:16,height:16,keyframeStore:[],tracks:[
 			{
@@ -366,7 +369,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spBulletStaple",transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:8,bboxLeft:3,bboxRight:13,bboxTop:3,bboxBottom:12,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[304],sequence:
+		pName:"spBulletStaple",transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:8,bboxLeft:3,bboxRight:13,bboxTop:3,bboxBottom:12,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[314],sequence:
 		{
 			pName:"spBulletStaple",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:8,yorigin:8,volume:1,width:16,height:16,keyframeStore:[],tracks:[
 			{
@@ -384,7 +387,25 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spEnBloodBullet",transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:8,bboxLeft:1,bboxRight:14,bboxBottom:14,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[285,298,307],sequence:
+		pName:"spEnAlienstarIdle",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:7,bboxRight:24,bboxTop:5,bboxBottom:23,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[236],sequence:
+		{
+			pName:"spEnAlienstarIdle",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:16,yorigin:16,volume:1,width:0,height:0,keyframeStore:[],tracks:[
+			{
+				modelName:"GMSpriteFramesTrack",pName:"frames",builtinName:0,traits:0,creationTrack:0,tags:[],ownedResourceModels:[],tracks:[],keyframeStore:[
+				{
+					key:0,length:1,stretch:!1,disabled:!1,channels:
+					{
+						0:
+						{
+							imageIndex:0						}
+					}
+				}
+				]			}
+			],sequenceEvents:[],momentsKeystore:[]		}
+	}
+	,
+	{
+		pName:"spEnBloodBullet",transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:8,bboxLeft:1,bboxRight:14,bboxBottom:14,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[294,307,317],sequence:
 		{
 			pName:"spEnBloodBullet",playback:1,playbackSpeed:1,playbackSpeedType:1,length:3,xorigin:8,yorigin:8,volume:1,width:16,height:16,keyframeStore:[],tracks:[
 			{
@@ -420,7 +441,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spEnClatterIdle",width:48,height:48,transparent:!1,smooth:!1,preload:!1,xOrigin:24,yOrigin:24,bboxLeft:3,bboxRight:47,bboxTop:5,bboxBottom:40,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[142,179,147,130,87,97],sequence:
+		pName:"spEnClatterIdle",width:48,height:48,transparent:!1,smooth:!1,preload:!1,xOrigin:24,yOrigin:24,bboxLeft:3,bboxRight:47,bboxTop:5,bboxBottom:40,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[145,182,150,133,88,99],sequence:
 		{
 			pName:"spEnClatterIdle",playback:1,playbackSpeed:1,playbackSpeedType:1,length:6,xorigin:24,yorigin:24,volume:1,width:48,height:48,keyframeStore:[],tracks:[
 			{
@@ -483,7 +504,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spEnCoffinIdle",width:32,height:48,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:5,bboxRight:25,bboxTop:6,bboxBottom:41,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[107],sequence:
+		pName:"spEnCoffinIdle",width:32,height:48,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:5,bboxRight:25,bboxTop:6,bboxBottom:41,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[110],sequence:
 		{
 			pName:"spEnCoffinIdle",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:16,yorigin:24,volume:1,width:32,height:48,keyframeStore:[],tracks:[
 			{
@@ -501,7 +522,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spEnCoffinSide",width:32,height:48,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:7,bboxRight:27,bboxTop:5,bboxBottom:41,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[104],sequence:
+		pName:"spEnCoffinSide",width:32,height:48,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:7,bboxRight:27,bboxTop:5,bboxBottom:41,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[107],sequence:
 		{
 			pName:"spEnCoffinSide",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:16,yorigin:24,volume:1,width:32,height:48,keyframeStore:[],tracks:[
 			{
@@ -519,7 +540,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spEnDemonBombAntic",width:48,height:48,transparent:!1,smooth:!1,preload:!1,xOrigin:24,yOrigin:24,bboxLeft:5,bboxRight:44,bboxTop:1,bboxBottom:43,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[71,76],sequence:
+		pName:"spEnDemonBombAntic",width:48,height:48,transparent:!1,smooth:!1,preload:!1,xOrigin:24,yOrigin:24,bboxLeft:5,bboxRight:44,bboxTop:1,bboxBottom:43,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[72,77],sequence:
 		{
 			pName:"spEnDemonBombAntic",playback:1,playbackSpeed:1,playbackSpeedType:1,length:2,xorigin:24,yorigin:24,volume:1,width:48,height:48,keyframeStore:[],tracks:[
 			{
@@ -546,7 +567,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spEnDemonBombIdle",width:48,height:48,transparent:!1,smooth:!1,preload:!1,xOrigin:24,yOrigin:24,bboxLeft:7,bboxRight:38,bboxTop:3,bboxBottom:45,playbackspeed:30,TPEntryIndex:[80,78],sequence:
+		pName:"spEnDemonBombIdle",width:48,height:48,transparent:!1,smooth:!1,preload:!1,xOrigin:24,yOrigin:24,bboxLeft:7,bboxRight:38,bboxTop:3,bboxBottom:45,playbackspeed:30,TPEntryIndex:[81,79],sequence:
 		{
 			pName:"spEnDemonBombIdle",playback:1,playbackSpeed:30,playbackSpeedType:0,length:2,xorigin:24,yorigin:24,volume:1,width:48,height:48,keyframeStore:[],tracks:[
 			{
@@ -573,7 +594,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spEnDemonBombShoot",width:48,height:48,transparent:!1,smooth:!1,preload:!1,xOrigin:24,yOrigin:24,bboxLeft:4,bboxRight:45,bboxTop:2,bboxBottom:44,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[66],sequence:
+		pName:"spEnDemonBombShoot",width:48,height:48,transparent:!1,smooth:!1,preload:!1,xOrigin:24,yOrigin:24,bboxLeft:4,bboxRight:45,bboxTop:2,bboxBottom:44,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[67],sequence:
 		{
 			pName:"spEnDemonBombShoot",playback:1,playbackSpeed:1,playbackSpeedType:1,length:3,xorigin:24,yorigin:24,volume:1,width:48,height:48,keyframeStore:[],tracks:[
 			{
@@ -591,7 +612,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spEnDemonBombTurn",width:48,height:48,transparent:!1,smooth:!1,preload:!1,xOrigin:24,yOrigin:24,bboxLeft:9,bboxRight:42,bboxTop:1,bboxBottom:46,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[70],sequence:
+		pName:"spEnDemonBombTurn",width:48,height:48,transparent:!1,smooth:!1,preload:!1,xOrigin:24,yOrigin:24,bboxLeft:9,bboxRight:42,bboxTop:1,bboxBottom:46,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[71],sequence:
 		{
 			pName:"spEnDemonBombTurn",playback:1,playbackSpeed:1,playbackSpeedType:1,length:3,xorigin:24,yorigin:24,volume:1,width:48,height:48,keyframeStore:[],tracks:[
 			{
@@ -609,7 +630,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spEnDemonBombWait",width:48,height:48,transparent:!1,smooth:!1,preload:!1,xOrigin:24,yOrigin:24,bboxLeft:9,bboxRight:39,bboxTop:1,bboxBottom:45,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[73],sequence:
+		pName:"spEnDemonBombWait",width:48,height:48,transparent:!1,smooth:!1,preload:!1,xOrigin:24,yOrigin:24,bboxLeft:9,bboxRight:39,bboxTop:1,bboxBottom:45,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[74],sequence:
 		{
 			pName:"spEnDemonBombWait",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:24,yorigin:24,volume:1,width:48,height:48,keyframeStore:[],tracks:[
 			{
@@ -627,7 +648,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spEnDemonBombWings",height:32,transparent:!1,smooth:!1,preload:!1,yOrigin:16,bboxLeft:1,bboxRight:15,bboxTop:4,bboxBottom:26,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[269,295,277,268],sequence:
+		pName:"spEnDemonBombWings",height:32,transparent:!1,smooth:!1,preload:!1,yOrigin:16,bboxLeft:1,bboxRight:15,bboxTop:4,bboxBottom:26,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[278,304,286,277],sequence:
 		{
 			pName:"spEnDemonBombWings",playback:1,playbackSpeed:1,playbackSpeedType:1,length:4,xorigin:0,yorigin:16,volume:1,width:16,height:32,keyframeStore:[],tracks:[
 			{
@@ -672,7 +693,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spEnDemonSnakeBody",width:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:8,bboxLeft:6,bboxRight:25,bboxTop:1,bboxBottom:14,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[289,284,338,244],sequence:
+		pName:"spEnDemonSnakeBody",width:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:8,bboxLeft:6,bboxRight:25,bboxTop:1,bboxBottom:14,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[298,293,348,253],sequence:
 		{
 			pName:"spEnDemonSnakeBody",playback:1,playbackSpeed:1,playbackSpeedType:1,length:4,xorigin:16,yorigin:8,volume:1,width:32,height:16,keyframeStore:[],tracks:[
 			{
@@ -717,7 +738,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spEnDemonSnakeIdle",width:48,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:24,yOrigin:24,bboxLeft:5,bboxRight:39,bboxTop:3,bboxBottom:38,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[82],sequence:
+		pName:"spEnDemonSnakeIdle",width:48,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:24,yOrigin:24,bboxLeft:5,bboxRight:39,bboxTop:3,bboxBottom:38,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[83],sequence:
 		{
 			pName:"spEnDemonSnakeIdle",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:24,yorigin:24,volume:1,width:48,height:40,keyframeStore:[],tracks:[
 			{
@@ -735,7 +756,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spEnDripplerIdle",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:7,bboxRight:25,bboxTop:7,bboxBottom:30,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[195],sequence:
+		pName:"spEnDripplerIdle",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:7,bboxRight:25,bboxTop:7,bboxBottom:30,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[199],sequence:
 		{
 			pName:"spEnDripplerIdle",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:16,yorigin:16,volume:1,width:32,height:32,keyframeStore:[],tracks:[
 			{
@@ -753,7 +774,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spEnDummyPlayer",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:8,bboxRight:22,bboxTop:1,bboxBottom:25,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[227],sequence:
+		pName:"spEnDummyPlayer",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:8,bboxRight:22,bboxTop:1,bboxBottom:25,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[233],sequence:
 		{
 			pName:"spEnDummyPlayer",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:16,yorigin:16,volume:1,width:0,height:0,keyframeStore:[],tracks:[
 			{
@@ -771,7 +792,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spEnemy",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:6,bboxRight:23,bboxTop:8,bboxBottom:24,playbackspeed:30,TPEntryIndex:[235],sequence:
+		pName:"spEnemy",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:6,bboxRight:23,bboxTop:8,bboxBottom:24,playbackspeed:30,TPEntryIndex:[243],sequence:
 		{
 			pName:"spEnemy",playback:1,playbackSpeed:30,playbackSpeedType:0,length:1,xorigin:16,yorigin:16,volume:1,width:32,height:32,keyframeStore:[],tracks:[
 			{
@@ -789,7 +810,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spEnExploderBomb",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:1,bboxRight:29,bboxTop:1,bboxBottom:31,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[120,118,141,112,124],sequence:
+		pName:"spEnExploderBomb",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:1,bboxRight:29,bboxTop:1,bboxBottom:31,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[123,121,144,115,127],sequence:
 		{
 			pName:"spEnExploderBomb",playback:1,playbackSpeed:1,playbackSpeedType:1,length:5,xorigin:16,yorigin:24,volume:1,width:32,height:32,keyframeStore:[],tracks:[
 			{
@@ -843,7 +864,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spEnExploderIdle",width:32,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:6,bboxRight:28,bboxTop:5,bboxBottom:34,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[125],sequence:
+		pName:"spEnExploderIdle",width:32,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:6,bboxRight:28,bboxTop:5,bboxBottom:34,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[128],sequence:
 		{
 			pName:"spEnExploderIdle",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:16,yorigin:24,volume:1,width:32,height:40,keyframeStore:[],tracks:[
 			{
@@ -861,7 +882,43 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spEnFireBullet",transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:8,bboxLeft:2,bboxRight:13,bboxTop:2,bboxBottom:13,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[299],sequence:
+		pName:"spEnFatZomBodyIdle",width:32,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:1,bboxRight:30,bboxTop:3,bboxBottom:33,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[100],sequence:
+		{
+			pName:"spEnFatZomBodyIdle",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:16,yorigin:16,volume:1,width:0,height:0,keyframeStore:[],tracks:[
+			{
+				modelName:"GMSpriteFramesTrack",pName:"frames",builtinName:0,traits:0,creationTrack:0,tags:[],ownedResourceModels:[],tracks:[],keyframeStore:[
+				{
+					key:0,length:1,stretch:!1,disabled:!1,channels:
+					{
+						0:
+						{
+							imageIndex:0						}
+					}
+				}
+				]			}
+			],sequenceEvents:[],momentsKeystore:[]		}
+	}
+	,
+	{
+		pName:"spEnFatZomHeadIdle",width:24,height:24,transparent:!1,smooth:!1,preload:!1,xOrigin:12,yOrigin:12,bboxLeft:4,bboxRight:21,bboxTop:3,bboxBottom:19,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[244],sequence:
+		{
+			pName:"spEnFatZomHeadIdle",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:12,yorigin:12,volume:1,width:0,height:0,keyframeStore:[],tracks:[
+			{
+				modelName:"GMSpriteFramesTrack",pName:"frames",builtinName:0,traits:0,creationTrack:0,tags:[],ownedResourceModels:[],tracks:[],keyframeStore:[
+				{
+					key:0,length:1,stretch:!1,disabled:!1,channels:
+					{
+						0:
+						{
+							imageIndex:0						}
+					}
+				}
+				]			}
+			],sequenceEvents:[],momentsKeystore:[]		}
+	}
+	,
+	{
+		pName:"spEnFireBullet",transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:8,bboxLeft:2,bboxRight:13,bboxTop:2,bboxBottom:13,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[308],sequence:
 		{
 			pName:"spEnFireBullet",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:8,yorigin:8,volume:1,width:16,height:16,keyframeStore:[],tracks:[
 			{
@@ -879,25 +936,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spEnFourshotIdle",width:32,height:32,transparent:!1,smooth:!1,preload:!1,bboxLeft:5,bboxRight:25,bboxTop:4,bboxBottom:23,playbackspeed:30,TPEntryIndex:[208],sequence:
-		{
-			pName:"spEnFourshotIdle",playback:1,playbackSpeed:30,playbackSpeedType:0,length:1,xorigin:0,yorigin:0,volume:1,width:0,height:0,keyframeStore:[],tracks:[
-			{
-				modelName:"GMSpriteFramesTrack",pName:"frames",builtinName:0,traits:0,creationTrack:0,tags:[],ownedResourceModels:[],tracks:[],keyframeStore:[
-				{
-					key:0,length:1,stretch:!1,disabled:!1,channels:
-					{
-						0:
-						{
-							imageIndex:0						}
-					}
-				}
-				]			}
-			],sequenceEvents:[],momentsKeystore:[]		}
-	}
-	,
-	{
-		pName:"spEnGhostshotIdle",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:10,bboxRight:24,bboxTop:2,bboxBottom:28,playbackspeed:30,TPEntryIndex:[217],sequence:
+		pName:"spEnGhostshotIdle",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:10,bboxRight:24,bboxTop:2,bboxBottom:28,playbackspeed:30,TPEntryIndex:[222],sequence:
 		{
 			pName:"spEnGhostshotIdle",playback:1,playbackSpeed:30,playbackSpeedType:0,length:1,xorigin:16,yorigin:16,volume:1,width:0,height:0,keyframeStore:[],tracks:[
 			{
@@ -915,7 +954,25 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spEnLeaperIdle",width:32,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:8,bboxRight:25,bboxTop:6,bboxBottom:33,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[175],sequence:
+		pName:"spEnInvaderIdle",width:40,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:7,bboxRight:38,bboxTop:3,bboxBottom:34,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[91],sequence:
+		{
+			pName:"spEnInvaderIdle",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:16,yorigin:16,volume:1,width:0,height:0,keyframeStore:[],tracks:[
+			{
+				modelName:"GMSpriteFramesTrack",pName:"frames",builtinName:0,traits:0,creationTrack:0,tags:[],ownedResourceModels:[],tracks:[],keyframeStore:[
+				{
+					key:0,length:1,stretch:!1,disabled:!1,channels:
+					{
+						0:
+						{
+							imageIndex:0						}
+					}
+				}
+				]			}
+			],sequenceEvents:[],momentsKeystore:[]		}
+	}
+	,
+	{
+		pName:"spEnLeaperIdle",width:32,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:8,bboxRight:25,bboxTop:6,bboxBottom:33,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[178],sequence:
 		{
 			pName:"spEnLeaperIdle",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:16,yorigin:24,volume:1,width:32,height:40,keyframeStore:[],tracks:[
 			{
@@ -933,7 +990,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spEnLeaperJumpAntic",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:20,bboxLeft:8,bboxRight:25,bboxBottom:25,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[228],sequence:
+		pName:"spEnLeaperJumpAntic",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:20,bboxLeft:8,bboxRight:25,bboxBottom:25,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[234],sequence:
 		{
 			pName:"spEnLeaperJumpAntic",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:16,yorigin:20,volume:1,width:32,height:32,keyframeStore:[],tracks:[
 			{
@@ -951,7 +1008,25 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spEnSkullBullet",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:7,bboxRight:26,bboxTop:7,bboxBottom:25,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[224],sequence:
+		pName:"spEnMeteorIdle",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:6,bboxRight:25,bboxTop:6,bboxBottom:26,playbackspeed:30,TPEntryIndex:[212],sequence:
+		{
+			pName:"spEnMeteorIdle",playback:1,playbackSpeed:30,playbackSpeedType:0,length:1,xorigin:16,yorigin:16,volume:1,width:0,height:0,keyframeStore:[],tracks:[
+			{
+				modelName:"GMSpriteFramesTrack",pName:"frames",builtinName:0,traits:0,creationTrack:0,tags:[],ownedResourceModels:[],tracks:[],keyframeStore:[
+				{
+					key:0,length:1,stretch:!1,disabled:!1,channels:
+					{
+						0:
+						{
+							imageIndex:0						}
+					}
+				}
+				]			}
+			],sequenceEvents:[],momentsKeystore:[]		}
+	}
+	,
+	{
+		pName:"spEnSkullBullet",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:7,bboxRight:26,bboxTop:7,bboxBottom:25,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[230],sequence:
 		{
 			pName:"spEnSkullBullet",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:16,yorigin:16,volume:1,width:32,height:32,keyframeStore:[],tracks:[
 			{
@@ -969,7 +1044,25 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spEntityWall",transparent:!1,smooth:!1,preload:!1,bboxRight:15,bboxBottom:15,playbackspeed:30,TPEntryIndex:[249],sequence:
+		pName:"spEnSnubdemonIdle",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:6,bboxRight:30,bboxTop:7,bboxBottom:25,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[191],sequence:
+		{
+			pName:"spEnSnubdemonIdle",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:16,yorigin:16,volume:1,width:0,height:0,keyframeStore:[],tracks:[
+			{
+				modelName:"GMSpriteFramesTrack",pName:"frames",builtinName:0,traits:0,creationTrack:0,tags:[],ownedResourceModels:[],tracks:[],keyframeStore:[
+				{
+					key:0,length:1,stretch:!1,disabled:!1,channels:
+					{
+						0:
+						{
+							imageIndex:0						}
+					}
+				}
+				]			}
+			],sequenceEvents:[],momentsKeystore:[]		}
+	}
+	,
+	{
+		pName:"spEntityWall",transparent:!1,smooth:!1,preload:!1,bboxRight:15,bboxBottom:15,playbackspeed:30,TPEntryIndex:[258],sequence:
 		{
 			pName:"spEntityWall",playback:1,playbackSpeed:30,playbackSpeedType:0,length:1,xorigin:0,yorigin:0,volume:1,width:16,height:16,keyframeStore:[],tracks:[
 			{
@@ -987,7 +1080,25 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spEnZombieAppear",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:6,bboxRight:23,bboxBottom:26,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[180],sequence:
+		pName:"spEnUfoIdle",width:64,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:32,yOrigin:20,bboxLeft:2,bboxRight:62,bboxTop:4,bboxBottom:38,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[64],sequence:
+		{
+			pName:"spEnUfoIdle",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:32,yorigin:20,volume:1,width:0,height:0,keyframeStore:[],tracks:[
+			{
+				modelName:"GMSpriteFramesTrack",pName:"frames",builtinName:0,traits:0,creationTrack:0,tags:[],ownedResourceModels:[],tracks:[],keyframeStore:[
+				{
+					key:0,length:1,stretch:!1,disabled:!1,channels:
+					{
+						0:
+						{
+							imageIndex:0						}
+					}
+				}
+				]			}
+			],sequenceEvents:[],momentsKeystore:[]		}
+	}
+	,
+	{
+		pName:"spEnZombieAppear",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:6,bboxRight:23,bboxBottom:26,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[183],sequence:
 		{
 			pName:"spEnZombieAppear",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:16,yorigin:16,volume:1,width:32,height:32,keyframeStore:[],tracks:[
 			{
@@ -1005,7 +1116,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spEnZombieDead",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:1,bboxRight:28,bboxBottom:26,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[108,126,176],sequence:
+		pName:"spEnZombieDead",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:1,bboxRight:28,bboxBottom:26,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[111,129,179],sequence:
 		{
 			pName:"spEnZombieDead",playback:1,playbackSpeed:1,playbackSpeedType:1,length:4,xorigin:16,yorigin:16,volume:1,width:32,height:32,keyframeStore:[],tracks:[
 			{
@@ -1041,7 +1152,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spEnZombieFall",width:32,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:5,bboxRight:28,bboxTop:6,bboxBottom:30,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[143],sequence:
+		pName:"spEnZombieFall",width:32,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:5,bboxRight:28,bboxTop:6,bboxBottom:30,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[146],sequence:
 		{
 			pName:"spEnZombieFall",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:16,yorigin:24,volume:1,width:32,height:40,keyframeStore:[],tracks:[
 			{
@@ -1059,7 +1170,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spEnZombieIdle",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:7,bboxRight:24,bboxBottom:26,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[181],sequence:
+		pName:"spEnZombieIdle",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:7,bboxRight:24,bboxBottom:26,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[184],sequence:
 		{
 			pName:"spEnZombieIdle",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:16,yorigin:16,volume:1,width:32,height:32,keyframeStore:[],tracks:[
 			{
@@ -1077,7 +1188,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spEnZombieJump",width:32,height:48,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:32,bboxLeft:3,bboxRight:27,bboxTop:3,bboxBottom:43,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[122,119,134,128],sequence:
+		pName:"spEnZombieJump",width:32,height:48,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:32,bboxLeft:3,bboxRight:27,bboxTop:3,bboxBottom:43,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[125,122,137,131],sequence:
 		{
 			pName:"spEnZombieJump",playback:1,playbackSpeed:1,playbackSpeedType:1,length:5,xorigin:16,yorigin:32,volume:1,width:32,height:48,keyframeStore:[],tracks:[
 			{
@@ -1122,7 +1233,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spEnZombieJumpAntic",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:5,bboxRight:27,bboxTop:3,bboxBottom:26,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[155],sequence:
+		pName:"spEnZombieJumpAntic",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:5,bboxRight:27,bboxTop:3,bboxBottom:26,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[158],sequence:
 		{
 			pName:"spEnZombieJumpAntic",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:16,yorigin:16,volume:1,width:32,height:32,keyframeStore:[],tracks:[
 			{
@@ -1140,7 +1251,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spEnZombieLand",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:1,bboxRight:30,bboxTop:9,bboxBottom:27,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[152,197],sequence:
+		pName:"spEnZombieLand",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:1,bboxRight:30,bboxTop:9,bboxBottom:27,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[155,201],sequence:
 		{
 			pName:"spEnZombieLand",playback:1,playbackSpeed:1,playbackSpeedType:1,length:3,xorigin:16,yorigin:16,volume:1,width:32,height:32,keyframeStore:[],tracks:[
 			{
@@ -1167,7 +1278,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spEnZombieRun",width:40,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:5,bboxRight:33,bboxTop:7,bboxBottom:34,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[114,115,131,110,109,136],sequence:
+		pName:"spEnZombieRun",width:40,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:5,bboxRight:33,bboxTop:7,bboxBottom:34,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[117,118,134,113,112,139],sequence:
 		{
 			pName:"spEnZombieRun",playback:1,playbackSpeed:1,playbackSpeedType:1,length:6,xorigin:16,yorigin:24,volume:1,width:40,height:40,keyframeStore:[],tracks:[
 			{
@@ -1230,7 +1341,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spEnZombieRunTurn",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:3,bboxRight:29,bboxBottom:26,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[145,190,207,156],sequence:
+		pName:"spEnZombieRunTurn",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:3,bboxRight:29,bboxBottom:26,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[148,194,211,159],sequence:
 		{
 			pName:"spEnZombieRunTurn",playback:1,playbackSpeed:1,playbackSpeedType:1,length:6,xorigin:16,yorigin:16,volume:1,width:32,height:32,keyframeStore:[],tracks:[
 			{
@@ -1275,7 +1386,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spEnZombieTipping",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:5,bboxRight:26,bboxBottom:26,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[153,159],sequence:
+		pName:"spEnZombieTipping",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:5,bboxRight:26,bboxBottom:26,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[156,162],sequence:
 		{
 			pName:"spEnZombieTipping",playback:1,playbackSpeed:1,playbackSpeedType:1,length:2,xorigin:16,yorigin:16,volume:1,width:32,height:32,keyframeStore:[],tracks:[
 			{
@@ -1302,7 +1413,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spEvilAssBalloon",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:7,bboxRight:24,bboxTop:7,bboxBottom:26,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[233,238,232,239,240],sequence:
+		pName:"spEvilAssBalloon",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:7,bboxRight:24,bboxTop:7,bboxBottom:26,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[241,247,240,248,249],sequence:
 		{
 			pName:"spEvilAssBalloon",playback:1,playbackSpeed:1,playbackSpeedType:1,length:5,xorigin:16,yorigin:16,volume:1,width:0,height:0,keyframeStore:[],tracks:[
 			{
@@ -1356,7 +1467,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spExitDoor",width:32,height:48,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:32,bboxLeft:3,bboxRight:28,bboxTop:4,bboxBottom:47,playbackspeed:1,TPEntryIndex:[86],sequence:
+		pName:"spExitDoor",width:32,height:48,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:32,bboxLeft:3,bboxRight:28,bboxTop:4,bboxBottom:47,playbackspeed:1,TPEntryIndex:[87],sequence:
 		{
 			pName:"spExitDoor",playback:1,playbackSpeed:1,playbackSpeedType:0,length:1,xorigin:16,yorigin:32,volume:1,width:64,height:64,keyframeStore:[],tracks:[
 			{
@@ -1374,7 +1485,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spExitDoorIdle",width:32,height:48,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:32,bboxLeft:2,bboxRight:27,bboxTop:1,bboxBottom:47,playbackspeed:1,TPEntryIndex:[84],sequence:
+		pName:"spExitDoorIdle",width:32,height:48,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:32,bboxLeft:2,bboxRight:27,bboxTop:1,bboxBottom:47,playbackspeed:1,TPEntryIndex:[85],sequence:
 		{
 			pName:"spExitDoorIdle",playback:1,playbackSpeed:1,playbackSpeedType:0,length:1,xorigin:16,yorigin:32,volume:1,width:64,height:64,keyframeStore:[],tracks:[
 			{
@@ -1551,7 +1662,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spExplosionRegular",width:80,height:80,bboxMode:2,transparent:!1,smooth:!1,preload:!1,xOrigin:40,yOrigin:40,bboxLeft:16,bboxRight:64,bboxTop:16,bboxBottom:63,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[60,64,41,43,48,53,55],sequence:
+		pName:"spExplosionRegular",width:80,height:80,bboxMode:2,transparent:!1,smooth:!1,preload:!1,xOrigin:40,yOrigin:40,bboxLeft:16,bboxRight:64,bboxTop:16,bboxBottom:63,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[60,65,41,43,48,53,55],sequence:
 		{
 			pName:"spExplosionRegular",playback:1,playbackSpeed:1,playbackSpeedType:1,length:12,xorigin:40,yorigin:40,volume:1,width:0,height:0,keyframeStore:[],tracks:[
 			{
@@ -1626,7 +1737,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spExplosionRegularOld",width:80,height:80,bboxMode:2,transparent:!1,smooth:!1,preload:!1,xOrigin:40,yOrigin:40,bboxLeft:16,bboxRight:64,bboxTop:16,bboxBottom:63,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[61,65,42,45,44,49,54,56],sequence:
+		pName:"spExplosionRegularOld",width:80,height:80,bboxMode:2,transparent:!1,smooth:!1,preload:!1,xOrigin:40,yOrigin:40,bboxLeft:16,bboxRight:64,bboxTop:16,bboxBottom:63,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[61,66,42,45,44,49,54,56],sequence:
 		{
 			pName:"spExplosionRegularOld",playback:1,playbackSpeed:1,playbackSpeedType:1,length:13,xorigin:40,yorigin:40,volume:1,width:0,height:0,keyframeStore:[],tracks:[
 			{
@@ -1707,7 +1818,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spExplosionSmall",width:48,height:48,bboxMode:2,transparent:!1,smooth:!1,preload:!1,xOrigin:24,yOrigin:24,bboxLeft:16,bboxRight:63,bboxTop:16,bboxBottom:63,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[90,116,101,98,94,92,96,93,103,100,117,271],sequence:
+		pName:"spExplosionSmall",width:48,height:48,bboxMode:2,transparent:!1,smooth:!1,preload:!1,xOrigin:24,yOrigin:24,bboxLeft:16,bboxRight:63,bboxTop:16,bboxBottom:63,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[92,119,104,101,96,94,98,95,106,103,120,280],sequence:
 		{
 			pName:"spExplosionSmall",playback:1,playbackSpeed:1,playbackSpeedType:1,length:12,xorigin:24,yorigin:24,volume:1,width:48,height:48,keyframeStore:[],tracks:[
 			{
@@ -1824,7 +1935,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spFontAmmonum",width:8,transparent:!1,smooth:!1,preload:!1,yOrigin:2,bboxRight:7,bboxTop:2,bboxBottom:13,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[319,339,324,323,311,326,320,322,321,325],sequence:
+		pName:"spFontAmmonum",width:8,transparent:!1,smooth:!1,preload:!1,yOrigin:2,bboxRight:7,bboxTop:2,bboxBottom:13,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[329,349,334,333,321,336,330,332,331,335],sequence:
 		{
 			pName:"spFontAmmonum",playback:1,playbackSpeed:1,playbackSpeedType:1,length:10,xorigin:0,yorigin:2,volume:1,width:0,height:0,keyframeStore:[],tracks:[
 			{
@@ -1923,7 +2034,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spFontLong",width:8,transparent:!1,smooth:!1,preload:!1,yOrigin:3,bboxRight:7,bboxBottom:15,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[658,684,331,340,314,337,711,568,572,664,516,696,710,719,570,467,449,450,476,359,484,486,472,451,480,688,611,624,638,625,464,313,460,458,482,474,453,487,466,469,657,478,360,454,336,361,471,457,424,468,459,479,456,461,335,477,489,470,571,481,567,573,689,704,497,483,561,455,556,448,475,485,656,510,473,655,422,554,558,465,463,557,562,569,555,559,421,560,462,563,452,626,488,678,725,659],sequence:
+		pName:"spFontLong",width:8,transparent:!1,smooth:!1,preload:!1,yOrigin:3,bboxRight:7,bboxBottom:15,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[668,694,341,350,324,347,721,578,582,674,526,706,720,729,580,477,459,460,486,369,494,496,482,461,490,698,621,634,648,635,474,323,470,468,492,484,463,497,476,479,667,488,370,464,346,371,481,467,434,478,469,489,466,471,345,487,499,480,581,491,577,583,699,714,507,493,571,465,566,458,485,495,666,520,483,665,432,564,568,475,473,567,572,579,565,569,431,570,472,573,462,636,498,688,735,669],sequence:
 		{
 			pName:"spFontLong",playback:1,playbackSpeed:1,playbackSpeedType:1,length:96,xorigin:0,yorigin:3,volume:1,width:8,height:16,keyframeStore:[],tracks:[
 			{
@@ -2796,7 +2907,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spFontMain",bboxMode:2,transparent:!1,smooth:!1,preload:!1,yOrigin:4,bboxLeft:4,bboxRight:11,bboxTop:4,bboxBottom:11,playbackspeed:30,TPEntryIndex:[661,701,350,333,351,334,714,521,522,575,429,697,694,713,348,375,660,386,392,390,400,397,343,369,385,662,613,525,498,523,391,332,379,366,395,401,372,362,407,403,368,373,345,389,347,365,415,371,352,367,398,383,387,404,349,370,402,382,520,409,524,574,681,698,413,376,396,406,408,393,384,364,374,380,346,412,344,388,381,411,341,377,399,414,363,405,342,410,378,394,428,612,430,425,726,663],sequence:
+		pName:"spFontMain",bboxMode:2,transparent:!1,smooth:!1,preload:!1,yOrigin:4,bboxLeft:4,bboxRight:11,bboxTop:4,bboxBottom:11,playbackspeed:30,TPEntryIndex:[671,711,360,343,361,344,724,531,532,585,439,707,704,723,358,385,670,396,402,400,410,407,353,379,395,672,623,535,508,533,401,342,389,376,405,411,382,372,417,413,378,383,355,399,357,375,425,381,362,377,408,393,397,414,359,380,412,392,530,419,534,584,691,708,423,386,406,416,418,403,394,374,384,390,356,422,354,398,391,421,351,387,409,424,373,415,352,420,388,404,438,622,440,435,736,673],sequence:
 		{
 			pName:"spFontMain",playback:1,playbackSpeed:30,playbackSpeedType:0,length:96,xorigin:0,yorigin:4,volume:1,width:16,height:16,keyframeStore:[],tracks:[
 			{
@@ -3672,7 +3783,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spFontWhiM",width:8,bboxMode:2,transparent:!1,smooth:!1,preload:!1,xOrigin:1,yOrigin:3,bboxRight:7,bboxTop:6,bboxBottom:11,playbackspeed:30,TPEntryIndex:[682,699,355,426,356,354,715,491,496,582,519,665,712,705,427,445,540,526,531,443,541,444,534,532,446,695,565,586,666,579,566,315,440,535,441,537,544,539,438,529,614,528,543,536,417,542,433,530,357,538,527,432,435,431,442,416,436,533,495,564,494,685,690,706,577,500,580,506,583,353,434,423,503,492,501,499,517,578,518,504,502,576,585,505,581,639,439,437,507,584,493,627,490,679,727,683],sequence:
+		pName:"spFontWhiM",width:8,bboxMode:2,transparent:!1,smooth:!1,preload:!1,xOrigin:1,yOrigin:3,bboxRight:7,bboxTop:6,bboxBottom:11,playbackspeed:30,TPEntryIndex:[692,709,365,436,366,364,725,501,506,592,529,675,722,715,437,455,550,536,541,453,551,454,544,542,456,705,575,596,676,589,576,325,450,545,451,547,554,549,448,539,624,538,553,546,427,552,443,540,367,548,537,442,445,441,452,426,446,543,505,574,504,695,700,716,587,510,590,516,593,363,444,433,513,502,511,509,527,588,528,514,512,586,595,515,591,649,449,447,517,594,503,637,500,689,737,693],sequence:
 		{
 			pName:"spFontWhiM",playback:1,playbackSpeed:30,playbackSpeedType:0,length:96,xorigin:1,yorigin:3,volume:1,width:8,height:16,keyframeStore:[],tracks:[
 			{
@@ -4545,7 +4656,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spFontWhiS",width:7,height:11,bboxMode:2,transparent:!1,smooth:!1,preload:!1,xOrigin:1,bboxLeft:1,bboxRight:6,bboxTop:3,bboxBottom:7,playbackspeed:30,TPEntryIndex:[691,700,606,508,545,550,717,513,511,675,598,707,718,720,509,588,641,650,653,654,651,605,644,590,594,703,680,673,687,670,622,358,595,607,646,589,640,642,604,596,649,645,652,648,609,608,587,599,551,643,597,592,591,647,601,602,603,593,619,618,623,686,702,716,633,553,671,547,630,548,546,615,620,515,617,616,628,672,632,621,549,634,676,600,669,667,631,629,552,674,512,668,514,692,728,693],sequence:
+		pName:"spFontWhiS",width:7,height:11,bboxMode:2,transparent:!1,smooth:!1,preload:!1,xOrigin:1,bboxLeft:1,bboxRight:6,bboxTop:3,bboxBottom:7,playbackspeed:30,TPEntryIndex:[701,710,616,518,555,560,727,523,521,685,608,717,728,730,519,598,651,660,663,664,661,615,654,600,604,713,690,683,697,680,632,368,605,617,656,599,650,652,614,606,659,655,662,658,619,618,597,609,561,653,607,602,601,657,611,612,613,603,629,628,633,696,712,726,643,563,681,557,640,558,556,625,630,525,627,626,638,682,642,631,559,644,686,610,679,677,641,639,562,684,522,678,524,702,738,703],sequence:
 		{
 			pName:"spFontWhiS",playback:1,playbackSpeed:30,playbackSpeedType:0,length:96,xorigin:1,yorigin:0,volume:1,width:7,height:11,keyframeStore:[],tracks:[
 			{
@@ -5418,7 +5529,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spFxBloodDropSmall",width:8,height:8,transparent:!1,smooth:!1,preload:!1,xOrigin:4,yOrigin:4,bboxRight:6,bboxBottom:7,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[447,635,677,708,721,723,722],sequence:
+		pName:"spFxBloodDropSmall",width:8,height:8,transparent:!1,smooth:!1,preload:!1,xOrigin:4,yOrigin:4,bboxRight:6,bboxBottom:7,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[457,645,687,718,731,733,732],sequence:
 		{
 			pName:"spFxBloodDropSmall",playback:1,playbackSpeed:1,playbackSpeedType:1,length:7,xorigin:4,yorigin:4,volume:1,width:8,height:8,keyframeStore:[],tracks:[
 			{
@@ -5490,7 +5601,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spFxBulletDead",width:24,transparent:!1,smooth:!1,preload:!1,xOrigin:23,yOrigin:8,bboxLeft:6,bboxRight:23,bboxBottom:14,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[312,288,272],sequence:
+		pName:"spFxBulletDead",width:24,transparent:!1,smooth:!1,preload:!1,xOrigin:23,yOrigin:8,bboxLeft:6,bboxRight:23,bboxBottom:14,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[322,297,281],sequence:
 		{
 			pName:"spFxBulletDead",playback:1,playbackSpeed:1,playbackSpeedType:1,length:3,xorigin:23,yorigin:8,volume:1,width:24,height:16,keyframeStore:[],tracks:[
 			{
@@ -5526,7 +5637,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spFxDieEnemy",width:48,height:48,transparent:!1,smooth:!1,preload:!1,xOrigin:24,yOrigin:24,bboxLeft:5,bboxRight:41,bboxBottom:44,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[250,85,69,68,83,99],sequence:
+		pName:"spFxDieEnemy",width:48,height:48,transparent:!1,smooth:!1,preload:!1,xOrigin:24,yOrigin:24,bboxLeft:5,bboxRight:41,bboxBottom:44,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[259,86,70,69,84,102],sequence:
 		{
 			pName:"spFxDieEnemy",playback:1,playbackSpeed:1,playbackSpeedType:1,length:6,xorigin:24,yorigin:24,volume:1,width:48,height:48,keyframeStore:[],tracks:[
 			{
@@ -5589,7 +5700,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spFxFiredie",width:24,height:24,transparent:!1,smooth:!1,preload:!1,xOrigin:11,yOrigin:11,bboxLeft:1,bboxRight:21,bboxTop:1,bboxBottom:21,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[236,225,218,209,200,226],sequence:
+		pName:"spFxFiredie",width:24,height:24,transparent:!1,smooth:!1,preload:!1,xOrigin:11,yOrigin:11,bboxLeft:1,bboxRight:21,bboxTop:1,bboxBottom:21,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[245,231,223,213,204,232],sequence:
 		{
 			pName:"spFxFiredie",playback:1,playbackSpeed:1,playbackSpeedType:1,length:6,xorigin:11,yorigin:11,volume:1,width:24,height:24,keyframeStore:[],tracks:[
 			{
@@ -5652,7 +5763,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spFxFiretrail",transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:8,bboxLeft:3,bboxRight:12,bboxTop:3,bboxBottom:12,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[308,418,636,709,724],sequence:
+		pName:"spFxFiretrail",transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:8,bboxLeft:3,bboxRight:12,bboxTop:3,bboxBottom:12,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[318,428,646,719,734],sequence:
 		{
 			pName:"spFxFiretrail",playback:1,playbackSpeed:1,playbackSpeedType:1,length:5,xorigin:8,yorigin:8,volume:1,width:16,height:16,keyframeStore:[],tracks:[
 			{
@@ -5706,7 +5817,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spFxGib",width:8,height:8,transparent:!1,smooth:!1,preload:!1,xOrigin:4,yOrigin:4,bboxLeft:1,bboxRight:6,bboxTop:1,bboxBottom:7,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[610,637],sequence:
+		pName:"spFxGib",width:8,height:8,transparent:!1,smooth:!1,preload:!1,xOrigin:4,yOrigin:4,bboxLeft:1,bboxRight:6,bboxTop:1,bboxBottom:7,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[620,647],sequence:
 		{
 			pName:"spFxGib",playback:1,playbackSpeed:1,playbackSpeedType:1,length:2,xorigin:4,yorigin:4,volume:1,width:8,height:8,keyframeStore:[],tracks:[
 			{
@@ -5733,7 +5844,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spFxGroundBurst",width:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:8,bboxLeft:3,bboxRight:27,bboxTop:4,bboxBottom:12,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[270],sequence:
+		pName:"spFxGroundBurst",width:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:8,bboxLeft:3,bboxRight:27,bboxTop:4,bboxBottom:12,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[279],sequence:
 		{
 			pName:"spFxGroundBurst",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:16,yorigin:8,volume:1,width:32,height:16,keyframeStore:[],tracks:[
 			{
@@ -5751,7 +5862,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spFxImpact1",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:7,bboxRight:23,bboxTop:7,bboxBottom:23,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[237],sequence:
+		pName:"spFxImpact1",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:7,bboxRight:23,bboxTop:7,bboxBottom:23,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[246],sequence:
 		{
 			pName:"spFxImpact1",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:16,yorigin:16,volume:1,width:32,height:32,keyframeStore:[],tracks:[
 			{
@@ -5769,7 +5880,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spFxImpactBig",width:64,height:64,transparent:!1,smooth:!1,preload:!1,xOrigin:32,yOrigin:32,bboxLeft:4,bboxRight:60,bboxTop:8,bboxBottom:60,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[57,201,67,63,59],sequence:
+		pName:"spFxImpactBig",width:64,height:64,transparent:!1,smooth:!1,preload:!1,xOrigin:32,yOrigin:32,bboxLeft:4,bboxRight:60,bboxTop:8,bboxBottom:60,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[57,205,68,63,59],sequence:
 		{
 			pName:"spFxImpactBig",playback:1,playbackSpeed:1,playbackSpeedType:1,length:5,xorigin:32,yorigin:32,volume:1,width:0,height:0,keyframeStore:[],tracks:[
 			{
@@ -5823,7 +5934,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spFxMuzzleFlash",width:32,transparent:!1,smooth:!1,preload:!1,xOrigin:4,yOrigin:8,bboxRight:30,bboxBottom:15,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[234,251,241,294],sequence:
+		pName:"spFxMuzzleFlash",width:32,transparent:!1,smooth:!1,preload:!1,xOrigin:4,yOrigin:8,bboxRight:30,bboxBottom:15,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[242,260,250,303],sequence:
 		{
 			pName:"spFxMuzzleFlash",playback:1,playbackSpeed:1,playbackSpeedType:1,length:4,xorigin:4,yorigin:8,volume:1,width:32,height:16,keyframeStore:[],tracks:[
 			{
@@ -5868,7 +5979,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spFxPlayerHitKick",width:40,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:17,yOrigin:14,bboxLeft:2,bboxRight:36,bboxTop:1,bboxBottom:30,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[88],sequence:
+		pName:"spFxPlayerHitKick",width:40,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:17,yOrigin:14,bboxLeft:2,bboxRight:36,bboxTop:1,bboxBottom:30,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[89],sequence:
 		{
 			pName:"spFxPlayerHitKick",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:17,yorigin:14,volume:1,width:0,height:0,keyframeStore:[],tracks:[
 			{
@@ -5886,7 +5997,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spFxSmoke1",transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:8,bboxRight:15,bboxTop:1,bboxBottom:15,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[290,286,279,296,303],sequence:
+		pName:"spFxSmoke1",transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:8,bboxRight:15,bboxTop:1,bboxBottom:15,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[299,295,288,305,313],sequence:
 		{
 			pName:"spFxSmoke1",playback:1,playbackSpeed:1,playbackSpeedType:1,length:5,xorigin:8,yorigin:8,volume:1,width:0,height:0,keyframeStore:[],tracks:[
 			{
@@ -5958,7 +6069,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spFxWaveSpawner",width:32,height:64,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:48,bboxRight:31,bboxTop:14,bboxBottom:60,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[79,75,74,72,77],sequence:
+		pName:"spFxWaveSpawner",width:32,height:64,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:48,bboxRight:31,bboxTop:14,bboxBottom:60,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[80,76,75,73,78],sequence:
 		{
 			pName:"spFxWaveSpawner",playback:1,playbackSpeed:1,playbackSpeedType:1,length:5,xorigin:16,yorigin:48,volume:1,width:32,height:64,keyframeStore:[],tracks:[
 			{
@@ -6012,7 +6123,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spFxZombieBody",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:5,bboxRight:25,bboxTop:13,bboxBottom:26,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[273,292],sequence:
+		pName:"spFxZombieBody",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:5,bboxRight:25,bboxTop:13,bboxBottom:26,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[282,301],sequence:
 		{
 			pName:"spFxZombieBody",playback:1,playbackSpeed:1,playbackSpeedType:1,length:2,xorigin:16,yorigin:16,volume:1,width:32,height:32,keyframeStore:[],tracks:[
 			{
@@ -6039,7 +6150,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spGiftFlying",width:32,height:32,bboxMode:2,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxRight:47,bboxTop:8,bboxBottom:15,playbackspeed:30,TPEntryIndex:[215],sequence:
+		pName:"spGiftFlying",width:32,height:32,bboxMode:2,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxRight:47,bboxTop:8,bboxBottom:15,playbackspeed:30,TPEntryIndex:[220],sequence:
 		{
 			pName:"spGiftFlying",playback:1,playbackSpeed:30,playbackSpeedType:0,length:1,xorigin:16,yorigin:16,volume:1,width:32,height:32,keyframeStore:[],tracks:[
 			{
@@ -6057,7 +6168,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spItemAmmoBig",width:32,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:2,bboxRight:27,bboxTop:8,bboxBottom:32,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[132],sequence:
+		pName:"spItemAmmoBig",width:32,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:2,bboxRight:27,bboxTop:8,bboxBottom:32,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[135],sequence:
 		{
 			pName:"spItemAmmoBig",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:16,yorigin:24,volume:1,width:0,height:0,keyframeStore:[],tracks:[
 			{
@@ -6075,7 +6186,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spItemContainer",height:24,transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:12,bboxRight:14,bboxTop:3,bboxBottom:19,playbackspeed:30,TPEntryIndex:[263],sequence:
+		pName:"spItemContainer",height:24,transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:12,bboxRight:14,bboxTop:3,bboxBottom:19,playbackspeed:30,TPEntryIndex:[272],sequence:
 		{
 			pName:"spItemContainer",playback:1,playbackSpeed:30,playbackSpeedType:0,length:1,xorigin:8,yorigin:12,volume:1,width:0,height:0,keyframeStore:[],tracks:[
 			{
@@ -6093,7 +6204,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spItemGunBubble",width:64,height:64,transparent:!1,smooth:!1,preload:!1,xOrigin:32,yOrigin:32,bboxLeft:2,bboxRight:61,bboxTop:2,bboxBottom:61,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[50,184],sequence:
+		pName:"spItemGunBubble",width:64,height:64,transparent:!1,smooth:!1,preload:!1,xOrigin:32,yOrigin:32,bboxLeft:2,bboxRight:61,bboxTop:2,bboxBottom:61,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[50,187],sequence:
 		{
 			pName:"spItemGunBubble",playback:1,playbackSpeed:1,playbackSpeedType:1,length:2,xorigin:32,yorigin:32,volume:1,width:64,height:64,keyframeStore:[],tracks:[
 			{
@@ -6120,7 +6231,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spItemHeal",width:24,height:24,transparent:!1,smooth:!1,preload:!1,xOrigin:10,yOrigin:12,bboxRight:23,bboxTop:3,bboxBottom:21,playbackspeed:30,TPEntryIndex:[287,196],sequence:
+		pName:"spItemHeal",width:24,height:24,transparent:!1,smooth:!1,preload:!1,xOrigin:10,yOrigin:12,bboxRight:23,bboxTop:3,bboxBottom:21,playbackspeed:30,TPEntryIndex:[296,200],sequence:
 		{
 			pName:"spItemHeal",playback:1,playbackSpeed:30,playbackSpeedType:0,length:2,xorigin:10,yorigin:12,volume:1,width:16,height:16,keyframeStore:[],tracks:[
 			{
@@ -6147,7 +6258,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spItemHealRing",height:24,transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:12,bboxLeft:1,bboxRight:13,bboxTop:2,bboxBottom:19,playbackspeed:30,TPEntryIndex:[278],sequence:
+		pName:"spItemHealRing",height:24,transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:12,bboxLeft:1,bboxRight:13,bboxTop:2,bboxBottom:19,playbackspeed:30,TPEntryIndex:[287],sequence:
 		{
 			pName:"spItemHealRing",playback:1,playbackSpeed:30,playbackSpeedType:0,length:1,xorigin:8,yorigin:12,volume:1,width:0,height:0,keyframeStore:[],tracks:[
 			{
@@ -6165,7 +6276,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spItemHealSpade",height:24,transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:12,bboxRight:14,bboxTop:2,bboxBottom:20,playbackspeed:30,TPEntryIndex:[243],sequence:
+		pName:"spItemHealSpade",height:24,transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:12,bboxRight:14,bboxTop:2,bboxBottom:20,playbackspeed:30,TPEntryIndex:[252],sequence:
 		{
 			pName:"spItemHealSpade",playback:1,playbackSpeed:30,playbackSpeedType:0,length:1,xorigin:8,yorigin:12,volume:1,width:0,height:0,keyframeStore:[],tracks:[
 			{
@@ -6183,7 +6294,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spItemHealTape",height:24,transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:12,bboxRight:15,bboxTop:6,bboxBottom:20,playbackspeed:30,TPEntryIndex:[274],sequence:
+		pName:"spItemHealTape",height:24,transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:12,bboxRight:15,bboxTop:6,bboxBottom:20,playbackspeed:30,TPEntryIndex:[283],sequence:
 		{
 			pName:"spItemHealTape",playback:1,playbackSpeed:30,playbackSpeedType:0,length:1,xorigin:8,yorigin:12,volume:1,width:0,height:0,keyframeStore:[],tracks:[
 			{
@@ -6201,7 +6312,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spMaskBullet",transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:8,bboxLeft:4,bboxRight:11,bboxTop:4,bboxBottom:11,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[419],sequence:
+		pName:"spMaskBullet",transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:8,bboxLeft:4,bboxRight:11,bboxTop:4,bboxBottom:11,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[429],sequence:
 		{
 			pName:"spMaskBullet",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:8,yorigin:8,volume:1,width:16,height:16,keyframeStore:[],tracks:[
 			{
@@ -6219,7 +6330,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spMaskEnemyBig",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxRight:31,bboxBottom:31,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[91],sequence:
+		pName:"spMaskEnemyBig",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxRight:31,bboxBottom:31,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[93],sequence:
 		{
 			pName:"spMaskEnemyBig",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:16,yorigin:16,volume:1,width:0,height:0,keyframeStore:[],tracks:[
 			{
@@ -6237,7 +6348,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spMaskEnemyMed",width:24,height:24,transparent:!1,smooth:!1,preload:!1,xOrigin:12,yOrigin:12,bboxRight:23,bboxBottom:23,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[148],sequence:
+		pName:"spMaskEnemyMed",width:24,height:24,transparent:!1,smooth:!1,preload:!1,xOrigin:12,yOrigin:12,bboxRight:23,bboxBottom:23,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[151],sequence:
 		{
 			pName:"spMaskEnemyMed",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:12,yorigin:12,volume:1,width:24,height:24,keyframeStore:[],tracks:[
 			{
@@ -6255,7 +6366,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spMaskPlayer",transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:8,bboxLeft:2,bboxRight:13,bboxTop:2,bboxBottom:15,playbackspeed:30,TPEntryIndex:[297],sequence:
+		pName:"spMaskPlayer",transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:8,bboxLeft:2,bboxRight:13,bboxTop:2,bboxBottom:15,playbackspeed:30,TPEntryIndex:[306],sequence:
 		{
 			pName:"spMaskPlayer",playback:1,playbackSpeed:30,playbackSpeedType:0,length:1,xorigin:8,yorigin:8,volume:1,width:16,height:16,keyframeStore:[],tracks:[
 			{
@@ -6273,7 +6384,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spMaskProjectile",transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:8,bboxLeft:2,bboxRight:13,bboxTop:2,bboxBottom:13,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[300],sequence:
+		pName:"spMaskProjectile",transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:8,bboxLeft:2,bboxRight:13,bboxTop:2,bboxBottom:13,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[309],sequence:
 		{
 			pName:"spMaskProjectile",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:8,yorigin:8,volume:1,width:16,height:16,keyframeStore:[],tracks:[
 			{
@@ -6291,7 +6402,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spMaskTall",height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:16,bboxLeft:1,bboxRight:14,bboxTop:2,bboxBottom:31,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[210],sequence:
+		pName:"spMaskTall",height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:16,bboxLeft:1,bboxRight:14,bboxTop:2,bboxBottom:31,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[214],sequence:
 		{
 			pName:"spMaskTall",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:8,yorigin:16,volume:1,width:16,height:32,keyframeStore:[],tracks:[
 			{
@@ -6309,7 +6420,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spMovingPlatform",transparent:!1,smooth:!1,preload:!1,bboxRight:15,bboxBottom:15,playbackspeed:30,TPEntryIndex:[252],sequence:
+		pName:"spMovingPlatform",transparent:!1,smooth:!1,preload:!1,bboxRight:15,bboxBottom:15,playbackspeed:30,TPEntryIndex:[261],sequence:
 		{
 			pName:"spMovingPlatform",playback:1,playbackSpeed:30,playbackSpeedType:0,length:1,xorigin:0,yorigin:0,volume:1,width:16,height:16,keyframeStore:[],tracks:[
 			{
@@ -6327,7 +6438,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spMovingWall_1",transparent:!1,smooth:!1,preload:!1,bboxRight:15,bboxBottom:15,playbackspeed:30,TPEntryIndex:[253],sequence:
+		pName:"spMovingWall_1",transparent:!1,smooth:!1,preload:!1,bboxRight:15,bboxBottom:15,playbackspeed:30,TPEntryIndex:[262],sequence:
 		{
 			pName:"spMovingWall",playback:1,playbackSpeed:30,playbackSpeedType:0,length:1,xorigin:0,yorigin:0,volume:1,width:16,height:16,keyframeStore:[],tracks:[
 			{
@@ -6345,7 +6456,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spNull",transparent:!1,smooth:!1,preload:!1,colCheck:1,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[729],Masks:[[0x00,0x00]],sequence:
+		pName:"spNull",transparent:!1,smooth:!1,preload:!1,colCheck:1,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[739],Masks:[[0x00,0x00]],sequence:
 		{
 			pName:"spNull",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:0,yorigin:0,volume:1,width:16,height:16,keyframeStore:[],tracks:[
 			{
@@ -6363,7 +6474,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spOrigin",transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:8,bboxLeft:2,bboxRight:13,bboxTop:2,bboxBottom:13,playbackspeed:30,TPEntryIndex:[301],sequence:
+		pName:"spOrigin",transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:8,bboxLeft:2,bboxRight:13,bboxTop:2,bboxBottom:13,playbackspeed:30,TPEntryIndex:[310],sequence:
 		{
 			pName:"spOrigin",playback:1,playbackSpeed:30,playbackSpeedType:0,length:1,xorigin:8,yorigin:8,volume:1,width:16,height:16,keyframeStore:[],tracks:[
 			{
@@ -6381,7 +6492,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spPlatform",transparent:!1,smooth:!1,preload:!1,bboxRight:15,bboxBottom:15,playbackspeed:30,TPEntryIndex:[254],sequence:
+		pName:"spPlatform",transparent:!1,smooth:!1,preload:!1,bboxRight:15,bboxBottom:15,playbackspeed:30,TPEntryIndex:[263],sequence:
 		{
 			pName:"spPlatform",playback:1,playbackSpeed:30,playbackSpeedType:0,length:1,xorigin:0,yorigin:0,volume:1,width:16,height:16,keyframeStore:[],tracks:[
 			{
@@ -6399,7 +6510,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spPlayerAnimAirSpin",width:32,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:4,bboxRight:27,bboxTop:4,bboxBottom:35,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[160,204,212,213,221,203,222,188],sequence:
+		pName:"spPlayerAnimAirSpin",width:32,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:4,bboxRight:27,bboxTop:4,bboxBottom:35,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[163,208,217,218,227,207,228,192],sequence:
 		{
 			pName:"spPlayerAnimAirSpin",playback:1,playbackSpeed:1,playbackSpeedType:1,length:9,xorigin:16,yorigin:24,volume:1,width:32,height:40,keyframeStore:[],tracks:[
 			{
@@ -6480,7 +6591,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spPlayerAnimFloat",width:32,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:1,bboxRight:31,bboxTop:6,bboxBottom:38,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[205,105,102,154,171],sequence:
+		pName:"spPlayerAnimFloat",width:32,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:1,bboxRight:31,bboxTop:6,bboxBottom:38,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[209,108,105,157,174],sequence:
 		{
 			pName:"spPlayerAnimFloat",playback:1,playbackSpeed:1,playbackSpeedType:1,length:5,xorigin:16,yorigin:24,volume:1,width:32,height:40,keyframeStore:[],tracks:[
 			{
@@ -6534,7 +6645,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spPlayerAnimJump",width:32,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:4,bboxRight:24,bboxTop:1,bboxBottom:37,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[186,161,172,177],sequence:
+		pName:"spPlayerAnimJump",width:32,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:4,bboxRight:24,bboxTop:1,bboxBottom:37,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[189,164,175,180],sequence:
 		{
 			pName:"spPlayerAnimJump",playback:1,playbackSpeed:1,playbackSpeedType:1,length:6,xorigin:16,yorigin:24,volume:1,width:32,height:40,keyframeStore:[],tracks:[
 			{
@@ -6579,7 +6690,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spPlayerAnimLand",width:32,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:5,bboxRight:29,bboxTop:4,bboxBottom:33,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[198,162],sequence:
+		pName:"spPlayerAnimLand",width:32,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:5,bboxRight:29,bboxTop:4,bboxBottom:33,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[202,165],sequence:
 		{
 			pName:"spPlayerAnimLand",playback:1,playbackSpeed:1,playbackSpeedType:1,length:2,xorigin:16,yorigin:24,volume:1,width:32,height:40,keyframeStore:[],tracks:[
 			{
@@ -6606,7 +6717,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spPlayerAnimRunJump",width:32,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:5,bboxRight:30,bboxTop:6,bboxBottom:34,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[111,149,189],sequence:
+		pName:"spPlayerAnimRunJump",width:32,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:5,bboxRight:30,bboxTop:6,bboxBottom:34,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[114,152,193],sequence:
 		{
 			pName:"spPlayerAnimRunJump",playback:1,playbackSpeed:1,playbackSpeedType:1,length:5,xorigin:16,yorigin:24,volume:1,width:0,height:0,keyframeStore:[],tracks:[
 			{
@@ -6642,7 +6753,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spPlayerAnimStop",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:3,bboxRight:26,bboxTop:2,bboxBottom:25,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[150],sequence:
+		pName:"spPlayerAnimStop",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:3,bboxRight:26,bboxTop:2,bboxBottom:25,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[153],sequence:
 		{
 			pName:"spPlayerAnimStop",playback:1,playbackSpeed:1,playbackSpeedType:1,length:3,xorigin:16,yorigin:16,volume:1,width:32,height:32,keyframeStore:[],tracks:[
 			{
@@ -6660,7 +6771,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spPlayerAnimTurn",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:5,bboxRight:26,bboxTop:2,bboxBottom:25,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[168],sequence:
+		pName:"spPlayerAnimTurn",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:5,bboxRight:26,bboxTop:2,bboxBottom:25,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[171],sequence:
 		{
 			pName:"spPlayerAnimTurn",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:16,yorigin:16,volume:1,width:32,height:32,keyframeStore:[],tracks:[
 			{
@@ -6678,7 +6789,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spPlayerAnimUmbrella",width:32,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:5,bboxRight:28,bboxTop:1,bboxBottom:35,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[123,144],sequence:
+		pName:"spPlayerAnimUmbrella",width:32,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:5,bboxRight:28,bboxTop:1,bboxBottom:35,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[126,147],sequence:
 		{
 			pName:"spPlayerAnimUmbrella",playback:1,playbackSpeed:1,playbackSpeedType:1,length:2,xorigin:16,yorigin:24,volume:1,width:24,height:40,keyframeStore:[],tracks:[
 			{
@@ -6705,7 +6816,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spPlayerDash",width:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:8,bboxLeft:1,bboxRight:39,bboxTop:4,bboxBottom:13,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[223],sequence:
+		pName:"spPlayerDash",width:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:8,bboxLeft:1,bboxRight:39,bboxTop:4,bboxBottom:13,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[229],sequence:
 		{
 			pName:"spPlayerDash",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:16,yorigin:8,volume:1,width:40,height:16,keyframeStore:[],tracks:[
 			{
@@ -6723,7 +6834,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spPlayerFloat",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:2,bboxRight:27,bboxTop:4,bboxBottom:31,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[127,187,129,194],sequence:
+		pName:"spPlayerFloat",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:2,bboxRight:27,bboxTop:4,bboxBottom:31,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[130,190,132,198],sequence:
 		{
 			pName:"spPlayerFloat",playback:1,playbackSpeed:1,playbackSpeedType:1,length:4,xorigin:16,yorigin:16,volume:1,width:32,height:32,keyframeStore:[],tracks:[
 			{
@@ -6768,7 +6879,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spPlayerHurt",width:32,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:1,bboxRight:27,bboxTop:7,bboxBottom:33,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[113],sequence:
+		pName:"spPlayerHurt",width:32,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:1,bboxRight:27,bboxTop:7,bboxBottom:33,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[116],sequence:
 		{
 			pName:"spPlayerHurt",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:16,yorigin:24,volume:1,width:32,height:40,keyframeStore:[],tracks:[
 			{
@@ -6786,7 +6897,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spPlayerIdle",width:32,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:6,bboxRight:24,bboxTop:6,bboxBottom:33,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[165],sequence:
+		pName:"spPlayerIdle",width:32,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:6,bboxRight:24,bboxTop:6,bboxBottom:33,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[168],sequence:
 		{
 			pName:"spPlayerIdle",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:16,yorigin:24,volume:1,width:32,height:40,keyframeStore:[],tracks:[
 			{
@@ -6804,7 +6915,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spPlayerJump",width:32,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:5,bboxRight:25,bboxTop:8,bboxBottom:32,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[170],sequence:
+		pName:"spPlayerJump",width:32,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:5,bboxRight:25,bboxTop:8,bboxBottom:32,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[173],sequence:
 		{
 			pName:"spPlayerJump",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:16,yorigin:24,volume:1,width:32,height:40,keyframeStore:[],tracks:[
 			{
@@ -6822,7 +6933,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spPlayerMeleeStrong",width:48,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:1,bboxRight:46,bboxTop:6,bboxBottom:39,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[133,121,81,89,95],sequence:
+		pName:"spPlayerMeleeStrong",width:48,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:1,bboxRight:46,bboxTop:6,bboxBottom:39,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[136,124,82,90,97],sequence:
 		{
 			pName:"spPlayerMeleeStrong",playback:1,playbackSpeed:1,playbackSpeedType:1,length:6,xorigin:16,yorigin:24,volume:1,width:0,height:0,keyframeStore:[],tracks:[
 			{
@@ -6876,7 +6987,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spPlayerRoomEnter",width:32,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:4,bboxRight:27,bboxTop:3,bboxBottom:32,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[137,164,138,163],sequence:
+		pName:"spPlayerRoomEnter",width:32,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:4,bboxRight:27,bboxTop:3,bboxBottom:32,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[140,167,141,166],sequence:
 		{
 			pName:"spPlayerRoomEnter",playback:1,playbackSpeed:1,playbackSpeedType:1,length:4,xorigin:16,yorigin:24,volume:1,width:0,height:0,keyframeStore:[],tracks:[
 			{
@@ -6921,7 +7032,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spPlayerRoomExit",width:32,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:5,bboxRight:26,bboxTop:3,bboxBottom:32,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[139,183,140,182],sequence:
+		pName:"spPlayerRoomExit",width:32,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:5,bboxRight:26,bboxTop:3,bboxBottom:32,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[142,186,143,185],sequence:
 		{
 			pName:"spPlayerRoomExit",playback:1,playbackSpeed:1,playbackSpeedType:1,length:4,xorigin:16,yorigin:24,volume:1,width:0,height:0,keyframeStore:[],tracks:[
 			{
@@ -6966,7 +7077,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spPlayerRunJump",width:32,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:3,bboxRight:27,bboxTop:11,bboxBottom:32,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[157],sequence:
+		pName:"spPlayerRunJump",width:32,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:3,bboxRight:27,bboxTop:11,bboxBottom:32,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[160],sequence:
 		{
 			pName:"spPlayerRunJump",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:16,yorigin:24,volume:1,width:0,height:0,keyframeStore:[],tracks:[
 			{
@@ -6984,7 +7095,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spPlayerSprint",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:4,bboxRight:31,bboxTop:3,bboxBottom:25,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[202,169,166],sequence:
+		pName:"spPlayerSprint",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:4,bboxRight:31,bboxTop:3,bboxBottom:25,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[206,172,169],sequence:
 		{
 			pName:"spPlayerSprint",playback:1,playbackSpeed:1,playbackSpeedType:1,length:3,xorigin:16,yorigin:16,volume:1,width:32,height:32,keyframeStore:[],tracks:[
 			{
@@ -7020,7 +7131,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spPlayerUmbrella",width:32,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:4,bboxRight:26,bboxTop:4,bboxBottom:31,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[135],sequence:
+		pName:"spPlayerUmbrella",width:32,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:4,bboxRight:26,bboxTop:4,bboxBottom:31,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[138],sequence:
 		{
 			pName:"spPlayerUmbrella",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:16,yorigin:24,volume:1,width:32,height:40,keyframeStore:[],tracks:[
 			{
@@ -7038,7 +7149,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spPlayerWalk",width:32,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:4,bboxRight:26,bboxTop:5,bboxBottom:33,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[158,146,191,178,173,199],sequence:
+		pName:"spPlayerWalk",width:32,height:40,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:24,bboxLeft:4,bboxRight:26,bboxTop:5,bboxBottom:33,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[161,149,195,181,176,203],sequence:
 		{
 			pName:"spPlayerWalk",playback:1,playbackSpeed:1,playbackSpeedType:1,length:6,xorigin:16,yorigin:24,volume:1,width:32,height:40,keyframeStore:[],tracks:[
 			{
@@ -7101,7 +7212,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spPropBomb",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:8,bboxRight:23,bboxBottom:24,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[220,219],sequence:
+		pName:"spPropBomb",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:8,bboxRight:23,bboxBottom:24,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[225,224],sequence:
 		{
 			pName:"spPropBomb",playback:1,playbackSpeed:1,playbackSpeedType:1,length:2,xorigin:16,yorigin:16,volume:1,width:0,height:0,keyframeStore:[],tracks:[
 			{
@@ -7128,7 +7239,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spPropNuke",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:8,bboxRight:23,bboxTop:3,bboxBottom:28,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[214],sequence:
+		pName:"spPropNuke",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:8,bboxRight:23,bboxTop:3,bboxBottom:28,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[219],sequence:
 		{
 			pName:"spPropNuke",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:16,yorigin:16,volume:1,width:32,height:32,keyframeStore:[],tracks:[
 			{
@@ -7146,7 +7257,43 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"sPropSpaceMine",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:4,bboxRight:28,bboxTop:3,bboxBottom:25,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[151],sequence:
+		pName:"spPropTargetFlying",width:24,height:24,transparent:!1,smooth:!1,preload:!1,xOrigin:12,yOrigin:12,bboxLeft:2,bboxRight:21,bboxTop:2,bboxBottom:21,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[226],sequence:
+		{
+			pName:"spPropTargetFlying",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:12,yorigin:12,volume:1,width:0,height:0,keyframeStore:[],tracks:[
+			{
+				modelName:"GMSpriteFramesTrack",pName:"frames",builtinName:0,traits:0,creationTrack:0,tags:[],ownedResourceModels:[],tracks:[],keyframeStore:[
+				{
+					key:0,length:1,stretch:!1,disabled:!1,channels:
+					{
+						0:
+						{
+							imageIndex:0						}
+					}
+				}
+				]			}
+			],sequenceEvents:[],momentsKeystore:[]		}
+	}
+	,
+	{
+		pName:"spPropTargetRegular",width:24,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:12,yOrigin:20,bboxLeft:5,bboxRight:19,bboxTop:7,bboxBottom:28,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[239],sequence:
+		{
+			pName:"spPropTargetRegular",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:12,yorigin:20,volume:1,width:0,height:0,keyframeStore:[],tracks:[
+			{
+				modelName:"GMSpriteFramesTrack",pName:"frames",builtinName:0,traits:0,creationTrack:0,tags:[],ownedResourceModels:[],tracks:[],keyframeStore:[
+				{
+					key:0,length:1,stretch:!1,disabled:!1,channels:
+					{
+						0:
+						{
+							imageIndex:0						}
+					}
+				}
+				]			}
+			],sequenceEvents:[],momentsKeystore:[]		}
+	}
+	,
+	{
+		pName:"sPropSpaceMine",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:4,bboxRight:28,bboxTop:3,bboxBottom:25,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[154],sequence:
 		{
 			pName:"sPropSpaceMine",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:16,yorigin:16,volume:1,width:0,height:0,keyframeStore:[],tracks:[
 			{
@@ -7164,7 +7311,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spSlope",transparent:!1,smooth:!1,preload:!1,colCheck:1,bboxRight:15,bboxBottom:15,playbackspeed:30,TPEntryIndex:[255],Masks:[[0x1E,0x80,0x00,0xC0,0x00,0xE0,0x00,0xF0,0x00,0xF8,0x00,0xFC,0x00,0xFE,0x00,0xFF,0x00,0xFF,0x80,0xFF,0xC0,0xFF,0xE0,0xFF,0xF0,0xFF,0xF8,0xFF,0xFC,0xFF,0xFE,0xFF,0x00,0xFF]],sequence:
+		pName:"spSlope",transparent:!1,smooth:!1,preload:!1,colCheck:1,bboxRight:15,bboxBottom:15,playbackspeed:30,TPEntryIndex:[264],Masks:[[0x1E,0x80,0x00,0xC0,0x00,0xE0,0x00,0xF0,0x00,0xF8,0x00,0xFC,0x00,0xFE,0x00,0xFF,0x00,0xFF,0x80,0xFF,0xC0,0xFF,0xE0,0xFF,0xF0,0xFF,0xF8,0xFF,0xFC,0xFF,0xFE,0xFF,0x00,0xFF]],sequence:
 		{
 			pName:"spSlope",playback:1,playbackSpeed:30,playbackSpeedType:0,length:1,xorigin:0,yorigin:0,volume:1,width:16,height:16,keyframeStore:[],tracks:[
 			{
@@ -7182,7 +7329,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spSlopesolid",transparent:!1,smooth:!1,preload:!1,bboxRight:15,bboxBottom:15,playbackspeed:30,TPEntryIndex:[256],sequence:
+		pName:"spSlopesolid",transparent:!1,smooth:!1,preload:!1,bboxRight:15,bboxBottom:15,playbackspeed:30,TPEntryIndex:[265],sequence:
 		{
 			pName:"spSlopesolid",playback:1,playbackSpeed:30,playbackSpeedType:0,length:1,xorigin:0,yorigin:0,volume:1,width:16,height:16,keyframeStore:[],tracks:[
 			{
@@ -7200,7 +7347,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spSolid",transparent:!1,smooth:!1,preload:!1,bboxRight:15,bboxBottom:15,playbackspeed:30,TPEntryIndex:[257],sequence:
+		pName:"spSolid",transparent:!1,smooth:!1,preload:!1,bboxRight:15,bboxBottom:15,playbackspeed:30,TPEntryIndex:[266],sequence:
 		{
 			pName:"spSolid",playback:1,playbackSpeed:30,playbackSpeedType:0,length:1,xorigin:0,yorigin:0,volume:1,width:16,height:16,keyframeStore:[],tracks:[
 			{
@@ -7236,7 +7383,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spStageEntrance",transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:8,bboxRight:15,bboxBottom:15,playbackspeed:1,TPEntryIndex:[258],sequence:
+		pName:"spStageEntrance",transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:8,bboxRight:15,bboxBottom:15,playbackspeed:1,TPEntryIndex:[267],sequence:
 		{
 			pName:"spStageEntrance",playback:1,playbackSpeed:1,playbackSpeedType:0,length:1,xorigin:8,yorigin:8,volume:1,width:16,height:16,keyframeStore:[],tracks:[
 			{
@@ -7380,9 +7527,9 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spUiAimRegular",transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:8,bboxLeft:1,bboxRight:14,bboxTop:1,bboxBottom:14,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[291],sequence:
+		pName:"spUiAimRegular",transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:8,bboxLeft:1,bboxRight:14,bboxTop:1,bboxBottom:14,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[300,311],sequence:
 		{
-			pName:"spUiAimRegular",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:8,yorigin:8,volume:1,width:0,height:0,keyframeStore:[],tracks:[
+			pName:"spUiAimRegular",playback:1,playbackSpeed:1,playbackSpeedType:1,length:2,xorigin:8,yorigin:8,volume:1,width:0,height:0,keyframeStore:[],tracks:[
 			{
 				modelName:"GMSpriteFramesTrack",pName:"frames",builtinName:0,traits:0,creationTrack:0,tags:[],ownedResourceModels:[],tracks:[],keyframeStore:[
 				{
@@ -7393,12 +7540,21 @@ var JSON_game=
 							imageIndex:0						}
 					}
 				}
+				,
+				{
+					key:1,length:1,stretch:!1,disabled:!1,channels:
+					{
+						0:
+						{
+							imageIndex:1						}
+					}
+				}
 				]			}
 			],sequenceEvents:[],momentsKeystore:[]		}
 	}
 	,
 	{
-		pName:"spUiAmmo",height:8,transparent:!1,smooth:!1,preload:!1,bboxRight:11,bboxBottom:6,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[327],sequence:
+		pName:"spUiAmmo",height:8,transparent:!1,smooth:!1,preload:!1,bboxRight:11,bboxBottom:6,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[337],sequence:
 		{
 			pName:"spUiAmmo",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:0,yorigin:0,volume:1,width:0,height:0,keyframeStore:[],tracks:[
 			{
@@ -7416,7 +7572,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spUiAmmoBack",width:8,height:8,transparent:!1,smooth:!1,preload:!1,bboxRight:7,bboxBottom:7,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[420],sequence:
+		pName:"spUiAmmoBack",width:8,height:8,transparent:!1,smooth:!1,preload:!1,bboxRight:7,bboxBottom:7,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[430],sequence:
 		{
 			pName:"spUiAmmoBack",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:0,yorigin:0,volume:1,width:16,height:32,keyframeStore:[],tracks:[
 			{
@@ -7434,7 +7590,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spUiAmmoOld",height:8,transparent:!1,smooth:!1,preload:!1,bboxRight:11,bboxBottom:6,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[330,329,328],sequence:
+		pName:"spUiAmmoOld",height:8,transparent:!1,smooth:!1,preload:!1,bboxRight:11,bboxBottom:6,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[340,339,338],sequence:
 		{
 			pName:"spUiAmmoOld",playback:1,playbackSpeed:1,playbackSpeedType:1,length:3,xorigin:0,yorigin:0,volume:1,width:0,height:0,keyframeStore:[],tracks:[
 			{
@@ -7470,9 +7626,9 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spUiEnemyOutsideView",width:24,height:24,transparent:!1,smooth:!1,preload:!1,xOrigin:12,yOrigin:12,bboxLeft:2,bboxRight:21,bboxTop:1,bboxBottom:21,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[211],sequence:
+		pName:"spUiEnemyOutsideView",width:24,height:24,transparent:!1,smooth:!1,preload:!1,xOrigin:12,yOrigin:12,bboxLeft:2,bboxRight:21,bboxTop:1,bboxBottom:21,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[215,216],sequence:
 		{
-			pName:"spUiEnemyOutsideView",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:12,yorigin:12,volume:1,width:0,height:0,keyframeStore:[],tracks:[
+			pName:"spUiEnemyOutsideView",playback:1,playbackSpeed:1,playbackSpeedType:1,length:2,xorigin:12,yorigin:12,volume:1,width:0,height:0,keyframeStore:[],tracks:[
 			{
 				modelName:"GMSpriteFramesTrack",pName:"frames",builtinName:0,traits:0,creationTrack:0,tags:[],ownedResourceModels:[],tracks:[],keyframeStore:[
 				{
@@ -7483,12 +7639,21 @@ var JSON_game=
 							imageIndex:0						}
 					}
 				}
+				,
+				{
+					key:1,length:1,stretch:!1,disabled:!1,channels:
+					{
+						0:
+						{
+							imageIndex:1						}
+					}
+				}
 				]			}
 			],sequenceEvents:[],momentsKeystore:[]		}
 	}
 	,
 	{
-		pName:"spUiHealth",transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:8,bboxRight:15,bboxBottom:15,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[261,310,259,260,309,280,281,275],sequence:
+		pName:"spUiHealth",transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:8,bboxRight:15,bboxBottom:15,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[270,320,268,269,319,289,290,284],sequence:
 		{
 			pName:"spUiHealth",playback:1,playbackSpeed:1,playbackSpeedType:1,length:8,xorigin:8,yorigin:8,volume:1,width:24,height:16,keyframeStore:[],tracks:[
 			{
@@ -7569,7 +7734,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spUiKeyTip",width:24,height:24,transparent:!1,smooth:!1,preload:!1,xOrigin:12,yOrigin:12,bboxLeft:6,bboxRight:17,bboxTop:6,bboxBottom:17,playbackspeed:30,TPEntryIndex:[302],sequence:
+		pName:"spUiKeyTip",width:24,height:24,transparent:!1,smooth:!1,preload:!1,xOrigin:12,yOrigin:12,bboxLeft:6,bboxRight:17,bboxTop:6,bboxBottom:17,playbackspeed:30,TPEntryIndex:[312],sequence:
 		{
 			pName:"spUiKeyTip",playback:1,playbackSpeed:30,playbackSpeedType:0,length:1,xorigin:12,yorigin:12,volume:1,width:0,height:0,keyframeStore:[],tracks:[
 			{
@@ -7590,7 +7755,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spUiLevelDoorArrow",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:4,bboxRight:31,bboxTop:6,bboxBottom:24,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[167],sequence:
+		pName:"spUiLevelDoorArrow",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:4,bboxRight:31,bboxTop:6,bboxBottom:24,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[170],sequence:
 		{
 			pName:"spUiLevelDoorArrow",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:16,yorigin:16,volume:1,width:0,height:0,keyframeStore:[],tracks:[
 			{
@@ -7608,7 +7773,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spUiPopupMaxhp",width:24,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:12,yOrigin:16,bboxLeft:4,bboxRight:18,bboxTop:7,bboxBottom:23,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[265,266,267,264],sequence:
+		pName:"spUiPopupMaxhp",width:24,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:12,yOrigin:16,bboxLeft:4,bboxRight:18,bboxTop:7,bboxBottom:23,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[274,275,276,273],sequence:
 		{
 			pName:"spUiPopupMaxhp",playback:1,playbackSpeed:1,playbackSpeedType:1,length:4,xorigin:12,yorigin:16,volume:1,width:0,height:0,keyframeStore:[],tracks:[
 			{
@@ -7653,7 +7818,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spUiStreakText",width:56,height:24,transparent:!1,smooth:!1,preload:!1,xOrigin:4,yOrigin:4,bboxLeft:4,bboxRight:51,bboxTop:3,bboxBottom:18,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[106],sequence:
+		pName:"spUiStreakText",width:56,height:24,transparent:!1,smooth:!1,preload:!1,xOrigin:4,yOrigin:4,bboxLeft:4,bboxRight:51,bboxTop:3,bboxBottom:18,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[109],sequence:
 		{
 			pName:"spUiStreakText",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:4,yorigin:4,volume:1,width:56,height:24,keyframeStore:[],tracks:[
 			{
@@ -7671,7 +7836,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spUmbrellaClosed",height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:16,bboxLeft:3,bboxRight:11,bboxTop:6,bboxBottom:26,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[293],sequence:
+		pName:"spUmbrellaClosed",height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:8,yOrigin:16,bboxLeft:3,bboxRight:11,bboxTop:6,bboxBottom:26,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[302],sequence:
 		{
 			pName:"spUmbrellaClosed",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:8,yorigin:16,volume:1,width:0,height:0,keyframeStore:[],tracks:[
 			{
@@ -7707,7 +7872,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spUmbrellaFloat",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:6,bboxRight:26,bboxTop:3,bboxBottom:25,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[185,206],sequence:
+		pName:"spUmbrellaFloat",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:6,bboxRight:26,bboxTop:3,bboxBottom:25,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[188,210],sequence:
 		{
 			pName:"spUmbrellaFloat",playback:1,playbackSpeed:1,playbackSpeedType:1,length:2,xorigin:16,yorigin:16,volume:1,width:0,height:0,keyframeStore:[],tracks:[
 			{
@@ -7734,7 +7899,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spUmbrellaIdle",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:6,bboxRight:23,bboxTop:1,bboxBottom:26,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[193,192],sequence:
+		pName:"spUmbrellaIdle",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:6,bboxRight:23,bboxTop:1,bboxBottom:26,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[197,196],sequence:
 		{
 			pName:"spUmbrellaIdle",playback:1,playbackSpeed:1,playbackSpeedType:1,length:2,xorigin:16,yorigin:16,volume:1,width:0,height:0,keyframeStore:[],tracks:[
 			{
@@ -7779,7 +7944,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spWaveTrigger",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:5,bboxRight:27,bboxTop:5,bboxBottom:26,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[174],sequence:
+		pName:"spWaveTrigger",width:32,height:32,transparent:!1,smooth:!1,preload:!1,xOrigin:16,yOrigin:16,bboxLeft:5,bboxRight:27,bboxTop:5,bboxBottom:26,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[177],sequence:
 		{
 			pName:"spWaveTrigger",playback:1,playbackSpeed:1,playbackSpeedType:1,length:1,xorigin:16,yorigin:16,volume:1,width:32,height:32,keyframeStore:[],tracks:[
 			{
@@ -7797,7 +7962,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spWaveWall",bboxMode:2,transparent:!1,smooth:!1,preload:!1,playbackspeed:30,TPEntryIndex:[282],sequence:
+		pName:"spWaveWall",bboxMode:2,transparent:!1,smooth:!1,preload:!1,playbackspeed:30,TPEntryIndex:[291],sequence:
 		{
 			pName:"spWaveWall",playback:1,playbackSpeed:30,playbackSpeedType:0,length:1,xorigin:0,yorigin:0,volume:1,width:16,height:16,keyframeStore:[],tracks:[
 			{
@@ -7815,7 +7980,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spWpHeckler",width:32,height:24,transparent:!1,smooth:!1,preload:!1,xOrigin:12,yOrigin:8,bboxLeft:6,bboxRight:29,bboxTop:2,bboxBottom:18,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[216,242],sequence:
+		pName:"spWpHeckler",width:32,height:24,transparent:!1,smooth:!1,preload:!1,xOrigin:12,yOrigin:8,bboxLeft:6,bboxRight:29,bboxTop:2,bboxBottom:18,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[221,251],sequence:
 		{
 			pName:"spWpHeckler",playback:1,playbackSpeed:1,playbackSpeedType:1,length:2,xorigin:12,yorigin:8,volume:1,width:32,height:24,keyframeStore:[],tracks:[
 			{
@@ -7842,7 +8007,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spWpNailgun",width:32,height:24,transparent:!1,smooth:!1,preload:!1,xOrigin:9,yOrigin:10,bboxLeft:4,bboxRight:27,bboxBottom:18,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[229,230],sequence:
+		pName:"spWpNailgun",width:32,height:24,transparent:!1,smooth:!1,preload:!1,xOrigin:9,yOrigin:10,bboxLeft:4,bboxRight:27,bboxBottom:18,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[235,237],sequence:
 		{
 			pName:"spWpNailgun",playback:1,playbackSpeed:1,playbackSpeedType:1,length:2,xorigin:9,yorigin:10,volume:1,width:32,height:24,keyframeStore:[],tracks:[
 			{
@@ -7869,7 +8034,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spWpPistol",width:24,transparent:!1,smooth:!1,preload:!1,xOrigin:4,yOrigin:7,bboxLeft:1,bboxRight:17,bboxBottom:15,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[276,262],sequence:
+		pName:"spWpPistol",width:24,transparent:!1,smooth:!1,preload:!1,xOrigin:4,yOrigin:7,bboxLeft:1,bboxRight:17,bboxBottom:15,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[285,271],sequence:
 		{
 			pName:"spWpPistol",playback:1,playbackSpeed:1,playbackSpeedType:1,length:2,xorigin:4,yorigin:7,volume:1,width:24,height:16,keyframeStore:[],tracks:[
 			{
@@ -7896,7 +8061,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spWpShorty",width:24,transparent:!1,smooth:!1,preload:!1,xOrigin:5,yOrigin:8,bboxLeft:1,bboxRight:22,bboxBottom:15,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[247,231],sequence:
+		pName:"spWpShorty",width:24,transparent:!1,smooth:!1,preload:!1,xOrigin:5,yOrigin:8,bboxLeft:1,bboxRight:22,bboxBottom:15,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[256,238],sequence:
 		{
 			pName:"spWpShorty",playback:1,playbackSpeed:1,playbackSpeedType:1,length:2,xorigin:5,yorigin:8,volume:1,width:24,height:16,keyframeStore:[],tracks:[
 			{
@@ -7923,7 +8088,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spWpSnubby",width:24,transparent:!1,smooth:!1,preload:!1,xOrigin:4,yOrigin:8,bboxRight:19,bboxTop:1,bboxBottom:14,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[246,245],sequence:
+		pName:"spWpSnubby",width:24,transparent:!1,smooth:!1,preload:!1,xOrigin:4,yOrigin:8,bboxRight:19,bboxTop:1,bboxBottom:14,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[255,254],sequence:
 		{
 			pName:"spWpSnubby",playback:1,playbackSpeed:1,playbackSpeedType:1,length:2,xorigin:4,yorigin:8,volume:1,width:24,height:16,keyframeStore:[],tracks:[
 			{
@@ -7953,7 +8118,7 @@ var JSON_game=
 	}
 	,
 	{
-		pName:"spWpStapler",width:24,transparent:!1,smooth:!1,preload:!1,xOrigin:6,yOrigin:8,bboxLeft:1,bboxRight:20,bboxBottom:15,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[283,248],sequence:
+		pName:"spWpStapler",width:24,transparent:!1,smooth:!1,preload:!1,xOrigin:6,yOrigin:8,bboxLeft:1,bboxRight:20,bboxBottom:15,playbackspeedtype:1,playbackspeed:1,TPEntryIndex:[292,257],sequence:
 		{
 			pName:"spWpStapler",playback:1,playbackSpeed:1,playbackSpeedType:1,length:2,xorigin:6,yorigin:8,volume:1,width:24,height:16,keyframeStore:[],tracks:[
 			{
@@ -8892,103 +9057,115 @@ var JSON_game=
 		pName:"oBgForeground",visible:!0,parent:-100,CreateEvent:gml_Object_oBgForeground_Create_0,DrawEventEnd:gml_Object_oBgForeground_Draw_73,DrawEvent:gml_Object_oBgForeground_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oBigExplosion",spriteIndex:46,visible:!0,parent:29,CreateEvent:gml_Object_oBigExplosion_Create_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oBigExplosion",spriteIndex:52,visible:!0,parent:33,CreateEvent:gml_Object_oBigExplosion_Create_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oBulBlood",spriteIndex:9,visible:!0,parent:19,CreateEvent:gml_Object_oBulBlood_Create_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oBulBlood",spriteIndex:10,visible:!0,parent:23,CreateEvent:gml_Object_oBulBlood_Create_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oBulFireball",spriteIndex:26,visible:!0,parent:19,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oBulFireball",spriteIndex:29,visible:!0,parent:23,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oBulFlak",spriteIndex:26,visible:!0,parent:19,CreateEvent:gml_Object_oBulFlak_Create_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oBulFlak",spriteIndex:29,visible:!0,parent:23,CreateEvent:gml_Object_oBulFlak_Create_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oBulFlyingBomb",spriteIndex:24,visible:!0,parent:19,CreateEvent:gml_Object_oBulFlyingBomb_Create_0,DestroyEvent:gml_Object_oBulFlyingBomb_Destroy_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oBulFlyingBomb",spriteIndex:25,visible:!0,parent:23,CreateEvent:gml_Object_oBulFlyingBomb_Create_0,DestroyEvent:gml_Object_oBulFlyingBomb_Destroy_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oBulSkull",spriteIndex:31,visible:!0,parent:19,CreateEvent:gml_Object_oBulSkull_Create_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oBullseyeFloor",spriteIndex:119,visible:!0,parent:74,CreateEvent:gml_Object_oBullseyeFloor_Create_0,StepNormalEvent:gml_Object_oBullseyeFloor_Step_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oDoorTest",spriteIndex:84,visible:!0,parent:-100,CreateEvent:gml_Object_oDoorTest_Create_0,DrawEvent:gml_Object_oDoorTest_Draw_0,PreCreateEvent:gml_Object_oDoorTest_PreCreate_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oBullseyeFlying",spriteIndex:118,visible:!0,parent:6,CreateEvent:gml_Object_oBullseyeFlying_Create_0,StepNormalEvent:gml_Object_oBullseyeFlying_Step_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oDrawBackground",spriteIndex:-1,visible:!0,parent:51,CreateEvent:gml_Object_oDrawBackground_Create_0,DrawEvent:gml_Object_oDrawBackground_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oBulShockwave",spriteIndex:-1,visible:!0,parent:73,CreateEvent:gml_Object_oBulShockwave_Create_0,StepNormalEvent:gml_Object_oBulShockwave_Step_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oDrawHandler",spriteIndex:-1,visible:!0,parent:51,CreateEvent:gml_Object_oDrawHandler_Create_0,StepEndEvent:gml_Object_oDrawHandler_Step_2,DrawPost:gml_Object_oDrawHandler_Draw_77,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oBulSkull",spriteIndex:35,visible:!0,parent:23,CreateEvent:gml_Object_oBulSkull_Create_0,TriggerEvents:[],CollisionEvents:[]	}
+	,
+	{
+		pName:"oDoorTest",spriteIndex:90,visible:!0,parent:-100,CreateEvent:gml_Object_oDoorTest_Create_0,DrawEvent:gml_Object_oDoorTest_Draw_0,PreCreateEvent:gml_Object_oDoorTest_PreCreate_0,TriggerEvents:[],CollisionEvents:[]	}
+	,
+	{
+		pName:"oDrawBackground",spriteIndex:-1,visible:!0,parent:55,CreateEvent:gml_Object_oDrawBackground_Create_0,DrawEvent:gml_Object_oDrawBackground_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
+	,
+	{
+		pName:"oDrawHandler",spriteIndex:-1,visible:!0,parent:55,CreateEvent:gml_Object_oDrawHandler_Create_0,StepEndEvent:gml_Object_oDrawHandler_Step_2,DrawPost:gml_Object_oDrawHandler_Draw_77,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
 		pName:"oDrawPlayerGui",spriteIndex:-1,visible:!0,parent:-100,CreateEvent:gml_Object_oDrawPlayerGui_Create_0,StepEndEvent:gml_Object_oDrawPlayerGui_Step_2,DrawEvent:gml_Object_oDrawPlayerGui_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oDrawProjectiles",spriteIndex:-1,visible:!0,parent:51,CreateEvent:gml_Object_oDrawProjectiles_Create_0,DrawEvent:gml_Object_oDrawProjectiles_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oDrawProjectiles",spriteIndex:-1,visible:!0,parent:55,CreateEvent:gml_Object_oDrawProjectiles_Create_0,DrawEvent:gml_Object_oDrawProjectiles_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oEnClatter",spriteIndex:10,visible:!0,parent:18,CreateEvent:gml_Object_oEnClatter_Create_0,StepNormalEvent:gml_Object_oEnClatter_Step_0,EndRoomEvent:gml_Object_oEnClatter_Other_5,CleanUpEvent:gml_Object_oEnClatter_CleanUp_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oEnAlienstar",spriteIndex:9,visible:!0,parent:22,CreateEvent:gml_Object_oEnAlienstar_Create_0,StepNormalEvent:gml_Object_oEnAlienstar_Step_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oEnCoffin",spriteIndex:11,visible:!0,parent:18,CreateEvent:gml_Object_oEnCoffin_Create_0,StepNormalEvent:gml_Object_oEnCoffin_Step_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oEnClatter",spriteIndex:11,visible:!0,parent:22,CreateEvent:gml_Object_oEnClatter_Create_0,StepNormalEvent:gml_Object_oEnClatter_Step_0,EndRoomEvent:gml_Object_oEnClatter_Other_5,CleanUpEvent:gml_Object_oEnClatter_CleanUp_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oEnDemonBomb",spriteIndex:14,visible:!0,parent:18,CreateEvent:gml_Object_oEnDemonBomb_Create_0,StepNormalEvent:gml_Object_oEnDemonBomb_Step_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oEnCoffin",spriteIndex:12,visible:!0,parent:22,CreateEvent:gml_Object_oEnCoffin_Create_0,StepNormalEvent:gml_Object_oEnCoffin_Step_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oEnDemonSnake",spriteIndex:20,visible:!0,parent:18,CreateEvent:gml_Object_oEnDemonSnake_Create_0,StepNormalEvent:gml_Object_oEnDemonSnake_Step_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oEnDemonBomb",spriteIndex:15,visible:!0,parent:22,CreateEvent:gml_Object_oEnDemonBomb_Create_0,StepNormalEvent:gml_Object_oEnDemonBomb_Step_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oEnDemonSnakeBody",spriteIndex:19,visible:!0,parent:18,CreateEvent:gml_Object_oEnDemonSnakeBody_Create_0,StepNormalEvent:gml_Object_oEnDemonSnakeBody_Step_0,CleanUpEvent:gml_Object_oEnDemonSnakeBody_CleanUp_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oEnDemonSnake",spriteIndex:21,visible:!0,parent:22,CreateEvent:gml_Object_oEnDemonSnake_Create_0,StepNormalEvent:gml_Object_oEnDemonSnake_Step_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oEnDrippler",spriteIndex:21,visible:!0,parent:18,CreateEvent:gml_Object_oEnDrippler_Create_0,StepNormalEvent:gml_Object_oEnDrippler_Step_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oEnDemonSnakeBody",spriteIndex:20,visible:!0,parent:22,CreateEvent:gml_Object_oEnDemonSnakeBody_Create_0,StepNormalEvent:gml_Object_oEnDemonSnakeBody_Step_0,CleanUpEvent:gml_Object_oEnDemonSnakeBody_CleanUp_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oEnemy",spriteIndex:-1,visible:!0,parent:50,CreateEvent:gml_Object_oEnemy_Create_0,DestroyEvent:gml_Object_oEnemy_Destroy_0,StepNormalEvent:gml_Object_oEnemy_Step_0,DrawEvent:gml_Object_oEnemy_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oEnDrippler",spriteIndex:22,visible:!0,parent:22,CreateEvent:gml_Object_oEnDrippler_Create_0,StepNormalEvent:gml_Object_oEnDrippler_Step_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oEnemyBullet",spriteIndex:-1,visible:!0,parent:69,CreateEvent:gml_Object_oEnemyBullet_Create_0,StepNormalEvent:gml_Object_oEnemyBullet_Step_0,DrawEventEnd:gml_Object_oEnemyBullet_Draw_73,DrawEvent:gml_Object_oEnemyBullet_Draw_0,CleanUpEvent:gml_Object_oEnemyBullet_CleanUp_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oEnemy",spriteIndex:-1,visible:!0,parent:54,CreateEvent:gml_Object_oEnemy_Create_0,DestroyEvent:gml_Object_oEnemy_Destroy_0,StepNormalEvent:gml_Object_oEnemy_Step_0,DrawEvent:gml_Object_oEnemy_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oEnEvilBalloon",spriteIndex:43,visible:!0,parent:18,CreateEvent:gml_Object_oEnEvilBalloon_Create_0,DestroyEvent:gml_Object_oEnEvilBalloon_Destroy_0,StepNormalEvent:gml_Object_oEnEvilBalloon_Step_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oEnemyBullet",spriteIndex:-1,visible:!0,parent:73,CreateEvent:gml_Object_oEnemyBullet_Create_0,StepNormalEvent:gml_Object_oEnemyBullet_Step_0,DrawEvent:gml_Object_oEnemyBullet_Draw_0,CleanUpEvent:gml_Object_oEnemyBullet_CleanUp_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oEnExploder",spriteIndex:25,visible:!0,parent:28,StepNormalEvent:gml_Object_oEnExploder_Step_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oEnEvilBalloon",spriteIndex:49,visible:!0,parent:22,CreateEvent:gml_Object_oEnEvilBalloon_Create_0,DestroyEvent:gml_Object_oEnEvilBalloon_Destroy_0,StepNormalEvent:gml_Object_oEnEvilBalloon_Step_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oEnGhostshot",spriteIndex:28,visible:!0,parent:18,CreateEvent:gml_Object_oEnGhostshot_Create_0,StepNormalEvent:gml_Object_oEnGhostshot_Step_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oEnExploder",spriteIndex:26,visible:!0,parent:32,StepNormalEvent:gml_Object_oEnExploder_Step_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oEnLeaper",spriteIndex:29,visible:!0,parent:18,CreateEvent:gml_Object_oEnLeaper_Create_0,StepNormalEvent:gml_Object_oEnLeaper_Step_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oEnGhostshot",spriteIndex:30,visible:!0,parent:22,CreateEvent:gml_Object_oEnGhostshot_Create_0,StepNormalEvent:gml_Object_oEnGhostshot_Step_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oEnSmiley",spriteIndex:23,visible:!0,parent:18,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oEnLeaper",spriteIndex:32,visible:!0,parent:22,CreateEvent:gml_Object_oEnLeaper_Create_0,StepNormalEvent:gml_Object_oEnLeaper_Step_0,TriggerEvents:[],CollisionEvents:[]	}
+	,
+	{
+		pName:"oEnSmiley",spriteIndex:24,visible:!0,parent:22,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
 		pName:"oEntity",spriteIndex:-1,visible:!0,parent:-100,CreateEvent:gml_Object_oEntity_Create_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oEntRisingWall",spriteIndex:32,visible:!0,parent:27,CreateEvent:gml_Object_oEntRisingWall_Create_0,StepBeginEvent:gml_Object_oEntRisingWall_Step_1,DrawEvent:gml_Object_oEntRisingWall_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oEntRisingWall",spriteIndex:37,visible:!0,parent:31,CreateEvent:gml_Object_oEntRisingWall_Create_0,StepBeginEvent:gml_Object_oEntRisingWall_Step_1,DrawEvent:gml_Object_oEntRisingWall_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oEntWall",spriteIndex:32,visible:!0,parent:53,CreateEvent:gml_Object_oEntWall_Create_0,StepBeginEvent:gml_Object_oEntWall_Step_1,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oEntWall",spriteIndex:37,visible:!0,parent:57,CreateEvent:gml_Object_oEntWall_Create_0,StepBeginEvent:gml_Object_oEntWall_Step_1,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oEnZombie",spriteIndex:36,visible:!0,parent:18,CreateEvent:gml_Object_oEnZombie_Create_0,StepNormalEvent:gml_Object_oEnZombie_Step_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oEnZombie",spriteIndex:42,visible:!0,parent:22,CreateEvent:gml_Object_oEnZombie_Create_0,StepNormalEvent:gml_Object_oEnZombie_Step_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oExplosion",spriteIndex:48,visible:!0,parent:69,CreateEvent:gml_Object_oExplosion_Create_0,StepNormalEvent:gml_Object_oExplosion_Step_0,DrawEvent:gml_Object_oExplosion_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oExplosion",spriteIndex:54,visible:!0,parent:73,CreateEvent:gml_Object_oExplosion_Create_0,StepNormalEvent:gml_Object_oExplosion_Step_0,DrawEvent:gml_Object_oExplosion_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oFloatUmbrella",spriteIndex:131,visible:!0,parent:50,CreateEvent:gml_Object_oFloatUmbrella_Create_0,StepNormalEvent:gml_Object_oFloatUmbrella_Step_0,DrawEvent:gml_Object_oFloatUmbrella_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oFloatUmbrella",spriteIndex:139,visible:!0,parent:54,CreateEvent:gml_Object_oFloatUmbrella_Create_0,StepNormalEvent:gml_Object_oFloatUmbrella_Step_0,DrawEvent:gml_Object_oFloatUmbrella_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oFxGib",spriteIndex:61,visible:!0,parent:33,CreateEvent:gml_Object_oFxGib_Create_0,StepNormalEvent:gml_Object_oFxGib_Step_0,DrawEvent:gml_Object_oFxGib_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oFxGib",spriteIndex:67,visible:!0,parent:37,CreateEvent:gml_Object_oFxGib_Create_0,StepNormalEvent:gml_Object_oFxGib_Step_0,DrawEvent:gml_Object_oFxGib_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oFxMuzzle",spriteIndex:65,visible:!0,parent:33,CreateEvent:gml_Object_oFxMuzzle_Create_0,StepNormalEvent:gml_Object_oFxMuzzle_Step_0,DrawEvent:gml_Object_oFxMuzzle_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oFxMuzzle",spriteIndex:71,visible:!0,parent:37,CreateEvent:gml_Object_oFxMuzzle_Create_0,StepNormalEvent:gml_Object_oFxMuzzle_Step_0,DrawEvent:gml_Object_oFxMuzzle_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oFxParticle",spriteIndex:-1,visible:!0,parent:25,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oFxParticle",spriteIndex:-1,visible:!0,parent:29,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
 		pName:"oFxPopupText",spriteIndex:-1,visible:!0,parent:-100,CreateEvent:gml_Object_oFxPopupText_Create_0,StepNormalEvent:gml_Object_oFxPopupText_Step_0,DrawEvent:gml_Object_oFxPopupText_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
@@ -9003,118 +9180,118 @@ var JSON_game=
 		pName:"oFxTransitionOutro",spriteIndex:-1,visible:!0,parent:-100,CreateEvent:gml_Object_oFxTransitionOutro_Create_0,DrawEvent:gml_Object_oFxTransitionOutro_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oFxTutorialSign",spriteIndex:118,visible:!0,parent:-100,CreateEvent:gml_Object_oFxTutorialSign_Create_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oFxTutorialSign",spriteIndex:126,visible:!0,parent:-100,CreateEvent:gml_Object_oFxTutorialSign_Create_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
 		pName:"oFxTutorialText",spriteIndex:-1,visible:!0,parent:-100,CreateEvent:gml_Object_oFxTutorialText_Create_0,DrawEvent:gml_Object_oFxTutorialText_Draw_0,PreCreateEvent:gml_Object_oFxTutorialText_PreCreate_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oGameCamera",spriteIndex:-1,visible:!0,parent:51,CreateEvent:gml_Object_oGameCamera_Create_0,StepEndEvent:gml_Object_oGameCamera_Step_2,StepBeginEvent:gml_Object_oGameCamera_Step_1,DrawEvent:gml_Object_oGameCamera_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oGameCamera",spriteIndex:-1,visible:!0,parent:55,CreateEvent:gml_Object_oGameCamera_Create_0,StepEndEvent:gml_Object_oGameCamera_Step_2,StepBeginEvent:gml_Object_oGameCamera_Step_1,DrawEvent:gml_Object_oGameCamera_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
 		pName:"oGameMainMenu",spriteIndex:-1,visible:!0,parent:-100,CreateEvent:gml_Object_oGameMainMenu_Create_0,StepNormalEvent:gml_Object_oGameMainMenu_Step_0,DrawEvent:gml_Object_oGameMainMenu_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oGameOverMenu",spriteIndex:-1,visible:!0,parent:41,CreateEvent:gml_Object_oGameOverMenu_Create_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oGameOverMenu",spriteIndex:-1,visible:!0,parent:45,CreateEvent:gml_Object_oGameOverMenu_Create_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oGameParticles",spriteIndex:-1,visible:!0,parent:51,CreateEvent:gml_Object_oGameParticles_Create_0,StepNormalEvent:gml_Object_oGameParticles_Step_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oGameParticles",spriteIndex:-1,visible:!0,parent:55,CreateEvent:gml_Object_oGameParticles_Create_0,StepNormalEvent:gml_Object_oGameParticles_Step_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oGamePause",spriteIndex:-1,visible:!0,parent:51,CreateEvent:gml_Object_oGamePause_Create_0,StepNormalEvent:gml_Object_oGamePause_Step_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oGamePause",spriteIndex:-1,visible:!0,parent:55,CreateEvent:gml_Object_oGamePause_Create_0,StepNormalEvent:gml_Object_oGamePause_Step_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oGamePauseMenu",spriteIndex:-1,visible:!0,parent:41,CreateEvent:gml_Object_oGamePauseMenu_Create_0,DrawEvent:gml_Object_oGamePauseMenu_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oGamePauseMenu",spriteIndex:-1,visible:!0,parent:45,CreateEvent:gml_Object_oGamePauseMenu_Create_0,DrawEvent:gml_Object_oGamePauseMenu_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oGameSetup",spriteIndex:-1,visible:!0,parent:51,CreateEvent:gml_Object_oGameSetup_Create_0,StepNormalEvent:gml_Object_oGameSetup_Step_0,StepBeginEvent:gml_Object_oGameSetup_Step_1,StepEndEvent:gml_Object_oGameSetup_Step_2,StartRoomEvent:gml_Object_oGameSetup_Other_4,DrawEventEnd:gml_Object_oGameSetup_Draw_73,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oGameSetup",spriteIndex:-1,visible:!0,parent:55,CreateEvent:gml_Object_oGameSetup_Create_0,StepNormalEvent:gml_Object_oGameSetup_Step_0,StepBeginEvent:gml_Object_oGameSetup_Step_1,StepEndEvent:gml_Object_oGameSetup_Step_2,StartRoomEvent:gml_Object_oGameSetup_Other_4,DrawEventEnd:gml_Object_oGameSetup_Draw_73,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
 		pName:"oGameSpawner",spriteIndex:-1,visible:!0,parent:-100,CreateEvent:gml_Object_oGameSpawner_Create_0,StepNormalEvent:gml_Object_oGameSpawner_Step_0,StepBeginEvent:gml_Object_oGameSpawner_Step_1,DrawEventEnd:gml_Object_oGameSpawner_Draw_73,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oGiftFlying",spriteIndex:71,visible:!0,parent:70,CreateEvent:gml_Object_oGiftFlying_Create_0,StepNormalEvent:gml_Object_oGiftFlying_Step_0,DrawEvent:gml_Object_oGiftFlying_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oGiftFlying",spriteIndex:77,visible:!0,parent:74,CreateEvent:gml_Object_oGiftFlying_Create_0,StepNormalEvent:gml_Object_oGiftFlying_Step_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oHitrunPlayer",spriteIndex:82,visible:!0,parent:63,CreateEvent:gml_Object_oHitrunPlayer_Create_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oHitrunPlayer",spriteIndex:88,visible:!0,parent:67,CreateEvent:gml_Object_oHitrunPlayer_Create_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oHittable",spriteIndex:-1,visible:!0,parent:25,CreateEvent:gml_Object_oHittable_Create_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oHittable",spriteIndex:-1,visible:!0,parent:29,CreateEvent:gml_Object_oHittable_Create_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
 		pName:"oManagerParent",spriteIndex:-1,visible:!0,parent:-100,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oMovingPlatform",spriteIndex:85,visible:!0,parent:62,CreateEvent:gml_Object_oMovingPlatform_Create_0,StepBeginEvent:gml_Object_oMovingPlatform_Step_1,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oMovingPlatform",spriteIndex:91,visible:!0,parent:66,CreateEvent:gml_Object_oMovingPlatform_Create_0,StepBeginEvent:gml_Object_oMovingPlatform_Step_1,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oMovingWall",spriteIndex:86,visible:!0,parent:84,CreateEvent:gml_Object_oMovingWall_Create_0,StepBeginEvent:gml_Object_oMovingWall_Step_1,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oMovingWall",spriteIndex:92,visible:!0,parent:88,CreateEvent:gml_Object_oMovingWall_Create_0,StepBeginEvent:gml_Object_oMovingWall_Step_1,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oPickup",spriteIndex:-1,visible:!0,parent:25,CreateEvent:gml_Object_oPickup_Create_0,StepNormalEvent:gml_Object_oPickup_Step_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oPickup",spriteIndex:-1,visible:!0,parent:29,CreateEvent:gml_Object_oPickup_Create_0,StepNormalEvent:gml_Object_oPickup_Step_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oPickupDrop",spriteIndex:-1,visible:!0,parent:54,StepNormalEvent:gml_Object_oPickupDrop_Step_0,DrawEvent:gml_Object_oPickupDrop_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oPickupDrop",spriteIndex:-1,visible:!0,parent:58,StepNormalEvent:gml_Object_oPickupDrop_Step_0,DrawEvent:gml_Object_oPickupDrop_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oPickupGunDrop",spriteIndex:140,visible:!0,parent:54,CreateEvent:gml_Object_oPickupGunDrop_Create_0,StepNormalEvent:gml_Object_oPickupGunDrop_Step_0,DrawEvent:gml_Object_oPickupGunDrop_Draw_0,PreCreateEvent:gml_Object_oPickupGunDrop_PreCreate_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oPickupGunDrop",spriteIndex:148,visible:!0,parent:58,CreateEvent:gml_Object_oPickupGunDrop_Create_0,StepNormalEvent:gml_Object_oPickupGunDrop_Step_0,DrawEvent:gml_Object_oPickupGunDrop_Draw_0,PreCreateEvent:gml_Object_oPickupGunDrop_PreCreate_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oPickupHealBig",spriteIndex:75,visible:!0,parent:55,CreateEvent:gml_Object_oPickupHealBig_Create_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oPickupHealBig",spriteIndex:81,visible:!0,parent:59,CreateEvent:gml_Object_oPickupHealBig_Create_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oPickupHealSmall",spriteIndex:75,visible:!0,parent:55,CreateEvent:gml_Object_oPickupHealSmall_Create_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oPickupHealSmall",spriteIndex:81,visible:!0,parent:59,CreateEvent:gml_Object_oPickupHealSmall_Create_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oPickupHealSpade",spriteIndex:77,visible:!0,parent:55,CreateEvent:gml_Object_oPickupHealSpade_Create_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oPickupHealSpade",spriteIndex:83,visible:!0,parent:59,CreateEvent:gml_Object_oPickupHealSpade_Create_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oPickupHealTape",spriteIndex:78,visible:!0,parent:55,CreateEvent:gml_Object_oPickupHealTape_Create_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oPickupHealTape",spriteIndex:84,visible:!0,parent:59,CreateEvent:gml_Object_oPickupHealTape_Create_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oPickupHeartPiece",spriteIndex:73,visible:!0,parent:55,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oPickupHeartPiece",spriteIndex:79,visible:!0,parent:59,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oPlatform",spriteIndex:89,visible:!0,parent:-100,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oPlatform",spriteIndex:95,visible:!0,parent:-100,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oPlayer",spriteIndex:-1,visible:!0,parent:25,CreateEvent:gml_Object_oPlayer_Create_0,StepNormalEvent:gml_Object_oPlayer_Step_0,DrawEvent:gml_Object_oPlayer_Draw_0,DrawEventEnd:gml_Object_oPlayer_Draw_73,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oPlayer",spriteIndex:-1,visible:!0,parent:29,CreateEvent:gml_Object_oPlayer_Create_0,StepNormalEvent:gml_Object_oPlayer_Step_0,DrawEvent:gml_Object_oPlayer_Draw_0,DrawEventEnd:gml_Object_oPlayer_Draw_73,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oPlayerBullet",spriteIndex:-1,visible:!0,parent:69,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oPlayerBullet",spriteIndex:-1,visible:!0,parent:73,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oPlayerBulPellet",spriteIndex:6,visible:!0,parent:66,CreateEvent:gml_Object_oPlayerBulPellet_Create_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oPlayerBulPellet",spriteIndex:6,visible:!0,parent:70,CreateEvent:gml_Object_oPlayerBulPellet_Create_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oPlayerBulRegular",spriteIndex:7,visible:!0,parent:69,CreateEvent:gml_Object_oPlayerBulRegular_Create_0,StepNormalEvent:gml_Object_oPlayerBulRegular_Step_0,DrawEvent:gml_Object_oPlayerBulRegular_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oPlayerBulRegular",spriteIndex:7,visible:!0,parent:73,CreateEvent:gml_Object_oPlayerBulRegular_Create_0,StepNormalEvent:gml_Object_oPlayerBulRegular_Step_0,DrawEvent:gml_Object_oPlayerBulRegular_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oPlayerBulStaple",spriteIndex:8,visible:!0,parent:66,CreateEvent:gml_Object_oPlayerBulStaple_Create_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oPlayerBulStaple",spriteIndex:8,visible:!0,parent:70,CreateEvent:gml_Object_oPlayerBulStaple_Create_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oPlayerHitbox",spriteIndex:82,visible:!0,parent:69,CreateEvent:gml_Object_oPlayerHitbox_Create_0,StepNormalEvent:gml_Object_oPlayerHitbox_Step_0,DrawEvent:gml_Object_oPlayerHitbox_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oPlayerHitbox",spriteIndex:88,visible:!0,parent:73,CreateEvent:gml_Object_oPlayerHitbox_Create_0,StepNormalEvent:gml_Object_oPlayerHitbox_Step_0,DrawEvent:gml_Object_oPlayerHitbox_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oProjectile",spriteIndex:-1,visible:!0,parent:25,CreateEvent:gml_Object_oProjectile_Create_0,CleanUpEvent:gml_Object_oProjectile_CleanUp_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oProjectile",spriteIndex:-1,visible:!0,parent:29,CreateEvent:gml_Object_oProjectile_Create_0,DrawEventEnd:gml_Object_oProjectile_Draw_73,CleanUpEvent:gml_Object_oProjectile_CleanUp_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oProp",spriteIndex:-1,visible:!0,parent:18,CreateEvent:gml_Object_oProp_Create_0,StepNormalEvent:gml_Object_oProp_Step_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oProp",spriteIndex:-1,visible:!0,parent:22,CreateEvent:gml_Object_oProp_Create_0,StepNormalEvent:gml_Object_oProp_Step_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oPropBomb",spriteIndex:110,visible:!0,parent:70,CreateEvent:gml_Object_oPropBomb_Create_0,StepNormalEvent:gml_Object_oPropBomb_Step_0,CleanUpEvent:gml_Object_oPropBomb_CleanUp_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oPropBomb",spriteIndex:116,visible:!0,parent:74,CreateEvent:gml_Object_oPropBomb_Create_0,StepNormalEvent:gml_Object_oPropBomb_Step_0,CleanUpEvent:gml_Object_oPropBomb_CleanUp_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oPropDummy",spriteIndex:22,visible:!0,parent:70,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oPropDummy",spriteIndex:23,visible:!0,parent:74,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oPropNuke",spriteIndex:111,visible:!0,parent:70,CreateEvent:gml_Object_oPropNuke_Create_0,StepNormalEvent:gml_Object_oPropNuke_Step_0,CleanUpEvent:gml_Object_oPropNuke_CleanUp_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oPropNuke",spriteIndex:117,visible:!0,parent:74,CreateEvent:gml_Object_oPropNuke_Create_0,StepNormalEvent:gml_Object_oPropNuke_Step_0,CleanUpEvent:gml_Object_oPropNuke_CleanUp_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oSlope",spriteIndex:113,visible:!0,parent:76,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oSlope",spriteIndex:121,visible:!0,parent:80,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oSlopeWall",spriteIndex:115,visible:!0,parent:74,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oSlopeWall",spriteIndex:123,visible:!0,parent:78,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
 		pName:"oSolid",spriteIndex:-1,visible:!0,parent:-100,TriggerEvents:[],CollisionEvents:[]	}
@@ -9123,31 +9300,31 @@ var JSON_game=
 		pName:"oSpawnIndicator",spriteIndex:-1,visible:!0,parent:-100,CreateEvent:gml_Object_oSpawnIndicator_Create_0,StepNormalEvent:gml_Object_oSpawnIndicator_Step_0,StepEndEvent:gml_Object_oSpawnIndicator_Step_2,DrawEvent:gml_Object_oSpawnIndicator_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oSpawnZone",spriteIndex:116,visible:!0,parent:-100,CreateEvent:gml_Object_oSpawnZone_Create_0,DrawEvent:gml_Object_oSpawnZone_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oSpawnZone",spriteIndex:124,visible:!0,parent:-100,CreateEvent:gml_Object_oSpawnZone_Create_0,DrawEvent:gml_Object_oSpawnZone_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oStageEntrance",spriteIndex:117,visible:!0,parent:-100,DrawEvent:gml_Object_oStageEntrance_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oStageEntrance",spriteIndex:125,visible:!0,parent:-100,DrawEvent:gml_Object_oStageEntrance_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oStageExit",spriteIndex:44,visible:!0,parent:7,CreateEvent:gml_Object_oStageExit_Create_0,StepNormalEvent:gml_Object_oStageExit_Step_0,DrawEvent:gml_Object_oStageExit_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oStageExit",spriteIndex:50,visible:!0,parent:10,CreateEvent:gml_Object_oStageExit_Create_0,StepNormalEvent:gml_Object_oStageExit_Step_0,DrawEvent:gml_Object_oStageExit_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oTestCoffin",spriteIndex:11,visible:!0,parent:-100,CreateEvent:gml_Object_oTestCoffin_Create_0,DrawEvent:gml_Object_oTestCoffin_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oTestCoffin",spriteIndex:12,visible:!0,parent:-100,CreateEvent:gml_Object_oTestCoffin_Create_0,DrawEvent:gml_Object_oTestCoffin_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oTestSpawner",spriteIndex:32,visible:!0,parent:27,CreateEvent:gml_Object_oTestSpawner_Create_0,StepBeginEvent:gml_Object_oTestSpawner_Step_1,DrawEvent:gml_Object_oTestSpawner_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oTestSpawner",spriteIndex:37,visible:!0,parent:31,CreateEvent:gml_Object_oTestSpawner_Create_0,StepBeginEvent:gml_Object_oTestSpawner_Step_1,DrawEvent:gml_Object_oTestSpawner_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oViewZone",spriteIndex:133,visible:!0,parent:-100,CreateEvent:gml_Object_oViewZone_Create_0,DrawEvent:gml_Object_oViewZone_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oViewZone",spriteIndex:141,visible:!0,parent:-100,CreateEvent:gml_Object_oViewZone_Create_0,DrawEvent:gml_Object_oViewZone_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oWall",spriteIndex:114,visible:!0,parent:76,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oWall",spriteIndex:122,visible:!0,parent:80,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oWaveTrigger",spriteIndex:134,visible:!0,parent:70,CreateEvent:gml_Object_oWaveTrigger_Create_0,StepNormalEvent:gml_Object_oWaveTrigger_Step_0,DrawEvent:gml_Object_oWaveTrigger_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oWaveTrigger",spriteIndex:142,visible:!0,parent:74,CreateEvent:gml_Object_oWaveTrigger_Create_0,StepNormalEvent:gml_Object_oWaveTrigger_Step_0,DrawEventEnd:gml_Object_oWaveTrigger_Draw_73,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
-		pName:"oWaveWall",spriteIndex:135,visible:!0,parent:84,CreateEvent:gml_Object_oWaveWall_Create_0,StepNormalEvent:gml_Object_oWaveWall_Step_0,DrawEvent:gml_Object_oWaveWall_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
+		pName:"oWaveWall",spriteIndex:143,visible:!0,parent:88,CreateEvent:gml_Object_oWaveWall_Create_0,StepNormalEvent:gml_Object_oWaveWall_Step_0,DrawEvent:gml_Object_oWaveWall_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
 	,
 	{
 		pName:"oWebInit",spriteIndex:-1,visible:!0,parent:-100,DrawEvent:gml_Object_oWebInit_Draw_0,TriggerEvents:[],CollisionEvents:[]	}
@@ -9206,118 +9383,118 @@ var JSON_game=
 			wview:1366,hview:768,wport:1366,hport:768		}
 		],pInstances:[
 		{
-			x:720,y:400,index:63,id:100000,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:720,y:400,index:67,id:100000,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:0,y:432,index:84,id:100002,rotation:0,scaleX:95,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:0,y:432,index:88,id:100002,rotation:0,scaleX:95,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:608,y:416,index:74,id:100003,rotation:0,scaleX:13,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:608,y:416,index:78,id:100003,rotation:0,scaleX:13,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:880,y:416,index:74,id:100004,rotation:0,scaleX:-8,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:880,y:416,index:78,id:100004,rotation:0,scaleX:-8,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:928,y:400,index:74,id:100005,rotation:0,scaleX:-3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:928,y:400,index:78,id:100005,rotation:0,scaleX:-3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:928,y:400,index:75,id:100006,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:928,y:400,index:79,id:100006,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:944,y:400,index:74,id:100007,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:944,y:400,index:78,id:100007,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:960,y:416,index:74,id:100008,rotation:0,scaleX:5,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:960,y:416,index:78,id:100008,rotation:0,scaleX:5,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1040,y:432,index:75,id:100009,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1040,y:432,index:79,id:100009,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1056,y:432,index:75,id:100010,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1056,y:432,index:79,id:100010,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1248,y:416,index:74,id:100011,rotation:0,scaleX:-4,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1248,y:416,index:78,id:100011,rotation:0,scaleX:-4,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1296,y:400,index:74,id:100012,rotation:0,scaleX:-3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1296,y:400,index:78,id:100012,rotation:0,scaleX:-3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1504,y:384,index:74,id:100013,rotation:0,scaleX:-13,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1504,y:384,index:78,id:100013,rotation:0,scaleX:-13,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1520,y:384,index:84,id:100014,rotation:0,scaleX:15,scaleY:6,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1520,y:384,index:88,id:100014,rotation:0,scaleX:15,scaleY:6,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1504,y:384,index:75,id:100015,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1504,y:384,index:79,id:100015,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1296,y:400,index:75,id:100016,rotation:0,scaleX:14,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1296,y:400,index:79,id:100016,rotation:0,scaleX:14,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1248,y:416,index:75,id:100017,rotation:0,scaleX:3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1248,y:416,index:79,id:100017,rotation:0,scaleX:3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1168,y:432,index:75,id:100018,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1168,y:432,index:79,id:100018,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:880,y:416,index:75,id:100019,rotation:0,scaleX:5,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:880,y:416,index:79,id:100019,rotation:0,scaleX:5,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:784,y:432,index:75,id:100020,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:784,y:432,index:79,id:100020,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:768,y:432,index:75,id:100021,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:768,y:432,index:79,id:100021,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:752,y:432,index:75,id:100022,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:752,y:432,index:79,id:100022,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:128,y:400,index:74,id:100023,rotation:0,scaleX:4,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:128,y:400,index:78,id:100023,rotation:0,scaleX:4,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:192,y:416,index:74,id:100024,rotation:0,scaleX:13,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:192,y:416,index:78,id:100024,rotation:0,scaleX:13,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:576,y:400,index:74,id:100025,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:576,y:400,index:78,id:100025,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:528,y:400,index:74,id:100026,rotation:0,scaleX:-2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:528,y:400,index:78,id:100026,rotation:0,scaleX:-2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:560,y:384,index:74,id:100027,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:560,y:384,index:78,id:100027,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:560,y:384,index:74,id:100028,rotation:0,scaleX:-2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:560,y:384,index:78,id:100028,rotation:0,scaleX:-2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:496,y:416,index:74,id:100029,rotation:0,scaleX:-10,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:496,y:416,index:78,id:100029,rotation:0,scaleX:-10,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:0,y:400,index:75,id:100030,rotation:0,scaleX:8,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:0,y:400,index:79,id:100030,rotation:0,scaleX:8,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:128,y:416,index:75,id:100031,rotation:0,scaleX:4,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:128,y:416,index:79,id:100031,rotation:0,scaleX:4,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:368,y:432,index:75,id:100032,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:368,y:432,index:79,id:100032,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:352,y:432,index:75,id:100033,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:352,y:432,index:79,id:100033,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:496,y:416,index:75,id:100034,rotation:0,scaleX:7,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:496,y:416,index:79,id:100034,rotation:0,scaleX:7,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:528,y:400,index:75,id:100035,rotation:0,scaleX:3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:528,y:400,index:79,id:100035,rotation:0,scaleX:3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:272,y:384,index:62,id:100001,rotation:0,scaleX:6,scaleY:4,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:272,y:384,index:66,id:100001,rotation:0,scaleX:6,scaleY:4,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:320,y:352,index:62,id:100036,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:320,y:352,index:66,id:100036,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:320,y:320,index:62,id:100037,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:320,y:320,index:66,id:100037,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		],tiles:[],layers:[
 		{
 			pName:"Instances",id:0,type:2,depth:0,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:38,iinstIDs:[100000,100001,100002,100003,100004,100005,100006,100007,100008,100009,100010,100011,100012,100013,100014,100015,100016,100017,100018,100019,100020,100021,100022,100023,100024,100025,100026,100027,100028,100029,100030,100031,100032,100033,100034,100035,100036,100037]		}
@@ -9380,16 +9557,16 @@ var JSON_game=
 			wview:1366,hview:768,wport:1366,hport:768		}
 		],pInstances:[
 		{
-			x:-16,y:256,index:84,id:100040,rotation:0,scaleX:36.000003814697266,scaleY:6,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:-16,y:256,index:88,id:100040,rotation:0,scaleX:36.000003814697266,scaleY:6,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:-16,y:-48,index:84,id:100038,rotation:0,scaleX:3,scaleY:22,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:-16,y:-48,index:88,id:100038,rotation:0,scaleX:3,scaleY:22,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:512,y:-64,index:84,id:100039,rotation:0,scaleX:3,scaleY:23.999998092651367,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:512,y:-64,index:88,id:100039,rotation:0,scaleX:3,scaleY:23.999998092651367,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:176,y:208,index:52,id:100041,rotation:0,scaleX:4,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:176,y:208,index:56,id:100041,rotation:0,scaleX:4,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
 			x:512,y:304,index:0,id:100048,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
@@ -9398,31 +9575,31 @@ var JSON_game=
 			x:64,y:320,index:0,id:100049,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:272,y:144,index:78,id:100052,rotation:0,scaleX:1.1999999284744263,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:272,y:144,index:82,id:100052,rotation:0,scaleX:1.1999999284744263,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:288,y:208,index:62,id:100042,rotation:0,scaleX:3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:288,y:208,index:66,id:100042,rotation:0,scaleX:3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:256,y:192,index:84,id:100043,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:256,y:192,index:88,id:100043,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:368,y:176,index:52,id:100044,rotation:0,scaleX:4,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:368,y:176,index:56,id:100044,rotation:0,scaleX:4,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:272,y:176,index:79,id:100045,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:272,y:176,index:83,id:100045,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:32,y:192,index:84,id:100046,rotation:0,scaleX:2,scaleY:4,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:32,y:192,index:88,id:100046,rotation:0,scaleX:2,scaleY:4,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:480,y:192,index:84,id:100047,rotation:0,scaleX:2,scaleY:4,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:480,y:192,index:88,id:100047,rotation:0,scaleX:2,scaleY:4,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:240,y:144,index:52,id:100050,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:240,y:144,index:56,id:100050,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:272,y:176,index:80,id:100051,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:272,y:176,index:84,id:100051,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		],tiles:[],layers:[
 		{
 			pName:"Instances",id:2,type:2,depth:0,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:14,iinstIDs:[100038,100039,100040,100041,100042,100043,100044,100045,100046,100047,100048,100049,100050,100051]		}
@@ -9458,28 +9635,28 @@ var JSON_game=
 			wview:1366,hview:768,wport:1366,hport:768		}
 		],pInstances:[
 		{
-			x:-16,y:256,index:84,id:100053,rotation:0,scaleX:38.000003814697266,scaleY:6,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:-16,y:256,index:88,id:100053,rotation:0,scaleX:38.000003814697266,scaleY:6,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:544,y:-64,index:84,id:100054,rotation:0,scaleX:3.0000057220458984,scaleY:20,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:544,y:-64,index:88,id:100054,rotation:0,scaleX:3.0000057220458984,scaleY:20,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:-16,y:-64,index:84,id:100055,rotation:0,scaleX:3.0000057220458984,scaleY:20,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:-16,y:-64,index:88,id:100055,rotation:0,scaleX:3.0000057220458984,scaleY:20,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:256,y:144,index:62,id:100056,rotation:0,scaleX:5,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:256,y:144,index:66,id:100056,rotation:0,scaleX:5,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:144,y:240,index:79,id:100059,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:144,y:240,index:83,id:100059,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:272,y:96,index:84,id:100060,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:272,y:96,index:88,id:100060,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:256,y:224,index:62,id:100061,rotation:0,scaleX:4,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:256,y:224,index:66,id:100061,rotation:0,scaleX:4,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:288,y:144,index:78,id:100067,rotation:0,scaleX:1.28000009059906,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:288,y:144,index:82,id:100067,rotation:0,scaleX:1.28000009059906,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
 			x:16,y:320,index:0,id:100062,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
@@ -9491,16 +9668,16 @@ var JSON_game=
 			x:352,y:336,index:0,id:100064,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:320,y:176,index:62,id:100057,rotation:0,scaleX:4,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:320,y:176,index:66,id:100057,rotation:0,scaleX:4,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:288,y:176,index:84,id:100058,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:288,y:176,index:88,id:100058,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:160,y:128,index:52,id:100065,rotation:0,scaleX:3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:160,y:128,index:56,id:100065,rotation:0,scaleX:3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:112,y:240,index:80,id:100066,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:112,y:240,index:84,id:100066,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		],tiles:[],layers:[
 		{
 			pName:"Instances",id:4,type:2,depth:0,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:14,iinstIDs:[100053,100054,100055,100056,100057,100058,100059,100060,100061,100062,100063,100064,100065,100066]		}
@@ -9539,46 +9716,46 @@ var JSON_game=
 			wview:1366,hview:768,wport:1366,hport:768		}
 		],pInstances:[
 		{
-			x:544,y:-48,index:84,id:100068,rotation:0,scaleX:3,scaleY:26,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:544,y:-48,index:88,id:100068,rotation:0,scaleX:3,scaleY:26,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:-48,y:-64,index:84,id:100069,rotation:0,scaleX:3,scaleY:27,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:-48,y:-64,index:88,id:100069,rotation:0,scaleX:3,scaleY:27,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:-16,y:256,index:84,id:100070,rotation:0,scaleX:36,scaleY:7,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:-16,y:256,index:88,id:100070,rotation:0,scaleX:36,scaleY:7,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:176,y:192,index:56,id:100073,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:176,y:192,index:60,id:100073,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:32,y:128,index:79,id:100072,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:32,y:128,index:83,id:100072,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:208,y:192,index:56,id:100074,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:208,y:192,index:60,id:100074,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:240,y:192,index:56,id:100075,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:240,y:192,index:60,id:100075,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:128,y:208,index:62,id:100071,rotation:0,scaleX:11,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:128,y:208,index:66,id:100071,rotation:0,scaleX:11,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:480,y:240,index:80,id:100076,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:480,y:240,index:84,id:100076,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:272,y:112,index:83,id:100081,rotation:0,scaleX:1.3600001335144043,scaleY:1.2222222089767456,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:272,y:112,index:87,id:100081,rotation:0,scaleX:1.3600001335144043,scaleY:1.2222222089767456,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:304,y:-64,index:84,id:100077,rotation:0,scaleX:15,scaleY:14,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:304,y:-64,index:88,id:100077,rotation:0,scaleX:15,scaleY:14,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:176,y:-64,index:84,id:100078,rotation:0,scaleX:8,scaleY:7,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:176,y:-64,index:88,id:100078,rotation:0,scaleX:8,scaleY:7,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:0,y:-64,index:84,id:100079,rotation:0,scaleX:4,scaleY:7,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:0,y:-64,index:88,id:100079,rotation:0,scaleX:4,scaleY:7,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:0,y:160,index:84,id:100080,rotation:0,scaleX:4,scaleY:9,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:0,y:160,index:88,id:100080,rotation:0,scaleX:4,scaleY:9,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		],tiles:[],layers:[
 		{
 			pName:"Instances",id:7,type:2,depth:0,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:13,iinstIDs:[100068,100069,100070,100071,100072,100073,100074,100075,100076,100077,100078,100079,100080]		}
@@ -9641,28 +9818,28 @@ var JSON_game=
 			wview:1366,hview:768,wport:1366,hport:768		}
 		],pInstances:[
 		{
-			x:0,y:256,index:84,id:100082,rotation:0,scaleX:45,scaleY:5,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:0,y:256,index:88,id:100082,rotation:0,scaleX:45,scaleY:5,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:672,y:-32,index:84,id:100083,rotation:0,scaleX:3,scaleY:18,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:672,y:-32,index:88,id:100083,rotation:0,scaleX:3,scaleY:18,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:-16,y:-32,index:84,id:100084,rotation:0,scaleX:3,scaleY:18,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:-16,y:-32,index:88,id:100084,rotation:0,scaleX:3,scaleY:18,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:528,y:256,index:26,id:100085,rotation:0,scaleX:3,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:528,y:256,index:30,id:100085,rotation:0,scaleX:3,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:160,y:256,index:26,id:100086,rotation:0,scaleX:3,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:160,y:256,index:30,id:100086,rotation:0,scaleX:3,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
 			x:288,y:320,index:0,id:100091,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:416,y:224,index:62,id:100087,rotation:0,scaleX:4,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:416,y:224,index:66,id:100087,rotation:0,scaleX:4,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:256,y:208,index:62,id:100088,rotation:0,scaleX:8,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:256,y:208,index:66,id:100088,rotation:0,scaleX:8,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
 			x:48,y:304,index:0,id:100090,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
@@ -9671,13 +9848,13 @@ var JSON_game=
 			x:656,y:320,index:0,id:100089,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:112,y:240,index:79,id:100092,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:112,y:240,index:83,id:100092,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:448,y:208,index:80,id:100093,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:448,y:208,index:84,id:100093,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:352,y:144,index:78,id:100094,rotation:0,scaleX:1.5999999046325684,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:352,y:144,index:82,id:100094,rotation:0,scaleX:1.5999999046325684,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		],tiles:[],layers:[
 		{
 			pName:"Instances",id:9,type:2,depth:0,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:12,iinstIDs:[100082,100083,100084,100085,100086,100087,100088,100089,100090,100091,100092,100093]		}
@@ -9713,31 +9890,31 @@ var JSON_game=
 			wview:1366,hview:768,wport:1366,hport:768		}
 		],pInstances:[
 		{
-			x:-48,y:256,index:84,id:100097,rotation:0,scaleX:34,scaleY:4,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:-48,y:256,index:88,id:100097,rotation:0,scaleX:34,scaleY:4,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:416,y:-16,index:84,id:100098,rotation:0,scaleX:3,scaleY:17,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:416,y:-16,index:88,id:100098,rotation:0,scaleX:3,scaleY:17,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:-32,y:-16,index:84,id:100099,rotation:0,scaleX:3,scaleY:17,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:-32,y:-16,index:88,id:100099,rotation:0,scaleX:3,scaleY:17,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:128,y:192,index:62,id:100096,rotation:0,scaleX:9,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:128,y:192,index:66,id:100096,rotation:0,scaleX:9,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:216,y:144,index:78,id:100107,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:216,y:144,index:82,id:100107,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:80,y:224,index:62,id:100100,rotation:0,scaleX:3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:80,y:224,index:66,id:100100,rotation:0,scaleX:3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:352,y:176,index:62,id:100101,rotation:0,scaleX:4,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:352,y:176,index:66,id:100101,rotation:0,scaleX:4,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:48,y:240,index:79,id:100102,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:48,y:240,index:83,id:100102,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:384,y:240,index:80,id:100103,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:384,y:240,index:84,id:100103,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
 			x:0,y:320,index:0,id:100104,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
@@ -9746,10 +9923,10 @@ var JSON_game=
 			x:432,y:320,index:0,id:100105,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:176,y:224,index:62,id:100095,rotation:0,scaleX:10,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:176,y:224,index:66,id:100095,rotation:0,scaleX:10,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:16,y:176,index:62,id:100106,rotation:0,scaleX:3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:16,y:176,index:66,id:100106,rotation:0,scaleX:3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		],tiles:[],layers:[
 		{
 			pName:"Instances",id:11,type:2,depth:0,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:12,iinstIDs:[100095,100096,100097,100098,100099,100100,100101,100102,100103,100104,100105,100106]		}
@@ -9785,49 +9962,49 @@ var JSON_game=
 			wview:1366,hview:768,wport:1366,hport:768		}
 		],pInstances:[
 		{
-			x:0,y:352,index:84,id:100108,rotation:0,scaleX:44.000003814697266,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:0,y:352,index:88,id:100108,rotation:0,scaleX:44.000003814697266,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:832,y:288,index:84,id:100110,rotation:0,scaleX:27,scaleY:10,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:832,y:288,index:88,id:100110,rotation:0,scaleX:27,scaleY:10,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1248,y:224,index:84,id:100111,rotation:0,scaleX:7,scaleY:12,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1248,y:224,index:88,id:100111,rotation:0,scaleX:7,scaleY:12,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1360,y:160,index:84,id:100112,rotation:0,scaleX:13,scaleY:15,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1360,y:160,index:88,id:100112,rotation:0,scaleX:13,scaleY:15,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:352,y:240,index:78,id:100146,rotation:0,scaleX:1.1999999284744263,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:352,y:240,index:82,id:100146,rotation:0,scaleX:1.1999999284744263,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1024,y:176,index:78,id:100147,rotation:0,scaleX:1.2799999713897705,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1024,y:176,index:82,id:100147,rotation:0,scaleX:1.2799999713897705,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:-64,y:16,index:84,id:100113,rotation:0,scaleX:4,scaleY:24,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:-64,y:16,index:88,id:100113,rotation:0,scaleX:4,scaleY:24,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1536,y:-64,index:84,id:100114,rotation:0,scaleX:4,scaleY:23,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1536,y:-64,index:88,id:100114,rotation:0,scaleX:4,scaleY:23,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1120,y:224,index:62,id:100116,rotation:0,scaleX:8,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1120,y:224,index:66,id:100116,rotation:0,scaleX:8,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:352,y:320,index:62,id:100117,rotation:0,scaleX:12,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:352,y:320,index:66,id:100117,rotation:0,scaleX:12,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:176,y:304,index:62,id:100115,rotation:0,scaleX:5,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:176,y:304,index:66,id:100115,rotation:0,scaleX:5,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1136,y:256,index:62,id:100118,rotation:0,scaleX:4,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1136,y:256,index:66,id:100118,rotation:0,scaleX:4,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:368,y:352,index:26,id:100119,rotation:0,scaleX:3,scaleY:5,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:368,y:352,index:30,id:100119,rotation:0,scaleX:3,scaleY:5,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:864,y:208,index:62,id:100120,rotation:0,scaleX:5,scaleY:5,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:864,y:208,index:66,id:100120,rotation:0,scaleX:5,scaleY:5,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:832,y:256,index:62,id:100123,rotation:0,scaleX:9,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:832,y:256,index:66,id:100123,rotation:0,scaleX:9,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
 			x:0,y:416,index:0,id:100128,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
@@ -9857,52 +10034,52 @@ var JSON_game=
 			x:208,y:432,index:0,id:100136,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:704,y:256,index:84,id:100109,rotation:0,scaleX:8,scaleY:9,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:704,y:256,index:88,id:100109,rotation:0,scaleX:8,scaleY:9,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:688,y:304,index:62,id:100121,rotation:0,scaleX:1,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:688,y:304,index:66,id:100121,rotation:0,scaleX:1,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:656,y:256,index:62,id:100122,rotation:0,scaleX:3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:656,y:256,index:66,id:100122,rotation:0,scaleX:3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:96,y:0,index:86,id:100124,rotation:0,scaleX:1,scaleY:25,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:96,y:0,index:90,id:100124,rotation:0,scaleX:1,scaleY:25,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:592,y:0,index:86,id:100125,rotation:0,scaleX:1,scaleY:25,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:592,y:0,index:90,id:100125,rotation:0,scaleX:1,scaleY:25,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:752,y:80,index:86,id:100126,rotation:0,scaleX:1,scaleY:8,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:752,y:80,index:90,id:100126,rotation:0,scaleX:1,scaleY:8,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1280,y:0,index:86,id:100127,rotation:0,scaleX:1,scaleY:16,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1280,y:0,index:90,id:100127,rotation:0,scaleX:1,scaleY:16,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:32,y:336,index:79,id:100137,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:32,y:336,index:83,id:100137,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1472,y:144,index:80,id:100138,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1472,y:144,index:84,id:100138,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:200,y:240,index:83,id:100143,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:200,y:240,index:87,id:100143,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:712,y:208,index:83,id:100144,rotation:0,scaleX:1,scaleY:1.2222222089767456,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:712,y:208,index:87,id:100144,rotation:0,scaleX:1,scaleY:1.2222222089767456,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1360,y:176,index:83,id:100145,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1360,y:176,index:87,id:100145,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:704,y:208,index:84,id:100139,rotation:0,scaleX:4,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:704,y:208,index:88,id:100139,rotation:0,scaleX:4,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:608,y:0,index:84,id:100140,rotation:0,scaleX:10,scaleY:5,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:608,y:0,index:88,id:100140,rotation:0,scaleX:10,scaleY:5,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:608,y:80,index:84,id:100141,rotation:0,scaleX:3,scaleY:5,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:608,y:80,index:88,id:100141,rotation:0,scaleX:3,scaleY:5,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:688,y:208,index:62,id:100142,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:688,y:208,index:66,id:100142,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		],tiles:[],layers:[
 		{
 			pName:"Instances",id:13,type:2,depth:0,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:35,iinstIDs:[100108,100109,100110,100111,100112,100113,100114,100115,100116,100117,100118,100119,100120,100121,100122,100123,100124,100125,100126,100127,100128,100129,100130,100131,100132,100133,100134,100135,100136,100137,100138,100139,100140,100141,100142]		}
@@ -9938,7 +10115,7 @@ var JSON_game=
 			wview:1366,hview:768,wport:1366,hport:768		}
 		],pInstances:[
 		{
-			x:0,y:0,index:35,id:100148,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:0,y:0,index:39,id:100148,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		],tiles:[],layers:[
 		{
 			pName:"Instances",id:15,type:2,depth:0,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:1,iinstIDs:[100148]		}
@@ -9971,43 +10148,43 @@ var JSON_game=
 			wview:1366,hview:768,wport:1366,hport:768		}
 		],pInstances:[
 		{
-			x:-32,y:304,index:84,id:100149,rotation:0,scaleX:41,scaleY:6,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:-32,y:304,index:88,id:100149,rotation:0,scaleX:41,scaleY:6,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:-32,y:0,index:84,id:100150,rotation:0,scaleX:2,scaleY:20,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:-32,y:0,index:88,id:100150,rotation:0,scaleX:2,scaleY:20,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:576,y:0,index:84,id:100151,rotation:0,scaleX:2,scaleY:20,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:576,y:0,index:88,id:100151,rotation:0,scaleX:2,scaleY:20,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:0,y:256,index:84,id:100152,rotation:0,scaleX:10,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:0,y:256,index:88,id:100152,rotation:0,scaleX:10,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:240,y:224,index:84,id:100153,rotation:0,scaleX:7,scaleY:5,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:240,y:224,index:88,id:100153,rotation:0,scaleX:7,scaleY:5,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:256,y:208,index:56,id:100154,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:256,y:208,index:60,id:100154,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:160,y:256,index:62,id:100155,rotation:0,scaleX:5,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:160,y:256,index:66,id:100155,rotation:0,scaleX:5,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:224,y:224,index:62,id:100156,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:224,y:224,index:66,id:100156,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:32,y:240,index:79,id:100157,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:32,y:240,index:83,id:100157,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:512,y:288,index:80,id:100158,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:512,y:288,index:84,id:100158,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:288,y:192,index:83,id:100161,rotation:0,scaleX:1.440000057220459,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:288,y:192,index:87,id:100161,rotation:0,scaleX:1.440000057220459,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:0,y:-16,index:84,id:100159,rotation:0,scaleX:10,scaleY:14,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:0,y:-16,index:88,id:100159,rotation:0,scaleX:10,scaleY:14,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:160,y:-16,index:84,id:100160,rotation:0,scaleX:12,scaleY:9,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:160,y:-16,index:88,id:100160,rotation:0,scaleX:12,scaleY:9,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		],tiles:[],layers:[
 		{
 			pName:"Instances",id:16,type:2,depth:0,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:12,iinstIDs:[100149,100150,100151,100152,100153,100154,100155,100156,100157,100158,100159,100160]		}
@@ -10043,58 +10220,58 @@ var JSON_game=
 			wview:1366,hview:768,wport:1366,hport:768		}
 		],pInstances:[
 		{
-			x:-32,y:304,index:84,id:100162,rotation:0,scaleX:39,scaleY:6,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:-32,y:304,index:88,id:100162,rotation:0,scaleX:39,scaleY:6,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:-32,y:0,index:84,id:100163,rotation:0,scaleX:2,scaleY:20,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:-32,y:0,index:88,id:100163,rotation:0,scaleX:2,scaleY:20,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:464,y:0,index:84,id:100164,rotation:0,scaleX:8,scaleY:20,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:464,y:0,index:88,id:100164,rotation:0,scaleX:8,scaleY:20,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:320,y:208,index:56,id:100170,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:320,y:208,index:60,id:100170,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:208,y:256,index:62,id:100165,rotation:0,scaleX:7,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:208,y:256,index:66,id:100165,rotation:0,scaleX:7,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:240,y:224,index:62,id:100166,rotation:0,scaleX:11,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:240,y:224,index:66,id:100166,rotation:0,scaleX:11,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:32,y:288,index:79,id:100171,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:32,y:288,index:83,id:100171,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:272,y:176,index:62,id:100167,rotation:0,scaleX:1,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:272,y:176,index:66,id:100167,rotation:0,scaleX:1,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:352,y:144,index:62,id:100168,rotation:0,scaleX:2,scaleY:5,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:352,y:144,index:66,id:100168,rotation:0,scaleX:2,scaleY:5,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:336,y:96,index:62,id:100169,rotation:0,scaleX:2,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:336,y:96,index:66,id:100169,rotation:0,scaleX:2,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:352,y:80,index:80,id:100172,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:352,y:80,index:84,id:100172,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:320,y:256,index:84,id:100173,rotation:0,scaleX:15,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:320,y:256,index:88,id:100173,rotation:0,scaleX:15,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:0,y:0,index:84,id:100174,rotation:0,scaleX:10,scaleY:15,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:0,y:0,index:88,id:100174,rotation:0,scaleX:10,scaleY:15,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:160,y:0,index:84,id:100175,rotation:0,scaleX:8,scaleY:6,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:160,y:0,index:88,id:100175,rotation:0,scaleX:8,scaleY:6,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:432,y:0,index:84,id:100176,rotation:0,scaleX:5,scaleY:6,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:432,y:0,index:88,id:100176,rotation:0,scaleX:5,scaleY:6,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:352,y:208,index:56,id:100177,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:352,y:208,index:60,id:100177,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:-32,y:-32,index:84,id:100178,rotation:0,scaleX:39,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:-32,y:-32,index:88,id:100178,rotation:0,scaleX:39,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:232,y:168,index:83,id:100179,rotation:0,scaleX:1.159999966621399,scaleY:1.1666667461395264,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:232,y:168,index:87,id:100179,rotation:0,scaleX:1.159999966621399,scaleY:1.1666667461395264,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		],tiles:[],layers:[
 		{
 			pName:"Instances",id:18,type:2,depth:0,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:17,iinstIDs:[100162,100163,100164,100165,100166,100167,100168,100169,100170,100171,100172,100173,100174,100175,100176,100177,100178]		}
@@ -10130,88 +10307,88 @@ var JSON_game=
 			wview:1366,hview:768,wport:1366,hport:768		}
 		],pInstances:[
 		{
-			x:-32,y:272,index:84,id:100180,rotation:0,scaleX:44,scaleY:4,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:-32,y:272,index:88,id:100180,rotation:0,scaleX:44,scaleY:4,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:-32,y:0,index:84,id:100182,rotation:0,scaleX:2,scaleY:17,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:-32,y:0,index:88,id:100182,rotation:0,scaleX:2,scaleY:17,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:640,y:16,index:84,id:100183,rotation:0,scaleX:2,scaleY:16,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:640,y:16,index:88,id:100183,rotation:0,scaleX:2,scaleY:16,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:48,y:256,index:79,id:100184,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:48,y:256,index:83,id:100184,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:592,y:256,index:80,id:100185,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:592,y:256,index:84,id:100185,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:-16,y:0,index:84,id:100181,rotation:0,scaleX:42,scaleY:10,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:-16,y:0,index:88,id:100181,rotation:0,scaleX:42,scaleY:10,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:192,y:144,index:84,id:100186,rotation:0,scaleX:20,scaleY:4,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:192,y:144,index:88,id:100186,rotation:0,scaleX:20,scaleY:4,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:432,y:176,index:84,id:100187,rotation:0,scaleX:5,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:432,y:176,index:88,id:100187,rotation:0,scaleX:5,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:192,y:176,index:84,id:100188,rotation:0,scaleX:3,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:192,y:176,index:88,id:100188,rotation:0,scaleX:3,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:256,y:256,index:84,id:100189,rotation:0,scaleX:9,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:256,y:256,index:88,id:100189,rotation:0,scaleX:9,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:352,y:224,index:27,id:100190,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:352,y:224,index:31,id:100190,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:272,y:224,index:27,id:100191,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:272,y:224,index:31,id:100191,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:272,y:240,index:27,id:100192,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:272,y:240,index:31,id:100192,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:288,y:224,index:27,id:100193,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:288,y:224,index:31,id:100193,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:352,y:240,index:27,id:100194,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:352,y:240,index:31,id:100194,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:368,y:224,index:27,id:100195,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:368,y:224,index:31,id:100195,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:384,y:224,index:27,id:100196,rotation:0,scaleX:1,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:384,y:224,index:31,id:100196,rotation:0,scaleX:1,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:112,y:208,index:56,id:100197,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:112,y:208,index:60,id:100197,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:80,y:224,index:62,id:100198,rotation:0,scaleX:4,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:80,y:224,index:66,id:100198,rotation:0,scaleX:4,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:320,y:160,index:83,id:100207,rotation:0,scaleX:1.5999999046325684,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:320,y:160,index:87,id:100207,rotation:0,scaleX:1.5999999046325684,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:288,y:208,index:27,id:100199,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:288,y:208,index:31,id:100199,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:272,y:208,index:27,id:100200,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:272,y:208,index:31,id:100200,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:304,y:208,index:27,id:100201,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:304,y:208,index:31,id:100201,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:352,y:208,index:27,id:100202,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:352,y:208,index:31,id:100202,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:368,y:208,index:27,id:100203,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:368,y:208,index:31,id:100203,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:384,y:208,index:27,id:100204,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:384,y:208,index:31,id:100204,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:512,y:208,index:62,id:100205,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:512,y:208,index:66,id:100205,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:528,y:192,index:61,id:100206,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:528,y:192,index:65,id:100206,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		],tiles:[],layers:[
 		{
 			pName:"Instances",id:20,type:2,depth:0,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:27,iinstIDs:[100180,100181,100182,100183,100184,100185,100186,100187,100188,100189,100190,100191,100192,100193,100194,100195,100196,100197,100198,100199,100200,100201,100202,100203,100204,100205,100206]		}
@@ -10247,160 +10424,160 @@ var JSON_game=
 			wview:1366,hview:768,wport:1366,hport:768		}
 		],pInstances:[
 		{
-			x:-16,y:576,index:84,id:100208,rotation:0,scaleX:32,scaleY:5,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:-16,y:576,index:88,id:100208,rotation:0,scaleX:32,scaleY:5,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:-32,y:-32,index:84,id:100209,rotation:0,scaleX:2,scaleY:43,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:-32,y:-32,index:88,id:100209,rotation:0,scaleX:2,scaleY:43,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:480,y:-64,index:84,id:100210,rotation:0,scaleX:2,scaleY:45,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:480,y:-64,index:88,id:100210,rotation:0,scaleX:2,scaleY:45,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:32,y:560,index:79,id:100211,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:32,y:560,index:83,id:100211,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:352,y:112,index:80,id:100212,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:352,y:112,index:84,id:100212,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:240,y:528,index:84,id:100213,rotation:0,scaleX:15,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:240,y:528,index:88,id:100213,rotation:0,scaleX:15,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:0,y:400,index:84,id:100214,rotation:0,scaleX:12,scaleY:8,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:0,y:400,index:88,id:100214,rotation:0,scaleX:12,scaleY:8,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:112,y:384,index:84,id:100215,rotation:0,scaleX:17,scaleY:6,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:112,y:384,index:88,id:100215,rotation:0,scaleX:17,scaleY:6,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:0,y:144,index:84,id:100216,rotation:0,scaleX:3,scaleY:8,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:0,y:144,index:88,id:100216,rotation:0,scaleX:3,scaleY:8,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:112,y:256,index:84,id:100217,rotation:0,scaleX:10,scaleY:6,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:112,y:256,index:88,id:100217,rotation:0,scaleX:10,scaleY:6,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:32,y:384,index:62,id:100218,rotation:0,scaleX:5,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:32,y:384,index:66,id:100218,rotation:0,scaleX:5,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:432,y:480,index:62,id:100219,rotation:0,scaleX:3,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:432,y:480,index:66,id:100219,rotation:0,scaleX:3,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:384,y:432,index:62,id:100220,rotation:0,scaleX:6,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:384,y:432,index:66,id:100220,rotation:0,scaleX:6,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:384,y:384,index:62,id:100221,rotation:0,scaleX:6,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:384,y:384,index:66,id:100221,rotation:0,scaleX:6,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:272,y:256,index:84,id:100222,rotation:0,scaleX:8,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:272,y:256,index:88,id:100222,rotation:0,scaleX:8,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:0,y:-48,index:84,id:100223,rotation:0,scaleX:19,scaleY:12,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:0,y:-48,index:88,id:100223,rotation:0,scaleX:19,scaleY:12,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:256,y:128,index:84,id:100224,rotation:0,scaleX:9,scaleY:5,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:256,y:128,index:88,id:100224,rotation:0,scaleX:9,scaleY:5,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:400,y:272,index:84,id:100225,rotation:0,scaleX:5,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:400,y:272,index:88,id:100225,rotation:0,scaleX:5,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:400,y:160,index:52,id:100226,pCode:gml_RoomCC_rmSegTunnels1_18_Create,rotation:0,scaleX:5,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:400,y:160,index:56,id:100226,pCode:gml_RoomCC_rmSegTunnels1_18_Create,rotation:0,scaleX:5,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:32,y:336,index:52,id:100227,pCode:gml_RoomCC_rmSegTunnels1_19_Create,rotation:0,scaleX:5,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:32,y:336,index:56,id:100227,pCode:gml_RoomCC_rmSegTunnels1_19_Create,rotation:0,scaleX:5,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:0,y:256,index:84,id:100228,rotation:0,scaleX:2,scaleY:10,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:0,y:256,index:88,id:100228,rotation:0,scaleX:2,scaleY:10,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:32,y:272,index:62,id:100229,rotation:0,scaleX:5,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:32,y:272,index:66,id:100229,rotation:0,scaleX:5,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:400,y:256,index:62,id:100230,rotation:0,scaleX:5,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:400,y:256,index:66,id:100230,rotation:0,scaleX:5,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:288,y:-48,index:84,id:100231,rotation:0,scaleX:12,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:288,y:-48,index:88,id:100231,rotation:0,scaleX:12,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:464,y:128,index:84,id:100232,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:464,y:128,index:88,id:100232,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:400,y:128,index:62,id:100233,rotation:0,scaleX:4,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:400,y:128,index:66,id:100233,rotation:0,scaleX:4,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:320,y:208,index:27,id:100234,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:320,y:208,index:31,id:100234,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:304,y:224,index:27,id:100235,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:304,y:224,index:31,id:100235,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:336,y:208,index:27,id:100236,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:336,y:208,index:31,id:100236,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:304,y:208,index:27,id:100237,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:304,y:208,index:31,id:100237,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:336,y:240,index:27,id:100238,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:336,y:240,index:31,id:100238,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:352,y:240,index:27,id:100239,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:352,y:240,index:31,id:100239,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:368,y:208,index:27,id:100240,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:368,y:208,index:31,id:100240,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:368,y:224,index:27,id:100241,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:368,y:224,index:31,id:100241,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:368,y:240,index:27,id:100242,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:368,y:240,index:31,id:100242,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:208,y:352,index:27,id:100243,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:208,y:352,index:31,id:100243,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:208,y:368,index:27,id:100244,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:208,y:368,index:31,id:100244,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:224,y:352,index:27,id:100245,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:224,y:352,index:31,id:100245,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:224,y:368,index:27,id:100246,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:224,y:368,index:31,id:100246,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:240,y:352,index:27,id:100247,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:240,y:352,index:31,id:100247,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:240,y:368,index:27,id:100248,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:240,y:368,index:31,id:100248,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:128,y:208,index:62,id:100249,rotation:0,scaleX:5,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:128,y:208,index:66,id:100249,rotation:0,scaleX:5,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:176,y:192,index:56,id:100250,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:176,y:192,index:60,id:100250,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:240,y:448,index:83,id:100258,rotation:0,scaleX:1.1999999284744263,scaleY:1.1111111640930176,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:240,y:448,index:87,id:100258,rotation:0,scaleX:1.1999999284744263,scaleY:1.1111111640930176,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:240,y:144,index:83,id:100259,rotation:0,scaleX:1.1999999284744263,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:240,y:144,index:87,id:100259,rotation:0,scaleX:1.1999999284744263,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:320,y:352,index:27,id:100251,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:320,y:352,index:31,id:100251,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:304,y:368,index:27,id:100252,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:304,y:368,index:31,id:100252,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:336,y:352,index:27,id:100253,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:336,y:352,index:31,id:100253,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:320,y:368,index:27,id:100254,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:320,y:368,index:31,id:100254,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:368,y:352,index:27,id:100255,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:368,y:352,index:31,id:100255,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:352,y:368,index:27,id:100256,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:352,y:368,index:31,id:100256,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:144,y:192,index:61,id:100257,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:144,y:192,index:65,id:100257,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		],tiles:[],layers:[
 		{
 			pName:"Instances",id:22,type:2,depth:0,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:50,iinstIDs:[100208,100209,100210,100211,100212,100213,100214,100215,100216,100217,100218,100219,100220,100221,100222,100223,100224,100225,100226,100227,100228,100229,100230,100231,100232,100233,100234,100235,100236,100237,100238,100239,100240,100241,100242,100243,100244,100245,100246,100247,100248,100249,100250,100251,100252,100253,100254,100255,100256,100257]		}
@@ -10436,97 +10613,97 @@ var JSON_game=
 			wview:1366,hview:768,wport:1366,hport:768		}
 		],pInstances:[
 		{
-			x:512,y:304,index:78,id:100294,rotation:0,scaleX:1.1999999284744263,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:512,y:304,index:82,id:100294,rotation:0,scaleX:1.1999999284744263,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:752,y:368,index:84,id:100260,rotation:0,scaleX:18,scaleY:7,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:752,y:368,index:88,id:100260,rotation:0,scaleX:18,scaleY:7,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:32,y:688,index:84,id:100261,rotation:0,scaleX:26,scaleY:7,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:32,y:688,index:88,id:100261,rotation:0,scaleX:26,scaleY:7,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:752,y:0,index:84,id:100262,rotation:0,scaleX:10,scaleY:20,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:752,y:0,index:88,id:100262,rotation:0,scaleX:10,scaleY:20,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:-32,y:0,index:84,id:100263,rotation:0,scaleX:19,scaleY:22,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:-32,y:0,index:88,id:100263,rotation:0,scaleX:19,scaleY:22,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:-32,y:336,index:84,id:100264,rotation:0,scaleX:6,scaleY:29,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:-32,y:336,index:88,id:100264,rotation:0,scaleX:6,scaleY:29,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:320,y:432,index:84,id:100265,rotation:0,scaleX:60,scaleY:23,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:320,y:432,index:88,id:100265,rotation:0,scaleX:60,scaleY:23,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:240,y:480,index:84,id:100266,rotation:0,scaleX:11,scaleY:10,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:240,y:480,index:88,id:100266,rotation:0,scaleX:11,scaleY:10,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:64,y:640,index:62,id:100267,rotation:0,scaleX:4,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:64,y:640,index:66,id:100267,rotation:0,scaleX:4,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:144,y:608,index:62,id:100268,rotation:0,scaleX:2,scaleY:5,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:144,y:608,index:66,id:100268,rotation:0,scaleX:2,scaleY:5,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:176,y:576,index:62,id:100269,rotation:0,scaleX:4,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:176,y:576,index:66,id:100269,rotation:0,scaleX:4,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:64,y:480,index:84,id:100270,rotation:0,scaleX:5,scaleY:4,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:64,y:480,index:88,id:100270,rotation:0,scaleX:5,scaleY:4,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:176,y:416,index:84,id:100271,rotation:0,scaleX:4,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:176,y:416,index:88,id:100271,rotation:0,scaleX:4,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:144,y:512,index:84,id:100272,rotation:0,scaleX:3,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:144,y:512,index:88,id:100272,rotation:0,scaleX:3,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:128,y:416,index:84,id:100273,rotation:0,scaleX:3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:128,y:416,index:88,id:100273,rotation:0,scaleX:3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:64,y:448,index:62,id:100274,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:64,y:448,index:66,id:100274,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:64,y:416,index:62,id:100275,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:64,y:416,index:66,id:100275,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:224,y:528,index:62,id:100276,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:224,y:528,index:66,id:100276,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:288,y:672,index:79,id:100277,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:288,y:672,index:83,id:100277,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:992,y:352,index:80,id:100278,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:992,y:352,index:84,id:100278,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:880,y:0,index:84,id:100279,rotation:0,scaleX:25,scaleY:16,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:880,y:0,index:88,id:100279,rotation:0,scaleX:25,scaleY:16,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1040,y:96,index:84,id:100280,rotation:0,scaleX:15,scaleY:24,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1040,y:96,index:88,id:100280,rotation:0,scaleX:15,scaleY:24,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:240,y:416,index:84,id:100281,rotation:0,scaleX:35,scaleY:4,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:240,y:416,index:88,id:100281,rotation:0,scaleX:35,scaleY:4,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:256,y:352,index:86,id:100282,rotation:0,scaleX:1,scaleY:4,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:256,y:352,index:90,id:100282,rotation:0,scaleX:1,scaleY:4,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:752,y:320,index:86,id:100283,rotation:0,scaleX:1,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:752,y:320,index:90,id:100283,rotation:0,scaleX:1,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:384,y:384,index:62,id:100284,rotation:0,scaleX:11,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:384,y:384,index:66,id:100284,rotation:0,scaleX:11,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:432,y:352,index:62,id:100285,rotation:0,scaleX:8,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:432,y:352,index:66,id:100285,rotation:0,scaleX:8,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:416,y:320,index:62,id:100286,rotation:0,scaleX:9,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:416,y:320,index:66,id:100286,rotation:0,scaleX:9,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:480,y:272,index:52,id:100287,rotation:0,scaleX:5,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:480,y:272,index:56,id:100287,rotation:0,scaleX:5,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:200,y:528,index:83,id:100295,rotation:0,scaleX:1,scaleY:1.6666666269302368,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:200,y:528,index:87,id:100295,rotation:0,scaleX:1,scaleY:1.6666666269302368,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:952,y:304,index:83,id:100296,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:952,y:304,index:87,id:100296,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
 			x:80,y:752,index:0,id:100288,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
@@ -10580,220 +10757,226 @@ var JSON_game=
 			wview:1366,hview:768,wport:1366,hport:768		}
 		],pInstances:[
 		{
-			x:-192,y:528,index:84,id:100297,rotation:0,scaleX:216,scaleY:8,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:-192,y:528,index:88,id:100297,rotation:0,scaleX:216,scaleY:8,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:-32,y:176,index:84,id:100298,rotation:0,scaleX:2,scaleY:24,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:-32,y:176,index:88,id:100298,rotation:0,scaleX:2,scaleY:24,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:3264,y:208,index:84,id:100299,rotation:0,scaleX:3,scaleY:28,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:3264,y:208,index:88,id:100299,rotation:0,scaleX:3,scaleY:28,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:112,y:496,index:79,id:100300,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:112,y:496,index:83,id:100300,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:256,y:496,index:84,id:100301,rotation:0,scaleX:8,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:256,y:496,index:88,id:100301,rotation:0,scaleX:8,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:232,y:400,index:83,id:100362,rotation:0,scaleX:1.1600000858306885,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:232,y:400,index:87,id:100364,rotation:0,scaleX:1.1600000858306885,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:272,y:448,index:84,id:100302,rotation:0,scaleX:5,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:272,y:448,index:88,id:100302,rotation:0,scaleX:5,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:576,y:448,index:84,id:100303,rotation:0,scaleX:2,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:576,y:448,index:88,id:100303,rotation:0,scaleX:2,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:144,y:400,index:84,id:100304,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:144,y:400,index:88,id:100304,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:544,y:448,index:62,id:100305,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:544,y:448,index:66,id:100305,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:816,y:416,index:84,id:100306,rotation:0,scaleX:3,scaleY:7,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:816,y:416,index:88,id:100306,rotation:0,scaleX:3,scaleY:7,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:576,y:416,index:62,id:100307,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:576,y:416,index:66,id:100307,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:784,y:416,index:62,id:100308,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:784,y:416,index:66,id:100308,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:240,y:448,index:62,id:100309,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:240,y:448,index:66,id:100309,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:112,y:304,index:38,id:100310,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:112,y:304,index:42,id:100310,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:288,y:304,index:38,id:100311,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:1,colour:4294967295		}
+			x:288,y:304,index:42,id:100311,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:1,colour:4294967295		}
 		,
 		{
-			x:576,y:304,index:38,id:100312,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:2,colour:4294967295		}
+			x:576,y:304,index:42,id:100312,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:2,colour:4294967295		}
 		,
 		{
-			x:768,y:304,index:38,id:100313,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:3,colour:4294967295		}
+			x:768,y:304,index:42,id:100313,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:3,colour:4294967295		}
 		,
 		{
-			x:1136,y:400,index:38,id:100314,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:4,colour:4294967295		}
+			x:1136,y:400,index:42,id:100314,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:4,colour:4294967295		}
 		,
 		{
-			x:1984,y:480,index:38,id:100315,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:5,colour:4294967295		}
+			x:1984,y:480,index:42,id:100315,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:5,colour:4294967295		}
 		,
 		{
-			x:2304,y:400,index:38,id:100316,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:9,colour:4294967295		}
+			x:2272,y:384,index:42,id:100316,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:9,colour:4294967295		}
 		,
 		{
-			x:1504,y:448,index:38,id:100317,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:8,colour:4294967295		}
+			x:1504,y:448,index:42,id:100317,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:8,colour:4294967295		}
 		,
 		{
-			x:1472,y:352,index:38,id:100318,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:7,colour:4294967295		}
+			x:1472,y:352,index:42,id:100318,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:7,colour:4294967295		}
 		,
 		{
-			x:1984,y:352,index:38,id:100319,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:6,colour:4294967295		}
+			x:1984,y:352,index:42,id:100319,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:6,colour:4294967295		}
 		,
 		{
-			x:2384,y:480,index:38,id:100320,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:10,colour:4294967295		}
+			x:2448,y:416,index:42,id:100320,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:10,colour:4294967295		}
 		,
 		{
-			x:2736,y:400,index:38,id:100321,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:11,colour:4294967295		}
+			x:2736,y:400,index:42,id:100321,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:11,colour:4294967295		}
 		,
 		{
-			x:2960,y:400,index:38,id:100322,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:12,colour:4294967295		}
+			x:2960,y:400,index:42,id:100322,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:12,colour:4294967295		}
 		,
 		{
-			x:2920,y:400,index:83,id:100363,rotation:0,scaleX:1.7999999523162842,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:2920,y:400,index:87,id:100365,rotation:0,scaleX:1.7999999523162842,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:704,y:400,index:83,id:100364,rotation:0,scaleX:1.2000000476837158,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:704,y:400,index:87,id:100366,rotation:0,scaleX:1.2000000476837158,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1544,y:400,index:83,id:100365,rotation:0,scaleX:3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1544,y:400,index:87,id:100367,rotation:0,scaleX:3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1632,y:480,index:27,id:100323,rotation:0,scaleX:2,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1632,y:480,index:31,id:100323,rotation:0,scaleX:2,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1632,y:432,index:27,id:100324,rotation:0,scaleX:2,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1632,y:432,index:31,id:100324,rotation:0,scaleX:2,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1632,y:384,index:27,id:100325,rotation:0,scaleX:2,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1632,y:384,index:31,id:100325,rotation:0,scaleX:2,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1664,y:464,index:27,id:100326,rotation:0,scaleX:2,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1664,y:464,index:31,id:100326,rotation:0,scaleX:2,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1664,y:416,index:27,id:100327,rotation:0,scaleX:2,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1664,y:416,index:31,id:100327,rotation:0,scaleX:2,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1664,y:368,index:27,id:100328,rotation:0,scaleX:2,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1664,y:368,index:31,id:100328,rotation:0,scaleX:2,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:2960,y:512,index:80,id:100329,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:2960,y:512,index:84,id:100329,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1136,y:480,index:56,id:100330,pPreCreateCode:gml_RoomCC_rmStrtTutorialA_37_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1136,y:480,index:60,id:100330,pPreCreateCode:gml_RoomCC_rmStrtTutorialA_37_PreCreate,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1328,y:208,index:62,id:100331,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1328,y:208,index:66,id:100331,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:944,y:208,index:62,id:100332,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:944,y:208,index:66,id:100332,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1792,y:480,index:62,id:100333,rotation:0,scaleX:3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1792,y:480,index:66,id:100333,rotation:0,scaleX:3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1728,y:192,index:62,id:100334,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1728,y:192,index:66,id:100334,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1344,y:192,index:62,id:100335,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1344,y:192,index:66,id:100335,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1696,y:-112,index:62,id:100336,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1696,y:-112,index:66,id:100336,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1744,y:176,index:62,id:100337,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1744,y:176,index:66,id:100337,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:2016,y:416,index:62,id:100338,rotation:0,scaleX:6,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:2016,y:416,index:66,id:100338,rotation:0,scaleX:6,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1856,y:400,index:62,id:100339,rotation:0,scaleX:6,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1856,y:400,index:66,id:100339,rotation:0,scaleX:6,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1632,y:336,index:27,id:100340,rotation:0,scaleX:2,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1632,y:336,index:31,id:100340,rotation:0,scaleX:2,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1664,y:320,index:27,id:100341,rotation:0,scaleX:2,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1664,y:320,index:31,id:100341,rotation:0,scaleX:2,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1696,y:480,index:27,id:100342,rotation:0,scaleX:2,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1696,y:480,index:31,id:100342,rotation:0,scaleX:2,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1696,y:432,index:27,id:100343,rotation:0,scaleX:2,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1696,y:432,index:31,id:100343,rotation:0,scaleX:2,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1696,y:384,index:27,id:100344,rotation:0,scaleX:2,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1696,y:384,index:31,id:100344,rotation:0,scaleX:2,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1696,y:336,index:27,id:100345,rotation:0,scaleX:2,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1696,y:336,index:31,id:100345,rotation:0,scaleX:2,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1664,y:512,index:27,id:100346,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1664,y:512,index:31,id:100346,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1104,y:496,index:62,id:100347,rotation:0,scaleX:4,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1104,y:496,index:66,id:100347,rotation:0,scaleX:4,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1792,y:432,index:62,id:100348,rotation:0,scaleX:3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1792,y:432,index:66,id:100348,rotation:0,scaleX:3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:2352,y:400,index:83,id:100366,rotation:0,scaleX:1.0399999618530273,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:2352,y:400,index:87,id:100368,rotation:0,scaleX:1.0399999618530273,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1968,y:272,index:27,id:100349,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1968,y:400,index:31,id:100349,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1968,y:400,index:27,id:100350,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1952,y:416,index:88,id:100350,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1952,y:416,index:84,id:100351,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1952,y:400,index:88,id:100351,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1952,y:400,index:84,id:100352,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:2000,y:400,index:88,id:100352,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:2000,y:400,index:84,id:100353,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:2000,y:416,index:88,id:100353,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:2000,y:416,index:84,id:100354,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:2160,y:272,index:88,id:100354,rotation:0,scaleX:2,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:2160,y:272,index:84,id:100355,rotation:0,scaleX:2,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:2512,y:272,index:88,id:100355,rotation:0,scaleX:2,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:2512,y:272,index:84,id:100356,rotation:0,scaleX:2,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:2256,y:304,index:56,id:100356,rotation:0,scaleX:6,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:2256,y:304,index:52,id:100357,rotation:0,scaleX:6,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:3232,y:512,index:28,id:100357,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:2288,y:292,index:72,id:100358,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:2288,y:288,index:6,id:100358,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:2320,y:292,index:72,id:100359,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:2320,y:288,index:6,id:100359,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:2304,y:292,index:72,id:100360,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:2304,y:288,index:6,id:100360,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:3232,y:512,index:24,id:100361,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1984,y:288,index:7,id:100361,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+		,
+		{
+			x:2336,y:288,index:6,id:100362,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+		,
+		{
+			x:2272,y:288,index:6,id:100363,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		],tiles:[],layers:[
 		{
-			pName:"Instances",id:26,type:2,depth:0,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:65,iinstIDs:[100297,100298,100299,100300,100301,100302,100303,100304,100305,100306,100307,100308,100309,100310,100311,100312,100313,100314,100315,100316,100317,100318,100319,100320,100321,100322,100323,100324,100325,100326,100327,100328,100329,100330,100331,100332,100333,100334,100335,100336,100337,100338,100339,100340,100341,100342,100343,100344,100345,100346,100347,100348,100349,100350,100351,100352,100353,100354,100355,100356,100357,100358,100359,100360,100361]		}
+			pName:"Instances",id:26,type:2,depth:0,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:67,iinstIDs:[100297,100298,100299,100300,100301,100302,100303,100304,100305,100306,100307,100308,100309,100310,100311,100312,100313,100314,100315,100316,100317,100318,100319,100320,100321,100322,100323,100324,100325,100326,100327,100328,100329,100330,100331,100332,100333,100334,100335,100336,100337,100338,100339,100340,100341,100342,100343,100344,100345,100346,100347,100348,100349,100350,100351,100352,100353,100354,100355,100356,100357,100358,100359,100360,100361,100362,100363]		}
 		,
 		{
-			pName:"Instances_1",id:27,type:2,depth:100,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:5,iinstIDs:[100362,100363,100364,100365,100366]		}
+			pName:"Instances_1",id:27,type:2,depth:100,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:5,iinstIDs:[100364,100365,100366,100367,100368]		}
 		,
 		{
 			pName:"Backgrounds_1",id:28,type:1,depth:200,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],bvisible:!0,bforeground:!1,bindex:-1,bhtiled:!1,bvtiled:!1,bstretch:!1,bblend:-11776948,bimage_index:0,bimage_speed:15		}
@@ -10826,61 +11009,61 @@ var JSON_game=
 			wview:1366,hview:768,wport:1366,hport:768		}
 		],pInstances:[
 		{
-			x:-16,y:256,index:84,id:100367,rotation:0,scaleX:34,scaleY:4,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:-16,y:256,index:88,id:100369,rotation:0,scaleX:34,scaleY:4,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:496,y:-16,index:84,id:100368,rotation:0,scaleX:3,scaleY:17,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:496,y:-16,index:88,id:100370,rotation:0,scaleX:3,scaleY:17,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:-32,y:-16,index:84,id:100369,rotation:0,scaleX:3,scaleY:17,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:-32,y:-16,index:88,id:100371,rotation:0,scaleX:3,scaleY:17,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:256,y:144,index:78,id:100383,rotation:0,scaleX:1.1999999284744263,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:256,y:144,index:82,id:100385,rotation:0,scaleX:1.1999999284744263,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:224,y:240,index:79,id:100370,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:224,y:240,index:83,id:100372,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:320,y:240,index:80,id:100371,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:320,y:240,index:84,id:100373,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:32,y:320,index:0,id:100372,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:32,y:320,index:0,id:100374,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:336,y:352,index:0,id:100373,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:336,y:352,index:0,id:100375,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:288,y:160,index:84,id:100374,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:288,y:160,index:88,id:100376,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:16,y:160,index:62,id:100375,rotation:0,scaleX:6,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:16,y:160,index:66,id:100377,rotation:0,scaleX:6,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:96,y:208,index:84,id:100376,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:96,y:208,index:88,id:100378,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:368,y:208,index:84,id:100377,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:368,y:208,index:88,id:100379,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:352,y:128,index:62,id:100378,rotation:0,scaleX:5,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:352,y:128,index:66,id:100380,rotation:0,scaleX:5,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:416,y:176,index:62,id:100379,rotation:0,scaleX:5,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:416,y:176,index:66,id:100381,rotation:0,scaleX:5,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:128,y:128,index:84,id:100380,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:128,y:128,index:88,id:100382,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:224,y:192,index:52,id:100381,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:224,y:192,index:56,id:100383,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:448,y:320,index:0,id:100382,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:448,y:320,index:0,id:100384,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		],tiles:[],layers:[
 		{
-			pName:"Instances",id:29,type:2,depth:0,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:16,iinstIDs:[100367,100368,100369,100370,100371,100372,100373,100374,100375,100376,100377,100378,100379,100380,100381,100382]		}
+			pName:"Instances",id:29,type:2,depth:0,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:16,iinstIDs:[100369,100370,100371,100372,100373,100374,100375,100376,100377,100378,100379,100380,100381,100382,100383,100384]		}
 		,
 		{
-			pName:"Instances_1",id:30,type:2,depth:100,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:1,iinstIDs:[100383]		}
+			pName:"Instances_1",id:30,type:2,depth:100,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:1,iinstIDs:[100385]		}
 		]	}
 	,
 	{
@@ -10910,250 +11093,262 @@ var JSON_game=
 			wview:1366,hview:768,wport:1366,hport:768		}
 		],pInstances:[
 		{
-			x:1152,y:256,index:84,id:100384,rotation:0,scaleX:41,scaleY:8,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1152,y:256,index:88,id:100386,rotation:0,scaleX:41,scaleY:8,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1776,y:0,index:84,id:100385,rotation:0,scaleX:6,scaleY:19,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1776,y:0,index:88,id:100387,rotation:0,scaleX:6,scaleY:19,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1680,y:192,index:84,id:100386,rotation:0,scaleX:6,scaleY:4,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1680,y:192,index:88,id:100388,rotation:0,scaleX:6,scaleY:4,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1440,y:160,index:84,id:100387,rotation:0,scaleX:10,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1440,y:160,index:88,id:100389,rotation:0,scaleX:10,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1392,y:208,index:62,id:100388,rotation:0,scaleX:3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1392,y:208,index:66,id:100390,rotation:0,scaleX:3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1200,y:240,index:79,id:100389,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1200,y:240,index:83,id:100391,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:752,y:160,index:56,id:100390,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:752,y:160,index:60,id:100392,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:704,y:192,index:56,id:100391,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:704,y:192,index:60,id:100393,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:704,y:160,index:56,id:100392,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:704,y:160,index:60,id:100394,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:752,y:192,index:56,id:100393,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:752,y:192,index:60,id:100395,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1232,y:144,index:83,id:100459,rotation:0,scaleX:2.7333333492279053,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1232,y:144,index:87,id:100465,rotation:0,scaleX:2.7333333492279053,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1344,y:112,index:84,id:100394,rotation:0,scaleX:3,scaleY:7,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1344,y:112,index:88,id:100396,rotation:0,scaleX:3,scaleY:7,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1248,y:240,index:56,id:100395,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1248,y:240,index:60,id:100397,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:992,y:112,index:82,id:100396,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:992,y:112,index:86,id:100398,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:976,y:128,index:62,id:100397,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:976,y:128,index:66,id:100399,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1024,y:112,index:62,id:100398,rotation:0,scaleX:3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1024,y:112,index:66,id:100400,rotation:0,scaleX:3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1024,y:224,index:62,id:100399,rotation:0,scaleX:5,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1024,y:224,index:66,id:100401,rotation:0,scaleX:5,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:992,y:176,index:82,id:100400,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:992,y:176,index:86,id:100402,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:912,y:176,index:62,id:100401,rotation:0,scaleX:5,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:912,y:176,index:66,id:100403,rotation:0,scaleX:5,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:976,y:224,index:62,id:100402,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:976,y:224,index:66,id:100404,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1456,y:144,index:58,id:100403,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1456,y:144,index:62,id:100405,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1472,y:144,index:58,id:100404,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1472,y:144,index:62,id:100406,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:488,y:192,index:83,id:100460,rotation:0,scaleX:1,scaleY:1.3333333730697632,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:488,y:192,index:87,id:100466,rotation:0,scaleX:1,scaleY:1.3333333730697632,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:304,y:496,index:83,id:100461,pCode:gml_RoomCC_rmTestroom_23_Create,rotation:0,scaleX:1.0399999618530273,scaleY:1.2222222089767456,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:304,y:496,index:87,id:100467,pCode:gml_RoomCC_rmTestroom_23_Create,rotation:0,scaleX:1.0399999618530273,scaleY:1.2222222089767456,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:832,y:576,index:83,id:100462,pCode:gml_RoomCC_rmTestroom_24_Create,rotation:0,scaleX:1.5999997854232788,scaleY:1.3333333730697632,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:832,y:576,index:87,id:100468,pCode:gml_RoomCC_rmTestroom_24_Create,rotation:0,scaleX:1.5999997854232788,scaleY:1.3333333730697632,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:416,y:320,index:84,id:100405,rotation:0,scaleX:41,scaleY:6,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:416,y:320,index:88,id:100407,rotation:0,scaleX:41,scaleY:6,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:416,y:384,index:84,id:100406,rotation:0,scaleX:9,scaleY:8,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:416,y:384,index:88,id:100408,rotation:0,scaleX:9,scaleY:8,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:368,y:560,index:84,id:100407,rotation:0,scaleX:12,scaleY:11,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:368,y:560,index:88,id:100409,rotation:0,scaleX:12,scaleY:11,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:432,y:608,index:84,id:100408,rotation:0,scaleX:11,scaleY:11,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:432,y:608,index:88,id:100410,rotation:0,scaleX:11,scaleY:11,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:608,y:736,index:84,id:100409,rotation:0,scaleX:34,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:608,y:736,index:88,id:100411,rotation:0,scaleX:34,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1152,y:384,index:84,id:100410,rotation:0,scaleX:8,scaleY:25,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1152,y:384,index:88,id:100412,rotation:0,scaleX:8,scaleY:25,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:624,y:256,index:84,id:100411,rotation:0,scaleX:28,scaleY:8,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:624,y:256,index:88,id:100413,rotation:0,scaleX:28,scaleY:8,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:864,y:400,index:84,id:100412,rotation:0,scaleX:13,scaleY:9,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:864,y:400,index:88,id:100414,rotation:0,scaleX:13,scaleY:9,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1072,y:256,index:62,id:100413,rotation:0,scaleX:5,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1072,y:256,index:66,id:100415,rotation:0,scaleX:5,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1072,y:304,index:62,id:100414,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1072,y:304,index:66,id:100416,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1120,y:336,index:62,id:100415,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1120,y:336,index:66,id:100417,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1072,y:384,index:62,id:100416,rotation:0,scaleX:5,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1072,y:384,index:66,id:100418,rotation:0,scaleX:5,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1136,y:384,index:84,id:100417,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1136,y:384,index:88,id:100419,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1072,y:464,index:52,id:100418,pCode:gml_RoomCC_rmTestroom_38_Create,rotation:0,scaleX:5,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1072,y:464,index:56,id:100420,pCode:gml_RoomCC_rmTestroom_38_Create,rotation:0,scaleX:5,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:256,y:-16,index:84,id:100419,rotation:0,scaleX:27,scaleY:14,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:256,y:-16,index:88,id:100421,rotation:0,scaleX:27,scaleY:14,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:624,y:608,index:52,id:100420,pCode:gml_RoomCC_rmTestroom_40_Create,rotation:0,scaleX:5,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:624,y:608,index:56,id:100422,pCode:gml_RoomCC_rmTestroom_40_Create,rotation:0,scaleX:5,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:-16,y:0,index:84,id:100421,rotation:0,scaleX:37,scaleY:17,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:-16,y:0,index:88,id:100423,rotation:0,scaleX:37,scaleY:17,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:-16,y:208,index:84,id:100422,rotation:0,scaleX:24,scaleY:33,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:-16,y:208,index:88,id:100424,rotation:0,scaleX:24,scaleY:33,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1072,y:608,index:84,id:100423,rotation:0,scaleX:13,scaleY:9,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1072,y:608,index:88,id:100425,rotation:0,scaleX:13,scaleY:9,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:720,y:672,index:52,id:100424,pCode:gml_RoomCC_rmTestroom_44_Create,rotation:0,scaleX:5,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:720,y:672,index:56,id:100426,pCode:gml_RoomCC_rmTestroom_44_Create,rotation:0,scaleX:5,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:912,y:640,index:52,id:100425,pCode:gml_RoomCC_rmTestroom_45_Create,rotation:0,scaleX:5,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:912,y:640,index:56,id:100427,pCode:gml_RoomCC_rmTestroom_45_Create,rotation:0,scaleX:5,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:848,y:704,index:52,id:100426,pCode:gml_RoomCC_rmTestroom_46_Create,rotation:0,scaleX:5,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:848,y:704,index:56,id:100428,pCode:gml_RoomCC_rmTestroom_46_Create,rotation:0,scaleX:5,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:944,y:432,index:83,id:100463,pCode:gml_RoomCC_rmTestroom_47_Create,rotation:0,scaleX:1.0399999618530273,scaleY:1.2222222089767456,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:944,y:432,index:87,id:100469,pCode:gml_RoomCC_rmTestroom_47_Create,rotation:0,scaleX:1.0399999618530273,scaleY:1.2222222089767456,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1504,y:144,index:59,id:100427,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1504,y:144,index:63,id:100429,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1520,y:144,index:59,id:100428,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1520,y:144,index:63,id:100430,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:672,y:208,index:27,id:100429,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:672,y:208,index:31,id:100431,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:672,y:224,index:27,id:100430,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:672,y:224,index:31,id:100432,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:656,y:208,index:27,id:100431,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:656,y:208,index:31,id:100433,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:656,y:224,index:27,id:100432,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:656,y:224,index:31,id:100434,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:672,y:240,index:27,id:100433,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:672,y:240,index:31,id:100435,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:656,y:240,index:27,id:100434,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:656,y:240,index:31,id:100436,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1248,y:208,index:62,id:100435,rotation:0,scaleX:3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1248,y:208,index:66,id:100437,rotation:0,scaleX:3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1296,y:160,index:62,id:100436,rotation:0,scaleX:3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1296,y:160,index:66,id:100438,rotation:0,scaleX:3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1152,y:112,index:62,id:100437,rotation:0,scaleX:9,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1152,y:112,index:66,id:100439,rotation:0,scaleX:9,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:688,y:208,index:62,id:100438,rotation:0,scaleX:8,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:688,y:208,index:66,id:100440,rotation:0,scaleX:8,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1392,y:160,index:62,id:100439,rotation:0,scaleX:3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1392,y:160,index:66,id:100441,rotation:0,scaleX:3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1392,y:112,index:62,id:100440,rotation:0,scaleX:3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1392,y:112,index:66,id:100442,rotation:0,scaleX:3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1488,y:144,index:58,id:100441,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1488,y:144,index:62,id:100443,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1536,y:144,index:59,id:100442,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1536,y:144,index:63,id:100444,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1600,y:192,index:62,id:100443,rotation:0,scaleX:5,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1600,y:192,index:66,id:100445,rotation:0,scaleX:5,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1552,y:144,index:60,id:100444,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1552,y:144,index:64,id:100446,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1568,y:144,index:60,id:100445,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1568,y:144,index:64,id:100447,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1584,y:144,index:60,id:100446,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1584,y:144,index:64,id:100448,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1712,y:176,index:61,id:100447,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1712,y:176,index:65,id:100449,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1728,y:176,index:61,id:100448,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1728,y:176,index:65,id:100450,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1744,y:176,index:61,id:100449,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1744,y:176,index:65,id:100451,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1760,y:176,index:61,id:100450,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1760,y:176,index:65,id:100452,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1712,y:128,index:61,id:100451,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1712,y:128,index:65,id:100453,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1728,y:128,index:61,id:100452,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1728,y:128,index:65,id:100454,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1744,y:128,index:61,id:100453,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1744,y:128,index:65,id:100455,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1760,y:128,index:61,id:100454,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1760,y:128,index:65,id:100456,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1696,y:144,index:62,id:100455,rotation:0,scaleX:5,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1696,y:144,index:66,id:100457,rotation:0,scaleX:5,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1264,y:176,index:72,id:100456,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1264,y:176,index:76,id:100458,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1136,y:192,index:30,id:100457,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1136,y:192,index:34,id:100459,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:1104,y:96,index:20,id:100458,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:1104,y:96,index:24,id:100460,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+		,
+		{
+			x:848,y:240,index:6,id:100461,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+		,
+		{
+			x:880,y:240,index:6,id:100462,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+		,
+		{
+			x:848,y:128,index:7,id:100463,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+		,
+		{
+			x:880,y:128,index:7,id:100464,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		],tiles:[],layers:[
 		{
-			pName:"Instances",id:31,type:2,depth:0,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:75,iinstIDs:[100384,100385,100386,100387,100388,100389,100390,100391,100392,100393,100394,100395,100396,100397,100398,100399,100400,100401,100402,100403,100404,100405,100406,100407,100408,100409,100410,100411,100412,100413,100414,100415,100416,100417,100418,100419,100420,100421,100422,100423,100424,100425,100426,100427,100428,100429,100430,100431,100432,100433,100434,100435,100436,100437,100438,100439,100440,100441,100442,100443,100444,100445,100446,100447,100448,100449,100450,100451,100452,100453,100454,100455,100456,100457,100458]		}
+			pName:"Instances",id:31,type:2,depth:0,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:79,iinstIDs:[100386,100387,100388,100389,100390,100391,100392,100393,100394,100395,100396,100397,100398,100399,100400,100401,100402,100403,100404,100405,100406,100407,100408,100409,100410,100411,100412,100413,100414,100415,100416,100417,100418,100419,100420,100421,100422,100423,100424,100425,100426,100427,100428,100429,100430,100431,100432,100433,100434,100435,100436,100437,100438,100439,100440,100441,100442,100443,100444,100445,100446,100447,100448,100449,100450,100451,100452,100453,100454,100455,100456,100457,100458,100459,100460,100461,100462,100463,100464]		}
 		,
 		{
-			pName:"Instances_1",id:32,type:2,depth:100,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:5,iinstIDs:[100459,100460,100461,100462,100463]		}
+			pName:"Instances_1",id:32,type:2,depth:100,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:5,iinstIDs:[100465,100466,100467,100468,100469]		}
 		]	}
 	,
 	{
@@ -11183,136 +11378,136 @@ var JSON_game=
 			wview:1366,hview:768,wport:1366,hport:768		}
 		],pInstances:[
 		{
-			x:496,y:272,index:83,id:100505,rotation:0,scaleX:2.4800000190734863,scaleY:1.4444445371627808,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:496,y:272,index:87,id:100511,rotation:0,scaleX:2.4800000190734863,scaleY:1.4444445371627808,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:-48,y:0,index:84,id:100464,rotation:0,scaleX:3,scaleY:31,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:-48,y:0,index:88,id:100470,rotation:0,scaleX:3,scaleY:31,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:0,y:448,index:84,id:100465,rotation:0,scaleX:64,scaleY:8,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:0,y:448,index:88,id:100471,rotation:0,scaleX:64,scaleY:8,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:0,y:-96,index:84,id:100466,rotation:0,scaleX:65,scaleY:12,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:0,y:-96,index:88,id:100472,rotation:0,scaleX:65,scaleY:12,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:992,y:0,index:84,id:100467,rotation:0,scaleX:5,scaleY:31,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:992,y:0,index:88,id:100473,rotation:0,scaleX:5,scaleY:31,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:832,y:32,index:84,id:100468,rotation:0,scaleX:10,scaleY:21,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:832,y:32,index:88,id:100474,rotation:0,scaleX:10,scaleY:21,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:256,y:288,index:84,id:100469,rotation:0,scaleX:7,scaleY:13,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:256,y:288,index:88,id:100475,rotation:0,scaleX:7,scaleY:13,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:0,y:48,index:84,id:100470,rotation:0,scaleX:8,scaleY:10,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:0,y:48,index:88,id:100476,rotation:0,scaleX:8,scaleY:10,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:128,y:176,index:84,id:100471,rotation:-0.06255725771188736,scaleX:6,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:128,y:176,index:88,id:100477,rotation:-0.06255725771188736,scaleX:6,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:544,y:288,index:84,id:100472,rotation:0,scaleX:7,scaleY:13,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:544,y:288,index:88,id:100478,rotation:0,scaleX:7,scaleY:13,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:400,y:176,index:84,id:100473,rotation:0,scaleX:16,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:400,y:176,index:88,id:100479,rotation:0,scaleX:16,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:112,y:320,index:52,id:100474,pCode:gml_RoomCC_rmSegLifts1_11_Create,rotation:0,scaleX:7,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:112,y:320,index:56,id:100480,pCode:gml_RoomCC_rmSegLifts1_11_Create,rotation:0,scaleX:7,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:400,y:320,index:52,id:100475,pCode:gml_RoomCC_rmSegLifts1_12_Create,rotation:0,scaleX:7,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:400,y:320,index:56,id:100481,pCode:gml_RoomCC_rmSegLifts1_12_Create,rotation:0,scaleX:7,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:688,y:320,index:52,id:100476,pCode:gml_RoomCC_rmSegLifts1_13_Create,rotation:0,scaleX:7,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:688,y:320,index:56,id:100482,pCode:gml_RoomCC_rmSegLifts1_13_Create,rotation:0,scaleX:7,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:0,y:208,index:84,id:100477,rotation:0,scaleX:5,scaleY:12,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:0,y:208,index:88,id:100483,rotation:0,scaleX:5,scaleY:12,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:128,y:144,index:27,id:100478,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:128,y:144,index:31,id:100484,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:128,y:160,index:27,id:100479,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:128,y:160,index:31,id:100485,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:144,y:144,index:27,id:100480,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:144,y:144,index:31,id:100486,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:160,y:144,index:27,id:100481,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:160,y:144,index:31,id:100487,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:144,y:160,index:27,id:100482,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:144,y:160,index:31,id:100488,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:480,y:144,index:27,id:100483,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:480,y:144,index:31,id:100489,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:512,y:160,index:27,id:100484,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:512,y:160,index:31,id:100490,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:528,y:160,index:27,id:100485,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:528,y:160,index:31,id:100491,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:560,y:160,index:27,id:100486,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:560,y:160,index:31,id:100492,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:512,y:144,index:27,id:100487,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:512,y:144,index:31,id:100493,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:576,y:144,index:27,id:100488,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:576,y:144,index:31,id:100494,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:592,y:144,index:27,id:100489,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:592,y:144,index:31,id:100495,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:560,y:144,index:27,id:100490,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:560,y:144,index:31,id:100496,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:544,y:160,index:27,id:100491,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:544,y:160,index:31,id:100497,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:576,y:160,index:27,id:100492,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:576,y:160,index:31,id:100498,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:528,y:144,index:27,id:100493,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:528,y:144,index:31,id:100499,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:368,y:416,index:27,id:100494,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:368,y:416,index:31,id:100500,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:368,y:432,index:27,id:100495,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:368,y:432,index:31,id:100501,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:384,y:416,index:27,id:100496,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:384,y:416,index:31,id:100502,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:400,y:416,index:27,id:100497,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:400,y:416,index:31,id:100503,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:384,y:432,index:27,id:100498,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:384,y:432,index:31,id:100504,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:32,y:432,index:79,id:100499,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:32,y:432,index:83,id:100505,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:960,y:432,index:80,id:100500,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:960,y:432,index:84,id:100506,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:736,y:96,index:84,id:100501,rotation:0,scaleX:6,scaleY:7,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:736,y:96,index:88,id:100507,rotation:0,scaleX:6,scaleY:7,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:304,y:256,index:52,id:100502,pCode:gml_RoomCC_rmSegLifts1_39_Create,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:304,y:256,index:56,id:100508,pCode:gml_RoomCC_rmSegLifts1_39_Create,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:144,y:128,index:61,id:100503,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:144,y:128,index:65,id:100509,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:528,y:432,index:60,id:100504,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:528,y:432,index:64,id:100510,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		],tiles:[],layers:[
 		{
-			pName:"Instances",id:33,type:2,depth:0,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:41,iinstIDs:[100464,100465,100466,100467,100468,100469,100470,100471,100472,100473,100474,100475,100476,100477,100478,100479,100480,100481,100482,100483,100484,100485,100486,100487,100488,100489,100490,100491,100492,100493,100494,100495,100496,100497,100498,100499,100500,100501,100502,100503,100504]		}
+			pName:"Instances",id:33,type:2,depth:0,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:41,iinstIDs:[100470,100471,100472,100473,100474,100475,100476,100477,100478,100479,100480,100481,100482,100483,100484,100485,100486,100487,100488,100489,100490,100491,100492,100493,100494,100495,100496,100497,100498,100499,100500,100501,100502,100503,100504,100505,100506,100507,100508,100509,100510]		}
 		,
 		{
-			pName:"Instances_1",id:34,type:2,depth:100,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:1,iinstIDs:[100505]		}
+			pName:"Instances_1",id:34,type:2,depth:100,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:1,iinstIDs:[100511]		}
 		]	}
 	,
 	{
@@ -11342,175 +11537,175 @@ var JSON_game=
 			wview:1366,hview:768,wport:1366,hport:768		}
 		],pInstances:[
 		{
-			x:200,y:336,index:83,id:100560,rotation:0,scaleX:0.9999999403953552,scaleY:2.222222328186035,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:200,y:336,index:87,id:100566,rotation:0,scaleX:0.9999999403953552,scaleY:2.222222328186035,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:-64,y:16,index:84,id:100506,rotation:0,scaleX:4,scaleY:41,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:-64,y:16,index:88,id:100512,rotation:0,scaleX:4,scaleY:41,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:400,y:16,index:84,id:100507,rotation:0,scaleX:5,scaleY:42,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:400,y:16,index:88,id:100513,rotation:0,scaleX:5,scaleY:42,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:-16,y:-16,index:84,id:100508,rotation:0,scaleX:26,scaleY:4,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:-16,y:-16,index:88,id:100514,rotation:0,scaleX:26,scaleY:4,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:0,y:624,index:84,id:100509,rotation:0,scaleX:25,scaleY:6,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:0,y:624,index:88,id:100515,rotation:0,scaleX:25,scaleY:6,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:0,y:48,index:84,id:100510,rotation:0,scaleX:14,scaleY:8,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:0,y:48,index:88,id:100516,rotation:0,scaleX:14,scaleY:8,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:304,y:176,index:84,id:100511,rotation:0,scaleX:6,scaleY:23,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:304,y:176,index:88,id:100517,rotation:0,scaleX:6,scaleY:23,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:224,y:288,index:84,id:100512,rotation:0,scaleX:5,scaleY:8,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:224,y:288,index:88,id:100518,rotation:0,scaleX:5,scaleY:8,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:0,y:176,index:84,id:100513,rotation:0,scaleX:14,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:0,y:176,index:88,id:100519,rotation:0,scaleX:14,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:0,y:224,index:84,id:100514,rotation:0,scaleX:6,scaleY:8,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:0,y:224,index:88,id:100520,rotation:0,scaleX:6,scaleY:8,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:0,y:480,index:84,id:100515,rotation:0,scaleX:14,scaleY:9,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:0,y:480,index:88,id:100521,rotation:0,scaleX:14,scaleY:9,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:224,y:112,index:62,id:100516,rotation:0,scaleX:5,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:224,y:112,index:66,id:100522,rotation:0,scaleX:5,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:368,y:608,index:80,id:100517,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:368,y:608,index:84,id:100523,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:256,y:96,index:79,id:100518,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:256,y:96,index:83,id:100524,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:352,y:48,index:84,id:100519,rotation:0,scaleX:3,scaleY:8,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:352,y:48,index:88,id:100525,rotation:0,scaleX:3,scaleY:8,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:224,y:176,index:27,id:100520,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:224,y:176,index:31,id:100526,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:224,y:208,index:27,id:100521,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:224,y:208,index:31,id:100527,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:256,y:176,index:27,id:100522,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:256,y:176,index:31,id:100528,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:288,y:176,index:27,id:100523,rotation:0,scaleX:1,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:288,y:176,index:31,id:100529,rotation:0,scaleX:1,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:240,y:208,index:27,id:100524,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:240,y:208,index:31,id:100530,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:272,y:208,index:27,id:100525,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:272,y:208,index:31,id:100531,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:96,y:384,index:27,id:100526,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:96,y:384,index:31,id:100532,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:160,y:288,index:27,id:100528,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:160,y:288,index:31,id:100534,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:128,y:320,index:27,id:100529,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:128,y:320,index:31,id:100535,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:160,y:352,index:27,id:100530,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:160,y:352,index:31,id:100536,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:192,y:288,index:27,id:100531,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:192,y:288,index:31,id:100537,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:128,y:384,index:27,id:100532,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:128,y:384,index:31,id:100538,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:192,y:352,index:27,id:100533,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:192,y:352,index:31,id:100539,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:96,y:288,index:27,id:100534,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:96,y:288,index:31,id:100540,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:96,y:320,index:27,id:100535,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:96,y:320,index:31,id:100541,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:192,y:384,index:27,id:100536,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:192,y:384,index:31,id:100542,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:160,y:320,index:27,id:100537,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:160,y:320,index:31,id:100543,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:224,y:480,index:62,id:100538,rotation:0,scaleX:3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:224,y:480,index:66,id:100544,rotation:0,scaleX:3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:256,y:512,index:62,id:100539,rotation:0,scaleX:3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:256,y:512,index:66,id:100545,rotation:0,scaleX:3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:224,y:544,index:62,id:100540,rotation:0,scaleX:3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:224,y:544,index:66,id:100546,rotation:0,scaleX:3,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:128,y:288,index:27,id:100541,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:128,y:288,index:31,id:100547,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:128,y:304,index:27,id:100542,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:128,y:304,index:31,id:100548,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:144,y:304,index:27,id:100543,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:144,y:304,index:31,id:100549,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:144,y:288,index:27,id:100544,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:144,y:288,index:31,id:100550,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:160,y:384,index:27,id:100545,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:160,y:384,index:31,id:100551,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:176,y:384,index:27,id:100546,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:176,y:384,index:31,id:100552,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:176,y:400,index:27,id:100547,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:176,y:400,index:31,id:100553,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:160,y:400,index:27,id:100548,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:160,y:400,index:31,id:100554,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:128,y:352,index:27,id:100527,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:128,y:352,index:31,id:100533,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:96,y:352,index:27,id:100549,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:96,y:352,index:31,id:100555,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:112,y:352,index:27,id:100550,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:112,y:352,index:31,id:100556,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:112,y:368,index:27,id:100551,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:112,y:368,index:31,id:100557,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:96,y:368,index:27,id:100552,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:96,y:368,index:31,id:100558,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:208,y:320,index:27,id:100553,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:208,y:320,index:31,id:100559,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:208,y:336,index:27,id:100554,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:208,y:336,index:31,id:100560,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:192,y:336,index:27,id:100555,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:192,y:336,index:31,id:100561,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:192,y:320,index:27,id:100556,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:192,y:320,index:31,id:100562,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:0,y:384,index:84,id:100557,rotation:0,scaleX:6,scaleY:6,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:0,y:384,index:88,id:100563,rotation:0,scaleX:6,scaleY:6,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:0,y:352,index:84,id:100558,rotation:0,scaleX:4,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:0,y:352,index:88,id:100564,rotation:0,scaleX:4,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:80,y:368,index:61,id:100559,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:80,y:368,index:65,id:100565,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		],tiles:[],layers:[
 		{
-			pName:"Instances",id:35,type:2,depth:0,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:54,iinstIDs:[100506,100507,100508,100509,100510,100511,100512,100513,100514,100515,100516,100517,100518,100519,100520,100521,100522,100523,100524,100525,100526,100527,100528,100529,100530,100531,100532,100533,100534,100535,100536,100537,100538,100539,100540,100541,100542,100543,100544,100545,100546,100547,100548,100549,100550,100551,100552,100553,100554,100555,100556,100557,100558,100559]		}
+			pName:"Instances",id:35,type:2,depth:0,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:54,iinstIDs:[100512,100513,100514,100515,100516,100517,100518,100519,100520,100521,100522,100523,100524,100525,100526,100527,100528,100529,100530,100531,100532,100533,100534,100535,100536,100537,100538,100539,100540,100541,100542,100543,100544,100545,100546,100547,100548,100549,100550,100551,100552,100553,100554,100555,100556,100557,100558,100559,100560,100561,100562,100563,100564,100565]		}
 		,
 		{
-			pName:"Instances_1",id:36,type:2,depth:100,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:1,iinstIDs:[100560]		}
+			pName:"Instances_1",id:36,type:2,depth:100,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:1,iinstIDs:[100566]		}
 		]	}
 	,
 	{
@@ -11540,256 +11735,256 @@ var JSON_game=
 			wview:1366,hview:768,wport:1366,hport:768		}
 		],pInstances:[
 		{
-			x:200,y:416,index:83,id:100642,rotation:0,scaleX:0.9999999403953552,scaleY:2.4444446563720703,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:200,y:416,index:87,id:100648,rotation:0,scaleX:0.9999999403953552,scaleY:2.4444446563720703,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:-16,y:32,index:84,id:100561,rotation:0,scaleX:26,scaleY:4,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:-16,y:32,index:88,id:100567,rotation:0,scaleX:26,scaleY:4,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:400,y:32,index:84,id:100562,rotation:0,scaleX:4,scaleY:51,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:400,y:32,index:88,id:100568,rotation:0,scaleX:4,scaleY:51,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:-64,y:32,index:84,id:100563,rotation:0,scaleX:4,scaleY:49,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:-64,y:32,index:88,id:100569,rotation:0,scaleX:4,scaleY:49,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:0,y:736,index:84,id:100564,rotation:0,scaleX:25,scaleY:7,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:0,y:736,index:88,id:100570,rotation:0,scaleX:25,scaleY:7,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:0,y:512,index:84,id:100565,rotation:0,scaleX:10,scaleY:14,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:0,y:512,index:88,id:100571,rotation:0,scaleX:10,scaleY:14,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:272,y:640,index:84,id:100566,rotation:0,scaleX:8,scaleY:6,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:272,y:640,index:88,id:100572,rotation:0,scaleX:8,scaleY:6,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:0,y:96,index:84,id:100567,rotation:0,scaleX:3,scaleY:26,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:0,y:96,index:88,id:100573,rotation:0,scaleX:3,scaleY:26,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:352,y:96,index:84,id:100568,rotation:0,scaleX:3,scaleY:34,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:352,y:96,index:88,id:100574,rotation:0,scaleX:3,scaleY:34,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:272,y:336,index:84,id:100569,rotation:0,scaleX:8,scaleY:6,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:272,y:336,index:88,id:100575,rotation:0,scaleX:8,scaleY:6,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:144,y:192,index:84,id:100570,rotation:0,scaleX:7,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:144,y:192,index:88,id:100576,rotation:0,scaleX:7,scaleY:3,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:48,y:336,index:27,id:100571,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:48,y:336,index:31,id:100577,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:48,y:336,index:27,id:100572,rotation:0,scaleX:3,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:48,y:336,index:31,id:100578,rotation:0,scaleX:3,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:64,y:368,index:27,id:100573,rotation:0,scaleX:3,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:64,y:368,index:31,id:100579,rotation:0,scaleX:3,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:48,y:368,index:27,id:100574,rotation:0,scaleX:1,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:48,y:368,index:31,id:100580,rotation:0,scaleX:1,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:80,y:400,index:27,id:100575,rotation:0,scaleX:3,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:80,y:400,index:31,id:100581,rotation:0,scaleX:3,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:48,y:400,index:27,id:100576,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:48,y:400,index:31,id:100582,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:96,y:336,index:27,id:100577,rotation:0,scaleX:3,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:96,y:336,index:31,id:100583,rotation:0,scaleX:3,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:112,y:368,index:27,id:100578,rotation:0,scaleX:3,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:112,y:368,index:31,id:100584,rotation:0,scaleX:3,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:128,y:400,index:27,id:100579,rotation:0,scaleX:3,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:128,y:400,index:31,id:100585,rotation:0,scaleX:3,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:176,y:400,index:27,id:100580,rotation:0,scaleX:3,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:176,y:400,index:31,id:100586,rotation:0,scaleX:3,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:224,y:400,index:27,id:100581,rotation:0,scaleX:3,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:224,y:400,index:31,id:100587,rotation:0,scaleX:3,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:160,y:368,index:27,id:100582,rotation:0,scaleX:3,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:160,y:368,index:31,id:100588,rotation:0,scaleX:3,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:144,y:336,index:27,id:100583,rotation:0,scaleX:3,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:144,y:336,index:31,id:100589,rotation:0,scaleX:3,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:192,y:336,index:27,id:100584,rotation:0,scaleX:3,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:192,y:336,index:31,id:100590,rotation:0,scaleX:3,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:208,y:368,index:27,id:100585,rotation:0,scaleX:3,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:208,y:368,index:31,id:100591,rotation:0,scaleX:3,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:240,y:336,index:27,id:100586,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:240,y:336,index:31,id:100592,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:256,y:368,index:27,id:100587,rotation:0,scaleX:1,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:256,y:368,index:31,id:100593,rotation:0,scaleX:1,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:160,y:512,index:27,id:100588,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:160,y:512,index:31,id:100594,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:176,y:528,index:27,id:100589,rotation:0,scaleX:4,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:176,y:528,index:31,id:100595,rotation:0,scaleX:4,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:192,y:512,index:27,id:100590,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:192,y:512,index:31,id:100596,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:160,y:528,index:27,id:100591,rotation:0,scaleX:1,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:160,y:528,index:31,id:100597,rotation:0,scaleX:1,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:160,y:560,index:27,id:100592,rotation:0,scaleX:4,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:160,y:560,index:31,id:100598,rotation:0,scaleX:4,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:272,y:528,index:27,id:100593,rotation:0,scaleX:4,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:272,y:528,index:31,id:100599,rotation:0,scaleX:4,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:240,y:528,index:27,id:100594,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:240,y:528,index:31,id:100600,rotation:0,scaleX:2,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:224,y:512,index:27,id:100595,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:224,y:512,index:31,id:100601,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:256,y:512,index:27,id:100596,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:256,y:512,index:31,id:100602,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:288,y:512,index:27,id:100597,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:288,y:512,index:31,id:100603,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:320,y:512,index:27,id:100598,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:320,y:512,index:31,id:100604,rotation:0,scaleX:2,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:224,y:560,index:27,id:100599,rotation:0,scaleX:4,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:224,y:560,index:31,id:100605,rotation:0,scaleX:4,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:288,y:560,index:27,id:100600,rotation:0,scaleX:4,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:288,y:560,index:31,id:100606,rotation:0,scaleX:4,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:336,y:528,index:27,id:100601,rotation:0,scaleX:1,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:336,y:528,index:31,id:100607,rotation:0,scaleX:1,scaleY:2,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:48,y:192,index:27,id:100602,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:48,y:192,index:31,id:100608,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:64,y:192,index:27,id:100603,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:64,y:192,index:31,id:100609,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:48,y:208,index:27,id:100604,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:48,y:208,index:31,id:100610,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:64,y:208,index:27,id:100605,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:64,y:208,index:31,id:100611,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:48,y:224,index:27,id:100606,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:48,y:224,index:31,id:100612,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:64,y:224,index:27,id:100607,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:64,y:224,index:31,id:100613,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:80,y:192,index:27,id:100608,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:80,y:192,index:31,id:100614,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:80,y:224,index:27,id:100609,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:80,y:224,index:31,id:100615,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:80,y:208,index:27,id:100610,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:80,y:208,index:31,id:100616,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:96,y:192,index:27,id:100611,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:96,y:192,index:31,id:100617,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:112,y:192,index:27,id:100612,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:112,y:192,index:31,id:100618,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:96,y:208,index:27,id:100613,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:96,y:208,index:31,id:100619,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:112,y:208,index:27,id:100614,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:112,y:208,index:31,id:100620,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:96,y:224,index:27,id:100615,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:96,y:224,index:31,id:100621,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:112,y:224,index:27,id:100616,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:112,y:224,index:31,id:100622,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:128,y:192,index:27,id:100617,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:128,y:192,index:31,id:100623,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:128,y:224,index:27,id:100618,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:128,y:224,index:31,id:100624,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:128,y:208,index:27,id:100619,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:128,y:208,index:31,id:100625,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:256,y:192,index:27,id:100620,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:256,y:192,index:31,id:100626,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:272,y:192,index:27,id:100621,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:272,y:192,index:31,id:100627,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:256,y:208,index:27,id:100622,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:256,y:208,index:31,id:100628,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:272,y:208,index:27,id:100623,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:272,y:208,index:31,id:100629,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:256,y:224,index:27,id:100624,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:256,y:224,index:31,id:100630,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:272,y:224,index:27,id:100625,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:272,y:224,index:31,id:100631,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:288,y:192,index:27,id:100626,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:288,y:192,index:31,id:100632,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:288,y:224,index:27,id:100627,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:288,y:224,index:31,id:100633,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:288,y:208,index:27,id:100628,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:288,y:208,index:31,id:100634,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:304,y:192,index:27,id:100629,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:304,y:192,index:31,id:100635,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:320,y:192,index:27,id:100630,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:320,y:192,index:31,id:100636,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:304,y:208,index:27,id:100631,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:304,y:208,index:31,id:100637,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:320,y:208,index:27,id:100632,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:320,y:208,index:31,id:100638,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:304,y:224,index:27,id:100633,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:304,y:224,index:31,id:100639,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:320,y:224,index:27,id:100634,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:320,y:224,index:31,id:100640,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:336,y:192,index:27,id:100635,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:336,y:192,index:31,id:100641,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:336,y:224,index:27,id:100636,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:336,y:224,index:31,id:100642,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:336,y:208,index:27,id:100637,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:336,y:208,index:31,id:100643,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:192,y:720,index:80,id:100638,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:192,y:720,index:84,id:100644,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:160,y:640,index:62,id:100639,rotation:0,scaleX:4,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:160,y:640,index:66,id:100645,rotation:0,scaleX:4,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:192,y:176,index:79,id:100640,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:192,y:176,index:83,id:100646,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		,
 		{
-			x:336,y:320,index:61,id:100641,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
+			x:336,y:320,index:65,id:100647,rotation:0,scaleX:1,scaleY:1,imageSpeed:1,imageIndex:0,colour:4294967295		}
 		],tiles:[],layers:[
 		{
-			pName:"Instances",id:37,type:2,depth:0,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:81,iinstIDs:[100561,100562,100563,100564,100565,100566,100567,100568,100569,100570,100571,100572,100573,100574,100575,100576,100577,100578,100579,100580,100581,100582,100583,100584,100585,100586,100587,100588,100589,100590,100591,100592,100593,100594,100595,100596,100597,100598,100599,100600,100601,100602,100603,100604,100605,100606,100607,100608,100609,100610,100611,100612,100613,100614,100615,100616,100617,100618,100619,100620,100621,100622,100623,100624,100625,100626,100627,100628,100629,100630,100631,100632,100633,100634,100635,100636,100637,100638,100639,100640,100641]		}
+			pName:"Instances",id:37,type:2,depth:0,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:81,iinstIDs:[100567,100568,100569,100570,100571,100572,100573,100574,100575,100576,100577,100578,100579,100580,100581,100582,100583,100584,100585,100586,100587,100588,100589,100590,100591,100592,100593,100594,100595,100596,100597,100598,100599,100600,100601,100602,100603,100604,100605,100606,100607,100608,100609,100610,100611,100612,100613,100614,100615,100616,100617,100618,100619,100620,100621,100622,100623,100624,100625,100626,100627,100628,100629,100630,100631,100632,100633,100634,100635,100636,100637,100638,100639,100640,100641,100642,100643,100644,100645,100646,100647]		}
 		,
 		{
-			pName:"Instances_1",id:38,type:2,depth:100,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:1,iinstIDs:[100642]		}
+			pName:"Instances_1",id:38,type:2,depth:100,x:0,y:0,hspeed:0,vspeed:0,visible:1,effectEnabled:1,effectType:"",effectProperties:[],icount:1,iinstIDs:[100648]		}
 		]	}
 	],GMUILayers:[],RoomOrder:[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21],TPageEntries:[
 	{
@@ -11985,13 +12180,16 @@ var JSON_game=
 		x:393,y:536,w:45,h:49,XOffset:10,YOffset:11,CropWidth:45,CropHeight:49,ow:64,oh:64,tp:2	}
 	,
 	{
-		x:372,y:928,w:46,h:46,XOffset:17,YOffset:17,CropWidth:46,CropHeight:46,ow:80,oh:80,tp:2	}
+		x:372,y:928,w:61,h:35,XOffset:2,YOffset:4,CropWidth:61,CropHeight:35,ow:64,oh:40,tp:2	}
 	,
 	{
-		x:372,y:928,w:46,h:46,XOffset:17,YOffset:17,CropWidth:46,CropHeight:46,ow:80,oh:80,tp:2	}
+		x:388,y:601,w:46,h:46,XOffset:17,YOffset:17,CropWidth:46,CropHeight:46,ow:80,oh:80,tp:2	}
 	,
 	{
-		x:388,y:601,w:42,h:43,XOffset:4,YOffset:2,CropWidth:42,CropHeight:43,ow:48,oh:48,tp:2	}
+		x:388,y:601,w:46,h:46,XOffset:17,YOffset:17,CropWidth:46,CropHeight:46,ow:80,oh:80,tp:2	}
+	,
+	{
+		x:393,y:663,w:42,h:43,XOffset:4,YOffset:2,CropWidth:42,CropHeight:43,ow:48,oh:48,tp:2	}
 	,
 	{
 		x:975,y:894,w:40,h:43,XOffset:13,YOffset:13,CropWidth:40,CropHeight:43,ow:64,oh:64,tp:1	}
@@ -12021,7 +12219,7 @@ var JSON_game=
 		x:984,y:494,w:30,h:46,XOffset:2,YOffset:15,CropWidth:30,CropHeight:46,ow:32,oh:64,tp:1	}
 	,
 	{
-		x:393,y:660,w:39,h:35,XOffset:6,YOffset:7,CropWidth:39,CropHeight:35,ow:48,oh:48,tp:2	}
+		x:372,y:979,w:39,h:35,XOffset:6,YOffset:7,CropWidth:39,CropHeight:35,ow:48,oh:48,tp:2	}
 	,
 	{
 		x:984,y:556,w:29,h:47,XOffset:2,YOffset:14,CropWidth:29,CropHeight:47,ow:32,oh:64,tp:1	}
@@ -12033,1930 +12231,1957 @@ var JSON_game=
 		x:984,y:677,w:29,h:46,XOffset:3,YOffset:15,CropWidth:29,CropHeight:46,ow:32,oh:64,tp:1	}
 	,
 	{
-		x:434,y:928,w:32,h:41,XOffset:7,YOffset:3,CropWidth:32,CropHeight:41,ow:48,oh:48,tp:2	}
+		x:438,y:866,w:32,h:41,XOffset:7,YOffset:3,CropWidth:32,CropHeight:41,ow:48,oh:48,tp:2	}
 	,
 	{
 		x:840,y:871,w:46,h:28,XOffset:1,YOffset:7,CropWidth:46,CropHeight:28,ow:48,oh:40,tp:1	}
 	,
 	{
-		x:438,y:866,w:35,h:36,XOffset:5,YOffset:3,CropWidth:35,CropHeight:36,ow:48,oh:40,tp:2	}
+		x:445,y:799,w:35,h:36,XOffset:5,YOffset:3,CropWidth:35,CropHeight:36,ow:48,oh:40,tp:2	}
 	,
 	{
-		x:445,y:799,w:34,h:37,XOffset:8,YOffset:5,CropWidth:34,CropHeight:37,ow:48,oh:48,tp:2	}
+		x:458,y:536,w:34,h:37,XOffset:8,YOffset:5,CropWidth:34,CropHeight:37,ow:48,oh:48,tp:2	}
 	,
 	{
-		x:458,y:536,w:26,h:47,XOffset:2,YOffset:1,CropWidth:26,CropHeight:47,ow:32,oh:48,tp:2	}
+		x:458,y:589,w:26,h:47,XOffset:2,YOffset:1,CropWidth:26,CropHeight:47,ow:32,oh:48,tp:2	}
 	,
 	{
-		x:458,y:599,w:32,h:38,XOffset:8,YOffset:4,CropWidth:32,CropHeight:38,ow:48,oh:48,tp:2	}
+		x:451,y:652,w:32,h:38,XOffset:8,YOffset:4,CropWidth:32,CropHeight:38,ow:48,oh:48,tp:2	}
 	,
 	{
-		x:458,y:653,w:26,h:44,XOffset:3,YOffset:4,CropWidth:26,CropHeight:44,ow:32,oh:48,tp:2	}
+		x:458,y:706,w:26,h:44,XOffset:3,YOffset:4,CropWidth:26,CropHeight:44,ow:32,oh:48,tp:2	}
 	,
 	{
-		x:458,y:713,w:31,h:34,XOffset:3,YOffset:5,CropWidth:31,CropHeight:34,ow:48,oh:48,tp:2	}
+		x:496,y:766,w:31,h:34,XOffset:3,YOffset:5,CropWidth:31,CropHeight:34,ow:48,oh:48,tp:2	}
 	,
 	{
 		x:902,y:871,w:35,h:30,XOffset:2,YOffset:1,CropWidth:35,CropHeight:30,ow:40,oh:32,tp:1	}
 	,
 	{
-		x:495,y:763,w:36,h:29,XOffset:7,YOffset:10,CropWidth:36,CropHeight:29,ow:48,oh:40,tp:2	}
+		x:496,y:816,w:36,h:29,XOffset:7,YOffset:10,CropWidth:36,CropHeight:29,ow:48,oh:40,tp:2	}
 	,
 	{
-		x:495,y:808,w:32,h:32,XOffset:8,YOffset:8,CropWidth:32,CropHeight:32,ow:48,oh:48,tp:2	}
+		x:543,y:536,w:32,h:32,XOffset:7,YOffset:3,CropWidth:32,CropHeight:32,ow:40,oh:40,tp:2	}
 	,
 	{
-		x:489,y:856,w:32,h:32,XOffset:0,YOffset:0,CropWidth:32,CropHeight:32,ow:32,oh:32,tp:2	}
+		x:543,y:584,w:32,h:32,XOffset:8,YOffset:8,CropWidth:32,CropHeight:32,ow:48,oh:48,tp:2	}
 	,
 	{
-		x:489,y:904,w:30,h:34,XOffset:8,YOffset:7,CropWidth:30,CropHeight:34,ow:48,oh:48,tp:2	}
+		x:500,y:632,w:32,h:32,XOffset:0,YOffset:0,CropWidth:32,CropHeight:32,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:482,y:954,w:29,h:35,XOffset:10,YOffset:8,CropWidth:29,CropHeight:35,ow:48,oh:48,tp:2	}
+		x:500,y:680,w:30,h:34,XOffset:8,YOffset:7,CropWidth:30,CropHeight:34,ow:48,oh:48,tp:2	}
 	,
 	{
-		x:505,y:653,w:30,h:33,XOffset:8,YOffset:7,CropWidth:30,CropHeight:33,ow:48,oh:48,tp:2	}
+		x:546,y:680,w:29,h:35,XOffset:10,YOffset:8,CropWidth:29,CropHeight:35,ow:48,oh:48,tp:2	}
 	,
 	{
-		x:505,y:702,w:33,h:30,XOffset:6,YOffset:10,CropWidth:33,CropHeight:30,ow:48,oh:40,tp:2	}
+		x:543,y:731,w:30,h:33,XOffset:8,YOffset:7,CropWidth:30,CropHeight:33,ow:48,oh:48,tp:2	}
 	,
 	{
-		x:547,y:748,w:29,h:34,XOffset:9,YOffset:7,CropWidth:29,CropHeight:34,ow:48,oh:48,tp:2	}
+		x:548,y:632,w:33,h:30,XOffset:6,YOffset:10,CropWidth:33,CropHeight:30,ow:48,oh:40,tp:2	}
 	,
 	{
-		x:547,y:798,w:27,h:36,XOffset:5,YOffset:5,CropWidth:27,CropHeight:36,ow:48,oh:48,tp:2	}
+		x:591,y:536,w:29,h:34,XOffset:9,YOffset:7,CropWidth:29,CropHeight:34,ow:48,oh:48,tp:2	}
 	,
 	{
-		x:543,y:850,w:30,h:31,XOffset:8,YOffset:7,CropWidth:30,CropHeight:31,ow:48,oh:48,tp:2	}
+		x:597,y:586,w:27,h:36,XOffset:5,YOffset:5,CropWidth:27,CropHeight:36,ow:48,oh:48,tp:2	}
 	,
 	{
-		x:537,y:897,w:25,h:37,XOffset:12,YOffset:4,CropWidth:25,CropHeight:37,ow:48,oh:48,tp:2	}
+		x:597,y:638,w:30,h:31,XOffset:1,YOffset:3,CropWidth:30,CropHeight:31,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:535,y:950,w:26,h:34,XOffset:13,YOffset:10,CropWidth:26,CropHeight:34,ow:48,oh:48,tp:2	}
+		x:643,y:536,w:30,h:31,XOffset:8,YOffset:7,CropWidth:30,CropHeight:31,ow:48,oh:48,tp:2	}
 	,
 	{
-		x:554,y:536,w:31,h:28,XOffset:7,YOffset:9,CropWidth:31,CropHeight:28,ow:48,oh:48,tp:2	}
+		x:643,y:583,w:25,h:37,XOffset:12,YOffset:4,CropWidth:25,CropHeight:37,ow:48,oh:48,tp:2	}
 	,
 	{
-		x:554,y:580,w:26,h:33,XOffset:4,YOffset:6,CropWidth:26,CropHeight:33,ow:32,oh:40,tp:2	}
+		x:643,y:636,w:26,h:34,XOffset:13,YOffset:10,CropWidth:26,CropHeight:34,ow:48,oh:48,tp:2	}
 	,
 	{
-		x:551,y:629,w:26,h:32,XOffset:12,YOffset:10,CropWidth:26,CropHeight:32,ow:48,oh:48,tp:2	}
+		x:591,y:685,w:31,h:28,XOffset:7,YOffset:9,CropWidth:31,CropHeight:28,ow:48,oh:48,tp:2	}
 	,
 	{
-		x:506,y:526,w:21,h:37,XOffset:7,YOffset:5,CropWidth:21,CropHeight:37,ow:32,oh:48,tp:2	}
+		x:638,y:686,w:26,h:33,XOffset:4,YOffset:6,CropWidth:26,CropHeight:33,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:554,y:677,w:31,h:25,XOffset:1,YOffset:13,CropWidth:31,CropHeight:25,ow:32,oh:40,tp:2	}
+		x:589,y:731,w:26,h:32,XOffset:12,YOffset:10,CropWidth:26,CropHeight:32,ow:48,oh:48,tp:2	}
 	,
 	{
-		x:601,y:536,w:48,h:16,XOffset:4,YOffset:3,CropWidth:48,CropHeight:16,ow:56,oh:24,tp:2	}
+		x:631,y:735,w:21,h:37,XOffset:7,YOffset:5,CropWidth:21,CropHeight:37,ow:32,oh:48,tp:2	}
 	,
 	{
-		x:601,y:568,w:21,h:36,XOffset:5,YOffset:6,CropWidth:21,CropHeight:36,ow:32,oh:48,tp:2	}
+		x:548,y:780,w:31,h:25,XOffset:1,YOffset:13,CropWidth:31,CropHeight:25,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:596,y:620,w:28,h:27,XOffset:1,YOffset:0,CropWidth:28,CropHeight:27,ow:32,oh:32,tp:2	}
+		x:595,y:788,w:48,h:16,XOffset:4,YOffset:3,CropWidth:48,CropHeight:16,ow:56,oh:24,tp:2	}
 	,
 	{
-		x:601,y:663,w:27,h:28,XOffset:6,YOffset:7,CropWidth:27,CropHeight:28,ow:40,oh:40,tp:2	}
+		x:548,y:821,w:21,h:36,XOffset:5,YOffset:6,CropWidth:21,CropHeight:36,ow:32,oh:48,tp:2	}
 	,
 	{
-		x:601,y:707,w:29,h:26,XOffset:5,YOffset:7,CropWidth:29,CropHeight:26,ow:40,oh:40,tp:2	}
+		x:595,y:820,w:28,h:27,XOffset:1,YOffset:0,CropWidth:28,CropHeight:27,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:592,y:749,w:26,h:29,XOffset:5,YOffset:6,CropWidth:26,CropHeight:29,ow:32,oh:40,tp:2	}
+		x:486,y:861,w:27,h:28,XOffset:6,YOffset:7,CropWidth:27,CropHeight:28,ow:40,oh:40,tp:2	}
 	,
 	{
-		x:592,y:794,w:24,h:31,XOffset:6,YOffset:1,CropWidth:24,CropHeight:31,ow:32,oh:32,tp:2	}
+		x:639,y:820,w:29,h:26,XOffset:5,YOffset:7,CropWidth:29,CropHeight:26,ow:40,oh:40,tp:2	}
 	,
 	{
-		x:590,y:841,w:27,h:27,XOffset:1,YOffset:7,CropWidth:27,CropHeight:27,ow:32,oh:40,tp:2	}
+		x:585,y:863,w:26,h:29,XOffset:5,YOffset:6,CropWidth:26,CropHeight:29,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:589,y:884,w:28,h:26,XOffset:6,YOffset:7,CropWidth:28,CropHeight:26,ow:40,oh:40,tp:2	}
+		x:639,y:862,w:24,h:31,XOffset:6,YOffset:1,CropWidth:24,CropHeight:31,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:578,y:926,w:28,h:26,XOffset:6,YOffset:8,CropWidth:28,CropHeight:26,ow:40,oh:40,tp:2	}
+		x:529,y:873,w:27,h:27,XOffset:1,YOffset:7,CropWidth:27,CropHeight:27,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:577,y:968,w:28,h:26,XOffset:9,YOffset:11,CropWidth:28,CropHeight:26,ow:48,oh:48,tp:2	}
+		x:572,y:908,w:28,h:26,XOffset:6,YOffset:7,CropWidth:28,CropHeight:26,ow:40,oh:40,tp:2	}
 	,
 	{
-		x:622,y:926,w:22,h:33,XOffset:14,YOffset:11,CropWidth:22,CropHeight:33,ow:48,oh:48,tp:2	}
+		x:449,y:923,w:28,h:26,XOffset:6,YOffset:8,CropWidth:28,CropHeight:26,ow:40,oh:40,tp:2	}
 	,
 	{
-		x:621,y:975,w:25,h:29,XOffset:1,YOffset:3,CropWidth:25,CropHeight:29,ow:32,oh:32,tp:2	}
+		x:616,y:909,w:28,h:26,XOffset:9,YOffset:11,CropWidth:28,CropHeight:26,ow:48,oh:48,tp:2	}
 	,
 	{
-		x:633,y:794,w:21,h:34,XOffset:6,YOffset:9,CropWidth:21,CropHeight:34,ow:32,oh:48,tp:2	}
+		x:449,y:965,w:22,h:33,XOffset:14,YOffset:11,CropWidth:22,CropHeight:33,ow:48,oh:48,tp:2	}
 	,
 	{
-		x:633,y:844,w:23,h:31,XOffset:3,YOffset:1,CropWidth:23,CropHeight:31,ow:32,oh:32,tp:2	}
+		x:493,y:916,w:25,h:29,XOffset:1,YOffset:3,CropWidth:25,CropHeight:29,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:660,y:891,w:26,h:27,XOffset:1,YOffset:7,CropWidth:26,CropHeight:27,ow:48,oh:40,tp:2	}
+		x:487,y:965,w:21,h:34,XOffset:6,YOffset:9,CropWidth:21,CropHeight:34,ow:32,oh:48,tp:2	}
 	,
 	{
-		x:662,y:934,w:17,h:41,XOffset:7,YOffset:3,CropWidth:17,CropHeight:41,ow:32,oh:48,tp:2	}
+		x:534,y:950,w:23,h:31,XOffset:3,YOffset:1,CropWidth:23,CropHeight:31,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:672,y:536,w:24,h:29,XOffset:5,YOffset:5,CropWidth:24,CropHeight:29,ow:32,oh:40,tp:2	}
+		x:573,y:950,w:26,h:27,XOffset:1,YOffset:7,CropWidth:26,CropHeight:27,ow:48,oh:40,tp:2	}
 	,
 	{
-		x:672,y:581,w:23,h:30,XOffset:5,YOffset:2,CropWidth:23,CropHeight:30,ow:32,oh:32,tp:2	}
+		x:615,y:951,w:17,h:41,XOffset:7,YOffset:3,CropWidth:17,CropHeight:41,ow:32,oh:48,tp:2	}
 	,
 	{
-		x:644,y:627,w:23,h:30,XOffset:6,YOffset:5,CropWidth:23,CropHeight:30,ow:32,oh:40,tp:2	}
+		x:648,y:951,w:24,h:29,XOffset:5,YOffset:5,CropWidth:24,CropHeight:29,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:646,y:673,w:26,h:26,XOffset:2,YOffset:1,CropWidth:26,CropHeight:26,ow:32,oh:32,tp:2	}
+		x:668,y:735,w:23,h:30,XOffset:5,YOffset:2,CropWidth:23,CropHeight:30,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:646,y:715,w:26,h:26,XOffset:2,YOffset:5,CropWidth:26,CropHeight:26,ow:32,oh:32,tp:2	}
+		x:680,y:686,w:23,h:30,XOffset:6,YOffset:5,CropWidth:23,CropHeight:30,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:670,y:757,w:25,h:27,XOffset:3,YOffset:13,CropWidth:25,CropHeight:27,ow:32,oh:48,tp:2	}
+		x:685,y:583,w:26,h:26,XOffset:2,YOffset:1,CropWidth:26,CropHeight:26,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:670,y:800,w:25,h:27,XOffset:3,YOffset:4,CropWidth:25,CropHeight:27,ow:32,oh:32,tp:2	}
+		x:685,y:625,w:26,h:26,XOffset:2,YOffset:5,CropWidth:26,CropHeight:26,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:672,y:843,w:32,h:21,XOffset:5,YOffset:14,CropWidth:32,CropHeight:21,ow:48,oh:48,tp:2	}
+		x:689,y:536,w:25,h:27,XOffset:3,YOffset:13,CropWidth:25,CropHeight:27,ow:32,oh:48,tp:2	}
 	,
 	{
-		x:720,y:536,w:28,h:24,XOffset:6,YOffset:11,CropWidth:28,CropHeight:24,ow:40,oh:40,tp:2	}
+		x:730,y:536,w:25,h:27,XOffset:3,YOffset:4,CropWidth:25,CropHeight:27,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:720,y:576,w:26,h:25,XOffset:2,YOffset:8,CropWidth:26,CropHeight:25,ow:32,oh:40,tp:2	}
+		x:771,y:536,w:32,h:21,XOffset:5,YOffset:14,CropWidth:32,CropHeight:21,ow:48,oh:48,tp:2	}
 	,
 	{
-		x:711,y:617,w:24,h:27,XOffset:4,YOffset:6,CropWidth:24,CropHeight:27,ow:48,oh:40,tp:2	}
+		x:819,y:536,w:28,h:24,XOffset:6,YOffset:11,CropWidth:28,CropHeight:24,ow:40,oh:40,tp:2	}
 	,
 	{
-		x:688,y:660,w:23,h:28,XOffset:4,YOffset:13,CropWidth:23,CropHeight:28,ow:32,oh:48,tp:2	}
+		x:863,y:536,w:26,h:25,XOffset:2,YOffset:8,CropWidth:26,CropHeight:25,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:688,y:704,w:23,h:28,XOffset:4,YOffset:4,CropWidth:23,CropHeight:28,ow:32,oh:40,tp:2	}
+		x:905,y:344,w:24,h:27,XOffset:4,YOffset:6,CropWidth:24,CropHeight:27,ow:48,oh:40,tp:2	}
 	,
 	{
-		x:711,y:748,w:29,h:22,XOffset:5,YOffset:13,CropWidth:29,CropHeight:22,ow:40,oh:40,tp:2	}
+		x:945,y:344,w:23,h:28,XOffset:4,YOffset:13,CropWidth:23,CropHeight:28,ow:32,oh:48,tp:2	}
 	,
 	{
-		x:727,y:660,w:21,h:30,XOffset:4,YOffset:3,CropWidth:21,CropHeight:30,ow:32,oh:40,tp:2	}
+		x:984,y:344,w:23,h:28,XOffset:4,YOffset:4,CropWidth:23,CropHeight:28,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:711,y:786,w:21,h:30,XOffset:7,YOffset:3,CropWidth:21,CropHeight:30,ow:32,oh:40,tp:2	}
+		x:905,y:388,w:29,h:22,XOffset:5,YOffset:13,CropWidth:29,CropHeight:22,ow:40,oh:40,tp:2	}
 	,
 	{
-		x:720,y:832,w:21,h:30,XOffset:6,YOffset:3,CropWidth:21,CropHeight:30,ow:32,oh:40,tp:2	}
+		x:950,y:388,w:21,h:30,XOffset:4,YOffset:3,CropWidth:21,CropHeight:30,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:720,y:878,w:21,h:30,XOffset:5,YOffset:3,CropWidth:21,CropHeight:30,ow:32,oh:40,tp:2	}
+		x:987,y:388,w:21,h:30,XOffset:7,YOffset:3,CropWidth:21,CropHeight:30,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:702,y:924,w:20,h:31,XOffset:6,YOffset:1,CropWidth:20,CropHeight:31,ow:32,oh:32,tp:2	}
+		x:905,y:426,w:21,h:30,XOffset:6,YOffset:3,CropWidth:21,CropHeight:30,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:695,y:971,w:43,h:14,XOffset:5,YOffset:21,CropWidth:43,CropHeight:14,ow:48,oh:48,tp:2	}
+		x:942,y:434,w:21,h:30,XOffset:5,YOffset:3,CropWidth:21,CropHeight:30,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:727,y:706,w:24,h:25,XOffset:5,YOffset:6,CropWidth:24,CropHeight:25,ow:32,oh:40,tp:2	}
+		x:979,y:434,w:20,h:31,XOffset:6,YOffset:1,CropWidth:20,CropHeight:31,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:756,y:747,w:17,h:35,XOffset:6,YOffset:1,CropWidth:17,CropHeight:35,ow:32,oh:40,tp:2	}
+		x:905,y:480,w:43,h:14,XOffset:5,YOffset:21,CropWidth:43,CropHeight:14,ow:48,oh:48,tp:2	}
 	,
 	{
-		x:757,y:798,w:22,h:27,XOffset:3,YOffset:0,CropWidth:22,CropHeight:27,ow:32,oh:32,tp:2	}
+		x:964,y:481,w:24,h:25,XOffset:5,YOffset:6,CropWidth:24,CropHeight:25,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:757,y:841,w:22,h:27,XOffset:4,YOffset:5,CropWidth:22,CropHeight:27,ow:32,oh:40,tp:2	}
+		x:905,y:510,w:17,h:35,XOffset:6,YOffset:1,CropWidth:17,CropHeight:35,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:757,y:884,w:32,h:18,XOffset:5,YOffset:14,CropWidth:32,CropHeight:18,ow:48,oh:48,tp:2	}
+		x:938,y:522,w:22,h:27,XOffset:3,YOffset:0,CropWidth:22,CropHeight:27,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:757,y:918,w:24,h:24,XOffset:0,YOffset:0,CropWidth:24,CropHeight:24,ow:24,oh:24,tp:2	}
+		x:976,y:522,w:22,h:27,XOffset:4,YOffset:5,CropWidth:22,CropHeight:27,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:754,y:958,w:24,h:24,XOffset:6,YOffset:9,CropWidth:24,CropHeight:24,ow:32,oh:40,tp:2	}
+		x:905,y:565,w:32,h:18,XOffset:5,YOffset:14,CropWidth:32,CropHeight:18,ow:48,oh:48,tp:2	}
 	,
 	{
-		x:805,y:536,w:24,h:24,XOffset:3,YOffset:2,CropWidth:24,CropHeight:24,ow:32,oh:32,tp:2	}
+		x:953,y:565,w:24,h:24,XOffset:0,YOffset:0,CropWidth:24,CropHeight:24,ow:24,oh:24,tp:2	}
 	,
 	{
-		x:8,y:477,w:25,h:23,XOffset:4,YOffset:3,CropWidth:25,CropHeight:23,ow:32,oh:32,tp:2	}
+		x:727,y:605,w:24,h:24,XOffset:6,YOffset:9,CropWidth:24,CropHeight:24,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:49,y:477,w:30,h:19,XOffset:1,YOffset:9,CropWidth:30,CropHeight:19,ow:32,oh:32,tp:2	}
+		x:771,y:573,w:24,h:24,XOffset:3,YOffset:2,CropWidth:24,CropHeight:24,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:95,y:477,w:21,h:27,XOffset:6,YOffset:0,CropWidth:21,CropHeight:27,ow:32,oh:32,tp:2	}
+		x:811,y:576,w:25,h:23,XOffset:4,YOffset:3,CropWidth:25,CropHeight:23,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:132,y:477,w:20,h:28,XOffset:6,YOffset:11,CropWidth:20,CropHeight:28,ow:32,oh:40,tp:2	}
+		x:852,y:577,w:30,h:19,XOffset:1,YOffset:9,CropWidth:30,CropHeight:19,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:168,y:477,w:23,h:24,XOffset:5,YOffset:3,CropWidth:23,CropHeight:24,ow:32,oh:32,tp:2	}
+		x:898,y:599,w:21,h:27,XOffset:6,YOffset:0,CropWidth:21,CropHeight:27,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:207,y:477,w:22,h:25,XOffset:8,YOffset:2,CropWidth:22,CropHeight:25,ow:32,oh:32,tp:2	}
+		x:935,y:605,w:20,h:28,XOffset:6,YOffset:11,CropWidth:20,CropHeight:28,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:216,y:774,w:25,h:22,XOffset:3,YOffset:11,CropWidth:25,CropHeight:22,ow:32,oh:40,tp:2	}
+		x:971,y:605,w:23,h:24,XOffset:5,YOffset:3,CropWidth:23,CropHeight:24,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:279,y:990,w:22,h:25,XOffset:5,YOffset:5,CropWidth:22,CropHeight:25,ow:32,oh:40,tp:2	}
+		x:767,y:613,w:22,h:25,XOffset:8,YOffset:2,CropWidth:22,CropHeight:25,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:317,y:990,w:21,h:26,XOffset:5,YOffset:1,CropWidth:21,CropHeight:26,ow:32,oh:32,tp:2	}
+		x:852,y:612,w:25,h:22,XOffset:3,YOffset:11,CropWidth:25,CropHeight:22,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:506,y:579,w:17,h:32,XOffset:7,YOffset:4,CropWidth:17,CropHeight:32,ow:32,oh:40,tp:2	}
+		x:805,y:615,w:22,h:25,XOffset:5,YOffset:5,CropWidth:22,CropHeight:25,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:506,y:579,w:17,h:32,XOffset:7,YOffset:4,CropWidth:17,CropHeight:32,ow:32,oh:40,tp:2	}
+		x:893,y:642,w:21,h:26,XOffset:5,YOffset:1,CropWidth:21,CropHeight:26,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:434,y:985,w:18,h:30,XOffset:7,YOffset:4,CropWidth:18,CropHeight:30,ow:32,oh:40,tp:2	}
+		x:930,y:649,w:17,h:32,XOffset:7,YOffset:4,CropWidth:17,CropHeight:32,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:762,y:576,w:20,h:27,XOffset:6,YOffset:6,CropWidth:20,CropHeight:27,ow:32,oh:40,tp:2	}
+		x:930,y:649,w:17,h:32,XOffset:7,YOffset:4,CropWidth:17,CropHeight:32,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:764,y:619,w:20,h:27,XOffset:6,YOffset:6,CropWidth:20,CropHeight:27,ow:32,oh:40,tp:2	}
+		x:963,y:649,w:18,h:30,XOffset:7,YOffset:4,CropWidth:18,CropHeight:30,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:764,y:662,w:19,h:28,XOffset:6,YOffset:6,CropWidth:19,CropHeight:28,ow:32,oh:40,tp:2	}
+		x:727,y:645,w:20,h:27,XOffset:6,YOffset:6,CropWidth:20,CropHeight:27,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:354,y:990,w:28,h:19,XOffset:4,YOffset:5,CropWidth:28,CropHeight:19,ow:32,oh:32,tp:2	}
+		x:763,y:654,w:20,h:27,XOffset:6,YOffset:6,CropWidth:20,CropHeight:27,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:767,y:706,w:28,h:19,XOffset:4,YOffset:6,CropWidth:28,CropHeight:19,ow:32,oh:32,tp:2	}
+		x:997,y:645,w:19,h:28,XOffset:6,YOffset:6,CropWidth:19,CropHeight:28,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:797,y:918,w:22,h:24,XOffset:5,YOffset:2,CropWidth:22,CropHeight:24,ow:32,oh:32,tp:2	}
+		x:799,y:656,w:28,h:19,XOffset:4,YOffset:5,CropWidth:28,CropHeight:19,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:794,y:958,w:24,h:22,XOffset:6,YOffset:3,CropWidth:24,CropHeight:22,ow:32,oh:32,tp:2	}
+		x:843,y:684,w:28,h:19,XOffset:4,YOffset:6,CropWidth:28,CropHeight:19,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:845,y:536,w:21,h:25,XOffset:5,YOffset:8,CropWidth:21,CropHeight:25,ow:32,oh:40,tp:2	}
+		x:993,y:565,w:22,h:24,XOffset:5,YOffset:2,CropWidth:22,CropHeight:24,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:789,y:741,w:19,h:27,XOffset:6,YOffset:12,CropWidth:19,CropHeight:27,ow:32,oh:40,tp:2	}
+		x:719,y:688,w:24,h:22,XOffset:6,YOffset:3,CropWidth:24,CropHeight:22,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:799,y:662,w:19,h:27,XOffset:6,YOffset:7,CropWidth:19,CropHeight:27,ow:32,oh:40,tp:2	}
+		x:887,y:684,w:21,h:25,XOffset:5,YOffset:8,CropWidth:21,CropHeight:25,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:834,y:958,w:19,h:27,XOffset:7,YOffset:5,CropWidth:19,CropHeight:27,ow:32,oh:40,tp:2	}
+		x:997,y:689,w:19,h:27,XOffset:6,YOffset:12,CropWidth:19,CropHeight:27,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:764,y:536,w:23,h:22,XOffset:5,YOffset:5,CropWidth:23,CropHeight:22,ow:32,oh:32,tp:2	}
+		x:799,y:691,w:19,h:27,XOffset:6,YOffset:7,CropWidth:19,CropHeight:27,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:638,y:568,w:18,h:28,XOffset:8,YOffset:6,CropWidth:18,CropHeight:28,ow:32,oh:40,tp:2	}
+		x:759,y:697,w:19,h:27,XOffset:7,YOffset:5,CropWidth:19,CropHeight:27,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:798,y:576,w:21,h:24,XOffset:6,YOffset:2,CropWidth:21,CropHeight:24,ow:32,oh:32,tp:2	}
+		x:719,y:726,w:23,h:22,XOffset:5,YOffset:5,CropWidth:23,CropHeight:22,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:795,y:784,w:21,h:24,XOffset:4,YOffset:7,CropWidth:21,CropHeight:24,ow:32,oh:40,tp:2	}
+		x:963,y:695,w:18,h:28,XOffset:8,YOffset:6,CropWidth:18,CropHeight:28,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:398,y:990,w:20,h:25,XOffset:7,YOffset:5,CropWidth:20,CropHeight:25,ow:32,oh:40,tp:2	}
+		x:924,y:697,w:21,h:24,XOffset:6,YOffset:2,CropWidth:21,CropHeight:24,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:304,y:740,w:41,h:12,XOffset:3,YOffset:18,CropWidth:41,CropHeight:12,ow:48,oh:48,tp:2	}
+		x:834,y:725,w:21,h:24,XOffset:4,YOffset:7,CropWidth:21,CropHeight:24,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:835,y:577,w:18,h:27,XOffset:6,YOffset:0,CropWidth:18,CropHeight:27,ow:32,oh:32,tp:2	}
+		x:871,y:725,w:20,h:25,XOffset:7,YOffset:5,CropWidth:20,CropHeight:25,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:795,y:824,w:18,h:27,XOffset:7,YOffset:0,CropWidth:18,CropHeight:27,ow:32,oh:32,tp:2	}
+		x:758,y:740,w:41,h:12,XOffset:3,YOffset:18,CropWidth:41,CropHeight:12,ow:48,oh:48,tp:2	}
 	,
 	{
-		x:832,y:705,w:18,h:27,XOffset:7,YOffset:6,CropWidth:18,CropHeight:27,ow:32,oh:40,tp:2	}
+		x:997,y:732,w:18,h:27,XOffset:6,YOffset:0,CropWidth:18,CropHeight:27,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:800,y:616,w:18,h:27,XOffset:7,YOffset:6,CropWidth:18,CropHeight:27,ow:32,oh:40,tp:2	}
+		x:907,y:737,w:18,h:27,XOffset:7,YOffset:0,CropWidth:18,CropHeight:27,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:829,y:824,w:22,h:22,XOffset:22,YOffset:20,CropWidth:22,CropHeight:22,ow:64,oh:64,tp:2	}
+		x:941,y:739,w:18,h:27,XOffset:7,YOffset:6,CropWidth:18,CropHeight:27,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:805,y:867,w:21,h:23,XOffset:6,YOffset:3,CropWidth:21,CropHeight:23,ow:32,oh:32,tp:2	}
+		x:684,y:781,w:18,h:27,XOffset:7,YOffset:6,CropWidth:18,CropHeight:27,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:834,y:620,w:13,h:37,XOffset:9,YOffset:1,CropWidth:13,CropHeight:37,ow:32,oh:40,tp:2	}
+		x:684,y:824,w:22,h:22,XOffset:22,YOffset:20,CropWidth:22,CropHeight:22,ow:64,oh:64,tp:2	}
 	,
 	{
-		x:832,y:748,w:17,h:28,XOffset:6,YOffset:4,CropWidth:17,CropHeight:28,ow:32,oh:32,tp:2	}
+		x:688,y:862,w:21,h:23,XOffset:6,YOffset:3,CropWidth:21,CropHeight:23,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:842,y:862,w:19,h:25,XOffset:5,YOffset:9,CropWidth:19,CropHeight:25,ow:32,oh:40,tp:2	}
+		x:688,y:901,w:13,h:37,XOffset:9,YOffset:1,CropWidth:13,CropHeight:37,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:835,y:906,w:19,h:25,XOffset:7,YOffset:9,CropWidth:19,CropHeight:25,ow:32,oh:40,tp:2	}
+		x:688,y:954,w:17,h:28,XOffset:6,YOffset:4,CropWidth:17,CropHeight:28,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:888,y:344,w:18,h:26,XOffset:5,YOffset:1,CropWidth:18,CropHeight:26,ow:32,oh:32,tp:2	}
+		x:717,y:901,w:25,h:19,XOffset:6,YOffset:7,CropWidth:25,CropHeight:19,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:888,y:386,w:18,h:26,XOffset:7,YOffset:8,CropWidth:18,CropHeight:26,ow:32,oh:40,tp:2	}
+		x:721,y:936,w:19,h:25,XOffset:5,YOffset:9,CropWidth:19,CropHeight:25,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:888,y:428,w:18,h:26,XOffset:6,YOffset:1,CropWidth:18,CropHeight:26,ow:32,oh:32,tp:2	}
+		x:721,y:977,w:19,h:25,XOffset:7,YOffset:9,CropWidth:19,CropHeight:25,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:888,y:470,w:18,h:26,XOffset:6,YOffset:1,CropWidth:18,CropHeight:26,ow:32,oh:32,tp:2	}
+		x:725,y:782,w:18,h:26,XOffset:5,YOffset:1,CropWidth:18,CropHeight:26,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:888,y:512,w:17,h:27,XOffset:6,YOffset:4,CropWidth:17,CropHeight:27,ow:32,oh:32,tp:2	}
+		x:725,y:824,w:18,h:26,XOffset:7,YOffset:8,CropWidth:18,CropHeight:26,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:882,y:555,w:19,h:24,XOffset:7,YOffset:7,CropWidth:19,CropHeight:24,ow:32,oh:32,tp:2	}
+		x:758,y:866,w:18,h:26,XOffset:6,YOffset:1,CropWidth:18,CropHeight:26,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:877,y:595,w:24,h:19,XOffset:0,YOffset:3,CropWidth:24,CropHeight:19,ow:24,oh:24,tp:2	}
+		x:758,y:908,w:18,h:26,XOffset:6,YOffset:1,CropWidth:18,CropHeight:26,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:866,y:630,w:25,h:18,XOffset:4,YOffset:9,CropWidth:25,CropHeight:18,ow:32,oh:32,tp:2	}
+		x:759,y:782,w:17,h:27,XOffset:6,YOffset:4,CropWidth:17,CropHeight:27,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:866,y:664,w:25,h:18,XOffset:5,YOffset:16,CropWidth:25,CropHeight:18,ow:32,oh:40,tp:2	}
+		x:756,y:950,w:19,h:24,XOffset:7,YOffset:7,CropWidth:19,CropHeight:24,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:866,y:698,w:17,h:26,XOffset:8,YOffset:8,CropWidth:17,CropHeight:26,ow:32,oh:40,tp:2	}
+		x:756,y:990,w:24,h:19,XOffset:0,YOffset:3,CropWidth:24,CropHeight:19,ow:24,oh:24,tp:2	}
 	,
 	{
-		x:866,y:740,w:21,h:21,XOffset:1,YOffset:1,CropWidth:21,CropHeight:21,ow:24,oh:24,tp:2	}
+		x:796,y:780,w:25,h:18,XOffset:4,YOffset:9,CropWidth:25,CropHeight:18,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:865,y:777,w:21,h:21,XOffset:21,YOffset:21,CropWidth:21,CropHeight:21,ow:64,oh:64,tp:2	}
+		x:837,y:780,w:25,h:18,XOffset:5,YOffset:16,CropWidth:25,CropHeight:18,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:867,y:814,w:22,h:20,XOffset:9,YOffset:6,CropWidth:22,CropHeight:20,ow:32,oh:32,tp:2	}
+		x:878,y:780,w:17,h:26,XOffset:8,YOffset:8,CropWidth:17,CropHeight:26,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:877,y:850,w:23,h:19,XOffset:4,YOffset:12,CropWidth:23,CropHeight:19,ow:32,oh:40,tp:2	}
+		x:911,y:782,w:21,h:21,XOffset:1,YOffset:1,CropWidth:21,CropHeight:21,ow:24,oh:24,tp:2	}
 	,
 	{
-		x:877,y:885,w:19,h:23,XOffset:7,YOffset:10,CropWidth:19,CropHeight:23,ow:32,oh:40,tp:2	}
+		x:948,y:782,w:21,h:21,XOffset:21,YOffset:21,CropWidth:21,CropHeight:21,ow:64,oh:64,tp:2	}
 	,
 	{
-		x:870,y:924,w:19,h:23,XOffset:7,YOffset:14,CropWidth:19,CropHeight:23,ow:32,oh:40,tp:2	}
+		x:985,y:775,w:22,h:20,XOffset:9,YOffset:6,CropWidth:22,CropHeight:20,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:869,y:963,w:19,h:23,XOffset:7,YOffset:3,CropWidth:19,CropHeight:23,ow:32,oh:32,tp:2	}
+		x:985,y:811,w:23,h:19,XOffset:4,YOffset:12,CropWidth:23,CropHeight:19,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:922,y:344,w:18,h:24,XOffset:7,YOffset:3,CropWidth:18,CropHeight:24,ow:32,oh:32,tp:2	}
+		x:911,y:819,w:19,h:23,XOffset:7,YOffset:10,CropWidth:19,CropHeight:23,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:922,y:384,w:21,h:20,XOffset:5,YOffset:4,CropWidth:21,CropHeight:20,ow:32,oh:32,tp:2	}
+		x:946,y:819,w:19,h:23,XOffset:7,YOffset:14,CropWidth:19,CropHeight:23,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:922,y:420,w:21,h:20,XOffset:1,YOffset:1,CropWidth:21,CropHeight:20,ow:24,oh:24,tp:2	}
+		x:792,y:822,w:19,h:23,XOffset:7,YOffset:3,CropWidth:19,CropHeight:23,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:922,y:456,w:14,h:30,XOffset:1,YOffset:2,CropWidth:14,CropHeight:30,ow:16,oh:32,tp:2	}
+		x:792,y:861,w:18,h:24,XOffset:7,YOffset:3,CropWidth:18,CropHeight:24,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:959,y:344,w:20,h:21,XOffset:2,YOffset:1,CropWidth:20,CropHeight:21,ow:24,oh:24,tp:2	}
+		x:792,y:901,w:20,h:21,XOffset:6,YOffset:6,CropWidth:20,CropHeight:21,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:959,y:381,w:22,h:19,XOffset:6,YOffset:14,CropWidth:22,CropHeight:19,ow:32,oh:40,tp:2	}
+		x:792,y:938,w:21,h:20,XOffset:1,YOffset:1,CropWidth:21,CropHeight:20,ow:24,oh:24,tp:2	}
 	,
 	{
-		x:997,y:344,w:19,h:22,XOffset:7,YOffset:11,CropWidth:19,CropHeight:22,ow:32,oh:40,tp:2	}
+		x:796,y:974,w:14,h:30,XOffset:1,YOffset:2,CropWidth:14,CropHeight:30,ow:16,oh:32,tp:2	}
 	,
 	{
-		x:959,y:416,w:16,h:26,XOffset:8,YOffset:3,CropWidth:16,CropHeight:26,ow:32,oh:32,tp:2	}
+		x:826,y:974,w:20,h:21,XOffset:2,YOffset:1,CropWidth:20,CropHeight:21,ow:24,oh:24,tp:2	}
 	,
 	{
-		x:997,y:382,w:17,h:24,XOffset:7,YOffset:1,CropWidth:17,CropHeight:24,ow:32,oh:32,tp:2	}
+		x:829,y:858,w:20,h:21,XOffset:2,YOffset:1,CropWidth:20,CropHeight:21,ow:24,oh:24,tp:2	}
 	,
 	{
-		x:952,y:458,w:24,h:17,XOffset:6,YOffset:2,CropWidth:24,CropHeight:17,ow:32,oh:24,tp:2	}
+		x:559,y:152,w:22,h:19,XOffset:6,YOffset:14,CropWidth:22,CropHeight:19,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:992,y:422,w:15,h:27,XOffset:10,YOffset:2,CropWidth:15,CropHeight:27,ow:32,oh:32,tp:2	}
+		x:829,y:895,w:19,h:22,XOffset:7,YOffset:11,CropWidth:19,CropHeight:22,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:992,y:465,w:20,h:20,XOffset:1,YOffset:1,CropWidth:20,CropHeight:20,ow:24,oh:24,tp:2	}
+		x:597,y:152,w:16,h:26,XOffset:8,YOffset:3,CropWidth:16,CropHeight:26,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:952,y:491,w:16,h:25,XOffset:8,YOffset:0,CropWidth:16,CropHeight:25,ow:32,oh:32,tp:2	}
+		x:829,y:933,w:17,h:24,XOffset:7,YOffset:1,CropWidth:17,CropHeight:24,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:984,y:501,w:16,h:25,XOffset:8,YOffset:0,CropWidth:16,CropHeight:25,ow:32,oh:32,tp:2	}
+		x:629,y:152,w:24,h:17,XOffset:6,YOffset:2,CropWidth:24,CropHeight:17,ow:32,oh:24,tp:2	}
 	,
 	{
-		x:921,y:532,w:19,h:21,XOffset:6,YOffset:11,CropWidth:19,CropHeight:21,ow:32,oh:40,tp:2	}
+		x:669,y:152,w:15,h:27,XOffset:10,YOffset:2,CropWidth:15,CropHeight:27,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:956,y:542,w:17,h:23,XOffset:6,YOffset:9,CropWidth:17,CropHeight:23,ow:32,oh:40,tp:2	}
+		x:700,y:152,w:20,h:20,XOffset:1,YOffset:1,CropWidth:20,CropHeight:20,ow:24,oh:24,tp:2	}
 	,
 	{
-		x:917,y:581,w:39,h:10,XOffset:1,YOffset:4,CropWidth:39,CropHeight:10,ow:40,oh:16,tp:2	}
+		x:736,y:152,w:16,h:25,XOffset:8,YOffset:0,CropWidth:16,CropHeight:25,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:989,y:542,w:20,h:19,XOffset:7,YOffset:7,CropWidth:20,CropHeight:19,ow:32,oh:32,tp:2	}
+		x:768,y:152,w:16,h:25,XOffset:8,YOffset:0,CropWidth:16,CropHeight:25,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:989,y:577,w:20,h:19,XOffset:2,YOffset:2,CropWidth:20,CropHeight:19,ow:24,oh:24,tp:2	}
+		x:629,y:185,w:20,h:20,XOffset:2,YOffset:2,CropWidth:20,CropHeight:20,ow:24,oh:24,tp:2	}
 	,
 	{
-		x:917,y:607,w:20,h:19,XOffset:2,YOffset:2,CropWidth:20,CropHeight:19,ow:24,oh:24,tp:2	}
+		x:8,y:477,w:19,h:21,XOffset:6,YOffset:11,CropWidth:19,CropHeight:21,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:953,y:607,w:15,h:25,XOffset:8,YOffset:1,CropWidth:15,CropHeight:25,ow:32,oh:32,tp:2	}
+		x:43,y:477,w:17,h:23,XOffset:6,YOffset:9,CropWidth:17,CropHeight:23,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:984,y:612,w:22,h:17,XOffset:5,YOffset:17,CropWidth:22,CropHeight:17,ow:32,oh:40,tp:2	}
+		x:700,y:193,w:39,h:10,XOffset:1,YOffset:4,CropWidth:39,CropHeight:10,ow:40,oh:16,tp:2	}
 	,
 	{
-		x:907,y:642,w:22,h:17,XOffset:6,YOffset:2,CropWidth:22,CropHeight:17,ow:32,oh:24,tp:2	}
+		x:76,y:477,w:20,h:19,XOffset:7,YOffset:7,CropWidth:20,CropHeight:19,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:916,y:675,w:19,h:18,XOffset:4,YOffset:0,CropWidth:19,CropHeight:18,ow:32,oh:24,tp:2	}
+		x:112,y:477,w:20,h:19,XOffset:2,YOffset:2,CropWidth:20,CropHeight:19,ow:24,oh:24,tp:2	}
 	,
 	{
-		x:916,y:709,w:21,h:16,XOffset:1,YOffset:0,CropWidth:21,CropHeight:16,ow:24,oh:16,tp:2	}
+		x:148,y:477,w:20,h:19,XOffset:2,YOffset:2,CropWidth:20,CropHeight:19,ow:24,oh:24,tp:2	}
 	,
 	{
-		x:916,y:741,w:18,h:18,XOffset:7,YOffset:8,CropWidth:18,CropHeight:18,ow:32,oh:32,tp:2	}
+		x:184,y:477,w:15,h:25,XOffset:8,YOffset:1,CropWidth:15,CropHeight:25,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:903,y:775,w:16,h:20,XOffset:8,YOffset:7,CropWidth:16,CropHeight:20,ow:32,oh:32,tp:2	}
+		x:559,y:187,w:22,h:17,XOffset:5,YOffset:17,CropWidth:22,CropHeight:17,ow:32,oh:40,tp:2	}
 	,
 	{
-		x:905,y:811,w:20,h:16,XOffset:0,YOffset:0,CropWidth:20,CropHeight:16,ow:32,oh:16,tp:2	}
+		x:215,y:477,w:22,h:17,XOffset:6,YOffset:2,CropWidth:22,CropHeight:17,ow:32,oh:24,tp:2	}
 	,
 	{
-		x:916,y:843,w:18,h:17,XOffset:6,YOffset:8,CropWidth:18,CropHeight:17,ow:32,oh:32,tp:2	}
+		x:216,y:774,w:18,h:19,XOffset:7,YOffset:5,CropWidth:18,CropHeight:19,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:916,y:876,w:17,h:18,XOffset:4,YOffset:2,CropWidth:17,CropHeight:18,ow:24,oh:24,tp:2	}
+		x:250,y:774,w:19,h:18,XOffset:4,YOffset:0,CropWidth:19,CropHeight:18,ow:32,oh:24,tp:2	}
 	,
 	{
-		x:912,y:910,w:17,h:17,XOffset:7,YOffset:7,CropWidth:17,CropHeight:17,ow:32,oh:32,tp:2	}
+		x:304,y:740,w:21,h:16,XOffset:1,YOffset:0,CropWidth:21,CropHeight:16,ow:24,oh:16,tp:2	}
 	,
 	{
-		x:905,y:943,w:16,h:18,XOffset:8,YOffset:8,CropWidth:16,CropHeight:18,ow:32,oh:32,tp:2	}
+		x:279,y:990,w:15,h:22,XOffset:5,YOffset:7,CropWidth:15,CropHeight:22,ow:24,oh:32,tp:2	}
 	,
 	{
-		x:904,y:977,w:18,h:16,XOffset:7,YOffset:9,CropWidth:18,CropHeight:16,ow:32,oh:32,tp:2	}
+		x:310,y:990,w:18,h:18,XOffset:7,YOffset:8,CropWidth:18,CropHeight:18,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:559,y:152,w:16,h:18,XOffset:8,YOffset:8,CropWidth:16,CropHeight:18,ow:32,oh:32,tp:2	}
+		x:508,y:526,w:16,h:20,XOffset:8,YOffset:7,CropWidth:16,CropHeight:20,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:591,y:152,w:18,h:16,XOffset:0,YOffset:0,CropWidth:18,CropHeight:16,ow:32,oh:16,tp:2	}
+		x:458,y:766,w:20,h:16,XOffset:0,YOffset:0,CropWidth:20,CropHeight:16,ow:32,oh:16,tp:2	}
 	,
 	{
-		x:662,y:1002,w:22,h:13,XOffset:7,YOffset:3,CropWidth:22,CropHeight:13,ow:32,oh:24,tp:2	}
+		x:508,y:562,w:18,h:17,XOffset:6,YOffset:8,CropWidth:18,CropHeight:17,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:559,y:186,w:15,h:19,XOffset:0,YOffset:2,CropWidth:15,CropHeight:19,ow:16,oh:24,tp:2	}
+		x:500,y:595,w:18,h:17,XOffset:4,YOffset:3,CropWidth:18,CropHeight:17,ow:24,oh:24,tp:2	}
 	,
 	{
-		x:625,y:152,w:20,h:14,XOffset:6,YOffset:1,CropWidth:20,CropHeight:14,ow:32,oh:16,tp:2	}
+		x:500,y:730,w:17,h:18,XOffset:4,YOffset:2,CropWidth:17,CropHeight:18,ow:24,oh:24,tp:2	}
 	,
 	{
-		x:591,y:184,w:20,h:14,XOffset:0,YOffset:1,CropWidth:20,CropHeight:14,ow:24,oh:16,tp:2	}
+		x:534,y:916,w:17,h:17,XOffset:7,YOffset:7,CropWidth:17,CropHeight:17,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:700,y:1001,w:19,h:14,XOffset:1,YOffset:1,CropWidth:19,CropHeight:14,ow:24,oh:16,tp:2	}
+		x:524,y:997,w:16,h:18,XOffset:8,YOffset:8,CropWidth:16,CropHeight:18,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:661,y:152,w:22,h:12,XOffset:1,YOffset:3,CropWidth:22,CropHeight:12,ow:24,oh:16,tp:2	}
+		x:556,y:997,w:18,h:16,XOffset:7,YOffset:9,CropWidth:18,CropHeight:16,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:627,y:182,w:20,h:13,XOffset:1,YOffset:2,CropWidth:20,CropHeight:13,ow:24,oh:16,tp:2	}
+		x:843,y:650,w:16,h:18,XOffset:8,YOffset:8,CropWidth:16,CropHeight:18,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:699,y:152,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
+		x:648,y:996,w:18,h:16,XOffset:0,YOffset:0,CropWidth:18,CropHeight:16,ow:32,oh:16,tp:2	}
 	,
 	{
-		x:731,y:152,w:16,h:16,XOffset:16,YOffset:16,CropWidth:16,CropHeight:16,ow:48,oh:48,tp:2	}
+		x:192,y:1003,w:22,h:13,XOffset:7,YOffset:3,CropWidth:22,CropHeight:13,ow:32,oh:24,tp:2	}
 	,
 	{
-		x:663,y:180,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:32,oh:16,tp:2	}
+		x:725,y:866,w:15,h:19,XOffset:0,YOffset:2,CropWidth:15,CropHeight:19,ow:16,oh:24,tp:2	}
 	,
 	{
-		x:763,y:152,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
+		x:682,y:998,w:20,h:14,XOffset:6,YOffset:1,CropWidth:20,CropHeight:14,ow:32,oh:16,tp:2	}
 	,
 	{
-		x:695,y:184,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
+		x:981,y:846,w:20,h:14,XOffset:0,YOffset:1,CropWidth:20,CropHeight:14,ow:24,oh:16,tp:2	}
 	,
 	{
-		x:727,y:184,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
+		x:827,y:814,w:19,h:14,XOffset:1,YOffset:1,CropWidth:19,CropHeight:14,ow:24,oh:16,tp:2	}
 	,
 	{
-		x:759,y:184,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
+		x:865,y:822,w:22,h:12,XOffset:1,YOffset:3,CropWidth:22,CropHeight:12,ow:24,oh:16,tp:2	}
 	,
 	{
-		x:953,y:648,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
+		x:864,y:895,w:20,h:13,XOffset:1,YOffset:2,CropWidth:20,CropHeight:13,ow:24,oh:16,tp:2	}
 	,
 	{
-		x:953,y:680,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
+		x:759,y:825,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:985,y:645,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
+		x:862,y:933,w:16,h:16,XOffset:16,YOffset:16,CropWidth:16,CropHeight:16,ow:48,oh:48,tp:2	}
 	,
 	{
-		x:985,y:677,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
+		x:900,y:858,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:32,oh:16,tp:2	}
 	,
 	{
-		x:985,y:709,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
+		x:862,y:965,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:953,y:712,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
+		x:894,y:924,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:950,y:744,w:16,h:16,XOffset:1,YOffset:0,CropWidth:16,CropHeight:16,ow:24,oh:16,tp:2	}
+		x:932,y:858,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:458,y:763,w:15,h:17,XOffset:0,YOffset:3,CropWidth:15,CropHeight:17,ow:16,oh:24,tp:2	}
+		x:865,y:850,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:634,y:757,w:15,h:17,XOffset:4,YOffset:7,CropWidth:15,CropHeight:17,ow:24,oh:32,tp:2	}
+		x:862,y:997,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:257,y:774,w:15,h:17,XOffset:4,YOffset:7,CropWidth:15,CropHeight:17,ow:24,oh:32,tp:2	}
+		x:894,y:956,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:754,y:998,w:15,h:17,XOffset:4,YOffset:7,CropWidth:15,CropHeight:17,ow:24,oh:32,tp:2	}
+		x:926,y:890,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:794,y:996,w:15,h:17,XOffset:4,YOffset:7,CropWidth:15,CropHeight:17,ow:24,oh:32,tp:2	}
+		x:964,y:876,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:949,y:876,w:14,h:18,XOffset:2,YOffset:5,CropWidth:14,CropHeight:18,ow:16,oh:32,tp:2	}
+		x:894,y:988,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:945,y:910,w:14,h:18,XOffset:2,YOffset:8,CropWidth:14,CropHeight:18,ow:16,oh:32,tp:2	}
+		x:926,y:922,w:16,h:16,XOffset:0,YOffset:0,CropWidth:16,CropHeight:16,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:393,y:711,w:25,h:10,XOffset:3,YOffset:4,CropWidth:25,CropHeight:10,ow:32,oh:16,tp:2	}
+		x:996,y:876,w:16,h:16,XOffset:1,YOffset:0,CropWidth:16,CropHeight:16,ow:24,oh:16,tp:2	}
 	,
 	{
-		x:527,y:1000,w:16,h:15,XOffset:15,YOffset:28,CropWidth:16,CropHeight:15,ow:48,oh:48,tp:2	}
+		x:341,y:740,w:15,h:17,XOffset:0,YOffset:3,CropWidth:15,CropHeight:17,ow:16,oh:24,tp:2	}
 	,
 	{
-		x:834,y:673,w:16,h:15,XOffset:6,YOffset:0,CropWidth:16,CropHeight:15,ow:24,oh:16,tp:2	}
+		x:958,y:908,w:15,h:17,XOffset:4,YOffset:7,CropWidth:15,CropHeight:17,ow:24,oh:32,tp:2	}
 	,
 	{
-		x:554,y:718,w:20,h:12,XOffset:5,YOffset:13,CropWidth:20,CropHeight:12,ow:32,oh:32,tp:2	}
+		x:926,y:954,w:15,h:17,XOffset:4,YOffset:7,CropWidth:15,CropHeight:17,ow:24,oh:32,tp:2	}
 	,
 	{
-		x:832,y:792,w:16,h:15,XOffset:0,YOffset:6,CropWidth:16,CropHeight:15,ow:16,oh:24,tp:2	}
+		x:989,y:908,w:15,h:17,XOffset:4,YOffset:7,CropWidth:15,CropHeight:17,ow:24,oh:32,tp:2	}
 	,
 	{
-		x:985,y:741,w:16,h:15,XOffset:0,YOffset:1,CropWidth:16,CropHeight:15,ow:16,oh:16,tp:2	}
+		x:958,y:941,w:15,h:17,XOffset:4,YOffset:7,CropWidth:15,CropHeight:17,ow:24,oh:32,tp:2	}
 	,
 	{
-		x:935,y:776,w:17,h:14,XOffset:1,YOffset:1,CropWidth:17,CropHeight:14,ow:24,oh:16,tp:2	}
+		x:926,y:987,w:14,h:18,XOffset:2,YOffset:5,CropWidth:14,CropHeight:18,ow:16,oh:32,tp:2	}
 	,
 	{
-		x:979,y:776,w:13,h:18,XOffset:2,YOffset:9,CropWidth:13,CropHeight:18,ow:16,oh:32,tp:2	}
+		x:989,y:941,w:14,h:18,XOffset:2,YOffset:8,CropWidth:14,CropHeight:18,ow:16,oh:32,tp:2	}
 	,
 	{
-		x:975,y:910,w:13,h:18,XOffset:1,YOffset:2,CropWidth:13,CropHeight:18,ow:16,oh:24,tp:2	}
+		x:727,y:579,w:25,h:10,XOffset:3,YOffset:4,CropWidth:25,CropHeight:10,ow:32,oh:16,tp:2	}
 	,
 	{
-		x:825,y:1001,w:16,h:14,XOffset:0,YOffset:2,CropWidth:16,CropHeight:14,ow:16,oh:16,tp:2	}
+		x:956,y:987,w:16,h:15,XOffset:15,YOffset:28,CropWidth:16,CropHeight:15,ow:48,oh:48,tp:2	}
 	,
 	{
-		x:938,y:944,w:14,h:16,XOffset:1,YOffset:0,CropWidth:14,CropHeight:16,ow:16,oh:16,tp:2	}
+		x:988,y:975,w:16,h:15,XOffset:6,YOffset:0,CropWidth:16,CropHeight:15,ow:24,oh:16,tp:2	}
 	,
 	{
-		x:941,y:806,w:16,h:14,XOffset:0,YOffset:2,CropWidth:16,CropHeight:14,ow:16,oh:16,tp:2	}
+		x:755,y:193,w:20,h:12,XOffset:5,YOffset:13,CropWidth:20,CropHeight:12,ow:32,oh:32,tp:2	}
 	,
 	{
-		x:979,y:810,w:14,h:16,XOffset:1,YOffset:0,CropWidth:14,CropHeight:16,ow:16,oh:16,tp:2	}
+		x:831,y:8,w:16,h:15,XOffset:0,YOffset:6,CropWidth:16,CropHeight:15,ow:16,oh:24,tp:2	}
 	,
 	{
-		x:968,y:944,w:14,h:16,XOffset:5,YOffset:0,CropWidth:14,CropHeight:16,ow:24,oh:16,tp:2	}
+		x:831,y:39,w:16,h:15,XOffset:0,YOffset:1,CropWidth:16,CropHeight:15,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:192,y:1003,w:20,h:11,XOffset:6,YOffset:2,CropWidth:20,CropHeight:11,ow:32,oh:16,tp:2	}
+		x:831,y:70,w:17,h:14,XOffset:1,YOffset:1,CropWidth:17,CropHeight:14,ow:24,oh:16,tp:2	}
 	,
 	{
-		x:938,y:976,w:14,h:15,XOffset:1,YOffset:0,CropWidth:14,CropHeight:15,ow:16,oh:16,tp:2	}
+		x:831,y:100,w:13,h:18,XOffset:2,YOffset:9,CropWidth:13,CropHeight:18,ow:16,oh:32,tp:2	}
 	,
 	{
-		x:857,y:1002,w:15,h:14,XOffset:0,YOffset:1,CropWidth:15,CropHeight:14,ow:16,oh:16,tp:2	}
+		x:860,y:100,w:13,h:18,XOffset:1,YOffset:2,CropWidth:13,CropHeight:18,ow:16,oh:24,tp:2	}
 	,
 	{
-		x:979,y:842,w:15,h:14,XOffset:3,YOffset:7,CropWidth:15,CropHeight:14,ow:24,oh:24,tp:2	}
+		x:864,y:8,w:16,h:14,XOffset:0,YOffset:2,CropWidth:16,CropHeight:14,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:998,y:944,w:16,h:13,XOffset:7,YOffset:1,CropWidth:16,CropHeight:13,ow:24,oh:16,tp:2	}
+		x:864,y:38,w:14,h:16,XOffset:1,YOffset:0,CropWidth:14,CropHeight:16,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:506,y:627,w:20,h:10,XOffset:6,YOffset:3,CropWidth:20,CropHeight:10,ow:32,oh:16,tp:2	}
+		x:864,y:70,w:16,h:14,XOffset:0,YOffset:2,CropWidth:16,CropHeight:14,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:979,y:872,w:14,h:14,XOffset:1,YOffset:1,CropWidth:14,CropHeight:14,ow:16,oh:16,tp:2	}
+		x:889,y:100,w:14,h:16,XOffset:1,YOffset:0,CropWidth:14,CropHeight:16,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:968,y:976,w:14,h:14,XOffset:1,YOffset:1,CropWidth:14,CropHeight:14,ow:16,oh:16,tp:2	}
+		x:896,y:8,w:14,h:16,XOffset:5,YOffset:0,CropWidth:14,CropHeight:16,ow:24,oh:16,tp:2	}
 	,
 	{
-		x:468,y:1005,w:21,h:9,XOffset:5,YOffset:18,CropWidth:21,CropHeight:9,ow:32,oh:32,tp:2	}
+		x:896,y:40,w:20,h:11,XOffset:6,YOffset:2,CropWidth:20,CropHeight:11,ow:32,oh:16,tp:2	}
 	,
 	{
-		x:950,y:836,w:9,h:21,XOffset:3,YOffset:6,CropWidth:9,CropHeight:21,ow:16,oh:32,tp:2	}
+		x:896,y:67,w:14,h:15,XOffset:1,YOffset:0,CropWidth:14,CropHeight:15,ow:16,oh:16,tp:2	}
+	,
+	{
+		x:919,y:98,w:15,h:14,XOffset:0,YOffset:1,CropWidth:15,CropHeight:14,ow:16,oh:16,tp:2	}
+	,
+	{
+		x:926,y:67,w:15,h:14,XOffset:3,YOffset:7,CropWidth:15,CropHeight:14,ow:24,oh:24,tp:2	}
+	,
+	{
+		x:932,y:8,w:16,h:13,XOffset:7,YOffset:1,CropWidth:16,CropHeight:13,ow:24,oh:16,tp:2	}
+	,
+	{
+		x:932,y:37,w:20,h:10,XOffset:6,YOffset:3,CropWidth:20,CropHeight:10,ow:32,oh:16,tp:2	}
+	,
+	{
+		x:968,y:8,w:14,h:14,XOffset:1,YOffset:1,CropWidth:14,CropHeight:14,ow:16,oh:16,tp:2	}
+	,
+	{
+		x:998,y:8,w:14,h:14,XOffset:1,YOffset:1,CropWidth:14,CropHeight:14,ow:16,oh:16,tp:2	}
+	,
+	{
+		x:968,y:38,w:21,h:9,XOffset:5,YOffset:18,CropWidth:21,CropHeight:9,ow:32,oh:32,tp:2	}
+	,
+	{
+		x:1005,y:38,w:9,h:21,XOffset:3,YOffset:6,CropWidth:9,CropHeight:21,ow:16,oh:32,tp:2	}
 	,
 	{
 		x:984,y:739,w:31,h:6,XOffset:0,YOffset:5,CropWidth:31,CropHeight:6,ow:32,oh:16,tp:1	}
 	,
 	{
-		x:922,y:502,w:14,h:13,XOffset:1,YOffset:4,CropWidth:14,CropHeight:13,ow:16,oh:32,tp:2	}
+		x:957,y:63,w:14,h:13,XOffset:1,YOffset:4,CropWidth:14,CropHeight:13,ow:16,oh:32,tp:2	}
 	,
 	{
-		x:228,y:1003,w:14,h:13,XOffset:1,YOffset:3,CropWidth:14,CropHeight:13,ow:16,oh:16,tp:2	}
+		x:987,y:75,w:14,h:13,XOffset:1,YOffset:3,CropWidth:14,CropHeight:13,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:683,y:627,w:12,h:14,XOffset:2,YOffset:2,CropWidth:12,CropHeight:14,ow:16,oh:16,tp:2	}
+		x:950,y:104,w:12,h:14,XOffset:2,YOffset:2,CropWidth:12,CropHeight:14,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:998,y:973,w:12,h:12,XOffset:2,YOffset:2,CropWidth:12,CropHeight:12,ow:16,oh:16,tp:2	}
+		x:978,y:104,w:12,h:12,XOffset:2,YOffset:2,CropWidth:12,CropHeight:12,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:1004,y:902,w:12,h:12,XOffset:2,YOffset:2,CropWidth:12,CropHeight:12,ow:16,oh:16,tp:2	}
+		x:344,y:990,w:12,h:12,XOffset:2,YOffset:2,CropWidth:12,CropHeight:12,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:998,y:1001,w:12,h:12,XOffset:2,YOffset:2,CropWidth:12,CropHeight:12,ow:16,oh:16,tp:2	}
+		x:230,y:1003,w:12,h:12,XOffset:2,YOffset:2,CropWidth:12,CropHeight:12,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:831,y:8,w:12,h:12,XOffset:2,YOffset:2,CropWidth:12,CropHeight:12,ow:16,oh:16,tp:2	}
+		x:660,y:909,w:12,h:12,XOffset:2,YOffset:2,CropWidth:12,CropHeight:12,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:831,y:36,w:12,h:12,XOffset:6,YOffset:6,CropWidth:12,CropHeight:12,ow:24,oh:24,tp:2	}
+		x:1004,y:481,w:12,h:12,XOffset:2,YOffset:2,CropWidth:12,CropHeight:12,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:831,y:64,w:11,h:11,XOffset:2,YOffset:4,CropWidth:11,CropHeight:11,ow:16,oh:16,tp:2	}
+		x:8,y:8,w:12,h:12,XOffset:6,YOffset:6,CropWidth:12,CropHeight:12,ow:24,oh:24,tp:3	}
 	,
 	{
-		x:831,y:91,w:11,h:10,XOffset:3,YOffset:3,CropWidth:11,CropHeight:10,ow:16,oh:16,tp:2	}
+		x:597,y:194,w:11,h:11,XOffset:2,YOffset:4,CropWidth:11,CropHeight:11,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:831,y:117,w:10,h:10,XOffset:3,YOffset:3,CropWidth:10,CropHeight:10,ow:16,oh:16,tp:2	}
+		x:988,y:1006,w:11,h:10,XOffset:3,YOffset:3,CropWidth:11,CropHeight:10,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:857,y:117,w:10,h:10,XOffset:3,YOffset:3,CropWidth:10,CropHeight:10,ow:16,oh:16,tp:2	}
+		x:900,y:890,w:10,h:10,XOffset:3,YOffset:3,CropWidth:10,CropHeight:10,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:858,y:64,w:10,h:10,XOffset:3,YOffset:3,CropWidth:10,CropHeight:10,ow:16,oh:16,tp:2	}
+		x:1006,y:104,w:10,h:10,XOffset:3,YOffset:3,CropWidth:10,CropHeight:10,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:858,y:90,w:10,h:10,XOffset:3,YOffset:3,CropWidth:10,CropHeight:10,ow:16,oh:16,tp:2	}
+		x:101,y:1006,w:10,h:10,XOffset:3,YOffset:3,CropWidth:10,CropHeight:10,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:859,y:8,w:10,h:10,XOffset:3,YOffset:4,CropWidth:10,CropHeight:10,ow:16,oh:16,tp:2	}
+		x:127,y:1006,w:10,h:10,XOffset:3,YOffset:3,CropWidth:10,CropHeight:10,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:859,y:34,w:11,h:9,XOffset:3,YOffset:4,CropWidth:11,CropHeight:9,ow:16,oh:16,tp:2	}
+		x:153,y:1006,w:10,h:10,XOffset:3,YOffset:4,CropWidth:10,CropHeight:10,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:884,y:59,w:8,h:12,XOffset:0,YOffset:2,CropWidth:8,CropHeight:12,ow:8,oh:16,tp:2	}
+		x:215,y:510,w:11,h:9,XOffset:3,YOffset:4,CropWidth:11,CropHeight:9,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:884,y:87,w:7,h:13,XOffset:17,YOffset:1,CropWidth:7,CropHeight:13,ow:24,oh:16,tp:2	}
+		x:791,y:193,w:8,h:12,XOffset:0,YOffset:2,CropWidth:8,CropHeight:12,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:886,y:8,w:8,h:11,XOffset:0,YOffset:3,CropWidth:8,CropHeight:11,ow:8,oh:16,tp:2	}
+		x:590,y:993,w:7,h:13,XOffset:17,YOffset:1,CropWidth:7,CropHeight:13,ow:24,oh:16,tp:2	}
 	,
 	{
-		x:908,y:35,w:8,h:11,XOffset:0,YOffset:3,CropWidth:8,CropHeight:11,ow:8,oh:16,tp:2	}
+		x:659,y:788,w:8,h:11,XOffset:0,YOffset:3,CropWidth:8,CropHeight:11,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:908,y:62,w:8,h:11,XOffset:0,YOffset:2,CropWidth:8,CropHeight:11,ow:8,oh:16,tp:2	}
+		x:8,y:36,w:8,h:11,XOffset:0,YOffset:3,CropWidth:8,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:907,y:89,w:12,h:7,XOffset:2,YOffset:5,CropWidth:12,CropHeight:7,ow:16,oh:16,tp:2	}
+		x:8,y:63,w:8,h:11,XOffset:0,YOffset:2,CropWidth:8,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:907,y:112,w:7,h:12,XOffset:4,YOffset:2,CropWidth:7,CropHeight:12,ow:16,oh:16,tp:2	}
+		x:919,y:128,w:12,h:7,XOffset:2,YOffset:5,CropWidth:12,CropHeight:7,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:935,y:8,w:14,h:6,XOffset:1,YOffset:5,CropWidth:14,CropHeight:6,ow:16,oh:16,tp:2	}
+		x:8,y:90,w:7,h:12,XOffset:4,YOffset:2,CropWidth:7,CropHeight:12,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:935,y:30,w:7,h:12,XOffset:0,YOffset:2,CropWidth:7,CropHeight:12,ow:8,oh:16,tp:2	}
+		x:613,y:1008,w:14,h:6,XOffset:1,YOffset:5,CropWidth:14,CropHeight:6,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:935,y:58,w:7,h:12,XOffset:0,YOffset:2,CropWidth:7,CropHeight:12,ow:8,oh:16,tp:2	}
+		x:8,y:118,w:7,h:12,XOffset:0,YOffset:2,CropWidth:7,CropHeight:12,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:935,y:86,w:7,h:12,XOffset:0,YOffset:2,CropWidth:7,CropHeight:12,ow:8,oh:16,tp:2	}
+		x:8,y:146,w:7,h:12,XOffset:0,YOffset:2,CropWidth:7,CropHeight:12,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:930,y:114,w:7,h:12,XOffset:0,YOffset:2,CropWidth:7,CropHeight:12,ow:8,oh:16,tp:2	}
+		x:8,y:174,w:7,h:12,XOffset:0,YOffset:2,CropWidth:7,CropHeight:12,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:953,y:114,w:7,h:12,XOffset:0,YOffset:2,CropWidth:7,CropHeight:12,ow:8,oh:16,tp:2	}
+		x:8,y:202,w:7,h:12,XOffset:0,YOffset:2,CropWidth:7,CropHeight:12,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:958,y:30,w:7,h:12,XOffset:0,YOffset:2,CropWidth:7,CropHeight:12,ow:8,oh:16,tp:2	}
+		x:8,y:230,w:7,h:12,XOffset:0,YOffset:2,CropWidth:7,CropHeight:12,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:958,y:58,w:7,h:12,XOffset:0,YOffset:2,CropWidth:7,CropHeight:12,ow:8,oh:16,tp:2	}
+		x:8,y:258,w:7,h:12,XOffset:0,YOffset:2,CropWidth:7,CropHeight:12,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:958,y:86,w:7,h:12,XOffset:0,YOffset:2,CropWidth:7,CropHeight:12,ow:8,oh:16,tp:2	}
+		x:8,y:286,w:7,h:12,XOffset:0,YOffset:2,CropWidth:7,CropHeight:12,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:981,y:8,w:12,h:7,XOffset:0,YOffset:0,CropWidth:12,CropHeight:7,ow:16,oh:8,tp:2	}
+		x:8,y:314,w:7,h:12,XOffset:0,YOffset:2,CropWidth:7,CropHeight:12,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:981,y:31,w:12,h:7,XOffset:0,YOffset:0,CropWidth:12,CropHeight:7,ow:16,oh:8,tp:2	}
+		x:76,y:512,w:12,h:7,XOffset:0,YOffset:0,CropWidth:12,CropHeight:7,ow:16,oh:8,tp:2	}
 	,
 	{
-		x:981,y:54,w:12,h:7,XOffset:0,YOffset:0,CropWidth:12,CropHeight:7,ow:16,oh:8,tp:2	}
+		x:104,y:512,w:12,h:7,XOffset:0,YOffset:0,CropWidth:12,CropHeight:7,ow:16,oh:8,tp:2	}
 	,
 	{
-		x:981,y:77,w:12,h:7,XOffset:0,YOffset:0,CropWidth:12,CropHeight:7,ow:16,oh:8,tp:2	}
+		x:132,y:512,w:12,h:7,XOffset:0,YOffset:0,CropWidth:12,CropHeight:7,ow:16,oh:8,tp:2	}
 	,
 	{
-		x:968,y:1006,w:8,h:10,XOffset:0,YOffset:4,CropWidth:8,CropHeight:10,ow:8,oh:16,tp:2	}
+		x:665,y:195,w:12,h:7,XOffset:0,YOffset:0,CropWidth:12,CropHeight:7,ow:16,oh:8,tp:2	}
 	,
 	{
-		x:938,y:1007,w:10,h:8,XOffset:4,YOffset:4,CropWidth:10,CropHeight:8,ow:16,oh:16,tp:2	}
+		x:8,y:342,w:8,h:10,XOffset:0,YOffset:4,CropWidth:8,CropHeight:10,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:883,y:116,w:8,h:10,XOffset:4,YOffset:3,CropWidth:8,CropHeight:10,ow:16,oh:16,tp:2	}
+		x:8,y:368,w:10,h:8,XOffset:4,YOffset:4,CropWidth:10,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:910,y:8,w:8,h:10,XOffset:4,YOffset:3,CropWidth:8,CropHeight:10,ow:16,oh:16,tp:2	}
+		x:8,y:392,w:8,h:10,XOffset:4,YOffset:3,CropWidth:8,CropHeight:10,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:981,y:100,w:7,h:11,XOffset:0,YOffset:3,CropWidth:7,CropHeight:11,ow:8,oh:16,tp:2	}
+		x:8,y:418,w:8,h:10,XOffset:4,YOffset:3,CropWidth:8,CropHeight:10,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:1009,y:8,w:7,h:11,XOffset:0,YOffset:3,CropWidth:7,CropHeight:11,ow:8,oh:16,tp:2	}
+		x:8,y:444,w:7,h:11,XOffset:0,YOffset:3,CropWidth:7,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:1009,y:35,w:7,h:11,XOffset:0,YOffset:3,CropWidth:7,CropHeight:11,ow:8,oh:16,tp:2	}
+		x:8,y:471,w:7,h:11,XOffset:0,YOffset:3,CropWidth:7,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:976,y:127,w:9,h:8,XOffset:11,YOffset:4,CropWidth:9,CropHeight:8,ow:32,oh:16,tp:2	}
+		x:31,y:90,w:7,h:11,XOffset:0,YOffset:3,CropWidth:7,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:1004,y:100,w:6,h:12,XOffset:0,YOffset:2,CropWidth:6,CropHeight:12,ow:8,oh:16,tp:2	}
+		x:31,y:117,w:9,h:8,XOffset:11,YOffset:4,CropWidth:9,CropHeight:8,ow:32,oh:16,tp:3	}
 	,
 	{
-		x:1009,y:62,w:6,h:12,XOffset:0,YOffset:3,CropWidth:6,CropHeight:12,ow:8,oh:16,tp:2	}
+		x:1010,y:605,w:6,h:12,XOffset:0,YOffset:2,CropWidth:6,CropHeight:12,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:434,y:711,w:8,h:9,XOffset:4,YOffset:4,CropWidth:8,CropHeight:9,ow:16,oh:16,tp:2	}
+		x:975,y:739,w:6,h:12,XOffset:0,YOffset:3,CropWidth:6,CropHeight:12,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:49,y:512,w:9,h:8,XOffset:4,YOffset:4,CropWidth:9,CropHeight:8,ow:16,oh:16,tp:2	}
+		x:31,y:309,w:8,h:9,XOffset:4,YOffset:4,CropWidth:8,CropHeight:9,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:1001,y:128,w:9,h:8,XOffset:4,YOffset:4,CropWidth:9,CropHeight:8,ow:16,oh:16,tp:2	}
+		x:31,y:237,w:9,h:8,XOffset:4,YOffset:4,CropWidth:9,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:126,y:1006,w:9,h:8,XOffset:4,YOffset:4,CropWidth:9,CropHeight:8,ow:16,oh:16,tp:2	}
+		x:31,y:141,w:9,h:8,XOffset:4,YOffset:4,CropWidth:9,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:101,y:1006,w:9,h:8,XOffset:4,YOffset:4,CropWidth:9,CropHeight:8,ow:16,oh:16,tp:2	}
+		x:31,y:189,w:9,h:8,XOffset:4,YOffset:4,CropWidth:9,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:101,y:1006,w:9,h:8,XOffset:4,YOffset:4,CropWidth:9,CropHeight:8,ow:16,oh:16,tp:2	}
+		x:31,y:165,w:9,h:8,XOffset:4,YOffset:4,CropWidth:9,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:126,y:1006,w:9,h:8,XOffset:4,YOffset:4,CropWidth:9,CropHeight:8,ow:16,oh:16,tp:2	}
+		x:31,y:165,w:9,h:8,XOffset:4,YOffset:4,CropWidth:9,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:151,y:1006,w:9,h:8,XOffset:4,YOffset:4,CropWidth:9,CropHeight:8,ow:16,oh:16,tp:2	}
+		x:31,y:189,w:9,h:8,XOffset:4,YOffset:4,CropWidth:9,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:49,y:512,w:9,h:8,XOffset:4,YOffset:4,CropWidth:9,CropHeight:8,ow:16,oh:16,tp:2	}
+		x:31,y:213,w:9,h:8,XOffset:4,YOffset:4,CropWidth:9,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:633,y:891,w:9,h:8,XOffset:4,YOffset:4,CropWidth:9,CropHeight:8,ow:16,oh:16,tp:2	}
+		x:31,y:237,w:9,h:8,XOffset:4,YOffset:4,CropWidth:9,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:8,y:8,w:9,h:8,XOffset:4,YOffset:4,CropWidth:9,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:31,y:261,w:9,h:8,XOffset:4,YOffset:4,CropWidth:9,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:434,y:711,w:8,h:9,XOffset:4,YOffset:4,CropWidth:8,CropHeight:9,ow:16,oh:16,tp:2	}
+		x:31,y:285,w:9,h:8,XOffset:4,YOffset:4,CropWidth:9,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:1008,y:772,w:8,h:9,XOffset:0,YOffset:3,CropWidth:8,CropHeight:9,ow:8,oh:16,tp:2	}
+		x:31,y:309,w:8,h:9,XOffset:4,YOffset:4,CropWidth:8,CropHeight:9,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:791,y:184,w:8,h:9,XOffset:0,YOffset:3,CropWidth:8,CropHeight:9,ow:8,oh:16,tp:2	}
+		x:32,y:334,w:8,h:9,XOffset:0,YOffset:3,CropWidth:8,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:8,y:32,w:8,h:9,XOffset:0,YOffset:3,CropWidth:8,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:34,y:359,w:8,h:9,XOffset:0,YOffset:3,CropWidth:8,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:8,y:57,w:8,h:9,XOffset:0,YOffset:3,CropWidth:8,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:34,y:384,w:8,h:9,XOffset:0,YOffset:3,CropWidth:8,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:1009,y:797,w:7,h:10,XOffset:1,YOffset:4,CropWidth:7,CropHeight:10,ow:8,oh:16,tp:2	}
+		x:32,y:409,w:8,h:9,XOffset:0,YOffset:3,CropWidth:8,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:1009,y:872,w:7,h:10,XOffset:0,YOffset:0,CropWidth:7,CropHeight:10,ow:7,oh:11,tp:2	}
+		x:32,y:434,w:7,h:10,XOffset:1,YOffset:4,CropWidth:7,CropHeight:10,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:505,y:1005,w:6,h:11,XOffset:0,YOffset:3,CropWidth:6,CropHeight:11,ow:8,oh:16,tp:2	}
+		x:31,y:460,w:7,h:10,XOffset:0,YOffset:0,CropWidth:7,CropHeight:10,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:1010,y:823,w:6,h:11,XOffset:0,YOffset:3,CropWidth:6,CropHeight:11,ow:8,oh:16,tp:2	}
+		x:427,y:979,w:6,h:11,XOffset:0,YOffset:3,CropWidth:6,CropHeight:11,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:8,y:82,w:6,h:11,XOffset:0,YOffset:3,CropWidth:6,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:31,y:486,w:6,h:11,XOffset:0,YOffset:3,CropWidth:6,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:8,y:397,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:53,y:486,w:6,h:11,XOffset:0,YOffset:3,CropWidth:6,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:8,y:277,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:56,y:152,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:32,y:56,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:56,y:56,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:8,y:301,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:56,y:320,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:8,y:157,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:56,y:80,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:8,y:181,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:55,y:434,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:8,y:133,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:56,y:409,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:8,y:109,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:54,y:460,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:153,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:160,y:512,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:177,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:80,y:80,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:105,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:80,y:104,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:8,y:205,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:82,y:32,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:8,y:133,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:58,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:273,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:54,y:460,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:8,y:157,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:80,y:200,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:8,y:181,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:55,y:434,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:32,y:32,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:56,y:409,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:225,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:56,y:296,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:8,y:205,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:80,y:152,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:273,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:58,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:8,y:421,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:80,y:200,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:249,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:56,y:176,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:81,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:80,y:176,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:8,y:229,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:82,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:8,y:253,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:58,y:32,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:8,y:277,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:32,y:36,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:8,y:301,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:56,y:56,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:201,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:56,y:80,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:8,y:325,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:80,y:128,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:8,y:349,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:32,y:60,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:8,y:373,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:56,y:104,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:8,y:397,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:56,y:128,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:8,y:421,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:56,y:152,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:8,y:445,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:56,y:176,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:8,y:445,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:56,y:200,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:8,y:469,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:56,y:200,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:8,y:493,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:56,y:224,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:8,y:493,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:56,y:248,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:30,y:82,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:56,y:248,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:57,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:56,y:272,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:32,y:32,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:58,y:368,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:32,y:56,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:56,y:296,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:33,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:56,y:320,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:33,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:58,y:344,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:57,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:58,y:344,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:81,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:58,y:368,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:105,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:82,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:129,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:82,y:32,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:153,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:82,y:56,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:177,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:80,y:80,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:201,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:80,y:104,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:225,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:80,y:128,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:249,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:80,y:152,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:273,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:80,y:176,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:297,y:8,w:8,h:8,XOffset:0,YOffset:4,CropWidth:8,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:80,y:200,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:321,y:8,w:8,h:8,XOffset:0,YOffset:4,CropWidth:8,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:80,y:224,w:8,h:8,XOffset:0,YOffset:4,CropWidth:8,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:345,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:80,y:248,w:8,h:8,XOffset:0,YOffset:4,CropWidth:8,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:369,y:8,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:80,y:272,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:393,y:8,w:8,h:8,XOffset:0,YOffset:0,CropWidth:8,CropHeight:8,ow:8,oh:8,tp:3	}
+		x:80,y:296,w:8,h:8,XOffset:4,YOffset:4,CropWidth:8,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:417,y:8,w:7,h:9,XOffset:0,YOffset:5,CropWidth:7,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:80,y:320,w:8,h:8,XOffset:0,YOffset:0,CropWidth:8,CropHeight:8,ow:8,oh:8,tp:3	}
 	,
 	{
-		x:440,y:8,w:7,h:9,XOffset:0,YOffset:5,CropWidth:7,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:82,y:344,w:7,h:9,XOffset:0,YOffset:5,CropWidth:7,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:463,y:8,w:7,h:9,XOffset:0,YOffset:3,CropWidth:7,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:82,y:369,w:7,h:9,XOffset:0,YOffset:5,CropWidth:7,CropHeight:9,ow:8,oh:16,tp:3	}
+	,
+	{
+		x:80,y:394,w:7,h:9,XOffset:0,YOffset:3,CropWidth:7,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
 		x:258,y:1003,w:5,h:12,XOffset:0,YOffset:3,CropWidth:5,CropHeight:12,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:888,y:1009,w:10,h:6,XOffset:4,YOffset:5,CropWidth:10,CropHeight:6,ow:16,oh:16,tp:2	}
+		x:1006,y:130,w:10,h:6,XOffset:4,YOffset:5,CropWidth:10,CropHeight:6,ow:16,oh:16,tp:2	}
 	,
 	{
 		x:953,y:894,w:6,h:10,XOffset:0,YOffset:2,CropWidth:6,CropHeight:10,ow:8,oh:16,tp:1	}
 	,
 	{
-		x:486,y:8,w:6,h:10,XOffset:1,YOffset:2,CropWidth:6,CropHeight:10,ow:8,oh:16,tp:3	}
+		x:427,y:1006,w:6,h:10,XOffset:1,YOffset:2,CropWidth:6,CropHeight:10,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:56,y:34,w:7,h:8,XOffset:4,YOffset:4,CropWidth:7,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:80,y:419,w:7,h:8,XOffset:4,YOffset:4,CropWidth:7,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:914,y:1009,w:8,h:7,XOffset:4,YOffset:5,CropWidth:8,CropHeight:7,ow:16,oh:16,tp:2	}
+		x:79,y:443,w:8,h:7,XOffset:4,YOffset:5,CropWidth:8,CropHeight:7,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:56,y:58,w:7,h:8,XOffset:4,YOffset:4,CropWidth:7,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:78,y:466,w:7,h:8,XOffset:4,YOffset:4,CropWidth:7,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:54,y:82,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:75,y:490,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:77,y:82,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:98,y:490,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:79,y:34,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:101,y:466,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:79,y:58,w:7,h:8,XOffset:1,YOffset:5,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:103,y:394,w:7,h:8,XOffset:1,YOffset:5,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:102,y:32,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:103,y:418,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:100,y:82,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:103,y:442,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:125,y:32,w:8,h:7,XOffset:0,YOffset:5,CropWidth:8,CropHeight:7,ow:8,oh:16,tp:3	}
+		x:105,y:80,w:8,h:7,XOffset:0,YOffset:5,CropWidth:8,CropHeight:7,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:123,y:56,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:106,y:8,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:149,y:32,w:8,h:7,XOffset:0,YOffset:5,CropWidth:8,CropHeight:7,ow:8,oh:16,tp:3	}
+		x:105,y:103,w:8,h:7,XOffset:0,YOffset:5,CropWidth:8,CropHeight:7,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:123,y:80,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:106,y:32,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:146,y:55,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:104,y:126,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:173,y:32,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:106,y:56,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:146,y:79,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:104,y:150,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:196,y:32,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:104,y:174,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:169,y:56,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:104,y:198,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:219,y:32,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:104,y:222,w:7,h:8,XOffset:1,YOffset:4,CropWidth:7,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:192,y:56,w:7,h:8,XOffset:0,YOffset:0,CropWidth:7,CropHeight:8,ow:8,oh:8,tp:3	}
+		x:104,y:246,w:7,h:8,XOffset:0,YOffset:0,CropWidth:7,CropHeight:8,ow:8,oh:8,tp:3	}
 	,
 	{
-		x:811,y:705,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:2	}
+		x:104,y:270,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:242,y:32,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:104,y:297,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:263,y:32,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:105,y:324,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:215,y:56,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:105,y:351,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:284,y:32,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:125,y:270,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:236,y:59,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:125,y:297,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:305,y:32,w:5,h:11,XOffset:1,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:126,y:324,w:5,h:11,XOffset:1,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:257,y:59,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:126,y:351,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:326,y:32,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:126,y:378,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:278,y:59,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:126,y:405,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:347,y:32,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:126,y:432,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:299,y:59,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:126,y:459,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:368,y:32,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:124,y:486,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:320,y:59,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:145,y:486,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:389,y:32,w:5,h:11,XOffset:0,YOffset:5,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:147,y:8,w:5,h:11,XOffset:0,YOffset:5,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:341,y:59,w:5,h:11,XOffset:0,YOffset:5,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:147,y:35,w:5,h:11,XOffset:0,YOffset:5,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:410,y:33,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:129,y:62,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:431,y:33,w:5,h:11,XOffset:0,YOffset:5,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:129,y:89,w:5,h:11,XOffset:0,YOffset:5,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:362,y:59,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:129,y:116,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:494,y:34,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:127,y:224,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:452,y:33,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:127,y:143,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:383,y:59,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:127,y:170,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:473,y:34,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:127,y:197,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:494,y:34,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:127,y:224,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:404,y:60,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:146,y:251,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:425,y:60,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:146,y:278,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:446,y:60,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:147,y:305,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:467,y:61,w:5,h:11,XOffset:0,YOffset:5,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:147,y:332,w:5,h:11,XOffset:0,YOffset:5,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:488,y:61,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:147,y:359,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:169,y:80,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:147,y:386,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:190,y:80,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:147,y:413,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:211,y:83,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:147,y:440,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:232,y:86,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:148,y:143,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:253,y:86,w:5,h:11,XOffset:0,YOffset:4,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:148,y:170,w:5,h:11,XOffset:0,YOffset:4,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:274,y:86,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:148,y:197,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:295,y:86,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:148,y:224,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:316,y:86,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:150,y:62,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:337,y:86,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:150,y:89,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:358,y:86,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:150,y:116,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:379,y:86,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:168,y:8,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:400,y:87,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:168,y:35,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:421,y:87,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:171,y:62,w:5,h:11,XOffset:0,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:442,y:87,w:5,h:11,XOffset:3,YOffset:2,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:171,y:89,w:5,h:11,XOffset:3,YOffset:2,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:463,y:88,w:5,h:11,XOffset:1,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:171,y:116,w:5,h:11,XOffset:1,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:484,y:88,w:5,h:11,XOffset:1,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:192,y:8,w:5,h:11,XOffset:1,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:32,y:115,w:5,h:11,XOffset:2,YOffset:2,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:192,y:35,w:5,h:11,XOffset:2,YOffset:2,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:32,y:142,w:5,h:11,XOffset:2,YOffset:2,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:192,y:62,w:5,h:11,XOffset:2,YOffset:2,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:32,y:169,w:5,h:11,XOffset:2,YOffset:2,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:192,y:89,w:5,h:11,XOffset:2,YOffset:2,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:32,y:196,w:5,h:11,XOffset:1,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:192,y:116,w:5,h:11,XOffset:1,YOffset:3,CropWidth:5,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:32,y:223,w:6,h:9,XOffset:0,YOffset:5,CropWidth:6,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:242,y:510,w:6,h:9,XOffset:0,YOffset:5,CropWidth:6,CropHeight:9,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:559,y:1010,w:9,h:6,XOffset:4,YOffset:5,CropWidth:9,CropHeight:6,ow:16,oh:16,tp:2	}
+		x:8,y:514,w:9,h:6,XOffset:4,YOffset:5,CropWidth:9,CropHeight:6,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:32,y:248,w:6,h:9,XOffset:1,YOffset:3,CropWidth:6,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:213,y:8,w:6,h:9,XOffset:1,YOffset:3,CropWidth:6,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:32,y:273,w:6,h:9,XOffset:1,YOffset:3,CropWidth:6,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:213,y:33,w:6,h:9,XOffset:1,YOffset:3,CropWidth:6,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:32,y:298,w:6,h:9,XOffset:1,YOffset:3,CropWidth:6,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:213,y:58,w:6,h:9,XOffset:1,YOffset:3,CropWidth:6,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:32,y:323,w:6,h:9,XOffset:1,YOffset:5,CropWidth:6,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:213,y:83,w:6,h:9,XOffset:1,YOffset:5,CropWidth:6,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:32,y:348,w:6,h:9,XOffset:1,YOffset:3,CropWidth:6,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:213,y:108,w:6,h:9,XOffset:1,YOffset:3,CropWidth:6,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:32,y:373,w:6,h:9,XOffset:1,YOffset:5,CropWidth:6,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:213,y:133,w:6,h:9,XOffset:1,YOffset:5,CropWidth:6,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:32,y:398,w:6,h:9,XOffset:1,YOffset:3,CropWidth:6,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:169,y:143,w:6,h:9,XOffset:1,YOffset:3,CropWidth:6,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:32,y:423,w:6,h:9,XOffset:1,YOffset:3,CropWidth:6,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:191,y:143,w:6,h:9,XOffset:1,YOffset:3,CropWidth:6,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:32,y:448,w:6,h:9,XOffset:1,YOffset:5,CropWidth:6,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:169,y:168,w:6,h:9,XOffset:1,YOffset:5,CropWidth:6,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:32,y:473,w:6,h:9,XOffset:1,YOffset:0,CropWidth:6,CropHeight:9,ow:7,oh:11,tp:3	}
+		x:213,y:158,w:6,h:9,XOffset:1,YOffset:0,CropWidth:6,CropHeight:9,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:53,y:115,w:6,h:9,XOffset:1,YOffset:0,CropWidth:6,CropHeight:9,ow:7,oh:11,tp:3	}
+		x:169,y:193,w:6,h:9,XOffset:1,YOffset:0,CropWidth:6,CropHeight:9,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:795,y:152,w:4,h:13,XOffset:0,YOffset:3,CropWidth:4,CropHeight:13,ow:8,oh:16,tp:2	}
+		x:191,y:168,w:4,h:13,XOffset:0,YOffset:3,CropWidth:4,CropHeight:13,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:54,y:140,w:5,h:10,XOffset:2,YOffset:0,CropWidth:5,CropHeight:10,ow:7,oh:11,tp:3	}
+		x:169,y:218,w:5,h:10,XOffset:2,YOffset:0,CropWidth:5,CropHeight:10,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:54,y:166,w:5,h:10,XOffset:2,YOffset:0,CropWidth:5,CropHeight:10,ow:7,oh:11,tp:3	}
+		x:211,y:183,w:5,h:10,XOffset:2,YOffset:0,CropWidth:5,CropHeight:10,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:54,y:192,w:5,h:10,XOffset:1,YOffset:0,CropWidth:5,CropHeight:10,ow:7,oh:11,tp:3	}
+		x:190,y:218,w:5,h:10,XOffset:1,YOffset:0,CropWidth:5,CropHeight:10,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:54,y:218,w:5,h:10,XOffset:2,YOffset:0,CropWidth:5,CropHeight:10,ow:7,oh:11,tp:3	}
+		x:169,y:244,w:5,h:10,XOffset:2,YOffset:0,CropWidth:5,CropHeight:10,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:54,y:244,w:5,h:10,XOffset:2,YOffset:1,CropWidth:5,CropHeight:10,ow:7,oh:11,tp:3	}
+		x:211,y:209,w:5,h:10,XOffset:2,YOffset:1,CropWidth:5,CropHeight:10,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:54,y:270,w:7,h:7,XOffset:0,YOffset:5,CropWidth:7,CropHeight:7,ow:8,oh:16,tp:3	}
+		x:168,y:270,w:7,h:7,XOffset:0,YOffset:5,CropWidth:7,CropHeight:7,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:54,y:293,w:7,h:7,XOffset:1,YOffset:5,CropWidth:7,CropHeight:7,ow:8,oh:16,tp:3	}
+		x:211,y:235,w:7,h:7,XOffset:1,YOffset:5,CropWidth:7,CropHeight:7,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:54,y:316,w:7,h:7,XOffset:1,YOffset:5,CropWidth:7,CropHeight:7,ow:8,oh:16,tp:3	}
+		x:168,y:293,w:7,h:7,XOffset:1,YOffset:5,CropWidth:7,CropHeight:7,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:54,y:339,w:7,h:7,XOffset:0,YOffset:5,CropWidth:7,CropHeight:7,ow:8,oh:16,tp:3	}
+		x:191,y:258,w:7,h:7,XOffset:0,YOffset:5,CropWidth:7,CropHeight:7,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:886,y:35,w:6,h:8,XOffset:4,YOffset:4,CropWidth:6,CropHeight:8,ow:16,oh:16,tp:2	}
+		x:168,y:316,w:6,h:8,XOffset:4,YOffset:4,CropWidth:6,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:886,y:35,w:6,h:8,XOffset:4,YOffset:4,CropWidth:6,CropHeight:8,ow:16,oh:16,tp:2	}
+		x:168,y:316,w:6,h:8,XOffset:4,YOffset:4,CropWidth:6,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:54,y:386,w:6,h:8,XOffset:4,YOffset:4,CropWidth:6,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:190,y:316,w:6,h:8,XOffset:4,YOffset:4,CropWidth:6,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:54,y:362,w:6,h:8,XOffset:5,YOffset:4,CropWidth:6,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:191,y:281,w:6,h:8,XOffset:5,YOffset:4,CropWidth:6,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:54,y:386,w:6,h:8,XOffset:4,YOffset:4,CropWidth:6,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:190,y:316,w:6,h:8,XOffset:4,YOffset:4,CropWidth:6,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:54,y:410,w:6,h:8,XOffset:5,YOffset:4,CropWidth:6,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:168,y:340,w:6,h:8,XOffset:5,YOffset:4,CropWidth:6,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:54,y:434,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:213,y:281,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:54,y:458,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:212,y:305,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:54,y:482,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:190,y:340,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:75,y:115,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:168,y:364,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:75,y:139,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:212,y:329,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:75,y:163,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:190,y:364,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:75,y:187,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:168,y:388,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:75,y:211,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:212,y:353,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:75,y:235,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:190,y:388,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:77,y:259,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:168,y:412,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:77,y:283,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:212,y:377,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:77,y:307,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:190,y:412,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:77,y:331,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:168,y:436,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:77,y:355,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:212,y:401,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:76,y:379,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:190,y:436,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:76,y:403,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:168,y:460,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:76,y:427,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:212,y:425,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:76,y:451,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:166,y:484,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:76,y:475,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:190,y:460,w:6,h:8,XOffset:1,YOffset:4,CropWidth:6,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:97,y:115,w:6,h:8,XOffset:1,YOffset:0,CropWidth:6,CropHeight:8,ow:7,oh:11,tp:3	}
+		x:212,y:449,w:6,h:8,XOffset:1,YOffset:0,CropWidth:6,CropHeight:8,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:97,y:139,w:6,h:8,XOffset:1,YOffset:3,CropWidth:6,CropHeight:8,ow:7,oh:11,tp:3	}
+		x:188,y:484,w:6,h:8,XOffset:1,YOffset:3,CropWidth:6,CropHeight:8,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:97,y:163,w:6,h:8,XOffset:1,YOffset:1,CropWidth:6,CropHeight:8,ow:7,oh:11,tp:3	}
+		x:212,y:473,w:6,h:8,XOffset:1,YOffset:1,CropWidth:6,CropHeight:8,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:97,y:187,w:6,h:8,XOffset:1,YOffset:1,CropWidth:6,CropHeight:8,ow:7,oh:11,tp:3	}
+		x:235,y:8,w:6,h:8,XOffset:1,YOffset:1,CropWidth:6,CropHeight:8,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:97,y:211,w:6,h:8,XOffset:1,YOffset:3,CropWidth:6,CropHeight:8,ow:7,oh:11,tp:3	}
+		x:235,y:32,w:6,h:8,XOffset:1,YOffset:3,CropWidth:6,CropHeight:8,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:97,y:235,w:6,h:8,XOffset:1,YOffset:0,CropWidth:6,CropHeight:8,ow:7,oh:11,tp:3	}
+		x:235,y:56,w:6,h:8,XOffset:1,YOffset:0,CropWidth:6,CropHeight:8,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:99,y:259,w:6,h:8,XOffset:1,YOffset:2,CropWidth:6,CropHeight:8,ow:7,oh:11,tp:3	}
+		x:235,y:80,w:6,h:8,XOffset:1,YOffset:2,CropWidth:6,CropHeight:8,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:99,y:283,w:6,h:8,XOffset:1,YOffset:3,CropWidth:6,CropHeight:8,ow:7,oh:11,tp:3	}
+		x:235,y:104,w:6,h:8,XOffset:1,YOffset:3,CropWidth:6,CropHeight:8,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:99,y:307,w:6,h:8,XOffset:1,YOffset:1,CropWidth:6,CropHeight:8,ow:7,oh:11,tp:3	}
+		x:235,y:128,w:6,h:8,XOffset:1,YOffset:1,CropWidth:6,CropHeight:8,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:99,y:331,w:5,h:9,XOffset:0,YOffset:5,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:235,y:152,w:5,h:9,XOffset:0,YOffset:5,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:99,y:356,w:5,h:9,XOffset:0,YOffset:5,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:235,y:177,w:5,h:9,XOffset:0,YOffset:5,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:98,y:381,w:5,h:9,XOffset:0,YOffset:5,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:232,y:202,w:5,h:9,XOffset:0,YOffset:5,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:98,y:406,w:5,h:9,XOffset:0,YOffset:5,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:234,y:227,w:5,h:9,XOffset:0,YOffset:5,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:98,y:431,w:5,h:9,XOffset:0,YOffset:5,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:234,y:252,w:5,h:9,XOffset:0,YOffset:5,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:98,y:456,w:5,h:9,XOffset:0,YOffset:5,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:235,y:277,w:5,h:9,XOffset:0,YOffset:5,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:98,y:481,w:5,h:9,XOffset:0,YOffset:5,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:235,y:302,w:5,h:9,XOffset:0,YOffset:5,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:119,y:115,w:5,h:9,XOffset:0,YOffset:5,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:234,y:327,w:5,h:9,XOffset:0,YOffset:5,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:119,y:140,w:5,h:9,XOffset:0,YOffset:5,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:234,y:352,w:5,h:9,XOffset:0,YOffset:5,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:119,y:165,w:5,h:9,XOffset:0,YOffset:5,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:234,y:377,w:5,h:9,XOffset:0,YOffset:5,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:119,y:190,w:5,h:9,XOffset:1,YOffset:3,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:234,y:402,w:5,h:9,XOffset:1,YOffset:3,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:119,y:215,w:5,h:9,XOffset:2,YOffset:4,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:234,y:427,w:5,h:9,XOffset:2,YOffset:4,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:121,y:240,w:5,h:9,XOffset:2,YOffset:2,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:234,y:452,w:5,h:9,XOffset:2,YOffset:2,CropWidth:5,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:121,y:265,w:4,h:11,XOffset:0,YOffset:3,CropWidth:4,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:234,y:477,w:4,h:11,XOffset:0,YOffset:3,CropWidth:4,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:121,y:292,w:4,h:11,XOffset:0,YOffset:3,CropWidth:4,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:257,y:8,w:4,h:11,XOffset:0,YOffset:3,CropWidth:4,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:121,y:319,w:4,h:11,XOffset:0,YOffset:3,CropWidth:4,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:257,y:35,w:4,h:11,XOffset:0,YOffset:3,CropWidth:4,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:120,y:346,w:4,h:11,XOffset:0,YOffset:3,CropWidth:4,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:257,y:62,w:4,h:11,XOffset:0,YOffset:3,CropWidth:4,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:120,y:373,w:4,h:11,XOffset:0,YOffset:3,CropWidth:4,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:257,y:89,w:4,h:11,XOffset:0,YOffset:3,CropWidth:4,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:119,y:400,w:4,h:11,XOffset:0,YOffset:3,CropWidth:4,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:257,y:116,w:4,h:11,XOffset:0,YOffset:3,CropWidth:4,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:584,y:1010,w:7,h:6,XOffset:0,YOffset:2,CropWidth:7,CropHeight:6,ow:8,oh:16,tp:2	}
+		x:257,y:143,w:7,h:6,XOffset:0,YOffset:2,CropWidth:7,CropHeight:6,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:119,y:427,w:7,h:6,XOffset:4,YOffset:3,CropWidth:7,CropHeight:6,ow:16,oh:16,tp:3	}
+		x:280,y:8,w:7,h:6,XOffset:4,YOffset:3,CropWidth:7,CropHeight:6,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:119,y:449,w:7,h:6,XOffset:4,YOffset:3,CropWidth:7,CropHeight:6,ow:16,oh:16,tp:3	}
+		x:280,y:30,w:7,h:6,XOffset:4,YOffset:3,CropWidth:7,CropHeight:6,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:119,y:471,w:6,h:7,XOffset:1,YOffset:5,CropWidth:6,CropHeight:7,ow:8,oh:16,tp:3	}
+		x:280,y:52,w:6,h:7,XOffset:1,YOffset:5,CropWidth:6,CropHeight:7,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:119,y:494,w:6,h:7,XOffset:1,YOffset:5,CropWidth:6,CropHeight:7,ow:8,oh:16,tp:3	}
+		x:280,y:75,w:6,h:7,XOffset:1,YOffset:5,CropWidth:6,CropHeight:7,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:139,y:400,w:6,h:7,XOffset:1,YOffset:5,CropWidth:6,CropHeight:7,ow:8,oh:16,tp:3	}
+		x:280,y:98,w:6,h:7,XOffset:1,YOffset:5,CropWidth:6,CropHeight:7,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:140,y:346,w:6,h:7,XOffset:1,YOffset:4,CropWidth:6,CropHeight:7,ow:8,oh:16,tp:3	}
+		x:280,y:121,w:6,h:7,XOffset:1,YOffset:4,CropWidth:6,CropHeight:7,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:140,y:369,w:6,h:7,XOffset:1,YOffset:5,CropWidth:6,CropHeight:7,ow:8,oh:16,tp:3	}
+		x:280,y:144,w:6,h:7,XOffset:1,YOffset:5,CropWidth:6,CropHeight:7,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:141,y:265,w:6,h:7,XOffset:1,YOffset:5,CropWidth:6,CropHeight:7,ow:8,oh:16,tp:3	}
+		x:256,y:165,w:6,h:7,XOffset:1,YOffset:5,CropWidth:6,CropHeight:7,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:141,y:288,w:7,h:6,XOffset:0,YOffset:3,CropWidth:7,CropHeight:6,ow:8,oh:16,tp:3	}
+		x:278,y:167,w:7,h:6,XOffset:0,YOffset:3,CropWidth:7,CropHeight:6,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:141,y:310,w:6,h:7,XOffset:1,YOffset:5,CropWidth:6,CropHeight:7,ow:8,oh:16,tp:3	}
+		x:256,y:188,w:6,h:7,XOffset:1,YOffset:5,CropWidth:6,CropHeight:7,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:162,y:333,w:6,h:7,XOffset:1,YOffset:5,CropWidth:6,CropHeight:7,ow:8,oh:16,tp:3	}
+		x:255,y:211,w:6,h:7,XOffset:1,YOffset:5,CropWidth:6,CropHeight:7,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:162,y:356,w:6,h:7,XOffset:1,YOffset:5,CropWidth:6,CropHeight:7,ow:8,oh:16,tp:3	}
+		x:278,y:189,w:6,h:7,XOffset:1,YOffset:5,CropWidth:6,CropHeight:7,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:162,y:379,w:6,h:7,XOffset:1,YOffset:4,CropWidth:6,CropHeight:7,ow:8,oh:16,tp:3	}
+		x:255,y:234,w:6,h:7,XOffset:1,YOffset:4,CropWidth:6,CropHeight:7,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:161,y:402,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:277,y:212,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:142,y:425,w:6,h:7,XOffset:1,YOffset:1,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:256,y:257,w:6,h:7,XOffset:1,YOffset:1,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:142,y:448,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:256,y:280,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:163,y:310,w:6,h:7,XOffset:1,YOffset:1,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:278,y:235,w:6,h:7,XOffset:1,YOffset:1,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:164,y:115,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:256,y:303,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:164,y:138,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:278,y:258,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:140,y:161,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:256,y:326,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:163,y:161,w:6,h:7,XOffset:1,YOffset:1,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:278,y:281,w:6,h:7,XOffset:1,YOffset:1,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:140,y:104,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:255,y:349,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:140,y:184,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:278,y:304,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:163,y:184,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:277,y:349,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:140,y:127,w:6,h:7,XOffset:1,YOffset:1,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:255,y:372,w:6,h:7,XOffset:1,YOffset:1,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:140,y:207,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:277,y:372,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:163,y:207,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:255,y:395,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:142,y:230,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:277,y:395,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:164,y:230,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:255,y:418,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:163,y:253,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:277,y:418,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:164,y:276,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:255,y:441,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:186,y:115,w:6,h:7,XOffset:1,YOffset:1,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:277,y:441,w:6,h:7,XOffset:1,YOffset:1,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:186,y:138,w:6,h:7,XOffset:1,YOffset:1,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:255,y:464,w:6,h:7,XOffset:1,YOffset:1,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:186,y:161,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:254,y:487,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:185,y:184,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:277,y:464,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:185,y:207,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:276,y:487,w:6,h:7,XOffset:1,YOffset:2,CropWidth:6,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:186,y:230,w:6,h:7,XOffset:1,YOffset:1,CropWidth:6,CropHeight:7,ow:8,oh:8,tp:3	}
+		x:303,y:8,w:6,h:7,XOffset:1,YOffset:1,CropWidth:6,CropHeight:7,ow:8,oh:8,tp:3	}
 	,
 	{
-		x:186,y:253,w:4,h:10,XOffset:0,YOffset:6,CropWidth:4,CropHeight:10,ow:8,oh:16,tp:3	}
+		x:325,y:8,w:4,h:10,XOffset:0,YOffset:6,CropWidth:4,CropHeight:10,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:186,y:279,w:4,h:10,XOffset:6,YOffset:3,CropWidth:4,CropHeight:10,ow:16,oh:16,tp:3	}
+		x:345,y:8,w:4,h:10,XOffset:6,YOffset:3,CropWidth:4,CropHeight:10,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:185,y:305,w:4,h:10,XOffset:6,YOffset:3,CropWidth:4,CropHeight:10,ow:16,oh:16,tp:3	}
+		x:365,y:8,w:4,h:10,XOffset:6,YOffset:3,CropWidth:4,CropHeight:10,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:74,y:512,w:5,h:8,XOffset:1,YOffset:4,CropWidth:5,CropHeight:8,ow:8,oh:16,tp:2	}
+		x:385,y:8,w:5,h:8,XOffset:1,YOffset:4,CropWidth:5,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:185,y:331,w:5,h:8,XOffset:2,YOffset:1,CropWidth:5,CropHeight:8,ow:7,oh:11,tp:3	}
+		x:406,y:8,w:5,h:8,XOffset:2,YOffset:1,CropWidth:5,CropHeight:8,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:184,y:355,w:5,h:8,XOffset:2,YOffset:1,CropWidth:5,CropHeight:8,ow:7,oh:11,tp:3	}
+		x:427,y:8,w:5,h:8,XOffset:2,YOffset:1,CropWidth:5,CropHeight:8,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:184,y:379,w:5,h:8,XOffset:2,YOffset:1,CropWidth:5,CropHeight:8,ow:7,oh:11,tp:3	}
+		x:448,y:8,w:5,h:8,XOffset:2,YOffset:1,CropWidth:5,CropHeight:8,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:183,y:403,w:5,h:8,XOffset:1,YOffset:2,CropWidth:5,CropHeight:8,ow:7,oh:11,tp:3	}
+		x:469,y:8,w:5,h:8,XOffset:1,YOffset:2,CropWidth:5,CropHeight:8,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:164,y:427,w:4,h:10,XOffset:2,YOffset:0,CropWidth:4,CropHeight:10,ow:7,oh:11,tp:3	}
+		x:490,y:8,w:4,h:10,XOffset:2,YOffset:0,CropWidth:4,CropHeight:10,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:184,y:427,w:5,h:8,XOffset:2,YOffset:1,CropWidth:5,CropHeight:8,ow:7,oh:11,tp:3	}
+		x:303,y:31,w:5,h:8,XOffset:2,YOffset:1,CropWidth:5,CropHeight:8,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:164,y:453,w:5,h:8,XOffset:2,YOffset:3,CropWidth:5,CropHeight:8,ow:7,oh:11,tp:3	}
+		x:324,y:34,w:5,h:8,XOffset:2,YOffset:3,CropWidth:5,CropHeight:8,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:141,y:471,w:5,h:8,XOffset:2,YOffset:0,CropWidth:5,CropHeight:8,ow:7,oh:11,tp:3	}
+		x:345,y:34,w:5,h:8,XOffset:2,YOffset:0,CropWidth:5,CropHeight:8,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:185,y:451,w:4,h:10,XOffset:2,YOffset:0,CropWidth:4,CropHeight:10,ow:7,oh:11,tp:3	}
+		x:366,y:34,w:4,h:10,XOffset:2,YOffset:0,CropWidth:4,CropHeight:10,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:1010,y:850,w:6,h:6,XOffset:1,YOffset:6,CropWidth:6,CropHeight:6,ow:8,oh:16,tp:2	}
+		x:386,y:34,w:6,h:6,XOffset:1,YOffset:6,CropWidth:6,CropHeight:6,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:162,y:477,w:6,h:6,XOffset:0,YOffset:6,CropWidth:6,CropHeight:6,ow:8,oh:16,tp:3	}
+		x:408,y:32,w:6,h:6,XOffset:0,YOffset:6,CropWidth:6,CropHeight:6,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:735,y:1001,w:3,h:12,XOffset:0,YOffset:2,CropWidth:3,CropHeight:12,ow:8,oh:16,tp:2	}
+		x:815,y:734,w:3,h:12,XOffset:0,YOffset:2,CropWidth:3,CropHeight:12,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:245,y:477,w:3,h:12,XOffset:3,YOffset:1,CropWidth:3,CropHeight:12,ow:8,oh:16,tp:2	}
+		x:430,y:32,w:3,h:12,XOffset:3,YOffset:1,CropWidth:3,CropHeight:12,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:184,y:477,w:6,h:6,XOffset:1,YOffset:3,CropWidth:6,CropHeight:6,ow:7,oh:11,tp:3	}
+		x:449,y:32,w:6,h:6,XOffset:1,YOffset:3,CropWidth:6,CropHeight:6,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:208,y:115,w:6,h:6,XOffset:1,YOffset:3,CropWidth:6,CropHeight:6,ow:7,oh:11,tp:3	}
+		x:471,y:34,w:6,h:6,XOffset:1,YOffset:3,CropWidth:6,CropHeight:6,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:208,y:137,w:6,h:6,XOffset:1,YOffset:3,CropWidth:6,CropHeight:6,ow:7,oh:11,tp:3	}
+		x:493,y:34,w:6,h:6,XOffset:1,YOffset:3,CropWidth:6,CropHeight:6,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:208,y:159,w:6,h:6,XOffset:1,YOffset:3,CropWidth:6,CropHeight:6,ow:7,oh:11,tp:3	}
+		x:408,y:54,w:6,h:6,XOffset:1,YOffset:3,CropWidth:6,CropHeight:6,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:208,y:181,w:6,h:6,XOffset:1,YOffset:3,CropWidth:6,CropHeight:6,ow:7,oh:11,tp:3	}
+		x:386,y:56,w:6,h:6,XOffset:1,YOffset:3,CropWidth:6,CropHeight:6,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:207,y:203,w:6,h:6,XOffset:1,YOffset:3,CropWidth:6,CropHeight:6,ow:7,oh:11,tp:3	}
+		x:302,y:78,w:6,h:6,XOffset:1,YOffset:3,CropWidth:6,CropHeight:6,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:208,y:225,w:6,h:6,XOffset:1,YOffset:3,CropWidth:6,CropHeight:6,ow:7,oh:11,tp:3	}
+		x:302,y:100,w:6,h:6,XOffset:1,YOffset:3,CropWidth:6,CropHeight:6,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:208,y:247,w:6,h:6,XOffset:1,YOffset:1,CropWidth:6,CropHeight:6,ow:8,oh:8,tp:3	}
+		x:302,y:122,w:6,h:6,XOffset:1,YOffset:1,CropWidth:6,CropHeight:6,ow:8,oh:8,tp:3	}
 	,
 	{
-		x:206,y:269,w:6,h:6,XOffset:5,YOffset:5,CropWidth:6,CropHeight:6,ow:16,oh:16,tp:3	}
+		x:302,y:144,w:6,h:6,XOffset:5,YOffset:5,CropWidth:6,CropHeight:6,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:206,y:291,w:6,h:6,XOffset:1,YOffset:1,CropWidth:6,CropHeight:6,ow:8,oh:8,tp:3	}
+		x:302,y:166,w:6,h:6,XOffset:1,YOffset:1,CropWidth:6,CropHeight:6,ow:8,oh:8,tp:3	}
 	,
 	{
-		x:206,y:313,w:7,h:5,XOffset:0,YOffset:6,CropWidth:7,CropHeight:5,ow:8,oh:16,tp:3	}
+		x:826,y:1011,w:7,h:5,XOffset:0,YOffset:6,CropWidth:7,CropHeight:5,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:206,y:334,w:5,h:7,XOffset:1,YOffset:5,CropWidth:5,CropHeight:7,ow:8,oh:16,tp:3	}
+		x:301,y:188,w:5,h:7,XOffset:1,YOffset:5,CropWidth:5,CropHeight:7,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:205,y:357,w:5,h:7,XOffset:1,YOffset:2,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:300,y:211,w:5,h:7,XOffset:1,YOffset:2,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:205,y:380,w:5,h:7,XOffset:2,YOffset:1,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:300,y:234,w:5,h:7,XOffset:2,YOffset:1,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:205,y:403,w:5,h:7,XOffset:2,YOffset:2,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:300,y:257,w:5,h:7,XOffset:2,YOffset:2,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:205,y:426,w:5,h:7,XOffset:1,YOffset:2,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:300,y:280,w:5,h:7,XOffset:1,YOffset:2,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:205,y:449,w:5,h:7,XOffset:2,YOffset:1,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:300,y:303,w:5,h:7,XOffset:2,YOffset:1,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:206,y:472,w:5,h:7,XOffset:1,YOffset:2,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:300,y:326,w:5,h:7,XOffset:1,YOffset:2,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:206,y:495,w:5,h:7,XOffset:1,YOffset:2,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:299,y:349,w:5,h:7,XOffset:1,YOffset:2,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:230,y:115,w:5,h:7,XOffset:1,YOffset:2,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:299,y:372,w:5,h:7,XOffset:1,YOffset:2,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:230,y:138,w:5,h:7,XOffset:1,YOffset:2,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:299,y:395,w:5,h:7,XOffset:1,YOffset:2,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:230,y:161,w:5,h:7,XOffset:1,YOffset:2,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:299,y:418,w:5,h:7,XOffset:1,YOffset:2,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:230,y:184,w:5,h:7,XOffset:2,YOffset:1,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:299,y:441,w:5,h:7,XOffset:2,YOffset:1,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:230,y:207,w:5,h:7,XOffset:2,YOffset:1,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:299,y:464,w:5,h:7,XOffset:2,YOffset:1,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:230,y:230,w:5,h:7,XOffset:1,YOffset:2,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:324,y:78,w:5,h:7,XOffset:1,YOffset:2,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:230,y:253,w:5,h:7,XOffset:2,YOffset:1,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:324,y:101,w:5,h:7,XOffset:2,YOffset:1,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:229,y:276,w:5,h:7,XOffset:2,YOffset:1,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:324,y:124,w:5,h:7,XOffset:2,YOffset:1,CropWidth:5,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:738,y:924,w:3,h:11,XOffset:0,YOffset:3,CropWidth:3,CropHeight:11,ow:8,oh:16,tp:2	}
+		x:324,y:174,w:3,h:11,XOffset:0,YOffset:3,CropWidth:3,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:245,y:505,w:3,h:11,XOffset:0,YOffset:3,CropWidth:3,CropHeight:11,ow:8,oh:16,tp:2	}
+		x:324,y:147,w:3,h:11,XOffset:0,YOffset:3,CropWidth:3,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:738,y:924,w:3,h:11,XOffset:0,YOffset:3,CropWidth:3,CropHeight:11,ow:8,oh:16,tp:2	}
+		x:324,y:174,w:3,h:11,XOffset:0,YOffset:3,CropWidth:3,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:229,y:299,w:3,h:11,XOffset:0,YOffset:3,CropWidth:3,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:322,y:201,w:3,h:11,XOffset:0,YOffset:3,CropWidth:3,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:229,y:326,w:3,h:11,XOffset:0,YOffset:4,CropWidth:3,CropHeight:11,ow:8,oh:16,tp:3	}
+		x:321,y:228,w:3,h:11,XOffset:0,YOffset:4,CropWidth:3,CropHeight:11,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:227,y:353,w:4,h:8,XOffset:6,YOffset:4,CropWidth:4,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:321,y:255,w:4,h:8,XOffset:6,YOffset:4,CropWidth:4,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:226,y:377,w:4,h:8,XOffset:6,YOffset:4,CropWidth:4,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:321,y:279,w:4,h:8,XOffset:6,YOffset:4,CropWidth:4,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:226,y:401,w:4,h:8,XOffset:6,YOffset:4,CropWidth:4,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:321,y:303,w:4,h:8,XOffset:6,YOffset:4,CropWidth:4,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:226,y:425,w:4,h:8,XOffset:6,YOffset:4,CropWidth:4,CropHeight:8,ow:16,oh:16,tp:3	}
+		x:321,y:327,w:4,h:8,XOffset:6,YOffset:4,CropWidth:4,CropHeight:8,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:226,y:449,w:5,h:6,XOffset:0,YOffset:3,CropWidth:5,CropHeight:6,ow:8,oh:16,tp:3	}
+		x:320,y:351,w:5,h:6,XOffset:0,YOffset:3,CropWidth:5,CropHeight:6,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:227,y:471,w:5,h:6,XOffset:1,YOffset:8,CropWidth:5,CropHeight:6,ow:8,oh:16,tp:3	}
+		x:320,y:373,w:5,h:6,XOffset:1,YOffset:8,CropWidth:5,CropHeight:6,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:227,y:493,w:6,h:5,XOffset:1,YOffset:5,CropWidth:6,CropHeight:5,ow:8,oh:16,tp:3	}
+		x:320,y:395,w:6,h:5,XOffset:1,YOffset:5,CropWidth:6,CropHeight:5,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:251,y:115,w:5,h:6,XOffset:2,YOffset:3,CropWidth:5,CropHeight:6,ow:7,oh:11,tp:3	}
+		x:320,y:416,w:5,h:6,XOffset:2,YOffset:3,CropWidth:5,CropHeight:6,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:251,y:137,w:3,h:10,XOffset:3,YOffset:0,CropWidth:3,CropHeight:10,ow:7,oh:11,tp:3	}
+		x:320,y:438,w:3,h:10,XOffset:3,YOffset:0,CropWidth:3,CropHeight:10,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:251,y:163,w:5,h:6,XOffset:2,YOffset:3,CropWidth:5,CropHeight:6,ow:7,oh:11,tp:3	}
+		x:320,y:464,w:5,h:6,XOffset:2,YOffset:3,CropWidth:5,CropHeight:6,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:251,y:185,w:5,h:6,XOffset:2,YOffset:2,CropWidth:5,CropHeight:6,ow:7,oh:11,tp:3	}
+		x:320,y:486,w:5,h:6,XOffset:2,YOffset:2,CropWidth:5,CropHeight:6,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:251,y:207,w:5,h:6,XOffset:2,YOffset:3,CropWidth:5,CropHeight:6,ow:7,oh:11,tp:3	}
+		x:298,y:487,w:5,h:6,XOffset:2,YOffset:3,CropWidth:5,CropHeight:6,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:251,y:229,w:5,h:6,XOffset:2,YOffset:3,CropWidth:5,CropHeight:6,ow:7,oh:11,tp:3	}
+		x:345,y:78,w:5,h:6,XOffset:2,YOffset:3,CropWidth:5,CropHeight:6,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:251,y:251,w:5,h:6,XOffset:2,YOffset:2,CropWidth:5,CropHeight:6,ow:7,oh:11,tp:3	}
+		x:345,y:100,w:5,h:6,XOffset:2,YOffset:2,CropWidth:5,CropHeight:6,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:251,y:273,w:5,h:6,XOffset:2,YOffset:3,CropWidth:5,CropHeight:6,ow:7,oh:11,tp:3	}
+		x:345,y:122,w:5,h:6,XOffset:2,YOffset:3,CropWidth:5,CropHeight:6,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:250,y:295,w:6,h:5,XOffset:1,YOffset:0,CropWidth:6,CropHeight:5,ow:7,oh:11,tp:3	}
+		x:345,y:144,w:6,h:5,XOffset:1,YOffset:0,CropWidth:6,CropHeight:5,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:249,y:316,w:5,h:6,XOffset:2,YOffset:3,CropWidth:5,CropHeight:6,ow:7,oh:11,tp:3	}
+		x:367,y:78,w:5,h:6,XOffset:2,YOffset:3,CropWidth:5,CropHeight:6,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:249,y:338,w:5,h:6,XOffset:1,YOffset:1,CropWidth:5,CropHeight:6,ow:8,oh:8,tp:3	}
+		x:388,y:78,w:5,h:6,XOffset:1,YOffset:1,CropWidth:5,CropHeight:6,ow:8,oh:8,tp:3	}
 	,
 	{
-		x:8,y:516,w:7,h:4,XOffset:0,YOffset:7,CropWidth:7,CropHeight:4,ow:8,oh:16,tp:2	}
+		x:978,y:132,w:7,h:4,XOffset:0,YOffset:7,CropWidth:7,CropHeight:4,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:247,y:360,w:7,h:4,XOffset:1,YOffset:5,CropWidth:7,CropHeight:4,ow:8,oh:16,tp:3	}
+		x:33,y:516,w:7,h:4,XOffset:1,YOffset:5,CropWidth:7,CropHeight:4,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:246,y:380,w:4,h:7,XOffset:2,YOffset:2,CropWidth:4,CropHeight:7,ow:7,oh:11,tp:3	}
+		x:409,y:76,w:4,h:7,XOffset:2,YOffset:2,CropWidth:4,CropHeight:7,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:8,y:1013,w:9,h:3,XOffset:3,YOffset:10,CropWidth:9,CropHeight:3,ow:16,oh:16,tp:2	}
+		x:889,y:132,w:9,h:3,XOffset:3,YOffset:10,CropWidth:9,CropHeight:3,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:246,y:403,w:3,h:9,XOffset:2,YOffset:3,CropWidth:3,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:429,y:76,w:3,h:9,XOffset:2,YOffset:3,CropWidth:3,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:247,y:428,w:3,h:9,XOffset:3,YOffset:4,CropWidth:3,CropHeight:9,ow:8,oh:16,tp:3	}
+		x:448,y:60,w:3,h:9,XOffset:3,YOffset:4,CropWidth:3,CropHeight:9,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:249,y:453,w:5,h:5,XOffset:0,YOffset:3,CropWidth:5,CropHeight:5,ow:8,oh:16,tp:3	}
+		x:467,y:56,w:5,h:5,XOffset:0,YOffset:3,CropWidth:5,CropHeight:5,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:249,y:474,w:5,h:5,XOffset:1,YOffset:3,CropWidth:5,CropHeight:5,ow:8,oh:16,tp:3	}
+		x:488,y:56,w:5,h:5,XOffset:1,YOffset:3,CropWidth:5,CropHeight:5,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:249,y:495,w:5,h:5,XOffset:2,YOffset:1,CropWidth:5,CropHeight:5,ow:7,oh:11,tp:3	}
+		x:467,y:77,w:5,h:5,XOffset:2,YOffset:1,CropWidth:5,CropHeight:5,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:272,y:115,w:5,h:5,XOffset:2,YOffset:2,CropWidth:5,CropHeight:5,ow:7,oh:11,tp:3	}
+		x:488,y:77,w:5,h:5,XOffset:2,YOffset:2,CropWidth:5,CropHeight:5,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:272,y:136,w:3,h:8,XOffset:0,YOffset:6,CropWidth:3,CropHeight:8,ow:8,oh:16,tp:3	}
+		x:448,y:85,w:3,h:8,XOffset:0,YOffset:6,CropWidth:3,CropHeight:8,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:33,y:1013,w:8,h:3,XOffset:0,YOffset:12,CropWidth:8,CropHeight:3,ow:8,oh:16,tp:2	}
+		x:8,y:1013,w:8,h:3,XOffset:0,YOffset:12,CropWidth:8,CropHeight:3,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:57,y:1013,w:8,h:3,XOffset:0,YOffset:10,CropWidth:8,CropHeight:3,ow:8,oh:16,tp:2	}
+		x:32,y:1013,w:8,h:3,XOffset:0,YOffset:10,CropWidth:8,CropHeight:3,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:272,y:160,w:3,h:8,XOffset:2,YOffset:0,CropWidth:3,CropHeight:8,ow:7,oh:11,tp:3	}
+		x:367,y:100,w:3,h:8,XOffset:2,YOffset:0,CropWidth:3,CropHeight:8,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:272,y:184,w:6,h:4,XOffset:1,YOffset:3,CropWidth:6,CropHeight:4,ow:7,oh:11,tp:3	}
+		x:467,y:98,w:6,h:4,XOffset:1,YOffset:3,CropWidth:6,CropHeight:4,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:272,y:204,w:3,h:8,XOffset:3,YOffset:2,CropWidth:3,CropHeight:8,ow:7,oh:11,tp:3	}
+		x:409,y:99,w:3,h:8,XOffset:3,YOffset:2,CropWidth:3,CropHeight:8,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:168,y:517,w:7,h:3,XOffset:4,YOffset:7,CropWidth:7,CropHeight:3,ow:16,oh:16,tp:2	}
+		x:56,y:1013,w:7,h:3,XOffset:4,YOffset:7,CropWidth:7,CropHeight:3,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:272,y:228,w:3,h:7,XOffset:3,YOffset:4,CropWidth:3,CropHeight:7,ow:8,oh:16,tp:3	}
+		x:367,y:124,w:3,h:7,XOffset:3,YOffset:4,CropWidth:3,CropHeight:7,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:272,y:251,w:4,h:5,XOffset:0,YOffset:11,CropWidth:4,CropHeight:5,ow:8,oh:16,tp:3	}
+		x:489,y:98,w:4,h:5,XOffset:0,YOffset:11,CropWidth:4,CropHeight:5,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:272,y:272,w:4,h:5,XOffset:6,YOffset:9,CropWidth:4,CropHeight:5,ow:16,oh:16,tp:3	}
+		x:386,y:100,w:4,h:5,XOffset:6,YOffset:9,CropWidth:4,CropHeight:5,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:272,y:293,w:4,h:5,XOffset:6,YOffset:2,CropWidth:4,CropHeight:5,ow:16,oh:16,tp:3	}
+		x:428,y:101,w:4,h:5,XOffset:6,YOffset:2,CropWidth:4,CropHeight:5,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:272,y:314,w:5,h:4,XOffset:1,YOffset:3,CropWidth:5,CropHeight:4,ow:8,oh:16,tp:3	}
+		x:386,y:123,w:5,h:4,XOffset:1,YOffset:3,CropWidth:5,CropHeight:4,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:270,y:334,w:5,h:4,XOffset:1,YOffset:0,CropWidth:5,CropHeight:4,ow:7,oh:11,tp:3	}
+		x:448,y:118,w:5,h:4,XOffset:1,YOffset:0,CropWidth:5,CropHeight:4,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:270,y:354,w:6,h:3,XOffset:5,YOffset:3,CropWidth:6,CropHeight:3,ow:16,oh:16,tp:3	}
+		x:79,y:1013,w:6,h:3,XOffset:5,YOffset:3,CropWidth:6,CropHeight:3,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:270,y:373,w:6,h:3,XOffset:1,YOffset:7,CropWidth:6,CropHeight:3,ow:7,oh:11,tp:3	}
+		x:685,y:667,w:6,h:3,XOffset:1,YOffset:7,CropWidth:6,CropHeight:3,ow:7,oh:11,tp:2	}
 	,
 	{
-		x:266,y:392,w:3,h:6,XOffset:2,YOffset:2,CropWidth:3,CropHeight:6,ow:7,oh:11,tp:3	}
+		x:386,y:143,w:3,h:6,XOffset:2,YOffset:2,CropWidth:3,CropHeight:6,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:266,y:414,w:4,h:4,XOffset:1,YOffset:1,CropWidth:4,CropHeight:4,ow:8,oh:16,tp:3	}
+		x:56,y:516,w:4,h:4,XOffset:1,YOffset:1,CropWidth:4,CropHeight:4,ow:8,oh:16,tp:2	}
 	,
 	{
-		x:270,y:434,w:4,h:4,XOffset:1,YOffset:8,CropWidth:4,CropHeight:4,ow:8,oh:16,tp:3	}
+		x:469,y:118,w:4,h:4,XOffset:1,YOffset:8,CropWidth:4,CropHeight:4,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:270,y:454,w:4,h:4,XOffset:2,YOffset:1,CropWidth:4,CropHeight:4,ow:8,oh:16,tp:3	}
+		x:428,y:122,w:4,h:4,XOffset:2,YOffset:1,CropWidth:4,CropHeight:4,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:270,y:474,w:4,h:4,XOffset:2,YOffset:5,CropWidth:4,CropHeight:4,ow:7,oh:11,tp:3	}
+		x:405,y:143,w:4,h:4,XOffset:2,YOffset:5,CropWidth:4,CropHeight:4,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:270,y:494,w:4,h:4,XOffset:1,YOffset:2,CropWidth:4,CropHeight:4,ow:8,oh:8,tp:3	}
+		x:489,y:119,w:4,h:4,XOffset:1,YOffset:2,CropWidth:4,CropHeight:4,ow:8,oh:8,tp:3	}
 	,
 	{
-		x:285,y:392,w:4,h:4,XOffset:6,YOffset:6,CropWidth:4,CropHeight:4,ow:16,oh:16,tp:3	}
+		x:407,y:123,w:4,h:4,XOffset:6,YOffset:6,CropWidth:4,CropHeight:4,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:286,y:412,w:5,h:3,XOffset:0,YOffset:8,CropWidth:5,CropHeight:3,ow:8,oh:16,tp:3	}
+		x:448,y:138,w:5,h:3,XOffset:0,YOffset:8,CropWidth:5,CropHeight:3,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:290,y:431,w:3,h:5,XOffset:1,YOffset:3,CropWidth:3,CropHeight:5,ow:8,oh:16,tp:3	}
+		x:469,y:138,w:3,h:5,XOffset:1,YOffset:3,CropWidth:3,CropHeight:5,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:290,y:452,w:5,h:3,XOffset:1,YOffset:7,CropWidth:5,CropHeight:3,ow:8,oh:16,tp:3	}
+		x:427,y:142,w:5,h:3,XOffset:1,YOffset:7,CropWidth:5,CropHeight:3,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:81,y:1013,w:4,h:3,XOffset:6,YOffset:9,CropWidth:4,CropHeight:3,ow:16,oh:16,tp:2	}
+		x:707,y:667,w:4,h:3,XOffset:6,YOffset:9,CropWidth:4,CropHeight:3,ow:16,oh:16,tp:2	}
 	,
 	{
-		x:290,y:471,w:4,h:3,XOffset:6,YOffset:3,CropWidth:4,CropHeight:3,ow:16,oh:16,tp:3	}
+		x:488,y:139,w:4,h:3,XOffset:6,YOffset:3,CropWidth:4,CropHeight:3,ow:16,oh:16,tp:3	}
 	,
 	{
-		x:290,y:490,w:3,h:4,XOffset:2,YOffset:3,CropWidth:3,CropHeight:4,ow:8,oh:16,tp:3	}
+		x:367,y:147,w:3,h:4,XOffset:2,YOffset:3,CropWidth:3,CropHeight:4,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:311,y:115,w:4,h:3,XOffset:3,YOffset:0,CropWidth:4,CropHeight:3,ow:7,oh:11,tp:3	}
+		x:343,y:167,w:4,h:3,XOffset:3,YOffset:0,CropWidth:4,CropHeight:3,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:311,y:134,w:3,h:4,XOffset:2,YOffset:0,CropWidth:3,CropHeight:4,ow:7,oh:11,tp:3	}
+		x:405,y:163,w:3,h:4,XOffset:2,YOffset:0,CropWidth:3,CropHeight:4,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:291,y:136,w:4,h:3,XOffset:2,YOffset:3,CropWidth:4,CropHeight:3,ow:7,oh:11,tp:3	}
+		x:424,y:163,w:4,h:3,XOffset:2,YOffset:3,CropWidth:4,CropHeight:3,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:311,y:154,w:3,h:3,XOffset:0,YOffset:11,CropWidth:3,CropHeight:3,ow:8,oh:16,tp:3	}
+		x:386,y:165,w:3,h:3,XOffset:0,YOffset:11,CropWidth:3,CropHeight:3,ow:8,oh:16,tp:3	}
 	,
 	{
-		x:311,y:173,w:3,h:3,XOffset:2,YOffset:5,CropWidth:3,CropHeight:3,ow:7,oh:11,tp:3	}
+		x:444,y:161,w:3,h:3,XOffset:2,YOffset:5,CropWidth:3,CropHeight:3,ow:7,oh:11,tp:3	}
 	,
 	{
-		x:31,y:516,w:2,h:3,XOffset:3,YOffset:2,CropWidth:2,CropHeight:3,ow:8,oh:8,tp:2	}
+		x:1014,y:509,w:2,h:3,XOffset:3,YOffset:2,CropWidth:2,CropHeight:3,ow:8,oh:8,tp:2	}
 	,
 	{
 		x:975,y:1014,w:2,h:2,XOffset:3,YOffset:3,CropWidth:2,CropHeight:2,ow:8,oh:8,tp:1	}
@@ -13998,13 +14223,13 @@ var JSON_game=
 		pName:"__YY__0fallbacktexture.png_YYG_AUTO_GEN_TEX_GROUP_NAME_",TextureIDs:[0],SpriteIDs:[],SpineSpriteIDs:[],FontIDs:[],TilesetIDs:[]	}
 	,
 	{
-		pName:"Default",TextureIDs:[1,2,3],SpriteIDs:[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141],SpineSpriteIDs:[],FontIDs:[0,1,2],TilesetIDs:[]	}
+		pName:"Default",TextureIDs:[1,2,3],SpriteIDs:[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149],SpineSpriteIDs:[],FontIDs:[0,1,2],TilesetIDs:[]	}
 	],FeatureFlags:
 	{
 		"subscription":"subscription","gx_mod_wallpaper":"gx_mod_wallpaper","gmrt-android":"gmrt-android","gmrt-linux":"gmrt-linux","gmrt-macos":"gmrt-macos","filt+fx":"filt+fx","intellisense":"intellisense","nullish":"nullish","login_sso":"login_sso","operagx-yyc":"operagx-yyc","gm-auth-login":"gm-auth-login","mqtt":"mqtt","audio-fx":"audio-fx","intellisense":"intellisense","test":"test","custom_env":"custom_env","filt+fx":"filt+fx","gx_mod_wallpaper":"gx_mod_wallpaper","gx_mod_gamestrip":"gx_mod_gamestrip","live_wallpaper_subscription":"live_wallpaper_subscription","code-editor":"code-editor","strip_unused_assets":"strip_unused_assets","update-process":"update-process","package-manager":"package-manager","prefab-library":"prefab-library","svg":"svg","reddit":"reddit","cronus":"cronus"	}
 	,Options:
 	{
-		debugMode:!1,AssetCompilerMajorVersion:2,AssetCompilerMinorVersion:0,AssetCompilerBuildVersion:0,GameSpeed:60,DrawColour:4294967295,xscreensize:400,yscreensize:288,gameId:0,gameGuid:"6e99d733-f729-4081-8d5d-ee22eb436bdf",fullScreen:!1,interpolatePixels:!0,showCursor:!0,scale:1,allowFullScreenKey:!1,freezeOnLostFocus:!1,showLoadingBar:!1,displayErrors:!1,writeErrors:!1,abortErrors:!1,variableErrors:!0,outputDebugToConsole:!0,WebGL:1,WebGLPreserveDrawingBuffer:0,CollisionCompatibility:!0,LegacyPrimitiveDrawing:!0,UseNewAudio:!0,GameDir:"html5game",Config:"Default",ViewColour:0,CreateEventOrder:!1,UseParticles:!1,UseBuiltinFont:!1,LocalRunAlert:!0,crc:0,ProjectName:"limskito",md5:[34,39,14,0,0,0,0,0,0,0,0,0,0,0,0,0],MajorVersion:1,MinorVersion:0,BuildVersion:0,RevisionVersion:0,DisplayName:"limskito",UseFBExtension:!1,tm:1789396046,AllowStatistics:"True",loadingBarCallback:"ImageLoadBar_hook"	}
+		debugMode:!1,AssetCompilerMajorVersion:2,AssetCompilerMinorVersion:0,AssetCompilerBuildVersion:0,GameSpeed:60,DrawColour:4294967295,xscreensize:400,yscreensize:288,gameId:0,gameGuid:"6e99d733-f729-4081-8d5d-ee22eb436bdf",fullScreen:!1,interpolatePixels:!0,showCursor:!0,scale:1,allowFullScreenKey:!1,freezeOnLostFocus:!1,showLoadingBar:!1,displayErrors:!1,writeErrors:!1,abortErrors:!1,variableErrors:!0,outputDebugToConsole:!0,WebGL:1,WebGLPreserveDrawingBuffer:0,CollisionCompatibility:!0,LegacyPrimitiveDrawing:!0,UseNewAudio:!0,GameDir:"html5game",Config:"Default",ViewColour:0,CreateEventOrder:!1,UseParticles:!1,UseBuiltinFont:!1,LocalRunAlert:!0,crc:0,ProjectName:"limskito",md5:[34,39,14,0,0,0,0,0,0,0,0,0,0,0,0,0],MajorVersion:1,MinorVersion:0,BuildVersion:0,RevisionVersion:0,DisplayName:"limskito",UseFBExtension:!1,tm:1791557084,AllowStatistics:"True",loadingBarCallback:"ImageLoadBar_hook"	}
 }
 ;
 
@@ -14015,7 +14240,7 @@ function gml_Room_initGame_Create(_inst,_other)
 
 function gml_Room_webTestInit_Create(_inst,_other)
 {
-	instance_create_depth(0,0,0,YYASSET_REF(0x00000057));
+	instance_create_depth(0,0,0,YYASSET_REF(0x0000005B));
 }
 
 function gml_RoomCC_rmSegTunnels1_18_Create(_inst,_other)
@@ -14298,7 +14523,7 @@ function gml_Script_entity_init(_inst,_other)
 	}
 }
 
-function gml_Script_anon_40_790_40_hittable_init_40_entity_inits(_inst,_other,argument0,argument1,argument2)
+function gml_Script_anon_40_817_40_hittable_init_40_entity_inits(_inst,_other,argument0,argument1,argument2)
 {
 
 		{
@@ -14316,7 +14541,7 @@ function gml_Script_anon_40_790_40_hittable_init_40_entity_inits(_inst,_other,ar
 	}
 }
 
-function gml_Script_anon_40_961_40_hittable_init_40_entity_inits(_inst,_other)
+function gml_Script_anon_40_988_40_hittable_init_40_entity_inits(_inst,_other)
 {
 
 		{
@@ -14335,14 +14560,15 @@ function gml_Script_hittable_init(_inst,_other)
 		_inst.gmlent_push_amount=0;
 		_inst.gmlent_visible=true;
 		_inst.gmlent_no_platform=false;
-		_inst.gmlhurt_trigger=__yy_method(_inst,gml_Script_anon_40_790_40_hittable_init_40_entity_inits);
-		_inst.gmlhurt_callback=__yy_method(_inst,gml_Script_anon_40_961_40_hittable_init_40_entity_inits);
-		_inst.mask_index=YYASSET_REF(0x01000052);
+		_inst.gmlent_no_collision=0;
+		_inst.gmlhurt_trigger=__yy_method(_inst,gml_Script_anon_40_817_40_hittable_init_40_entity_inits);
+		_inst.gmlhurt_callback=__yy_method(_inst,gml_Script_anon_40_988_40_hittable_init_40_entity_inits);
+		_inst.mask_index=YYASSET_REF(0x01000058);
 		_inst.depth=(-5);
 	}
 }
 
-function gml_Script_anon_40_1310_40_hittablewall_init_40_entity_inits(_inst,_other)
+function gml_Script_anon_40_1337_40_hittablewall_init_40_entity_inits(_inst,_other)
 {
 
 		{
@@ -14350,7 +14576,7 @@ function gml_Script_anon_40_1310_40_hittablewall_init_40_entity_inits(_inst,_oth
 	}
 }
 
-function gml_Script_anon_40_1365_40_hittablewall_init_40_entity_inits(_inst,_other,argument0,argument1,argument2)
+function gml_Script_anon_40_1392_40_hittablewall_init_40_entity_inits(_inst,_other,argument0,argument1,argument2)
 {
 
 		{
@@ -14385,12 +14611,12 @@ function gml_Script_hittablewall_init(_inst,_other,argument0)
 		_inst.gmlent_hurt_last=0;
 		_inst.gmlent_hurt_block=false;
 		_inst.gmlent_push_amount=0;
-		_inst.gmlhurt_callback=__yy_method(_inst,gml_Script_anon_40_1310_40_hittablewall_init_40_entity_inits);
-		_inst.gmlhurt_trigger=__yy_method(_inst,gml_Script_anon_40_1365_40_hittablewall_init_40_entity_inits);
+		_inst.gmlhurt_callback=__yy_method(_inst,gml_Script_anon_40_1337_40_hittablewall_init_40_entity_inits);
+		_inst.gmlhurt_trigger=__yy_method(_inst,gml_Script_anon_40_1392_40_hittablewall_init_40_entity_inits);
 	}
 }
 
-function gml_Script_anon_40_1750_40_player_init_40_entity_inits(_inst,_other,argument0,argument1,argument2)
+function gml_Script_anon_40_1777_40_player_init_40_entity_inits(_inst,_other,argument0,argument1,argument2)
 {
 
 		{
@@ -14434,13 +14660,13 @@ function gml_Script_player_init(_inst,_other)
 		_inst.gmlent_hurt_last=0;
 		_inst.gmlent_hurt_timeout=45;
 		_inst.gmlent_push_amount=1.7;
-		_inst.gmlhurt_trigger=__yy_method(_inst,gml_Script_anon_40_1750_40_player_init_40_entity_inits);
+		_inst.gmlhurt_trigger=__yy_method(_inst,gml_Script_anon_40_1777_40_player_init_40_entity_inits);
 		_inst.depth=(-20);
-		_inst.mask_index=YYASSET_REF(0x01000052);
+		_inst.mask_index=YYASSET_REF(0x01000058);
 	}
 }
 
-function gml_Script_anon_40_2392_40_prop_init_40_entity_inits(_inst,_other,argument0,argument1,argument2)
+function gml_Script_anon_40_2446_40_prop_init_40_entity_inits(_inst,_other,argument0,argument1,argument2)
 {
 
 		{
@@ -14465,7 +14691,7 @@ function gml_Script_anon_40_2392_40_prop_init_40_entity_inits(_inst,_other,argum
 	}
 }
 
-function gml_Script_anon_40_2716_40_prop_init_40_entity_inits(_inst,_other)
+function gml_Script_anon_40_2770_40_prop_init_40_entity_inits(_inst,_other)
 {
 
 		{
@@ -14487,14 +14713,15 @@ function gml_Script_prop_init(_inst,_other)
 		_inst.gmlent_type=1;
 		_inst.gmlhp=20;
 		_inst.gmlbasehp=_inst.gmlhp;
+		_inst.gmlm_fri=0.1;
 		_inst.gmlgrav=0.15;
 		_inst.gmlyvel_max=6;
 		_inst.gmlent_push_amount=1;
 		_inst.gmlent_visible=false;
-		_inst.gmlhurt_trigger=__yy_method(_inst,gml_Script_anon_40_2392_40_prop_init_40_entity_inits);
+		_inst.gmlhurt_trigger=__yy_method(_inst,gml_Script_anon_40_2446_40_prop_init_40_entity_inits);
 		_inst.gmlfx_flash=0;
 		_inst.gmlxsprite=1;
-		_inst.gmldraw_event=__yy_method(_inst,gml_Script_anon_40_2716_40_prop_init_40_entity_inits);
+		_inst.gmldraw_event=__yy_method(_inst,gml_Script_anon_40_2770_40_prop_init_40_entity_inits);
 	}
 }
 
@@ -14504,7 +14731,7 @@ function gml_Script_enemy_init(_inst,_other)
 		{
 		gml_Script_prop_init(_inst,_other);
 		_inst.gmlent_type=2;
-		_inst.gmltarget=YYASSET_REF(0x0000003F);
+		_inst.gmltarget=YYASSET_REF(0x00000043);
 		_inst.gmlhp=15;
 		_inst.gmlbasehp=_inst.gmlhp;
 		_inst.gmlent_visible=true;
@@ -14531,7 +14758,7 @@ function gml_Script_projectile_init(_inst,_other)
 		_inst.gmlysprite=1;
 		_inst.gmlm_dir_draw=false;
 		_inst.depth=(-15);
-		_inst.mask_index=YYASSET_REF(0x0100004F);
+		_inst.mask_index=YYASSET_REF(0x01000055);
 	}
 }
 
@@ -14568,7 +14795,7 @@ function gml_Script_pickup_init(_inst,_other,argument0)
 			}
 		}
 		;
-		_inst.mask_index=YYASSET_REF(0x01000052);
+		_inst.mask_index=YYASSET_REF(0x01000058);
 		_inst.depth=(-5);
 	}
 }
@@ -14586,9 +14813,10 @@ function gml_GlobalScript_entity_scripts(_inst,_other)
 	(_inst.gmlent_player_canhit=__yy_method(_inst,gml_Script_ent_player_canhit));
 	(_inst.gmlhurt_player=__yy_method(_inst,gml_Script_hurt_player));
 	(_inst.gmlent_add_knockback=__yy_method(_inst,gml_Script_ent_add_knockback));
+	(_inst.gmlloop_xoffset=__yy_method(_inst,gml_Script_loop_xoffset));
 }
 
-function gml_Script_anon_40_345_40_ent_move_collide_40_entity_scripts(_inst,_other,argument0)
+function gml_Script_anon_40_362_40_ent_move_collide_40_entity_scripts(_inst,_other,argument0)
 {
 
 		{
@@ -14612,7 +14840,7 @@ function gml_Script_anon_40_345_40_ent_move_collide_40_entity_scripts(_inst,_oth
 	}
 }
 
-function gml_Script_ent_move_collide(_inst,_other,argument0,argument1)
+function gml_Script_ent_move_collide(_inst,_other,argument0)
 {
 
 		{
@@ -14623,19 +14851,20 @@ function gml_Script_ent_move_collide(_inst,_other,argument0,argument1)
 	}
 
 		{
-		var gml_ignore_all=yyfequal(argument1,2);
-		var gml_ignore_plat=!yyGetBool(yyfequal(argument1,1));
+		var gml_ignore_all=_inst.gmlent_no_collision;
+		var gml_plat=((yyGetBool(_inst.gmlent_no_collision))||(yyGetBool(_inst.gmlent_no_platform))?false:true);
 		var gml_collide;
 		if(yyfequal(argument0,(-1)))
 		{
-			var gml_collide=__yy_method(_inst,gml_Script_anon_40_345_40_ent_move_collide_40_entity_scripts)		}
+			var gml_collide=__yy_method(_inst,gml_Script_anon_40_362_40_ent_move_collide_40_entity_scripts)		}
 		else 
 		{
 			var gml_collide=argument0		}
 		;
 		gml_Script_round_vel(_inst,_other);
 		var gml_trueyvel=_inst.gmlyvel_int;
-		if(yyflessequal(_inst.y,(-32)))
+		var gml_minypos=gml_Script_get_spawn_limits(_inst,_other,2);
+		if(yyflessequal(_inst.y,yyfminus(__yy_gml_errCheck(gml_minypos),32)))
 		{
 
 						{
@@ -14651,7 +14880,7 @@ function gml_Script_ent_move_collide(_inst,_other,argument0,argument1)
 			}
 		}
 		;
-		if(!yyGetBool(gml_Script_move_y(_inst,_other,gml_trueyvel,_inst,gml_ignore_plat,gml_ignore_all)))
+		if(!yyGetBool(gml_Script_move_y(_inst,_other,gml_trueyvel,_inst,gml_plat,gml_ignore_all)))
 		{
 
 						{
@@ -14684,15 +14913,15 @@ function gml_Script_get_ent_targets(_inst,_other,argument0)
 		{
 			case 0:
 			{
-				return(__yy_gml_array_create([YYASSET_REF(0x0000003F),YYASSET_REF(0x00000032),YYASSET_REF(0x0000001B)]));
+				return(__yy_gml_array_create([YYASSET_REF(0x00000043),YYASSET_REF(0x00000036),YYASSET_REF(0x0000001F)]));
 			}
 			case 1:
 			{
-				return(__yy_gml_array_create([YYASSET_REF(0x00000032),YYASSET_REF(0x0000001B)]));
+				return(__yy_gml_array_create([YYASSET_REF(0x00000036),YYASSET_REF(0x0000001F)]));
 			}
 			case 2:
 			{
-				return(__yy_gml_array_create([YYASSET_REF(0x0000003F)]));
+				return(__yy_gml_array_create([YYASSET_REF(0x00000043)]));
 			}
 		}
 		;
@@ -14750,7 +14979,7 @@ function gml_Script_ent_death_event(_inst,_other,argument0)
 		part_particles_create(global.gmlfx_sys_bg,_inst.x,_inst.y,yyInst(_inst,_other,global.gmlfx).gmlenemy_die,1);
 		for(var __yy__v0=0,__yy__v1=yyGetReal(4);__yy__v0<__yy__v1;__yy__v0++)
 		{
-			instance_create_depth(_inst.x,_inst.y,0,YYASSET_REF(0x0000001F))		}
+			instance_create_depth(_inst.x,_inst.y,0,YYASSET_REF(0x00000023))		}
 		;
 		if(yyGetBool(argument0))
 		{
@@ -14763,11 +14992,11 @@ function gml_Script_ent_spawnlist_index(_inst,_other)
 {
 
 		{
-		return(yyGetBool(instance_exists(YYASSET_REF(0x0000002F)))?array_get_index(yyInst(_inst,_other,YYASSET_REF(0x0000002F)).gmlenemy_active,_inst.id):(-1));
+		return(yyGetBool(instance_exists(YYASSET_REF(0x00000033)))?array_get_index(yyInst(_inst,_other,YYASSET_REF(0x00000033)).gmlenemy_active,_inst.id):(-1));
 	}
 }
 
-function gml_Script_anon_40_2338_40_hurtData_40_entity_scripts(_inst,_other)
+function gml_Script_anon_40_2404_40_hurtData_40_entity_scripts(_inst,_other)
 {
 
 		{
@@ -14797,7 +15026,7 @@ function gml_Script_hurtData(_inst,_other,argument0)
 			if(!global.gml_Script_hurtData_prototype_yy_staticInitialiser)
 			{
 				global.gml_Script_hurtData_prototype_yy_staticInitialiser=true;
-				gml_Script_hurtData.prototype.gmlexists=__yy_method(undefined,gml_Script_anon_40_2338_40_hurtData_40_entity_scripts);
+				gml_Script_hurtData.prototype.gmlexists=__yy_method(undefined,gml_Script_anon_40_2404_40_hurtData_40_entity_scripts);
 			}
 			;
 			_inst.gmlhitcheck=yyfnotequal(argument0,(-4));
@@ -14908,6 +15137,26 @@ function gml_Script_ent_add_knockback(_inst,_other,argument0,argument1,argument2
 				}
 			}
 		}
+		;
+	}
+}
+
+function gml_Script_loop_xoffset(_inst,_other,argument0,argument1)
+{
+
+		{
+		var gml_bleft=gml_Script_get_spawn_limits(_inst,_other,0);
+		var gml_bright=gml_Script_get_spawn_limits(_inst,_other,1);
+		var gml_bdiff=yyfminus(__yy_gml_errCheck(gml_bright),__yy_gml_errCheck(gml_bleft));
+		var gml_xoff_new=(yyfgreater(argument1,yyfplus(__yy_gml_errCheck(gml_bleft),__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(gml_bdiff),2))))?yyfminus(__yy_gml_errCheck(argument1),__yy_gml_errCheck(gml_bdiff)):yyfplus(__yy_gml_errCheck(argument1),__yy_gml_errCheck(gml_bdiff)));
+		var gml_olddiff=abs(yyfminus(__yy_gml_errCheck(argument0),__yy_gml_errCheck(argument1)));
+		var gml_newdiff=abs(yyfminus(__yy_gml_errCheck(argument0),__yy_gml_errCheck(gml_xoff_new)));
+		if(yyfless(gml_olddiff,gml_newdiff))
+		{
+			return argument1		}
+		else 
+		{
+			return gml_xoff_new		}
 		;
 	}
 }
@@ -15024,12 +15273,12 @@ function gml_Script_game_init(_inst,_other)
 		randomize();
 		random_set_seed(random_get_seed());
 		global.gmlspawn_state=(-1);
-		global.gmlfontMain=font_add_sprite(YYASSET_REF(0x01000035),33,true,(-1));
-		global.gmlfontWhiS=font_add_sprite(YYASSET_REF(0x01000037),33,true,(-1));
-		global.gmlfontWhiM=font_add_sprite(YYASSET_REF(0x01000036),33,true,(-1));
-		global.gmlfontLong=font_add_sprite(YYASSET_REF(0x01000034),33,true,(-1));
+		global.gmlfontMain=font_add_sprite(YYASSET_REF(0x0100003B),33,true,(-1));
+		global.gmlfontWhiS=font_add_sprite(YYASSET_REF(0x0100003D),33,true,(-1));
+		global.gmlfontWhiM=font_add_sprite(YYASSET_REF(0x0100003C),33,true,(-1));
+		global.gmlfontLong=font_add_sprite(YYASSET_REF(0x0100003A),33,true,(-1));
 		gpu_set_tex_filter(false);
-		instance_create_depth(0,0,0,YYASSET_REF(0x0000002E));
+		instance_create_depth(0,0,0,YYASSET_REF(0x00000032));
 		if((yyGetBool(yyfnotequal(window_get_width(),800)))||(yyGetBool(yyfnotequal(window_get_height(),576))))
 		{
 
@@ -15339,7 +15588,7 @@ function gml_Script_draw_key_tip(_inst,_other,argument0,argument1,argument2)
 		var gml_length=string_width(gml_text);
 		var gml_height=string_height(gml_text);
 		var gml_fxpress=(yyfequal(keyboard_check(argument2),true)?1:0);
-		draw_sprite_stretched(_inst,YYASSET_REF(0x0100007D),0,yyfminus(yyfminus(__yy_gml_errCheck(argument0),__yy_gml_errCheck(floor(yyfdivide(__yy_gml_errCheck(gml_length),2)))),4),yyfplus(yyfminus(yyfplus(__yy_gml_errCheck(argument1),__yy_gml_errCheck(__yy_gml_errCheck(-__yy_gml_errCheck(floor(yyfdivide(__yy_gml_errCheck(gml_height),2)))))),5),__yy_gml_errCheck(gml_fxpress)),yyfplus(__yy_gml_errCheck(gml_length),7),yyfplus(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gml_height),2)),2));
+		draw_sprite_stretched(_inst,YYASSET_REF(0x01000085),0,yyfminus(yyfminus(__yy_gml_errCheck(argument0),__yy_gml_errCheck(floor(yyfdivide(__yy_gml_errCheck(gml_length),2)))),4),yyfplus(yyfminus(yyfplus(__yy_gml_errCheck(argument1),__yy_gml_errCheck(__yy_gml_errCheck(-__yy_gml_errCheck(floor(yyfdivide(__yy_gml_errCheck(gml_height),2)))))),5),__yy_gml_errCheck(gml_fxpress)),yyfplus(__yy_gml_errCheck(gml_length),7),yyfplus(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gml_height),2)),2));
 		draw_set_colour((-1));
 		draw_text(argument0,yyfplus(yyfminus(__yy_gml_errCheck(argument1),3),__yy_gml_errCheck(gml_fxpress)),gml_text);
 		draw_set_halign(0);
@@ -15369,6 +15618,75 @@ function gml_Script_timer_show(_inst,_other,argument0)
 	}
 }
 
+function gml_GlobalScript_get_spawn_zone(_inst,_other)
+{
+	(_inst.gmlget_spawn_zone=__yy_method(_inst,gml_Script_get_spawn_zone));
+	(_inst.gmlget_spawn_limits=__yy_method(_inst,gml_Script_get_spawn_limits));
+	(_inst.gmlget_spawn_state=__yy_method(_inst,gml_Script_get_spawn_state));
+}
+
+function gml_Script_get_spawn_zone(_inst,_other)
+{
+
+		{
+		return(yyGetBool(instance_exists(global.gmlspawn_zone_current))?global.gmlspawn_zone_current:(-4));
+	}
+}
+
+function gml_Script_get_spawn_limits(_inst,_other,argument0)
+{
+
+		{
+		var gml_spawn=gml_Script_get_spawn_zone(_inst,_other);
+		var ___sw10___=argument0;
+		var ___swc11___=-1;
+		if(yyCompareVal(___sw10___,0,g_GMLMathEpsilon,false)==0)
+		{
+			___swc11___=0;
+		}
+		else if(yyCompareVal(___sw10___,1,g_GMLMathEpsilon,false)==0)
+		{
+			___swc11___=1;
+		}
+		else if(yyCompareVal(___sw10___,3,g_GMLMathEpsilon,false)==0)
+		{
+			___swc11___=2;
+		}
+		else if(yyCompareVal(___sw10___,2,g_GMLMathEpsilon,false)==0)
+		{
+			___swc11___=3;
+		}
+		switch(___swc11___)
+		{
+			case 0:
+			{
+				return(yyGetBool(gml_spawn)?yyInst(_inst,_other,gml_spawn).bbox_left:0);
+			}
+			case 1:
+			{
+				return(yyGetBool(gml_spawn)?yyInst(_inst,_other,gml_spawn).bbox_right:g_pBuiltIn.room_width);
+			}
+			case 2:
+			{
+				return(yyGetBool(gml_spawn)?yyInst(_inst,_other,gml_spawn).bbox_bottom:g_pBuiltIn.room_height);
+			}
+			case 3:
+			{
+				return(yyGetBool(gml_spawn)?yyInst(_inst,_other,gml_spawn).bbox_top:0);
+			}
+		}
+		;
+	}
+}
+
+function gml_Script_get_spawn_state(_inst,_other)
+{
+
+		{
+		return global.gmlspawn_state;
+	}
+}
+
 function gml_GlobalScript_gmcallback_imgloadbar(_inst,_other,argument0,argument1,argument2,argument3,argument4,argument5,argument6)
 {
 	(_inst.gmlgmcallback_imgloadbar=__yy_method(_inst,gml_Script_gmcallback_imgloadbar));
@@ -15388,45 +15706,45 @@ function gml_Script_gmcallback_imgloadbar(_inst,_other)
 			var gmlch=$$args[2+4];
 			var gmliw=$$args[2+5];
 			var gmlih=$$args[2+6];
-			var ___sw10___=$$args[2+0];
-			var ___swc11___=-1;
-			if(yyCompareVal(___sw10___,"image_rect",g_GMLMathEpsilon,false)==0)
+			var ___sw14___=$$args[2+0];
+			var ___swc15___=-1;
+			if(yyCompareVal(___sw14___,"image_rect",g_GMLMathEpsilon,false)==0)
 			{
-				___swc11___=0;
+				___swc15___=0;
 			}
-			else if(yyCompareVal(___sw10___,"background_color",g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw14___,"background_color",g_GMLMathEpsilon,false)==0)
 			{
-				___swc11___=1;
+				___swc15___=1;
 			}
-			else if(yyCompareVal(___sw10___,"bar_background_color",g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw14___,"bar_background_color",g_GMLMathEpsilon,false)==0)
 			{
-				___swc11___=2;
+				___swc15___=2;
 			}
-			else if(yyCompareVal(___sw10___,"bar_foreground_color",g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw14___,"bar_foreground_color",g_GMLMathEpsilon,false)==0)
 			{
-				___swc11___=3;
+				___swc15___=3;
 			}
-			else if(yyCompareVal(___sw10___,"bar_border_color",g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw14___,"bar_border_color",g_GMLMathEpsilon,false)==0)
 			{
-				___swc11___=4;
+				___swc15___=4;
 			}
-			else if(yyCompareVal(___sw10___,"bar_width",g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw14___,"bar_width",g_GMLMathEpsilon,false)==0)
 			{
-				___swc11___=5;
+				___swc15___=5;
 			}
-			else if(yyCompareVal(___sw10___,"bar_height",g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw14___,"bar_height",g_GMLMathEpsilon,false)==0)
 			{
-				___swc11___=6;
+				___swc15___=6;
 			}
-			else if(yyCompareVal(___sw10___,"bar_border_width",g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw14___,"bar_border_width",g_GMLMathEpsilon,false)==0)
 			{
-				___swc11___=7;
+				___swc15___=7;
 			}
-			else if(yyCompareVal(___sw10___,"bar_offset",g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw14___,"bar_offset",g_GMLMathEpsilon,false)==0)
 			{
-				___swc11___=8;
+				___swc15___=8;
 			}
-			switch(___swc11___)
+			switch(___swc15___)
 			{
 				case 0:
 				{
@@ -15478,7 +15796,7 @@ function gml_Script_gmcallback_imgloadbar(_inst,_other)
 
 function gml_GlobalScript_gun_struct(_inst,_other)
 {
-	global.gmlall_projectiles=(__yy_gml_array_create([YYASSET_REF(0x00000042),YYASSET_REF(0x00000041),YYASSET_REF(0x00000043)]));
+	global.gmlall_projectiles=(__yy_gml_array_create([YYASSET_REF(0x00000046),YYASSET_REF(0x00000045),YYASSET_REF(0x00000047)]));
 	global.gmlgun_name=(__yy_gml_array_create(["nogun","snubby","pistol","shorty","heckler","stapler","nailgun"]));
 	(_inst.gmlget_gun_sprite=__yy_method(_inst,gml_Script_get_gun_sprite));
 	(_inst.gmlget_gun_name=__yy_method(_inst,gml_Script_get_gun_name));
@@ -15494,7 +15812,7 @@ function gml_Script_get_gun_sprite(_inst,_other,argument0)
 		var gml_gunsprite=yyInst(_inst,_other,gml_gun).gmlgun_sprite;
 		if(yyfequal(yyInst(_inst,_other,gml_gun).gmlname,"none"))
 		{
-			gml_gunsprite=YYASSET_REF(0x01000057)		}
+			gml_gunsprite=YYASSET_REF(0x0100005D)		}
 		;
 		return gml_gunsprite;
 	}
@@ -15630,7 +15948,7 @@ function gml_Script____struct___6_40____struct___5_40_gun_struct(_inst,_other)
 
 						{
 				_inst.gmlgun_id=0;
-				_inst.gmlgun_sprite=YYASSET_REF(0x0100008C);
+				_inst.gmlgun_sprite=YYASSET_REF(0x01000094);
 				_inst.gmlgun_sfx=$$args[__yy_gml_array_check_index(2+(0),$$args)];
 				_inst.gmlname="none";
 				_inst.gmlstat=__yy_gml_object_create(_inst,(global.gml___struct___7=__yy_method(_inst,gml_Script____struct___7_40____struct___6_40____struct___5_40_gun_struct)),$$args[__yy_gml_array_check_index(2+(1),$$args)]);
@@ -15778,7 +16096,7 @@ function gml_Script____struct___12_40____struct___5_40_gun_struct(_inst,_other)
 			var $$args=Array.prototype.slice.call(arguments);
 
 						{
-				_inst.gmlgun_sprite=YYASSET_REF(0x0100008C);
+				_inst.gmlgun_sprite=YYASSET_REF(0x01000094);
 				_inst.gmlgun_sfx=$$args[__yy_gml_array_check_index(2+(0),$$args)];
 				_inst.gmlname="snubby";
 				_inst.gmlstat=__yy_gml_object_create(_inst,(global.gml___struct___13=__yy_method(_inst,gml_Script____struct___13_40____struct___12_40____struct___5_40_gun_struct)),$$args[__yy_gml_array_check_index(2+(1),$$args)]);
@@ -15903,7 +16221,7 @@ function gml_Script____struct___18_40____struct___5_40_gun_struct(_inst,_other)
 
 						{
 				_inst.gmlgun_id=2;
-				_inst.gmlgun_sprite=YYASSET_REF(0x0100008A);
+				_inst.gmlgun_sprite=YYASSET_REF(0x01000092);
 				_inst.gmlgun_sfx=$$args[__yy_gml_array_check_index(2+(0),$$args)];
 				_inst.gmlname="pistol";
 				_inst.gmlstat=__yy_gml_object_create(_inst,(global.gml___struct___19=__yy_method(_inst,gml_Script____struct___19_40____struct___18_40____struct___5_40_gun_struct)),$$args[__yy_gml_array_check_index(2+(1),$$args)]);
@@ -16053,7 +16371,7 @@ function gml_Script____struct___24_40____struct___5_40_gun_struct(_inst,_other)
 
 						{
 				_inst.gmlgun_id=3;
-				_inst.gmlgun_sprite=YYASSET_REF(0x0100008B);
+				_inst.gmlgun_sprite=YYASSET_REF(0x01000093);
 				_inst.gmlgun_sfx=$$args[__yy_gml_array_check_index(2+(0),$$args)];
 				_inst.gmlname="shorty";
 				_inst.gmlstat=__yy_gml_object_create(_inst,(global.gml___struct___25=__yy_method(_inst,gml_Script____struct___25_40____struct___24_40____struct___5_40_gun_struct)),$$args[__yy_gml_array_check_index(2+(1),$$args)]);
@@ -16178,7 +16496,7 @@ function gml_Script____struct___30_40____struct___5_40_gun_struct(_inst,_other)
 
 						{
 				_inst.gmlgun_id=4;
-				_inst.gmlgun_sprite=YYASSET_REF(0x01000088);
+				_inst.gmlgun_sprite=YYASSET_REF(0x01000090);
 				_inst.gmlgun_sfx=$$args[__yy_gml_array_check_index(2+(0),$$args)];
 				_inst.gmlname="heckler";
 				_inst.gmlstat=__yy_gml_object_create(_inst,(global.gml___struct___31=__yy_method(_inst,gml_Script____struct___31_40____struct___30_40____struct___5_40_gun_struct)),$$args[__yy_gml_array_check_index(2+(1),$$args)]);
@@ -16303,7 +16621,7 @@ function gml_Script____struct___36_40____struct___5_40_gun_struct(_inst,_other)
 
 						{
 				_inst.gmlgun_id=5;
-				_inst.gmlgun_sprite=YYASSET_REF(0x0100008D);
+				_inst.gmlgun_sprite=YYASSET_REF(0x01000095);
 				_inst.gmlgun_sfx=$$args[__yy_gml_array_check_index(2+(0),$$args)];
 				_inst.gmlname="stapler";
 				_inst.gmlstat=__yy_gml_object_create(_inst,(global.gml___struct___37=__yy_method(_inst,gml_Script____struct___37_40____struct___36_40____struct___5_40_gun_struct)),$$args[__yy_gml_array_check_index(2+(1),$$args)]);
@@ -16428,7 +16746,7 @@ function gml_Script____struct___42_40____struct___5_40_gun_struct(_inst,_other)
 
 						{
 				_inst.gmlgun_id=6;
-				_inst.gmlgun_sprite=YYASSET_REF(0x01000089);
+				_inst.gmlgun_sprite=YYASSET_REF(0x01000091);
 				_inst.gmlgun_sfx=$$args[__yy_gml_array_check_index(2+(0),$$args)];
 				_inst.gmlname="nailgun";
 				_inst.gmlstat=__yy_gml_object_create(_inst,(global.gml___struct___43=__yy_method(_inst,gml_Script____struct___43_40____struct___42_40____struct___5_40_gun_struct)),$$args[__yy_gml_array_check_index(2+(1),$$args)]);
@@ -16485,273 +16803,273 @@ function gml_Script_key_get_string(_inst,_other)
 		var $$args=Array.prototype.slice.call(arguments);
 
 				{
-			var ___sw14___=$$args[__yy_gml_array_check_index(2+(0),$$args)];
-			var ___swc15___=-1;
-			if(yyCompareVal(___sw14___,8,g_GMLMathEpsilon,false)==0)
+			var ___sw18___=$$args[__yy_gml_array_check_index(2+(0),$$args)];
+			var ___swc19___=-1;
+			if(yyCompareVal(___sw18___,8,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=0;
+				___swc19___=0;
 			}
-			else if(yyCompareVal(___sw14___,9,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,9,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=1;
+				___swc19___=1;
 			}
-			else if(yyCompareVal(___sw14___,13,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,13,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=2;
+				___swc19___=2;
 			}
-			else if(yyCompareVal(___sw14___,16,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,16,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=3;
+				___swc19___=3;
 			}
-			else if(yyCompareVal(___sw14___,19,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,19,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=4;
+				___swc19___=4;
 			}
-			else if(yyCompareVal(___sw14___,20,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,20,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=5;
+				___swc19___=5;
 			}
-			else if(yyCompareVal(___sw14___,27,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,27,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=6;
+				___swc19___=6;
 			}
-			else if(yyCompareVal(___sw14___,32,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,32,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=7;
+				___swc19___=7;
 			}
-			else if(yyCompareVal(___sw14___,33,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,33,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=8;
+				___swc19___=8;
 			}
-			else if(yyCompareVal(___sw14___,34,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,34,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=9;
+				___swc19___=9;
 			}
-			else if(yyCompareVal(___sw14___,35,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,35,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=10;
+				___swc19___=10;
 			}
-			else if(yyCompareVal(___sw14___,36,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,36,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=11;
+				___swc19___=11;
 			}
-			else if(yyCompareVal(___sw14___,37,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,37,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=12;
+				___swc19___=12;
 			}
-			else if(yyCompareVal(___sw14___,38,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,38,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=13;
+				___swc19___=13;
 			}
-			else if(yyCompareVal(___sw14___,39,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,39,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=14;
+				___swc19___=14;
 			}
-			else if(yyCompareVal(___sw14___,40,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,40,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=15;
+				___swc19___=15;
 			}
-			else if(yyCompareVal(___sw14___,45,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,45,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=16;
+				___swc19___=16;
 			}
-			else if(yyCompareVal(___sw14___,46,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,46,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=17;
+				___swc19___=17;
 			}
-			else if(yyCompareVal(___sw14___,91,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,91,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=18;
+				___swc19___=18;
 			}
-			else if(yyCompareVal(___sw14___,92,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,92,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=19;
+				___swc19___=19;
 			}
-			else if(yyCompareVal(___sw14___,96,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,96,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=20;
+				___swc19___=20;
 			}
-			else if(yyCompareVal(___sw14___,97,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,97,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=21;
+				___swc19___=21;
 			}
-			else if(yyCompareVal(___sw14___,98,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,98,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=22;
+				___swc19___=22;
 			}
-			else if(yyCompareVal(___sw14___,99,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,99,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=23;
+				___swc19___=23;
 			}
-			else if(yyCompareVal(___sw14___,100,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,100,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=24;
+				___swc19___=24;
 			}
-			else if(yyCompareVal(___sw14___,101,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,101,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=25;
+				___swc19___=25;
 			}
-			else if(yyCompareVal(___sw14___,102,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,102,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=26;
+				___swc19___=26;
 			}
-			else if(yyCompareVal(___sw14___,103,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,103,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=27;
+				___swc19___=27;
 			}
-			else if(yyCompareVal(___sw14___,104,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,104,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=28;
+				___swc19___=28;
 			}
-			else if(yyCompareVal(___sw14___,105,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,105,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=29;
+				___swc19___=29;
 			}
-			else if(yyCompareVal(___sw14___,106,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,106,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=30;
+				___swc19___=30;
 			}
-			else if(yyCompareVal(___sw14___,107,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,107,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=31;
+				___swc19___=31;
 			}
-			else if(yyCompareVal(___sw14___,109,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,109,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=32;
+				___swc19___=32;
 			}
-			else if(yyCompareVal(___sw14___,110,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,110,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=33;
+				___swc19___=33;
 			}
-			else if(yyCompareVal(___sw14___,111,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,111,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=34;
+				___swc19___=34;
 			}
-			else if(yyCompareVal(___sw14___,112,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,112,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=35;
+				___swc19___=35;
 			}
-			else if(yyCompareVal(___sw14___,113,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,113,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=36;
+				___swc19___=36;
 			}
-			else if(yyCompareVal(___sw14___,114,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,114,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=37;
+				___swc19___=37;
 			}
-			else if(yyCompareVal(___sw14___,115,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,115,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=38;
+				___swc19___=38;
 			}
-			else if(yyCompareVal(___sw14___,116,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,116,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=39;
+				___swc19___=39;
 			}
-			else if(yyCompareVal(___sw14___,117,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,117,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=40;
+				___swc19___=40;
 			}
-			else if(yyCompareVal(___sw14___,118,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,118,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=41;
+				___swc19___=41;
 			}
-			else if(yyCompareVal(___sw14___,119,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,119,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=42;
+				___swc19___=42;
 			}
-			else if(yyCompareVal(___sw14___,120,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,120,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=43;
+				___swc19___=43;
 			}
-			else if(yyCompareVal(___sw14___,121,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,121,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=44;
+				___swc19___=44;
 			}
-			else if(yyCompareVal(___sw14___,122,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,122,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=45;
+				___swc19___=45;
 			}
-			else if(yyCompareVal(___sw14___,123,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,123,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=46;
+				___swc19___=46;
 			}
-			else if(yyCompareVal(___sw14___,144,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,144,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=47;
+				___swc19___=47;
 			}
-			else if(yyCompareVal(___sw14___,145,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,145,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=48;
+				___swc19___=48;
 			}
-			else if(yyCompareVal(___sw14___,160,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,160,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=49;
+				___swc19___=49;
 			}
-			else if(yyCompareVal(___sw14___,161,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,161,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=50;
+				___swc19___=50;
 			}
-			else if(yyCompareVal(___sw14___,162,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,162,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=51;
+				___swc19___=51;
 			}
-			else if(yyCompareVal(___sw14___,163,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,163,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=52;
+				___swc19___=52;
 			}
-			else if(yyCompareVal(___sw14___,164,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,164,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=53;
+				___swc19___=53;
 			}
-			else if(yyCompareVal(___sw14___,165,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,165,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=54;
+				___swc19___=54;
 			}
-			else if(yyCompareVal(___sw14___,186,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,186,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=55;
+				___swc19___=55;
 			}
-			else if(yyCompareVal(___sw14___,187,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,187,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=56;
+				___swc19___=56;
 			}
-			else if(yyCompareVal(___sw14___,188,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,188,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=57;
+				___swc19___=57;
 			}
-			else if(yyCompareVal(___sw14___,189,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,189,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=58;
+				___swc19___=58;
 			}
-			else if(yyCompareVal(___sw14___,190,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,190,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=59;
+				___swc19___=59;
 			}
-			else if(yyCompareVal(___sw14___,191,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,191,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=60;
+				___swc19___=60;
 			}
-			else if(yyCompareVal(___sw14___,192,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,192,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=61;
+				___swc19___=61;
 			}
-			else if(yyCompareVal(___sw14___,219,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,219,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=62;
+				___swc19___=62;
 			}
-			else if(yyCompareVal(___sw14___,220,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,220,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=63;
+				___swc19___=63;
 			}
-			else if(yyCompareVal(___sw14___,221,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,221,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=64;
+				___swc19___=64;
 			}
-			else if(yyCompareVal(___sw14___,222,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw18___,222,g_GMLMathEpsilon,false)==0)
 			{
-				___swc15___=65;
+				___swc19___=65;
 			}
-			switch(___swc15___)
+			switch(___swc19___)
 			{
 				case 0:
 				{
@@ -17108,13 +17426,13 @@ function gml_Script_listloop(_inst,_other)
 			var gml_list=$$args[__yy_gml_array_check_index(2+(0),$$args)];
 			var gml_call=$$args[__yy_gml_array_check_index(2+(1),$$args)];
 			var gml_listfind=(-1);
-			var ___sw18___=($$args.length-2);
-			var ___swc19___=-1;
-			if(yyCompareVal(___sw18___,3,g_GMLMathEpsilon,false)==0)
+			var ___sw22___=($$args.length-2);
+			var ___swc23___=-1;
+			if(yyCompareVal(___sw22___,3,g_GMLMathEpsilon,false)==0)
 			{
-				___swc19___=0;
+				___swc23___=0;
 			}
-			switch(___swc19___)
+			switch(___swc23___)
 			{
 				case 0:
 				{
@@ -17318,49 +17636,49 @@ function gml_Script_options_change(_inst,_other)
 		var $$args=Array.prototype.slice.call(arguments);
 
 				{
-			var ___sw44___=$$args[__yy_gml_array_check_index(2+(0),$$args)];
-			var ___swc45___=-1;
-			if(yyCompareVal(___sw44___,"speedruntimer",g_GMLMathEpsilon,false)==0)
+			var ___sw48___=$$args[__yy_gml_array_check_index(2+(0),$$args)];
+			var ___swc49___=-1;
+			if(yyCompareVal(___sw48___,"speedruntimer",g_GMLMathEpsilon,false)==0)
 			{
-				___swc45___=0;
+				___swc49___=0;
 			}
-			else if(yyCompareVal(___sw44___,"showaiming",g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw48___,"showaiming",g_GMLMathEpsilon,false)==0)
 			{
-				___swc45___=1;
+				___swc49___=1;
 			}
-			else if(yyCompareVal(___sw44___,"tutorial",g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw48___,"tutorial",g_GMLMathEpsilon,false)==0)
 			{
-				___swc45___=2;
+				___swc49___=2;
 			}
-			else if(yyCompareVal(___sw44___,"deletealldata",g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw48___,"deletealldata",g_GMLMathEpsilon,false)==0)
 			{
-				___swc45___=3;
+				___swc49___=3;
 			}
-			else if(yyCompareVal(___sw44___,"genvolume",g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw48___,"genvolume",g_GMLMathEpsilon,false)==0)
 			{
-				___swc45___=4;
+				___swc49___=4;
 			}
-			else if(yyCompareVal(___sw44___,"musvolume",g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw48___,"musvolume",g_GMLMathEpsilon,false)==0)
 			{
-				___swc45___=5;
+				___swc49___=5;
 			}
-			else if(yyCompareVal(___sw44___,"keyoptions",g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw48___,"keyoptions",g_GMLMathEpsilon,false)==0)
 			{
-				___swc45___=6;
+				___swc49___=6;
 			}
-			else if(yyCompareVal(___sw44___,"keysave",g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw48___,"keysave",g_GMLMathEpsilon,false)==0)
 			{
-				___swc45___=7;
+				___swc49___=7;
 			}
-			else if(yyCompareVal(___sw44___,"keyset",g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw48___,"keyset",g_GMLMathEpsilon,false)==0)
 			{
-				___swc45___=8;
+				___swc49___=8;
 			}
-			else if(yyCompareVal(___sw44___,"setnewkey",g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw48___,"setnewkey",g_GMLMathEpsilon,false)==0)
 			{
-				___swc45___=9;
+				___swc49___=9;
 			}
-			switch(___swc45___)
+			switch(___swc49___)
 			{
 				case 0:
 				{
@@ -17544,49 +17862,49 @@ function gml_Script_menu_options_draw(_inst,_other)
 			draw_set_color((-1));
 			var gml_sb=(__yy_gml_array_create([]));
 			var gml_sbmain=(yyGetBool(_inst.gmlis_pause)?"mainpause":"main");
-			var ___sw46___=_inst.gmlme_subs;
-			var ___swc47___=-1;
-			if(yyCompareVal(___sw46___,"intro",g_GMLMathEpsilon,false)==0)
+			var ___sw50___=_inst.gmlme_subs;
+			var ___swc51___=-1;
+			if(yyCompareVal(___sw50___,"intro",g_GMLMathEpsilon,false)==0)
 			{
-				___swc47___=0;
+				___swc51___=0;
 			}
-			else if(yyCompareVal(___sw46___,"main",g_GMLMathEpsilon,false)==0||yyCompareVal(___sw46___,"mainpause",g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw50___,"main",g_GMLMathEpsilon,false)==0||yyCompareVal(___sw50___,"mainpause",g_GMLMathEpsilon,false)==0)
 			{
-				___swc47___=1;
+				___swc51___=1;
 			}
-			else if(yyCompareVal(___sw46___,"options",g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw50___,"options",g_GMLMathEpsilon,false)==0)
 			{
-				___swc47___=2;
+				___swc51___=2;
 			}
-			else if(yyCompareVal(___sw46___,"options_game",g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw50___,"options_game",g_GMLMathEpsilon,false)==0)
 			{
-				___swc47___=3;
+				___swc51___=3;
 			}
-			else if(yyCompareVal(___sw46___,"options_game_nukealldata",g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw50___,"options_game_nukealldata",g_GMLMathEpsilon,false)==0)
 			{
-				___swc47___=4;
+				___swc51___=4;
 			}
-			else if(yyCompareVal(___sw46___,"options_audio",g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw50___,"options_audio",g_GMLMathEpsilon,false)==0)
 			{
-				___swc47___=5;
+				___swc51___=5;
 			}
-			else if(yyCompareVal(___sw46___,"keys",g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw50___,"keys",g_GMLMathEpsilon,false)==0)
 			{
-				___swc47___=6;
+				___swc51___=6;
 			}
-			else if(yyCompareVal(___sw46___,"gameover",g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw50___,"gameover",g_GMLMathEpsilon,false)==0)
 			{
-				___swc47___=7;
+				___swc51___=7;
 			}
-			else if(yyCompareVal(___sw46___,"gameover_wait",g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw50___,"gameover_wait",g_GMLMathEpsilon,false)==0)
 			{
-				___swc47___=8;
+				___swc51___=8;
 			}
-			else if(yyCompareVal(___sw46___,"extras_stats",g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw50___,"extras_stats",g_GMLMathEpsilon,false)==0)
 			{
-				___swc47___=9;
+				___swc51___=9;
 			}
-			switch(___swc47___)
+			switch(___swc51___)
 			{
 				case 0:
 				{
@@ -17655,49 +17973,49 @@ function gml_Script_menu_options_draw(_inst,_other)
 							var gml_v=((yyGetBool(yyfequal(_inst.gmlme_select,gmli)))&&(yyGetBool(yyfequal(_inst.gmlme_subs,gml_mesubs)))?yyfplus(1,__yy_gml_errCheck(yyftime(__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(_inst.gmlmenu_fx_swi),4)),0.3))):1);
 							var gml_txt="";
 							var gml_extradraw=(-1);
-							var ___sw48___=gml_mesubs;
-							var ___swc49___=-1;
-							if(yyCompareVal(___sw48___,"intro",g_GMLMathEpsilon,false)==0)
+							var ___sw52___=gml_mesubs;
+							var ___swc53___=-1;
+							if(yyCompareVal(___sw52___,"intro",g_GMLMathEpsilon,false)==0)
 							{
-								___swc49___=1;
+								___swc53___=1;
 							}
-							else if(yyCompareVal(___sw48___,"main",g_GMLMathEpsilon,false)==0)
+							else if(yyCompareVal(___sw52___,"main",g_GMLMathEpsilon,false)==0)
 							{
-								___swc49___=2;
+								___swc53___=2;
 							}
-							else if(yyCompareVal(___sw48___,"mainpause",g_GMLMathEpsilon,false)==0)
+							else if(yyCompareVal(___sw52___,"mainpause",g_GMLMathEpsilon,false)==0)
 							{
-								___swc49___=3;
+								___swc53___=3;
 							}
-							else if(yyCompareVal(___sw48___,"options",g_GMLMathEpsilon,false)==0)
+							else if(yyCompareVal(___sw52___,"options",g_GMLMathEpsilon,false)==0)
 							{
-								___swc49___=4;
+								___swc53___=4;
 							}
-							else if(yyCompareVal(___sw48___,"options_game",g_GMLMathEpsilon,false)==0)
+							else if(yyCompareVal(___sw52___,"options_game",g_GMLMathEpsilon,false)==0)
 							{
-								___swc49___=5;
+								___swc53___=5;
 							}
-							else if(yyCompareVal(___sw48___,"options_game_nukealldata",g_GMLMathEpsilon,false)==0)
+							else if(yyCompareVal(___sw52___,"options_game_nukealldata",g_GMLMathEpsilon,false)==0)
 							{
-								___swc49___=6;
+								___swc53___=6;
 							}
-							else if(yyCompareVal(___sw48___,"options_audio",g_GMLMathEpsilon,false)==0)
+							else if(yyCompareVal(___sw52___,"options_audio",g_GMLMathEpsilon,false)==0)
 							{
-								___swc49___=7;
+								___swc53___=7;
 							}
-							else if(yyCompareVal(___sw48___,"keys",g_GMLMathEpsilon,false)==0)
+							else if(yyCompareVal(___sw52___,"keys",g_GMLMathEpsilon,false)==0)
 							{
-								___swc49___=8;
+								___swc53___=8;
 							}
-							else if(yyCompareVal(___sw48___,"gameover",g_GMLMathEpsilon,false)==0)
+							else if(yyCompareVal(___sw52___,"gameover",g_GMLMathEpsilon,false)==0)
 							{
-								___swc49___=9;
+								___swc53___=9;
 							}
-							else if(yyCompareVal(___sw48___,"extras_stats",g_GMLMathEpsilon,false)==0)
+							else if(yyCompareVal(___sw52___,"extras_stats",g_GMLMathEpsilon,false)==0)
 							{
-								___swc49___=10;
+								___swc53___=10;
 							}
-							switch(___swc49___)
+							switch(___swc53___)
 							{
 								default :
 								{
@@ -17710,25 +18028,25 @@ function gml_Script_menu_options_draw(_inst,_other)
 								}
 								case 2:
 								{
-									var ___sw50___=gmli;
-									var ___swc51___=-1;
-									if(yyCompareVal(___sw50___,0,g_GMLMathEpsilon,false)==0)
+									var ___sw54___=gmli;
+									var ___swc55___=-1;
+									if(yyCompareVal(___sw54___,0,g_GMLMathEpsilon,false)==0)
 									{
-										___swc51___=1;
+										___swc55___=1;
 									}
-									else if(yyCompareVal(___sw50___,1,g_GMLMathEpsilon,false)==0)
+									else if(yyCompareVal(___sw54___,1,g_GMLMathEpsilon,false)==0)
 									{
-										___swc51___=2;
+										___swc55___=2;
 									}
-									else if(yyCompareVal(___sw50___,2,g_GMLMathEpsilon,false)==0)
+									else if(yyCompareVal(___sw54___,2,g_GMLMathEpsilon,false)==0)
 									{
-										___swc51___=3;
+										___swc55___=3;
 									}
-									else if(yyCompareVal(___sw50___,3,g_GMLMathEpsilon,false)==0)
+									else if(yyCompareVal(___sw54___,3,g_GMLMathEpsilon,false)==0)
 									{
-										___swc51___=4;
+										___swc55___=4;
 									}
-									switch(___swc51___)
+									switch(___swc55___)
 									{
 										default :
 										{
@@ -17760,25 +18078,25 @@ function gml_Script_menu_options_draw(_inst,_other)
 								}
 								case 3:
 								{
-									var ___sw52___=gmli;
-									var ___swc53___=-1;
-									if(yyCompareVal(___sw52___,0,g_GMLMathEpsilon,false)==0)
+									var ___sw56___=gmli;
+									var ___swc57___=-1;
+									if(yyCompareVal(___sw56___,0,g_GMLMathEpsilon,false)==0)
 									{
-										___swc53___=1;
+										___swc57___=1;
 									}
-									else if(yyCompareVal(___sw52___,1,g_GMLMathEpsilon,false)==0)
+									else if(yyCompareVal(___sw56___,1,g_GMLMathEpsilon,false)==0)
 									{
-										___swc53___=2;
+										___swc57___=2;
 									}
-									else if(yyCompareVal(___sw52___,2,g_GMLMathEpsilon,false)==0)
+									else if(yyCompareVal(___sw56___,2,g_GMLMathEpsilon,false)==0)
 									{
-										___swc53___=3;
+										___swc57___=3;
 									}
-									else if(yyCompareVal(___sw52___,3,g_GMLMathEpsilon,false)==0)
+									else if(yyCompareVal(___sw56___,3,g_GMLMathEpsilon,false)==0)
 									{
-										___swc53___=4;
+										___swc57___=4;
 									}
-									switch(___swc53___)
+									switch(___swc57___)
 									{
 										default :
 										{
@@ -17810,25 +18128,25 @@ function gml_Script_menu_options_draw(_inst,_other)
 								}
 								case 4:
 								{
-									var ___sw54___=gmli;
-									var ___swc55___=-1;
-									if(yyCompareVal(___sw54___,0,g_GMLMathEpsilon,false)==0)
+									var ___sw58___=gmli;
+									var ___swc59___=-1;
+									if(yyCompareVal(___sw58___,0,g_GMLMathEpsilon,false)==0)
 									{
-										___swc55___=1;
+										___swc59___=1;
 									}
-									else if(yyCompareVal(___sw54___,1,g_GMLMathEpsilon,false)==0)
+									else if(yyCompareVal(___sw58___,1,g_GMLMathEpsilon,false)==0)
 									{
-										___swc55___=2;
+										___swc59___=2;
 									}
-									else if(yyCompareVal(___sw54___,2,g_GMLMathEpsilon,false)==0)
+									else if(yyCompareVal(___sw58___,2,g_GMLMathEpsilon,false)==0)
 									{
-										___swc55___=3;
+										___swc59___=3;
 									}
-									else if(yyCompareVal(___sw54___,3,g_GMLMathEpsilon,false)==0)
+									else if(yyCompareVal(___sw58___,3,g_GMLMathEpsilon,false)==0)
 									{
-										___swc55___=4;
+										___swc59___=4;
 									}
-									switch(___swc55___)
+									switch(___swc59___)
 									{
 										default :
 										{
@@ -17861,29 +18179,29 @@ function gml_Script_menu_options_draw(_inst,_other)
 								}
 								case 5:
 								{
-									var ___sw56___=gmli;
-									var ___swc57___=-1;
-									if(yyCompareVal(___sw56___,0,g_GMLMathEpsilon,false)==0)
+									var ___sw60___=gmli;
+									var ___swc61___=-1;
+									if(yyCompareVal(___sw60___,0,g_GMLMathEpsilon,false)==0)
 									{
-										___swc57___=1;
+										___swc61___=1;
 									}
-									else if(yyCompareVal(___sw56___,1,g_GMLMathEpsilon,false)==0)
+									else if(yyCompareVal(___sw60___,1,g_GMLMathEpsilon,false)==0)
 									{
-										___swc57___=2;
+										___swc61___=2;
 									}
-									else if(yyCompareVal(___sw56___,2,g_GMLMathEpsilon,false)==0)
+									else if(yyCompareVal(___sw60___,2,g_GMLMathEpsilon,false)==0)
 									{
-										___swc57___=3;
+										___swc61___=3;
 									}
-									else if(yyCompareVal(___sw56___,3,g_GMLMathEpsilon,false)==0)
+									else if(yyCompareVal(___sw60___,3,g_GMLMathEpsilon,false)==0)
 									{
-										___swc57___=4;
+										___swc61___=4;
 									}
-									else if(yyCompareVal(___sw56___,4,g_GMLMathEpsilon,false)==0)
+									else if(yyCompareVal(___sw60___,4,g_GMLMathEpsilon,false)==0)
 									{
-										___swc57___=5;
+										___swc61___=5;
 									}
-									switch(___swc57___)
+									switch(___swc61___)
 									{
 										default :
 										{
@@ -17921,17 +18239,17 @@ function gml_Script_menu_options_draw(_inst,_other)
 								}
 								case 6:
 								{
-									var ___sw58___=gmli;
-									var ___swc59___=-1;
-									if(yyCompareVal(___sw58___,0,g_GMLMathEpsilon,false)==0)
+									var ___sw62___=gmli;
+									var ___swc63___=-1;
+									if(yyCompareVal(___sw62___,0,g_GMLMathEpsilon,false)==0)
 									{
-										___swc59___=1;
+										___swc63___=1;
 									}
-									else if(yyCompareVal(___sw58___,1,g_GMLMathEpsilon,false)==0)
+									else if(yyCompareVal(___sw62___,1,g_GMLMathEpsilon,false)==0)
 									{
-										___swc59___=2;
+										___swc63___=2;
 									}
-									switch(___swc59___)
+									switch(___swc63___)
 									{
 										default :
 										{
@@ -17954,21 +18272,21 @@ function gml_Script_menu_options_draw(_inst,_other)
 								case 7:
 								{
 									var gml_is=(yyGetBool(yyfequal(gmli,_inst.gmlme_select)))&&(yyGetBool(yyfequal(_inst.gmlme_subs,gml_mesubs)));
-									var ___sw60___=gmli;
-									var ___swc61___=-1;
-									if(yyCompareVal(___sw60___,0,g_GMLMathEpsilon,false)==0)
+									var ___sw64___=gmli;
+									var ___swc65___=-1;
+									if(yyCompareVal(___sw64___,0,g_GMLMathEpsilon,false)==0)
 									{
-										___swc61___=1;
+										___swc65___=1;
 									}
-									else if(yyCompareVal(___sw60___,1,g_GMLMathEpsilon,false)==0)
+									else if(yyCompareVal(___sw64___,1,g_GMLMathEpsilon,false)==0)
 									{
-										___swc61___=2;
+										___swc65___=2;
 									}
-									else if(yyCompareVal(___sw60___,2,g_GMLMathEpsilon,false)==0)
+									else if(yyCompareVal(___sw64___,2,g_GMLMathEpsilon,false)==0)
 									{
-										___swc61___=3;
+										___swc65___=3;
 									}
-									switch(___swc61___)
+									switch(___swc65___)
 									{
 										default :
 										{
@@ -18004,53 +18322,53 @@ function gml_Script_menu_options_draw(_inst,_other)
 								}
 								case 8:
 								{
-									var ___sw62___=gmli;
-									var ___swc63___=-1;
-									if(yyCompareVal(___sw62___,0,g_GMLMathEpsilon,false)==0)
+									var ___sw66___=gmli;
+									var ___swc67___=-1;
+									if(yyCompareVal(___sw66___,0,g_GMLMathEpsilon,false)==0)
 									{
-										___swc63___=1;
+										___swc67___=1;
 									}
-									else if(yyCompareVal(___sw62___,1,g_GMLMathEpsilon,false)==0)
+									else if(yyCompareVal(___sw66___,1,g_GMLMathEpsilon,false)==0)
 									{
-										___swc63___=2;
+										___swc67___=2;
 									}
-									else if(yyCompareVal(___sw62___,2,g_GMLMathEpsilon,false)==0)
+									else if(yyCompareVal(___sw66___,2,g_GMLMathEpsilon,false)==0)
 									{
-										___swc63___=3;
+										___swc67___=3;
 									}
-									else if(yyCompareVal(___sw62___,3,g_GMLMathEpsilon,false)==0)
+									else if(yyCompareVal(___sw66___,3,g_GMLMathEpsilon,false)==0)
 									{
-										___swc63___=4;
+										___swc67___=4;
 									}
-									else if(yyCompareVal(___sw62___,4,g_GMLMathEpsilon,false)==0)
+									else if(yyCompareVal(___sw66___,4,g_GMLMathEpsilon,false)==0)
 									{
-										___swc63___=5;
+										___swc67___=5;
 									}
-									else if(yyCompareVal(___sw62___,5,g_GMLMathEpsilon,false)==0)
+									else if(yyCompareVal(___sw66___,5,g_GMLMathEpsilon,false)==0)
 									{
-										___swc63___=6;
+										___swc67___=6;
 									}
-									else if(yyCompareVal(___sw62___,6,g_GMLMathEpsilon,false)==0)
+									else if(yyCompareVal(___sw66___,6,g_GMLMathEpsilon,false)==0)
 									{
-										___swc63___=7;
+										___swc67___=7;
 									}
-									else if(yyCompareVal(___sw62___,7,g_GMLMathEpsilon,false)==0)
+									else if(yyCompareVal(___sw66___,7,g_GMLMathEpsilon,false)==0)
 									{
-										___swc63___=8;
+										___swc67___=8;
 									}
-									else if(yyCompareVal(___sw62___,8,g_GMLMathEpsilon,false)==0)
+									else if(yyCompareVal(___sw66___,8,g_GMLMathEpsilon,false)==0)
 									{
-										___swc63___=9;
+										___swc67___=9;
 									}
-									else if(yyCompareVal(___sw62___,9,g_GMLMathEpsilon,false)==0)
+									else if(yyCompareVal(___sw66___,9,g_GMLMathEpsilon,false)==0)
 									{
-										___swc63___=10;
+										___swc67___=10;
 									}
-									else if(yyCompareVal(___sw62___,10,g_GMLMathEpsilon,false)==0)
+									else if(yyCompareVal(___sw66___,10,g_GMLMathEpsilon,false)==0)
 									{
-										___swc63___=11;
+										___swc67___=11;
 									}
-									switch(___swc63___)
+									switch(___swc67___)
 									{
 										default :
 										{
@@ -18132,17 +18450,17 @@ function gml_Script_menu_options_draw(_inst,_other)
 								}
 								case 9:
 								{
-									var ___sw64___=gmli;
-									var ___swc65___=-1;
-									if(yyCompareVal(___sw64___,0,g_GMLMathEpsilon,false)==0)
+									var ___sw68___=gmli;
+									var ___swc69___=-1;
+									if(yyCompareVal(___sw68___,0,g_GMLMathEpsilon,false)==0)
 									{
-										___swc65___=1;
+										___swc69___=1;
 									}
-									else if(yyCompareVal(___sw64___,1,g_GMLMathEpsilon,false)==0)
+									else if(yyCompareVal(___sw68___,1,g_GMLMathEpsilon,false)==0)
 									{
-										___swc65___=2;
+										___swc69___=2;
 									}
-									switch(___swc65___)
+									switch(___swc69___)
 									{
 										default :
 										{
@@ -18165,13 +18483,13 @@ function gml_Script_menu_options_draw(_inst,_other)
 								}
 								case 10:
 								{
-									var ___sw66___=gmli;
-									var ___swc67___=-1;
-									if(yyCompareVal(___sw66___,0,g_GMLMathEpsilon,false)==0)
+									var ___sw70___=gmli;
+									var ___swc71___=-1;
+									if(yyCompareVal(___sw70___,0,g_GMLMathEpsilon,false)==0)
 									{
-										___swc67___=1;
+										___swc71___=1;
 									}
-									switch(___swc67___)
+									switch(___swc71___)
 									{
 										default :
 										{
@@ -18260,7 +18578,7 @@ function gml_Script_on_wall(_inst,_other)
 {
 
 		{
-		return instance_place(_inst,_inst.x,yyfplus(__yy_gml_errCheck(_inst.y),1),YYASSET_REF(0x00000054));
+		return instance_place(_inst,_inst.x,yyfplus(__yy_gml_errCheck(_inst.y),1),YYASSET_REF(0x00000058));
 	}
 }
 
@@ -18268,7 +18586,7 @@ function gml_Script_on_slope(_inst,_other)
 {
 
 		{
-		return collision_point(_inst,_inst.x,yyfplus(__yy_gml_errCheck(_inst.bbox_bottom),1),YYASSET_REF(0x0000004A),true,true);
+		return collision_point(_inst,_inst.x,yyfplus(__yy_gml_errCheck(_inst.bbox_bottom),1),YYASSET_REF(0x0000004E),true,true);
 	}
 }
 
@@ -18281,7 +18599,7 @@ function gml_Script_on_platform(_inst,_other)
 			return(-4)		}
 		;
 		var gmlpl_ds=ds_list_create();
-		var gmlpl_ds_size=collision_rectangle_list(_inst,_inst.bbox_left,_inst.bbox_bottom,_inst.bbox_right,yyfplus(__yy_gml_errCheck(_inst.bbox_bottom),1),YYASSET_REF(0x0000003E),false,true,gmlpl_ds,false);
+		var gmlpl_ds_size=collision_rectangle_list(_inst,_inst.bbox_left,_inst.bbox_bottom,_inst.bbox_right,yyfplus(__yy_gml_errCheck(_inst.bbox_bottom),1),YYASSET_REF(0x00000042),false,true,gmlpl_ds,false);
 		var gmli=0;
 		for(;yyfless(gmli,gmlpl_ds_size);gmli=(gmli instanceof Long?gmli.add(1):++gmli))
 		{
@@ -18322,17 +18640,17 @@ function gml_Script_move_x(_inst,_other)
 			var gml_xdir=sign(gml_xvel);
 			var gmlinstance=_inst;
 			var gmlignore=false;
-			var ___sw78___=($$args.length-2);
-			var ___swc79___=-1;
-			if(yyCompareVal(___sw78___,3,g_GMLMathEpsilon,false)==0)
+			var ___sw82___=($$args.length-2);
+			var ___swc83___=-1;
+			if(yyCompareVal(___sw82___,3,g_GMLMathEpsilon,false)==0)
 			{
-				___swc79___=0;
+				___swc83___=0;
 			}
-			else if(yyCompareVal(___sw78___,2,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw82___,2,g_GMLMathEpsilon,false)==0)
 			{
-				___swc79___=1;
+				___swc83___=1;
 			}
-			switch(___swc79___)
+			switch(___swc83___)
 			{
 				case 0:
 				{
@@ -18357,7 +18675,7 @@ function gml_Script_move_x(_inst,_other)
 						{
 
 														{
-								if((yyGetBool(!yyGetBool(place_meeting(__yy__v7,yyfplus(__yy_gml_errCheck(__yy__v7.x),__yy_gml_errCheck(gml_xdir)),__yy__v7.y,YYASSET_REF(0x00000054)))))||(yyGetBool(gmlignore)))
+								if((yyGetBool(!yyGetBool(place_meeting(__yy__v7,yyfplus(__yy_gml_errCheck(__yy__v7.x),__yy_gml_errCheck(gml_xdir)),__yy__v7.y,YYASSET_REF(0x00000058)))))||(yyGetBool(gmlignore)))
 								{
 
 																		{
@@ -18388,7 +18706,7 @@ function gml_Script_wall_above(_inst,_other)
 {
 
 		{
-		return instance_place(_inst,_inst.x,yyfminus(__yy_gml_errCheck(_inst.y),1),YYASSET_REF(0x00000054));
+		return instance_place(_inst,_inst.x,yyfminus(__yy_gml_errCheck(_inst.y),1),YYASSET_REF(0x00000058));
 	}
 }
 
@@ -18404,21 +18722,21 @@ function gml_Script_move_y(_inst,_other)
 			var gmlinstance=_inst;
 			var gml_pl=true;
 			var gmlignore=false;
-			var ___sw80___=($$args.length-2);
-			var ___swc81___=-1;
-			if(yyCompareVal(___sw80___,4,g_GMLMathEpsilon,false)==0)
+			var ___sw84___=($$args.length-2);
+			var ___swc85___=-1;
+			if(yyCompareVal(___sw84___,4,g_GMLMathEpsilon,false)==0)
 			{
-				___swc81___=0;
+				___swc85___=0;
 			}
-			else if(yyCompareVal(___sw80___,3,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw84___,3,g_GMLMathEpsilon,false)==0)
 			{
-				___swc81___=1;
+				___swc85___=1;
 			}
-			else if(yyCompareVal(___sw80___,2,g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw84___,2,g_GMLMathEpsilon,false)==0)
 			{
-				___swc81___=2;
+				___swc85___=2;
 			}
-			switch(___swc81___)
+			switch(___swc85___)
 			{
 				case 0:
 				{
@@ -18516,7 +18834,7 @@ function gml_Script_slope_move(_inst,_other)
 				{
 			var gml_xdir=$$args[__yy_gml_array_check_index(2+(0),$$args)];
 			var gml_bdiff=yyfminus(__yy_gml_errCheck(_inst.bbox_bottom),__yy_gml_errCheck(_inst.y));
-			if(yyGetBool(collision_point(_inst,_inst.x,yyfplus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(gml_bdiff)),YYASSET_REF(0x0000004A),true,true)))
+			if(yyGetBool(collision_point(_inst,_inst.x,yyfplus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(gml_bdiff)),YYASSET_REF(0x0000004E),true,true)))
 			{
 
 								{
@@ -18532,7 +18850,7 @@ function gml_Script_slope_move(_inst,_other)
 				}
 			}
 			;
-			if((yyGetBool((yyGetBool(collision_point(_inst,_inst.x,yyfplus(__yy_gml_errCheck(yyfplus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(gml_bdiff))),2),YYASSET_REF(0x0000004A),true,true)))||(yyGetBool((yyGetBool(collision_point(_inst,_inst.x,yyfplus(__yy_gml_errCheck(yyfplus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(gml_bdiff))),2),YYASSET_REF(0x0000004C),true,true)))&&(yyGetBool(collision_point(_inst,_inst.xprevious,yyfplus(__yy_gml_errCheck(yyfplus(__yy_gml_errCheck(_inst.yprevious),__yy_gml_errCheck(gml_bdiff))),1),YYASSET_REF(0x0000004A),true,true)))))))&&(yyGetBool(!yyGetBool(gml_Script_on_ground(_inst,_other)))))
+			if((yyGetBool((yyGetBool(collision_point(_inst,_inst.x,yyfplus(__yy_gml_errCheck(yyfplus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(gml_bdiff))),2),YYASSET_REF(0x0000004E),true,true)))||(yyGetBool((yyGetBool(collision_point(_inst,_inst.x,yyfplus(__yy_gml_errCheck(yyfplus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(gml_bdiff))),2),YYASSET_REF(0x00000050),true,true)))&&(yyGetBool(collision_point(_inst,_inst.xprevious,yyfplus(__yy_gml_errCheck(yyfplus(__yy_gml_errCheck(_inst.yprevious),__yy_gml_errCheck(gml_bdiff))),1),YYASSET_REF(0x0000004E),true,true)))))))&&(yyGetBool(!yyGetBool(gml_Script_on_ground(_inst,_other)))))
 			{
 
 								{
@@ -18553,13 +18871,13 @@ function gml_Script_wall_on_side(_inst,_other)
 
 				{
 			var gmlxdist=1;
-			var ___sw82___=($$args.length-2);
-			var ___swc83___=-1;
-			if(yyCompareVal(___sw82___,1,g_GMLMathEpsilon,false)==0)
+			var ___sw86___=($$args.length-2);
+			var ___swc87___=-1;
+			if(yyCompareVal(___sw86___,1,g_GMLMathEpsilon,false)==0)
 			{
-				___swc83___=0;
+				___swc87___=0;
 			}
-			switch(___swc83___)
+			switch(___swc87___)
 			{
 				case 0:
 				{
@@ -18567,8 +18885,8 @@ function gml_Script_wall_on_side(_inst,_other)
 				}
 			}
 			;
-			var gmlcol_r=collision_rectangle(_inst,_inst.bbox_left,_inst.bbox_top,yyfplus(__yy_gml_errCheck(_inst.bbox_right),__yy_gml_errCheck(gmlxdist)),_inst.bbox_bottom,YYASSET_REF(0x00000054),false,true);
-			var gmlcol_l=collision_rectangle(_inst,yyfminus(__yy_gml_errCheck(_inst.bbox_left),__yy_gml_errCheck(gmlxdist)),_inst.bbox_top,_inst.bbox_right,_inst.bbox_bottom,YYASSET_REF(0x00000054),false,true);
+			var gmlcol_r=collision_rectangle(_inst,_inst.bbox_left,_inst.bbox_top,yyfplus(__yy_gml_errCheck(_inst.bbox_right),__yy_gml_errCheck(gmlxdist)),_inst.bbox_bottom,YYASSET_REF(0x00000058),false,true);
+			var gmlcol_l=collision_rectangle(_inst,yyfminus(__yy_gml_errCheck(_inst.bbox_left),__yy_gml_errCheck(gmlxdist)),_inst.bbox_top,_inst.bbox_right,_inst.bbox_bottom,YYASSET_REF(0x00000058),false,true);
 			var gmlcol_final=(yyGetBool(gmlcol_r))||(yyGetBool(gmlcol_l));
 			if(yyGetBool(gmlcol_l))
 			{
@@ -18588,13 +18906,13 @@ function gml_Script_on_top(_inst,_other)
 				{
 			var gmlinstance=$$args[__yy_gml_array_check_index(2+(0),$$args)];
 			var gmlcheck_var=false;
-			var ___sw84___=($$args.length-2);
-			var ___swc85___=-1;
-			if(yyCompareVal(___sw84___,2,g_GMLMathEpsilon,false)==0)
+			var ___sw88___=($$args.length-2);
+			var ___swc89___=-1;
+			if(yyCompareVal(___sw88___,2,g_GMLMathEpsilon,false)==0)
 			{
-				___swc85___=0;
+				___swc89___=0;
 			}
-			switch(___swc85___)
+			switch(___swc89___)
 			{
 				case 0:
 				{
@@ -18626,7 +18944,7 @@ function gml_Script_coll_x(_inst,_other)
 
 				{
 			var gmlxdir=$$args[__yy_gml_array_check_index(2+(0),$$args)];
-			var gmlobj=(yyfequal(($$args.length-2),2)?$$args[__yy_gml_array_check_index(2+(1),$$args)]:YYASSET_REF(0x00000054));
+			var gmlobj=(yyfequal(($$args.length-2),2)?$$args[__yy_gml_array_check_index(2+(1),$$args)]:YYASSET_REF(0x00000058));
 			var gmlside_to_check=(yyGetBool(gmlxdir)?yyfplus(__yy_gml_errCheck(_inst.bbox_right),1):yyfminus(__yy_gml_errCheck(_inst.bbox_left),1));
 			return collision_rectangle(_inst,gmlside_to_check,_inst.bbox_top,gmlside_to_check,_inst.bbox_bottom,gmlobj,false,true);
 		}
@@ -18641,7 +18959,7 @@ function gml_Script_coll_y(_inst,_other)
 
 				{
 			var gmlydir=$$args[__yy_gml_array_check_index(2+(0),$$args)];
-			var gmlobj=(yyfequal(($$args.length-2),2)?$$args[__yy_gml_array_check_index(2+(1),$$args)]:YYASSET_REF(0x00000054));
+			var gmlobj=(yyfequal(($$args.length-2),2)?$$args[__yy_gml_array_check_index(2+(1),$$args)]:YYASSET_REF(0x00000058));
 			var gmlside_to_check=(yyGetBool(gmlydir)?yyfplus(__yy_gml_errCheck(_inst.bbox_bottom),1):yyfminus(__yy_gml_errCheck(_inst.bbox_top),1));
 			return collision_rectangle(_inst,_inst.bbox_left,gmlside_to_check,_inst.bbox_right,gmlside_to_check,gmlobj,false,true);
 		}
@@ -18668,7 +18986,7 @@ function gml_Script_move_platform_x(_inst,_other)
 					;
 					var gmlall_instances=ds_list_create();
 					var gmlinstances_ds=ds_list_create();
-					var gmlnum_found=gml_Script_coll_x_list(_inst,_other,gml_xdir,gmlinstances_ds,YYASSET_REF(0x00000019));
+					var gmlnum_found=gml_Script_coll_x_list(_inst,_other,gml_xdir,gmlinstances_ds,YYASSET_REF(0x0000001D));
 					if(!yyGetBool(gml_sw))
 					{
 						var gmli=0;
@@ -18694,7 +19012,7 @@ function gml_Script_move_platform_x(_inst,_other)
 					}
 					;
 					ds_list_clear(gmlinstances_ds);
-					gmlnum_found=gml_Script_coll_y_list(_inst,_other,(-1),gmlinstances_ds,YYASSET_REF(0x00000019));
+					gmlnum_found=gml_Script_coll_y_list(_inst,_other,(-1),gmlinstances_ds,YYASSET_REF(0x0000001D));
 					var gmli=0;
 					for(;yyfless(gmli,gmlnum_found);gmli=(gmli instanceof Long?gmli.add(1):++gmli))
 					{
@@ -18731,13 +19049,13 @@ function gml_Script_move_platform_y(_inst,_other)
 			var gml_ydir=sign(gml_yvel);
 			var gml_sw=_inst.gmlsemiwall;
 			var gml_ignore=false;
-			var ___sw86___=($$args.length-2);
-			var ___swc87___=-1;
-			if(yyCompareVal(___sw86___,2,g_GMLMathEpsilon,false)==0)
+			var ___sw90___=($$args.length-2);
+			var ___swc91___=-1;
+			if(yyCompareVal(___sw90___,2,g_GMLMathEpsilon,false)==0)
 			{
-				___swc87___=0;
+				___swc91___=0;
 			}
-			switch(___swc87___)
+			switch(___swc91___)
 			{
 				case 0:
 				{
@@ -18759,7 +19077,7 @@ function gml_Script_move_platform_y(_inst,_other)
 					{
 
 												{
-							var gmlnum_found=gml_Script_coll_y_list(_inst,_other,gml_ydir,gmlinstances_ds,YYASSET_REF(0x00000019));
+							var gmlnum_found=gml_Script_coll_y_list(_inst,_other,gml_ydir,gmlinstances_ds,YYASSET_REF(0x0000001D));
 							if(!yyGetBool(gml_sw))
 							{
 								var gmli=0;
@@ -18785,7 +19103,7 @@ function gml_Script_move_platform_y(_inst,_other)
 							}
 							;
 							ds_list_clear(gmlinstances_ds);
-							gmlnum_found=gml_Script_coll_y_list(_inst,_other,(-1),gmlinstances_ds,YYASSET_REF(0x00000019));
+							gmlnum_found=gml_Script_coll_y_list(_inst,_other,(-1),gmlinstances_ds,YYASSET_REF(0x0000001D));
 							instance_deactivate_object(_inst,_inst);
 							var gmli=0;
 							for(;yyfless(gmli,gmlnum_found);gmli=(gmli instanceof Long?gmli.add(1):++gmli))
@@ -18808,7 +19126,7 @@ function gml_Script_move_platform_y(_inst,_other)
 					{
 
 												{
-							var gmlnum_found=gml_Script_coll_y_list(_inst,_other,gml_ydir,gmlinstances_ds,YYASSET_REF(0x00000019));
+							var gmlnum_found=gml_Script_coll_y_list(_inst,_other,gml_ydir,gmlinstances_ds,YYASSET_REF(0x0000001D));
 							var gmli=0;
 							for(;yyfless(gmli,gmlnum_found);gmli=(gmli instanceof Long?gmli.add(1):++gmli))
 							{
@@ -18981,17 +19299,14 @@ function gml_Script_pl_hurt_player(_inst,_other,argument0,argument1,argument2)
 
 										{
 						yyInst(_inst,_other,global.gmlhp).gmlred=yyfminus(yyInst(_inst,_other,global.gmlhp).gmlred,argument1);
-						if(yyGetBool(instance_exists(YYASSET_REF(0x0000002F))))
-						{
 
-														{
-								var __yy__v23=GetWithArray(YYASSET_REF(0x0000002F));
-								for(var __yy__v24 in __yy__v23)
-								{
-									if(!__yy__v23.hasOwnProperty(__yy__v24))continue;
-									var __yy__v25=__yy__v23[__yy__v24];
-									__yy__v25.gmlwave_no_hit=false								}
-							}
+												{
+							var __yy__v23=GetWithArray(YYASSET_REF(0x00000033));
+							for(var __yy__v24 in __yy__v23)
+							{
+								if(!__yy__v23.hasOwnProperty(__yy__v24))continue;
+								var __yy__v25=__yy__v23[__yy__v24];
+								__yy__v25.gmlwave_no_hit=false							}
 						}
 						;
 					}
@@ -19039,12 +19354,12 @@ function gml_Script_pl_post_state(_inst,_other)
 {
 
 		{
-		var gml_door=instance_place(_inst,_inst.x,_inst.y,YYASSET_REF(0x00000007));
+		var gml_door=instance_place(_inst,_inst.x,_inst.y,YYASSET_REF(0x0000000A));
 		if((yyGetBool(_inst.gmlkpup))&&(yyGetBool(_inst.gmlgrounded))&&(yyGetBool(gml_door)))
 		{
 
 						{
-				if((yyGetBool(yyfnotequal(_inst.gmlstate_current,kgml_Script_pl_state_room_exit)))&&(yyGetBool(yyInst(_inst,_other,gml_door).gmldoor_open))&&(yyGetBool(yyfequal(global.gmlspawn_state,3))))
+				if((yyGetBool(yyfnotequal(_inst.gmlstate_current,kgml_Script_pl_state_room_exit)))&&(yyGetBool(yyInst(_inst,_other,gml_door).gmldoor_open))&&(yyGetBool(yyfequal(gml_Script_get_spawn_state(_inst,_other),3))))
 				{
 
 										{
@@ -19057,34 +19372,34 @@ function gml_Script_pl_post_state(_inst,_other)
 			}
 		}
 		;
-		var gml_item=instance_place(_inst,_inst.x,_inst.y,YYASSET_REF(0x00000036));
+		var gml_item=instance_place(_inst,_inst.x,_inst.y,YYASSET_REF(0x0000003A));
 		if(yyGetBool(gml_item))
 		{
 
 						{
-				var ___sw90___=yyInst(_inst,_other,gml_item).object_index;
-				var ___swc91___=-1;
-				if(yyCompareVal(___sw90___,YYASSET_REF(0x0000003C),g_GMLMathEpsilon,false)==0)
+				var ___sw94___=yyInst(_inst,_other,gml_item).object_index;
+				var ___swc95___=-1;
+				if(yyCompareVal(___sw94___,YYASSET_REF(0x00000040),g_GMLMathEpsilon,false)==0)
 				{
-					___swc91___=0;
+					___swc95___=0;
 				}
-				else if(yyCompareVal(___sw90___,YYASSET_REF(0x0000003B),g_GMLMathEpsilon,false)==0)
+				else if(yyCompareVal(___sw94___,YYASSET_REF(0x0000003F),g_GMLMathEpsilon,false)==0)
 				{
-					___swc91___=1;
+					___swc95___=1;
 				}
-				else if(yyCompareVal(___sw90___,YYASSET_REF(0x0000003A),g_GMLMathEpsilon,false)==0||yyCompareVal(___sw90___,YYASSET_REF(0x00000039),g_GMLMathEpsilon,false)==0)
+				else if(yyCompareVal(___sw94___,YYASSET_REF(0x0000003E),g_GMLMathEpsilon,false)==0||yyCompareVal(___sw94___,YYASSET_REF(0x0000003D),g_GMLMathEpsilon,false)==0)
 				{
-					___swc91___=2;
+					___swc95___=2;
 				}
-				else if(yyCompareVal(___sw90___,YYASSET_REF(0x00000038),g_GMLMathEpsilon,false)==0)
+				else if(yyCompareVal(___sw94___,YYASSET_REF(0x0000003C),g_GMLMathEpsilon,false)==0)
 				{
-					___swc91___=3;
+					___swc95___=3;
 				}
-				else if(yyCompareVal(___sw90___,YYASSET_REF(0x0000003D),g_GMLMathEpsilon,false)==0)
+				else if(yyCompareVal(___sw94___,YYASSET_REF(0x00000041),g_GMLMathEpsilon,false)==0)
 				{
-					___swc91___=4;
+					___swc95___=4;
 				}
-				switch(___swc91___)
+				switch(___swc95___)
 				{
 					case 0:
 					{
@@ -19107,7 +19422,7 @@ function gml_Script_pl_post_state(_inst,_other)
 										instance_destroy(__yy__v28)									}
 								}
 								;
-								var gml_text=instance_create_depth(yyfminus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(_inst.gmlxvel_int)),yyfminus(yyfminus(__yy_gml_errCheck(_inst.y),32),__yy_gml_errCheck(_inst.gmlxvel_int)),0,YYASSET_REF(0x00000022));
+								var gml_text=instance_create_depth(yyfminus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(_inst.gmlxvel_int)),yyfminus(yyfminus(__yy_gml_errCheck(_inst.y),32),__yy_gml_errCheck(_inst.gmlxvel_int)),0,YYASSET_REF(0x00000026));
 								yyInst(_inst,_other,gml_text).gmlfx_text="+EXTRA";
 							}
 						}
@@ -19135,7 +19450,7 @@ function gml_Script_pl_post_state(_inst,_other)
 										instance_destroy(__yy__v31)									}
 								}
 								;
-								var gml_text=instance_create_depth(yyfminus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(_inst.gmlxvel_int)),yyfminus(yyfminus(__yy_gml_errCheck(_inst.y),32),__yy_gml_errCheck(_inst.gmlxvel_int)),0,YYASSET_REF(0x00000022));
+								var gml_text=instance_create_depth(yyfminus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(_inst.gmlxvel_int)),yyfminus(yyfminus(__yy_gml_errCheck(_inst.y),32),__yy_gml_errCheck(_inst.gmlxvel_int)),0,YYASSET_REF(0x00000026));
 								yyInst(_inst,_other,gml_text).gmlfx_text="+BONUS";
 							}
 						}
@@ -19163,7 +19478,7 @@ function gml_Script_pl_post_state(_inst,_other)
 										instance_destroy(__yy__v34)									}
 								}
 								;
-								var gml_text=instance_create_depth(yyfminus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(_inst.gmlxvel_int)),yyfminus(yyfminus(__yy_gml_errCheck(_inst.y),32),__yy_gml_errCheck(_inst.gmlxvel_int)),0,YYASSET_REF(0x00000022));
+								var gml_text=instance_create_depth(yyfminus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(_inst.gmlxvel_int)),yyfminus(yyfminus(__yy_gml_errCheck(_inst.y),32),__yy_gml_errCheck(_inst.gmlxvel_int)),0,YYASSET_REF(0x00000026));
 								yyInst(_inst,_other,gml_text).gmlfx_text=__yy_InternalStringInterpolation("+{0}HP",gml_healam);
 							}
 						}
@@ -19186,7 +19501,7 @@ function gml_Script_pl_post_state(_inst,_other)
 								{
 
 																		{
-										var gml_text=instance_create_depth(yyfminus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(_inst.gmlxvel_int)),yyfminus(yyfminus(__yy_gml_errCheck(_inst.y),32),__yy_gml_errCheck(_inst.gmlxvel_int)),0,YYASSET_REF(0x00000022));
+										var gml_text=instance_create_depth(yyfminus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(_inst.gmlxvel_int)),yyfminus(yyfminus(__yy_gml_errCheck(_inst.y),32),__yy_gml_errCheck(_inst.gmlxvel_int)),0,YYASSET_REF(0x00000026));
 										yyInst(_inst,_other,gml_text).gmlfx_text=global.gmlgun_name[__yy_gml_array_check_index(gml_obtain_id,global.gmlgun_name)];
 
 																				{
@@ -19220,8 +19535,8 @@ function gml_Script_pl_post_state(_inst,_other)
 								instance_destroy(__yy__v40)							}
 						}
 						;
-						var gml_text=instance_create_depth(yyfminus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(_inst.gmlxvel_int)),yyfminus(yyfminus(__yy_gml_errCheck(_inst.y),32),__yy_gml_errCheck(_inst.gmlxvel_int)),0,YYASSET_REF(0x00000022));
-						yyInst(_inst,_other,gml_text).gmlfx_sprite=YYASSET_REF(0x0100007F);
+						var gml_text=instance_create_depth(yyfminus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(_inst.gmlxvel_int)),yyfminus(yyfminus(__yy_gml_errCheck(_inst.y),32),__yy_gml_errCheck(_inst.gmlxvel_int)),0,YYASSET_REF(0x00000026));
+						yyInst(_inst,_other,gml_text).gmlfx_sprite=YYASSET_REF(0x01000087);
 						yyInst(_inst,_other,gml_text).gmlfx_frame=yyInst(_inst,_other,global.gmlhp).gmlmaxbits;
 						yyInst(_inst,_other,gml_text).gmlfx_doextra=1;
 						yyInst(_inst,_other,gml_text).gmltimer=105;
@@ -19231,7 +19546,7 @@ function gml_Script_pl_post_state(_inst,_other)
 						{
 
 														{
-								var gml_sfx=gml_Script_audio_play_sfx(_inst,_other,YYASSET_REF(0x02000028),YYASSET_REF(0x02000028));
+								var gml_sfx=gml_Script_audio_play_sfx(_inst,_other,YYASSET_REF(0x02000029),YYASSET_REF(0x02000029));
 								audio_sound_pitch(gml_sfx,0.8);
 							}
 						}
@@ -19239,7 +19554,7 @@ function gml_Script_pl_post_state(_inst,_other)
 						{
 
 														{
-								gml_Script_audio_play_sfx(_inst,_other,YYASSET_REF(0x02000028),YYASSET_REF(0x02000028));
+								gml_Script_audio_play_sfx(_inst,_other,YYASSET_REF(0x02000029),YYASSET_REF(0x02000029));
 								yyInst(_inst,_other,global.gmlhp).gmlmaxhp=yyfplus(yyInst(_inst,_other,global.gmlhp).gmlmaxhp,2);
 								yyInst(_inst,_other,global.gmlhp).gmlmaxbits=0;
 								_inst.gmlhurtfx_lerp=yyfplus(_inst.gmlhurtfx_lerp,0.7);
@@ -19353,13 +19668,13 @@ function gml_Script_pl_shoot_atk(_inst,_other)
 
 				{
 			var gmlatk_state_noshoot=false;
-			var ___sw98___=($$args.length-2);
-			var ___swc99___=-1;
-			if(yyCompareVal(___sw98___,1,g_GMLMathEpsilon,false)==0)
+			var ___sw102___=($$args.length-2);
+			var ___swc103___=-1;
+			if(yyCompareVal(___sw102___,1,g_GMLMathEpsilon,false)==0)
 			{
-				___swc99___=0;
+				___swc103___=0;
 			}
-			switch(___swc99___)
+			switch(___swc103___)
 			{
 				case 0:
 				{
@@ -19381,60 +19696,110 @@ function gml_Script_pl_shoot_atk(_inst,_other)
 			;
 			var gml_nogun=yyfequal(_inst.gmlguns_slots[__yy_gml_array_check_index(_inst.gmlgun_current_slot,_inst.gmlguns_slots)],0);
 			var gml_ammomax=yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlgun).gmlstat).gmlammo_max,gml_firerate=yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlgun).gmlstat).gmlfire_rate,gml_firemode=yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlgun).gmlstat).gmlfire_mode,gml_fireaccuracy=yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlgun).gmlstat).gmlfire_accuracy,gml_firescatter=yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlgun).gmlstat).gmlfire_scatter,gml_fireammospend=yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlgun).gmlstat).gmlfire_ammo_spend,gml_reload_spd=yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlgun).gmlstat).gmlreload_spd,gml_reload_mags=yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlgun).gmlstat).gmlreload_mags,gml_projectile=yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlgun).gmlstat).gmlprojectile,gml_spread_do=yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlgun).gmlstat).gmlfire_spread).gmlspreads,gml_spread_amt=yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlgun).gmlstat).gmlfire_spread).gmlspread_amount,gml_spread_size=yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlgun).gmlstat).gmlfire_spread).gmlspread_size,gml_spread_cone=yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlgun).gmlstat).gmlfire_spread).gmlspread_cone,gml_burst_do=yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlgun).gmlstat).gmlfire_burst).gmlbursts,gml_burst_amount=yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlgun).gmlstat).gmlfire_burst).gmlburst_amount,gml_burst_rate=yyInst(_inst,_other,yyInst(_inst,_other,yyInst(_inst,_other,_inst.gmlgun).gmlstat).gmlfire_burst).gmlburst_rate,gml_is_shotgun=struct_exists(yyInst(_inst,_other,_inst.gmlgun).gmlextra_stat,"is_shotgun"),gml_reload_end_sfx=struct_exists(yyInst(_inst,_other,_inst.gmlgun).gmlextra_stat,"do_sound_reload"),gml_sfxshoot=yyInst(_inst,_other,_inst.gmlgun).gmlgun_sfx[__yy_gml_array_check_index(0,yyInst(_inst,_other,_inst.gmlgun).gmlgun_sfx)],gml_sfxreload=yyInst(_inst,_other,_inst.gmlgun).gmlgun_sfx[__yy_gml_array_check_index(1,yyInst(_inst,_other,_inst.gmlgun).gmlgun_sfx)],gml_sfxextra=yyInst(_inst,_other,_inst.gmlgun).gmlgun_sfx[__yy_gml_array_check_index(2,yyInst(_inst,_other,_inst.gmlgun).gmlgun_sfx)];
+			var gml_trueaim_y=((yyGetBool(_inst.gmlyaxis))&&(yyGetBool(yyflessequal(_inst.gmlground_timer,5)))?_inst.gmlyaxis:min(_inst.gmlyaxis,0));
+			var gml_trueaim_x=((yyGetBool(abs(_inst.gmlxaxis)))||(yyGetBool((yyGetBool((yyGetBool(_inst.gmlyaxis))&&(yyGetBool(yyflessequal(_inst.gmlground_timer,5)))))||(yyGetBool(yyfequal(_inst.gmlyaxis,(-1))))))?_inst.gmlxaxis:_inst.gmlx_dir);
+			if((yyGetBool(_inst.gmlaim_hold))&&(yyGetBool(yyfnotequal(_inst.gmlaim_hold_enemy,(-4)))))
+			{
+
+								{
+					if(!yyGetBool(instance_exists(_inst.gmlaim_hold_enemy)))
+					{
+
+												{
+							_inst.gmlaim_hold_enemy=(-4);
+							_inst.gmlaim_hold=false;
+						}
+					}
+					else 
+					{
+
+												{
+							var gml_enaim=_inst.gmlaim_hold_enemy;
+							var gml_endist=yyftime(__yy_gml_errCheck(min(yyfdivide(__yy_gml_errCheck(point_distance(_inst.x,_inst.y,yyInst(_inst,_other,gml_enaim).x,yyInst(_inst,_other,gml_enaim).y)),16),6)),1.5);
+							gml_trueaim_x=(yyfgreater(yyInst(_inst,_other,_inst.gmlaim_hold_enemy).x,_inst.x)?1:(-1));
+							_inst.gmltrueaim=point_direction(_inst.x,_inst.y,yyfplus(__yy_gml_errCheck(yyInst(_inst,_other,gml_enaim).x),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(yyInst(_inst,_other,gml_enaim).gmlxvel),__yy_gml_errCheck(gml_endist)))),yyfplus(__yy_gml_errCheck(yyInst(_inst,_other,gml_enaim).y),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(yyInst(_inst,_other,gml_enaim).gmlyvel),__yy_gml_errCheck(gml_endist)))));
+						}
+					}
+					;
+				}
+			}
+			;
 			if(!yyGetBool(_inst.gmlaim_hold))
 			{
-				_inst.gmltrueaim=point_direction(0,0,((yyGetBool(abs(_inst.gmlxaxis)))||(yyGetBool(abs(_inst.gmlyaxis)))?_inst.gmlxaxis:_inst.gmlx_dir),_inst.gmlyaxis)			}
+
+								{
+					_inst.gmlaim_hold_enemy=(-4);
+					_inst.gmltrueaim=point_direction(0,0,gml_trueaim_x,gml_trueaim_y);
+				}
+			}
 			;
-			if((yyGetBool((yyGetBool(yyfgreater(_inst.gmltrueaim,180)))&&(yyGetBool(yyfless(_inst.gmltrueaim,359)))))&&(yyGetBool((yyGetBool(_inst.gmlgrounded))&&(yyGetBool(yyfgreater(_inst.gmlground_timer,5))))))
+			if(yyGetBool(_inst.gmlkpalt))
 			{
-				_inst.gmltrueaim=(yyGetBool(_inst.gmlx_dir)?0.1:179.9)			}
+
+								{
+					var gml_lista=ds_list_create();
+					var gml_listb=ds_list_create();
+					var gml_locken=collision_circle_list(_inst,yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(dcos(_inst.gmltrueaim)),64))),yyfminus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(dsin(_inst.gmltrueaim)),64))),20,gml_Script_get_ent_targets(_inst,_other,1),0,1,gml_lista,true);
+					var gml_locken_b=collision_circle_list(_inst,yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(dcos(_inst.gmltrueaim)),32))),yyfminus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(dsin(_inst.gmltrueaim)),32))),20,gml_Script_get_ent_targets(_inst,_other,1),0,1,gml_listb,true);
+					var gml_ent_a=(yyfnotequal(gml_locken,0)?ds_list_find_value(gml_lista,0):(-4));
+					var gml_ent_b=(yyfnotequal(gml_locken_b,0)?ds_list_find_value(gml_listb,0):(-4));
+					if((yyGetBool(gml_ent_a))||(yyGetBool(gml_ent_b)))
+					{
+
+												{
+							_inst.gmlaim_hold_enemy=(yyGetBool(gml_ent_b)?gml_ent_b:gml_ent_a);
+						}
+					}
+					;
+					ds_list_destroy(gml_lista);
+					ds_list_destroy(gml_listb);
+				}
+			}
 			;
 			var gml_passaim=_inst.gmltrueaim;
-			if((yyGetBool(_inst.gmlgrounded))&&(yyGetBool((yyGetBool(yyfgreater(gml_passaim,180)))&&(yyGetBool(yyfless(gml_passaim,359))))))
-			{
-				gml_passaim=(yyGetBool(_inst.gmlx_dir)?0.1:179.9)			}
-			;
 			_inst.gmlatk_dir=gml_passaim;
 			if(yyfequal(floor(_inst.gmlatk_cooldown),1))
 			{
 				_inst.gmlatk_noshoot=false			}
 			;
+			var gml_kpshoot=_inst.gmlkpshoot;
+			var gml_kshoot=_inst.gmlkshoot;
 			_inst.gmlatk_dir=yyfmod(__yy_gml_errCheck(_inst.gmlatk_dir),360);
 			_inst.gmlatk_keydelay=(yyGetBool(_inst.gmlatk_keydelay)?yyfminus(__yy_gml_errCheck(_inst.gmlatk_keydelay),1):_inst.gmlatk_keydelay);
-			_inst.gmlatk_reloaddelay=(yyGetBool(_inst.gmlkreload)?10:(yyfgreater(_inst.gmlatk_reloaddelay,0)?yyfminus(__yy_gml_errCheck(_inst.gmlatk_reloaddelay),1):0));
+			_inst.gmlatk_reloaddelay=((yyGetBool(_inst.gmlkreload))||(yyGetBool((yyGetBool(gml_kpshoot))&&(yyGetBool(!yyGetBool(_inst.gmlatk_ammo)))))?11:(yyfgreater(_inst.gmlatk_reloaddelay,0)?yyfminus(__yy_gml_errCheck(_inst.gmlatk_reloaddelay),1):0));
 			if(yyfequal(gmlatk_state_noshoot,false))
 			{
-				var ___sw100___=gml_firemode;
-				var ___swc101___=-1;
-				if(yyCompareVal(___sw100___,3,g_GMLMathEpsilon,false)==0)
+				var ___sw104___=gml_firemode;
+				var ___swc105___=-1;
+				if(yyCompareVal(___sw104___,3,g_GMLMathEpsilon,false)==0)
 				{
-					___swc101___=0;
+					___swc105___=0;
 				}
-				else if(yyCompareVal(___sw100___,1,g_GMLMathEpsilon,false)==0)
+				else if(yyCompareVal(___sw104___,1,g_GMLMathEpsilon,false)==0)
 				{
-					___swc101___=1;
+					___swc105___=1;
 				}
-				else if(yyCompareVal(___sw100___,2,g_GMLMathEpsilon,false)==0)
+				else if(yyCompareVal(___sw104___,2,g_GMLMathEpsilon,false)==0)
 				{
-					___swc101___=2;
+					___swc105___=2;
 				}
-				switch(___swc101___)
+				switch(___swc105___)
 				{
 					case 0:
 					{
-						_inst.gmlatk_keydelay=(yyGetBool(_inst.gmlkpshoot)?round(yyftime(__yy_gml_errCheck(gml_firerate),0.5)):_inst.gmlatk_keydelay);
+						_inst.gmlatk_keydelay=(yyGetBool(gml_kpshoot)?round(yyftime(__yy_gml_errCheck(gml_firerate),0.5)):_inst.gmlatk_keydelay);
 						break;
 					}
 					case 1:
 					{
-						_inst.gmlatk_keydelay=(yyGetBool(_inst.gmlkshoot)?round(yyftime(__yy_gml_errCheck(gml_firerate),0.3)):_inst.gmlatk_keydelay);
+						_inst.gmlatk_keydelay=(yyGetBool(gml_kshoot)?round(yyftime(__yy_gml_errCheck(gml_firerate),0.3)):_inst.gmlatk_keydelay);
 						break;
 					}
 					case 2:
 					{
-						var gml_key=(yyGetBool(_inst.gmlatk_autoreload)?_inst.gmlkpshoot:_inst.gmlkshoot);
+						var gml_key=(yyGetBool(_inst.gmlatk_autoreload)?gml_kpshoot:gml_kshoot);
 						_inst.gmlatk_keydelay=(yyGetBool(gml_key)?round(yyftime(__yy_gml_errCheck(gml_firerate),0.3)):_inst.gmlatk_keydelay);
-						if((yyGetBool(_inst.gmlkpshoot))&&(yyGetBool(yyflessequal(floor(_inst.gmlatk_cooldown),round(yyftime(__yy_gml_errCheck(gml_firerate),0.4)))))&&(yyGetBool(!yyGetBool(_inst.gmlatk_autoreload))))
+						if((yyGetBool(gml_kpshoot))&&(yyGetBool(yyflessequal(floor(_inst.gmlatk_cooldown),round(yyftime(__yy_gml_errCheck(gml_firerate),0.4)))))&&(yyGetBool(!yyGetBool(_inst.gmlatk_autoreload))))
 						{
 							_inst.gmlatk_cooldown=yyfminus(_inst.gmlatk_cooldown,floor(_inst.gmlatk_cooldown))						}
 						;
@@ -19480,7 +19845,7 @@ function gml_Script_pl_shoot_atk(_inst,_other)
 					{
 						_inst.gmlatk_autoreload=false					}
 					;
-					if((yyGetBool(!yyGetBool(gml_nogun)))&&(yyGetBool(yyfless(_inst.gmlatk_ammo,gml_ammomax)))&&(yyGetBool((yyGetBool(_inst.gmlatk_autoreload))||(yyGetBool((yyGetBool(_inst.gmlkpshoot))&&(yyGetBool(!yyGetBool(_inst.gmlatk_ammo)))))||(yyGetBool(_inst.gmlatk_reloaddelay)))))
+					if((yyGetBool(!yyGetBool(gml_nogun)))&&(yyGetBool(yyfless(_inst.gmlatk_ammo,gml_ammomax)))&&(yyGetBool((yyGetBool(_inst.gmlatk_autoreload))||(yyGetBool(_inst.gmlatk_reloaddelay)))))
 					{
 
 												{
@@ -19565,17 +19930,17 @@ function gml_Script_pl_shoot_atk(_inst,_other)
 					var gml_dirmove=round(yyfdivide(__yy_gml_errCheck(gml_truedir),45));
 					if(!yyGetBool(_inst.gmlgrounded))
 					{
-						var ___sw102___=gml_dirmove;
-						var ___swc103___=-1;
-						if(yyCompareVal(___sw102___,5,g_GMLMathEpsilon,false)==0||yyCompareVal(___sw102___,7,g_GMLMathEpsilon,false)==0)
+						var ___sw106___=gml_dirmove;
+						var ___swc107___=-1;
+						if(yyCompareVal(___sw106___,5,g_GMLMathEpsilon,false)==0||yyCompareVal(___sw106___,7,g_GMLMathEpsilon,false)==0)
 						{
-							___swc103___=0;
+							___swc107___=0;
 						}
-						else if(yyCompareVal(___sw102___,6,g_GMLMathEpsilon,false)==0)
+						else if(yyCompareVal(___sw106___,6,g_GMLMathEpsilon,false)==0)
 						{
-							___swc103___=1;
+							___swc107___=1;
 						}
-						switch(___swc103___)
+						switch(___swc107___)
 						{
 							case 0:
 							{
@@ -19587,7 +19952,6 @@ function gml_Script_pl_shoot_atk(_inst,_other)
 							}
 							case 1:
 							{
-								_inst.gmlxvel=yyftime(_inst.gmlxvel,0.2);
 								if(yyfgreater(_inst.gmlyvel,(-0.3)))
 								{
 									_inst.gmlyvel=(-0.3)								}
@@ -19599,7 +19963,7 @@ function gml_Script_pl_shoot_atk(_inst,_other)
 					;
 					gml_Script_audio_play_sfx(_inst,_other,gml_sfxshoot,gml_sfxshoot,0.05);
 					_inst.gmlgunfx_lerp=1.5;
-					var gml_fx=instance_create_depth(_inst.x,_inst.y,0,YYASSET_REF(0x00000020));
+					var gml_fx=instance_create_depth(_inst.x,_inst.y,0,YYASSET_REF(0x00000024));
 					yyInst(_inst,_other,gml_fx).depth=(-11);
 					gml_Script_move_x(_inst,_other,round(yyftime(__yy_gml_errCheck(gml_x),24)),gml_fx);
 					gml_Script_move_y(_inst,_other,round(yyftime(__yy_gml_errCheck(gml_y),24)),gml_fx,false);
@@ -19668,7 +20032,7 @@ function gml_Script_pl_jump(_inst,_other)
 							;
 							_inst.gmlj_keydelay=0;
 							_inst.gmlj_coyote=0;
-							_inst.gmlsprite_anim=YYASSET_REF(0x0100005C);
+							_inst.gmlsprite_anim=YYASSET_REF(0x01000062);
 							_inst.SetImageIndexGML(0);
 							gml_Script_audio_play_sfx(_inst,_other,YYASSET_REF(0x02000020),YYASSET_REF(0x02000020));
 						}
@@ -19690,7 +20054,7 @@ function gml_Script_pl_jump(_inst,_other)
 										_inst.gmlyvel_fract=0;
 										_inst.gmlxvel=clamp(_inst.gmlxvel,(-1),1);
 										_inst.SetImageIndexGML(0);
-										_inst.gmlsprite_anim=YYASSET_REF(0x0100005A);
+										_inst.gmlsprite_anim=YYASSET_REF(0x01000060);
 										_inst.gmlj_double=false;
 										_inst.gmljump_stop=false;
 										_inst.gmlj_keydelay=0;
@@ -19731,7 +20095,7 @@ function gml_Script_anon_40_4045_40_pl_state_free_40_player_states(_inst,_other)
 
 														{
 								_inst.image_speed=0.125;
-								gml_spr=YYASSET_REF(0x01000065);
+								gml_spr=YYASSET_REF(0x0100006B);
 							}
 						}
 						else 
@@ -19741,7 +20105,7 @@ function gml_Script_anon_40_4045_40_pl_state_free_40_player_states(_inst,_other)
 
 																{
 									_inst.image_speed=0.25;
-									gml_spr=YYASSET_REF(0x0100006B);
+									gml_spr=YYASSET_REF(0x01000071);
 								}
 							}
 							else 
@@ -19749,7 +20113,7 @@ function gml_Script_anon_40_4045_40_pl_state_free_40_player_states(_inst,_other)
 
 																{
 									_inst.image_speed=0.25;
-									gml_spr=YYASSET_REF(0x0100006D);
+									gml_spr=YYASSET_REF(0x01000073);
 								}
 							}
 						}
@@ -19761,7 +20125,7 @@ function gml_Script_anon_40_4045_40_pl_state_free_40_player_states(_inst,_other)
 
 										{
 						_inst.image_speed=0.25;
-						gml_spr=YYASSET_REF(0x01000066);
+						gml_spr=YYASSET_REF(0x0100006C);
 					}
 				}
 				;
@@ -19771,17 +20135,17 @@ function gml_Script_anon_40_4045_40_pl_state_free_40_player_states(_inst,_other)
 		{
 
 						{
-				var ___sw106___=_inst.gmlsprite_anim;
-				var ___swc107___=-1;
-				if(yyCompareVal(___sw106___,YYASSET_REF(0x0100005F),g_GMLMathEpsilon,false)==0)
+				var ___sw110___=_inst.gmlsprite_anim;
+				var ___swc111___=-1;
+				if(yyCompareVal(___sw110___,YYASSET_REF(0x01000065),g_GMLMathEpsilon,false)==0)
 				{
-					___swc107___=1;
+					___swc111___=1;
 				}
-				else if(yyCompareVal(___sw106___,YYASSET_REF(0x01000060),g_GMLMathEpsilon,false)==0)
+				else if(yyCompareVal(___sw110___,YYASSET_REF(0x01000066),g_GMLMathEpsilon,false)==0)
 				{
-					___swc107___=2;
+					___swc111___=2;
 				}
-				switch(___swc107___)
+				switch(___swc111___)
 				{
 					default :
 					{
@@ -19860,7 +20224,7 @@ function gml_Script_pl_state_free(_inst,_other)
 				{
 
 										{
-						_inst.gmlsprite_anim=YYASSET_REF(0x0100005F);
+						_inst.gmlsprite_anim=YYASSET_REF(0x01000065);
 						_inst.SetImageIndexGML(0);
 					}
 				}
@@ -19887,7 +20251,7 @@ function gml_Script_pl_state_free(_inst,_other)
 						_inst.gmlyvel_fract=0;
 						_inst.gmlj_double=true;
 						_inst.gmljump_stop=true;
-						_inst.gmlsprite_anim=(yyfequal(_inst.gmlrun_hold,_inst.gmlrun_maxhold)?YYASSET_REF(0x01000062):YYASSET_REF(0x0100005D));
+						_inst.gmlsprite_anim=(yyfequal(_inst.gmlrun_hold,_inst.gmlrun_maxhold)?YYASSET_REF(0x01000068):YYASSET_REF(0x01000063));
 						_inst.SetImageIndexGML(0);
 						gml_Script_audio_play_sfx(_inst,_other,YYASSET_REF(0x02000009),YYASSET_REF(0x02000009),0.2);
 						_inst.gmlgunfx_y=lerp(16,_inst.gmlgunfx_y,0.5);
@@ -19922,7 +20286,7 @@ function gml_Script_pl_state_free(_inst,_other)
 
 						{
 				_inst.gmlxsprite=_inst.gmlx_dir;
-				_inst.gmlsprite_anim=YYASSET_REF(0x01000060);
+				_inst.gmlsprite_anim=YYASSET_REF(0x01000066);
 				_inst.SetImageIndexGML(0);
 			}
 		}
@@ -19944,7 +20308,7 @@ function gml_Script_pl_state_dash(_inst,_other)
 						{
 				_inst.gmlstate_is_new=!yyGetBool(_inst.gmlstate_is_new);
 				_inst.SetImageIndexGML(0);
-				_inst.sprite_index=YYASSET_REF(0x01000062);
+				_inst.sprite_index=YYASSET_REF(0x01000068);
 				_inst.image_speed=0;
 				var gml_y=_inst.y;
 				if(yyGetBool(gml_Script_move_y(_inst,_other,yyfplus(3,__yy_gml_errCheck(_inst.gmlyvel_int)))))
@@ -20002,16 +20366,16 @@ function gml_Script_pl_state_room_exit(_inst,_other)
 
 						{
 				_inst.gmlstate_is_new=!yyGetBool(_inst.gmlstate_is_new);
-				_inst.sprite_index=YYASSET_REF(0x01000069);
+				_inst.sprite_index=YYASSET_REF(0x0100006F);
 				_inst.SetImageIndexGML(0);
 				_inst.image_speed=0.25;
 				gml_Script_audio_play_sfx(_inst,_other,YYASSET_REF(0x02000003));
-				instance_create_depth(_inst.x,_inst.y,0,YYASSET_REF(0x00000025));
+				instance_create_depth(_inst.x,_inst.y,0,YYASSET_REF(0x00000029));
 				_inst.gmlxvel=0;
 				_inst.gmlyvel=0;
 
 								{
-					var __yy__v43=GetWithArray(YYASSET_REF(0x0000002C));
+					var __yy__v43=GetWithArray(YYASSET_REF(0x00000030));
 					for(var __yy__v44 in __yy__v43)
 					{
 						if(!__yy__v43.hasOwnProperty(__yy__v44))continue;
@@ -20028,7 +20392,7 @@ function gml_Script_pl_state_room_exit(_inst,_other)
 						{
 				_inst.gmlstate_current=kgml_Script_pl_state_room_enter;
 				_inst.gmlstate_prev=(-1);
-				global.gmlroom_switchto=yyInst(_inst,_other,YYASSET_REF(0x0000002E)).gmlnext_room;
+				global.gmlroom_switchto=yyInst(_inst,_other,YYASSET_REF(0x00000032)).gmlnext_room;
 				global.gmldoor_exit=_inst.gmlchange_room_next;
 				_inst.gmlchange_room_next=(-1);
 			}
@@ -20046,7 +20410,7 @@ function gml_Script_pl_state_room_enter(_inst,_other)
 
 						{
 				_inst.gmlstate_is_new=!yyGetBool(_inst.gmlstate_is_new);
-				_inst.sprite_index=YYASSET_REF(0x01000068);
+				_inst.sprite_index=YYASSET_REF(0x0100006E);
 				_inst.SetImageIndexGML(0);
 				_inst.image_speed=0.25;
 				gml_Script_move_y(_inst,_other,32);
@@ -20076,7 +20440,7 @@ function gml_Script_pl_state_hurt(_inst,_other)
 
 						{
 				_inst.gmlstate_is_new=!yyGetBool(_inst.gmlstate_is_new);
-				_inst.sprite_index=YYASSET_REF(0x01000064);
+				_inst.sprite_index=YYASSET_REF(0x0100006A);
 				_inst.SetImageIndexGML(0);
 				_inst.image_speed=0.25;
 				_inst.gmlxvel=yyftime(__yy_gml_errCheck(__yy_gml_errCheck(-__yy_gml_errCheck(_inst.gmlx_dir))),__yy_gml_errCheck(random_range(1,3)));
@@ -20149,13 +20513,13 @@ function gml_Script_set_new_room(_inst,_other)
 			var gml_current_room=$$args[__yy_gml_array_check_index(2+(0),$$args)],gml_newroom=gml_current_room,gml_startingroom=false,gml_rm=ds_list_create();
 			ds_list_copy(gml_rm,global.gmlall_past_rooms);
 			var gml_rm_last=yyfminus(__yy_gml_errCheck(ds_list_size(gml_rm)),1);
-			var ___sw110___=($$args.length-2);
-			var ___swc111___=-1;
-			if(yyCompareVal(___sw110___,2,g_GMLMathEpsilon,false)==0)
+			var ___sw114___=($$args.length-2);
+			var ___swc115___=-1;
+			if(yyCompareVal(___sw114___,2,g_GMLMathEpsilon,false)==0)
 			{
-				___swc111___=0;
+				___swc115___=0;
 			}
-			switch(___swc111___)
+			switch(___swc115___)
 			{
 				case 0:
 				{
@@ -20236,7 +20600,7 @@ function gml_Object_oBulBlood_Create_0(_inst,_other)
 {
 	event_inherited(_inst,_other);
 	_inst.gmlm_spd=1.2;
-	_inst.mask_index=YYASSET_REF(0x0100004F);
+	_inst.mask_index=YYASSET_REF(0x01000055);
 	_inst.image_speed=0;
 	_inst.SetImageIndexGML(choose(0,1,2));
 	_inst.gmlspawn_particle=__yy_method(_inst,gml_Script_anon_40_136_40_gml_Object_oBulBlood_Create_0);
@@ -20280,7 +20644,7 @@ function gml_Object_oBulFlak_Create_0(_inst,_other)
 	_inst.gmlm_spd=3;
 	_inst.gmlbul_timer_max=60;
 	_inst.gmlfx_lerp=0;
-	_inst.gmlm_ball_size=18;
+	_inst.gmlm_ball_size=15;
 	_inst.gmlmovement_method=__yy_method(_inst,gml_Script_anon_40_130_40_gml_Object_oBulFlak_Create_0);
 	_inst.gmlon_destroy_callback=__yy_method(_inst,gml_Script_anon_40_485_40_gml_Object_oBulFlak_Create_0);
 	_inst.gmlcollide_callback=__yy_method(_inst,gml_Script_anon_40_730_40_gml_Object_oBulFlak_Create_0);
@@ -20380,7 +20744,7 @@ function gml_Script_anon_40_877_40_gml_Object_oBulFlak_Create_0(_inst,_other,arg
 function gml_Object_oBulFlyingBomb_Create_0(_inst,_other)
 {
 	event_inherited(_inst,_other);
-	_inst.mask_index=YYASSET_REF(0x01000053);
+	_inst.mask_index=YYASSET_REF(0x01000059);
 	_inst.image_speed=0.25;
 	_inst.gmljump_hold=false;
 	_inst.gmltarget=(-4);
@@ -20421,7 +20785,7 @@ function gml_Script_anon_40_283_40_gml_Object_oBulFlyingBomb_Create_0(_inst,_oth
 						{
 				_inst.gmlxvel=yyfplus(_inst.gmlxvel,random_range(0.5,(-0.5)));
 				_inst.gmlyvel=(-6);
-				_inst.gmltarget=YYASSET_REF(0x0000003F);
+				_inst.gmltarget=YYASSET_REF(0x00000043);
 			}
 		}
 		;
@@ -20444,6 +20808,155 @@ function gml_Object_oBulFlyingBomb_Destroy_0(_inst,_other)
 {
 	part_particles_create(global.gmlfx_sys_front,_inst.x,_inst.y,yyInst(_inst,_other,global.gmlfx).gmlexplosion_small,1);
 	gml_Script_audio_play_sfx(_inst,_other,YYASSET_REF(0x0200000A),YYASSET_REF(0x0200000A));
+}
+
+function gml_Object_oBullseyeFloor_Create_0(_inst,_other)
+{
+	gml_Script_prop_init(_inst,_other);
+	_inst.gmlxvel=0;
+	_inst.gmlyvel=0;
+	_inst.gmlent_push_amount=0;
+	_inst.gmlhit_did=false;
+	_inst.gmltimer=0;
+	_inst.gmlhurt_callback=__yy_method(_inst,gml_Script_anon_40_110_40_gml_Object_oBullseyeFloor_Create_0);
+}
+
+function gml_Script_anon_40_110_40_gml_Object_oBullseyeFloor_Create_0(_inst,_other)
+{
+
+		{
+		_inst.gmlhit_did=true;
+		gml_Script_audio_play_sfx(_inst,_other,YYASSET_REF(0x02000024),YYASSET_REF(0x02000024),0.15);
+		var gml_text=instance_create_depth(_inst.x,yyfminus(__yy_gml_errCheck(_inst.y),16),0,YYASSET_REF(0x00000026));
+		yyInst(_inst,_other,gml_text).gmlfx_text="hit!";
+	}
+}
+
+function gml_Object_oBullseyeFloor_Step_0(_inst,_other)
+{
+	_inst.gmlgrounded=gml_Script_on_ground(_inst,_other);
+	if(yyfequal(_inst.gmltimer,0))
+	{
+
+				{
+			gml_Script_move_y(_inst,_other,128);
+		}
+	}
+	;
+	_inst.gmltimer=(_inst.gmltimer instanceof Long?_inst.gmltimer.add(1):++_inst.gmltimer);
+	if(yyGetBool(_inst.gmlhit_did))
+	{
+		instance_destroy(_inst)	}
+	;
+	gml_Script_ent_move_collide(_inst,_other,(-1));
+}
+
+function gml_Object_oBullseyeFlying_Create_0(_inst,_other)
+{
+	event_inherited(_inst,_other);
+	_inst.gmldraw_event=__yy_method(_inst,gml_Script_anon_40_42_40_gml_Object_oBullseyeFlying_Create_0);
+}
+
+function gml_Script_anon_40_42_40_gml_Object_oBullseyeFlying_Create_0(_inst,_other)
+{
+
+		{
+		_inst.gmlfx_flash=(yyGetBool(_inst.gmlfx_flash)?yyfminus(__yy_gml_errCheck(_inst.gmlfx_flash),1):0);
+		if(yyGetBool(_inst.gmlfx_flash))
+		{
+			shader_set(YYASSET_REF(0x08000002))		}
+		;
+		var gml_xc=yyfplus(1,__yy_gml_errCheck(yyftime(__yy_gml_errCheck(dsin(yyftime(__yy_gml_errCheck(_inst.gmltimer),2))),0.1)));
+		var gml_yc=yyfminus(1,__yy_gml_errCheck(yyftime(__yy_gml_errCheck(dsin(yyftime(__yy_gml_errCheck(_inst.gmltimer),2))),0.1)));
+		draw_sprite_ext(_inst,YYASSET_REF(0x01000013),yyfdivide(__yy_gml_errCheck(_inst.gmltimer),2),yyfplus(__yy_gml_errCheck(_inst.x),4),yyfminus(__yy_gml_errCheck(_inst.y),4),1,1,0,(-1),1);
+		draw_sprite_ext(_inst,YYASSET_REF(0x01000013),yyfdivide(__yy_gml_errCheck(_inst.gmltimer),2),yyfminus(__yy_gml_errCheck(_inst.x),4),yyfminus(__yy_gml_errCheck(_inst.y),4),(-1),1,0,(-1),1);
+		draw_sprite_ext(_inst,_inst.sprite_index,_inst.image_index,_inst.x,_inst.y,gml_xc,gml_yc,0,(-1),1);
+		shader_reset();
+	}
+}
+
+function gml_Object_oBullseyeFlying_Step_0(_inst,_other)
+{
+	_inst.gmlgrounded=gml_Script_on_ground(_inst,_other);
+	_inst.gmltimer=(_inst.gmltimer instanceof Long?_inst.gmltimer.add(1):++_inst.gmltimer);
+	_inst.gmlyvel=yyftime(__yy_gml_errCheck(dsin(yyftime(__yy_gml_errCheck(_inst.gmltimer),2))),0.3);
+	if(yyGetBool(_inst.gmlhit_did))
+	{
+		instance_destroy(_inst)	}
+	;
+	gml_Script_ent_move_collide(_inst,_other,(-1));
+}
+
+function gml_Object_oBulShockwave_Create_0(_inst,_other)
+{
+	event_inherited(_inst,_other);
+	_inst.gmlm_dir=5;
+	_inst.gmlbul_jet_coold=0;
+	_inst.gmlbul_jet_disable=false;
+	gml_Script_move_y(_inst,_other,8);
+}
+
+function gml_Object_oBulShockwave_Step_0(_inst,_other)
+{
+	_inst.gmlgrounded=gml_Script_on_ground(_inst,_other);
+	if(yyfequal(_inst.gmlbul_timer,0))
+	{
+
+				{
+			_inst.gmlxvel=yyfplus(_inst.gmlxvel,yyftime(__yy_gml_errCheck(dcos(_inst.gmlm_dir)),__yy_gml_errCheck(_inst.gmlm_spd)));
+			_inst.gmlyvel=yyfplus(_inst.gmlyvel,yyftime(__yy_gml_errCheck(__yy_gml_errCheck(-__yy_gml_errCheck(dsin(_inst.gmlm_dir)))),__yy_gml_errCheck(_inst.gmlm_spd)));
+		}
+	}
+	;
+	if(yyfless(_inst.gmlbul_timer,_inst.gmlbul_timer_max))
+	{
+		_inst.gmlbul_timer=(_inst.gmlbul_timer instanceof Long?_inst.gmlbul_timer.add(1):++_inst.gmlbul_timer)	}
+	else 
+	{
+		instance_destroy(_inst)	}
+	;
+	if(!yyGetBool(_inst.gmlgrounded))
+	{
+		_inst.gmlbul_jet_disable=true	}
+	;
+	if(!yyGetBool(_inst.gmlbul_jet_disable))
+	{
+
+				{
+			_inst.gmlbul_jet_coold=(_inst.gmlbul_jet_coold instanceof Long?_inst.gmlbul_jet_coold.add(1):++_inst.gmlbul_jet_coold);
+			if(yyfgreaterequal(_inst.gmlbul_jet_coold,2))
+			{
+
+								{
+					var gml_bul=instance_create_depth(_inst.x,yyfminus(__yy_gml_errCheck(_inst.y),1),0,YYASSET_REF(0x00000003));
+					yyInst(_inst,_other,gml_bul).gmlbul_timer_max=6;
+					yyInst(_inst,_other,gml_bul).gmlm_spd=yyfplus(3,__yy_gml_errCheck(random_range(1,(-1))));
+					yyInst(_inst,_other,gml_bul).gmlm_dir=90;
+					_inst.gmlbul_jet_coold=0;
+				}
+			}
+			;
+		}
+	}
+	;
+	gml_Script_round_vel(_inst,_other);
+	if(!yyGetBool(gml_Script_move_x(_inst,_other,_inst.gmlxvel_int)))
+	{
+
+				{
+			instance_destroy(_inst);
+		}
+	}
+	;
+	if(!yyGetBool(gml_Script_move_y(_inst,_other,_inst.gmlyvel_int)))
+	{
+
+				{
+			_inst.gmlyvel=0;
+			_inst.gmlyvel_fract=0;
+		}
+	}
+	;
 }
 
 function gml_Object_oBulSkull_Create_0(_inst,_other)
@@ -20507,9 +21020,9 @@ function gml_Script_anon_40_43_40_gml_Object_oDoorTest_Create_0(_inst,_other)
 function gml_Object_oDoorTest_Draw_0(_inst,_other)
 {
 	draw_sprite_ext(_inst,_inst.sprite_index,_inst.image_index,_inst.x,_inst.y,1,1,0,(-1),1);
-	if(yyfnotequal(global.gmlspawn_state,3))
+	if(yyfnotequal(gml_Script_get_spawn_state(_inst,_other),3))
 	{
-		draw_sprite(_inst,YYASSET_REF(0x01000058),0,_inst.x,_inst.y)	}
+		draw_sprite(_inst,YYASSET_REF(0x0100005E),0,_inst.x,_inst.y)	}
 	;
 	if(!yyGetBool(global.gmldebug))
 	{
@@ -20551,13 +21064,13 @@ function gml_Object_oDrawBackground_Draw_0(_inst,_other)
 				{
 			surface_set_target(global.gmlbg_sf);
 			draw_clear_alpha((-1),0);
-			var ___sw114___=g_pBuiltIn.get_current_room();
-			var ___swc115___=-1;
-			if(yyCompareVal(___sw114___,YYASSET_REF(0x03000006),g_GMLMathEpsilon,false)==0||yyCompareVal(___sw114___,YYASSET_REF(0x0300000A),g_GMLMathEpsilon,false)==0)
+			var ___sw118___=g_pBuiltIn.get_current_room();
+			var ___swc119___=-1;
+			if(yyCompareVal(___sw118___,YYASSET_REF(0x03000006),g_GMLMathEpsilon,false)==0||yyCompareVal(___sw118___,YYASSET_REF(0x0300000A),g_GMLMathEpsilon,false)==0)
 			{
-				___swc115___=1;
+				___swc119___=1;
 			}
-			switch(___swc115___)
+			switch(___swc119___)
 			{
 				default :
 				{
@@ -20679,12 +21192,12 @@ function gml_Object_oDrawHandler_Draw_77(_inst,_other)
 					shader_set_uniform_f(shader_get_uniform(YYASSET_REF(0x08000003),"time"),yyftime(__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(g_pBuiltIn.get_current_time()),1000)),1.7));
 					draw_surface(_inst.gmlpause_surf,0,0);
 					shader_reset();
-					if((yyGetBool(instance_exists(YYASSET_REF(0x0000000A))))&&(yyGetBool(surface_exists(yyInst(_inst,_other,YYASSET_REF(0x0000000A)).gmlui_surf))))
+					if((yyGetBool(instance_exists(YYASSET_REF(0x0000000D))))&&(yyGetBool(surface_exists(yyInst(_inst,_other,YYASSET_REF(0x0000000D)).gmlui_surf))))
 					{
 
 												{
 							gpu_set_blendenable(true);
-							draw_surface(yyInst(_inst,_other,YYASSET_REF(0x0000000A)).gmlui_surf,0,0);
+							draw_surface(yyInst(_inst,_other,YYASSET_REF(0x0000000D)).gmlui_surf,0,0);
 							gpu_set_blendenable(false);
 						}
 					}
@@ -20701,11 +21214,11 @@ function gml_Object_oDrawHandler_Draw_77(_inst,_other)
 			}
 			;
 			gpu_set_blendenable(true);
-			if(yyGetBool(instance_exists(YYASSET_REF(0x0000002D))))
+			if(yyGetBool(instance_exists(YYASSET_REF(0x00000031))))
 			{
 
 								{
-					(__temp__=yyInst(_inst,_other,YYASSET_REF(0x0000002D)),__yyg_call_method(__temp__.gmldraw_menu_func)(__temp__,_other,24));
+					(__temp__=yyInst(_inst,_other,YYASSET_REF(0x00000031)),__yyg_call_method(__temp__.gmldraw_menu_func)(__temp__,_other,24));
 				}
 			}
 			;
@@ -20746,7 +21259,7 @@ function gml_Object_oDrawPlayerGui_Create_0(_inst,_other)
 	_inst.gmlgui_gunswitchfx=0;
 	_inst.gmlgui_playerguns=(__yy_gml_array_create([0]));
 	_inst.gmlgui_playerguncurrent=0;
-	_inst.gmlgui_spawnstate=yyInst(_inst,_other,YYASSET_REF(0x0000002F)).gmlstate_current;
+	_inst.gmlgui_spawnstate=gml_Script_get_spawn_state(_inst,_other);
 	_inst.gmlgui_wave_num=0;
 	_inst.gmlgui_wave_batch=0;
 	_inst.gmlgui_wave_batch_max=0;
@@ -20759,7 +21272,7 @@ function gml_Object_oDrawPlayerGui_Step_2(_inst,_other)
 	{
 
 				{
-			var gml_curspawnstate=yyInst(_inst,_other,YYASSET_REF(0x0000002F)).gmlstate_current;
+			var gml_curspawnstate=gml_Script_get_spawn_state(_inst,_other);
 			if(yyfnotequal(_inst.gmlgui_spawnstate,gml_curspawnstate))
 			{
 
@@ -20776,8 +21289,8 @@ function gml_Object_oDrawPlayerGui_Step_2(_inst,_other)
 				}
 			}
 			;
-			_inst.gmlgui_wave_num=yyInst(_inst,_other,YYASSET_REF(0x0000002F)).gmlwave_current;
-			var gml_curbatch=yyInst(_inst,_other,YYASSET_REF(0x0000002F)).gmlbatch_left;
+			_inst.gmlgui_wave_num=yyInst(_inst,_other,YYASSET_REF(0x00000033)).gmlwave_current;
+			var gml_curbatch=yyInst(_inst,_other,YYASSET_REF(0x00000033)).gmlbatch_left;
 			if(yyfnotequal(_inst.gmlgui_wave_batch,gml_curbatch))
 			{
 
@@ -20794,7 +21307,7 @@ function gml_Object_oDrawPlayerGui_Step_2(_inst,_other)
 				}
 			}
 			;
-			_inst.gmlgui_wave_batch_max=yyInst(_inst,_other,yyInst(_inst,_other,YYASSET_REF(0x0000002F)).gmlwave_option_selected).gmlwave_batches;
+			_inst.gmlgui_wave_batch_max=yyInst(_inst,_other,yyInst(_inst,_other,YYASSET_REF(0x00000033)).gmlwave_option_selected).gmlwave_batches;
 			_inst.gmlgui_fxhurt=yyInst(_inst,_other,_inst.gmltarget).gmlhurtfx_lerp;
 			_inst.gmlgui_reload=(yyGetBool(yyInst(_inst,_other,_inst.gmltarget).gmlatk_noshoot))||(yyGetBool(yyInst(_inst,_other,_inst.gmltarget).gmlatk_autoreload));
 			_inst.gmlgui_ammo=yyInst(_inst,_other,_inst.gmltarget).gmlatk_ammo;
@@ -20893,14 +21406,14 @@ function gml_Object_oDrawPlayerGui_Draw_0(_inst,_other)
 			var gml_xh=random_range(__yy_gml_errCheck(-__yy_gml_errCheck(gml_fxhurt)),yyftime(__yy_gml_errCheck(gml_fxhurt),2)),gml_yh=random_range(__yy_gml_errCheck(-__yy_gml_errCheck(gml_fxhurt)),yyftime(__yy_gml_errCheck(gml_fxhurt),2));
 			if((yyGetBool(yyfgreaterequal(gmli,floor(yyfdivide(__yy_gml_errCheck(gml_hp),2)))))&&(yyGetBool(yyfless(gmli,gml_finalmaxhp))))
 			{
-				draw_sprite_ext(_inst,YYASSET_REF(0x0100007C),2,yyfplus(16,__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gmli),16))),16,1,1,0,(-1),1)			}
+				draw_sprite_ext(_inst,YYASSET_REF(0x01000084),2,yyfplus(16,__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gmli),16))),16,1,1,0,(-1),1)			}
 			;
 			if(yyfgreaterequal(gmli,gml_finalmaxhp))
 			{
 
 								{
 					var gml_bonussubimg=((yyGetBool(yyfequal(gmli,yyfminus(__yy_gml_errCheck(gml_totalhp),1))))&&(yyGetBool(yyfequal(yyfmod(__yy_gml_errCheck(gml_bonushp),2),1)))?4:3);
-					draw_sprite_ext(_inst,YYASSET_REF(0x0100007C),gml_bonussubimg,yyfplus(16,__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gmli),16))),16,yyftime(__yy_gml_errCheck(_inst.gmlfx_hp_a),__yy_gml_errCheck(yyfplus(1,__yy_gml_errCheck(gml_xh)))),yyftime(__yy_gml_errCheck(_inst.gmlfx_hp_a),__yy_gml_errCheck(yyfplus(1,__yy_gml_errCheck(gml_yh)))),0,(-1),1);
+					draw_sprite_ext(_inst,YYASSET_REF(0x01000084),gml_bonussubimg,yyfplus(16,__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gmli),16))),16,yyftime(__yy_gml_errCheck(_inst.gmlfx_hp_a),__yy_gml_errCheck(yyfplus(1,__yy_gml_errCheck(gml_xh)))),yyftime(__yy_gml_errCheck(_inst.gmlfx_hp_a),__yy_gml_errCheck(yyfplus(1,__yy_gml_errCheck(gml_yh)))),0,(-1),1);
 				}
 			}
 			;
@@ -20909,7 +21422,7 @@ function gml_Object_oDrawPlayerGui_Draw_0(_inst,_other)
 
 								{
 					var gml_redsubimg=((yyGetBool(yyfequal(gmli,yyfminus(__yy_gml_errCheck(gml_finalhp),1))))&&(yyGetBool(yyfequal(yyfmod(__yy_gml_errCheck(gml_hp),2),1)))?1:0);
-					draw_sprite_ext(_inst,YYASSET_REF(0x0100007C),gml_redsubimg,yyfplus(16,__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gmli),16))),16,yyftime(__yy_gml_errCheck(_inst.gmlfx_hp_a),__yy_gml_errCheck(yyfplus(1,__yy_gml_errCheck(gml_xh)))),yyftime(__yy_gml_errCheck(_inst.gmlfx_hp_a),__yy_gml_errCheck(yyfplus(1,__yy_gml_errCheck(gml_yh)))),0,(-1),1);
+					draw_sprite_ext(_inst,YYASSET_REF(0x01000084),gml_redsubimg,yyfplus(16,__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gmli),16))),16,yyftime(__yy_gml_errCheck(_inst.gmlfx_hp_a),__yy_gml_errCheck(yyfplus(1,__yy_gml_errCheck(gml_xh)))),yyftime(__yy_gml_errCheck(_inst.gmlfx_hp_a),__yy_gml_errCheck(yyfplus(1,__yy_gml_errCheck(gml_yh)))),0,(-1),1);
 				}
 			}
 			;
@@ -20918,7 +21431,7 @@ function gml_Object_oDrawPlayerGui_Draw_0(_inst,_other)
 
 								{
 					var gml_tapesubimg=((yyGetBool(yyfequal(gmli,yyfminus(__yy_gml_errCheck(gml_finalhp),1))))&&(yyGetBool(yyfequal(yyfmod(__yy_gml_errCheck(gml_hp),2),1)))?7:6);
-					draw_sprite_ext(_inst,YYASSET_REF(0x0100007C),gml_tapesubimg,yyfplus(16,__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gmli),16))),16,yyftime(__yy_gml_errCheck(_inst.gmlfx_hp_a),__yy_gml_errCheck(yyfplus(1,__yy_gml_errCheck(gml_xh)))),yyftime(__yy_gml_errCheck(_inst.gmlfx_hp_a),__yy_gml_errCheck(yyfplus(1,__yy_gml_errCheck(gml_yh)))),0,(-1),1);
+					draw_sprite_ext(_inst,YYASSET_REF(0x01000084),gml_tapesubimg,yyfplus(16,__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gmli),16))),16,yyftime(__yy_gml_errCheck(_inst.gmlfx_hp_a),__yy_gml_errCheck(yyfplus(1,__yy_gml_errCheck(gml_xh)))),yyftime(__yy_gml_errCheck(_inst.gmlfx_hp_a),__yy_gml_errCheck(yyfplus(1,__yy_gml_errCheck(gml_yh)))),0,(-1),1);
 				}
 			}
 			;
@@ -20947,7 +21460,7 @@ function gml_Object_oDrawPlayerGui_Draw_0(_inst,_other)
 
 												{
 							draw_set_colour(0);
-							draw_sprite_pos(_inst,YYASSET_REF(0x01000079),0,yyfplus(yyfminus(yyfplus(__yy_gml_errCheck(gml_gunsx),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gml_px[__yy_gml_array_check_index(0,gml_px)]),__yy_gml_errCheck(gml_r)))),2),__yy_gml_errCheck(gml_xi)),yyfplus(__yy_gml_errCheck(gml_gunsy),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gml_py[__yy_gml_array_check_index(0,gml_py)]),__yy_gml_errCheck(gml_r)))),yyfplus(yyfplus(__yy_gml_errCheck(gml_gunsx),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gml_px[__yy_gml_array_check_index(1,gml_px)]),__yy_gml_errCheck(gml_r)))),__yy_gml_errCheck(gml_xi)),yyfminus(yyfplus(__yy_gml_errCheck(gml_gunsy),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gml_py[__yy_gml_array_check_index(0,gml_py)]),__yy_gml_errCheck(gml_r)))),1),yyfplus(yyfplus(yyfplus(__yy_gml_errCheck(gml_gunsx),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gml_px[__yy_gml_array_check_index(1,gml_px)]),__yy_gml_errCheck(gml_r)))),1),__yy_gml_errCheck(gml_xi)),yyfplus(yyfplus(__yy_gml_errCheck(gml_gunsy),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gml_py[__yy_gml_array_check_index(1,gml_py)]),__yy_gml_errCheck(gml_r)))),1),yyfplus(yyfminus(yyfplus(__yy_gml_errCheck(gml_gunsx),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gml_px[__yy_gml_array_check_index(0,gml_px)]),__yy_gml_errCheck(gml_r)))),1),__yy_gml_errCheck(gml_xi)),yyfplus(yyfplus(__yy_gml_errCheck(gml_gunsy),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gml_py[__yy_gml_array_check_index(1,gml_py)]),__yy_gml_errCheck(gml_r)))),2),1);
+							draw_sprite_pos(_inst,YYASSET_REF(0x01000081),0,yyfplus(yyfminus(yyfplus(__yy_gml_errCheck(gml_gunsx),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gml_px[__yy_gml_array_check_index(0,gml_px)]),__yy_gml_errCheck(gml_r)))),2),__yy_gml_errCheck(gml_xi)),yyfplus(__yy_gml_errCheck(gml_gunsy),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gml_py[__yy_gml_array_check_index(0,gml_py)]),__yy_gml_errCheck(gml_r)))),yyfplus(yyfplus(__yy_gml_errCheck(gml_gunsx),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gml_px[__yy_gml_array_check_index(1,gml_px)]),__yy_gml_errCheck(gml_r)))),__yy_gml_errCheck(gml_xi)),yyfminus(yyfplus(__yy_gml_errCheck(gml_gunsy),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gml_py[__yy_gml_array_check_index(0,gml_py)]),__yy_gml_errCheck(gml_r)))),1),yyfplus(yyfplus(yyfplus(__yy_gml_errCheck(gml_gunsx),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gml_px[__yy_gml_array_check_index(1,gml_px)]),__yy_gml_errCheck(gml_r)))),1),__yy_gml_errCheck(gml_xi)),yyfplus(yyfplus(__yy_gml_errCheck(gml_gunsy),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gml_py[__yy_gml_array_check_index(1,gml_py)]),__yy_gml_errCheck(gml_r)))),1),yyfplus(yyfminus(yyfplus(__yy_gml_errCheck(gml_gunsx),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gml_px[__yy_gml_array_check_index(0,gml_px)]),__yy_gml_errCheck(gml_r)))),1),__yy_gml_errCheck(gml_xi)),yyfplus(yyfplus(__yy_gml_errCheck(gml_gunsy),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gml_py[__yy_gml_array_check_index(1,gml_py)]),__yy_gml_errCheck(gml_r)))),2),1);
 							draw_set_color((-1));
 						}
 					}
@@ -20989,7 +21502,7 @@ function gml_Object_oDrawPlayerGui_Draw_0(_inst,_other)
 			;
 			_inst.gmlfx_ammo_gain=gml_Script_approach(_inst,_other,_inst.gmlfx_ammo_gain,gml_ammo,0.8);
 			var gml_px=(__yy_gml_array_create([yyfplus(__yy_gml_errCheck(gml_ammox),1),yyfminus(yyfplus(__yy_gml_errCheck(gml_ammox),12),1)])),gml_py=(__yy_gml_array_create([gml_ammoy,yyfplus(yyfplus(__yy_gml_errCheck(gml_ammoy),__yy_gml_errCheck(floor(yyftime(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gml_maxammo),__yy_gml_errCheck(gml_ammooffset))),__yy_gml_errCheck(gml_ammowidth))))),2)]));
-			draw_sprite_pos(_inst,YYASSET_REF(0x01000079),0,yyfminus(__yy_gml_errCheck(gml_px[__yy_gml_array_check_index(0,gml_px)]),2),gml_py[__yy_gml_array_check_index(0,gml_py)],gml_px[__yy_gml_array_check_index(1,gml_px)],yyfminus(__yy_gml_errCheck(gml_py[__yy_gml_array_check_index(0,gml_py)]),2),yyfplus(__yy_gml_errCheck(gml_px[__yy_gml_array_check_index(1,gml_px)]),1),yyfplus(__yy_gml_errCheck(gml_py[__yy_gml_array_check_index(1,gml_py)]),1),yyfplus(__yy_gml_errCheck(gml_px[__yy_gml_array_check_index(0,gml_px)]),1),yyfplus(__yy_gml_errCheck(gml_py[__yy_gml_array_check_index(1,gml_py)]),2),1);
+			draw_sprite_pos(_inst,YYASSET_REF(0x01000081),0,yyfminus(__yy_gml_errCheck(gml_px[__yy_gml_array_check_index(0,gml_px)]),2),gml_py[__yy_gml_array_check_index(0,gml_py)],gml_px[__yy_gml_array_check_index(1,gml_px)],yyfminus(__yy_gml_errCheck(gml_py[__yy_gml_array_check_index(0,gml_py)]),2),yyfplus(__yy_gml_errCheck(gml_px[__yy_gml_array_check_index(1,gml_px)]),1),yyfplus(__yy_gml_errCheck(gml_py[__yy_gml_array_check_index(1,gml_py)]),1),yyfplus(__yy_gml_errCheck(gml_px[__yy_gml_array_check_index(0,gml_px)]),1),yyfplus(__yy_gml_errCheck(gml_py[__yy_gml_array_check_index(1,gml_py)]),2),1);
 			draw_set_color((-1));
 			var gmli=0;
 			for(;yyfless(gmli,round(_inst.gmlfx_ammo_gain));gmli=(gmli instanceof Long?gmli.add(1):++gmli))
@@ -20998,7 +21511,7 @@ function gml_Object_oDrawPlayerGui_Draw_0(_inst,_other)
 								{
 					var gml_yx=(yyfgreater(gml_maxammo,8)?(yyfequal(yyfmod(__yy_gml_errCheck(floor(yyfdivide(__yy_gml_errCheck(gmli),2))),2),0)?0:1):0);
 					var gml_last=(yyfequal(gmli,yyfminus(__yy_gml_errCheck(gml_ammo),1))?1:0);
-					draw_sprite_ext(_inst,YYASSET_REF(0x01000078),gmli,yyfplus(yyfplus(8,__yy_gml_errCheck(yyftime(yyftime(__yy_gml_errCheck(gml_fxgun),4),__yy_gml_errCheck(gml_last)))),__yy_gml_errCheck(gml_yx)),yyfplus(__yy_gml_errCheck(gml_ammoy),__yy_gml_errCheck(round(yyftime(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gmli),__yy_gml_errCheck(gml_ammooffset))),__yy_gml_errCheck(gml_ammowidth))))),1,yyftime(1,__yy_gml_errCheck(gml_ammowidth)),0,(-1),1);
+					draw_sprite_ext(_inst,YYASSET_REF(0x01000080),gmli,yyfplus(yyfplus(8,__yy_gml_errCheck(yyftime(yyftime(__yy_gml_errCheck(gml_fxgun),4),__yy_gml_errCheck(gml_last)))),__yy_gml_errCheck(gml_yx)),yyfplus(__yy_gml_errCheck(gml_ammoy),__yy_gml_errCheck(round(yyftime(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gmli),__yy_gml_errCheck(gml_ammooffset))),__yy_gml_errCheck(gml_ammowidth))))),1,yyftime(1,__yy_gml_errCheck(gml_ammowidth)),0,(-1),1);
 				}
 			}
 			;
@@ -21031,7 +21544,7 @@ function gml_Object_oDrawPlayerGui_Draw_0(_inst,_other)
 
 								{
 					draw_rectangle(136,yyfminus(__yy_gml_errCheck(_inst.gmlfx_killstreak),24),yyfplus(136,__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gml_kt),64))),yyfminus(__yy_gml_errCheck(_inst.gmlfx_killstreak),16),0);
-					draw_sprite(_inst,YYASSET_REF(0x01000080),0,144,yyfminus(__yy_gml_errCheck(_inst.gmlfx_killstreak),24));
+					draw_sprite(_inst,YYASSET_REF(0x01000088),0,144,yyfminus(__yy_gml_errCheck(_inst.gmlfx_killstreak),24));
 					draw_text(144,yyfminus(__yy_gml_errCheck(_inst.gmlfx_killstreak),12),__yy_InternalStringInterpolation("x{0}",global.gmlkillstreak));
 				}
 			}
@@ -21144,6 +21657,272 @@ function gml_Object_oDrawProjectiles_Draw_0(_inst,_other)
 	shader_reset();
 }
 
+function gml_Object_oEnAlienstar_Create_0(_inst,_other)
+{
+	event_inherited(_inst,_other);
+	_inst.gmlent_no_collision=true;
+	_inst.gmlm_dir=choose(1,(-1));
+	_inst.gmlm_spd=1.6;
+	_inst.gmlm_follow_dist=0;
+	_inst.gmlm_follow_dir=0;
+	_inst.gmlfollow_xoff=0;
+	_inst.gmlm_timer_rand=yyfplus(__yy_gml_errCheck(random_range(0,90)),180);
+	_inst.gmlfollow_id=(-4);
+	_inst.gmlfollow_count=0;
+	_inst.gmlenemy_states=__yy_gml_object_create(_inst,(global.gml___struct___51=__yy_method(_inst,gml_Script____struct___51_40_gml_Object_oEnAlienstar_Create_0)),5);
+	_inst.gmldraw_event=__yy_method(_inst,gml_Script_anon_40_315_40_gml_Object_oEnAlienstar_Create_0);
+}
+
+function gml_Script____struct___51_40_gml_Object_oEnAlienstar_Create_0(_inst,_other)
+{
+	if((--_inst.__yyCreatedByNew)<0)
+	{
+
+				{
+			yyError("calling a constructor directly - constructors should only be called using new")		}
+	}
+	if(_inst.__yyIsGMLObject)
+	{
+		_inst.__type="gml_Script____struct___51@gml_Object_oEnAlienstar_Create_0"	}
+	if(gml_Script____struct___51_40_gml_Object_oEnAlienstar_Create_0.prototype.__type===undefined)
+	{
+		gml_Script____struct___51_40_gml_Object_oEnAlienstar_Create_0.prototype.__type="gml_Script____struct___51@gml_Object_oEnAlienstar_Create_0"	}
+
+		{
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___51_40_gml_Object_oEnAlienstar_Create_0.prototype);
+
+				{
+			var $$args=Array.prototype.slice.call(arguments);
+
+						{
+				_inst.gmlfollow=$$args[__yy_gml_array_check_index(2+(0),$$args)];
+			}
+		}
+	}
+}
+
+function gml_Script_anon_40_315_40_gml_Object_oEnAlienstar_Create_0(_inst,_other)
+{
+
+		{
+		_inst.gmlfx_flash=(yyGetBool(_inst.gmlfx_flash)?yyfminus(__yy_gml_errCheck(_inst.gmlfx_flash),1):0);
+		if(yyGetBool(_inst.gmlfx_flash))
+		{
+			shader_set(YYASSET_REF(0x08000002))		}
+		;
+		draw_sprite_ext(_inst,_inst.sprite_index,_inst.image_index,_inst.x,_inst.y,_inst.gmlxsprite,1,0,(-1),1);
+		shader_reset();
+		if(yyGetBool(global.gmldebug))
+		{
+
+						{
+				draw_arrow(_inst.x,_inst.y,yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(dcos(_inst.gmlm_follow_dir)),__yy_gml_errCheck(yyftime(48,__yy_gml_errCheck(_inst.gmlm_follow_dist)))))),yyfminus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(dsin(_inst.gmlm_follow_dir)),__yy_gml_errCheck(yyftime(48,__yy_gml_errCheck(_inst.gmlm_follow_dist)))))),yyftime(6,__yy_gml_errCheck(_inst.gmlm_follow_dist)));
+				draw_text(_inst.x,yyfminus(__yy_gml_errCheck(_inst.y),24),__yy_InternalStringInterpolation("xoff {0}",_inst.gmlfollow_xoff));
+				draw_text(_inst.x,yyfminus(__yy_gml_errCheck(_inst.y),32),__yy_InternalStringInterpolation("tdist {0}",_inst.gmlm_follow_dist));
+			}
+		}
+		;
+	}
+}
+
+function gml_Object_oEnAlienstar_Step_0(_inst,_other)
+{
+	gml_Script_ent_prestate_event(_inst,_other);
+	gml_Script_ent_state_machine(_inst,_other);
+	var ___sw122___=_inst.gmlstate_current;
+	var ___swc123___=-1;
+	if(yyCompareVal(___sw122___,1,g_GMLMathEpsilon,false)==0)
+	{
+		___swc123___=1;
+	}
+	else if(yyCompareVal(___sw122___,yyInst(_inst,_other,_inst.gmlenemy_states).gmlfollow,g_GMLMathEpsilon,false)==0)
+	{
+		___swc123___=2;
+	}
+	else if(yyCompareVal(___sw122___,2,g_GMLMathEpsilon,false)==0)
+	{
+		___swc123___=3;
+	}
+	else if(yyCompareVal(___sw122___,0,g_GMLMathEpsilon,false)==0)
+	{
+		___swc123___=4;
+	}
+	else if(yyCompareVal(___sw122___,3,g_GMLMathEpsilon,false)==0)
+	{
+		___swc123___=5;
+	}
+	switch(___swc123___)
+	{
+		default :
+		{
+			break;
+		}
+		case 1:
+		{
+			if(yyGetBool(_inst.gmlstate_is_new))
+			{
+
+								{
+					_inst.gmlstate_is_new=!yyGetBool(_inst.gmlstate_is_new);
+				}
+			}
+			;
+			var gml_ydir=yyftime(__yy_gml_errCheck(__yy_gml_errCheck(-__yy_gml_errCheck(dsin(yyftime(__yy_gml_errCheck(yyfplus(__yy_gml_errCheck(_inst.gmlstate_timer),__yy_gml_errCheck(_inst.gmlm_timer_rand))),4))))),1.5);
+			if(yyfless(_inst.y,yyfplus(__yy_gml_errCheck(gml_Script_get_spawn_limits(_inst,_other,2)),32)))
+			{
+				gml_ydir=1			}
+			;
+			if(yyfgreater(_inst.y,yyfminus(__yy_gml_errCheck(gml_Script_get_spawn_limits(_inst,_other,3)),80)))
+			{
+				gml_ydir=(-1)			}
+			;
+			_inst.gmlxvel=gml_Script_approach(_inst,_other,_inst.gmlxvel,yyftime(__yy_gml_errCheck(_inst.gmlm_spd),__yy_gml_errCheck(_inst.gmlm_dir)),yyftime(__yy_gml_errCheck(_inst.gmlm_fri),0.4));
+			_inst.gmlyvel=gml_Script_approach(_inst,_other,_inst.gmlyvel,yyftime(__yy_gml_errCheck(_inst.gmlm_spd),__yy_gml_errCheck(gml_ydir)),yyftime(__yy_gml_errCheck(_inst.gmlm_fri),0.4));
+			if(yyfgreater(_inst.x,yyfplus(__yy_gml_errCheck(gml_Script_get_spawn_limits(_inst,_other,1)),16)))
+			{
+				_inst.x=yyfplus(yyfminus(__yy_gml_errCheck(gml_Script_get_spawn_limits(_inst,_other,0)),15),__yy_gml_errCheck(_inst.gmlxvel))			}
+			;
+			if(yyfless(_inst.x,yyfminus(__yy_gml_errCheck(gml_Script_get_spawn_limits(_inst,_other,0)),16)))
+			{
+				_inst.x=yyfplus(yyfplus(__yy_gml_errCheck(gml_Script_get_spawn_limits(_inst,_other,1)),15),__yy_gml_errCheck(_inst.gmlxvel))			}
+			;
+			if(yyfequal(_inst.gmlm_dir,sign(__yy_gml_errCheck(-__yy_gml_errCheck(_inst.gmlxvel)))))
+			{
+				_inst.gmlm_dir=sign(_inst.gmlxvel)			}
+			;
+			if(yyGetBool(place_meeting(_inst,_inst.x,_inst.y,_inst.gmltarget)))
+			{
+
+								{
+					var gml_en=instance_place(_inst,_inst.x,_inst.y,_inst.gmltarget);
+					gml_Script_hurt_entity(_inst,_other,gml_en);
+				}
+			}
+			;
+			break;
+		}
+		case 2:
+		{
+			if(yyGetBool(_inst.gmlstate_is_new))
+			{
+
+								{
+					_inst.gmlstate_is_new=!yyGetBool(_inst.gmlstate_is_new);
+				}
+			}
+			;
+			if(!yyGetBool(instance_exists(_inst.gmlfollow_id)))
+			{
+
+								{
+					_inst.gmlfollow_id=(-4);
+					_inst.gmlstate_current=1;
+					break;
+				}
+			}
+			;
+			_inst.gmlfollow_xoff=gml_Script_loop_xoffset(_inst,_other,_inst.x,yyInst(_inst,_other,_inst.gmlfollow_id).x);
+			var gml_tdir=point_direction(_inst.x,_inst.y,_inst.gmlfollow_xoff,yyInst(_inst,_other,_inst.gmlfollow_id).y);
+			var gml_tdist=point_distance(_inst.x,_inst.y,_inst.gmlfollow_xoff,yyInst(_inst,_other,_inst.gmlfollow_id).y);
+			_inst.gmlm_follow_dir=gml_tdir;
+			_inst.gmlm_follow_dist=min(yyfdivide(__yy_gml_errCheck(gml_tdist),24),1.5);
+			var gml_mdirfinal=yyftime(__yy_gml_errCheck(_inst.gmlm_spd),__yy_gml_errCheck(_inst.gmlm_follow_dist));
+			var gml_mfrifinal=yyfplus(__yy_gml_errCheck(_inst.gmlm_fri),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(_inst.gmlm_follow_dist),__yy_gml_errCheck(_inst.gmlm_fri))));
+			_inst.gmlxvel=gml_Script_approach(_inst,_other,_inst.gmlxvel,yyftime(__yy_gml_errCheck(dcos(_inst.gmlm_follow_dir)),__yy_gml_errCheck(gml_mdirfinal)),gml_mfrifinal);
+			_inst.gmlyvel=gml_Script_approach(_inst,_other,_inst.gmlyvel,yyftime(__yy_gml_errCheck(__yy_gml_errCheck(-__yy_gml_errCheck(dsin(_inst.gmlm_follow_dir)))),__yy_gml_errCheck(gml_mdirfinal)),gml_mfrifinal);
+			if(yyfgreater(_inst.x,yyfplus(__yy_gml_errCheck(gml_Script_get_spawn_limits(_inst,_other,1)),16)))
+			{
+				_inst.x=yyfplus(yyfminus(__yy_gml_errCheck(gml_Script_get_spawn_limits(_inst,_other,0)),15),__yy_gml_errCheck(_inst.gmlxvel))			}
+			;
+			if(yyfless(_inst.x,yyfminus(__yy_gml_errCheck(gml_Script_get_spawn_limits(_inst,_other,0)),16)))
+			{
+				_inst.x=yyfplus(yyfplus(__yy_gml_errCheck(gml_Script_get_spawn_limits(_inst,_other,1)),15),__yy_gml_errCheck(_inst.gmlxvel))			}
+			;
+			if(yyGetBool(place_meeting(_inst,_inst.x,_inst.y,_inst.gmltarget)))
+			{
+
+								{
+					var gml_en=instance_place(_inst,_inst.x,_inst.y,_inst.gmltarget);
+					gml_Script_hurt_entity(_inst,_other,gml_en);
+				}
+			}
+			;
+			break;
+		}
+		case 3:
+		{
+			if(yyGetBool(_inst.gmlstate_is_new))
+			{
+
+								{
+					_inst.gmlstate_is_new=!yyGetBool(_inst.gmlstate_is_new);
+				}
+			}
+			;
+			break;
+		}
+		case 4:
+		{
+			if(yyGetBool(_inst.gmlstate_is_new))
+			{
+
+								{
+					_inst.gmlstate_is_new=!yyGetBool(_inst.gmlstate_is_new);
+				}
+			}
+			;
+			gml_Script_ent_death_event(_inst,_other);
+			break;
+		}
+		case 5:
+		{
+			if(yyGetBool(_inst.gmlstate_is_new))
+			{
+
+								{
+					if(yyfequal(_inst.gmlfollow_count,0))
+					{
+
+												{
+							var gml_amnt=irandom_range(2,4);
+							var gml_lastid=_inst.id;
+							var gmli=0;
+							for(;yyfless(gmli,gml_amnt);gmli=(gmli instanceof Long?gmli.add(1):++gmli))
+							{
+
+																{
+									var gml_en=instance_create_depth(_inst.x,_inst.y,0,YYASSET_REF(0x0000000F));
+									yyInst(_inst,_other,gml_en).gmlfollow_id=gml_lastid;
+									yyInst(_inst,_other,gml_en).gmlfollow_count=yyfplus(__yy_gml_errCheck(gmli),1);
+									gml_lastid=gml_en;
+									if(yyfnotequal(gml_Script_ent_spawnlist_index(_inst,_other),(-1)))
+									{
+										array_push(yyInst(_inst,_other,YYASSET_REF(0x00000033)).gmlenemy_active,yyInst(_inst,_other,gml_en).id)									}
+									;
+								}
+							}
+							;
+							_inst.gmlstate_current=1;
+						}
+					}
+					else 
+					{
+
+												{
+							_inst.gmlstate_current=yyInst(_inst,_other,_inst.gmlenemy_states).gmlfollow;
+						}
+					}
+					;
+				}
+			}
+			;
+			break;
+		}
+	}
+	;
+	gml_Script_ent_move_collide(_inst,_other,(-1));
+}
+
 function gml_Object_oEnClatter_Create_0(_inst,_other)
 {
 	event_inherited(_inst,_other);
@@ -21156,11 +21935,11 @@ function gml_Object_oEnClatter_Create_0(_inst,_other)
 	_inst.gmlm_stunned=false;
 	_inst.gmlvox=(-1);
 	_inst.image_speed=0.5;
-	_inst.gml_enemystate=__yy_gml_object_create(_inst,(global.gml___struct___51=__yy_method(_inst,gml_Script____struct___51_40_gml_Object_oEnClatter_Create_0)),5);
-	_inst.gmldraw_event=__yy_method(_inst,gml_Script_anon_40_244_40_gml_Object_oEnClatter_Create_0);
+	_inst.gmlenemy_states=__yy_gml_object_create(_inst,(global.gml___struct___52=__yy_method(_inst,gml_Script____struct___52_40_gml_Object_oEnClatter_Create_0)),5);
+	_inst.gmldraw_event=__yy_method(_inst,gml_Script_anon_40_245_40_gml_Object_oEnClatter_Create_0);
 }
 
-function gml_Script____struct___51_40_gml_Object_oEnClatter_Create_0(_inst,_other)
+function gml_Script____struct___52_40_gml_Object_oEnClatter_Create_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -21170,13 +21949,13 @@ function gml_Script____struct___51_40_gml_Object_oEnClatter_Create_0(_inst,_othe
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___51@gml_Object_oEnClatter_Create_0"	}
-	if(gml_Script____struct___51_40_gml_Object_oEnClatter_Create_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___52@gml_Object_oEnClatter_Create_0"	}
+	if(gml_Script____struct___52_40_gml_Object_oEnClatter_Create_0.prototype.__type===undefined)
 	{
-		gml_Script____struct___51_40_gml_Object_oEnClatter_Create_0.prototype.__type="gml_Script____struct___51@gml_Object_oEnClatter_Create_0"	}
+		gml_Script____struct___52_40_gml_Object_oEnClatter_Create_0.prototype.__type="gml_Script____struct___52@gml_Object_oEnClatter_Create_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___51_40_gml_Object_oEnClatter_Create_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___52_40_gml_Object_oEnClatter_Create_0.prototype);
 
 				{
 			var $$args=Array.prototype.slice.call(arguments);
@@ -21188,7 +21967,7 @@ function gml_Script____struct___51_40_gml_Object_oEnClatter_Create_0(_inst,_othe
 	}
 }
 
-function gml_Script_anon_40_244_40_gml_Object_oEnClatter_Create_0(_inst,_other)
+function gml_Script_anon_40_245_40_gml_Object_oEnClatter_Create_0(_inst,_other)
 {
 
 		{
@@ -21206,29 +21985,29 @@ function gml_Object_oEnClatter_Step_0(_inst,_other)
 {
 	gml_Script_ent_prestate_event(_inst,_other);
 	gml_Script_ent_state_machine(_inst,_other);
-	var ___sw118___=_inst.gmlstate_current;
-	var ___swc119___=-1;
-	if(yyCompareVal(___sw118___,1,g_GMLMathEpsilon,false)==0)
+	var ___sw126___=_inst.gmlstate_current;
+	var ___swc127___=-1;
+	if(yyCompareVal(___sw126___,1,g_GMLMathEpsilon,false)==0)
 	{
-		___swc119___=1;
+		___swc127___=1;
 	}
-	else if(yyCompareVal(___sw118___,yyInst(_inst,_other,_inst.gml_enemystate).gmldegrade,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw126___,yyInst(_inst,_other,_inst.gmlenemy_states).gmldegrade,g_GMLMathEpsilon,false)==0)
 	{
-		___swc119___=2;
+		___swc127___=2;
 	}
-	else if(yyCompareVal(___sw118___,2,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw126___,2,g_GMLMathEpsilon,false)==0)
 	{
-		___swc119___=3;
+		___swc127___=3;
 	}
-	else if(yyCompareVal(___sw118___,0,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw126___,0,g_GMLMathEpsilon,false)==0)
 	{
-		___swc119___=4;
+		___swc127___=4;
 	}
-	else if(yyCompareVal(___sw118___,3,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw126___,3,g_GMLMathEpsilon,false)==0)
 	{
-		___swc119___=5;
+		___swc127___=5;
 	}
-	switch(___swc119___)
+	switch(___swc127___)
 	{
 		default :
 		{
@@ -21240,11 +22019,11 @@ function gml_Object_oEnClatter_Step_0(_inst,_other)
 			{
 				_inst.gmlstate_is_new=!yyGetBool(_inst.gmlstate_is_new)			}
 			;
-			if((yyGetBool(yyflessequal(_inst.gmlhp,15)))&&(yyGetBool(!yyGetBool(instance_place(_inst,_inst.x,_inst.y,YYASSET_REF(0x00000054))))))
+			if((yyGetBool(yyflessequal(_inst.gmlhp,15)))&&(yyGetBool(!yyGetBool(instance_place(_inst,_inst.x,_inst.y,YYASSET_REF(0x00000058))))))
 			{
 
 								{
-					_inst.gmlstate_current=yyInst(_inst,_other,_inst.gml_enemystate).gmldegrade;
+					_inst.gmlstate_current=yyInst(_inst,_other,_inst.gmlenemy_states).gmldegrade;
 					_inst.gmlstate_prev=(-1);
 					gml_Script_audio_play_sfx(_inst,_other,YYASSET_REF(0x02000001));
 					audio_stop_sound(_inst.gmlvox);
@@ -21274,7 +22053,7 @@ function gml_Object_oEnClatter_Step_0(_inst,_other)
 			var gml_spd=_inst.gmlm_spd;
 			_inst.gmlxvel=gml_Script_approach(_inst,_other,_inst.gmlxvel,yyftime(__yy_gml_errCheck(dcos(_inst.gmlm_aimdir)),__yy_gml_errCheck(gml_spd)),yyftime(__yy_gml_errCheck(abs(dcos(_inst.gmlm_aimdir))),__yy_gml_errCheck(_inst.gmlm_acc)));
 			_inst.gmlyvel=gml_Script_approach(_inst,_other,_inst.gmlyvel,yyftime(__yy_gml_errCheck(__yy_gml_errCheck(-__yy_gml_errCheck(dsin(_inst.gmlm_aimdir)))),__yy_gml_errCheck(gml_spd)),yyftime(__yy_gml_errCheck(abs(__yy_gml_errCheck(-__yy_gml_errCheck(dsin(_inst.gmlm_aimdir))))),__yy_gml_errCheck(_inst.gmlm_acc)));
-			var gml_pl=instance_place(_inst,_inst.x,_inst.y,YYASSET_REF(0x0000003F));
+			var gml_pl=instance_place(_inst,_inst.x,_inst.y,YYASSET_REF(0x00000043));
 			if((yyGetBool(gml_pl))&&(yyGetBool(gml_Script_ent_player_canhit(_inst,_other,gml_pl))))
 			{
 
@@ -21328,7 +22107,7 @@ function gml_Object_oEnClatter_Step_0(_inst,_other)
 				}
 			}
 			;
-			var gml_pl=instance_place(_inst,_inst.x,_inst.y,YYASSET_REF(0x0000003F));
+			var gml_pl=instance_place(_inst,_inst.x,_inst.y,YYASSET_REF(0x00000043));
 			if((yyGetBool(gml_pl))&&(yyGetBool(gml_Script_ent_player_canhit(_inst,_other,gml_pl)))&&(yyGetBool(!yyGetBool(_inst.gmlm_stunned))))
 			{
 
@@ -21361,7 +22140,7 @@ function gml_Object_oEnClatter_Step_0(_inst,_other)
 			{
 
 								{
-					instance_create_depth(_inst.x,_inst.y,0,YYASSET_REF(0x0000001F));
+					instance_create_depth(_inst.x,_inst.y,0,YYASSET_REF(0x00000023));
 				}
 			}
 			;
@@ -21420,7 +22199,7 @@ function gml_Object_oEnCoffin_Create_0(_inst,_other)
 	event_inherited(_inst,_other);
 	_inst.gmlhp=28;
 	_inst.gmlbasehp=_inst.gmlhp;
-	_inst.mask_index=YYASSET_REF(0x01000054);
+	_inst.mask_index=YYASSET_REF(0x0100005A);
 	_inst.gmlent_no_platform=true;
 	_inst.gmlatk_timer=60;
 	_inst.gmlatk_dir=0;
@@ -21432,11 +22211,11 @@ function gml_Object_oEnCoffin_Create_0(_inst,_other)
 	_inst.gmlmove_dir=1;
 	_inst.gmlfx_ground=false;
 	_inst.gmlfx_ground_amount=0;
-	_inst.gml_enemystate=__yy_gml_object_create(_inst,(global.gml___struct___52=__yy_method(_inst,gml_Script____struct___52_40_gml_Object_oEnCoffin_Create_0)),5,6);
-	_inst.gmldraw_event=__yy_method(_inst,gml_Script_anon_40_402_40_gml_Object_oEnCoffin_Create_0);
+	_inst.gmlenemy_states=__yy_gml_object_create(_inst,(global.gml___struct___53=__yy_method(_inst,gml_Script____struct___53_40_gml_Object_oEnCoffin_Create_0)),5,6);
+	_inst.gmldraw_event=__yy_method(_inst,gml_Script_anon_40_403_40_gml_Object_oEnCoffin_Create_0);
 }
 
-function gml_Script____struct___52_40_gml_Object_oEnCoffin_Create_0(_inst,_other)
+function gml_Script____struct___53_40_gml_Object_oEnCoffin_Create_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -21446,13 +22225,13 @@ function gml_Script____struct___52_40_gml_Object_oEnCoffin_Create_0(_inst,_other
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___52@gml_Object_oEnCoffin_Create_0"	}
-	if(gml_Script____struct___52_40_gml_Object_oEnCoffin_Create_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___53@gml_Object_oEnCoffin_Create_0"	}
+	if(gml_Script____struct___53_40_gml_Object_oEnCoffin_Create_0.prototype.__type===undefined)
 	{
-		gml_Script____struct___52_40_gml_Object_oEnCoffin_Create_0.prototype.__type="gml_Script____struct___52@gml_Object_oEnCoffin_Create_0"	}
+		gml_Script____struct___53_40_gml_Object_oEnCoffin_Create_0.prototype.__type="gml_Script____struct___53@gml_Object_oEnCoffin_Create_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___52_40_gml_Object_oEnCoffin_Create_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___53_40_gml_Object_oEnCoffin_Create_0.prototype);
 
 				{
 			var $$args=Array.prototype.slice.call(arguments);
@@ -21465,7 +22244,7 @@ function gml_Script____struct___52_40_gml_Object_oEnCoffin_Create_0(_inst,_other
 	}
 }
 
-function gml_Script_anon_40_402_40_gml_Object_oEnCoffin_Create_0(_inst,_other)
+function gml_Script_anon_40_403_40_gml_Object_oEnCoffin_Create_0(_inst,_other)
 {
 
 		{
@@ -21492,7 +22271,7 @@ function gml_Script_anon_40_402_40_gml_Object_oEnCoffin_Create_0(_inst,_other)
 						var gml_xo=yyfplus(__yy_gml_errCheck(__yy_gml_errCheck(-__yy_gml_errCheck(sprite_get_xoffset(_inst.sprite_index)))),__yy_gml_errCheck(irandom_range((-1),1)));
 						var gml_yo=__yy_gml_errCheck(-__yy_gml_errCheck(sprite_get_yoffset(_inst.sprite_index)));
 						draw_sprite_part_ext(_inst,_inst.sprite_index,_inst.image_index,0,0,sprite_get_width(_inst.sprite_index),yyfminus(yyfminus(__yy_gml_errCheck(sprite_get_height(_inst.sprite_index)),__yy_gml_errCheck(_inst.gmlfx_ground_amount)),6),yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gml_xo),__yy_gml_errCheck(_inst.gmlxsprite)))),yyfplus(yyfplus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(gml_yo)),__yy_gml_errCheck(_inst.gmlfx_ground_amount)),_inst.gmlxsprite,1,(-1),1);
-						draw_sprite(_inst,YYASSET_REF(0x0100003E),0,_inst.x,_inst.bbox_bottom);
+						draw_sprite(_inst,YYASSET_REF(0x01000044),0,_inst.x,_inst.bbox_bottom);
 					}
 				}
 				;
@@ -21507,33 +22286,33 @@ function gml_Object_oEnCoffin_Step_0(_inst,_other)
 {
 	gml_Script_ent_prestate_event(_inst,_other);
 	gml_Script_ent_state_machine(_inst,_other);
-	var ___sw122___=_inst.gmlstate_current;
-	var ___swc123___=-1;
-	if(yyCompareVal(___sw122___,3,g_GMLMathEpsilon,false)==0)
+	var ___sw130___=_inst.gmlstate_current;
+	var ___swc131___=-1;
+	if(yyCompareVal(___sw130___,3,g_GMLMathEpsilon,false)==0)
 	{
-		___swc123___=1;
+		___swc131___=1;
 	}
-	else if(yyCompareVal(___sw122___,yyInst(_inst,_other,_inst.gml_enemystate).gmlunder,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw130___,yyInst(_inst,_other,_inst.gmlenemy_states).gmlunder,g_GMLMathEpsilon,false)==0)
 	{
-		___swc123___=2;
+		___swc131___=2;
 	}
-	else if(yyCompareVal(___sw122___,yyInst(_inst,_other,_inst.gml_enemystate).gmlrising,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw130___,yyInst(_inst,_other,_inst.gmlenemy_states).gmlrising,g_GMLMathEpsilon,false)==0)
 	{
-		___swc123___=3;
+		___swc131___=3;
 	}
-	else if(yyCompareVal(___sw122___,1,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw130___,1,g_GMLMathEpsilon,false)==0)
 	{
-		___swc123___=4;
+		___swc131___=4;
 	}
-	else if(yyCompareVal(___sw122___,2,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw130___,2,g_GMLMathEpsilon,false)==0)
 	{
-		___swc123___=5;
+		___swc131___=5;
 	}
-	else if(yyCompareVal(___sw122___,0,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw130___,0,g_GMLMathEpsilon,false)==0)
 	{
-		___swc123___=6;
+		___swc131___=6;
 	}
-	switch(___swc123___)
+	switch(___swc131___)
 	{
 		default :
 		{
@@ -21589,7 +22368,7 @@ function gml_Object_oEnCoffin_Step_0(_inst,_other)
 
 								{
 					_inst.gmlent_visible=true;
-					_inst.gmlstate_current=yyInst(_inst,_other,_inst.gml_enemystate).gmlrising;
+					_inst.gmlstate_current=yyInst(_inst,_other,_inst.gmlenemy_states).gmlrising;
 					gml_Script_audio_play_sfx(_inst,_other,YYASSET_REF(0x02000001));
 					gml_Script_move_y(_inst,_other,128,_inst,false);
 					_inst.gmlxvel=0;
@@ -21605,7 +22384,7 @@ function gml_Object_oEnCoffin_Step_0(_inst,_other)
 			{
 
 								{
-					_inst.sprite_index=YYASSET_REF(0x0100000B);
+					_inst.sprite_index=YYASSET_REF(0x0100000C);
 					_inst.SetImageIndexGML(0);
 					_inst.image_speed=0;
 					_inst.gmlatk_visible=true;
@@ -21622,7 +22401,7 @@ function gml_Object_oEnCoffin_Step_0(_inst,_other)
 
 								{
 					var gml_jumph=(yyfless(yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmltarget).y),__yy_gml_errCheck(_inst.y)),(-36))?abs(min(yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmltarget).y),__yy_gml_errCheck(_inst.y)),(-2))):2);
-					var gml_encol=collision_rectangle(_inst,yyfminus(__yy_gml_errCheck(_inst.x),64),_inst.bbox_bottom,yyfplus(__yy_gml_errCheck(_inst.x),64),_inst.bbox_top,YYASSET_REF(0x0000000D),0,1);
+					var gml_encol=collision_rectangle(_inst,yyfminus(__yy_gml_errCheck(_inst.x),64),_inst.bbox_bottom,yyfplus(__yy_gml_errCheck(_inst.x),64),_inst.bbox_top,YYASSET_REF(0x00000011),0,1);
 					if((yyGetBool(gml_encol))&&(yyGetBool(yyfequal(yyInst(_inst,_other,gml_encol).gmlstate_current,1))))
 					{
 						gml_jumph=yyfplus(gml_jumph,36)					}
@@ -21653,7 +22432,7 @@ function gml_Object_oEnCoffin_Step_0(_inst,_other)
 
 								{
 					_inst.gmlmove_spd=1;
-					_inst.sprite_index=YYASSET_REF(0x0100000C);
+					_inst.sprite_index=YYASSET_REF(0x0100000D);
 					_inst.SetImageIndexGML(0);
 					_inst.image_speed=0;
 				}
@@ -21701,7 +22480,7 @@ function gml_Object_oEnCoffin_Step_0(_inst,_other)
 
 										{
 						var gml_x=yyftime(__yy_gml_errCheck(dcos(_inst.gmlatk_dir)),12),gml_y=yyfplus(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(__yy_gml_errCheck(-__yy_gml_errCheck(dsin(_inst.gmlatk_dir)))),12)),9);
-						var gml_bul=instance_create_depth(yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(gml_x)),yyfplus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(gml_y)),0,YYASSET_REF(0x00000006));
+						var gml_bul=instance_create_depth(yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(gml_x)),yyfplus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(gml_y)),0,YYASSET_REF(0x00000009));
 						yyInst(_inst,_other,gml_bul).gmlm_dir=_inst.gmlatk_dir;
 						yyInst(_inst,_other,gml_bul).gmlxsprite=_inst.gmlxsprite;
 						gml_Script_audio_play_sfx(_inst,_other,YYASSET_REF(0x02000007),YYASSET_REF(0x02000007),0.1);
@@ -21713,7 +22492,7 @@ function gml_Object_oEnCoffin_Step_0(_inst,_other)
 				{
 
 										{
-						_inst.sprite_index=YYASSET_REF(0x0100000B);
+						_inst.sprite_index=YYASSET_REF(0x0100000C);
 						_inst.SetImageIndexGML(0);
 						_inst.image_speed=0;
 						_inst.gmlmove_spd=0;
@@ -21745,7 +22524,7 @@ function gml_Object_oEnCoffin_Step_0(_inst,_other)
 								_inst.gmlfx_ground_amount=gml_Script_approach(_inst,_other,_inst.gmlfx_ground_amount,30,2);
 								if(yyfequal(_inst.gmlfx_ground_amount,30))
 								{
-									_inst.gmlstate_current=yyInst(_inst,_other,_inst.gml_enemystate).gmlunder								}
+									_inst.gmlstate_current=yyInst(_inst,_other,_inst.gmlenemy_states).gmlunder								}
 								;
 							}
 						}
@@ -21778,13 +22557,13 @@ function gml_Object_oEnCoffin_Step_0(_inst,_other)
 		}
 	}
 	;
-	gml_Script_ent_move_collide(_inst,_other,(-1),_inst.gmlent_no_platform);
+	gml_Script_ent_move_collide(_inst,_other,(-1));
 }
 
 function gml_Object_oEnDemonBomb_Create_0(_inst,_other)
 {
 	event_inherited(_inst,_other);
-	_inst.mask_index=YYASSET_REF(0x01000051);
+	_inst.mask_index=YYASSET_REF(0x01000057);
 	_inst.gmlhp=26;
 	_inst.gmlbasehp=_inst.gmlhp;
 	_inst.gmlm_xdir=1;
@@ -21798,12 +22577,12 @@ function gml_Object_oEnDemonBomb_Create_0(_inst,_other)
 	_inst.gmlatk_timer=120;
 	_inst.gmlsprite_anim=(-1);
 	_inst.gmlsprite_prev=(-1);
-	_inst.gml_enemystate=__yy_gml_object_create(_inst,(global.gml___struct___53=__yy_method(_inst,gml_Script____struct___53_40_gml_Object_oEnDemonBomb_Create_0)),5,6);
-	_inst.gmlhurt_callback=__yy_method(_inst,gml_Script_anon_40_392_40_gml_Object_oEnDemonBomb_Create_0);
-	_inst.gmldraw_event=__yy_method(_inst,gml_Script_anon_40_689_40_gml_Object_oEnDemonBomb_Create_0);
+	_inst.gmlenemy_states=__yy_gml_object_create(_inst,(global.gml___struct___54=__yy_method(_inst,gml_Script____struct___54_40_gml_Object_oEnDemonBomb_Create_0)),5,6);
+	_inst.gmlhurt_callback=__yy_method(_inst,gml_Script_anon_40_393_40_gml_Object_oEnDemonBomb_Create_0);
+	_inst.gmldraw_event=__yy_method(_inst,gml_Script_anon_40_693_40_gml_Object_oEnDemonBomb_Create_0);
 }
 
-function gml_Script____struct___53_40_gml_Object_oEnDemonBomb_Create_0(_inst,_other)
+function gml_Script____struct___54_40_gml_Object_oEnDemonBomb_Create_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -21813,13 +22592,13 @@ function gml_Script____struct___53_40_gml_Object_oEnDemonBomb_Create_0(_inst,_ot
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___53@gml_Object_oEnDemonBomb_Create_0"	}
-	if(gml_Script____struct___53_40_gml_Object_oEnDemonBomb_Create_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___54@gml_Object_oEnDemonBomb_Create_0"	}
+	if(gml_Script____struct___54_40_gml_Object_oEnDemonBomb_Create_0.prototype.__type===undefined)
 	{
-		gml_Script____struct___53_40_gml_Object_oEnDemonBomb_Create_0.prototype.__type="gml_Script____struct___53@gml_Object_oEnDemonBomb_Create_0"	}
+		gml_Script____struct___54_40_gml_Object_oEnDemonBomb_Create_0.prototype.__type="gml_Script____struct___54@gml_Object_oEnDemonBomb_Create_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___53_40_gml_Object_oEnDemonBomb_Create_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___54_40_gml_Object_oEnDemonBomb_Create_0.prototype);
 
 				{
 			var $$args=Array.prototype.slice.call(arguments);
@@ -21832,18 +22611,18 @@ function gml_Script____struct___53_40_gml_Object_oEnDemonBomb_Create_0(_inst,_ot
 	}
 }
 
-function gml_Script_anon_40_392_40_gml_Object_oEnDemonBomb_Create_0(_inst,_other)
+function gml_Script_anon_40_393_40_gml_Object_oEnDemonBomb_Create_0(_inst,_other)
 {
 
 		{
-		if(yyfequal(_inst.gmlstate_current,yyInst(_inst,_other,_inst.gml_enemystate).gmlwaitfree))
+		if(yyfequal(_inst.gmlstate_current,yyInst(_inst,_other,_inst.gmlenemy_states).gmlwaitfree))
 		{
 			_inst.gmlm_waittimer=(yyfgreater(_inst.gmlm_waittimer,6)?6:_inst.gmlm_waittimer)		}
 		;
 	}
 }
 
-function gml_Script_anon_40_689_40_gml_Object_oEnDemonBomb_Create_0(_inst,_other)
+function gml_Script_anon_40_693_40_gml_Object_oEnDemonBomb_Create_0(_inst,_other)
 {
 
 		{
@@ -21853,8 +22632,8 @@ function gml_Script_anon_40_689_40_gml_Object_oEnDemonBomb_Create_0(_inst,_other
 			shader_set(YYASSET_REF(0x08000002))		}
 		;
 		var gml_xsp=yyftime(__yy_gml_errCheck(_inst.gmlxsprite),(-2)),gml_ds=yyftime(__yy_gml_errCheck(__yy_gml_errCheck(-__yy_gml_errCheck(dsin(yyftime(__yy_gml_errCheck(global.gmlroom_time),12))))),2.3);
-		draw_sprite_ext(_inst,YYASSET_REF(0x01000012),yyfdivide(__yy_gml_errCheck(global.gmlroom_time),2),yyfplus(yyfplus(__yy_gml_errCheck(_inst.x),10),__yy_gml_errCheck(gml_xsp)),yyfplus(yyfminus(yyfminus(__yy_gml_errCheck(_inst.y),6),__yy_gml_errCheck(gml_ds)),__yy_gml_errCheck(_inst.gmlxsprite)),0.8,0.8,0,(-1),1);
-		draw_sprite_ext(_inst,YYASSET_REF(0x01000012),yyfdivide(__yy_gml_errCheck(global.gmlroom_time),2),yyfplus(yyfminus(__yy_gml_errCheck(_inst.x),10),__yy_gml_errCheck(gml_xsp)),yyfminus(yyfminus(yyfminus(__yy_gml_errCheck(_inst.y),6),__yy_gml_errCheck(gml_ds)),__yy_gml_errCheck(_inst.gmlxsprite)),(-0.8),0.8,0,(-1),1);
+		draw_sprite_ext(_inst,YYASSET_REF(0x01000013),yyfdivide(__yy_gml_errCheck(global.gmlroom_time),2),yyfplus(yyfplus(__yy_gml_errCheck(_inst.x),10),__yy_gml_errCheck(gml_xsp)),yyfplus(yyfminus(yyfminus(__yy_gml_errCheck(_inst.y),6),__yy_gml_errCheck(gml_ds)),__yy_gml_errCheck(_inst.gmlxsprite)),0.8,0.8,0,(-1),1);
+		draw_sprite_ext(_inst,YYASSET_REF(0x01000013),yyfdivide(__yy_gml_errCheck(global.gmlroom_time),2),yyfplus(yyfminus(__yy_gml_errCheck(_inst.x),10),__yy_gml_errCheck(gml_xsp)),yyfminus(yyfminus(yyfminus(__yy_gml_errCheck(_inst.y),6),__yy_gml_errCheck(gml_ds)),__yy_gml_errCheck(_inst.gmlxsprite)),(-0.8),0.8,0,(-1),1);
 		draw_sprite_ext(_inst,_inst.sprite_index,_inst.image_index,_inst.x,_inst.y,_inst.gmlxsprite,1,0,(-1),1);
 		shader_reset();
 	}
@@ -21864,33 +22643,33 @@ function gml_Object_oEnDemonBomb_Step_0(_inst,_other)
 {
 	gml_Script_ent_prestate_event(_inst,_other);
 	gml_Script_ent_state_machine(_inst,_other);
-	var ___sw128___=_inst.gmlstate_current;
-	var ___swc129___=-1;
-	if(yyCompareVal(___sw128___,1,g_GMLMathEpsilon,false)==0)
+	var ___sw136___=_inst.gmlstate_current;
+	var ___swc137___=-1;
+	if(yyCompareVal(___sw136___,1,g_GMLMathEpsilon,false)==0)
 	{
-		___swc129___=1;
+		___swc137___=1;
 	}
-	else if(yyCompareVal(___sw128___,yyInst(_inst,_other,_inst.gml_enemystate).gmlwaitfree,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw136___,yyInst(_inst,_other,_inst.gmlenemy_states).gmlwaitfree,g_GMLMathEpsilon,false)==0)
 	{
-		___swc129___=2;
+		___swc137___=2;
 	}
-	else if(yyCompareVal(___sw128___,yyInst(_inst,_other,_inst.gml_enemystate).gmlatkantic,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw136___,yyInst(_inst,_other,_inst.gmlenemy_states).gmlatkantic,g_GMLMathEpsilon,false)==0)
 	{
-		___swc129___=3;
+		___swc137___=3;
 	}
-	else if(yyCompareVal(___sw128___,2,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw136___,2,g_GMLMathEpsilon,false)==0)
 	{
-		___swc129___=4;
+		___swc137___=4;
 	}
-	else if(yyCompareVal(___sw128___,0,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw136___,0,g_GMLMathEpsilon,false)==0)
 	{
-		___swc129___=5;
+		___swc137___=5;
 	}
-	else if(yyCompareVal(___sw128___,3,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw136___,3,g_GMLMathEpsilon,false)==0)
 	{
-		___swc129___=6;
+		___swc137___=6;
 	}
-	switch(___swc129___)
+	switch(___swc137___)
 	{
 		default :
 		{
@@ -21915,7 +22694,7 @@ function gml_Object_oEnDemonBomb_Step_0(_inst,_other)
 
 								{
 					_inst.gmlxsprite=sign(gml_xdir);
-					_inst.gmlsprite_anim=YYASSET_REF(0x01000010);
+					_inst.gmlsprite_anim=YYASSET_REF(0x01000011);
 					_inst.SetImageIndexGML(0);
 				}
 			}
@@ -21927,7 +22706,7 @@ function gml_Object_oEnDemonBomb_Step_0(_inst,_other)
 			{
 
 								{
-					_inst.gmlstate_current=yyInst(_inst,_other,_inst.gml_enemystate).gmlatkantic;
+					_inst.gmlstate_current=yyInst(_inst,_other,_inst.gmlenemy_states).gmlatkantic;
 					_inst.gmlstate_prev=(-1);
 					_inst.gmlatk_timer=yyftime(__yy_gml_errCheck(irandom_range(5,7)),60);
 					if(yyfequal(irandom_range(1,4),1))
@@ -21950,7 +22729,7 @@ function gml_Object_oEnDemonBomb_Step_0(_inst,_other)
 			{
 
 								{
-					_inst.sprite_index=YYASSET_REF(0x0100000E);
+					_inst.sprite_index=YYASSET_REF(0x0100000F);
 					_inst.image_speed=0.25;
 				}
 			}
@@ -21959,13 +22738,13 @@ function gml_Object_oEnDemonBomb_Step_0(_inst,_other)
 
 								{
 					_inst.sprite_index=_inst.gmlsprite_anim;
-					var ___sw130___=_inst.gmlsprite_anim;
-					var ___swc131___=-1;
-					if(yyCompareVal(___sw130___,YYASSET_REF(0x0100000F),g_GMLMathEpsilon,false)==0)
+					var ___sw138___=_inst.gmlsprite_anim;
+					var ___swc139___=-1;
+					if(yyCompareVal(___sw138___,YYASSET_REF(0x01000010),g_GMLMathEpsilon,false)==0)
 					{
-						___swc131___=0;
+						___swc139___=0;
 					}
-					switch(___swc131___)
+					switch(___swc139___)
 					{
 						case 0:
 						{
@@ -21999,7 +22778,7 @@ function gml_Object_oEnDemonBomb_Step_0(_inst,_other)
 			{
 
 								{
-					_inst.sprite_index=YYASSET_REF(0x01000011);
+					_inst.sprite_index=YYASSET_REF(0x01000012);
 					_inst.SetImageIndexGML(0);
 					_inst.image_speed=0.25;
 					_inst.gmlsprite_anim=(-1);
@@ -22050,7 +22829,7 @@ function gml_Object_oEnDemonBomb_Step_0(_inst,_other)
 			{
 
 								{
-					_inst.sprite_index=YYASSET_REF(0x0100000D);
+					_inst.sprite_index=YYASSET_REF(0x0100000E);
 					_inst.SetImageIndexGML(0);
 					_inst.image_speed=0.25;
 					_inst.gmlstate_is_new=!yyGetBool(_inst.gmlstate_is_new);
@@ -22082,7 +22861,7 @@ function gml_Object_oEnDemonBomb_Step_0(_inst,_other)
 					yyInst(_inst,_other,gml_bul).gmlm_dir=gml_d;
 					_inst.gmlxvel=yyftime(__yy_gml_errCheck(__yy_gml_errCheck(-__yy_gml_errCheck(dcos(gml_d)))),3);
 					_inst.gmlyvel=yyftime(__yy_gml_errCheck(dsin(gml_d)),3);
-					_inst.gmlsprite_anim=YYASSET_REF(0x0100000F);
+					_inst.gmlsprite_anim=YYASSET_REF(0x01000010);
 					_inst.SetImageIndexGML(0);
 				}
 			}
@@ -22112,7 +22891,7 @@ function gml_Object_oEnDemonBomb_Step_0(_inst,_other)
 			{
 
 								{
-					instance_create_depth(_inst.x,_inst.y,0,YYASSET_REF(0x0000001F));
+					instance_create_depth(_inst.x,_inst.y,0,YYASSET_REF(0x00000023));
 				}
 			}
 			;
@@ -22133,10 +22912,10 @@ function gml_Object_oEnDemonBomb_Step_0(_inst,_other)
 		}
 	}
 	;
-	gml_Script_ent_move_collide(_inst,_other,__yy_method(_inst,gml_Script_anon_40_4387_40_gml_Object_oEnDemonBomb_Step_0),_inst.gmlent_no_platform);
+	gml_Script_ent_move_collide(_inst,_other,__yy_method(_inst,gml_Script_anon_40_4391_40_gml_Object_oEnDemonBomb_Step_0),_inst.gmlent_no_platform);
 }
 
-function gml_Script_anon_40_4387_40_gml_Object_oEnDemonBomb_Step_0(_inst,_other,argument0)
+function gml_Script_anon_40_4391_40_gml_Object_oEnDemonBomb_Step_0(_inst,_other,argument0)
 {
 
 		{
@@ -22166,20 +22945,21 @@ function gml_Object_oEnDemonSnake_Create_0(_inst,_other)
 	_inst.gmlhp=33;
 	_inst.gmlbasehp=_inst.gmlhp;
 	_inst.gmlm_dir=0;
-	_inst.gmlm_spd=2.4;
+	_inst.gmlm_spd=2;
 	_inst.gmlm_acc=0.08;
 	_inst.gmlm_dirlerp=0;
 	_inst.gmlm_dirlerp_prev=0;
 	_inst.gmlm_dirlerp_timer=0;
 	_inst.gmlent_no_platform=true;
+	_inst.gmlent_push_amount=0.6;
 	_inst.gmlenemy_segment=0;
 	_inst.gmlenemy_follow=(-4);
 	_inst.gmlenemy_followed=(-4);
 	_inst.gmlenemy_amount=15;
-	_inst.gmldraw_event=__yy_method(_inst,gml_Script_anon_40_326_40_gml_Object_oEnDemonSnake_Create_0);
+	_inst.gmldraw_event=__yy_method(_inst,gml_Script_anon_40_350_40_gml_Object_oEnDemonSnake_Create_0);
 }
 
-function gml_Script_anon_40_326_40_gml_Object_oEnDemonSnake_Create_0(_inst,_other)
+function gml_Script_anon_40_350_40_gml_Object_oEnDemonSnake_Create_0(_inst,_other)
 {
 
 		{
@@ -22202,25 +22982,25 @@ function gml_Object_oEnDemonSnake_Step_0(_inst,_other)
 {
 	gml_Script_ent_prestate_event(_inst,_other);
 	gml_Script_ent_state_machine(_inst,_other);
-	var ___sw134___=_inst.gmlstate_current;
-	var ___swc135___=-1;
-	if(yyCompareVal(___sw134___,1,g_GMLMathEpsilon,false)==0)
+	var ___sw142___=_inst.gmlstate_current;
+	var ___swc143___=-1;
+	if(yyCompareVal(___sw142___,1,g_GMLMathEpsilon,false)==0)
 	{
-		___swc135___=1;
+		___swc143___=1;
 	}
-	else if(yyCompareVal(___sw134___,2,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw142___,2,g_GMLMathEpsilon,false)==0)
 	{
-		___swc135___=2;
+		___swc143___=2;
 	}
-	else if(yyCompareVal(___sw134___,0,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw142___,0,g_GMLMathEpsilon,false)==0)
 	{
-		___swc135___=3;
+		___swc143___=3;
 	}
-	else if(yyCompareVal(___sw134___,3,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw142___,3,g_GMLMathEpsilon,false)==0)
 	{
-		___swc135___=4;
+		___swc143___=4;
 	}
-	switch(___swc135___)
+	switch(___swc143___)
 	{
 		default :
 		{
@@ -22233,7 +23013,7 @@ function gml_Object_oEnDemonSnake_Step_0(_inst,_other)
 
 								{
 					_inst.gmlstate_is_new=!yyGetBool(_inst.gmlstate_is_new);
-					_inst.sprite_index=YYASSET_REF(0x01000014);
+					_inst.sprite_index=YYASSET_REF(0x01000015);
 					_inst.image_speed=0;
 					_inst.SetImageIndexGML(0);
 					var gml_followid=_inst.id;
@@ -22242,7 +23022,7 @@ function gml_Object_oEnDemonSnake_Step_0(_inst,_other)
 					{
 
 												{
-							var gml_en=instance_create_depth(_inst.x,_inst.y,0,YYASSET_REF(0x00000010));
+							var gml_en=instance_create_depth(_inst.x,_inst.y,0,YYASSET_REF(0x00000014));
 							yyInst(_inst,_other,gml_en).gmlenemy_segment=yyfplus(__yy_gml_errCheck(yyInst(_inst,_other,gml_followid).gmlenemy_segment),1);
 							yyInst(_inst,_other,gml_en).gmlenemy_follow=gml_followid;
 							yyInst(_inst,_other,gml_en).gmlenemy_amount=_inst.gmlenemy_amount;
@@ -22256,12 +23036,12 @@ function gml_Object_oEnDemonSnake_Step_0(_inst,_other)
 			;
 			if(!yyGetBool(_inst.gmlm_dirlerp_timer))
 			{
-				_inst.gmlm_dirlerp=yyfminus(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(round(yyfdivide(__yy_gml_errCheck(yyfplus(__yy_gml_errCheck(point_direction(_inst.x,_inst.y,yyInst(_inst,_other,_inst.gmltarget).x,yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmltarget).y),12))),45)),90))),90)),45)			}
+				_inst.gmlm_dirlerp=yyftime(__yy_gml_errCheck(round(yyfdivide(__yy_gml_errCheck(point_direction(_inst.x,_inst.y,yyInst(_inst,_other,_inst.gmltarget).x,yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmltarget).y),12))),45))),45)			}
 			;
-			_inst.gmlm_dirlerp_timer=(yyfnotequal(_inst.gmlm_dirlerp,_inst.gmlm_dirlerp_prev)?45:(yyGetBool(_inst.gmlm_dirlerp_timer)?yyfminus(__yy_gml_errCheck(_inst.gmlm_dirlerp_timer),1):0));
+			_inst.gmlm_dirlerp_timer=(yyfnotequal(_inst.gmlm_dirlerp,_inst.gmlm_dirlerp_prev)?60:(yyGetBool(_inst.gmlm_dirlerp_timer)?yyfminus(__yy_gml_errCheck(_inst.gmlm_dirlerp_timer),1):0));
 			_inst.gmlm_dirlerp_prev=_inst.gmlm_dirlerp;
 			var gml_xdir=yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmltarget).x),__yy_gml_errCheck(_inst.x));
-			_inst.gmlm_dir=gml_Script_angle_lerp(_inst,_other,_inst.gmlm_dir,_inst.gmlm_dirlerp,0.5,360);
+			_inst.gmlm_dir=gml_Script_angle_lerp(_inst,_other,_inst.gmlm_dir,_inst.gmlm_dirlerp,1,360);
 			_inst.gmlxvel=gml_Script_approach(_inst,_other,_inst.gmlxvel,yyftime(__yy_gml_errCheck(dcos(_inst.gmlm_dir)),__yy_gml_errCheck(_inst.gmlm_spd)),_inst.gmlm_acc);
 			_inst.gmlyvel=gml_Script_approach(_inst,_other,_inst.gmlyvel,yyftime(__yy_gml_errCheck(__yy_gml_errCheck(-__yy_gml_errCheck(dsin(_inst.gmlm_dir)))),__yy_gml_errCheck(_inst.gmlm_spd)),_inst.gmlm_acc);
 			if(yyGetBool(abs(gml_xdir)))
@@ -22273,7 +23053,7 @@ function gml_Object_oEnDemonSnake_Step_0(_inst,_other)
 			{
 				gml_Script_hurt_player(_inst,_other,gml_pl)			}
 			;
-			var gml_en=instance_place(_inst,_inst.x,_inst.y,YYASSET_REF(0x0000000F));
+			var gml_en=instance_place(_inst,_inst.x,_inst.y,YYASSET_REF(0x00000013));
 			if(yyGetBool(gml_en))
 			{
 
@@ -22343,7 +23123,7 @@ function gml_Object_oEnDemonSnake_Step_0(_inst,_other)
 		}
 	}
 	;
-	gml_Script_ent_move_collide(_inst,_other,(-1),_inst.gmlent_no_platform);
+	gml_Script_ent_move_collide(_inst,_other,(-1));
 }
 
 function gml_Object_oEnDemonSnakeBody_Create_0(_inst,_other)
@@ -22361,19 +23141,10 @@ function gml_Object_oEnDemonSnakeBody_Create_0(_inst,_other)
 	_inst.gmlenemy_followed=(-4);
 	_inst.gmlenemy_pos_queue=ds_queue_create();
 	_inst.gmlenemy_amount=15;
-	_inst.gmlhurt_callback=__yy_method(_inst,gml_Script_anon_40_292_40_gml_Object_oEnDemonSnakeBody_Create_0);
-	_inst.gmldraw_event=__yy_method(_inst,gml_Script_anon_40_358_40_gml_Object_oEnDemonSnakeBody_Create_0);
+	_inst.gmldraw_event=__yy_method(_inst,gml_Script_anon_40_364_40_gml_Object_oEnDemonSnakeBody_Create_0);
 }
 
-function gml_Script_anon_40_292_40_gml_Object_oEnDemonSnakeBody_Create_0(_inst,_other)
-{
-
-		{
-		_inst.gmlent_hurt_last=(-1);
-	}
-}
-
-function gml_Script_anon_40_358_40_gml_Object_oEnDemonSnakeBody_Create_0(_inst,_other)
+function gml_Script_anon_40_364_40_gml_Object_oEnDemonSnakeBody_Create_0(_inst,_other)
 {
 
 		{
@@ -22386,7 +23157,7 @@ function gml_Script_anon_40_358_40_gml_Object_oEnDemonSnakeBody_Create_0(_inst,_
 		draw_sprite_ext(_inst,_inst.sprite_index,_inst.image_index,_inst.x,_inst.y,1,1,gml_d,(-1),1);
 		if(yyGetBool(instance_exists(_inst.gmlenemy_follow)))
 		{
-			draw_sprite_ext(_inst,YYASSET_REF(0x01000013),2,lerp(_inst.x,yyInst(_inst,_other,_inst.gmlenemy_follow).x,0.5),lerp(_inst.y,yyInst(_inst,_other,_inst.gmlenemy_follow).y,0.5),1,1,gml_Script_angle_lerp(_inst,_other,yyfplus((-90),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(round(yyfdivide(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlenemy_follow).gmlm_dir),45))),45))),gml_d,0.5,359),(-1),1)		}
+			draw_sprite_ext(_inst,YYASSET_REF(0x01000014),2,lerp(_inst.x,yyInst(_inst,_other,_inst.gmlenemy_follow).x,0.5),lerp(_inst.y,yyInst(_inst,_other,_inst.gmlenemy_follow).y,0.5),1,1,gml_Script_angle_lerp(_inst,_other,yyfplus((-90),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(round(yyfdivide(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlenemy_follow).gmlm_dir),45))),45))),gml_d,0.5,359),(-1),1)		}
 		;
 		shader_reset();
 		if(!yyGetBool(global.gmldebug))
@@ -22400,25 +23171,25 @@ function gml_Object_oEnDemonSnakeBody_Step_0(_inst,_other)
 {
 	gml_Script_ent_prestate_event(_inst,_other);
 	gml_Script_ent_state_machine(_inst,_other);
-	var ___sw138___=_inst.gmlstate_current;
-	var ___swc139___=-1;
-	if(yyCompareVal(___sw138___,1,g_GMLMathEpsilon,false)==0)
+	var ___sw146___=_inst.gmlstate_current;
+	var ___swc147___=-1;
+	if(yyCompareVal(___sw146___,1,g_GMLMathEpsilon,false)==0)
 	{
-		___swc139___=1;
+		___swc147___=1;
 	}
-	else if(yyCompareVal(___sw138___,2,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw146___,2,g_GMLMathEpsilon,false)==0)
 	{
-		___swc139___=2;
+		___swc147___=2;
 	}
-	else if(yyCompareVal(___sw138___,0,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw146___,0,g_GMLMathEpsilon,false)==0)
 	{
-		___swc139___=3;
+		___swc147___=3;
 	}
-	else if(yyCompareVal(___sw138___,3,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw146___,3,g_GMLMathEpsilon,false)==0)
 	{
-		___swc139___=4;
+		___swc147___=4;
 	}
-	switch(___swc139___)
+	switch(___swc147___)
 	{
 		default :
 		{
@@ -22451,8 +23222,9 @@ function gml_Object_oEnDemonSnakeBody_Step_0(_inst,_other)
 			}
 			;
 			_inst.gmlm_dir=gml_Script_angle_lerp(_inst,_other,_inst.gmlm_dir,point_direction(_inst.x,_inst.y,yyInst(_inst,_other,_inst.gmlenemy_follow).x,yyInst(_inst,_other,_inst.gmlenemy_follow).y),0.3,359);
+			var gml_followdist=(yyfequal(_inst.gmlenemy_segment,1)?20:16);
 			ds_queue_enqueue(_inst.gmlenemy_pos_queue,yyInst(_inst,_other,_inst.gmlenemy_follow).x,yyInst(_inst,_other,_inst.gmlenemy_follow).y);
-			if(yyfgreaterequal(ds_queue_size(_inst.gmlenemy_pos_queue),16))
+			if(yyfgreaterequal(ds_queue_size(_inst.gmlenemy_pos_queue),gml_followdist))
 			{
 
 								{
@@ -22535,7 +23307,7 @@ function gml_Object_oEnDemonSnakeBody_Step_0(_inst,_other)
 		}
 	}
 	;
-	gml_Script_ent_move_collide(_inst,_other,(-1),_inst.gmlent_no_platform);
+	gml_Script_ent_move_collide(_inst,_other,(-1));
 }
 
 function gml_Object_oEnDemonSnakeBody_CleanUp_0(_inst,_other)
@@ -22558,10 +23330,10 @@ function gml_Object_oEnDrippler_Create_0(_inst,_other)
 	_inst.gmlm_fxdir=0;
 	_inst.gmlm_ytimer=yyftime(__yy_gml_errCheck(irandom_range(1,3)),30);
 	_inst.gmlatk_timer=irandom_range(30,45);
-	_inst.gmldraw_event=__yy_method(_inst,gml_Script_anon_40_216_40_gml_Object_oEnDrippler_Create_0);
+	_inst.gmldraw_event=__yy_method(_inst,gml_Script_anon_40_401_40_gml_Object_oEnDrippler_Create_0);
 }
 
-function gml_Script_anon_40_216_40_gml_Object_oEnDrippler_Create_0(_inst,_other)
+function gml_Script_anon_40_401_40_gml_Object_oEnDrippler_Create_0(_inst,_other)
 {
 
 		{
@@ -22579,25 +23351,25 @@ function gml_Object_oEnDrippler_Step_0(_inst,_other)
 {
 	gml_Script_ent_prestate_event(_inst,_other);
 	gml_Script_ent_state_machine(_inst,_other);
-	var ___sw142___=_inst.gmlstate_current;
-	var ___swc143___=-1;
-	if(yyCompareVal(___sw142___,1,g_GMLMathEpsilon,false)==0)
+	var ___sw150___=_inst.gmlstate_current;
+	var ___swc151___=-1;
+	if(yyCompareVal(___sw150___,1,g_GMLMathEpsilon,false)==0)
 	{
-		___swc143___=1;
+		___swc151___=1;
 	}
-	else if(yyCompareVal(___sw142___,2,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw150___,2,g_GMLMathEpsilon,false)==0)
 	{
-		___swc143___=2;
+		___swc151___=2;
 	}
-	else if(yyCompareVal(___sw142___,0,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw150___,0,g_GMLMathEpsilon,false)==0)
 	{
-		___swc143___=3;
+		___swc151___=3;
 	}
-	else if(yyCompareVal(___sw142___,3,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw150___,3,g_GMLMathEpsilon,false)==0)
 	{
-		___swc143___=4;
+		___swc151___=4;
 	}
-	switch(___swc143___)
+	switch(___swc151___)
 	{
 		default :
 		{
@@ -22609,69 +23381,76 @@ function gml_Object_oEnDrippler_Step_0(_inst,_other)
 			{
 				_inst.gmlstate_is_new=!yyGetBool(_inst.gmlstate_is_new)			}
 			;
-			var gml_yref=0;
-			if(yyGetBool(instance_exists(global.gmlspawn_zone_current)))
-			{
-				gml_yref=yyInst(_inst,_other,global.gmlspawn_zone_current).bbox_top			}
-			;
-			var gml_d=point_direction(0,0,yyftime(__yy_gml_errCheck(_inst.gmlm_xdir),2),yyftime(__yy_gml_errCheck(_inst.gmlm_ydir),2)),gml_xspd=1,gml_acc=0.04;
+			var gml_ymin=gml_Script_get_spawn_limits(_inst,_other,2);
+			var gml_dir=point_direction(0,0,yyftime(__yy_gml_errCheck(_inst.gmlm_xdir),2),yyftime(__yy_gml_errCheck(_inst.gmlm_ydir),2)),gml_mspd=1,gml_acc=0.04;
 			if(yyGetBool(collision_circle(_inst,_inst.x,_inst.y,64,_inst.gmltarget,0,1)))
 			{
 
 								{
 					_inst.gmlm_move=true;
-					gml_d=point_direction(yyInst(_inst,_other,_inst.gmltarget).x,yyInst(_inst,_other,_inst.gmltarget).y,_inst.x,_inst.y);
-					gml_xspd=1.7;
+					gml_dir=point_direction(yyInst(_inst,_other,_inst.gmltarget).x,yyInst(_inst,_other,_inst.gmltarget).y,_inst.x,_inst.y);
+					gml_mspd=1.7;
 					gml_acc=0.08;
 				}
 			}
 			;
-			_inst.gmlm_fxdir=yyfmod(__yy_gml_errCheck(gml_Script_angle_lerp(_inst,_other,_inst.gmlm_fxdir,gml_d,0.1,359)),360);
-			_inst.gmlxvel=gml_Script_approach(_inst,_other,_inst.gmlxvel,yyftime(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(dcos(_inst.gmlm_fxdir)),__yy_gml_errCheck(gml_xspd))),__yy_gml_errCheck(_inst.gmlm_move)),yyftime(__yy_gml_errCheck(abs(dcos(_inst.gmlm_fxdir))),__yy_gml_errCheck(gml_acc)));
+			_inst.gmlm_fxdir=yyfmod(__yy_gml_errCheck(gml_Script_angle_lerp(_inst,_other,_inst.gmlm_fxdir,gml_dir,0.1,359)),360);
+			_inst.gmlxvel=gml_Script_approach(_inst,_other,_inst.gmlxvel,yyftime(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(dcos(_inst.gmlm_fxdir)),__yy_gml_errCheck(gml_mspd))),__yy_gml_errCheck(_inst.gmlm_move)),yyftime(__yy_gml_errCheck(abs(dcos(_inst.gmlm_fxdir))),__yy_gml_errCheck(gml_acc)));
 			_inst.gmlyvel=gml_Script_approach(_inst,_other,_inst.gmlyvel,yyftime(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(__yy_gml_errCheck(-__yy_gml_errCheck(dsin(_inst.gmlm_fxdir)))),1.2)),__yy_gml_errCheck(_inst.gmlm_move)),yyftime(__yy_gml_errCheck(abs(__yy_gml_errCheck(-__yy_gml_errCheck(dsin(_inst.gmlm_fxdir))))),__yy_gml_errCheck(gml_acc)));
 			_inst.gmlyvel=clamp(_inst.gmlyvel,(-2.5),2.5);
 			if(yyGetBool(_inst.gmlm_ytimer))
 			{
-				_inst.gmlm_ytimer=(_inst.gmlm_ytimer instanceof Long?_inst.gmlm_ytimer.subtract(1):--_inst.gmlm_ytimer)			}
+
+								{
+					_inst.gmlm_ytimer=(_inst.gmlm_ytimer instanceof Long?_inst.gmlm_ytimer.subtract(1):--_inst.gmlm_ytimer);
+				}
+			}
 			else 
 			{
 
 								{
 					_inst.gmlm_move=true;
-					if((yyGetBool(yyfless(_inst.y,yyfplus(__yy_gml_errCheck(gml_yref),32))))||(yyGetBool(yyfgreaterequal(_inst.y,yyfplus(__yy_gml_errCheck(gml_yref),96))))||(yyGetBool(yyfgreaterequal(_inst.y,yyInst(_inst,_other,_inst.gmltarget).y))))
+					if((yyGetBool(yyfless(_inst.y,yyfplus(__yy_gml_errCheck(gml_ymin),32))))||(yyGetBool(yyfgreaterequal(_inst.y,yyfplus(__yy_gml_errCheck(gml_ymin),96))))||(yyGetBool(yyfgreaterequal(_inst.y,yyInst(_inst,_other,_inst.gmltarget).y))))
 					{
 						_inst.gmlm_move=true					}
 					;
-					if((yyGetBool(yyfgreaterequal(_inst.y,yyfplus(__yy_gml_errCheck(gml_yref),96))))||(yyGetBool(yyfgreaterequal(_inst.y,yyInst(_inst,_other,_inst.gmltarget).y))))
+					if((yyGetBool(yyfgreaterequal(_inst.y,yyfplus(__yy_gml_errCheck(gml_ymin),96))))||(yyGetBool(yyfgreaterequal(_inst.y,yyInst(_inst,_other,_inst.gmltarget).y))))
 					{
-						_inst.gmlm_ydir=(-1)					}
+
+												{
+							_inst.gmlm_ydir=(-1);
+						}
+					}
 					else 
 					{
-						_inst.gmlm_ydir=(yyfless(_inst.y,yyfplus(__yy_gml_errCheck(gml_yref),32))?2:choose(0.5,0,(-0.5)))					}
+
+												{
+							_inst.gmlm_ydir=(yyfless(_inst.y,yyfplus(__yy_gml_errCheck(gml_ymin),32))?1.5:choose(0.5,0,(-0.5)));
+						}
+					}
 					;
-					_inst.gmlm_ytimer=yyftime(__yy_gml_errCheck(irandom_range(1,4)),15);
+					_inst.gmlm_ytimer=yyftime(__yy_gml_errCheck(irandom_range(1,5)),10);
 				}
 			}
 			;
-			var gml_wall=instance_place(_inst,yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(sign(_inst.gmlm_xdir))),_inst.y,YYASSET_REF(0x00000054));
-			if(yyGetBool(gml_wall))
+			if(yyGetBool(place_meeting(_inst,yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(sign(_inst.gmlm_xdir))),_inst.y,YYASSET_REF(0x00000058))))
 			{
-
-								{
-					_inst.gmlm_xdir=yyftime(_inst.gmlm_xdir,(-1));
-				}
-			}
+				_inst.gmlm_xdir=yyftime(_inst.gmlm_xdir,(-1))			}
 			;
 			if(yyGetBool(_inst.gmlatk_timer))
 			{
-				_inst.gmlatk_timer=yyfminus(_inst.gmlatk_timer,yyfminus(1,__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(_inst.gmlyvel),2))))			}
+
+								{
+					_inst.gmlatk_timer=yyfminus(_inst.gmlatk_timer,yyfminus(1,__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(_inst.gmlyvel),1.5))));
+				}
+			}
 			else 
 			{
 
 								{
 					var gml_bul=instance_create_depth(yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(_inst.gmlxvel),2))),_inst.bbox_bottom,0,YYASSET_REF(0x00000002));
-					yyInst(_inst,_other,gml_bul).gmlxvel=yyftime(__yy_gml_errCheck(_inst.gmlxvel),2);
-					_inst.gmlatk_timer=yyfplus(_inst.gmlatk_timer,50);
+					yyInst(_inst,_other,gml_bul).gmlxvel=_inst.gmlxvel;
+					_inst.gmlatk_timer=yyfplus(_inst.gmlatk_timer,60);
 				}
 			}
 			;
@@ -22713,7 +23492,7 @@ function gml_Object_oEnDrippler_Step_0(_inst,_other)
 		}
 	}
 	;
-	gml_Script_ent_move_collide(_inst,_other,(-1),_inst.gmlent_no_platform);
+	gml_Script_ent_move_collide(_inst,_other,(-1));
 }
 
 function gml_Object_oEnemy_Create_0(_inst,_other)
@@ -22728,7 +23507,7 @@ function gml_Object_oEnemy_Destroy_0(_inst,_other)
 	{
 
 				{
-			array_delete(yyInst(_inst,_other,YYASSET_REF(0x0000002F)).gmlenemy_active,gmlspawn_id,1);
+			array_delete(yyInst(_inst,_other,YYASSET_REF(0x00000033)).gmlenemy_active,gmlspawn_id,1);
 			if((yyGetBool(yyfequal(_inst.gmlent_hurt_last,2)))||(yyGetBool(yyfequal(_inst.gmlent_hurt_last,4))))
 			{
 
@@ -22747,25 +23526,25 @@ function gml_Object_oEnemy_Step_0(_inst,_other)
 {
 	gml_Script_ent_prestate_event(_inst,_other);
 	gml_Script_ent_state_machine(_inst,_other);
-	var ___sw146___=_inst.gmlstate_current;
-	var ___swc147___=-1;
-	if(yyCompareVal(___sw146___,1,g_GMLMathEpsilon,false)==0)
+	var ___sw154___=_inst.gmlstate_current;
+	var ___swc155___=-1;
+	if(yyCompareVal(___sw154___,1,g_GMLMathEpsilon,false)==0)
 	{
-		___swc147___=1;
+		___swc155___=1;
 	}
-	else if(yyCompareVal(___sw146___,2,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw154___,2,g_GMLMathEpsilon,false)==0)
 	{
-		___swc147___=2;
+		___swc155___=2;
 	}
-	else if(yyCompareVal(___sw146___,0,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw154___,0,g_GMLMathEpsilon,false)==0)
 	{
-		___swc147___=3;
+		___swc155___=3;
 	}
-	else if(yyCompareVal(___sw146___,3,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw154___,3,g_GMLMathEpsilon,false)==0)
 	{
-		___swc147___=4;
+		___swc155___=4;
 	}
-	switch(___swc147___)
+	switch(___swc155___)
 	{
 		default :
 		{
@@ -22775,9 +23554,13 @@ function gml_Object_oEnemy_Step_0(_inst,_other)
 		{
 			if(yyGetBool(_inst.gmlstate_is_new))
 			{
-				_inst.gmlstate_is_new=!yyGetBool(_inst.gmlstate_is_new)			}
+
+								{
+					_inst.gmlstate_is_new=!yyGetBool(_inst.gmlstate_is_new);
+				}
+			}
 			;
-			_inst.gmlxvel=(yyGetBool(_inst.gmlgrounded)?gml_Script_approach(_inst,_other,_inst.gmlxvel,0,0.1):_inst.gmlxvel);
+			_inst.gmlxvel=(yyGetBool(_inst.gmlgrounded)?gml_Script_approach(_inst,_other,_inst.gmlxvel,0,_inst.gmlm_fri):_inst.gmlxvel);
 			_inst.gmlyvel=gml_Script_approach(_inst,_other,_inst.gmlyvel,_inst.gmlyvel_max,_inst.gmlgrav);
 			break;
 		}
@@ -22785,15 +23568,25 @@ function gml_Object_oEnemy_Step_0(_inst,_other)
 		{
 			if(yyGetBool(_inst.gmlstate_is_new))
 			{
-				_inst.gmlstate_is_new=!yyGetBool(_inst.gmlstate_is_new)			}
+
+								{
+					_inst.gmlstate_is_new=!yyGetBool(_inst.gmlstate_is_new);
+				}
+			}
 			;
+			_inst.gmlxvel=(yyGetBool(_inst.gmlgrounded)?gml_Script_approach(_inst,_other,_inst.gmlxvel,0,_inst.gmlm_fri):_inst.gmlxvel);
+			_inst.gmlyvel=gml_Script_approach(_inst,_other,_inst.gmlyvel,_inst.gmlyvel_max,_inst.gmlgrav);
 			break;
 		}
 		case 3:
 		{
 			if(yyGetBool(_inst.gmlstate_is_new))
 			{
-				_inst.gmlstate_is_new=!yyGetBool(_inst.gmlstate_is_new)			}
+
+								{
+					_inst.gmlstate_is_new=!yyGetBool(_inst.gmlstate_is_new);
+				}
+			}
 			;
 			gml_Script_ent_death_event(_inst,_other);
 			break;
@@ -22813,7 +23606,7 @@ function gml_Object_oEnemy_Step_0(_inst,_other)
 		}
 	}
 	;
-	gml_Script_ent_move_collide(_inst,_other,(-1),_inst.gmlent_no_platform);
+	gml_Script_ent_move_collide(_inst,_other,(-1));
 }
 
 function gml_Object_oEnemy_Draw_0(_inst,_other)
@@ -22829,7 +23622,7 @@ function gml_Object_oEnemy_Draw_0(_inst,_other)
 			var gml_y=clamp(_inst.y,yyfplus(__yy_gml_errCheck(gml_vy),16),yyfminus(yyfplus(__yy_gml_errCheck(gml_vy),288),16));
 			var gml_d=point_distance(gml_x,gml_y,_inst.x,_inst.y);
 			var gml_size=yyfminus(1,__yy_gml_errCheck(clamp(yyfdivide(__yy_gml_errCheck(yyfminus(__yy_gml_errCheck(gml_d),48)),160),0,1)));
-			draw_sprite_ext(_inst,YYASSET_REF(0x0100007B),0,gml_x,gml_y,yyftime(1,__yy_gml_errCheck(gml_size)),yyftime(1,__yy_gml_errCheck(gml_size)),0,(-1),1);
+			draw_sprite_ext(_inst,YYASSET_REF(0x01000083),0,gml_x,gml_y,yyftime(1,__yy_gml_errCheck(gml_size)),yyftime(1,__yy_gml_errCheck(gml_size)),0,(-1),1);
 		}
 	}
 	;
@@ -22920,11 +23713,11 @@ function gml_Object_oEnemyBullet_Step_0(_inst,_other)
 		}
 	}
 	;
-	if(yyGetBool(place_meeting(_inst,_inst.x,_inst.y,YYASSET_REF(0x0000003F))))
+	if(yyGetBool(place_meeting(_inst,_inst.x,_inst.y,YYASSET_REF(0x00000043))))
 	{
 
 				{
-			var gml_pl=instance_place(_inst,_inst.x,_inst.y,YYASSET_REF(0x0000003F));
+			var gml_pl=instance_place(_inst,_inst.x,_inst.y,YYASSET_REF(0x00000043));
 			gml_Script_hurt_entity(_inst,_other,gml_pl);
 			instance_destroy(_inst);
 		}
@@ -22939,17 +23732,6 @@ function gml_Object_oEnemyBullet_Step_0(_inst,_other)
 	{
 		__yyg_call_method(_inst.gmlcollide_callback)(_inst,_other,false)	}
 	;
-}
-
-function gml_Object_oEnemyBullet_Draw_73(_inst,_other)
-{
-	if(!yyGetBool(global.gmldebug))
-	{
-		return 	}
-	;
-	draw_set_color(255);
-	draw_rectangle(_inst.bbox_left,_inst.bbox_top,_inst.bbox_right,_inst.bbox_bottom,1);
-	draw_set_color((-1));
 }
 
 function gml_Object_oEnemyBullet_Draw_0(_inst,_other)
@@ -22969,16 +23751,17 @@ function gml_Object_oEnEvilBalloon_Create_0(_inst,_other)
 {
 	event_inherited(_inst,_other);
 	_inst.gmlhp=1;
-	_inst.gmlitem_carried=choose(YYASSET_REF(0x00000047),YYASSET_REF(0x00000049));
+	_inst.gmlent_no_collision=true;
+	_inst.gmlitem_carried=choose(YYASSET_REF(0x0000004B),YYASSET_REF(0x0000004D));
 	_inst.gmlitem_drop_timer=3;
 	_inst.gmlitem_dropped=false;
 	_inst.gmlm_spd=0.7;
 	_inst.gmlm_dir=1;
 	_inst.image_speed=0.25;
-	_inst.gmldraw_event=__yy_method(_inst,gml_Script_anon_40_182_40_gml_Object_oEnEvilBalloon_Create_0);
+	_inst.gmldraw_event=__yy_method(_inst,gml_Script_anon_40_209_40_gml_Object_oEnEvilBalloon_Create_0);
 }
 
-function gml_Script_anon_40_182_40_gml_Object_oEnEvilBalloon_Create_0(_inst,_other)
+function gml_Script_anon_40_209_40_gml_Object_oEnEvilBalloon_Create_0(_inst,_other)
 {
 
 		{
@@ -23018,25 +23801,25 @@ function gml_Object_oEnEvilBalloon_Step_0(_inst,_other)
 {
 	gml_Script_ent_prestate_event(_inst,_other);
 	gml_Script_ent_state_machine(_inst,_other);
-	var ___sw150___=_inst.gmlstate_current;
-	var ___swc151___=-1;
-	if(yyCompareVal(___sw150___,3,g_GMLMathEpsilon,false)==0)
+	var ___sw158___=_inst.gmlstate_current;
+	var ___swc159___=-1;
+	if(yyCompareVal(___sw158___,3,g_GMLMathEpsilon,false)==0)
 	{
-		___swc151___=1;
+		___swc159___=1;
 	}
-	else if(yyCompareVal(___sw150___,1,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw158___,1,g_GMLMathEpsilon,false)==0)
 	{
-		___swc151___=2;
+		___swc159___=2;
 	}
-	else if(yyCompareVal(___sw150___,2,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw158___,2,g_GMLMathEpsilon,false)==0)
 	{
-		___swc151___=3;
+		___swc159___=3;
 	}
-	else if(yyCompareVal(___sw150___,0,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw158___,0,g_GMLMathEpsilon,false)==0)
 	{
-		___swc151___=4;
+		___swc159___=4;
 	}
-	switch(___swc151___)
+	switch(___swc159___)
 	{
 		default :
 		{
@@ -23068,7 +23851,7 @@ function gml_Object_oEnEvilBalloon_Step_0(_inst,_other)
 			_inst.gmlm_dir=sign(yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmltarget).x),__yy_gml_errCheck(_inst.x)));
 			_inst.gmlxvel=gml_Script_approach(_inst,_other,_inst.gmlxvel,yyftime(__yy_gml_errCheck(_inst.gmlm_spd),__yy_gml_errCheck(_inst.gmlm_dir)),0.04);
 			_inst.gmlyvel=gml_Script_approach(_inst,_other,_inst.gmlyvel,yyftime(__yy_gml_errCheck(dsin(yyftime(__yy_gml_errCheck(_inst.gmlstate_timer),1.5))),0.6),0.03);
-			if(yyGetBool(instance_place(_inst,_inst.x,yyInst(_inst,_other,_inst.gmltarget).y,_inst.gmltarget)))
+			if((yyGetBool(instance_place(_inst,_inst.x,yyInst(_inst,_other,_inst.gmltarget).y,_inst.gmltarget)))&&(yyGetBool(!yyGetBool(place_meeting(_inst,_inst.x,_inst.y,YYASSET_REF(0x00000058))))))
 			{
 				_inst.gmlitem_drop_timer=(_inst.gmlitem_drop_timer instanceof Long?_inst.gmlitem_drop_timer.subtract(1):--_inst.gmlitem_drop_timer)			}
 			;
@@ -23098,7 +23881,7 @@ function gml_Object_oEnEvilBalloon_Step_0(_inst,_other)
 			}
 			;
 			_inst.gmlyvel=gml_Script_approach(_inst,_other,_inst.gmlyvel,(-1),0.02);
-			if(yyfless(_inst.y,(-16)))
+			if(yyfless(_inst.y,yyfminus(__yy_gml_errCheck(gml_Script_get_spawn_limits(_inst,_other,2)),16)))
 			{
 				instance_destroy(_inst)			}
 			;
@@ -23120,36 +23903,36 @@ function gml_Object_oEnEvilBalloon_Step_0(_inst,_other)
 		}
 	}
 	;
-	gml_Script_ent_move_collide(_inst,_other,(-1),2);
+	gml_Script_ent_move_collide(_inst,_other,(-1));
 }
 
 function gml_Object_oEnExploder_Step_0(_inst,_other)
 {
 	gml_Script_ent_prestate_event(_inst,_other);
 	gml_Script_ent_state_machine(_inst,_other);
-	var ___sw154___=_inst.gmlstate_current;
-	var ___swc155___=-1;
-	if(yyCompareVal(___sw154___,3,g_GMLMathEpsilon,false)==0)
+	var ___sw162___=_inst.gmlstate_current;
+	var ___swc163___=-1;
+	if(yyCompareVal(___sw162___,3,g_GMLMathEpsilon,false)==0)
 	{
-		___swc155___=1;
+		___swc163___=1;
 	}
-	else if(yyCompareVal(___sw154___,1,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw162___,1,g_GMLMathEpsilon,false)==0)
 	{
-		___swc155___=2;
+		___swc163___=2;
 	}
-	else if(yyCompareVal(___sw154___,yyInst(_inst,_other,_inst.gml_enemystate).gmlcarried,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw162___,yyInst(_inst,_other,_inst.gmlenemy_states).gmlcarried,g_GMLMathEpsilon,false)==0)
 	{
-		___swc155___=3;
+		___swc163___=3;
 	}
-	else if(yyCompareVal(___sw154___,2,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw162___,2,g_GMLMathEpsilon,false)==0)
 	{
-		___swc155___=4;
+		___swc163___=4;
 	}
-	else if(yyCompareVal(___sw154___,0,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw162___,0,g_GMLMathEpsilon,false)==0)
 	{
-		___swc155___=5;
+		___swc163___=5;
 	}
-	switch(___swc155___)
+	switch(___swc163___)
 	{
 		default :
 		{
@@ -23161,7 +23944,7 @@ function gml_Object_oEnExploder_Step_0(_inst,_other)
 			{
 
 								{
-					_inst.mask_index=YYASSET_REF(0x01000052);
+					_inst.mask_index=YYASSET_REF(0x01000058);
 					_inst.SetImageIndexGML(0);
 					_inst.image_speed=0;
 					gml_Script_move_y(_inst,_other,g_pBuiltIn.room_height);
@@ -23208,7 +23991,7 @@ function gml_Object_oEnExploder_Step_0(_inst,_other)
 			{
 
 								{
-					_inst.gmlstate_current=yyInst(_inst,_other,_inst.gml_enemystate).gmlcarried;
+					_inst.gmlstate_current=yyInst(_inst,_other,_inst.gmlenemy_states).gmlcarried;
 					break;
 				}
 			}
@@ -23238,7 +24021,7 @@ function gml_Object_oEnExploder_Step_0(_inst,_other)
 								{
 					_inst.gmlm_jumpbuffer=(yyfless(_inst.gmlm_jumpbuffer,40)?40:_inst.gmlm_jumpbuffer);
 					_inst.gmlm_turning=12;
-					_inst.gmlsprite_anim=YYASSET_REF(0x01000029);
+					_inst.gmlsprite_anim=YYASSET_REF(0x0100002F);
 					_inst.SetImageIndexGML(0);
 					_inst.gmlxsprite=sign(gml_xdir);
 				}
@@ -23256,7 +24039,7 @@ function gml_Object_oEnExploder_Step_0(_inst,_other)
 								{
 					_inst.gmlyvel=_inst.gmlm_jspd;
 					_inst.gmlm_jumpbuffer=yyftime(__yy_gml_errCheck(irandom_range(4,15)),30);
-					_inst.gmlsprite_anim=YYASSET_REF(0x01000025);
+					_inst.gmlsprite_anim=YYASSET_REF(0x0100002B);
 					_inst.SetImageIndexGML(0);
 				}
 			}
@@ -23264,12 +24047,12 @@ function gml_Object_oEnExploder_Step_0(_inst,_other)
 			{
 				_inst.gmlm_jumpbuffer=yyfplus(_inst.gmlm_jumpbuffer,(yyGetBool(_inst.gmlgrounded)?((yyGetBool(yyfless(yyInst(_inst,_other,_inst.gmltarget).bbox_bottom,_inst.bbox_top)))&&(yyGetBool(!yyGetBool(gml_antic)))?(-3):(-1)):0))			}
 			;
-			var gml_pl=instance_place(_inst,_inst.x,_inst.y,YYASSET_REF(0x0000003F));
+			var gml_pl=instance_place(_inst,_inst.x,_inst.y,YYASSET_REF(0x00000043));
 			if(yyGetBool(gml_pl))
 			{
 				gml_Script_hurt_player(_inst,_other,gml_pl)			}
 			;
-			var gml_en=instance_place(_inst,_inst.x,_inst.y,(__yy_gml_array_create([YYASSET_REF(0x0000001C),YYASSET_REF(0x00000015)])));
+			var gml_en=instance_place(_inst,_inst.x,_inst.y,(__yy_gml_array_create([YYASSET_REF(0x00000020),YYASSET_REF(0x00000019)])));
 			if(yyGetBool(gml_en))
 			{
 
@@ -23317,7 +24100,7 @@ function gml_Object_oEnExploder_Step_0(_inst,_other)
 			;
 			_inst.gmlxvel=gml_Script_approach(_inst,_other,_inst.gmlxvel,gml_xdir,3);
 			_inst.gmlyvel=(yyfgreater(gml_ydir,0)?gml_Script_approach(_inst,_other,_inst.gmlyvel,_inst.gmlyvel_max,_inst.gmlgrav):gml_ydir);
-			var gml_pl=instance_place(_inst,_inst.x,_inst.y,YYASSET_REF(0x0000003F));
+			var gml_pl=instance_place(_inst,_inst.x,_inst.y,YYASSET_REF(0x00000043));
 			if(yyGetBool(gml_pl))
 			{
 				gml_Script_hurt_player(_inst,_other,gml_pl)			}
@@ -23336,7 +24119,7 @@ function gml_Object_oEnExploder_Step_0(_inst,_other)
 				}
 			}
 			;
-			_inst.gmlxvel=(yyGetBool(_inst.gmlgrounded)?gml_Script_approach(_inst,_other,_inst.gmlxvel,0,0.1):_inst.gmlxvel);
+			_inst.gmlxvel=(yyGetBool(_inst.gmlgrounded)?gml_Script_approach(_inst,_other,_inst.gmlxvel,0,_inst.gmlm_fri):_inst.gmlxvel);
 			_inst.gmlyvel=gml_Script_approach(_inst,_other,_inst.gmlyvel,_inst.gmlyvel_max,_inst.gmlgrav);
 			break;
 		}
@@ -23346,7 +24129,7 @@ function gml_Object_oEnExploder_Step_0(_inst,_other)
 			{
 
 								{
-					_inst.sprite_index=YYASSET_REF(0x01000018);
+					_inst.sprite_index=YYASSET_REF(0x01000019);
 					_inst.SetImageIndexGML(0);
 					_inst.image_speed=0.25;
 					_inst.gmlstate_is_new=!yyGetBool(_inst.gmlstate_is_new);
@@ -23355,7 +24138,7 @@ function gml_Object_oEnExploder_Step_0(_inst,_other)
 					_inst.gmlxvel=yyfplus(_inst.gmlxvel,yyfdivide(__yy_gml_errCheck(yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmltarget).x),__yy_gml_errCheck(_inst.x))),56));
 					_inst.gmlent_hurt_block=true;
 					_inst.gmlent_no_platform=true;
-					var gml_gib=instance_create_depth(_inst.x,_inst.y,0,YYASSET_REF(0x0000001F));
+					var gml_gib=instance_create_depth(_inst.x,_inst.y,0,YYASSET_REF(0x00000023));
 
 										{
 						var __yy__v58=GetWithArray(gml_gib);
@@ -23365,13 +24148,13 @@ function gml_Object_oEnExploder_Step_0(_inst,_other)
 							var __yy__v60=__yy__v58[__yy__v59];
 
 														{
-								__yy__v60.sprite_index=YYASSET_REF(0x01000046);
+								__yy__v60.sprite_index=YYASSET_REF(0x0100004C);
 								__yy__v60.gmlbounce_spd=0;
 								__yy__v60.gmlmove_spd=1.5;
 								__yy__v60.mask_index=_inst.mask_index;
 								__yy__v60.gmlxsprite=_inst.gmlxsprite;
 								__yy__v60.gmltimer=75;
-								__yy__v60.gmlcollision_call=__yy_method(__yy__v60,gml_Script_anon_40_4384_40_gml_Object_oEnExploder_Step_0);
+								__yy__v60.gmlcollision_call=__yy_method(__yy__v60,gml_Script_anon_40_4388_40_gml_Object_oEnExploder_Step_0);
 							}
 						}
 					}
@@ -23421,10 +24204,10 @@ function gml_Object_oEnExploder_Step_0(_inst,_other)
 		}
 	}
 	;
-	gml_Script_ent_move_collide(_inst,_other,(-1),_inst.gmlent_no_platform);
+	gml_Script_ent_move_collide(_inst,_other,(-1));
 }
 
-function gml_Script_anon_40_4384_40_gml_Object_oEnExploder_Step_0(_inst,_other)
+function gml_Script_anon_40_4388_40_gml_Object_oEnExploder_Step_0(_inst,_other)
 {
 
 		{
@@ -23445,11 +24228,11 @@ function gml_Object_oEnGhostshot_Create_0(_inst,_other)
 	_inst.gmlatk_timer=yyftime(__yy_gml_errCheck(irandom_range(3,5)),30);
 	_inst.gmlatk_visible=true;
 	_inst.gmlteleport_timer=(-1);
-	_inst.gml_enemystate=__yy_gml_object_create(_inst,(global.gml___struct___54=__yy_method(_inst,gml_Script____struct___54_40_gml_Object_oEnGhostshot_Create_0)),5);
-	_inst.gmldraw_event=__yy_method(_inst,gml_Script_anon_40_294_40_gml_Object_oEnGhostshot_Create_0);
+	_inst.gmlenemy_states=__yy_gml_object_create(_inst,(global.gml___struct___55=__yy_method(_inst,gml_Script____struct___55_40_gml_Object_oEnGhostshot_Create_0)),5);
+	_inst.gmldraw_event=__yy_method(_inst,gml_Script_anon_40_295_40_gml_Object_oEnGhostshot_Create_0);
 }
 
-function gml_Script____struct___54_40_gml_Object_oEnGhostshot_Create_0(_inst,_other)
+function gml_Script____struct___55_40_gml_Object_oEnGhostshot_Create_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -23459,13 +24242,13 @@ function gml_Script____struct___54_40_gml_Object_oEnGhostshot_Create_0(_inst,_ot
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___54@gml_Object_oEnGhostshot_Create_0"	}
-	if(gml_Script____struct___54_40_gml_Object_oEnGhostshot_Create_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___55@gml_Object_oEnGhostshot_Create_0"	}
+	if(gml_Script____struct___55_40_gml_Object_oEnGhostshot_Create_0.prototype.__type===undefined)
 	{
-		gml_Script____struct___54_40_gml_Object_oEnGhostshot_Create_0.prototype.__type="gml_Script____struct___54@gml_Object_oEnGhostshot_Create_0"	}
+		gml_Script____struct___55_40_gml_Object_oEnGhostshot_Create_0.prototype.__type="gml_Script____struct___55@gml_Object_oEnGhostshot_Create_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___54_40_gml_Object_oEnGhostshot_Create_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___55_40_gml_Object_oEnGhostshot_Create_0.prototype);
 
 				{
 			var $$args=Array.prototype.slice.call(arguments);
@@ -23477,7 +24260,7 @@ function gml_Script____struct___54_40_gml_Object_oEnGhostshot_Create_0(_inst,_ot
 	}
 }
 
-function gml_Script_anon_40_294_40_gml_Object_oEnGhostshot_Create_0(_inst,_other)
+function gml_Script_anon_40_295_40_gml_Object_oEnGhostshot_Create_0(_inst,_other)
 {
 
 		{
@@ -23502,29 +24285,29 @@ function gml_Object_oEnGhostshot_Step_0(_inst,_other)
 {
 	gml_Script_ent_prestate_event(_inst,_other);
 	gml_Script_ent_state_machine(_inst,_other);
-	var ___sw158___=_inst.gmlstate_current;
-	var ___swc159___=-1;
-	if(yyCompareVal(___sw158___,1,g_GMLMathEpsilon,false)==0)
+	var ___sw166___=_inst.gmlstate_current;
+	var ___swc167___=-1;
+	if(yyCompareVal(___sw166___,1,g_GMLMathEpsilon,false)==0)
 	{
-		___swc159___=1;
+		___swc167___=1;
 	}
-	else if(yyCompareVal(___sw158___,yyInst(_inst,_other,_inst.gml_enemystate).gmlteleporting,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw166___,yyInst(_inst,_other,_inst.gmlenemy_states).gmlteleporting,g_GMLMathEpsilon,false)==0)
 	{
-		___swc159___=2;
+		___swc167___=2;
 	}
-	else if(yyCompareVal(___sw158___,2,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw166___,2,g_GMLMathEpsilon,false)==0)
 	{
-		___swc159___=3;
+		___swc167___=3;
 	}
-	else if(yyCompareVal(___sw158___,0,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw166___,0,g_GMLMathEpsilon,false)==0)
 	{
-		___swc159___=4;
+		___swc167___=4;
 	}
-	else if(yyCompareVal(___sw158___,3,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw166___,3,g_GMLMathEpsilon,false)==0)
 	{
-		___swc159___=5;
+		___swc167___=5;
 	}
-	switch(___swc159___)
+	switch(___swc167___)
 	{
 		default :
 		{
@@ -23611,7 +24394,7 @@ function gml_Object_oEnGhostshot_Step_0(_inst,_other)
 				{
 
 										{
-						_inst.gmlstate_current=yyInst(_inst,_other,_inst.gml_enemystate).gmlteleporting;
+						_inst.gmlstate_current=yyInst(_inst,_other,_inst.gmlenemy_states).gmlteleporting;
 						_inst.gmlatk_visible=false;
 						_inst.gmlent_hurt_can=false;
 						_inst.gmlteleport_timer=(-1);
@@ -23645,7 +24428,7 @@ function gml_Object_oEnGhostshot_Step_0(_inst,_other)
 					;
 					_inst.gmlx_begin=clamp(yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(irandom_range((-160),160))),yyfplus(__yy_gml_errCheck(gml_blef_ref),32),yyfminus(__yy_gml_errCheck(gml_brig_ref),32));
 					_inst.gmly_begin=clamp(yyfplus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(irandom_range((-160),160))),yyfplus(__yy_gml_errCheck(gml_yref),80),yyfplus(__yy_gml_errCheck(gml_yref),240));
-					while(yyGetBool(collision_circle(_inst,_inst.gmlx_begin,_inst.gmly_begin,24,YYASSET_REF(0x00000054),0,1))) 
+					while(yyGetBool(collision_circle(_inst,_inst.gmlx_begin,_inst.gmly_begin,24,YYASSET_REF(0x00000058),0,1))) 
 					{
 
 												{
@@ -23711,7 +24494,7 @@ function gml_Object_oEnGhostshot_Step_0(_inst,_other)
 		}
 	}
 	;
-	gml_Script_ent_move_collide(_inst,_other,(-1),_inst.gmlent_no_platform);
+	gml_Script_ent_move_collide(_inst,_other,(-1));
 }
 
 function gml_Object_oEnLeaper_Create_0(_inst,_other)
@@ -23719,13 +24502,14 @@ function gml_Object_oEnLeaper_Create_0(_inst,_other)
 	event_inherited(_inst,_other);
 	_inst.gmlhp=22;
 	_inst.gmlbasehp=_inst.gmlhp;
+	_inst.gmlm_spd=1.6;
 	_inst.gmlgrav=0.25;
 	_inst.gmljump_super=false;
 	_inst.gmljump_hold=false;
-	_inst.gml_enemystate=__yy_gml_object_create(_inst,(global.gml___struct___55=__yy_method(_inst,gml_Script____struct___55_40_gml_Object_oEnLeaper_Create_0)),5,6,7);
+	_inst.gmlenemy_states=__yy_gml_object_create(_inst,(global.gml___struct___56=__yy_method(_inst,gml_Script____struct___56_40_gml_Object_oEnLeaper_Create_0)),5,6,7);
 }
 
-function gml_Script____struct___55_40_gml_Object_oEnLeaper_Create_0(_inst,_other)
+function gml_Script____struct___56_40_gml_Object_oEnLeaper_Create_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -23735,13 +24519,13 @@ function gml_Script____struct___55_40_gml_Object_oEnLeaper_Create_0(_inst,_other
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___55@gml_Object_oEnLeaper_Create_0"	}
-	if(gml_Script____struct___55_40_gml_Object_oEnLeaper_Create_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___56@gml_Object_oEnLeaper_Create_0"	}
+	if(gml_Script____struct___56_40_gml_Object_oEnLeaper_Create_0.prototype.__type===undefined)
 	{
-		gml_Script____struct___55_40_gml_Object_oEnLeaper_Create_0.prototype.__type="gml_Script____struct___55@gml_Object_oEnLeaper_Create_0"	}
+		gml_Script____struct___56_40_gml_Object_oEnLeaper_Create_0.prototype.__type="gml_Script____struct___56@gml_Object_oEnLeaper_Create_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___55_40_gml_Object_oEnLeaper_Create_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___56_40_gml_Object_oEnLeaper_Create_0.prototype);
 
 				{
 			var $$args=Array.prototype.slice.call(arguments);
@@ -23759,37 +24543,37 @@ function gml_Object_oEnLeaper_Step_0(_inst,_other)
 {
 	gml_Script_ent_prestate_event(_inst,_other);
 	gml_Script_ent_state_machine(_inst,_other);
-	var ___sw164___=_inst.gmlstate_current;
-	var ___swc165___=-1;
-	if(yyCompareVal(___sw164___,yyInst(_inst,_other,_inst.gml_enemystate).gmljumpantic,g_GMLMathEpsilon,false)==0)
+	var ___sw172___=_inst.gmlstate_current;
+	var ___swc173___=-1;
+	if(yyCompareVal(___sw172___,yyInst(_inst,_other,_inst.gmlenemy_states).gmljumpantic,g_GMLMathEpsilon,false)==0)
 	{
-		___swc165___=1;
+		___swc173___=1;
 	}
-	else if(yyCompareVal(___sw164___,yyInst(_inst,_other,_inst.gml_enemystate).gmlhighjump,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw172___,yyInst(_inst,_other,_inst.gmlenemy_states).gmlhighjump,g_GMLMathEpsilon,false)==0)
 	{
-		___swc165___=2;
+		___swc173___=2;
 	}
-	else if(yyCompareVal(___sw164___,yyInst(_inst,_other,_inst.gml_enemystate).gmlglide,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw172___,yyInst(_inst,_other,_inst.gmlenemy_states).gmlglide,g_GMLMathEpsilon,false)==0)
 	{
-		___swc165___=3;
+		___swc173___=3;
 	}
-	else if(yyCompareVal(___sw164___,1,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw172___,1,g_GMLMathEpsilon,false)==0)
 	{
-		___swc165___=4;
+		___swc173___=4;
 	}
-	else if(yyCompareVal(___sw164___,2,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw172___,2,g_GMLMathEpsilon,false)==0)
 	{
-		___swc165___=5;
+		___swc173___=5;
 	}
-	else if(yyCompareVal(___sw164___,0,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw172___,0,g_GMLMathEpsilon,false)==0)
 	{
-		___swc165___=6;
+		___swc173___=6;
 	}
-	else if(yyCompareVal(___sw164___,3,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw172___,3,g_GMLMathEpsilon,false)==0)
 	{
-		___swc165___=7;
+		___swc173___=7;
 	}
-	switch(___swc165___)
+	switch(___swc173___)
 	{
 		default :
 		{
@@ -23801,54 +24585,58 @@ function gml_Object_oEnLeaper_Step_0(_inst,_other)
 			{
 
 								{
-					_inst.sprite_index=YYASSET_REF(0x0100001E);
+					_inst.sprite_index=YYASSET_REF(0x01000021);
 					_inst.SetImageIndexGML(0);
 					_inst.image_speed=0;
 					_inst.gmlstate_is_new=!yyGetBool(_inst.gmlstate_is_new);
-					_inst.gmljump_super=choose(0,0,1);
-					if((yyGetBool(yyfgreater(yyInst(_inst,_other,_inst.gmltarget).bbox_bottom,_inst.bbox_bottom)))&&(yyGetBool(gml_Script_on_platform(_inst,_other)))&&(yyGetBool(!yyGetBool(instance_place(_inst,_inst.x,yyfplus(__yy_gml_errCheck(_inst.y),1),YYASSET_REF(0x00000054))))))
+					_inst.gmljump_super=(yyfnotequal(collision_circle(_inst,_inst.x,_inst.y,64,_inst.gmltarget,0,1),(-4))?false:choose(false,false,true));
+					if((yyGetBool(yyfgreater(yyInst(_inst,_other,_inst.gmltarget).bbox_bottom,_inst.bbox_bottom)))&&(yyGetBool(gml_Script_on_platform(_inst,_other)))&&(yyGetBool(!yyGetBool(place_meeting(_inst,_inst.x,yyfplus(__yy_gml_errCheck(_inst.y),1),YYASSET_REF(0x00000058))))))
 					{
-						_inst.gmljump_super=2					}
+
+												{
+							_inst.gmljump_super=2;
+						}
+					}
 					;
 				}
 			}
 			;
-			var gml_timer=5;
-			_inst.gmlxvel=(yyGetBool(_inst.gmlgrounded)?gml_Script_approach(_inst,_other,_inst.gmlxvel,0,0.3):_inst.gmlxvel);
+			var gml_timer=12;
+			_inst.gmlxvel=(yyGetBool(_inst.gmlgrounded)?gml_Script_approach(_inst,_other,_inst.gmlxvel,0,_inst.gmlm_fri):_inst.gmlxvel);
 			if(yyfequal(_inst.gmlstate_timer,gml_timer))
 			{
 
 								{
 					var gml_xdir=yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmltarget).x),__yy_gml_errCheck(_inst.x));
 					var gml_nowall=gml_Script_wall_on_side(_inst,_other,16);
-					var ___sw166___=_inst.gmljump_super;
-					var ___swc167___=-1;
-					if(yyCompareVal(___sw166___,0,g_GMLMathEpsilon,false)==0)
+					var ___sw174___=_inst.gmljump_super;
+					var ___swc175___=-1;
+					if(yyCompareVal(___sw174___,0,g_GMLMathEpsilon,false)==0)
 					{
-						___swc167___=0;
+						___swc175___=0;
 					}
-					else if(yyCompareVal(___sw166___,1,g_GMLMathEpsilon,false)==0)
+					else if(yyCompareVal(___sw174___,1,g_GMLMathEpsilon,false)==0)
 					{
-						___swc167___=1;
+						___swc175___=1;
 					}
-					else if(yyCompareVal(___sw166___,2,g_GMLMathEpsilon,false)==0)
+					else if(yyCompareVal(___sw174___,2,g_GMLMathEpsilon,false)==0)
 					{
-						___swc167___=2;
+						___swc175___=2;
 					}
-					switch(___swc167___)
+					switch(___swc175___)
 					{
 						case 0:
 						{
-							var gml_mx=(yyfgreater(gml_xdir,48)?random_range(1.8,2.2):1.2);
+							var gml_movex=yyftime(__yy_gml_errCheck(clamp(yyfdivide(__yy_gml_errCheck(abs(gml_xdir)),48),0.5,1.5)),__yy_gml_errCheck(_inst.gmlm_spd));
 							_inst.gmlstate_current=1;
 							_inst.gmlyvel=(-4.8);
-							_inst.gmlxvel=(yyGetBool(abs(gml_nowall))?yyftime(__yy_gml_errCheck(__yy_gml_errCheck(-__yy_gml_errCheck(gml_nowall))),__yy_gml_errCheck(gml_mx)):(yyfless(gml_xdir,80)?yyftime(__yy_gml_errCheck(gml_mx),__yy_gml_errCheck(sign(gml_xdir))):gml_mx));
+							_inst.gmlxvel=(yyGetBool(abs(gml_nowall))?yyftime(__yy_gml_errCheck(__yy_gml_errCheck(-__yy_gml_errCheck(gml_nowall))),__yy_gml_errCheck(gml_movex)):yyftime(__yy_gml_errCheck(gml_movex),__yy_gml_errCheck(sign(gml_xdir))));
 							gml_Script_audio_play_sfx(_inst,_other,YYASSET_REF(0x02000004),YYASSET_REF(0x02000004));
 							break;
 						}
 						case 1:
 						{
-							_inst.gmlstate_current=yyInst(_inst,_other,_inst.gml_enemystate).gmlhighjump;
+							_inst.gmlstate_current=yyInst(_inst,_other,_inst.gmlenemy_states).gmlhighjump;
 							_inst.gmlyvel=(-7.5);
 							_inst.gmlxvel=sign(gml_xdir);
 							gml_Script_audio_play_sfx(_inst,_other,YYASSET_REF(0x02000004),YYASSET_REF(0x02000004));
@@ -23875,17 +24663,17 @@ function gml_Object_oEnLeaper_Step_0(_inst,_other)
 			{
 
 								{
-					_inst.sprite_index=YYASSET_REF(0x0100001D);
+					_inst.sprite_index=YYASSET_REF(0x01000020);
 					_inst.SetImageIndexGML(0);
 					_inst.image_speed=0;
 					_inst.gmlstate_is_new=!yyGetBool(_inst.gmlstate_is_new);
 				}
 			}
 			;
-			_inst.gmlxvel=gml_Script_approach(_inst,_other,_inst.gmlxvel,0,0.02);
+			_inst.gmlxvel=gml_Script_approach(_inst,_other,_inst.gmlxvel,0,yyftime(__yy_gml_errCheck(_inst.gmlm_fri),0.4));
 			_inst.gmlyvel=gml_Script_approach(_inst,_other,_inst.gmlyvel,_inst.gmlyvel_max,(yyGetBool(_inst.gmljump_hold)?yyftime(__yy_gml_errCheck(_inst.gmlgrav),0.3):_inst.gmlgrav));
 			_inst.gmljump_hold=(yyGetBool(yyfgreater(_inst.gmlyvel,(-1))))&&(yyGetBool(yyfless(_inst.gmlyvel,0.5)));
-			var gml_pl=instance_place(_inst,_inst.x,_inst.y,YYASSET_REF(0x0000003F));
+			var gml_pl=instance_place(_inst,_inst.x,_inst.y,YYASSET_REF(0x00000043));
 			if(yyGetBool(gml_pl))
 			{
 				gml_Script_hurt_player(_inst,_other,gml_pl)			}
@@ -23894,7 +24682,7 @@ function gml_Object_oEnLeaper_Step_0(_inst,_other)
 			{
 
 								{
-					_inst.gmlstate_current=yyInst(_inst,_other,_inst.gml_enemystate).gmlglide;
+					_inst.gmlstate_current=yyInst(_inst,_other,_inst.gmlenemy_states).gmlglide;
 					_inst.gmlxvel=0;
 				}
 			}
@@ -23907,7 +24695,7 @@ function gml_Object_oEnLeaper_Step_0(_inst,_other)
 			{
 
 								{
-					_inst.sprite_index=YYASSET_REF(0x0100001E);
+					_inst.sprite_index=YYASSET_REF(0x01000021);
 					_inst.SetImageIndexGML(0);
 					_inst.image_speed=0;
 					_inst.gmlstate_is_new=!yyGetBool(_inst.gmlstate_is_new);
@@ -23915,14 +24703,14 @@ function gml_Object_oEnLeaper_Step_0(_inst,_other)
 			}
 			;
 			var gml_xdir=yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmltarget).x),__yy_gml_errCheck(_inst.x));
-			_inst.gmlxvel=gml_Script_approach(_inst,_other,_inst.gmlxvel,sign(gml_xdir),0.07);
-			_inst.gmlyvel=gml_Script_approach(_inst,_other,_inst.gmlyvel,yyftime(__yy_gml_errCheck(dsin(yyftime(__yy_gml_errCheck(_inst.gmlstate_timer),8))),0.7),0.1);
-			var gml_pl=instance_place(_inst,_inst.x,_inst.y,YYASSET_REF(0x0000003F));
+			_inst.gmlxvel=gml_Script_approach(_inst,_other,_inst.gmlxvel,sign(gml_xdir),yyftime(__yy_gml_errCheck(_inst.gmlm_fri),0.5));
+			_inst.gmlyvel=gml_Script_approach(_inst,_other,_inst.gmlyvel,yyftime(__yy_gml_errCheck(dsin(yyftime(__yy_gml_errCheck(_inst.gmlstate_timer),8))),__yy_gml_errCheck(_inst.gmlm_spd)),0.1);
+			var gml_pl=instance_place(_inst,_inst.x,_inst.y,YYASSET_REF(0x00000043));
 			if(yyGetBool(gml_pl))
 			{
 				gml_Script_hurt_player(_inst,_other,gml_pl)			}
 			;
-			if(yyfequal(_inst.gmlstate_timer,83))
+			if(yyfgreaterequal(_inst.gmlstate_timer,83))
 			{
 
 								{
@@ -23940,26 +24728,26 @@ function gml_Object_oEnLeaper_Step_0(_inst,_other)
 			{
 
 								{
-					_inst.sprite_index=YYASSET_REF(0x0100001D);
+					_inst.sprite_index=YYASSET_REF(0x01000020);
 					_inst.SetImageIndexGML(0);
 					_inst.image_speed=0;
 					_inst.gmlstate_is_new=!yyGetBool(_inst.gmlstate_is_new);
 				}
 			}
 			;
-			_inst.gmlxvel=gml_Script_approach(_inst,_other,_inst.gmlxvel,0,0.02);
+			_inst.gmlxvel=gml_Script_approach(_inst,_other,_inst.gmlxvel,0,yyftime(__yy_gml_errCheck(_inst.gmlm_fri),0.2));
 			_inst.gmlyvel=gml_Script_approach(_inst,_other,_inst.gmlyvel,_inst.gmlyvel_max,(yyGetBool(_inst.gmljump_hold)?yyftime(__yy_gml_errCheck(_inst.gmlgrav),0.3):_inst.gmlgrav));
 			_inst.gmljump_hold=(yyGetBool(yyfgreater(_inst.gmlyvel,(-1))))&&(yyGetBool(yyfless(_inst.gmlyvel,0.5)));
 			if(yyGetBool(_inst.gmlgrounded))
 			{
 
 								{
-					_inst.gmlstate_current=yyInst(_inst,_other,_inst.gml_enemystate).gmljumpantic;
+					_inst.gmlstate_current=yyInst(_inst,_other,_inst.gmlenemy_states).gmljumpantic;
 					_inst.gmlyvel=0;
 				}
 			}
 			;
-			var gml_pl=instance_place(_inst,_inst.x,_inst.y,YYASSET_REF(0x0000003F));
+			var gml_pl=instance_place(_inst,_inst.x,_inst.y,YYASSET_REF(0x00000043));
 			if(yyGetBool(gml_pl))
 			{
 				gml_Script_hurt_player(_inst,_other,gml_pl)			}
@@ -23998,25 +24786,7 @@ function gml_Object_oEnLeaper_Step_0(_inst,_other)
 		}
 	}
 	;
-	gml_Script_round_vel(_inst,_other);
-	if(!yyGetBool(gml_Script_move_x(_inst,_other,_inst.gmlxvel_int)))
-	{
-
-				{
-			_inst.gmlxvel=0;
-			_inst.gmlxvel_fract=0;
-		}
-	}
-	;
-	if(!yyGetBool(gml_Script_move_y(_inst,_other,_inst.gmlyvel_int,_inst,!yyGetBool(_inst.gmlent_no_platform))))
-	{
-
-				{
-			_inst.gmlyvel=0;
-			_inst.gmlyvel_fract=0;
-		}
-	}
-	;
+	gml_Script_ent_move_collide(_inst,_other,(-1));
 }
 
 function gml_Object_oEntity_Create_0(_inst,_other)
@@ -24050,21 +24820,21 @@ function gml_Script_anon_40_170_40_gml_Object_oEntRisingWall_Create_0(_inst,_oth
 function gml_Object_oEntRisingWall_Step_1(_inst,_other)
 {
 	_inst.gmlgrounded=gml_Script_on_ground(_inst,_other);
-	var ___sw170___=_inst.gmlmove_state;
-	var ___swc171___=-1;
-	if(yyCompareVal(___sw170___,0,g_GMLMathEpsilon,false)==0)
+	var ___sw178___=_inst.gmlmove_state;
+	var ___swc179___=-1;
+	if(yyCompareVal(___sw178___,0,g_GMLMathEpsilon,false)==0)
 	{
-		___swc171___=0;
+		___swc179___=0;
 	}
-	else if(yyCompareVal(___sw170___,1,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw178___,1,g_GMLMathEpsilon,false)==0)
 	{
-		___swc171___=1;
+		___swc179___=1;
 	}
-	else if(yyCompareVal(___sw170___,2,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw178___,2,g_GMLMathEpsilon,false)==0)
 	{
-		___swc171___=2;
+		___swc179___=2;
 	}
-	switch(___swc171___)
+	switch(___swc179___)
 	{
 		case 0:
 		{
@@ -24170,11 +24940,11 @@ function gml_Object_oEnZombie_Create_0(_inst,_other)
 	_inst.gmlxsprite=1;
 	_inst.gmlsprite_prev=_inst.sprite_index;
 	_inst.gmlvox=(-1);
-	_inst.gml_enemystate=__yy_gml_object_create(_inst,(global.gml___struct___56=__yy_method(_inst,gml_Script____struct___56_40_gml_Object_oEnZombie_Create_0)),5);
-	_inst.gmldraw_event=__yy_method(_inst,gml_Script_anon_40_474_40_gml_Object_oEnZombie_Create_0);
+	_inst.gmlenemy_states=__yy_gml_object_create(_inst,(global.gml___struct___57=__yy_method(_inst,gml_Script____struct___57_40_gml_Object_oEnZombie_Create_0)),5);
+	_inst.gmldraw_event=__yy_method(_inst,gml_Script_anon_40_475_40_gml_Object_oEnZombie_Create_0);
 }
 
-function gml_Script____struct___56_40_gml_Object_oEnZombie_Create_0(_inst,_other)
+function gml_Script____struct___57_40_gml_Object_oEnZombie_Create_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -24184,13 +24954,13 @@ function gml_Script____struct___56_40_gml_Object_oEnZombie_Create_0(_inst,_other
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___56@gml_Object_oEnZombie_Create_0"	}
-	if(gml_Script____struct___56_40_gml_Object_oEnZombie_Create_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___57@gml_Object_oEnZombie_Create_0"	}
+	if(gml_Script____struct___57_40_gml_Object_oEnZombie_Create_0.prototype.__type===undefined)
 	{
-		gml_Script____struct___56_40_gml_Object_oEnZombie_Create_0.prototype.__type="gml_Script____struct___56@gml_Object_oEnZombie_Create_0"	}
+		gml_Script____struct___57_40_gml_Object_oEnZombie_Create_0.prototype.__type="gml_Script____struct___57@gml_Object_oEnZombie_Create_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___56_40_gml_Object_oEnZombie_Create_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___57_40_gml_Object_oEnZombie_Create_0.prototype);
 
 				{
 			var $$args=Array.prototype.slice.call(arguments);
@@ -24202,7 +24972,7 @@ function gml_Script____struct___56_40_gml_Object_oEnZombie_Create_0(_inst,_other
 	}
 }
 
-function gml_Script_anon_40_474_40_gml_Object_oEnZombie_Create_0(_inst,_other)
+function gml_Script_anon_40_475_40_gml_Object_oEnZombie_Create_0(_inst,_other)
 {
 
 		{
@@ -24228,7 +24998,7 @@ function gml_Script_anon_40_474_40_gml_Object_oEnZombie_Create_0(_inst,_other)
 					var gml_xo=yyfplus(__yy_gml_errCheck(__yy_gml_errCheck(-__yy_gml_errCheck(sprite_get_xoffset(_inst.sprite_index)))),__yy_gml_errCheck(irandom_range((-1),1)));
 					var gml_yo=__yy_gml_errCheck(-__yy_gml_errCheck(sprite_get_yoffset(_inst.sprite_index)));
 					draw_sprite_part_ext(_inst,_inst.sprite_index,_inst.image_index,0,0,sprite_get_width(_inst.sprite_index),yyfminus(yyfminus(__yy_gml_errCheck(sprite_get_height(_inst.sprite_index)),__yy_gml_errCheck(_inst.gmlsprite_appear)),5),yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gml_xo),__yy_gml_errCheck(_inst.gmlxsprite)))),yyfplus(yyfplus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(gml_yo)),__yy_gml_errCheck(_inst.gmlsprite_appear)),_inst.gmlxsprite,1,(-1),1);
-					draw_sprite(_inst,YYASSET_REF(0x0100003E),0,_inst.x,_inst.bbox_bottom);
+					draw_sprite(_inst,YYASSET_REF(0x01000044),0,_inst.x,_inst.bbox_bottom);
 				}
 			}
 		}
@@ -24241,29 +25011,29 @@ function gml_Object_oEnZombie_Step_0(_inst,_other)
 {
 	gml_Script_ent_prestate_event(_inst,_other);
 	gml_Script_ent_state_machine(_inst,_other);
-	var ___sw174___=_inst.gmlstate_current;
-	var ___swc175___=-1;
-	if(yyCompareVal(___sw174___,3,g_GMLMathEpsilon,false)==0)
+	var ___sw182___=_inst.gmlstate_current;
+	var ___swc183___=-1;
+	if(yyCompareVal(___sw182___,3,g_GMLMathEpsilon,false)==0)
 	{
-		___swc175___=1;
+		___swc183___=1;
 	}
-	else if(yyCompareVal(___sw174___,1,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw182___,1,g_GMLMathEpsilon,false)==0)
 	{
-		___swc175___=2;
+		___swc183___=2;
 	}
-	else if(yyCompareVal(___sw174___,yyInst(_inst,_other,_inst.gml_enemystate).gmlcarried,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw182___,yyInst(_inst,_other,_inst.gmlenemy_states).gmlcarried,g_GMLMathEpsilon,false)==0)
 	{
-		___swc175___=3;
+		___swc183___=3;
 	}
-	else if(yyCompareVal(___sw174___,2,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw182___,2,g_GMLMathEpsilon,false)==0)
 	{
-		___swc175___=4;
+		___swc183___=4;
 	}
-	else if(yyCompareVal(___sw174___,0,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw182___,0,g_GMLMathEpsilon,false)==0)
 	{
-		___swc175___=5;
+		___swc183___=5;
 	}
-	switch(___swc175___)
+	switch(___swc183___)
 	{
 		default :
 		{
@@ -24275,7 +25045,7 @@ function gml_Object_oEnZombie_Step_0(_inst,_other)
 			{
 
 								{
-					_inst.sprite_index=YYASSET_REF(0x01000021);
+					_inst.sprite_index=YYASSET_REF(0x01000027);
 					_inst.SetImageIndexGML(0);
 					_inst.image_speed=0;
 					gml_Script_move_y(_inst,_other,g_pBuiltIn.room_height);
@@ -24285,10 +25055,10 @@ function gml_Object_oEnZombie_Step_0(_inst,_other)
 					{
 
 												{
-							_inst.gmlcarrier_id=instance_create_depth(_inst.x,_inst.y,0,YYASSET_REF(0x0000001C));
+							_inst.gmlcarrier_id=instance_create_depth(_inst.x,_inst.y,0,YYASSET_REF(0x00000020));
 							if(yyfnotequal(gml_Script_ent_spawnlist_index(_inst,_other),(-1)))
 							{
-								array_push(yyInst(_inst,_other,YYASSET_REF(0x0000002F)).gmlenemy_active,yyInst(_inst,_other,_inst.gmlcarrier_id).id)							}
+								array_push(yyInst(_inst,_other,YYASSET_REF(0x00000033)).gmlenemy_active,yyInst(_inst,_other,_inst.gmlcarrier_id).id)							}
 							;
 							_inst.depth=yyfplus(__yy_gml_errCheck(_inst.gmldepth_self),__yy_gml_errCheck(_inst.gmlspawn_carrier));
 							yyInst(_inst,_other,_inst.gmlcarrier_id).gmlspawn_carrier=yyfminus(__yy_gml_errCheck(_inst.gmlspawn_carrier),1);
@@ -24304,7 +25074,7 @@ function gml_Object_oEnZombie_Step_0(_inst,_other)
 
 												{
 							_inst.gmlstate_prev=(-1);
-							instance_change(_inst,YYASSET_REF(0x00000015),false);
+							instance_change(_inst,YYASSET_REF(0x00000019),false);
 							break;
 						}
 					}
@@ -24323,9 +25093,9 @@ function gml_Object_oEnZombie_Step_0(_inst,_other)
 					{
 
 												{
-							audio_stop_sound(YYASSET_REF(0x02000025));
 							audio_stop_sound(YYASSET_REF(0x02000026));
-							_inst.gmlvox=gml_Script_audio_play_sfx(_inst,_other,choose(YYASSET_REF(0x02000025),YYASSET_REF(0x02000026)),(-1),0,0.5);
+							audio_stop_sound(YYASSET_REF(0x02000027));
+							_inst.gmlvox=gml_Script_audio_play_sfx(_inst,_other,choose(YYASSET_REF(0x02000026),YYASSET_REF(0x02000027)),(-1),0,0.5);
 							audio_sound_pitch(_inst.gmlvox,yyfplus(__yy_gml_errCheck(random_range((-0.1),0.1)),0.8));
 						}
 					}
@@ -24360,7 +25130,7 @@ function gml_Object_oEnZombie_Step_0(_inst,_other)
 			{
 
 								{
-					_inst.gmlstate_current=yyInst(_inst,_other,_inst.gml_enemystate).gmlcarried;
+					_inst.gmlstate_current=yyInst(_inst,_other,_inst.gmlenemy_states).gmlcarried;
 					break;
 				}
 			}
@@ -24380,7 +25150,7 @@ function gml_Object_oEnZombie_Step_0(_inst,_other)
 								{
 					_inst.gmlxvel=0;
 					_inst.gmlm_turning=6;
-					_inst.gmlsprite_anim=YYASSET_REF(0x01000027);
+					_inst.gmlsprite_anim=YYASSET_REF(0x0100002D);
 					_inst.SetImageIndexGML(0);
 				}
 			}
@@ -24391,7 +25161,7 @@ function gml_Object_oEnZombie_Step_0(_inst,_other)
 								{
 					_inst.gmlm_jumpbuffer=(yyfless(_inst.gmlm_jumpbuffer,40)?40:_inst.gmlm_jumpbuffer);
 					_inst.gmlm_turning=12;
-					_inst.gmlsprite_anim=YYASSET_REF(0x01000029);
+					_inst.gmlsprite_anim=YYASSET_REF(0x0100002F);
 					_inst.SetImageIndexGML(0);
 					_inst.gmlxsprite=sign(gml_xdir);
 				}
@@ -24409,7 +25179,7 @@ function gml_Object_oEnZombie_Step_0(_inst,_other)
 								{
 					_inst.gmlyvel=yyfplus(__yy_gml_errCheck(_inst.gmlm_jspd),__yy_gml_errCheck(random_range(0,(-0.7))));
 					_inst.gmlm_jumpbuffer=yyftime(__yy_gml_errCheck(irandom_range(4,15)),30);
-					_inst.gmlsprite_anim=YYASSET_REF(0x01000025);
+					_inst.gmlsprite_anim=YYASSET_REF(0x0100002B);
 					_inst.SetImageIndexGML(0);
 				}
 			}
@@ -24417,12 +25187,12 @@ function gml_Object_oEnZombie_Step_0(_inst,_other)
 			{
 				_inst.gmlm_jumpbuffer=yyfplus(_inst.gmlm_jumpbuffer,(yyGetBool(_inst.gmlgrounded)?((yyGetBool(yyfless(yyInst(_inst,_other,_inst.gmltarget).bbox_bottom,_inst.bbox_top)))&&(yyGetBool(!yyGetBool(gml_antic)))?(-3):(-1)):0))			}
 			;
-			var gml_pl=instance_place(_inst,_inst.x,_inst.y,YYASSET_REF(0x0000003F));
+			var gml_pl=instance_place(_inst,_inst.x,_inst.y,YYASSET_REF(0x00000043));
 			if(yyGetBool(gml_pl))
 			{
 				gml_Script_hurt_player(_inst,_other,gml_pl)			}
 			;
-			var gml_en=instance_place(_inst,_inst.x,_inst.y,(__yy_gml_array_create([YYASSET_REF(0x0000001C),YYASSET_REF(0x00000015)])));
+			var gml_en=instance_place(_inst,_inst.x,_inst.y,(__yy_gml_array_create([YYASSET_REF(0x00000020),YYASSET_REF(0x00000019)])));
 			if(yyGetBool(gml_en))
 			{
 
@@ -24441,7 +25211,7 @@ function gml_Object_oEnZombie_Step_0(_inst,_other)
 					{
 
 												{
-							_inst.sprite_index=YYASSET_REF(0x01000023);
+							_inst.sprite_index=YYASSET_REF(0x01000029);
 							_inst.image_speed=0.25;
 						}
 					}
@@ -24451,7 +25221,7 @@ function gml_Object_oEnZombie_Step_0(_inst,_other)
 						{
 
 														{
-								_inst.sprite_index=YYASSET_REF(0x01000026);
+								_inst.sprite_index=YYASSET_REF(0x0100002C);
 								_inst.image_speed=0.25;
 							}
 						}
@@ -24461,7 +25231,7 @@ function gml_Object_oEnZombie_Step_0(_inst,_other)
 							{
 
 																{
-									_inst.sprite_index=YYASSET_REF(0x01000028);
+									_inst.sprite_index=YYASSET_REF(0x0100002E);
 									_inst.image_speed=yyfplus(0.16666666666666666,__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(yyfdivide(__yy_gml_errCheck(abs(_inst.gmlxvel)),__yy_gml_errCheck(_inst.gmlm_spd))),6)));
 								}
 							}
@@ -24469,7 +25239,7 @@ function gml_Object_oEnZombie_Step_0(_inst,_other)
 							{
 
 																{
-									_inst.sprite_index=YYASSET_REF(0x01000024);
+									_inst.sprite_index=YYASSET_REF(0x0100002A);
 									_inst.image_speed=0.25;
 								}
 							}
@@ -24510,7 +25280,7 @@ function gml_Object_oEnZombie_Step_0(_inst,_other)
 								{
 					_inst.gmlstate_is_new=!yyGetBool(_inst.gmlstate_is_new);
 					_inst.gmlent_no_platform=true;
-					_inst.sprite_index=YYASSET_REF(0x0100002A);
+					_inst.sprite_index=YYASSET_REF(0x01000030);
 					_inst.SetImageIndexGML(choose(1,0));
 					_inst.image_speed=0;
 				}
@@ -24538,7 +25308,7 @@ function gml_Object_oEnZombie_Step_0(_inst,_other)
 			;
 			_inst.gmlxvel=gml_Script_approach(_inst,_other,_inst.gmlxvel,gml_xdir,3);
 			_inst.gmlyvel=(yyfgreater(gml_ydir,0)?gml_Script_approach(_inst,_other,_inst.gmlyvel,_inst.gmlyvel_max,_inst.gmlgrav):gml_ydir);
-			var gml_pl=instance_place(_inst,_inst.x,_inst.y,YYASSET_REF(0x0000003F));
+			var gml_pl=instance_place(_inst,_inst.x,_inst.y,YYASSET_REF(0x00000043));
 			if(yyGetBool(gml_pl))
 			{
 				gml_Script_hurt_player(_inst,_other,gml_pl)			}
@@ -24551,14 +25321,14 @@ function gml_Object_oEnZombie_Step_0(_inst,_other)
 			{
 
 								{
-					_inst.sprite_index=YYASSET_REF(0x01000024);
+					_inst.sprite_index=YYASSET_REF(0x0100002A);
 					_inst.SetImageIndexGML(0);
 					_inst.image_speed=0.25;
 					_inst.gmlstate_is_new=!yyGetBool(_inst.gmlstate_is_new);
 				}
 			}
 			;
-			_inst.gmlxvel=(yyGetBool(_inst.gmlgrounded)?gml_Script_approach(_inst,_other,_inst.gmlxvel,0,0.1):_inst.gmlxvel);
+			_inst.gmlxvel=(yyGetBool(_inst.gmlgrounded)?gml_Script_approach(_inst,_other,_inst.gmlxvel,0,_inst.gmlm_fri):_inst.gmlxvel);
 			_inst.gmlyvel=gml_Script_approach(_inst,_other,_inst.gmlyvel,_inst.gmlyvel_max,_inst.gmlgrav);
 			break;
 		}
@@ -24568,14 +25338,14 @@ function gml_Object_oEnZombie_Step_0(_inst,_other)
 			{
 
 								{
-					_inst.sprite_index=YYASSET_REF(0x01000022);
+					_inst.sprite_index=YYASSET_REF(0x01000028);
 					_inst.SetImageIndexGML(0);
 					_inst.image_speed=0.25;
 					_inst.gmlstate_is_new=!yyGetBool(_inst.gmlstate_is_new);
 					_inst.gmlxvel=yyftime(__yy_gml_errCheck(__yy_gml_errCheck(-__yy_gml_errCheck(_inst.gmlxsprite))),1.5);
 					_inst.gmlyvel=(-2.2);
-					_inst.gmlvox=gml_Script_audio_play_sfx(_inst,_other,YYASSET_REF(0x02000024));
-					var gml_gib=instance_create_depth(_inst.x,_inst.y,0,YYASSET_REF(0x0000001F));
+					_inst.gmlvox=gml_Script_audio_play_sfx(_inst,_other,YYASSET_REF(0x02000025));
+					var gml_gib=instance_create_depth(_inst.x,_inst.y,0,YYASSET_REF(0x00000023));
 
 										{
 						var __yy__v61=GetWithArray(gml_gib);
@@ -24585,13 +25355,13 @@ function gml_Object_oEnZombie_Step_0(_inst,_other)
 							var __yy__v63=__yy__v61[__yy__v62];
 
 														{
-								__yy__v63.sprite_index=YYASSET_REF(0x01000046);
+								__yy__v63.sprite_index=YYASSET_REF(0x0100004C);
 								__yy__v63.gmlbounce_spd=0;
 								__yy__v63.gmlmove_spd=1.5;
 								__yy__v63.mask_index=_inst.mask_index;
 								__yy__v63.gmlxsprite=_inst.gmlxsprite;
 								__yy__v63.gmltimer=75;
-								__yy__v63.gmlcollision_call=__yy_method(__yy__v63,gml_Script_anon_40_5878_40_gml_Object_oEnZombie_Step_0);
+								__yy__v63.gmlcollision_call=__yy_method(__yy__v63,gml_Script_anon_40_5882_40_gml_Object_oEnZombie_Step_0);
 							}
 						}
 					}
@@ -24608,7 +25378,7 @@ function gml_Object_oEnZombie_Step_0(_inst,_other)
 				}
 			}
 			;
-			_inst.gmlxvel=(yyGetBool(_inst.gmlgrounded)?gml_Script_approach(_inst,_other,_inst.gmlxvel,0,0.1):_inst.gmlxvel);
+			_inst.gmlxvel=(yyGetBool(_inst.gmlgrounded)?gml_Script_approach(_inst,_other,_inst.gmlxvel,0,_inst.gmlm_fri):_inst.gmlxvel);
 			_inst.gmlyvel=gml_Script_approach(_inst,_other,_inst.gmlyvel,_inst.gmlyvel_max,_inst.gmlgrav);
 			if(yyfequal(_inst.gmlstate_timer,24))
 			{
@@ -24623,10 +25393,10 @@ function gml_Object_oEnZombie_Step_0(_inst,_other)
 		}
 	}
 	;
-	gml_Script_ent_move_collide(_inst,_other,(-1),_inst.gmlent_no_platform);
+	gml_Script_ent_move_collide(_inst,_other,(-1));
 }
 
-function gml_Script_anon_40_5878_40_gml_Object_oEnZombie_Step_0(_inst,_other)
+function gml_Script_anon_40_5882_40_gml_Object_oEnZombie_Step_0(_inst,_other)
 {
 
 		{
@@ -24821,7 +25591,7 @@ function gml_Object_oFxGib_Create_0(_inst,_other)
 	_inst.gmlactive=false;
 	_inst.gmlxsprite=1;
 	_inst.image_speed=0;
-	_inst.mask_index=YYASSET_REF(0x0100004F);
+	_inst.mask_index=YYASSET_REF(0x01000055);
 	_inst.depth=(-5);
 	_inst.gmlcollision_call=__yy_method(_inst,gml_Script_anon_40_231_40_gml_Object_oFxGib_Create_0);
 }
@@ -24847,7 +25617,7 @@ function gml_Object_oFxGib_Step_0(_inst,_other)
 	}
 	;
 	_inst.gmlgrounded=gml_Script_on_ground(_inst,_other);
-	_inst.gmlxvel=(yyGetBool(_inst.gmlgrounded)?gml_Script_approach(_inst,_other,_inst.gmlxvel,0,0.1):_inst.gmlxvel);
+	_inst.gmlxvel=(yyGetBool(_inst.gmlgrounded)?gml_Script_approach(_inst,_other,_inst.gmlxvel,0,0.08):_inst.gmlxvel);
 	_inst.gmlyvel=gml_Script_approach(_inst,_other,_inst.gmlyvel,_inst.gmlyvel_max,_inst.gmlgrav);
 	if(yyGetBool(_inst.gmltimer))
 	{
@@ -24897,7 +25667,7 @@ function gml_Object_oFxMuzzle_Create_0(_inst,_other)
 	_inst.gmlactive=false;
 	_inst.gmld_dir=0;
 	_inst.image_speed=0.5;
-	_inst.mask_index=YYASSET_REF(0x0100004F);
+	_inst.mask_index=YYASSET_REF(0x01000055);
 	_inst.depth=(-5);
 }
 
@@ -24947,7 +25717,7 @@ function gml_Object_oFxPopupText_Create_0(_inst,_other)
 	_inst.depth=(-20);
 	_inst.image_speed=0;
 	_inst.SetImageIndexGML(0);
-	_inst.mask_index=YYASSET_REF(0x01000053);
+	_inst.mask_index=YYASSET_REF(0x01000059);
 }
 
 function gml_Object_oFxPopupText_Step_0(_inst,_other)
@@ -24960,7 +25730,7 @@ function gml_Object_oFxPopupText_Step_0(_inst,_other)
 			{
 
 								{
-					var gml_fx=collision_circle(_inst,_inst.x,_inst.y,128,YYASSET_REF(0x00000022),0,1);
+					var gml_fx=collision_circle(_inst,_inst.x,_inst.y,128,YYASSET_REF(0x00000026),0,1);
 					if((yyGetBool(gml_fx))&&(yyGetBool(yyfequal(yyInst(_inst,_other,gml_fx).gmlfx_delete_id,_inst.gmlfx_delete_id))))
 					{
 
@@ -24998,13 +25768,13 @@ function gml_Object_oFxPopupText_Draw_0(_inst,_other)
 	{
 		instance_destroy(_inst)	}
 	;
-	var ___sw178___=_inst.gmlfx_doextra;
-	var ___swc179___=-1;
-	if(yyCompareVal(___sw178___,1,g_GMLMathEpsilon,false)==0)
+	var ___sw186___=_inst.gmlfx_doextra;
+	var ___swc187___=-1;
+	if(yyCompareVal(___sw186___,1,g_GMLMathEpsilon,false)==0)
 	{
-		___swc179___=1;
+		___swc187___=1;
 	}
-	switch(___swc179___)
+	switch(___swc187___)
 	{
 		default :
 		{
@@ -25068,12 +25838,12 @@ function gml_Object_oFxTransitionIntro_Create_0(_inst,_other)
 function gml_Object_oFxTransitionIntro_Draw_0(_inst,_other)
 {
 	var gml_vx=round(camera_get_view_x(g_pBuiltIn.view_camera[__yy_gml_array_check_index(0,g_pBuiltIn.view_camera)])),gml_vy=round(camera_get_view_y(g_pBuiltIn.view_camera[__yy_gml_array_check_index(0,g_pBuiltIn.view_camera)])),gml_x=200,gml_y=144;
-	if(yyGetBool(instance_exists(YYASSET_REF(0x0000003F))))
+	if(yyGetBool(instance_exists(YYASSET_REF(0x00000043))))
 	{
 
 				{
-			gml_x=yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,YYASSET_REF(0x0000003F)).x),__yy_gml_errCheck(gml_vx));
-			gml_y=yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,YYASSET_REF(0x0000003F)).y),__yy_gml_errCheck(gml_vy));
+			gml_x=yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,YYASSET_REF(0x00000043)).x),__yy_gml_errCheck(gml_vx));
+			gml_y=yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,YYASSET_REF(0x00000043)).y),__yy_gml_errCheck(gml_vy));
 		}
 	}
 	;
@@ -25104,7 +25874,7 @@ function gml_Object_oFxTransitionIntro_Draw_0(_inst,_other)
 	{
 		return 	}
 	;
-	draw_sprite(_inst,YYASSET_REF(0x01000058),0,_inst.x,_inst.y);
+	draw_sprite(_inst,YYASSET_REF(0x0100005E),0,_inst.x,_inst.y);
 }
 
 function gml_Object_oFxTransitionOutro_Create_0(_inst,_other)
@@ -25119,12 +25889,12 @@ function gml_Object_oFxTransitionOutro_Create_0(_inst,_other)
 function gml_Object_oFxTransitionOutro_Draw_0(_inst,_other)
 {
 	var gml_vx=round(camera_get_view_x(g_pBuiltIn.view_camera[__yy_gml_array_check_index(0,g_pBuiltIn.view_camera)])),gml_vy=round(camera_get_view_y(g_pBuiltIn.view_camera[__yy_gml_array_check_index(0,g_pBuiltIn.view_camera)])),gml_x=200,gml_y=144;
-	if(yyGetBool(instance_exists(YYASSET_REF(0x0000003F))))
+	if(yyGetBool(instance_exists(YYASSET_REF(0x00000043))))
 	{
 
 				{
-			gml_x=yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,YYASSET_REF(0x0000003F)).x),__yy_gml_errCheck(gml_vx));
-			gml_y=yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,YYASSET_REF(0x0000003F)).y),__yy_gml_errCheck(gml_vy));
+			gml_x=yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,YYASSET_REF(0x00000043)).x),__yy_gml_errCheck(gml_vx));
+			gml_y=yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,YYASSET_REF(0x00000043)).y),__yy_gml_errCheck(gml_vy));
 		}
 	}
 	;
@@ -25160,7 +25930,7 @@ function gml_Object_oFxTransitionOutro_Draw_0(_inst,_other)
 	{
 		return 	}
 	;
-	draw_sprite(_inst,YYASSET_REF(0x01000058),0,_inst.x,_inst.y);
+	draw_sprite(_inst,YYASSET_REF(0x0100005E),0,_inst.x,_inst.y);
 }
 
 function gml_Object_oFxTutorialSign_Create_0(_inst,_other)
@@ -25230,8 +26000,9 @@ function gml_Object_oGameCamera_Create_0(_inst,_other)
 	_inst.gmlview_x=0;
 	_inst.gmlview_y=0;
 	_inst.gmlview_mode=0;
+	_inst.gmlview_is_debug=false;
 	_inst.gmlview_zone_focus=(-4);
-	_inst.gmltarget=YYASSET_REF(0x0000003F);
+	_inst.gmltarget=YYASSET_REF(0x00000043);
 	_inst.gmlno_target_active=false;
 	_inst.depth=(-2);
 }
@@ -25240,6 +26011,14 @@ function gml_Object_oGameCamera_Step_2(_inst,_other)
 {
 	var gmlgw=200;
 	var gmlgh=144;
+	if(yyGetBool(keyboard_check_pressed(57)))
+	{
+
+				{
+			_inst.gmlview_is_debug=!yyGetBool(_inst.gmlview_is_debug);
+		}
+	}
+	;
 	if(yyGetBool(instance_exists(global.gmlspawn_zone_current)))
 	{
 
@@ -25263,7 +26042,7 @@ function gml_Object_oGameCamera_Step_2(_inst,_other)
 
 												{
 							var gml_allzones=ds_list_create();
-							var gml_zones_amnt=instance_place_list(__yy__v69,__yy__v69.x,__yy__v69.y,YYASSET_REF(0x00000053),gml_allzones,false);
+							var gml_zones_amnt=instance_place_list(__yy__v69,__yy__v69.x,__yy__v69.y,YYASSET_REF(0x00000057),gml_allzones,false);
 							var gml_lastpriority=(-1);
 							var gml_view=(-4);
 							var gmli=0;
@@ -25307,28 +26086,37 @@ function gml_Object_oGameCamera_Step_2(_inst,_other)
 
 				{
 			_inst.gmlno_target_active=true;
-			_inst.gmlview_mode=((yyGetBool(instance_exists(YYASSET_REF(0x00000029))))&&(yyGetBool(yyfequal(g_pBuiltIn.get_current_room(),YYASSET_REF(0x0300000A))))?2:3);
+			_inst.gmlview_mode=((yyGetBool(instance_exists(YYASSET_REF(0x0000002D))))&&(yyGetBool(yyfequal(g_pBuiltIn.get_current_room(),YYASSET_REF(0x0300000A))))?2:3);
 		}
 	}
+	;
+	var gml_currentviewmode=_inst.gmlview_mode;
+	if(yyGetBool(_inst.gmlview_is_debug))
+	{
+		gml_currentviewmode=5	}
 	;
 	var gml_x=_inst.gmlview_x;
 	var gml_y=_inst.gmlview_y;
 	var gmlview_lerpx=_inst.gmlview_x,gmlview_lerpy=_inst.gmlview_y;
-	var ___sw182___=_inst.gmlview_mode;
-	var ___swc183___=-1;
-	if(yyCompareVal(___sw182___,0,g_GMLMathEpsilon,false)==0)
+	var ___sw190___=gml_currentviewmode;
+	var ___swc191___=-1;
+	if(yyCompareVal(___sw190___,0,g_GMLMathEpsilon,false)==0)
 	{
-		___swc183___=1;
+		___swc191___=1;
 	}
-	else if(yyCompareVal(___sw182___,1,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw190___,1,g_GMLMathEpsilon,false)==0)
 	{
-		___swc183___=2;
+		___swc191___=2;
 	}
-	else if(yyCompareVal(___sw182___,2,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw190___,2,g_GMLMathEpsilon,false)==0)
 	{
-		___swc183___=3;
+		___swc191___=3;
 	}
-	switch(___swc183___)
+	else if(yyCompareVal(___sw190___,5,g_GMLMathEpsilon,false)==0)
+	{
+		___swc191___=4;
+	}
+	switch(___swc191___)
 	{
 		default :
 		{
@@ -25371,7 +26159,7 @@ function gml_Object_oGameCamera_Step_2(_inst,_other)
 		}
 		case 3:
 		{
-			var gml_mm=YYASSET_REF(0x00000029);
+			var gml_mm=YYASSET_REF(0x0000002D);
 			var gml_mmx=0;
 			if(yyfequal(yyInst(_inst,_other,gml_mm).gmlme_subs,"extras_stats"))
 			{
@@ -25381,6 +26169,19 @@ function gml_Object_oGameCamera_Step_2(_inst,_other)
 			gmlview_lerpx=yyfplus(yyfplus(__yy_gml_errCheck(yyInst(_inst,_other,gml_mm).gmlmenu_fx_view_x),48),__yy_gml_errCheck(gml_mmx));
 			gml_x=gmlview_lerpx;
 			gml_y=gmlview_lerpy;
+			break;
+		}
+		case 4:
+		{
+			if(!yyGetBool(point_in_circle(g_pBuiltIn.get_mouse_x(),g_pBuiltIn.get_mouse_y(),_inst.gmlview_x,_inst.gmlview_y,8)))
+			{
+
+								{
+					gml_x=g_pBuiltIn.get_mouse_x();
+					gml_y=g_pBuiltIn.get_mouse_y();
+				}
+			}
+			;
 			break;
 		}
 	}
@@ -25397,7 +26198,7 @@ function gml_Object_oGameCamera_Step_1(_inst,_other)
 	{
 
 				{
-			_inst.gmltarget=YYASSET_REF(0x0000003F);
+			_inst.gmltarget=YYASSET_REF(0x00000043);
 			if((yyGetBool(instance_exists(_inst.gmltarget)))&&(yyGetBool(instance_exists(global.gmldoor_exit))))
 			{
 
@@ -25424,9 +26225,11 @@ function gml_Object_oGameCamera_Draw_0(_inst,_other)
 	{
 		return 	}
 	;
+	draw_set_font(YYASSET_REF(0x06000000));
 	draw_circle(_inst.gmlview_x,_inst.gmlview_y,4,1);
-	draw_text(_inst.gmlview_x,yyfminus(__yy_gml_errCheck(_inst.gmlview_y),16),__yy_InternalStringInterpolation("view_mode {0}",_inst.gmlview_mode));
-	draw_text(_inst.gmlview_x,yyfminus(__yy_gml_errCheck(_inst.gmlview_y),32),__yy_InternalStringInterpolation("view zone {0}",_inst.gmlview_zone_focus));
+	draw_text(_inst.gmlview_x,yyfminus(__yy_gml_errCheck(_inst.gmlview_y),24),__yy_InternalStringInterpolation("v mode{0}",_inst.gmlview_mode));
+	draw_text(_inst.gmlview_x,yyfminus(__yy_gml_errCheck(_inst.gmlview_y),16),__yy_InternalStringInterpolation("v zone{0}",real(_inst.gmlview_zone_focus)));
+	draw_set_font(global.gmlfontWhiS);
 }
 
 function gml_Object_oGameMainMenu_Create_0(_inst,_other)
@@ -25475,13 +26278,13 @@ function gml_Object_oGameMainMenu_Step_0(_inst,_other)
 	{
 
 				{
-			var ___sw212___=_inst.gmlme_subs;
-			var ___swc213___=-1;
-			if(yyCompareVal(___sw212___,"keys",g_GMLMathEpsilon,false)==0)
+			var ___sw220___=_inst.gmlme_subs;
+			var ___swc221___=-1;
+			if(yyCompareVal(___sw220___,"keys",g_GMLMathEpsilon,false)==0)
 			{
-				___swc213___=0;
+				___swc221___=0;
 			}
-			switch(___swc213___)
+			switch(___swc221___)
 			{
 				case 0:
 				{
@@ -25501,53 +26304,53 @@ function gml_Object_oGameMainMenu_Step_0(_inst,_other)
 
 								{
 					gml_Script_audio_play_sfx(_inst,_other,YYASSET_REF(0x02000019),YYASSET_REF(0x02000019));
-					var ___sw214___=_inst.gmlme_subs;
-					var ___swc215___=-1;
-					if(yyCompareVal(___sw214___,"intro",g_GMLMathEpsilon,false)==0)
+					var ___sw222___=_inst.gmlme_subs;
+					var ___swc223___=-1;
+					if(yyCompareVal(___sw222___,"intro",g_GMLMathEpsilon,false)==0)
 					{
-						___swc215___=1;
+						___swc223___=1;
 					}
-					else if(yyCompareVal(___sw214___,"main",g_GMLMathEpsilon,false)==0)
+					else if(yyCompareVal(___sw222___,"main",g_GMLMathEpsilon,false)==0)
 					{
-						___swc215___=2;
+						___swc223___=2;
 					}
-					else if(yyCompareVal(___sw214___,"mainpause",g_GMLMathEpsilon,false)==0)
+					else if(yyCompareVal(___sw222___,"mainpause",g_GMLMathEpsilon,false)==0)
 					{
-						___swc215___=3;
+						___swc223___=3;
 					}
-					else if(yyCompareVal(___sw214___,"options",g_GMLMathEpsilon,false)==0)
+					else if(yyCompareVal(___sw222___,"options",g_GMLMathEpsilon,false)==0)
 					{
-						___swc215___=4;
+						___swc223___=4;
 					}
-					else if(yyCompareVal(___sw214___,"options_game",g_GMLMathEpsilon,false)==0)
+					else if(yyCompareVal(___sw222___,"options_game",g_GMLMathEpsilon,false)==0)
 					{
-						___swc215___=5;
+						___swc223___=5;
 					}
-					else if(yyCompareVal(___sw214___,"options_game_nukealldata",g_GMLMathEpsilon,false)==0)
+					else if(yyCompareVal(___sw222___,"options_game_nukealldata",g_GMLMathEpsilon,false)==0)
 					{
-						___swc215___=6;
+						___swc223___=6;
 					}
-					else if(yyCompareVal(___sw214___,"options_audio",g_GMLMathEpsilon,false)==0)
+					else if(yyCompareVal(___sw222___,"options_audio",g_GMLMathEpsilon,false)==0)
 					{
-						___swc215___=7;
+						___swc223___=7;
 					}
-					else if(yyCompareVal(___sw214___,"keys",g_GMLMathEpsilon,false)==0)
+					else if(yyCompareVal(___sw222___,"keys",g_GMLMathEpsilon,false)==0)
 					{
-						___swc215___=8;
+						___swc223___=8;
 					}
-					else if(yyCompareVal(___sw214___,"extras_stats",g_GMLMathEpsilon,false)==0)
+					else if(yyCompareVal(___sw222___,"extras_stats",g_GMLMathEpsilon,false)==0)
 					{
-						___swc215___=9;
+						___swc223___=9;
 					}
-					else if(yyCompareVal(___sw214___,"gameover",g_GMLMathEpsilon,false)==0)
+					else if(yyCompareVal(___sw222___,"gameover",g_GMLMathEpsilon,false)==0)
 					{
-						___swc215___=10;
+						___swc223___=10;
 					}
-					else if(yyCompareVal(___sw214___,"gameover_wait",g_GMLMathEpsilon,false)==0)
+					else if(yyCompareVal(___sw222___,"gameover_wait",g_GMLMathEpsilon,false)==0)
 					{
-						___swc215___=11;
+						___swc223___=11;
 					}
-					switch(___swc215___)
+					switch(___swc223___)
 					{
 						default :
 						{
@@ -25563,25 +26366,25 @@ function gml_Object_oGameMainMenu_Step_0(_inst,_other)
 						}
 						case 2:
 						{
-							var ___sw216___=_inst.gmlme_select;
-							var ___swc217___=-1;
-							if(yyCompareVal(___sw216___,0,g_GMLMathEpsilon,false)==0)
+							var ___sw224___=_inst.gmlme_select;
+							var ___swc225___=-1;
+							if(yyCompareVal(___sw224___,0,g_GMLMathEpsilon,false)==0)
 							{
-								___swc217___=1;
+								___swc225___=1;
 							}
-							else if(yyCompareVal(___sw216___,1,g_GMLMathEpsilon,false)==0)
+							else if(yyCompareVal(___sw224___,1,g_GMLMathEpsilon,false)==0)
 							{
-								___swc217___=2;
+								___swc225___=2;
 							}
-							else if(yyCompareVal(___sw216___,2,g_GMLMathEpsilon,false)==0)
+							else if(yyCompareVal(___sw224___,2,g_GMLMathEpsilon,false)==0)
 							{
-								___swc217___=3;
+								___swc225___=3;
 							}
-							else if(yyCompareVal(___sw216___,3,g_GMLMathEpsilon,false)==0)
+							else if(yyCompareVal(___sw224___,3,g_GMLMathEpsilon,false)==0)
 							{
-								___swc217___=4;
+								___swc225___=4;
 							}
-							switch(___swc217___)
+							switch(___swc225___)
 							{
 								default :
 								{
@@ -25593,7 +26396,7 @@ function gml_Object_oGameMainMenu_Step_0(_inst,_other)
 									audio_stop_all();
 
 																		{
-										var __yy__v70=GetWithArray(YYASSET_REF(0x0000002E));
+										var __yy__v70=GetWithArray(YYASSET_REF(0x00000032));
 										for(var __yy__v71 in __yy__v70)
 										{
 											if(!__yy__v70.hasOwnProperty(__yy__v71))continue;
@@ -25625,25 +26428,25 @@ function gml_Object_oGameMainMenu_Step_0(_inst,_other)
 						}
 						case 3:
 						{
-							var ___sw218___=_inst.gmlme_select;
-							var ___swc219___=-1;
-							if(yyCompareVal(___sw218___,0,g_GMLMathEpsilon,false)==0)
+							var ___sw226___=_inst.gmlme_select;
+							var ___swc227___=-1;
+							if(yyCompareVal(___sw226___,0,g_GMLMathEpsilon,false)==0)
 							{
-								___swc219___=1;
+								___swc227___=1;
 							}
-							else if(yyCompareVal(___sw218___,1,g_GMLMathEpsilon,false)==0)
+							else if(yyCompareVal(___sw226___,1,g_GMLMathEpsilon,false)==0)
 							{
-								___swc219___=2;
+								___swc227___=2;
 							}
-							else if(yyCompareVal(___sw218___,2,g_GMLMathEpsilon,false)==0)
+							else if(yyCompareVal(___sw226___,2,g_GMLMathEpsilon,false)==0)
 							{
-								___swc219___=3;
+								___swc227___=3;
 							}
-							else if(yyCompareVal(___sw218___,3,g_GMLMathEpsilon,false)==0)
+							else if(yyCompareVal(___sw226___,3,g_GMLMathEpsilon,false)==0)
 							{
-								___swc219___=4;
+								___swc227___=4;
 							}
-							switch(___swc219___)
+							switch(___swc227___)
 							{
 								default :
 								{
@@ -25654,7 +26457,7 @@ function gml_Object_oGameMainMenu_Step_0(_inst,_other)
 								{
 
 																		{
-										var __yy__v73=GetWithArray(YYASSET_REF(0x0000002C));
+										var __yy__v73=GetWithArray(YYASSET_REF(0x00000030));
 										for(var __yy__v74 in __yy__v73)
 										{
 											if(!__yy__v73.hasOwnProperty(__yy__v74))continue;
@@ -25668,7 +26471,7 @@ function gml_Object_oGameMainMenu_Step_0(_inst,_other)
 								{
 
 																		{
-										var __yy__v76=GetWithArray(YYASSET_REF(0x0000002C));
+										var __yy__v76=GetWithArray(YYASSET_REF(0x00000030));
 										for(var __yy__v77 in __yy__v76)
 										{
 											if(!__yy__v76.hasOwnProperty(__yy__v77))continue;
@@ -25688,7 +26491,7 @@ function gml_Object_oGameMainMenu_Step_0(_inst,_other)
 								{
 
 																		{
-										var __yy__v79=GetWithArray(YYASSET_REF(0x0000002C));
+										var __yy__v79=GetWithArray(YYASSET_REF(0x00000030));
 										for(var __yy__v80 in __yy__v79)
 										{
 											if(!__yy__v79.hasOwnProperty(__yy__v80))continue;
@@ -25704,25 +26507,25 @@ function gml_Object_oGameMainMenu_Step_0(_inst,_other)
 						}
 						case 4:
 						{
-							var ___sw220___=_inst.gmlme_select;
-							var ___swc221___=-1;
-							if(yyCompareVal(___sw220___,0,g_GMLMathEpsilon,false)==0)
+							var ___sw228___=_inst.gmlme_select;
+							var ___swc229___=-1;
+							if(yyCompareVal(___sw228___,0,g_GMLMathEpsilon,false)==0)
 							{
-								___swc221___=1;
+								___swc229___=1;
 							}
-							else if(yyCompareVal(___sw220___,1,g_GMLMathEpsilon,false)==0)
+							else if(yyCompareVal(___sw228___,1,g_GMLMathEpsilon,false)==0)
 							{
-								___swc221___=2;
+								___swc229___=2;
 							}
-							else if(yyCompareVal(___sw220___,2,g_GMLMathEpsilon,false)==0)
+							else if(yyCompareVal(___sw228___,2,g_GMLMathEpsilon,false)==0)
 							{
-								___swc221___=3;
+								___swc229___=3;
 							}
-							else if(yyCompareVal(___sw220___,3,g_GMLMathEpsilon,false)==0)
+							else if(yyCompareVal(___sw228___,3,g_GMLMathEpsilon,false)==0)
 							{
-								___swc221___=4;
+								___swc229___=4;
 							}
-							switch(___swc221___)
+							switch(___swc229___)
 							{
 								default :
 								{
@@ -25761,29 +26564,29 @@ function gml_Object_oGameMainMenu_Step_0(_inst,_other)
 						}
 						case 5:
 						{
-							var ___sw222___=_inst.gmlme_select;
-							var ___swc223___=-1;
-							if(yyCompareVal(___sw222___,0,g_GMLMathEpsilon,false)==0)
+							var ___sw230___=_inst.gmlme_select;
+							var ___swc231___=-1;
+							if(yyCompareVal(___sw230___,0,g_GMLMathEpsilon,false)==0)
 							{
-								___swc223___=1;
+								___swc231___=1;
 							}
-							else if(yyCompareVal(___sw222___,2,g_GMLMathEpsilon,false)==0)
+							else if(yyCompareVal(___sw230___,2,g_GMLMathEpsilon,false)==0)
 							{
-								___swc223___=2;
+								___swc231___=2;
 							}
-							else if(yyCompareVal(___sw222___,1,g_GMLMathEpsilon,false)==0)
+							else if(yyCompareVal(___sw230___,1,g_GMLMathEpsilon,false)==0)
 							{
-								___swc223___=3;
+								___swc231___=3;
 							}
-							else if(yyCompareVal(___sw222___,3,g_GMLMathEpsilon,false)==0)
+							else if(yyCompareVal(___sw230___,3,g_GMLMathEpsilon,false)==0)
 							{
-								___swc223___=4;
+								___swc231___=4;
 							}
-							else if(yyCompareVal(___sw222___,4,g_GMLMathEpsilon,false)==0)
+							else if(yyCompareVal(___sw230___,4,g_GMLMathEpsilon,false)==0)
 							{
-								___swc223___=5;
+								___swc231___=5;
 							}
-							switch(___swc223___)
+							switch(___swc231___)
 							{
 								default :
 								{
@@ -25833,17 +26636,17 @@ function gml_Object_oGameMainMenu_Step_0(_inst,_other)
 						}
 						case 6:
 						{
-							var ___sw224___=_inst.gmlme_select;
-							var ___swc225___=-1;
-							if(yyCompareVal(___sw224___,0,g_GMLMathEpsilon,false)==0)
+							var ___sw232___=_inst.gmlme_select;
+							var ___swc233___=-1;
+							if(yyCompareVal(___sw232___,0,g_GMLMathEpsilon,false)==0)
 							{
-								___swc225___=1;
+								___swc233___=1;
 							}
-							else if(yyCompareVal(___sw224___,1,g_GMLMathEpsilon,false)==0)
+							else if(yyCompareVal(___sw232___,1,g_GMLMathEpsilon,false)==0)
 							{
-								___swc225___=2;
+								___swc233___=2;
 							}
-							switch(___swc225___)
+							switch(___swc233___)
 							{
 								default :
 								{
@@ -25866,13 +26669,13 @@ function gml_Object_oGameMainMenu_Step_0(_inst,_other)
 						}
 						case 7:
 						{
-							var ___sw226___=_inst.gmlme_select;
-							var ___swc227___=-1;
-							if(yyCompareVal(___sw226___,0,g_GMLMathEpsilon,false)==0)
+							var ___sw234___=_inst.gmlme_select;
+							var ___swc235___=-1;
+							if(yyCompareVal(___sw234___,0,g_GMLMathEpsilon,false)==0)
 							{
-								___swc227___=1;
+								___swc235___=1;
 							}
-							switch(___swc227___)
+							switch(___swc235___)
 							{
 								default :
 								{
@@ -25891,21 +26694,21 @@ function gml_Object_oGameMainMenu_Step_0(_inst,_other)
 						}
 						case 8:
 						{
-							var ___sw228___=_inst.gmlme_select;
-							var ___swc229___=-1;
-							if(yyCompareVal(___sw228___,1,g_GMLMathEpsilon,false)==0)
+							var ___sw236___=_inst.gmlme_select;
+							var ___swc237___=-1;
+							if(yyCompareVal(___sw236___,1,g_GMLMathEpsilon,false)==0)
 							{
-								___swc229___=1;
+								___swc237___=1;
 							}
-							else if(yyCompareVal(___sw228___,0,g_GMLMathEpsilon,false)==0)
+							else if(yyCompareVal(___sw236___,0,g_GMLMathEpsilon,false)==0)
 							{
-								___swc229___=2;
+								___swc237___=2;
 							}
-							else if(yyCompareVal(___sw228___,2,g_GMLMathEpsilon,false)==0||yyCompareVal(___sw228___,3,g_GMLMathEpsilon,false)==0||yyCompareVal(___sw228___,4,g_GMLMathEpsilon,false)==0||yyCompareVal(___sw228___,5,g_GMLMathEpsilon,false)==0||yyCompareVal(___sw228___,6,g_GMLMathEpsilon,false)==0||yyCompareVal(___sw228___,7,g_GMLMathEpsilon,false)==0||yyCompareVal(___sw228___,8,g_GMLMathEpsilon,false)==0||yyCompareVal(___sw228___,9,g_GMLMathEpsilon,false)==0||yyCompareVal(___sw228___,10,g_GMLMathEpsilon,false)==0||yyCompareVal(___sw228___,11,g_GMLMathEpsilon,false)==0)
+							else if(yyCompareVal(___sw236___,2,g_GMLMathEpsilon,false)==0||yyCompareVal(___sw236___,3,g_GMLMathEpsilon,false)==0||yyCompareVal(___sw236___,4,g_GMLMathEpsilon,false)==0||yyCompareVal(___sw236___,5,g_GMLMathEpsilon,false)==0||yyCompareVal(___sw236___,6,g_GMLMathEpsilon,false)==0||yyCompareVal(___sw236___,7,g_GMLMathEpsilon,false)==0||yyCompareVal(___sw236___,8,g_GMLMathEpsilon,false)==0||yyCompareVal(___sw236___,9,g_GMLMathEpsilon,false)==0||yyCompareVal(___sw236___,10,g_GMLMathEpsilon,false)==0||yyCompareVal(___sw236___,11,g_GMLMathEpsilon,false)==0)
 							{
-								___swc229___=3;
+								___swc237___=3;
 							}
-							switch(___swc229___)
+							switch(___swc237___)
 							{
 								default :
 								{
@@ -25941,17 +26744,17 @@ function gml_Object_oGameMainMenu_Step_0(_inst,_other)
 						}
 						case 10:
 						{
-							var ___sw230___=_inst.gmlme_select;
-							var ___swc231___=-1;
-							if(yyCompareVal(___sw230___,0,g_GMLMathEpsilon,false)==0)
+							var ___sw238___=_inst.gmlme_select;
+							var ___swc239___=-1;
+							if(yyCompareVal(___sw238___,0,g_GMLMathEpsilon,false)==0)
 							{
-								___swc231___=1;
+								___swc239___=1;
 							}
-							else if(yyCompareVal(___sw230___,1,g_GMLMathEpsilon,false)==0)
+							else if(yyCompareVal(___sw238___,1,g_GMLMathEpsilon,false)==0)
 							{
-								___swc231___=2;
+								___swc239___=2;
 							}
-							switch(___swc231___)
+							switch(___swc239___)
 							{
 								default :
 								{
@@ -25962,7 +26765,7 @@ function gml_Object_oGameMainMenu_Step_0(_inst,_other)
 								{
 
 																		{
-										var __yy__v82=GetWithArray(YYASSET_REF(0x0000002C));
+										var __yy__v82=GetWithArray(YYASSET_REF(0x00000030));
 										for(var __yy__v83 in __yy__v82)
 										{
 											if(!__yy__v82.hasOwnProperty(__yy__v83))continue;
@@ -25976,7 +26779,7 @@ function gml_Object_oGameMainMenu_Step_0(_inst,_other)
 								{
 
 																		{
-										var __yy__v85=GetWithArray(YYASSET_REF(0x0000002C));
+										var __yy__v85=GetWithArray(YYASSET_REF(0x00000030));
 										for(var __yy__v86 in __yy__v85)
 										{
 											if(!__yy__v85.hasOwnProperty(__yy__v86))continue;
@@ -26010,29 +26813,29 @@ function gml_Object_oGameMainMenu_Step_0(_inst,_other)
 
 				{
 			gml_Script_audio_play_sfx(_inst,_other,YYASSET_REF(0x02000019),YYASSET_REF(0x02000019));
-			var ___sw232___=_inst.gmlme_subs;
-			var ___swc233___=-1;
-			if(yyCompareVal(___sw232___,"options",g_GMLMathEpsilon,false)==0)
+			var ___sw240___=_inst.gmlme_subs;
+			var ___swc241___=-1;
+			if(yyCompareVal(___sw240___,"options",g_GMLMathEpsilon,false)==0)
 			{
-				___swc233___=1;
+				___swc241___=1;
 			}
-			else if(yyCompareVal(___sw232___,"extras_stats",g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw240___,"extras_stats",g_GMLMathEpsilon,false)==0)
 			{
-				___swc233___=2;
+				___swc241___=2;
 			}
-			else if(yyCompareVal(___sw232___,"options_game",g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw240___,"options_game",g_GMLMathEpsilon,false)==0)
 			{
-				___swc233___=3;
+				___swc241___=3;
 			}
-			else if(yyCompareVal(___sw232___,"options_audio",g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw240___,"options_audio",g_GMLMathEpsilon,false)==0)
 			{
-				___swc233___=4;
+				___swc241___=4;
 			}
-			else if(yyCompareVal(___sw232___,"keys",g_GMLMathEpsilon,false)==0)
+			else if(yyCompareVal(___sw240___,"keys",g_GMLMathEpsilon,false)==0)
 			{
-				___swc233___=5;
+				___swc241___=5;
 			}
-			switch(___swc233___)
+			switch(___swc241___)
 			{
 				default :
 				{
@@ -26079,13 +26882,13 @@ function gml_Object_oGameMainMenu_Step_0(_inst,_other)
 	{
 
 				{
-			var ___sw234___=_inst.gmlme_subs;
-			var ___swc235___=-1;
-			if(yyCompareVal(___sw234___,"intro",g_GMLMathEpsilon,false)==0||yyCompareVal(___sw234___,"extras_stats",g_GMLMathEpsilon,false)==0)
+			var ___sw242___=_inst.gmlme_subs;
+			var ___swc243___=-1;
+			if(yyCompareVal(___sw242___,"intro",g_GMLMathEpsilon,false)==0||yyCompareVal(___sw242___,"extras_stats",g_GMLMathEpsilon,false)==0)
 			{
-				___swc235___=1;
+				___swc243___=1;
 			}
-			switch(___swc235___)
+			switch(___swc243___)
 			{
 				default :
 				{
@@ -26107,27 +26910,27 @@ function gml_Object_oGameMainMenu_Step_0(_inst,_other)
 	{
 
 				{
-			var ___sw236___=_inst.gmlme_subs;
-			var ___swc237___=-1;
-			if(yyCompareVal(___sw236___,"options_audio",g_GMLMathEpsilon,false)==0)
+			var ___sw244___=_inst.gmlme_subs;
+			var ___swc245___=-1;
+			if(yyCompareVal(___sw244___,"options_audio",g_GMLMathEpsilon,false)==0)
 			{
-				___swc237___=0;
+				___swc245___=0;
 			}
-			switch(___swc237___)
+			switch(___swc245___)
 			{
 				case 0:
 				{
-					var ___sw238___=_inst.gmlme_select;
-					var ___swc239___=-1;
-					if(yyCompareVal(___sw238___,1,g_GMLMathEpsilon,false)==0)
+					var ___sw246___=_inst.gmlme_select;
+					var ___swc247___=-1;
+					if(yyCompareVal(___sw246___,1,g_GMLMathEpsilon,false)==0)
 					{
-						___swc239___=0;
+						___swc247___=0;
 					}
-					else if(yyCompareVal(___sw238___,2,g_GMLMathEpsilon,false)==0)
+					else if(yyCompareVal(___sw246___,2,g_GMLMathEpsilon,false)==0)
 					{
-						___swc239___=1;
+						___swc247___=1;
 					}
-					switch(___swc239___)
+					switch(___swc247___)
 					{
 						case 0:
 						{
@@ -26222,43 +27025,43 @@ function gml_Object_oGameParticles_Create_0(_inst,_other)
 	part_system_draw_order(global.gmlfx_sys_bg,false);
 	global.gmlfx=__yy_gml_object_create(_inst,__yy_gml_blank_constructor);
 	yyInst(_inst,_other,global.gmlfx).gmlenemy_die=part_type_create();
-	part_type_sprite(yyInst(_inst,_other,global.gmlfx).gmlenemy_die,YYASSET_REF(0x0100003A),1,1,0);
+	part_type_sprite(yyInst(_inst,_other,global.gmlfx).gmlenemy_die,YYASSET_REF(0x01000040),1,1,0);
 	part_type_life(yyInst(_inst,_other,global.gmlfx).gmlenemy_die,18,18);
 	yyInst(_inst,_other,global.gmlfx).gmlfiretrail=part_type_create();
-	part_type_sprite(yyInst(_inst,_other,global.gmlfx).gmlfiretrail,YYASSET_REF(0x0100003C),1,1,0);
+	part_type_sprite(yyInst(_inst,_other,global.gmlfx).gmlfiretrail,YYASSET_REF(0x01000042),1,1,0);
 	part_type_life(yyInst(_inst,_other,global.gmlfx).gmlfiretrail,7,7);
 	part_type_colour2(yyInst(_inst,_other,global.gmlfx).gmlfiretrail,1918393,7734412);
 	yyInst(_inst,_other,global.gmlfx).gmlfiredie=part_type_create();
-	part_type_sprite(yyInst(_inst,_other,global.gmlfx).gmlfiredie,YYASSET_REF(0x0100003B),1,1,0);
+	part_type_sprite(yyInst(_inst,_other,global.gmlfx).gmlfiredie,YYASSET_REF(0x01000041),1,1,0);
 	part_type_life(yyInst(_inst,_other,global.gmlfx).gmlfiredie,18,18);
 	yyInst(_inst,_other,global.gmlfx).gmlsmokecloud_reg=part_type_create();
-	part_type_sprite(yyInst(_inst,_other,global.gmlfx).gmlsmokecloud_reg,YYASSET_REF(0x01000043),1,1,0);
+	part_type_sprite(yyInst(_inst,_other,global.gmlfx).gmlsmokecloud_reg,YYASSET_REF(0x01000049),1,1,0);
 	part_type_life(yyInst(_inst,_other,global.gmlfx).gmlsmokecloud_reg,16,16);
 	part_type_speed(yyInst(_inst,_other,global.gmlfx).gmlsmokecloud_reg,1,1.5,(-0.02),0);
 	part_type_direction(yyInst(_inst,_other,global.gmlfx).gmlsmokecloud_reg,0,360,0,0);
 	yyInst(_inst,_other,global.gmlfx).gmlimpact_regular=part_type_create();
-	part_type_sprite(yyInst(_inst,_other,global.gmlfx).gmlimpact_regular,YYASSET_REF(0x0100003F),1,1,0);
+	part_type_sprite(yyInst(_inst,_other,global.gmlfx).gmlimpact_regular,YYASSET_REF(0x01000045),1,1,0);
 	part_type_life(yyInst(_inst,_other,global.gmlfx).gmlimpact_regular,4,4);
 	yyInst(_inst,_other,global.gmlfx).gmlimpact_big=part_type_create();
-	part_type_sprite(yyInst(_inst,_other,global.gmlfx).gmlimpact_big,YYASSET_REF(0x01000040),1,1,0);
+	part_type_sprite(yyInst(_inst,_other,global.gmlfx).gmlimpact_big,YYASSET_REF(0x01000046),1,1,0);
 	part_type_life(yyInst(_inst,_other,global.gmlfx).gmlimpact_big,10,10);
 	yyInst(_inst,_other,global.gmlfx).gmlexplosion_small=part_type_create();
-	part_type_sprite(yyInst(_inst,_other,global.gmlfx).gmlexplosion_small,YYASSET_REF(0x01000032),1,1,0);
+	part_type_sprite(yyInst(_inst,_other,global.gmlfx).gmlexplosion_small,YYASSET_REF(0x01000038),1,1,0);
 	part_type_life(yyInst(_inst,_other,global.gmlfx).gmlexplosion_small,24,24);
 	yyInst(_inst,_other,global.gmlfx).gmlexplosion_reg=part_type_create();
-	part_type_sprite(yyInst(_inst,_other,global.gmlfx).gmlexplosion_reg,YYASSET_REF(0x01000030),1,1,0);
+	part_type_sprite(yyInst(_inst,_other,global.gmlfx).gmlexplosion_reg,YYASSET_REF(0x01000036),1,1,0);
 	part_type_life(yyInst(_inst,_other,global.gmlfx).gmlexplosion_reg,32,32);
 	yyInst(_inst,_other,global.gmlfx).gmlexplosion_big=part_type_create();
-	part_type_sprite(yyInst(_inst,_other,global.gmlfx).gmlexplosion_big,YYASSET_REF(0x0100002E),1,1,0);
+	part_type_sprite(yyInst(_inst,_other,global.gmlfx).gmlexplosion_big,YYASSET_REF(0x01000034),1,1,0);
 	part_type_life(yyInst(_inst,_other,global.gmlfx).gmlexplosion_big,32,32);
 	yyInst(_inst,_other,global.gmlfx).gmlimpact_kick=part_type_create();
-	part_type_sprite(yyInst(_inst,_other,global.gmlfx).gmlimpact_kick,YYASSET_REF(0x01000042),1,1,0);
+	part_type_sprite(yyInst(_inst,_other,global.gmlfx).gmlimpact_kick,YYASSET_REF(0x01000048),1,1,0);
 	part_type_life(yyInst(_inst,_other,global.gmlfx).gmlimpact_kick,16,16);
 	yyInst(_inst,_other,global.gmlfx).gmlumbrellagib=part_type_create();
-	part_type_sprite(yyInst(_inst,_other,global.gmlfx).gmlumbrellagib,YYASSET_REF(0x01000082),1,1,0);
+	part_type_sprite(yyInst(_inst,_other,global.gmlfx).gmlumbrellagib,YYASSET_REF(0x0100008A),1,1,0);
 	part_type_life(yyInst(_inst,_other,global.gmlfx).gmlumbrellagib,12,12);
 	yyInst(_inst,_other,global.gmlfx).gmlblood_drop=part_type_create();
-	part_type_sprite(yyInst(_inst,_other,global.gmlfx).gmlblood_drop,YYASSET_REF(0x01000038),1,1,0);
+	part_type_sprite(yyInst(_inst,_other,global.gmlfx).gmlblood_drop,YYASSET_REF(0x0100003E),1,1,0);
 	part_type_life(yyInst(_inst,_other,global.gmlfx).gmlblood_drop,48,56);
 	part_type_gravity(yyInst(_inst,_other,global.gmlfx).gmlblood_drop,0.03,270);
 	part_type_color2(yyInst(_inst,_other,global.gmlfx).gmlblood_drop,1918393,2172769);
@@ -26291,11 +27094,11 @@ function gml_Script_anon_40_130_40_gml_Object_oGamePause_Create_0(_inst,_other)
 		global.gmlpause=true;
 		audio_pause_all();
 		audio_resume_sound(YYASSET_REF(0x0200001B));
-		instance_deactivate_object(_inst,YYASSET_REF(0x00000012));
+		instance_deactivate_object(_inst,YYASSET_REF(0x00000016));
 		instance_deactivate_all(_inst,true);
-		instance_activate_object(_inst,YYASSET_REF(0x00000033));
-		instance_activate_object(_inst,YYASSET_REF(0x0000000A));
-		instance_create_depth(0,0,0,YYASSET_REF(0x0000002D));
+		instance_activate_object(_inst,YYASSET_REF(0x00000037));
+		instance_activate_object(_inst,YYASSET_REF(0x0000000D));
+		instance_create_depth(0,0,0,YYASSET_REF(0x00000031));
 	}
 }
 
@@ -26306,14 +27109,14 @@ function gml_Script_anon_40_548_40_gml_Object_oGamePause_Create_0(_inst,_other)
 		global.gmlpause_input=false;
 		global.gmlpause=false;
 		audio_resume_all();
-		if(yyGetBool(instance_exists(YYASSET_REF(0x0000003F))))
+		if(yyGetBool(instance_exists(YYASSET_REF(0x00000043))))
 		{
-			instance_activate_object(_inst,YYASSET_REF(0x0000003F))		}
+			instance_activate_object(_inst,YYASSET_REF(0x00000043))		}
 		;
 		instance_activate_all(_inst);
 
 				{
-			var __yy__v88=GetWithArray(YYASSET_REF(0x0000002D));
+			var __yy__v88=GetWithArray(YYASSET_REF(0x00000031));
 			for(var __yy__v89 in __yy__v88)
 			{
 				if(!__yy__v88.hasOwnProperty(__yy__v89))continue;
@@ -26347,7 +27150,7 @@ function gml_Script_anon_40_785_40_gml_Object_oGamePause_Create_0(_inst,_other)
 		instance_activate_all(_inst);
 
 				{
-			var __yy__v94=GetWithArray(YYASSET_REF(0x0000002E));
+			var __yy__v94=GetWithArray(YYASSET_REF(0x00000032));
 			for(var __yy__v95 in __yy__v94)
 			{
 				if(!__yy__v94.hasOwnProperty(__yy__v95))continue;
@@ -26382,7 +27185,7 @@ function gml_Script_anon_40_1025_40_gml_Object_oGamePause_Create_0(_inst,_other)
 		instance_activate_all(_inst);
 
 				{
-			var __yy__v100=GetWithArray(YYASSET_REF(0x0000002E));
+			var __yy__v100=GetWithArray(YYASSET_REF(0x00000032));
 			for(var __yy__v101 in __yy__v100)
 			{
 				if(!__yy__v100.hasOwnProperty(__yy__v101))continue;
@@ -26396,7 +27199,7 @@ function gml_Script_anon_40_1025_40_gml_Object_oGamePause_Create_0(_inst,_other)
 
 function gml_Object_oGamePause_Step_0(_inst,_other)
 {
-	var gml_player_dead=(yyGetBool(instance_exists(YYASSET_REF(0x0000002F)))?(yyfequal(global.gmlspawn_state,0)?1:0):0);
+	var gml_player_dead=(yyGetBool(instance_exists(YYASSET_REF(0x00000033)))?(yyfequal(gml_Script_get_spawn_state(_inst,_other),0)?1:0):0);
 	global.gmlroom_enter_delay=(yyGetBool(global.gmlroom_enter_delay)?yyfminus(__yy_gml_errCheck(global.gmlroom_enter_delay),1):0);
 	_inst.gmlmanual_pause_delay=(yyGetBool(_inst.gmlmanual_pause_delay)?yyfminus(__yy_gml_errCheck(_inst.gmlmanual_pause_delay),1):0);
 	if(yyGetBool(global.gmlev_room_enter))
@@ -26416,7 +27219,7 @@ function gml_Object_oGamePause_Step_0(_inst,_other)
 	{
 		_inst.gmlcan_manual_pause=true	}
 	;
-	if((yyGetBool(instance_exists(YYASSET_REF(0x0000002D))))&&(yyGetBool(yyfnotequal(yyInst(_inst,_other,YYASSET_REF(0x0000002D)).gmlme_subs,"mainpause"))))
+	if((yyGetBool(instance_exists(YYASSET_REF(0x00000031))))&&(yyGetBool(yyfnotequal(yyInst(_inst,_other,YYASSET_REF(0x00000031)).gmlme_subs,"mainpause"))))
 	{
 		_inst.gmlmanual_pause_delay=5	}
 	;
@@ -26480,7 +27283,7 @@ function gml_Object_oGameSetup_Create_0(_inst,_other)
 	global.gmlplayer_1=(-4);
 	global.gmlrun_time_total=0;
 	global.gmlrun_enemies_killed=0;
-	global.gmlhp=__yy_gml_object_create(_inst,(global.gml___struct___58=__yy_method(_inst,gml_Script____struct___58_40_gml_Object_oGameSetup_Create_0)));
+	global.gmlhp=__yy_gml_object_create(_inst,(global.gml___struct___59=__yy_method(_inst,gml_Script____struct___59_40_gml_Object_oGameSetup_Create_0)));
 	global.gmlkillstreak=0;
 	_inst.gmlkillstreak_prev=0;
 	global.gmlkillstreak_timer=0;
@@ -26494,17 +27297,17 @@ function gml_Object_oGameSetup_Create_0(_inst,_other)
 	global.gmlrun_active=false;
 	_inst.gmlstart_run=false;
 	_inst.gmlrun_end_next=false;
-	instance_create_depth(0,0,0,YYASSET_REF(0x0000002B));
-	instance_create_depth(0,0,0,YYASSET_REF(0x0000002C));
-	instance_create_depth(0,0,0,YYASSET_REF(0x00000009));
+	instance_create_depth(0,0,0,YYASSET_REF(0x0000002F));
+	instance_create_depth(0,0,0,YYASSET_REF(0x00000030));
+	instance_create_depth(0,0,0,YYASSET_REF(0x0000000C));
+	instance_create_depth(0,0,0,YYASSET_REF(0x0000000E));
 	instance_create_depth(0,0,0,YYASSET_REF(0x0000000B));
-	instance_create_depth(0,0,0,YYASSET_REF(0x00000008));
-	instance_create_depth(0,0,0,YYASSET_REF(0x00000028));
+	instance_create_depth(0,0,0,YYASSET_REF(0x0000002C));
 	draw_set_font(global.gmlfontWhiS);
 	_inst.gmlrun_begin=__yy_method(_inst,gml_Script_anon_40_1294_40_gml_Object_oGameSetup_Create_0);
 }
 
-function gml_Script____struct___58_40_gml_Object_oGameSetup_Create_0(_inst,_other)
+function gml_Script____struct___59_40_gml_Object_oGameSetup_Create_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -26514,13 +27317,13 @@ function gml_Script____struct___58_40_gml_Object_oGameSetup_Create_0(_inst,_othe
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___58@gml_Object_oGameSetup_Create_0"	}
-	if(gml_Script____struct___58_40_gml_Object_oGameSetup_Create_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___59@gml_Object_oGameSetup_Create_0"	}
+	if(gml_Script____struct___59_40_gml_Object_oGameSetup_Create_0.prototype.__type===undefined)
 	{
-		gml_Script____struct___58_40_gml_Object_oGameSetup_Create_0.prototype.__type="gml_Script____struct___58@gml_Object_oGameSetup_Create_0"	}
+		gml_Script____struct___59_40_gml_Object_oGameSetup_Create_0.prototype.__type="gml_Script____struct___59@gml_Object_oGameSetup_Create_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___58_40_gml_Object_oGameSetup_Create_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___59_40_gml_Object_oGameSetup_Create_0.prototype);
 
 				{
 			_inst.gmlmaxhp=4;
@@ -26533,7 +27336,7 @@ function gml_Script____struct___58_40_gml_Object_oGameSetup_Create_0(_inst,_othe
 	}
 }
 
-function gml_Script____struct___59_40_anon_40_1294_40_gml_Object_oGameSetup_Create_0(_inst,_other)
+function gml_Script____struct___60_40_anon_40_1294_40_gml_Object_oGameSetup_Create_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -26543,13 +27346,13 @@ function gml_Script____struct___59_40_anon_40_1294_40_gml_Object_oGameSetup_Crea
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script____struct___59@anon@1294@gml_Object_oGameSetup_Create_0"	}
-	if(gml_Script____struct___59_40_anon_40_1294_40_gml_Object_oGameSetup_Create_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___60@anon@1294@gml_Object_oGameSetup_Create_0"	}
+	if(gml_Script____struct___60_40_anon_40_1294_40_gml_Object_oGameSetup_Create_0.prototype.__type===undefined)
 	{
-		gml_Script____struct___59_40_anon_40_1294_40_gml_Object_oGameSetup_Create_0.prototype.__type="gml_Script____struct___59@anon@1294@gml_Object_oGameSetup_Create_0"	}
+		gml_Script____struct___60_40_anon_40_1294_40_gml_Object_oGameSetup_Create_0.prototype.__type="gml_Script____struct___60@anon@1294@gml_Object_oGameSetup_Create_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___59_40_anon_40_1294_40_gml_Object_oGameSetup_Create_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___60_40_anon_40_1294_40_gml_Object_oGameSetup_Create_0.prototype);
 
 				{
 			_inst.gmlmaxhp=4;
@@ -26570,13 +27373,13 @@ function gml_Script_anon_40_1294_40_gml_Object_oGameSetup_Create_0(_inst,_other)
 
 				{
 			var gml_forceroom=false;
-			var ___sw242___=($$args.length-2);
-			var ___swc243___=-1;
-			if(yyCompareVal(___sw242___,1,g_GMLMathEpsilon,false)==0)
+			var ___sw250___=($$args.length-2);
+			var ___swc251___=-1;
+			if(yyCompareVal(___sw250___,1,g_GMLMathEpsilon,false)==0)
 			{
-				___swc243___=0;
+				___swc251___=0;
 			}
-			switch(___swc243___)
+			switch(___swc251___)
 			{
 				case 0:
 				{
@@ -26626,7 +27429,7 @@ function gml_Script_anon_40_1294_40_gml_Object_oGameSetup_Create_0(_inst,_other)
 			;
 			ds_list_clear(global.gmlall_rooms_entered);
 			ds_list_clear(global.gmlall_past_rooms);
-			global.gmlhp=__yy_gml_object_create(_inst,(global.gml___struct___59=__yy_method(_inst,gml_Script____struct___59_40_anon_40_1294_40_gml_Object_oGameSetup_Create_0)));
+			global.gmlhp=__yy_gml_object_create(_inst,(global.gml___struct___60=__yy_method(_inst,gml_Script____struct___60_40_anon_40_1294_40_gml_Object_oGameSetup_Create_0)));
 			global.gmlrun_enemies_killed=0;
 			global.gmlrun_time_total=0;
 			global.gmlrun_waves_total=0;
@@ -26673,11 +27476,11 @@ function gml_Object_oGameSetup_Step_0(_inst,_other)
 					{
 
 												{
-							if(yyGetBool(instance_exists(YYASSET_REF(0x0000002F))))
+							if(yyGetBool(instance_exists(YYASSET_REF(0x00000033))))
 							{
 
 																{
-									var __yy__v103=GetWithArray(YYASSET_REF(0x0000002F));
+									var __yy__v103=GetWithArray(YYASSET_REF(0x00000033));
 									for(var __yy__v104 in __yy__v103)
 									{
 										if(!__yy__v103.hasOwnProperty(__yy__v104))continue;
@@ -26702,6 +27505,10 @@ function gml_Object_oGameSetup_Step_0(_inst,_other)
 	}
 	;
 	yyInst(_inst,_other,global.gmlplayer_stats).gmltotal_played_time=(yyInst(_inst,_other,global.gmlplayer_stats).gmltotal_played_time instanceof Long?yyInst(_inst,_other,global.gmlplayer_stats).gmltotal_played_time.add(1):++yyInst(_inst,_other,global.gmlplayer_stats).gmltotal_played_time);
+	if(yyGetBool(keyboard_check_pressed(48)))
+	{
+		global.gmldebug=!yyGetBool(global.gmldebug)	}
+	;
 }
 
 function gml_Object_oGameSetup_Step_1(_inst,_other)
@@ -26723,7 +27530,7 @@ function gml_Object_oGameSetup_Step_1(_inst,_other)
 				}
 			}
 			;
-			var gml_current_character=YYASSET_REF(0x00000031);
+			var gml_current_character=YYASSET_REF(0x00000035);
 			var gml_player=instance_create_depth(yyfdivide(__yy_gml_errCheck(g_pBuiltIn.room_width),2),yyfdivide(__yy_gml_errCheck(g_pBuiltIn.room_height),2),0,gml_current_character);
 			yyInst(_inst,_other,gml_player).persistent=true;
 			global.gmlplayer_1=gml_player;
@@ -26740,7 +27547,7 @@ function gml_Object_oGameSetup_Step_1(_inst,_other)
 			global.gmlroom_time=0;
 			part_particles_clear(global.gmlfx_sys_front);
 			part_particles_clear(global.gmlfx_sys_bg);
-			if(yyGetBool(instance_exists(YYASSET_REF(0x0000003F))))
+			if(yyGetBool(instance_exists(YYASSET_REF(0x00000043))))
 			{
 
 								{
@@ -26748,7 +27555,7 @@ function gml_Object_oGameSetup_Step_1(_inst,_other)
 					{
 
 												{
-							var __yy__v109=GetWithArray(YYASSET_REF(0x0000003F));
+							var __yy__v109=GetWithArray(YYASSET_REF(0x00000043));
 							for(var __yy__v110 in __yy__v109)
 							{
 								if(!__yy__v109.hasOwnProperty(__yy__v110))continue;
@@ -26763,19 +27570,19 @@ function gml_Object_oGameSetup_Step_1(_inst,_other)
 					}
 					else 
 					{
-						if(yyGetBool(instance_exists(YYASSET_REF(0x0000004F))))
+						if(yyGetBool(instance_exists(YYASSET_REF(0x00000053))))
 						{
 
 														{
-								var __yy__v112=GetWithArray(YYASSET_REF(0x0000003F));
+								var __yy__v112=GetWithArray(YYASSET_REF(0x00000043));
 								for(var __yy__v113 in __yy__v112)
 								{
 									if(!__yy__v112.hasOwnProperty(__yy__v113))continue;
 									var __yy__v114=__yy__v112[__yy__v113];
 
 																		{
-										__yy__v114.x=yyInst(__yy__v114,_inst,YYASSET_REF(0x0000004F)).x;
-										__yy__v114.y=yyInst(__yy__v114,_inst,YYASSET_REF(0x0000004F)).y;
+										__yy__v114.x=yyInst(__yy__v114,_inst,YYASSET_REF(0x00000053)).x;
+										__yy__v114.y=yyInst(__yy__v114,_inst,YYASSET_REF(0x00000053)).y;
 									}
 								}
 							}
@@ -26801,15 +27608,15 @@ function gml_Object_oGameSetup_Step_1(_inst,_other)
 					global.gmlrun_rooms_total=(global.gmlrun_rooms_total instanceof Long?global.gmlrun_rooms_total.add(1):++global.gmlrun_rooms_total);
 
 										{
-						var __yy__v115=GetWithArray(YYASSET_REF(0x00000028));
+						var __yy__v115=GetWithArray(YYASSET_REF(0x0000002C));
 						for(var __yy__v116 in __yy__v115)
 						{
 							if(!__yy__v115.hasOwnProperty(__yy__v116))continue;
 							var __yy__v117=__yy__v115[__yy__v116];
 
 														{
-								__yy__v117.gmlview_x=yyInst(__yy__v117,_inst,YYASSET_REF(0x0000003F)).x;
-								__yy__v117.gmlview_y=yyInst(__yy__v117,_inst,YYASSET_REF(0x0000003F)).y;
+								__yy__v117.gmlview_x=yyInst(__yy__v117,_inst,YYASSET_REF(0x00000043)).x;
+								__yy__v117.gmlview_y=yyInst(__yy__v117,_inst,YYASSET_REF(0x00000043)).y;
 							}
 						}
 					}
@@ -26883,23 +27690,23 @@ function gml_Object_oGameSetup_Other_4(_inst,_other)
 {
 	if((yyGetBool(global.gmlrun_active))&&(yyGetBool(yyfnotequal(global.gmlroom_prev,g_pBuiltIn.get_current_room()))))
 	{
-		instance_create_depth(0,0,0,YYASSET_REF(0x00000024))	}
+		instance_create_depth(0,0,0,YYASSET_REF(0x00000028))	}
 	;
-	if((yyGetBool(global.gmlrun_active))&&(yyGetBool(!yyGetBool(instance_exists(YYASSET_REF(0x0000002F))))))
+	if((yyGetBool(global.gmlrun_active))&&(yyGetBool(!yyGetBool(instance_exists(YYASSET_REF(0x00000033))))))
 	{
-		instance_create_depth(0,0,0,YYASSET_REF(0x0000002F))	}
+		instance_create_depth(0,0,0,YYASSET_REF(0x00000033))	}
 	;
 	if(yyfequal(g_pBuiltIn.get_current_room(),YYASSET_REF(0x0300000A)))
 	{
 
 				{
-			if(!yyGetBool(instance_exists(YYASSET_REF(0x00000029))))
+			if(!yyGetBool(instance_exists(YYASSET_REF(0x0000002D))))
 			{
-				instance_create_depth(0,0,0,YYASSET_REF(0x00000029))			}
+				instance_create_depth(0,0,0,YYASSET_REF(0x0000002D))			}
 			;
 
 						{
-				var __yy__v118=GetWithArray(YYASSET_REF(0x00000028));
+				var __yy__v118=GetWithArray(YYASSET_REF(0x0000002C));
 				for(var __yy__v119 in __yy__v118)
 				{
 					if(!__yy__v118.hasOwnProperty(__yy__v119))continue;
@@ -26917,7 +27724,7 @@ function gml_Object_oGameSetup_Other_4(_inst,_other)
 	;
 
 		{
-		var __yy__v121=GetWithArray(YYASSET_REF(0x00000008));
+		var __yy__v121=GetWithArray(YYASSET_REF(0x0000000B));
 		for(var __yy__v122 in __yy__v121)
 		{
 			if(!__yy__v121.hasOwnProperty(__yy__v122))continue;
@@ -26942,7 +27749,7 @@ function gml_Object_oGameSetup_Draw_73(_inst,_other)
 				{
 
 						{
-				var __yy__v124=GetWithArray(YYASSET_REF(0x0000002F));
+				var __yy__v124=GetWithArray(YYASSET_REF(0x00000033));
 				for(var __yy__v125 in __yy__v124)
 				{
 					if(!__yy__v124.hasOwnProperty(__yy__v125))continue;
@@ -26997,7 +27804,7 @@ function gml_Object_oGameSetup_Draw_73(_inst,_other)
 	{
 
 				{
-			draw_text(yyfplus(__yy_gml_errCheck(gmlvx),128),yyfplus(__yy_gml_errCheck(gmlvy),32),yyfplus(yyfplus(yyfplus("extra stuff\n",__yy_gml_errCheck(__yy_InternalStringInterpolation("oEnemyBullet amount {0} \n",instance_number(YYASSET_REF(0x00000013))))),__yy_gml_errCheck(__yy_InternalStringInterpolation("player bullet amount {0}",instance_number(YYASSET_REF(0x00000042))))),__yy_gml_errCheck(__yy_InternalStringInterpolation("bullets drawn surface {0}",ds_list_size(global.gmlbullet_surf_list)))));
+			draw_text(yyfplus(__yy_gml_errCheck(gmlvx),128),yyfplus(__yy_gml_errCheck(gmlvy),32),yyfplus(yyfplus(yyfplus("extra stuff\n",__yy_gml_errCheck(__yy_InternalStringInterpolation("oEnemyBullet amount {0} \n",instance_number(YYASSET_REF(0x00000017))))),__yy_gml_errCheck(__yy_InternalStringInterpolation("player bullet amount {0}",instance_number(YYASSET_REF(0x00000046))))),__yy_gml_errCheck(__yy_InternalStringInterpolation("bullets drawn surface {0}",ds_list_size(global.gmlbullet_surf_list)))));
 		}
 	}
 	else 
@@ -27008,7 +27815,7 @@ function gml_Object_oGameSetup_Draw_73(_inst,_other)
 
 function gml_Object_oGameSpawner_Create_0(_inst,_other)
 {
-	_inst.gmlen_spawn=(__yy_gml_array_create([__yy_gml_object_create(_inst,(global.gml___struct___60=__yy_method(_inst,gml_Script____struct___60_40_gml_Object_oGameSpawner_Create_0))),__yy_gml_object_create(_inst,(global.gml___struct___61=__yy_method(_inst,gml_Script____struct___61_40_gml_Object_oGameSpawner_Create_0))),__yy_gml_object_create(_inst,(global.gml___struct___62=__yy_method(_inst,gml_Script____struct___62_40_gml_Object_oGameSpawner_Create_0))),__yy_gml_object_create(_inst,(global.gml___struct___63=__yy_method(_inst,gml_Script____struct___63_40_gml_Object_oGameSpawner_Create_0))),__yy_gml_object_create(_inst,(global.gml___struct___64=__yy_method(_inst,gml_Script____struct___64_40_gml_Object_oGameSpawner_Create_0))),__yy_gml_object_create(_inst,(global.gml___struct___65=__yy_method(_inst,gml_Script____struct___65_40_gml_Object_oGameSpawner_Create_0))),__yy_gml_object_create(_inst,(global.gml___struct___66=__yy_method(_inst,gml_Script____struct___66_40_gml_Object_oGameSpawner_Create_0))),__yy_gml_object_create(_inst,(global.gml___struct___67=__yy_method(_inst,gml_Script____struct___67_40_gml_Object_oGameSpawner_Create_0)))]));
+	_inst.gmlen_spawn=(__yy_gml_array_create([__yy_gml_object_create(_inst,(global.gml___struct___61=__yy_method(_inst,gml_Script____struct___61_40_gml_Object_oGameSpawner_Create_0))),__yy_gml_object_create(_inst,(global.gml___struct___62=__yy_method(_inst,gml_Script____struct___62_40_gml_Object_oGameSpawner_Create_0))),__yy_gml_object_create(_inst,(global.gml___struct___63=__yy_method(_inst,gml_Script____struct___63_40_gml_Object_oGameSpawner_Create_0))),__yy_gml_object_create(_inst,(global.gml___struct___64=__yy_method(_inst,gml_Script____struct___64_40_gml_Object_oGameSpawner_Create_0))),__yy_gml_object_create(_inst,(global.gml___struct___65=__yy_method(_inst,gml_Script____struct___65_40_gml_Object_oGameSpawner_Create_0))),__yy_gml_object_create(_inst,(global.gml___struct___66=__yy_method(_inst,gml_Script____struct___66_40_gml_Object_oGameSpawner_Create_0))),__yy_gml_object_create(_inst,(global.gml___struct___67=__yy_method(_inst,gml_Script____struct___67_40_gml_Object_oGameSpawner_Create_0))),__yy_gml_object_create(_inst,(global.gml___struct___68=__yy_method(_inst,gml_Script____struct___68_40_gml_Object_oGameSpawner_Create_0))),__yy_gml_object_create(_inst,(global.gml___struct___69=__yy_method(_inst,gml_Script____struct___69_40_gml_Object_oGameSpawner_Create_0)))]));
 	_inst.gmlen_spawn_max=array_length(_inst.gmlen_spawn);
 	_inst.gmlenemy_active=(__yy_gml_array_create([]));
 	_inst.gmlstate_current=3;
@@ -27028,37 +27835,12 @@ function gml_Object_oGameSpawner_Create_0(_inst,_other)
 	_inst.gmlwave_start=0;
 	_inst.gmlwave_end=1;
 	_inst.gmlwave_selected=(-1);
-	_inst.gmlwave_option=__yy_method(_inst,gml_Script_anon_40_991_40_gml_Object_oGameSpawner_Create_0);
+	_inst.gmlwave_option=__yy_method(_inst,gml_Script_anon_40_1026_40_gml_Object_oGameSpawner_Create_0);
 	_inst.gmlall_wave_options=(__yy_gml_array_create([]));
 	_inst.gmlwave_option_selected=__yy_gml_object_create(_inst,__yyg_call_method(_inst.gmlwave_option),0,0,0);
 	_inst.gmlwave_killstreak_perfect=false;
 	_inst.gmlwave_no_hit=false;
 	_inst.gmlwave_spawn_extra=true;
-}
-
-function gml_Script____struct___60_40_gml_Object_oGameSpawner_Create_0(_inst,_other)
-{
-	if((--_inst.__yyCreatedByNew)<0)
-	{
-
-				{
-			yyError("calling a constructor directly - constructors should only be called using new")		}
-	}
-	if(_inst.__yyIsGMLObject)
-	{
-		_inst.__type="gml_Script____struct___60@gml_Object_oGameSpawner_Create_0"	}
-	if(gml_Script____struct___60_40_gml_Object_oGameSpawner_Create_0.prototype.__type===undefined)
-	{
-		gml_Script____struct___60_40_gml_Object_oGameSpawner_Create_0.prototype.__type="gml_Script____struct___60@gml_Object_oGameSpawner_Create_0"	}
-
-		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___60_40_gml_Object_oGameSpawner_Create_0.prototype);
-
-				{
-			_inst.gmlenemy=YYASSET_REF(0x0000001C);
-			_inst.gmlspawn_on_floor=true;
-		}
-	}
 }
 
 function gml_Script____struct___61_40_gml_Object_oGameSpawner_Create_0(_inst,_other)
@@ -27080,7 +27862,8 @@ function gml_Script____struct___61_40_gml_Object_oGameSpawner_Create_0(_inst,_ot
 		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___61_40_gml_Object_oGameSpawner_Create_0.prototype);
 
 				{
-			_inst.gmlenemy=YYASSET_REF(0x0000000D);
+			_inst.gmlenemy=YYASSET_REF(0x00000020);
+			_inst.gmlspawn_on_floor=true;
 		}
 	}
 }
@@ -27104,7 +27887,7 @@ function gml_Script____struct___62_40_gml_Object_oGameSpawner_Create_0(_inst,_ot
 		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___62_40_gml_Object_oGameSpawner_Create_0.prototype);
 
 				{
-			_inst.gmlenemy=YYASSET_REF(0x00000017);
+			_inst.gmlenemy=YYASSET_REF(0x00000011);
 		}
 	}
 }
@@ -27128,7 +27911,7 @@ function gml_Script____struct___63_40_gml_Object_oGameSpawner_Create_0(_inst,_ot
 		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___63_40_gml_Object_oGameSpawner_Create_0.prototype);
 
 				{
-			_inst.gmlenemy=YYASSET_REF(0x00000011);
+			_inst.gmlenemy=YYASSET_REF(0x0000001B);
 		}
 	}
 }
@@ -27152,7 +27935,7 @@ function gml_Script____struct___64_40_gml_Object_oGameSpawner_Create_0(_inst,_ot
 		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___64_40_gml_Object_oGameSpawner_Create_0.prototype);
 
 				{
-			_inst.gmlenemy=YYASSET_REF(0x00000016);
+			_inst.gmlenemy=YYASSET_REF(0x00000015);
 		}
 	}
 }
@@ -27176,9 +27959,7 @@ function gml_Script____struct___65_40_gml_Object_oGameSpawner_Create_0(_inst,_ot
 		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___65_40_gml_Object_oGameSpawner_Create_0.prototype);
 
 				{
-			_inst.gmlenemy=YYASSET_REF(0x0000000E);
-			_inst.gmlmax_spawn=1;
-			_inst.gmlrand_reroll=25;
+			_inst.gmlenemy=YYASSET_REF(0x0000001A);
 		}
 	}
 }
@@ -27202,7 +27983,7 @@ function gml_Script____struct___66_40_gml_Object_oGameSpawner_Create_0(_inst,_ot
 		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___66_40_gml_Object_oGameSpawner_Create_0.prototype);
 
 				{
-			_inst.gmlenemy=YYASSET_REF(0x0000000F);
+			_inst.gmlenemy=YYASSET_REF(0x00000012);
 			_inst.gmlmax_spawn=1;
 			_inst.gmlrand_reroll=25;
 		}
@@ -27228,13 +28009,14 @@ function gml_Script____struct___67_40_gml_Object_oGameSpawner_Create_0(_inst,_ot
 		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___67_40_gml_Object_oGameSpawner_Create_0.prototype);
 
 				{
-			_inst.gmlenemy=YYASSET_REF(0x00000018);
-			_inst.gmlrand_reroll=5;
+			_inst.gmlenemy=YYASSET_REF(0x00000013);
+			_inst.gmlmax_spawn=1;
+			_inst.gmlrand_reroll=25;
 		}
 	}
 }
 
-function gml_Script_anon_40_991_40_gml_Object_oGameSpawner_Create_0(_inst,_other,argument0,argument1,argument2)
+function gml_Script____struct___68_40_gml_Object_oGameSpawner_Create_0(_inst,_other)
 {
 	if((--_inst.__yyCreatedByNew)<0)
 	{
@@ -27244,13 +28026,63 @@ function gml_Script_anon_40_991_40_gml_Object_oGameSpawner_Create_0(_inst,_other
 	}
 	if(_inst.__yyIsGMLObject)
 	{
-		_inst.__type="gml_Script_anon@991@gml_Object_oGameSpawner_Create_0"	}
-	if(gml_Script_anon_40_991_40_gml_Object_oGameSpawner_Create_0.prototype.__type===undefined)
+		_inst.__type="gml_Script____struct___68@gml_Object_oGameSpawner_Create_0"	}
+	if(gml_Script____struct___68_40_gml_Object_oGameSpawner_Create_0.prototype.__type===undefined)
 	{
-		gml_Script_anon_40_991_40_gml_Object_oGameSpawner_Create_0.prototype.__type="gml_Script_anon@991@gml_Object_oGameSpawner_Create_0"	}
+		gml_Script____struct___68_40_gml_Object_oGameSpawner_Create_0.prototype.__type="gml_Script____struct___68@gml_Object_oGameSpawner_Create_0"	}
 
 		{
-		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script_anon_40_991_40_gml_Object_oGameSpawner_Create_0.prototype);
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___68_40_gml_Object_oGameSpawner_Create_0.prototype);
+
+				{
+			_inst.gmlenemy=YYASSET_REF(0x0000001C);
+			_inst.gmlspawn_on_floor=true;
+			_inst.gmlrand_reroll=5;
+		}
+	}
+}
+
+function gml_Script____struct___69_40_gml_Object_oGameSpawner_Create_0(_inst,_other)
+{
+	if((--_inst.__yyCreatedByNew)<0)
+	{
+
+				{
+			yyError("calling a constructor directly - constructors should only be called using new")		}
+	}
+	if(_inst.__yyIsGMLObject)
+	{
+		_inst.__type="gml_Script____struct___69@gml_Object_oGameSpawner_Create_0"	}
+	if(gml_Script____struct___69_40_gml_Object_oGameSpawner_Create_0.prototype.__type===undefined)
+	{
+		gml_Script____struct___69_40_gml_Object_oGameSpawner_Create_0.prototype.__type="gml_Script____struct___69@gml_Object_oGameSpawner_Create_0"	}
+
+		{
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script____struct___69_40_gml_Object_oGameSpawner_Create_0.prototype);
+
+				{
+			_inst.gmlenemy=YYASSET_REF(0x0000000F);
+		}
+	}
+}
+
+function gml_Script_anon_40_1026_40_gml_Object_oGameSpawner_Create_0(_inst,_other,argument0,argument1,argument2)
+{
+	if((--_inst.__yyCreatedByNew)<0)
+	{
+
+				{
+			yyError("calling a constructor directly - constructors should only be called using new")		}
+	}
+	if(_inst.__yyIsGMLObject)
+	{
+		_inst.__type="gml_Script_anon@1026@gml_Object_oGameSpawner_Create_0"	}
+	if(gml_Script_anon_40_1026_40_gml_Object_oGameSpawner_Create_0.prototype.__type===undefined)
+	{
+		gml_Script_anon_40_1026_40_gml_Object_oGameSpawner_Create_0.prototype.__type="gml_Script_anon@1026@gml_Object_oGameSpawner_Create_0"	}
+
+		{
+		if(_inst.__yyIsGMLObject)Object.setPrototypeOf(_inst,gml_Script_anon_40_1026_40_gml_Object_oGameSpawner_Create_0.prototype);
 
 				{
 			_inst.gmlwave_id=argument0;
@@ -27276,30 +28108,30 @@ function gml_Object_oGameSpawner_Step_0(_inst,_other)
 		}
 	}
 	;
-	if((yyGetBool(!yyGetBool(instance_exists(YYASSET_REF(0x0000003F)))))&&(yyGetBool(yyfnotequal(_inst.gmlstate_current,0))))
+	if((yyGetBool(!yyGetBool(instance_exists(YYASSET_REF(0x00000043)))))&&(yyGetBool(yyfnotequal(_inst.gmlstate_current,0))))
 	{
 		_inst.gmlstate_current=0	}
 	;
 	var gml_spawn_zone_new=yyfnotequal(_inst.gmlspawn_zone_prev,global.gmlspawn_zone_current);
-	var ___sw246___=_inst.gmlstate_current;
-	var ___swc247___=-1;
-	if(yyCompareVal(___sw246___,1,g_GMLMathEpsilon,false)==0)
+	var ___sw254___=_inst.gmlstate_current;
+	var ___swc255___=-1;
+	if(yyCompareVal(___sw254___,1,g_GMLMathEpsilon,false)==0)
 	{
-		___swc247___=0;
+		___swc255___=0;
 	}
-	else if(yyCompareVal(___sw246___,2,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw254___,2,g_GMLMathEpsilon,false)==0)
 	{
-		___swc247___=1;
+		___swc255___=1;
 	}
-	else if(yyCompareVal(___sw246___,3,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw254___,3,g_GMLMathEpsilon,false)==0)
 	{
-		___swc247___=2;
+		___swc255___=2;
 	}
-	else if(yyCompareVal(___sw246___,0,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw254___,0,g_GMLMathEpsilon,false)==0)
 	{
-		___swc247___=3;
+		___swc255___=3;
 	}
-	switch(___swc247___)
+	switch(___swc255___)
 	{
 		case 0:
 		{
@@ -27348,7 +28180,7 @@ function gml_Object_oGameSpawner_Step_0(_inst,_other)
 					;
 					_inst.gmlspawn_posx=irandom_range(yyfplus(__yy_gml_errCheck(gml_spawn_xpos),80),yyfminus(__yy_gml_errCheck(gml_spawn_width),80));
 					_inst.gmlspawn_posy=irandom_range(gml_spawn_ypos,yyfminus(__yy_gml_errCheck(gml_spawn_height),64));
-					while(yyGetBool(collision_circle(_inst,_inst.gmlspawn_posx,_inst.gmlspawn_posy,32,YYASSET_REF(0x00000054),0,1))) 
+					while(yyGetBool(collision_circle(_inst,_inst.gmlspawn_posx,_inst.gmlspawn_posy,32,YYASSET_REF(0x00000058),0,1))) 
 					{
 
 												{
@@ -27361,7 +28193,7 @@ function gml_Object_oGameSpawner_Step_0(_inst,_other)
 					{
 
 												{
-							while(!yyGetBool(collision_point(_inst,_inst.gmlspawn_posx,yyfplus(__yy_gml_errCheck(_inst.gmlspawn_posy),8),YYASSET_REF(0x00000054),0,1))) 
+							while(!yyGetBool(collision_point(_inst,_inst.gmlspawn_posx,yyfplus(__yy_gml_errCheck(_inst.gmlspawn_posy),8),YYASSET_REF(0x00000058),0,1))) 
 							{
 								_inst.gmlspawn_posy=(_inst.gmlspawn_posy instanceof Long?_inst.gmlspawn_posy.add(1):++_inst.gmlspawn_posy)							}
 							;
@@ -27369,19 +28201,19 @@ function gml_Object_oGameSpawner_Step_0(_inst,_other)
 					}
 					;
 					var gml_en=instance_create_depth(_inst.gmlspawn_posx,_inst.gmlspawn_posy,0,yyInst(_inst,_other,_inst.gmlen_spawn[__yy_gml_array_check_index(_inst.gmlspawn_select_ent,_inst.gmlen_spawn)]).gmlenemy);
-					var gml_spfx=instance_create_depth(_inst.gmlspawn_posx,_inst.gmlspawn_posy,0,YYASSET_REF(0x0000004D));
+					var gml_spfx=instance_create_depth(_inst.gmlspawn_posx,_inst.gmlspawn_posy,0,YYASSET_REF(0x00000051));
 					yyInst(_inst,_other,gml_spfx).gmlenemy_id=gml_en;
 					if(yyGetBool(gml_surprise_spawn))
 					{
 
 												{
 							yyInst(_inst,_other,gml_spfx).gmlshow_timer=90;
-							yyInst(_inst,_other,gml_spfx).gmlspawn_timer=yyfplus(__yy_gml_errCheck(yyInst(_inst,_other,gml_spfx).gmlshow_timer),20);
+							yyInst(_inst,_other,gml_spfx).gmlspawn_timer=120;
 						}
 					}
 					else 
 					{
-						yyInst(_inst,_other,gml_spfx).gmlspawn_timer=yyfplus(yyfplus(__yy_gml_errCheck(yyInst(_inst,_other,gml_spfx).gmlshow_timer),__yy_gml_errCheck(yyftime(30,__yy_gml_errCheck(gmli)))),20)					}
+						yyInst(_inst,_other,gml_spfx).gmlspawn_timer=yyfplus(90,__yy_gml_errCheck(yyftime(45,__yy_gml_errCheck(gmli))))					}
 					;
 					array_push(_inst.gmlenemy_active,yyInst(_inst,_other,gml_en).id);
 					_inst.gmlspawn_timer=yyfplus(__yy_gml_errCheck(_inst.gmlspawn_antic_time),1);
@@ -27401,7 +28233,7 @@ function gml_Object_oGameSpawner_Step_0(_inst,_other)
 								{
 					var gml_xside=choose(0,1);
 					var gml_xpos=(yyGetBool(gml_xside)?gml_spawn_xpos:gml_spawn_width);
-					var gml_item=instance_create_depth(gml_xpos,yyfplus(yyfplus(__yy_gml_errCheck(gml_spawn_ypos),80),__yy_gml_errCheck(irandom_range((-16),32))),0,YYASSET_REF(0x00000030));
+					var gml_item=instance_create_depth(gml_xpos,yyfplus(yyfplus(__yy_gml_errCheck(gml_spawn_ypos),80),__yy_gml_errCheck(irandom_range((-16),32))),0,YYASSET_REF(0x00000034));
 					yyInst(_inst,_other,gml_item).gmlxvel=(yyGetBool(gml_xside)?3:(-3));
 					yyInst(_inst,_other,gml_item).gmlm_dir=(yyGetBool(gml_xside)?1:(-1));
 				}
@@ -27413,7 +28245,7 @@ function gml_Object_oGameSpawner_Step_0(_inst,_other)
 								{
 					var gml_xside=choose(0,1);
 					var gml_xpos=(yyGetBool(gml_xside)?gml_spawn_xpos:gml_spawn_width);
-					var gml_item=instance_create_depth(gml_xpos,yyfplus(yyfplus(__yy_gml_errCheck(gml_spawn_ypos),16),__yy_gml_errCheck(irandom_range(0,16))),0,YYASSET_REF(0x00000014));
+					var gml_item=instance_create_depth(gml_xpos,yyfplus(yyfplus(__yy_gml_errCheck(gml_spawn_ypos),16),__yy_gml_errCheck(irandom_range(0,16))),0,YYASSET_REF(0x00000018));
 					yyInst(_inst,_other,gml_item).gmlxvel=(yyGetBool(gml_xside)?1.6:(-1.6));
 					yyInst(_inst,_other,gml_item).gmlm_dir=(yyGetBool(gml_xside)?1:(-1));
 				}
@@ -27471,7 +28303,7 @@ function gml_Object_oGameSpawner_Step_0(_inst,_other)
 						{
 
 														{
-								var gml_msg=instance_create_depth(yyInst(_inst,_other,_inst.gmlspawn_zone_prev).x,yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlspawn_zone_prev).y),48),0,YYASSET_REF(0x00000022));
+								var gml_msg=instance_create_depth(yyInst(_inst,_other,_inst.gmlspawn_zone_prev).x,yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlspawn_zone_prev).y),48),0,YYASSET_REF(0x00000026));
 								yyInst(_inst,_other,gml_msg).gmlfx_text=__yy_InternalStringInterpolation("WAVE {0} DEFEATED",_inst.gmlwave_current);
 								yyInst(_inst,_other,gml_msg).gmltimer=120;
 								if((yyGetBool(_inst.gmlwave_killstreak_perfect))||(yyGetBool(yyfgreaterequal(global.gmlkillstreak,5))))
@@ -27480,13 +28312,13 @@ function gml_Object_oGameSpawner_Step_0(_inst,_other)
 																		{
 										if(yyGetBool(_inst.gmlwave_killstreak_perfect))
 										{
-											instance_create_depth(yyfplus(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlspawn_zone_prev).x),16),yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlspawn_zone_prev).y),32),0,gml_Script_choose_weighted(_inst,_other,(__yy_gml_array_create([10,YYASSET_REF(0x0000003A)])),(__yy_gml_array_create([10,YYASSET_REF(0x00000039)])),(__yy_gml_array_create([6,YYASSET_REF(0x0000003B)])),(__yy_gml_array_create([6,YYASSET_REF(0x0000003C)])),(__yy_gml_array_create([4,YYASSET_REF(0x0000003D)]))))										}
+											instance_create_depth(yyfplus(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlspawn_zone_prev).x),16),yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlspawn_zone_prev).y),32),0,gml_Script_choose_weighted(_inst,_other,(__yy_gml_array_create([10,YYASSET_REF(0x0000003E)])),(__yy_gml_array_create([10,YYASSET_REF(0x0000003D)])),(__yy_gml_array_create([6,YYASSET_REF(0x0000003F)])),(__yy_gml_array_create([6,YYASSET_REF(0x00000040)])),(__yy_gml_array_create([4,YYASSET_REF(0x00000041)]))))										}
 										else 
 										{
-											instance_create_depth(yyfplus(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlspawn_zone_prev).x),16),yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlspawn_zone_prev).y),32),0,YYASSET_REF(0x0000003A))										}
+											instance_create_depth(yyfplus(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlspawn_zone_prev).x),16),yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlspawn_zone_prev).y),32),0,YYASSET_REF(0x0000003E))										}
 										;
 										part_particles_create(global.gmlfx_sys_bg,yyfplus(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlspawn_zone_prev).x),16),yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlspawn_zone_prev).y),32),yyInst(_inst,_other,global.gmlfx).gmlsmokecloud_reg,3);
-										var gml_msg_str=instance_create_depth(yyInst(_inst,_other,_inst.gmlspawn_zone_prev).x,yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlspawn_zone_prev).y),32),0,YYASSET_REF(0x00000022));
+										var gml_msg_str=instance_create_depth(yyInst(_inst,_other,_inst.gmlspawn_zone_prev).x,yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlspawn_zone_prev).y),32),0,YYASSET_REF(0x00000026));
 										yyInst(_inst,_other,gml_msg_str).gmlfx_text=(yyGetBool(_inst.gmlwave_killstreak_perfect)?"Perfect!":"Nice!");
 										yyInst(_inst,_other,gml_msg_str).gmltimer=120;
 										yyInst(_inst,_other,gml_msg_str).gmlfx_text_font=global.gmlfontWhiM;
@@ -27498,19 +28330,19 @@ function gml_Object_oGameSpawner_Step_0(_inst,_other)
 								{
 
 																		{
-										var gml_msg_str=instance_create_depth(yyInst(_inst,_other,_inst.gmlspawn_zone_prev).x,yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlspawn_zone_prev).y),16),0,YYASSET_REF(0x00000022));
+										var gml_msg_str=instance_create_depth(yyInst(_inst,_other,_inst.gmlspawn_zone_prev).x,yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlspawn_zone_prev).y),16),0,YYASSET_REF(0x00000026));
 										yyInst(_inst,_other,gml_msg_str).gmlfx_text="Flawless!";
 										yyInst(_inst,_other,gml_msg_str).gmltimer=120;
 										yyInst(_inst,_other,gml_msg_str).gmlfx_text_font=global.gmlfontWhiM;
 										_inst.gmlwave_no_hit=false;
-										instance_create_depth(yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlspawn_zone_prev).x),16),yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlspawn_zone_prev).y),32),0,gml_Script_choose_weighted(_inst,_other,(__yy_gml_array_create([10,YYASSET_REF(0x0000003A)])),(__yy_gml_array_create([10,YYASSET_REF(0x00000039)])),(__yy_gml_array_create([6,YYASSET_REF(0x0000003B)])),(__yy_gml_array_create([6,YYASSET_REF(0x0000003C)])),(__yy_gml_array_create([4,YYASSET_REF(0x0000003D)]))));
+										instance_create_depth(yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlspawn_zone_prev).x),16),yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlspawn_zone_prev).y),32),0,gml_Script_choose_weighted(_inst,_other,(__yy_gml_array_create([10,YYASSET_REF(0x0000003E)])),(__yy_gml_array_create([10,YYASSET_REF(0x0000003D)])),(__yy_gml_array_create([6,YYASSET_REF(0x0000003F)])),(__yy_gml_array_create([6,YYASSET_REF(0x00000040)])),(__yy_gml_array_create([4,YYASSET_REF(0x00000041)]))));
 										part_particles_create(global.gmlfx_sys_bg,yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlspawn_zone_prev).x),16),yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,_inst.gmlspawn_zone_prev).y),32),yyInst(_inst,_other,global.gmlfx).gmlsmokecloud_reg,3);
 									}
 								}
 								;
 
 																{
-									var __yy__v127=GetWithArray(YYASSET_REF(0x0000002E));
+									var __yy__v127=GetWithArray(YYASSET_REF(0x00000032));
 									for(var __yy__v128 in __yy__v127)
 									{
 										if(!__yy__v127.hasOwnProperty(__yy__v128))continue;
@@ -27526,7 +28358,7 @@ function gml_Object_oGameSpawner_Step_0(_inst,_other)
 								_inst.gmlwave_end=true;
 								_inst.gmlwave_current=yyfplus(_inst.gmlwave_current,1);
 								global.gmlrun_waves_total=yyfplus(global.gmlrun_waves_total,1);
-								var gml_sfx=gml_Script_audio_play_sfx(_inst,_other,YYASSET_REF(0x02000028),YYASSET_REF(0x02000028));
+								var gml_sfx=gml_Script_audio_play_sfx(_inst,_other,YYASSET_REF(0x02000029),YYASSET_REF(0x02000029));
 								audio_sound_gain(gml_sfx,0.4,0);
 								_inst.gmlstate_current=3;
 							}
@@ -27604,7 +28436,7 @@ function gml_Object_oGameSpawner_Step_0(_inst,_other)
 									{
 
 																				{
-											var gml_sp=instance_create_depth(yyInst(_inst,_other,global.gmlspawn_zone_current).x,0,0,YYASSET_REF(0x00000055));
+											var gml_sp=instance_create_depth(yyInst(_inst,_other,global.gmlspawn_zone_current).x,0,0,YYASSET_REF(0x00000059));
 											yyInst(_inst,_other,gml_sp).gmlspawn_wave_info=variable_clone(_inst.gmlall_wave_options[__yy_gml_array_check_index(gml_i,_inst.gmlall_wave_options)]);
 											gml_Script_move_x(_inst,_other,yyInst(_inst,_other,_inst.gmlall_wave_options[__yy_gml_array_check_index(gml_i,_inst.gmlall_wave_options)]).gmltrigger_xoff,gml_sp);
 											gml_Script_move_y(_inst,_other,g_pBuiltIn.room_height,gml_sp,false);
@@ -27626,7 +28458,7 @@ function gml_Object_oGameSpawner_Step_0(_inst,_other)
 								{
 
 										{
-						var __yy__v130=GetWithArray(YYASSET_REF(0x00000055));
+						var __yy__v130=GetWithArray(YYASSET_REF(0x00000059));
 						for(var __yy__v131 in __yy__v130)
 						{
 							if(!__yy__v130.hasOwnProperty(__yy__v131))continue;
@@ -27645,7 +28477,7 @@ function gml_Object_oGameSpawner_Step_0(_inst,_other)
 					_inst.gmlall_wave_options=(__yy_gml_array_create([]));
 					_inst.gmlwave_start=true;
 					_inst.gmlstate_current=2;
-					gml_Script_audio_play_sfx(_inst,_other,YYASSET_REF(0x02000027));
+					gml_Script_audio_play_sfx(_inst,_other,YYASSET_REF(0x02000028));
 				}
 			}
 			;
@@ -27659,7 +28491,7 @@ function gml_Object_oGameSpawner_Step_0(_inst,_other)
 								{
 					_inst.gmlstate_is_new=!yyGetBool(_inst.gmlstate_is_new);
 					global.gmlspawn_state=_inst.gmlstate_current;
-					instance_create_depth(0,0,0,YYASSET_REF(0x0000002A));
+					instance_create_depth(0,0,0,YYASSET_REF(0x0000002E));
 				}
 			}
 			;
@@ -27680,18 +28512,18 @@ function gml_Object_oGameSpawner_Step_1(_inst,_other)
 		}
 	}
 	;
-	if((yyGetBool(instance_exists(YYASSET_REF(0x0000003F))))&&(yyGetBool(yyfequal(_inst.gmlstate_current,3))))
+	if((yyGetBool(instance_exists(YYASSET_REF(0x00000043))))&&(yyGetBool(yyfequal(_inst.gmlstate_current,3))))
 	{
 
 				{
 
 						{
-				var __yy__v133=GetWithArray(YYASSET_REF(0x0000003F));
+				var __yy__v133=GetWithArray(YYASSET_REF(0x00000043));
 				for(var __yy__v134 in __yy__v133)
 				{
 					if(!__yy__v133.hasOwnProperty(__yy__v134))continue;
 					var __yy__v135=__yy__v133[__yy__v134];
-					global.gmlspawn_zone_current=collision_point(__yy__v135,__yy__v135.x,__yy__v135.y,YYASSET_REF(0x0000004E),0,1)				}
+					global.gmlspawn_zone_current=collision_point(__yy__v135,__yy__v135.x,__yy__v135.y,YYASSET_REF(0x00000052),0,1)				}
 			}
 			;
 		}
@@ -27706,27 +28538,52 @@ function gml_Object_oGameSpawner_Draw_73(_inst,_other)
 function gml_Object_oGiftFlying_Create_0(_inst,_other)
 {
 	gml_Script_prop_init(_inst,_other);
+	_inst.gmlent_no_collision=true;
 	_inst.gmlm_spd=0.5;
 	_inst.gmlm_dir=1;
-	_inst.gmlitem_inside=gml_Script_choose_weighted(_inst,_other,(__yy_gml_array_create([6,YYASSET_REF(0x0000003A)])),(__yy_gml_array_create([3,YYASSET_REF(0x0000003B)])),(__yy_gml_array_create([5,YYASSET_REF(0x0000003C)])));
+	_inst.gmlhit_did=false;
+	_inst.gmlitem_inside=gml_Script_choose_weighted(_inst,_other,(__yy_gml_array_create([6,YYASSET_REF(0x0000003E)])),(__yy_gml_array_create([3,YYASSET_REF(0x0000003F)])),(__yy_gml_array_create([5,YYASSET_REF(0x00000040)])));
 	_inst.gmlactive=false;
-	_inst.gmlhurt_callback=__yy_method(_inst,gml_Script_anon_40_189_40_gml_Object_oGiftFlying_Create_0);
+	_inst.gmlhurt_callback=__yy_method(_inst,gml_Script_anon_40_234_40_gml_Object_oGiftFlying_Create_0);
+	_inst.gmllimit_timer=0;
 	_inst.gmlfx_timer=0;
 	_inst.image_speed=0;
+	_inst.gmldraw_event=__yy_method(_inst,gml_Script_anon_40_554_40_gml_Object_oGiftFlying_Create_0);
 }
 
-function gml_Script_anon_40_189_40_gml_Object_oGiftFlying_Create_0(_inst,_other,argument0)
+function gml_Script_anon_40_234_40_gml_Object_oGiftFlying_Create_0(_inst,_other,argument0)
 {
 
 		{
-		if(yyfequal(yyInst(_inst,_other,argument0).gmlent_type,4))
+		if(!yyGetBool(_inst.gmlhit_did))
 		{
-			yyInst(_inst,_other,argument0).gmlhit_did=true		}
+
+						{
+				var gml_item=instance_create_depth(_inst.x,_inst.y,0,_inst.gmlitem_inside);
+				yyInst(_inst,_other,gml_item).gmlyvel=(-1.2);
+				_inst.gmlhit_did=true;
+				gml_Script_audio_play_sfx(_inst,_other,YYASSET_REF(0x02000000),YYASSET_REF(0x02000000));
+			}
+		}
 		;
-		instance_destroy(_inst);
-		var gml_item=instance_create_depth(_inst.x,_inst.y,0,_inst.gmlitem_inside);
-		yyInst(_inst,_other,gml_item).gmlyvel=(-1.2);
-		gml_Script_audio_play_sfx(_inst,_other,YYASSET_REF(0x02000000),YYASSET_REF(0x02000000));
+	}
+}
+
+function gml_Script_anon_40_554_40_gml_Object_oGiftFlying_Create_0(_inst,_other)
+{
+
+		{
+		_inst.gmlfx_flash=(yyGetBool(_inst.gmlfx_flash)?yyfminus(__yy_gml_errCheck(_inst.gmlfx_flash),1):0);
+		if(yyGetBool(_inst.gmlfx_flash))
+		{
+			shader_set(YYASSET_REF(0x08000002))		}
+		;
+		var gml_xc=yyfplus(1,__yy_gml_errCheck(yyftime(__yy_gml_errCheck(dsin(yyftime(__yy_gml_errCheck(_inst.gmlfx_timer),2))),0.1)));
+		var gml_yc=yyfminus(1,__yy_gml_errCheck(yyftime(__yy_gml_errCheck(dsin(yyftime(__yy_gml_errCheck(_inst.gmlfx_timer),2))),0.1)));
+		draw_sprite_ext(_inst,YYASSET_REF(0x01000013),yyfdivide(__yy_gml_errCheck(_inst.gmlfx_timer),2),yyfplus(__yy_gml_errCheck(_inst.x),4),yyfminus(__yy_gml_errCheck(_inst.y),4),1,1,0,(-1),1);
+		draw_sprite_ext(_inst,YYASSET_REF(0x01000013),yyfdivide(__yy_gml_errCheck(_inst.gmlfx_timer),2),yyfminus(__yy_gml_errCheck(_inst.x),4),yyfminus(__yy_gml_errCheck(_inst.y),4),(-1),1,0,(-1),1);
+		draw_sprite_ext(_inst,_inst.sprite_index,_inst.image_index,_inst.x,_inst.y,gml_xc,gml_yc,0,(-1),1);
+		shader_reset();
 	}
 }
 
@@ -27740,19 +28597,18 @@ function gml_Object_oGiftFlying_Step_0(_inst,_other)
 		}
 	}
 	;
+	if((yyGetBool(yyfless(gml_Script_get_spawn_limits(_inst,_other,1),_inst.x)))||(yyGetBool(yyfgreater(gml_Script_get_spawn_limits(_inst,_other,0),_inst.x))))
+	{
+		_inst.gmllimit_timer=(_inst.gmllimit_timer instanceof Long?_inst.gmllimit_timer.add(1):++_inst.gmllimit_timer)	}
+	;
+	if((yyGetBool(_inst.gmlhit_did))||(yyGetBool(yyfgreater(_inst.gmllimit_timer,20))))
+	{
+		instance_destroy(_inst)	}
+	;
 	_inst.gmlxvel=gml_Script_approach(_inst,_other,_inst.gmlxvel,yyftime(__yy_gml_errCheck(_inst.gmlm_dir),__yy_gml_errCheck(_inst.gmlm_spd)),0.02);
 	_inst.gmlyvel=gml_Script_approach(_inst,_other,_inst.gmlyvel,yyftime(__yy_gml_errCheck(__yy_gml_errCheck(-__yy_gml_errCheck(dsin(yyftime(__yy_gml_errCheck(_inst.gmlfx_timer),1.4))))),0.5),0.12);
 	_inst.gmlfx_timer=(_inst.gmlfx_timer instanceof Long?_inst.gmlfx_timer.add(1):++_inst.gmlfx_timer);
-	gml_Script_ent_move_collide(_inst,_other,(-1),2);
-}
-
-function gml_Object_oGiftFlying_Draw_0(_inst,_other)
-{
-	var gml_xc=yyfplus(1,__yy_gml_errCheck(yyftime(__yy_gml_errCheck(dsin(yyftime(__yy_gml_errCheck(_inst.gmlfx_timer),2))),0.1)));
-	var gml_yc=yyfminus(1,__yy_gml_errCheck(yyftime(__yy_gml_errCheck(dsin(yyftime(__yy_gml_errCheck(_inst.gmlfx_timer),2))),0.1)));
-	draw_sprite_ext(_inst,YYASSET_REF(0x01000012),yyfdivide(__yy_gml_errCheck(_inst.gmlfx_timer),2),yyfplus(__yy_gml_errCheck(_inst.x),4),yyfminus(__yy_gml_errCheck(_inst.y),4),1,1,0,(-1),1);
-	draw_sprite_ext(_inst,YYASSET_REF(0x01000012),yyfdivide(__yy_gml_errCheck(_inst.gmlfx_timer),2),yyfminus(__yy_gml_errCheck(_inst.x),4),yyfminus(__yy_gml_errCheck(_inst.y),4),(-1),1,0,(-1),1);
-	draw_sprite_ext(_inst,_inst.sprite_index,_inst.image_index,_inst.x,_inst.y,gml_xc,gml_yc,0,(-1),1);
+	gml_Script_ent_move_collide(_inst,_other,(-1));
 }
 
 function gml_Object_oHitrunPlayer_Create_0(_inst,_other)
@@ -27771,21 +28627,21 @@ function gml_Script_anon_40_293_40_gml_Object_oHitrunPlayer_Create_0(_inst,_othe
 {
 
 		{
-		var ___sw250___=argument0;
-		var ___swc251___=-1;
-		if(yyCompareVal(___sw250___,"keydelay",g_GMLMathEpsilon,false)==0)
+		var ___sw258___=argument0;
+		var ___swc259___=-1;
+		if(yyCompareVal(___sw258___,"keydelay",g_GMLMathEpsilon,false)==0)
 		{
-			___swc251___=0;
+			___swc259___=0;
 		}
-		else if(yyCompareVal(___sw250___,"land",g_GMLMathEpsilon,false)==0)
+		else if(yyCompareVal(___sw258___,"land",g_GMLMathEpsilon,false)==0)
 		{
-			___swc251___=1;
+			___swc259___=1;
 		}
-		else if(yyCompareVal(___sw250___,"dashkey",g_GMLMathEpsilon,false)==0)
+		else if(yyCompareVal(___sw258___,"dashkey",g_GMLMathEpsilon,false)==0)
 		{
-			___swc251___=2;
+			___swc259___=2;
 		}
-		switch(___swc251___)
+		switch(___swc259___)
 		{
 			case 0:
 			{
@@ -27919,11 +28775,11 @@ function gml_Object_oPickupDrop_Step_0(_inst,_other)
 	_inst.gmlxvel=gml_Script_approach(_inst,_other,_inst.gmlxvel,0,(yyGetBool(_inst.gmlgrounded)?_inst.gmlm_fri:0));
 	_inst.gmlyvel=(yyGetBool(_inst.gmlgrounded)?_inst.gmlyvel:gml_Script_approach(_inst,_other,_inst.gmlyvel,_inst.gmlyvel_max,_inst.gmlgrav));
 	_inst.gmltimer=(_inst.gmltimer instanceof Long?_inst.gmltimer.add(1):++_inst.gmltimer);
-	if(yyGetBool(place_meeting(_inst,_inst.x,_inst.y,YYASSET_REF(0x00000037))))
+	if(yyGetBool(place_meeting(_inst,_inst.x,_inst.y,YYASSET_REF(0x0000003B))))
 	{
 
 				{
-			var gml_col=instance_place(_inst,_inst.x,_inst.y,YYASSET_REF(0x00000037));
+			var gml_col=instance_place(_inst,_inst.x,_inst.y,YYASSET_REF(0x0000003B));
 			var gml_dir=yyfplus(__yy_gml_errCheck(point_direction(yyInst(_inst,_other,gml_col).x,yyInst(_inst,_other,gml_col).y,_inst.x,_inst.y)),__yy_gml_errCheck(irandom_range((-10),10)));
 			_inst.gmlxvel=yyftime(__yy_gml_errCheck(dcos(gml_dir)),1);
 			_inst.gmlyvel=yyftime(__yy_gml_errCheck(__yy_gml_errCheck(-__yy_gml_errCheck(dsin(gml_dir)))),1);
@@ -28044,13 +28900,13 @@ function gml_Object_oPickupGunDrop_Draw_0(_inst,_other)
 	var gml_ypos=yyftime(__yy_gml_errCheck(dcos(yyftime(__yy_gml_errCheck(_inst.gmltimer),1.8))),2);
 	draw_sprite_ext(_inst,_inst.sprite_index,0,yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(gml_sprx)),yyfplus(yyfplus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(gml_spry)),__yy_gml_errCheck(gml_ypos)),1,1,0,(-1),1);
 	var gml_bz=(!yyGetBool(yyfequal(_inst.gmlgun_pickup_id,0))?0:1);
-	draw_sprite_ext(_inst,YYASSET_REF(0x0100004A),gml_bz,_inst.x,yyfplus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(gml_ypos)),yyftime(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(yyfplus(1,__yy_gml_errCheck(gml_scl))),0.5)),__yy_gml_errCheck(_inst.gmlspritefx_x)),yyftime(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(yyfminus(1,__yy_gml_errCheck(gml_scl))),0.5)),__yy_gml_errCheck(_inst.gmlspritefx_y)),0,(-1),1);
+	draw_sprite_ext(_inst,YYASSET_REF(0x01000050),gml_bz,_inst.x,yyfplus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(gml_ypos)),yyftime(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(yyfplus(1,__yy_gml_errCheck(gml_scl))),0.5)),__yy_gml_errCheck(_inst.gmlspritefx_x)),yyftime(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(yyfminus(1,__yy_gml_errCheck(gml_scl))),0.5)),__yy_gml_errCheck(_inst.gmlspritefx_y)),0,(-1),1);
 	if(!yyGetBool(global.gmldebug))
 	{
 		return 	}
 	;
 	draw_rectangle(_inst.bbox_left,_inst.bbox_top,_inst.bbox_right,_inst.bbox_bottom,1);
-	draw_sprite(_inst,YYASSET_REF(0x01000058),0,yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(gml_sprx)),yyfplus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(gml_spry)));
+	draw_sprite(_inst,YYASSET_REF(0x0100005E),0,yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(gml_sprx)),yyfplus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(gml_spry)));
 }
 
 function gml_Object_oPickupGunDrop_PreCreate_0(_inst,_other)
@@ -28119,6 +28975,7 @@ function gml_Object_oPlayer_Create_0(_inst,_other)
 	_inst.gmlatk_dir=0;
 	_inst.gmltrueaim=0;
 	_inst.gmlaim_hold=false;
+	_inst.gmlaim_hold_enemy=(-4);
 	_inst.gmlatk_ammo=0;
 	_inst.gmlatk_cooldown=0;
 	_inst.gmlatk_keydelay=0;
@@ -28129,7 +28986,7 @@ function gml_Object_oPlayer_Create_0(_inst,_other)
 	_inst.gmlatk_scatterlerp=0;
 	_inst.gmlatk_shoot_timer=(-1);
 	_inst.gmlatk_shots_left=0;
-	_inst.gmlplayer_callback=__yy_method(_inst,gml_Script_anon_40_880_40_gml_Object_oPlayer_Create_0);
+	_inst.gmlplayer_callback=__yy_method(_inst,gml_Script_anon_40_904_40_gml_Object_oPlayer_Create_0);
 	_inst.gmlplayer_altcolor=(-1);
 	_inst.gmlplayer_disable_jumpdown=true;
 	_inst.gmlent_hurt_timeout=45;
@@ -28142,14 +28999,15 @@ function gml_Object_oPlayer_Create_0(_inst,_other)
 	_inst.gmlsprite_anim=0;
 	_inst.gmlhurtfx_lerp=0;
 	_inst.gmlgunfx_lerp=0;
+	_inst.gmlgunfx_lock=0;
 	_inst.gmlgunfx_dir=0;
 	_inst.gmlgunfx_x=8;
 	_inst.gmlgunfx_y=0;
-	_inst.sprite_index=YYASSET_REF(0x01000065);
+	_inst.sprite_index=YYASSET_REF(0x0100006B);
 	_inst.gmlsprite_prev=_inst.sprite_index;
 }
 
-function gml_Script_anon_40_880_40_gml_Object_oPlayer_Create_0(_inst,_other)
+function gml_Script_anon_40_904_40_gml_Object_oPlayer_Create_0(_inst,_other)
 {
 
 		{
@@ -28162,11 +29020,11 @@ function gml_Object_oPlayer_Step_0(_inst,_other)
 	{
 
 				{
-			if(yyGetBool(instance_exists(YYASSET_REF(0x0000000A))))
+			if(yyGetBool(instance_exists(YYASSET_REF(0x0000000D))))
 			{
 
 								{
-					var __yy__v136=GetWithArray(YYASSET_REF(0x0000000A));
+					var __yy__v136=GetWithArray(YYASSET_REF(0x0000000D));
 					for(var __yy__v137 in __yy__v136)
 					{
 						if(!__yy__v136.hasOwnProperty(__yy__v137))continue;
@@ -28175,7 +29033,7 @@ function gml_Object_oPlayer_Step_0(_inst,_other)
 				}
 			}
 			;
-			var gml_ui=instance_create_depth(0,0,0,YYASSET_REF(0x0000000A));
+			var gml_ui=instance_create_depth(0,0,0,YYASSET_REF(0x0000000D));
 			yyInst(_inst,_other,gml_ui).gmltarget=_inst.id;
 		}
 	}
@@ -28233,29 +29091,31 @@ function gml_Object_oPlayer_Step_0(_inst,_other)
 
 function gml_Object_oPlayer_Draw_0(_inst,_other)
 {
+	var gml_locked_enemy=((yyGetBool(_inst.gmlaim_hold_enemy))&&(yyGetBool(instance_exists(_inst.gmlaim_hold_enemy)))?true:false);
 	_inst.gmlhurtfx_lerp=lerp(_inst.gmlhurtfx_lerp,0,0.15);
 	_inst.gmlgunfx_lerp=lerp(_inst.gmlgunfx_lerp,0,0.2);
+	_inst.gmlgunfx_lock=lerp(_inst.gmlgunfx_lock,(yyGetBool(_inst.gmlaim_hold)?1:0),0.5);
 	_inst.gmlgunfx_dir=gml_Script_angle_lerp(_inst,_other,_inst.gmlgunfx_dir,(yyGetBool(_inst.gmlatk_noshoot)?(yyGetBool(_inst.gmlx_dir)?0.1:179.9):_inst.gmlatk_dir),0.7,359);
 	var gml_gdir=yyftime(__yy_gml_errCheck(round(yyfdivide(__yy_gml_errCheck(_inst.gmlgunfx_dir),22.5))),22.5);
 	_inst.gmlgunfx_x=lerp(_inst.gmlgunfx_x,yyfplus(yyfminus(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(dcos(_inst.gmlgunfx_dir)),8)),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(_inst.gmlxvel),2))),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(_inst.gmlxsprite),4))),0.3);
 	_inst.gmlgunfx_y=lerp(_inst.gmlgunfx_y,yyfminus(yyfminus(__yy_gml_errCheck(yyftime(__yy_gml_errCheck(__yy_gml_errCheck(-__yy_gml_errCheck(dsin(_inst.gmlgunfx_dir)))),12)),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(_inst.gmlyvel),2))),2),0.3);
 	var gml_bl=(-1);
 	var gml_yd;
-	var ___sw254___=floor(_inst.image_index);
-	var ___swc255___=-1;
-	if(yyCompareVal(___sw254___,0,g_GMLMathEpsilon,false)==0||yyCompareVal(___sw254___,3,g_GMLMathEpsilon,false)==0)
+	var ___sw262___=floor(_inst.image_index);
+	var ___swc263___=-1;
+	if(yyCompareVal(___sw262___,0,g_GMLMathEpsilon,false)==0||yyCompareVal(___sw262___,3,g_GMLMathEpsilon,false)==0)
 	{
-		___swc255___=0;
+		___swc263___=0;
 	}
-	else if(yyCompareVal(___sw254___,1,g_GMLMathEpsilon,false)==0||yyCompareVal(___sw254___,4,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw262___,1,g_GMLMathEpsilon,false)==0||yyCompareVal(___sw262___,4,g_GMLMathEpsilon,false)==0)
 	{
-		___swc255___=1;
+		___swc263___=1;
 	}
-	else if(yyCompareVal(___sw254___,2,g_GMLMathEpsilon,false)==0||yyCompareVal(___sw254___,5,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw262___,2,g_GMLMathEpsilon,false)==0||yyCompareVal(___sw262___,5,g_GMLMathEpsilon,false)==0)
 	{
-		___swc255___=2;
+		___swc263___=2;
 	}
-	switch(___swc255___)
+	switch(___swc263___)
 	{
 		case 0:
 		{
@@ -28274,7 +29134,7 @@ function gml_Object_oPlayer_Draw_0(_inst,_other)
 		}
 	}
 	;
-	if(yyfnotequal(_inst.sprite_index,YYASSET_REF(0x0100006D)))
+	if(yyfnotequal(_inst.sprite_index,YYASSET_REF(0x01000073)))
 	{
 		gml_yd=0	}
 	;
@@ -28304,17 +29164,53 @@ function gml_Object_oPlayer_Draw_0(_inst,_other)
 	;
 	draw_sprite_ext(_inst,_inst.sprite_index,_inst.image_index,_inst.x,_inst.y,_inst.gmlxsprite,yyftime(1,__yy_gml_errCheck(gml_hide)),0,gml_bl,1);
 	shader_reset();
-	if((yyGetBool((yyGetBool(yyInst(_inst,_other,global.gmlconfig).gmlshow_aiming))||(yyGetBool(_inst.gmlaim_hold))))&&(yyGetBool(!yyGetBool(_inst.gmlatk_noshoot)))&&(yyGetBool((yyGetBool(_inst.gmlaim_hold))||(yyGetBool(yyfequal(_inst.gmlyaxis,(-1))))||(yyGetBool((yyGetBool(yyfequal(_inst.gmlyaxis,1)))&&(yyGetBool(!yyGetBool(_inst.gmlgrounded))))))))
+	if(yyGetBool(_inst.gmlaim_hold))
 	{
 
 				{
-			var gml_dist=(yyGetBool(_inst.gmlaim_hold)?48:36);
-			var gml_dir=(yyGetBool(_inst.gmlaim_hold)?global.gmlroom_time:0);
-			var gml_sprite=(yyGetBool(_inst.gmlaim_hold)?YYASSET_REF(0x01000077):YYASSET_REF(0x01000058));
-			var gml_sz=(yyGetBool(_inst.gmlaim_hold)?1:1);
+			var gml_dist=yyftime(64,__yy_gml_errCheck(_inst.gmlgunfx_lock));
+			var gml_sz=(yyGetBool(gml_locked_enemy)?1.2:1);
+			if(yyGetBool(gml_locked_enemy))
+			{
+
+								{
+					var gml_lx=lerp(_inst.x,yyInst(_inst,_other,_inst.gmlaim_hold_enemy).x,_inst.gmlgunfx_lock);
+					var gml_ly=lerp(_inst.y,yyInst(_inst,_other,_inst.gmlaim_hold_enemy).y,_inst.gmlgunfx_lock);
+					var gml_sx=yyftime(__yy_gml_errCheck(dsin(yyftime(__yy_gml_errCheck(global.gmlroom_time),4))),0.2);
+					gml_dist=lerp(0,min(point_distance(_inst.x,_inst.y,gml_lx,gml_ly),64),_inst.gmlgunfx_lock);
+					draw_sprite_ext(_inst,YYASSET_REF(0x0100007F),1,gml_lx,yyfplus(__yy_gml_errCheck(gml_ly),1),yyfplus(2,__yy_gml_errCheck(gml_sx)),yyfplus(2,__yy_gml_errCheck(gml_sx)),0,0,1);
+					draw_sprite_ext(_inst,YYASSET_REF(0x0100007F),1,gml_lx,gml_ly,yyfplus(2,__yy_gml_errCheck(gml_sx)),yyfplus(2,__yy_gml_errCheck(gml_sx)),0,(-1),1);
+				}
+			}
+			;
 			var gml_x=yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(dcos(_inst.gmlatk_dir)),__yy_gml_errCheck(gml_dist)))),gml_y=yyfminus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(dsin(_inst.gmlatk_dir)),__yy_gml_errCheck(gml_dist))));
-			draw_sprite_ext(_inst,gml_sprite,0,gml_x,yyfplus(__yy_gml_errCheck(gml_y),1),gml_sz,gml_sz,gml_dir,0,1);
-			draw_sprite_ext(_inst,gml_sprite,0,gml_x,gml_y,gml_sz,gml_sz,gml_dir,(-1),1);
+			if(!yyGetBool(_inst.gmlatk_noshoot))
+			{
+
+								{
+					draw_sprite_ext(_inst,YYASSET_REF(0x0100007F),0,gml_x,yyfplus(__yy_gml_errCheck(gml_y),1),gml_sz,gml_sz,0,0,1);
+					draw_sprite_ext(_inst,YYASSET_REF(0x0100007F),0,gml_x,gml_y,gml_sz,gml_sz,0,(-1),1);
+				}
+			}
+			;
+		}
+	}
+	;
+	if((yyGetBool(yyInst(_inst,_other,global.gmlconfig).gmlshow_aiming))&&(yyGetBool(!yyGetBool(_inst.gmlaim_hold))))
+	{
+
+				{
+			var gml_x=yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(dcos(_inst.gmlgunfx_dir)),32))),gml_y=yyfminus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(dsin(_inst.gmlgunfx_dir)),32)));
+			var gml_sz=1;
+			if(!yyGetBool(_inst.gmlatk_noshoot))
+			{
+
+								{
+					draw_sprite_ext(_inst,YYASSET_REF(0x0100005E),0,gml_x,yyfplus(__yy_gml_errCheck(gml_y),1),gml_sz,gml_sz,0,0,1);
+					draw_sprite_ext(_inst,YYASSET_REF(0x0100005E),0,gml_x,gml_y,gml_sz,gml_sz,0,(-1),1);
+				}
+			}
+			;
 		}
 	}
 	;
@@ -28331,6 +29227,8 @@ function gml_Object_oPlayer_Draw_73(_inst,_other)
 	draw_rectangle(_inst.bbox_left,_inst.bbox_top,_inst.bbox_right,_inst.bbox_bottom,1);
 	draw_line(_inst.x,_inst.bbox_bottom,_inst.x,yyfplus(yyfplus(__yy_gml_errCheck(_inst.bbox_bottom),4),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(_inst.gmlyvel_int),2))));
 	draw_arrow(_inst.x,_inst.y,yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(dcos(_inst.gmltrueaim)),16))),yyfminus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(dsin(_inst.gmltrueaim)),16))),8);
+	draw_circle(yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(dcos(_inst.gmltrueaim)),64))),yyfminus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(dsin(_inst.gmltrueaim)),64))),20,1);
+	draw_circle(yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(dcos(_inst.gmltrueaim)),32))),yyfminus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(dsin(_inst.gmltrueaim)),32))),20,1);
 	draw_set_font(YYASSET_REF(0x06000000));
 	draw_text(yyfplus(__yy_gml_errCheck(gml_vx),8),yyfplus(__yy_gml_errCheck(gml_vy),8),yyfplus(yyfplus(yyfplus(yyfplus(__yy_gml_errCheck(__yy_InternalStringInterpolation("xvel{0} \nyvel{1}\n",_inst.gmlxvel,_inst.gmlyvel)),__yy_gml_errCheck(__yy_InternalStringInterpolation("x{0} y{1} \n",_inst.x,_inst.y))),__yy_gml_errCheck(__yy_InternalStringInterpolation("djump {0}\n",_inst.gmlj_double))),__yy_gml_errCheck(__yy_InternalStringInterpolation("reloaddelay {0}\n",_inst.gmlatk_reloaddelay))),__yy_gml_errCheck(__yy_InternalStringInterpolation("shootdelay {0}",_inst.gmlatk_keydelay))));
 	draw_set_font(global.gmlfontWhiS);
@@ -28367,7 +29265,7 @@ function gml_Script_anon_40_216_40_gml_Object_oPlayerBulRegular_Create_0(_inst,_
 
 		{
 		var gml_fx_dir=argument0;
-		var gml_fx=instance_create_depth(yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(dcos(gml_fx_dir)),3))),yyfminus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(dsin(gml_fx_dir)),3))),0,YYASSET_REF(0x00000020));
+		var gml_fx=instance_create_depth(yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(dcos(gml_fx_dir)),3))),yyfminus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(dsin(gml_fx_dir)),3))),0,YYASSET_REF(0x00000024));
 
 				{
 			var __yy__v139=GetWithArray(gml_fx);
@@ -28378,7 +29276,7 @@ function gml_Script_anon_40_216_40_gml_Object_oPlayerBulRegular_Create_0(_inst,_
 
 								{
 					__yy__v141.gmld_dir=gml_fx_dir;
-					__yy__v141.sprite_index=YYASSET_REF(0x01000039);
+					__yy__v141.sprite_index=YYASSET_REF(0x0100003F);
 					__yy__v141.image_speed=0.5;
 				}
 			}
@@ -28398,12 +29296,12 @@ function gml_Object_oPlayerBulRegular_Step_0(_inst,_other)
 		}
 	}
 	;
-	_inst.mask_index=YYASSET_REF(0x01000053);
+	_inst.mask_index=YYASSET_REF(0x01000059);
 	var gmlcol_=ds_list_create();
-	instance_place_list(_inst,_inst.x,_inst.y,YYASSET_REF(0x00000032),gmlcol_,true);
+	instance_place_list(_inst,_inst.x,_inst.y,YYASSET_REF(0x00000036),gmlcol_,true);
 	gml_Script_listloop(_inst,_other,gmlcol_,__yy_method(_inst,gml_Script_anon_40_271_40_gml_Object_oPlayerBulRegular_Step_0),_inst.gmlhit_did_list);
 	ds_list_destroy(gmlcol_);
-	_inst.mask_index=YYASSET_REF(0x0100004F);
+	_inst.mask_index=YYASSET_REF(0x01000055);
 	if(yyfless(_inst.gmlbul_timer,_inst.gmlbul_timer_max))
 	{
 		_inst.gmlbul_timer=(_inst.gmlbul_timer instanceof Long?_inst.gmlbul_timer.add(1):++_inst.gmlbul_timer)	}
@@ -28440,7 +29338,7 @@ function gml_Object_oPlayerBulRegular_Step_0(_inst,_other)
 			;
 			var gml_colangle=(yyfequal(gml_Script_wall_on_side(_inst,_other),1)?0:180);
 			var gmlcol_=ds_list_create();
-			instance_place_list(_inst,yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(sign(_inst.gmlxvel_int))),_inst.y,YYASSET_REF(0x0000001B),gmlcol_,true);
+			instance_place_list(_inst,yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(sign(_inst.gmlxvel_int))),_inst.y,YYASSET_REF(0x0000001F),gmlcol_,true);
 			gml_Script_listloop(_inst,_other,gmlcol_,__yy_method(_inst,gml_Script_anon_40_1353_40_gml_Object_oPlayerBulRegular_Step_0));
 			ds_list_destroy(gmlcol_);
 			gml_Script_audio_play_sfx(_inst,_other,YYASSET_REF(0x02000023),YYASSET_REF(0x02000023),0.15,0.6);
@@ -28481,7 +29379,7 @@ function gml_Object_oPlayerBulRegular_Step_0(_inst,_other)
 			;
 			var gml_colangle=(yyfnotequal(gml_Script_wall_above(_inst,_other),(-4))?90:270);
 			var gmlcol_=ds_list_create();
-			instance_place_list(_inst,_inst.x,yyfplus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(sign(_inst.gmlyvel_int))),YYASSET_REF(0x0000001B),gmlcol_,true);
+			instance_place_list(_inst,_inst.x,yyfplus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(sign(_inst.gmlyvel_int))),YYASSET_REF(0x0000001F),gmlcol_,true);
 			gml_Script_listloop(_inst,_other,gmlcol_,__yy_method(_inst,gml_Script_anon_40_1963_40_gml_Object_oPlayerBulRegular_Step_0));
 			ds_list_destroy(gmlcol_);
 			gml_Script_audio_play_sfx(_inst,_other,YYASSET_REF(0x02000023),YYASSET_REF(0x02000023),0.15,0.6);
@@ -28591,7 +29489,7 @@ function gml_Object_oPlayerHitbox_Create_0(_inst,_other)
 	_inst.gmly_dist_from=0;
 	_inst.gmlhit_did_list=ds_list_create();
 	_inst.gmlhit_sfx=(-1);
-	_inst.mask_index=YYASSET_REF(0x01000052);
+	_inst.mask_index=YYASSET_REF(0x01000058);
 }
 
 function gml_Object_oPlayerHitbox_Step_0(_inst,_other)
@@ -28679,6 +29577,17 @@ function gml_Object_oProjectile_Create_0(_inst,_other)
 	gml_Script_projectile_init(_inst,_other);
 }
 
+function gml_Object_oProjectile_Draw_73(_inst,_other)
+{
+	if(!yyGetBool(global.gmldebug))
+	{
+		return 	}
+	;
+	draw_set_color(255);
+	draw_rectangle(_inst.bbox_left,_inst.bbox_top,_inst.bbox_right,_inst.bbox_bottom,1);
+	draw_set_color((-1));
+}
+
 function gml_Object_oProjectile_CleanUp_0(_inst,_other)
 {
 	if(yyfnotequal(_inst.gmlhit_did_list,(-1)))
@@ -28700,27 +29609,9 @@ function gml_Object_oProp_Create_0(_inst,_other)
 function gml_Object_oProp_Step_0(_inst,_other)
 {
 	_inst.gmlgrounded=gml_Script_on_ground(_inst,_other);
-	_inst.gmlxvel=(yyGetBool(_inst.gmlgrounded)?gml_Script_approach(_inst,_other,_inst.gmlxvel,0,0.1):_inst.gmlxvel);
+	_inst.gmlxvel=(yyGetBool(_inst.gmlgrounded)?gml_Script_approach(_inst,_other,_inst.gmlxvel,0,_inst.gmlm_fri):_inst.gmlxvel);
 	_inst.gmlyvel=gml_Script_approach(_inst,_other,_inst.gmlyvel,_inst.gmlyvel_max,_inst.gmlgrav);
-	gml_Script_round_vel(_inst,_other);
-	if(!yyGetBool(gml_Script_move_x(_inst,_other,_inst.gmlxvel_int)))
-	{
-
-				{
-			_inst.gmlxvel=0;
-			_inst.gmlxvel_fract=0;
-		}
-	}
-	;
-	if(!yyGetBool(gml_Script_move_y(_inst,_other,_inst.gmlyvel_int,_inst,!yyGetBool(_inst.gmlent_no_platform))))
-	{
-
-				{
-			_inst.gmlyvel=0;
-			_inst.gmlyvel_fract=0;
-		}
-	}
-	;
+	gml_Script_ent_move_collide(_inst,_other,(-1));
 }
 
 function gml_Object_oPropBomb_Create_0(_inst,_other)
@@ -28732,6 +29623,7 @@ function gml_Object_oPropBomb_Create_0(_inst,_other)
 	_inst.gmlbomb_fx_timer=0;
 	_inst.gmlhit_did_list=ds_list_create();
 	_inst.gmldraw_event=__yy_method(_inst,gml_Script_anon_40_152_40_gml_Object_oPropBomb_Create_0);
+	_inst.image_speed=0.5;
 }
 
 function gml_Script_anon_40_152_40_gml_Object_oPropBomb_Create_0(_inst,_other)
@@ -28765,7 +29657,7 @@ function gml_Script_anon_40_152_40_gml_Object_oPropBomb_Create_0(_inst,_other)
 function gml_Object_oPropBomb_Step_0(_inst,_other)
 {
 	_inst.gmlgrounded=gml_Script_on_ground(_inst,_other);
-	_inst.gmlxvel=(yyGetBool(_inst.gmlgrounded)?gml_Script_approach(_inst,_other,_inst.gmlxvel,0,0.1):_inst.gmlxvel);
+	_inst.gmlxvel=(yyGetBool(_inst.gmlgrounded)?gml_Script_approach(_inst,_other,_inst.gmlxvel,0,_inst.gmlm_fri):_inst.gmlxvel);
 	_inst.gmlyvel=gml_Script_approach(_inst,_other,_inst.gmlyvel,_inst.gmlyvel_max,_inst.gmlgrav);
 	if((yyGetBool((yyGetBool(yyfgreater(_inst.gmlyvel,2)))&&(yyGetBool(!yyGetBool(_inst.gmlbomb_active)))))&&(yyGetBool(place_meeting(_inst,_inst.x,_inst.y,gml_Script_get_ent_targets(_inst,_other,0)))))
 	{
@@ -28773,7 +29665,7 @@ function gml_Object_oPropBomb_Step_0(_inst,_other)
 				{
 			var gml_col=ds_list_create();
 			instance_place_list(_inst,_inst.x,_inst.y,gml_Script_get_ent_targets(_inst,_other,0),gml_col,false);
-			gml_Script_listloop(_inst,_other,gml_col,__yy_method(_inst,gml_Script_anon_40_346_40_gml_Object_oPropBomb_Step_0),_inst.gmlhit_did_list);
+			gml_Script_listloop(_inst,_other,gml_col,__yy_method(_inst,gml_Script_anon_40_348_40_gml_Object_oPropBomb_Step_0),_inst.gmlhit_did_list);
 			ds_list_destroy(gml_col);
 		}
 	}
@@ -28788,7 +29680,20 @@ function gml_Object_oPropBomb_Step_0(_inst,_other)
 
 								{
 					instance_destroy(_inst);
-					instance_create_depth(_inst.x,yyfplus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck((yyGetBool(_inst.gmlgrounded)?(-16):0))),0,YYASSET_REF(0x0000001D));
+					instance_create_depth(_inst.x,yyfplus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck((yyGetBool(_inst.gmlgrounded)?(-16):0))),0,YYASSET_REF(0x00000021));
+					if(yyGetBool(_inst.gmlgrounded))
+					{
+						var gmli=0;
+						for(;yyfless(gmli,2);gmli=(gmli instanceof Long?gmli.add(1):++gmli))
+						{
+
+														{
+								var gml_bul=instance_create_depth(_inst.x,_inst.y,0,YYASSET_REF(0x00000008));
+								yyInst(_inst,_other,gml_bul).gmlm_dir=yyfplus(0,__yy_gml_errCheck(yyftime(180,__yy_gml_errCheck(gmli))));
+							}
+						}
+					}
+					;
 				}
 			}
 			;
@@ -28812,10 +29717,10 @@ function gml_Object_oPropBomb_Step_0(_inst,_other)
 	{
 		_inst.gmlbomb_active=true	}
 	;
-	gml_Script_ent_move_collide(_inst,_other,(-1),_inst.gmlent_no_platform);
+	gml_Script_ent_move_collide(_inst,_other,(-1));
 }
 
-function gml_Script_anon_40_346_40_gml_Object_oPropBomb_Step_0(_inst,_other,argument0)
+function gml_Script_anon_40_348_40_gml_Object_oPropBomb_Step_0(_inst,_other,argument0)
 {
 
 		{
@@ -28874,13 +29779,14 @@ function gml_Object_oPropNuke_Step_0(_inst,_other)
 	_inst.gmlgrounded=gml_Script_on_ground(_inst,_other);
 	_inst.gmlxvel=gml_Script_approach(_inst,_other,_inst.gmlxvel,0,0.01);
 	_inst.gmlyvel=gml_Script_approach(_inst,_other,_inst.gmlyvel,_inst.gmlyvel_max,(yyGetBool(_inst.gmlbomb_active)?0:_inst.gmlgrav));
+	_inst.gmlsetoff_bomb=false;
 	if((yyGetBool(yyfgreater(_inst.gmlyvel,2)))&&(yyGetBool(place_meeting(_inst,_inst.x,_inst.y,gml_Script_get_ent_targets(_inst,_other,1)))))
 	{
 
 				{
 			var gml_col=ds_list_create();
 			instance_place_list(_inst,_inst.x,_inst.y,gml_Script_get_ent_targets(_inst,_other,1),gml_col,false);
-			gml_Script_listloop(_inst,_other,gml_col,__yy_method(_inst,gml_Script_anon_40_328_40_gml_Object_oPropNuke_Step_0),_inst.gmlhit_did_list);
+			gml_Script_listloop(_inst,_other,gml_col,__yy_method(_inst,gml_Script_anon_40_349_40_gml_Object_oPropNuke_Step_0),_inst.gmlhit_did_list);
 			ds_list_destroy(gml_col);
 		}
 	}
@@ -28903,7 +29809,7 @@ function gml_Object_oPropNuke_Step_0(_inst,_other)
 		}
 	}
 	;
-	if((yyGetBool(!yyGetBool(_inst.gmlbomb_active)))&&(yyGetBool((yyGetBool(_inst.gmlgrounded))||(yyGetBool(instance_place(_inst,yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(_inst.gmlxvel)),yyfminus(__yy_gml_errCheck(_inst.y),1),YYASSET_REF(0x00000054)))))))
+	if((yyGetBool(!yyGetBool(_inst.gmlbomb_active)))&&(yyGetBool((yyGetBool(_inst.gmlgrounded))||(yyGetBool(instance_place(_inst,yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(_inst.gmlxvel)),yyfminus(__yy_gml_errCheck(_inst.y),1),YYASSET_REF(0x00000058))))||(yyGetBool(_inst.gmlsetoff_bomb)))))
 	{
 
 				{
@@ -28915,21 +29821,22 @@ function gml_Object_oPropNuke_Step_0(_inst,_other)
 		}
 	}
 	;
-	gml_Script_ent_move_collide(_inst,_other,(-1),_inst.gmlent_no_platform);
+	gml_Script_ent_move_collide(_inst,_other,(-1));
 }
 
-function gml_Script_anon_40_328_40_gml_Object_oPropNuke_Step_0(_inst,_other,argument0)
+function gml_Script_anon_40_349_40_gml_Object_oPropNuke_Step_0(_inst,_other,argument0)
 {
 
 		{
 		var gml_xdir=sign(yyfminus(__yy_gml_errCheck(yyInst(_inst,_other,argument0).x),__yy_gml_errCheck(_inst.x)));
-		if(yyGetBool(__yyg_call_method((yythis9=yyInst(_inst,_other,gml_Script_hurt_entity(_inst,_other,argument0,4)),yythis9).gmlexists)(yythis9,_other)))
+		if(yyGetBool(__yyg_call_method((yythis9=yyInst(_inst,_other,gml_Script_hurt_entity(_inst,_other,argument0,5)),yythis9).gmlexists)(yythis9,_other)))
 		{
 
 						{
 				_inst.gmlxvel=yyftime(__yy_gml_errCheck(__yy_gml_errCheck(-__yy_gml_errCheck(gml_xdir))),1.3);
 				var yythis9;
 				_inst.gmlyvel=(-0.7);
+				_inst.gmlsetoff_bomb=true;
 			}
 		}
 		;
@@ -28947,7 +29854,7 @@ function gml_Object_oSpawnIndicator_Create_0(_inst,_other)
 	_inst.gmlspawn_timer=60;
 	_inst.gmlshow_timer=_inst.gmlspawn_timer;
 	_inst.gmlenemy_id=(-4);
-	_inst.mask_index=YYASSET_REF(0x01000052);
+	_inst.mask_index=YYASSET_REF(0x01000058);
 }
 
 function gml_Object_oSpawnIndicator_Step_0(_inst,_other)
@@ -29050,7 +29957,7 @@ function gml_Object_oStageEntrance_Draw_0(_inst,_other)
 		return 	}
 	;
 	draw_text(_inst.x,yyfminus(__yy_gml_errCheck(_inst.y),16),"ENTRANCE");
-	draw_sprite(_inst,YYASSET_REF(0x01000058),0,_inst.x,_inst.y);
+	draw_sprite(_inst,YYASSET_REF(0x0100005E),0,_inst.x,_inst.y);
 }
 
 function gml_Object_oStageExit_Create_0(_inst,_other)
@@ -29064,7 +29971,7 @@ function gml_Object_oStageExit_Create_0(_inst,_other)
 	_inst.gmldoor_fx=0;
 	_inst.gmlactive=false;
 	_inst.gmldoor_active_delay=0;
-	_inst.sprite_index=YYASSET_REF(0x0100002D);
+	_inst.sprite_index=YYASSET_REF(0x01000033);
 	_inst.image_speed=0;
 	_inst.depth=(-4);
 }
@@ -29098,21 +30005,21 @@ function gml_Object_oStageExit_Step_0(_inst,_other)
 	}
 	;
 	var gml_fxto=_inst.gmldoor_open;
-	var ___sw258___=_inst.gmlwave_goal_type;
-	var ___swc259___=-1;
-	if(yyCompareVal(___sw258___,(-1),g_GMLMathEpsilon,false)==0)
+	var ___sw266___=_inst.gmlwave_goal_type;
+	var ___swc267___=-1;
+	if(yyCompareVal(___sw266___,(-1),g_GMLMathEpsilon,false)==0)
 	{
-		___swc259___=0;
+		___swc267___=0;
 	}
-	else if(yyCompareVal(___sw258___,1,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw266___,1,g_GMLMathEpsilon,false)==0)
 	{
-		___swc259___=2;
+		___swc267___=2;
 	}
-	else if(yyCompareVal(___sw258___,2,g_GMLMathEpsilon,false)==0)
+	else if(yyCompareVal(___sw266___,2,g_GMLMathEpsilon,false)==0)
 	{
-		___swc259___=3;
+		___swc267___=3;
 	}
-	switch(___swc259___)
+	switch(___swc267___)
 	{
 		case 0:
 		{
@@ -29120,18 +30027,18 @@ function gml_Object_oStageExit_Step_0(_inst,_other)
 		}
 		default :
 		{
-			var gml_spawnwv=(yyGetBool(instance_exists(YYASSET_REF(0x0000002F)))?yyInst(_inst,_other,YYASSET_REF(0x0000002F)).gmlwave_current:0);
+			var gml_spawnwv=(yyGetBool(instance_exists(YYASSET_REF(0x00000033)))?yyInst(_inst,_other,YYASSET_REF(0x00000033)).gmlwave_current:0);
 			_inst.gmlwave_goal_ready=yyfgreater(gml_spawnwv,_inst.gmlwave_goal);
 			break;
 		}
 		case 2:
 		{
 			var gml_player_noguns=true;
-			if(yyGetBool(instance_exists(YYASSET_REF(0x0000003F))))
+			if(yyGetBool(instance_exists(YYASSET_REF(0x00000043))))
 			{
-				gml_player_noguns=array_all(_inst,yyInst(_inst,_other,YYASSET_REF(0x0000003F)).gmlguns_slots,__yy_method(_inst,gml_Script_anon_40_657_40_gml_Object_oStageExit_Step_0))			}
+				gml_player_noguns=array_all(_inst,yyInst(_inst,_other,YYASSET_REF(0x00000043)).gmlguns_slots,__yy_method(_inst,gml_Script_anon_40_657_40_gml_Object_oStageExit_Step_0))			}
 			;
-			var gml_plwp=(yyGetBool(instance_exists(YYASSET_REF(0x0000003F))))&&(yyGetBool(!yyGetBool(gml_player_noguns)));
+			var gml_plwp=(yyGetBool(instance_exists(YYASSET_REF(0x00000043))))&&(yyGetBool(!yyGetBool(gml_player_noguns)));
 			_inst.gmlwave_goal_ready=gml_plwp;
 			break;
 		}
@@ -29142,7 +30049,7 @@ function gml_Object_oStageExit_Step_0(_inst,_other)
 		}
 	}
 	;
-	if(yyfequal(global.gmlspawn_state,3))
+	if(yyfequal(gml_Script_get_spawn_state(_inst,_other),3))
 	{
 
 				{
@@ -29202,7 +30109,7 @@ function gml_Object_oStageExit_Draw_0(_inst,_other)
 	var gml_vx=camera_get_view_x(g_pBuiltIn.view_camera[__yy_gml_array_check_index(0,g_pBuiltIn.view_camera)]);
 	var gml_vy=camera_get_view_y(g_pBuiltIn.view_camera[__yy_gml_array_check_index(0,g_pBuiltIn.view_camera)]);
 	var gml_fxy=yyftime(__yy_gml_errCheck(dsin(yyftime(__yy_gml_errCheck(global.gmlroom_time),2))),2);
-	if((yyGetBool(yyfequal(global.gmlspawn_state,3)))&&(yyGetBool(_inst.gmldoor_open)))
+	if((yyGetBool(yyfequal(gml_Script_get_spawn_state(_inst,_other),3)))&&(yyGetBool(_inst.gmldoor_open)))
 	{
 		draw_sprite_ext(_inst,_inst.sprite_index,_inst.image_index,_inst.x,_inst.y,_inst.gmldoor_fx,1,0,(-1),1)	}
 	;
@@ -29213,7 +30120,7 @@ function gml_Object_oStageExit_Draw_0(_inst,_other)
 			var gml_drx=clamp(_inst.x,yyfplus(__yy_gml_errCheck(gml_vx),24),yyfminus(yyfplus(__yy_gml_errCheck(gml_vx),400),24));
 			var gml_dry=clamp(_inst.y,yyfplus(__yy_gml_errCheck(gml_vy),32),yyfminus(yyfplus(__yy_gml_errCheck(gml_vy),288),32));
 			var gml_ddir=point_direction(gml_drx,gml_dry,_inst.x,_inst.y);
-			draw_sprite_ext(_inst,YYASSET_REF(0x0100007E),0,gml_drx,yyfplus(yyfplus(__yy_gml_errCheck(gml_dry),4),__yy_gml_errCheck(gml_fxy)),1,1,gml_ddir,(-1),1);
+			draw_sprite_ext(_inst,YYASSET_REF(0x01000086),0,gml_drx,yyfplus(yyfplus(__yy_gml_errCheck(gml_dry),4),__yy_gml_errCheck(gml_fxy)),1,1,gml_ddir,(-1),1);
 			draw_set_halign(1);
 			draw_set_font(global.gmlfontMain);
 			draw_text(yyfminus(__yy_gml_errCheck(gml_drx),4),yyfplus(yyfminus(__yy_gml_errCheck(gml_dry),12),__yy_gml_errCheck(gml_fxy)),"!GO");
@@ -29227,12 +30134,12 @@ function gml_Object_oStageExit_Draw_0(_inst,_other)
 		return 	}
 	;
 	draw_text(_inst.x,yyfminus(__yy_gml_errCheck(_inst.y),24),__yy_InternalStringInterpolation("EXIT DOOR \ngoal {0}",_inst.gmlwave_goal));
-	draw_sprite(_inst,YYASSET_REF(0x01000058),0,_inst.x,_inst.y);
+	draw_sprite(_inst,YYASSET_REF(0x0100005E),0,_inst.x,_inst.y);
 }
 
 function gml_Object_oTestCoffin_Create_0(_inst,_other)
 {
-	_inst.mask_index=YYASSET_REF(0x01000054);
+	_inst.mask_index=YYASSET_REF(0x0100005A);
 }
 
 function gml_Object_oTestCoffin_Draw_0(_inst,_other)
@@ -29246,7 +30153,7 @@ function gml_Object_oTestCoffin_Draw_0(_inst,_other)
 
 				{
 			draw_sprite_part_ext(_inst,_inst.sprite_index,_inst.image_index,0,0,sprite_get_width(_inst.sprite_index),yyfminus(yyfminus(__yy_gml_errCheck(sprite_get_height(_inst.sprite_index)),__yy_gml_errCheck(gml_ground_y)),6),yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gml_xo),__yy_gml_errCheck(gml_xscale)))),yyfplus(yyfplus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(gml_yo)),__yy_gml_errCheck(gml_ground_y)),gml_xscale,1,(-1),1);
-			draw_sprite(_inst,YYASSET_REF(0x0100003E),0,_inst.x,_inst.bbox_bottom);
+			draw_sprite(_inst,YYASSET_REF(0x01000044),0,_inst.x,_inst.bbox_bottom);
 		}
 	}
 	else 
@@ -29264,12 +30171,12 @@ function gml_Object_oTestSpawner_Create_0(_inst,_other)
 {
 	event_inherited(_inst,_other);
 	_inst.gmlent_hurt_can=true;
-	_inst.gmlenemy_list=(__yy_gml_array_create([YYASSET_REF(0x00000018),YYASSET_REF(0x0000001C),YYASSET_REF(0x00000015),YYASSET_REF(0x0000000D),YYASSET_REF(0x00000017),YYASSET_REF(0x00000011),YYASSET_REF(0x00000016),YYASSET_REF(0x0000000F),YYASSET_REF(0x0000000E)]));
+	_inst.gmlenemy_list=(__yy_gml_array_create([YYASSET_REF(0x0000001C),YYASSET_REF(0x00000020),YYASSET_REF(0x00000019),YYASSET_REF(0x00000011),YYASSET_REF(0x0000001B),YYASSET_REF(0x00000015),YYASSET_REF(0x0000001A),YYASSET_REF(0x00000013),YYASSET_REF(0x00000012),YYASSET_REF(0x0000000F)]));
 	_inst.gmlenemy_list_select=0;
-	_inst.gmlhurt_callback=__yy_method(_inst,gml_Script_anon_40_254_40_gml_Object_oTestSpawner_Create_0);
+	_inst.gmlhurt_callback=__yy_method(_inst,gml_Script_anon_40_269_40_gml_Object_oTestSpawner_Create_0);
 }
 
-function gml_Script_anon_40_254_40_gml_Object_oTestSpawner_Create_0(_inst,_other,argument0)
+function gml_Script_anon_40_269_40_gml_Object_oTestSpawner_Create_0(_inst,_other,argument0)
 {
 
 		{
@@ -29298,6 +30205,14 @@ function gml_Script_anon_40_254_40_gml_Object_oTestSpawner_Create_0(_inst,_other
 
 function gml_Object_oTestSpawner_Step_1(_inst,_other)
 {
+	if((yyGetBool(mouse_check_button_pressed(1)))&&(yyGetBool(point_in_rectangle(g_pBuiltIn.get_mouse_x(),g_pBuiltIn.get_mouse_y(),_inst.bbox_left,_inst.bbox_top,_inst.bbox_right,_inst.bbox_bottom))))
+	{
+		gml_Script_hurt_entity(_inst,_other,_inst,0)	}
+	;
+	if((yyGetBool(mouse_check_button_pressed(2)))&&(yyGetBool(point_in_rectangle(g_pBuiltIn.get_mouse_x(),g_pBuiltIn.get_mouse_y(),_inst.bbox_left,_inst.bbox_top,_inst.bbox_right,_inst.bbox_bottom))))
+	{
+		gml_Script_hurt_entity(_inst,_other,_inst,0,2)	}
+	;
 }
 
 function gml_Object_oTestSpawner_Draw_0(_inst,_other)
@@ -29329,29 +30244,56 @@ function gml_Object_oViewZone_Draw_0(_inst,_other)
 function gml_Object_oWaveTrigger_Create_0(_inst,_other)
 {
 	gml_Script_prop_init(_inst,_other);
-	_inst.gmlspawn_id=YYASSET_REF(0x0000002F);
+	_inst.gmlspawn_id=YYASSET_REF(0x00000033);
 	_inst.gmlspawn_wave_info=__yy_gml_object_create(_inst,__yy_gml_blank_constructor);
 	_inst.gmlactive=false;
-	_inst.gmlhurt_callback=__yy_method(_inst,gml_Script_anon_40_107_40_gml_Object_oWaveTrigger_Create_0);
+	_inst.gmlspawn_selected=false;
+	_inst.gmlhurt_callback=__yy_method(_inst,gml_Script_anon_40_131_40_gml_Object_oWaveTrigger_Create_0);
 	_inst.gmlfx_timer=irandom_range(0,59);
+	_inst.gmldraw_event=__yy_method(_inst,gml_Script_anon_40_564_40_gml_Object_oWaveTrigger_Create_0);
 }
 
-function gml_Script_anon_40_107_40_gml_Object_oWaveTrigger_Create_0(_inst,_other,argument0)
+function gml_Script_anon_40_131_40_gml_Object_oWaveTrigger_Create_0(_inst,_other,argument0)
 {
 
 		{
-		if(yyfequal(yyInst(_inst,_other,argument0).gmlent_type,4))
+		if(!yyGetBool(_inst.gmlspawn_selected))
 		{
-			yyInst(_inst,_other,argument0).gmlhit_did=true		}
+
+						{
+				if(yyfequal(yyInst(_inst,_other,argument0).gmlent_type,4))
+				{
+					yyInst(_inst,_other,argument0).gmlhit_did=true				}
+				;
+				if(yyGetBool(instance_exists(_inst.gmlspawn_id)))
+				{
+					yyInst(_inst,_other,_inst.gmlspawn_id).gmlwave_selected=yyInst(_inst,_other,_inst.gmlspawn_wave_info).gmlwave_id				}
+				;
+				var gml_msg=instance_create_depth(_inst.x,_inst.y,0,YYASSET_REF(0x00000026));
+				yyInst(_inst,_other,gml_msg).gmlfx_text=__yy_InternalStringInterpolation("WAVE {0}",yyInst(_inst,_other,_inst.gmlspawn_id).gmlwave_current);
+				yyInst(_inst,_other,gml_msg).gmltimer=120;
+			}
+		}
 		;
-		if(yyGetBool(instance_exists(_inst.gmlspawn_id)))
-		{
-			yyInst(_inst,_other,_inst.gmlspawn_id).gmlwave_selected=yyInst(_inst,_other,_inst.gmlspawn_wave_info).gmlwave_id		}
-		;
-		var gml_msg=instance_create_depth(_inst.x,_inst.y,0,YYASSET_REF(0x00000022));
-		yyInst(_inst,_other,gml_msg).gmlfx_text=__yy_InternalStringInterpolation("WAVE {0}",yyInst(_inst,_other,_inst.gmlspawn_id).gmlwave_current);
-		yyInst(_inst,_other,gml_msg).gmltimer=120;
 		instance_destroy(_inst);
+	}
+}
+
+function gml_Script_anon_40_564_40_gml_Object_oWaveTrigger_Create_0(_inst,_other)
+{
+
+		{
+		_inst.gmlfx_flash=(yyGetBool(_inst.gmlfx_flash)?yyfminus(__yy_gml_errCheck(_inst.gmlfx_flash),1):0);
+		if(yyGetBool(_inst.gmlfx_flash))
+		{
+			shader_set(YYASSET_REF(0x08000002))		}
+		;
+		_inst.gmlfx_timer=(_inst.gmlfx_timer instanceof Long?_inst.gmlfx_timer.add(1):++_inst.gmlfx_timer);
+		var gml_xsin=dsin(yyftime(__yy_gml_errCheck(_inst.gmlfx_timer),0.8));
+		var gml_ysin=dsin(yyftime(__yy_gml_errCheck(_inst.gmlfx_timer),1.5));
+		draw_sprite_ext(_inst,YYASSET_REF(0x0100004B),yyfdivide(__yy_gml_errCheck(_inst.gmlfx_timer),4),yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gml_xsin),4))),yyfplus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gml_ysin),4))),yyfplus(1,__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gml_ysin),0.2))),yyfminus(1,__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gml_ysin),0.2))),0,(-1),1);
+		draw_sprite_ext(_inst,_inst.sprite_index,_inst.image_index,yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gml_xsin),4))),yyfplus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gml_ysin),4))),1,1,0,(-1),1);
+		shader_reset();
 	}
 }
 
@@ -29368,20 +30310,15 @@ function gml_Object_oWaveTrigger_Step_0(_inst,_other)
 	}
 	;
 	_inst.gmlyvel=gml_Script_approach(_inst,_other,_inst.gmlyvel,0,0.07);
-	if((yyGetBool(!yyGetBool(instance_exists(_inst.gmlspawn_id))))||(yyGetBool(yyfnotequal(yyInst(_inst,_other,_inst.gmlspawn_id).gmlwave_selected,(-1)))))
+	if((yyGetBool(_inst.gmlspawn_selected))||(yyGetBool(!yyGetBool(instance_exists(_inst.gmlspawn_id))))||(yyGetBool(yyfnotequal(yyInst(_inst,_other,_inst.gmlspawn_id).gmlwave_selected,(-1)))))
 	{
 		instance_destroy(_inst)	}
 	;
-	gml_Script_ent_move_collide(_inst,_other,(-1),0);
+	gml_Script_ent_move_collide(_inst,_other,(-1));
 }
 
-function gml_Object_oWaveTrigger_Draw_0(_inst,_other)
+function gml_Object_oWaveTrigger_Draw_73(_inst,_other)
 {
-	_inst.gmlfx_timer=(_inst.gmlfx_timer instanceof Long?_inst.gmlfx_timer.add(1):++_inst.gmlfx_timer);
-	var gml_xsin=dsin(yyftime(__yy_gml_errCheck(_inst.gmlfx_timer),0.8));
-	var gml_ysin=dsin(yyftime(__yy_gml_errCheck(_inst.gmlfx_timer),1.5));
-	draw_sprite_ext(_inst,YYASSET_REF(0x01000045),yyfdivide(__yy_gml_errCheck(_inst.gmlfx_timer),4),yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gml_xsin),4))),yyfplus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gml_ysin),4))),yyfplus(1,__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gml_ysin),0.2))),yyfminus(1,__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gml_ysin),0.2))),0,(-1),1);
-	draw_sprite_ext(_inst,_inst.sprite_index,_inst.image_index,yyfplus(__yy_gml_errCheck(_inst.x),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gml_xsin),4))),yyfplus(__yy_gml_errCheck(_inst.y),__yy_gml_errCheck(yyftime(__yy_gml_errCheck(gml_ysin),4))),1,1,0,(-1),1);
 	if(!yyGetBool(global.gmldebug))
 	{
 		return 	}
@@ -29399,7 +30336,7 @@ function gml_Object_oWaveWall_Create_0(_inst,_other)
 
 function gml_Object_oWaveWall_Step_0(_inst,_other)
 {
-	var gml_sp=YYASSET_REF(0x0000002F);
+	var gml_sp=YYASSET_REF(0x00000033);
 	if(!yyGetBool(instance_exists(gml_sp)))
 	{
 		return 	}
@@ -29409,7 +30346,7 @@ function gml_Object_oWaveWall_Step_0(_inst,_other)
 
 				{
 			_inst.gmlactive=true;
-			_inst.mask_index=YYASSET_REF(0x01000073);
+			_inst.mask_index=YYASSET_REF(0x0100007B);
 			_inst.image_xscale=_inst.gmlwall_x;
 			_inst.image_yscale=_inst.gmlwall_y;
 		}
@@ -29419,7 +30356,7 @@ function gml_Object_oWaveWall_Step_0(_inst,_other)
 
 				{
 			_inst.gmlactive=false;
-			_inst.mask_index=YYASSET_REF(0x01000057);
+			_inst.mask_index=YYASSET_REF(0x0100005D);
 			_inst.image_xscale=0;
 			_inst.image_yscale=0;
 		}
@@ -29453,7 +30390,7 @@ function gml_Object_oWebInit_Draw_0(_inst,_other)
 								{
 
 										{
-						var __yy__v142=GetWithArray(YYASSET_REF(0x0000002E));
+						var __yy__v142=GetWithArray(YYASSET_REF(0x00000032));
 						for(var __yy__v143 in __yy__v142)
 						{
 							if(!__yy__v142.hasOwnProperty(__yy__v143))continue;
@@ -29557,6 +30494,8 @@ function gmlInitGlobal()
 	global.gml___struct___66=0;
 	global.gml___struct___67=0;
 	global.gml___struct___68=0;
+	global.gml___struct___69=0;
+	global.gml___struct___70=0;
 	gml_GlobalScript_all_macros(global,global);
 	gml_GlobalScript_angle_lerp(global,global);
 	gml_GlobalScript_animation_end(global,global);
@@ -29565,6 +30504,7 @@ function gmlInitGlobal()
 	gml_GlobalScript_entity_inits(global,global);
 	gml_GlobalScript_entity_scripts(global,global);
 	gml_GlobalScript_game_init(global,global);
+	gml_GlobalScript_get_spawn_zone(global,global);
 	gml_GlobalScript_gmcallback_imgloadbar(global,global);
 	gml_GlobalScript_gun_struct(global,global);
 	gml_GlobalScript_key_get_string(global,global);
@@ -29587,40 +30527,40 @@ IDToTagList=[
 	key:83986116,ids:[0]}
 ,
 {
-	key:83986135,ids:[0]}
+	key:83986136,ids:[0]}
 ,
 {
-	key:18,ids:[1]}
+	key:22,ids:[1]}
 ,
 {
-	key:19,ids:[1]}
+	key:23,ids:[1]}
 ,
 {
-	key:25,ids:[1]}
+	key:29,ids:[1]}
 ,
 {
-	key:33,ids:[1]}
-,
-{
-	key:50,ids:[1]}
+	key:37,ids:[1]}
 ,
 {
 	key:54,ids:[1]}
 ,
 {
-	key:55,ids:[1]}
+	key:58,ids:[1]}
 ,
 {
-	key:63,ids:[1]}
+	key:59,ids:[1]}
 ,
 {
-	key:69,ids:[1]}
+	key:67,ids:[1]}
 ,
 {
-	key:70,ids:[1]}
+	key:73,ids:[1]}
+,
+{
+	key:74,ids:[1]}
 ];
-JSON_game.ScriptNames=["gml_GlobalScript_all_macros","gml_GlobalScript_angle_lerp","gml_Script_angle_lerp","gml_GlobalScript_animation_end","gml_Script_animation_end","gml_GlobalScript_approach","gml_Script_approach","gml_GlobalScript_audio_play_sfx","gml_Script_audio_play_sfx","gml_GlobalScript_entity_inits","gml_Script_platformer_init","gml_Script_entity_init","gml_Script_anon@790@hittable_init@entity_inits","gml_Script_anon@961@hittable_init@entity_inits","gml_Script_hittable_init","gml_Script_anon@1310@hittablewall_init@entity_inits","gml_Script_anon@1365@hittablewall_init@entity_inits","gml_Script_hittablewall_init","gml_Script_anon@1750@player_init@entity_inits","gml_Script_player_init","gml_Script_anon@2392@prop_init@entity_inits","gml_Script_anon@2716@prop_init@entity_inits","gml_Script_prop_init","gml_Script_enemy_init","gml_Script_projectile_init","gml_Script_hitbox_init","gml_Script_pickup_init","gml_GlobalScript_entity_scripts","gml_Script_anon@345@ent_move_collide@entity_scripts","gml_Script_ent_move_collide","gml_Script_get_ent_targets","gml_Script_ent_state_machine","gml_Script_ent_prestate_event","gml_Script_ent_death_event","gml_Script_ent_spawnlist_index","gml_Script_anon@2338@hurtData@entity_scripts","gml_Script_hurtData","gml_Script_hurt_entity","gml_Script_ent_player_canhit","gml_Script_hurt_player","gml_Script_ent_add_knockback","gml_GlobalScript_game_init","gml_Script____struct___0","gml_Script____struct___1","gml_Script____struct___2","gml_Script_game_init","gml_Script_load_playerdata","gml_Script____struct___3@save_settings@game_init","gml_Script_save_settings","gml_Script____struct___4@save_playerdata@game_init","gml_Script_save_playerdata","gml_Script_choose_weighted","gml_Script_outside_view","gml_Script_sqr_ceil","gml_Script_anon@5557@color@game_init","gml_Script_color","gml_Script_draw_key_tip","gml_Script_timer_show","gml_GlobalScript_gmcallback_imgloadbar","gml_Script_gmcallback_imgloadbar","gml_GlobalScript_gun_struct","gml_Script_get_gun_sprite","gml_Script_get_gun_name","gml_Script_get_gun","gml_Script____struct___8@___struct___7@___struct___6@___struct___5@gun_struct","gml_Script____struct___9@___struct___7@___struct___6@___struct___5@gun_struct","gml_Script____struct___7@___struct___6@___struct___5@gun_struct","gml_Script____struct___6@___struct___5@gun_struct","gml_Script____struct___14@___struct___13@___struct___12@___struct___5@gun_struct","gml_Script____struct___15@___struct___13@___struct___12@___struct___5@gun_struct","gml_Script____struct___13@___struct___12@___struct___5@gun_struct","gml_Script____struct___16@___struct___12@___struct___5@gun_struct","gml_Script____struct___12@___struct___5@gun_struct","gml_Script____struct___20@___struct___19@___struct___18@___struct___5@gun_struct","gml_Script____struct___21@___struct___19@___struct___18@___struct___5@gun_struct","gml_Script____struct___19@___struct___18@___struct___5@gun_struct","gml_Script____struct___18@___struct___5@gun_struct","gml_Script____struct___26@___struct___25@___struct___24@___struct___5@gun_struct","gml_Script____struct___27@___struct___25@___struct___24@___struct___5@gun_struct","gml_Script____struct___25@___struct___24@___struct___5@gun_struct","gml_Script____struct___28@___struct___24@___struct___5@gun_struct","gml_Script____struct___24@___struct___5@gun_struct","gml_Script____struct___32@___struct___31@___struct___30@___struct___5@gun_struct","gml_Script____struct___33@___struct___31@___struct___30@___struct___5@gun_struct","gml_Script____struct___31@___struct___30@___struct___5@gun_struct","gml_Script____struct___30@___struct___5@gun_struct","gml_Script____struct___38@___struct___37@___struct___36@___struct___5@gun_struct","gml_Script____struct___39@___struct___37@___struct___36@___struct___5@gun_struct","gml_Script____struct___37@___struct___36@___struct___5@gun_struct","gml_Script____struct___36@___struct___5@gun_struct","gml_Script____struct___44@___struct___43@___struct___42@___struct___5@gun_struct","gml_Script____struct___45@___struct___43@___struct___42@___struct___5@gun_struct","gml_Script____struct___43@___struct___42@___struct___5@gun_struct","gml_Script____struct___42@___struct___5@gun_struct","gml_Script____struct___5","gml_GlobalScript_key_get_string","gml_Script_key_get_string","gml_GlobalScript_listloop","gml_Script_listloop","gml_GlobalScript_menu_options_init","gml_Script____struct___48@menu_options_init@menu_options_init","gml_Script_menu_options_init","gml_Script____struct___49@pause_menu_options_init@menu_options_init","gml_Script_pause_menu_options_init","gml_Script____struct___50@game_over_optioms_init@menu_options_init","gml_Script_game_over_optioms_init","gml_Script_options_change","gml_Script_anon@6362@menu_options_draw@menu_options_init","gml_Script_anon@6778@menu_options_draw@menu_options_init","gml_Script_anon@7499@menu_options_draw@menu_options_init","gml_Script_anon@7977@menu_options_draw@menu_options_init","gml_Script_anon@8748@menu_options_draw@menu_options_init","gml_Script_anon@9282@menu_options_draw@menu_options_init","gml_Script_anon@9633@menu_options_draw@menu_options_init","gml_Script_anon@10023@menu_options_draw@menu_options_init","gml_Script_menu_options_draw","gml_GlobalScript_platformer_scripts","gml_Script_on_ground","gml_Script_on_wall","gml_Script_on_slope","gml_Script_on_platform","gml_Script_move_x","gml_Script_wall_above","gml_Script_move_y","gml_Script_round_vel","gml_Script_slope_move","gml_Script_wall_on_side","gml_Script_on_top","gml_Script_coll_x","gml_Script_coll_y","gml_Script_move_platform_x","gml_Script_move_platform_y","gml_Script_coll_x_list","gml_Script_coll_y_list","gml_Script_instances_reset_position","gml_Script_instances_update_previous_position","gml_GlobalScript_player_scripts","gml_Script_pl_hurt_player","gml_Script_pl_post_state","gml_GlobalScript_player_shoot_atk","gml_Script_pl_obtain_gun","gml_Script_pl_switch_gun","gml_Script_pl_shoot_atk","gml_GlobalScript_player_states","gml_Script_pl_jump","gml_Script_anon@4045@pl_state_free@player_states","gml_Script_pl_state_free","gml_Script_pl_state_dash","gml_Script_pl_state_room_exit","gml_Script_pl_state_room_enter","gml_Script_pl_state_hurt","gml_GlobalScript_set_new_room","gml_Script_room_get_type","gml_Script_set_new_room","gml_Script_anon@136@gml_Object_oBulBlood_Create_0","gml_Script_anon@269@gml_Object_oBulBlood_Create_0","gml_Script_anon@375@gml_Object_oBulBlood_Create_0","gml_Script_anon@130@gml_Object_oBulFlak_Create_0","gml_Script_anon@485@gml_Object_oBulFlak_Create_0","gml_Script_anon@730@gml_Object_oBulFlak_Create_0","gml_Script_anon@877@gml_Object_oBulFlak_Create_0","gml_Script_anon@139@gml_Object_oBulFlyingBomb_Create_0","gml_Script_anon@283@gml_Object_oBulFlyingBomb_Create_0","gml_Script_anon@74@gml_Object_oBulSkull_Create_0","gml_Script_anon@373@gml_Object_oBulSkull_Create_0","gml_Script_anon@43@gml_Object_oDoorTest_Create_0","gml_Script____struct___51@gml_Object_oEnClatter_Create_0","gml_Script_anon@244@gml_Object_oEnClatter_Create_0","gml_Script____struct___52@gml_Object_oEnCoffin_Create_0","gml_Script_anon@402@gml_Object_oEnCoffin_Create_0","gml_Script____struct___53@gml_Object_oEnDemonBomb_Create_0","gml_Script_anon@392@gml_Object_oEnDemonBomb_Create_0","gml_Script_anon@689@gml_Object_oEnDemonBomb_Create_0","gml_Script_anon@4387@gml_Object_oEnDemonBomb_Step_0","gml_Script_anon@326@gml_Object_oEnDemonSnake_Create_0","gml_Script_anon@292@gml_Object_oEnDemonSnakeBody_Create_0","gml_Script_anon@358@gml_Object_oEnDemonSnakeBody_Create_0","gml_Script_anon@216@gml_Object_oEnDrippler_Create_0","gml_Script_anon@97@gml_Object_oEnemyBullet_Create_0","gml_Script_anon@253@gml_Object_oEnemyBullet_Create_0","gml_Script_anon@375@gml_Object_oEnemyBullet_Create_0","gml_Script_anon@182@gml_Object_oEnEvilBalloon_Create_0","gml_Script_anon@4384@gml_Object_oEnExploder_Step_0","gml_Script____struct___54@gml_Object_oEnGhostshot_Create_0","gml_Script_anon@294@gml_Object_oEnGhostshot_Create_0","gml_Script____struct___55@gml_Object_oEnLeaper_Create_0","gml_Script_anon@170@gml_Object_oEntRisingWall_Create_0","gml_Script____struct___56@gml_Object_oEnZombie_Create_0","gml_Script_anon@474@gml_Object_oEnZombie_Create_0","gml_Script_anon@5878@gml_Object_oEnZombie_Step_0","gml_Script_anon@304@gml_Object_oExplosion_Step_0","gml_Script_anon@102@gml_Object_oFloatUmbrella_Create_0","gml_Script_anon@407@gml_Object_oFloatUmbrella_Step_0","gml_Script_anon@231@gml_Object_oFxGib_Create_0","gml_Script_anon@130@gml_Object_oGamePause_Create_0","gml_Script_anon@548@gml_Object_oGamePause_Create_0","gml_Script_anon@785@gml_Object_oGamePause_Create_0","gml_Script_anon@1025@gml_Object_oGamePause_Create_0","gml_Script____struct___58@gml_Object_oGameSetup_Create_0","gml_Script____struct___59@anon@1294@gml_Object_oGameSetup_Create_0","gml_Script_anon@1294@gml_Object_oGameSetup_Create_0","gml_Script____struct___60@gml_Object_oGameSpawner_Create_0","gml_Script____struct___61@gml_Object_oGameSpawner_Create_0","gml_Script____struct___62@gml_Object_oGameSpawner_Create_0","gml_Script____struct___63@gml_Object_oGameSpawner_Create_0","gml_Script____struct___64@gml_Object_oGameSpawner_Create_0","gml_Script____struct___65@gml_Object_oGameSpawner_Create_0","gml_Script____struct___66@gml_Object_oGameSpawner_Create_0","gml_Script____struct___67@gml_Object_oGameSpawner_Create_0","gml_Script_anon@991@gml_Object_oGameSpawner_Create_0","gml_Script_anon@189@gml_Object_oGiftFlying_Create_0","gml_Script_anon@293@gml_Object_oHitrunPlayer_Create_0","gml_Script_anon@880@gml_Object_oPlayer_Create_0","gml_Script_anon@216@gml_Object_oPlayerBulRegular_Create_0","gml_Script_anon@271@gml_Object_oPlayerBulRegular_Step_0","gml_Script_anon@1353@gml_Object_oPlayerBulRegular_Step_0","gml_Script_anon@1963@gml_Object_oPlayerBulRegular_Step_0","gml_Script_anon@411@gml_Object_oPlayerHitbox_Step_0","gml_Script_anon@152@gml_Object_oPropBomb_Create_0","gml_Script_anon@346@gml_Object_oPropBomb_Step_0","gml_Script_anon@143@gml_Object_oPropNuke_Create_0","gml_Script_anon@328@gml_Object_oPropNuke_Step_0","gml_Script_anon@657@gml_Object_oStageExit_Step_0","gml_Script_anon@254@gml_Object_oTestSpawner_Create_0","gml_Script_anon@107@gml_Object_oWaveTrigger_Create_0"];
-JSON_game.Scripts=[gml_GlobalScript_all_macros,gml_GlobalScript_angle_lerp,gml_Script_angle_lerp,gml_GlobalScript_animation_end,gml_Script_animation_end,gml_GlobalScript_approach,gml_Script_approach,gml_GlobalScript_audio_play_sfx,gml_Script_audio_play_sfx,gml_GlobalScript_entity_inits,gml_Script_platformer_init,gml_Script_entity_init,gml_Script_anon_40_790_40_hittable_init_40_entity_inits,gml_Script_anon_40_961_40_hittable_init_40_entity_inits,gml_Script_hittable_init,gml_Script_anon_40_1310_40_hittablewall_init_40_entity_inits,gml_Script_anon_40_1365_40_hittablewall_init_40_entity_inits,gml_Script_hittablewall_init,gml_Script_anon_40_1750_40_player_init_40_entity_inits,gml_Script_player_init,gml_Script_anon_40_2392_40_prop_init_40_entity_inits,gml_Script_anon_40_2716_40_prop_init_40_entity_inits,gml_Script_prop_init,gml_Script_enemy_init,gml_Script_projectile_init,gml_Script_hitbox_init,gml_Script_pickup_init,gml_GlobalScript_entity_scripts,gml_Script_anon_40_345_40_ent_move_collide_40_entity_scripts,gml_Script_ent_move_collide,gml_Script_get_ent_targets,gml_Script_ent_state_machine,gml_Script_ent_prestate_event,gml_Script_ent_death_event,gml_Script_ent_spawnlist_index,gml_Script_anon_40_2338_40_hurtData_40_entity_scripts,gml_Script_hurtData,gml_Script_hurt_entity,gml_Script_ent_player_canhit,gml_Script_hurt_player,gml_Script_ent_add_knockback,gml_GlobalScript_game_init,gml_Script____struct___0,gml_Script____struct___1,gml_Script____struct___2,gml_Script_game_init,gml_Script_load_playerdata,gml_Script____struct___3_40_save_settings_40_game_init,gml_Script_save_settings,gml_Script____struct___4_40_save_playerdata_40_game_init,gml_Script_save_playerdata,gml_Script_choose_weighted,gml_Script_outside_view,gml_Script_sqr_ceil,gml_Script_anon_40_5557_40_color_40_game_init,gml_Script_color,gml_Script_draw_key_tip,gml_Script_timer_show,gml_GlobalScript_gmcallback_imgloadbar,gml_Script_gmcallback_imgloadbar,gml_GlobalScript_gun_struct,gml_Script_get_gun_sprite,gml_Script_get_gun_name,gml_Script_get_gun,gml_Script____struct___8_40____struct___7_40____struct___6_40____struct___5_40_gun_struct,gml_Script____struct___9_40____struct___7_40____struct___6_40____struct___5_40_gun_struct,gml_Script____struct___7_40____struct___6_40____struct___5_40_gun_struct,gml_Script____struct___6_40____struct___5_40_gun_struct,gml_Script____struct___14_40____struct___13_40____struct___12_40____struct___5_40_gun_struct,gml_Script____struct___15_40____struct___13_40____struct___12_40____struct___5_40_gun_struct,gml_Script____struct___13_40____struct___12_40____struct___5_40_gun_struct,gml_Script____struct___16_40____struct___12_40____struct___5_40_gun_struct,gml_Script____struct___12_40____struct___5_40_gun_struct,gml_Script____struct___20_40____struct___19_40____struct___18_40____struct___5_40_gun_struct,gml_Script____struct___21_40____struct___19_40____struct___18_40____struct___5_40_gun_struct,gml_Script____struct___19_40____struct___18_40____struct___5_40_gun_struct,gml_Script____struct___18_40____struct___5_40_gun_struct,gml_Script____struct___26_40____struct___25_40____struct___24_40____struct___5_40_gun_struct,gml_Script____struct___27_40____struct___25_40____struct___24_40____struct___5_40_gun_struct,gml_Script____struct___25_40____struct___24_40____struct___5_40_gun_struct,gml_Script____struct___28_40____struct___24_40____struct___5_40_gun_struct,gml_Script____struct___24_40____struct___5_40_gun_struct,gml_Script____struct___32_40____struct___31_40____struct___30_40____struct___5_40_gun_struct,gml_Script____struct___33_40____struct___31_40____struct___30_40____struct___5_40_gun_struct,gml_Script____struct___31_40____struct___30_40____struct___5_40_gun_struct,gml_Script____struct___30_40____struct___5_40_gun_struct,gml_Script____struct___38_40____struct___37_40____struct___36_40____struct___5_40_gun_struct,gml_Script____struct___39_40____struct___37_40____struct___36_40____struct___5_40_gun_struct,gml_Script____struct___37_40____struct___36_40____struct___5_40_gun_struct,gml_Script____struct___36_40____struct___5_40_gun_struct,gml_Script____struct___44_40____struct___43_40____struct___42_40____struct___5_40_gun_struct,gml_Script____struct___45_40____struct___43_40____struct___42_40____struct___5_40_gun_struct,gml_Script____struct___43_40____struct___42_40____struct___5_40_gun_struct,gml_Script____struct___42_40____struct___5_40_gun_struct,gml_Script____struct___5,gml_GlobalScript_key_get_string,gml_Script_key_get_string,gml_GlobalScript_listloop,gml_Script_listloop,gml_GlobalScript_menu_options_init,gml_Script____struct___48_40_menu_options_init_40_menu_options_init,gml_Script_menu_options_init,gml_Script____struct___49_40_pause_menu_options_init_40_menu_options_init,gml_Script_pause_menu_options_init,gml_Script____struct___50_40_game_over_optioms_init_40_menu_options_init,gml_Script_game_over_optioms_init,gml_Script_options_change,gml_Script_anon_40_6362_40_menu_options_draw_40_menu_options_init,gml_Script_anon_40_6778_40_menu_options_draw_40_menu_options_init,gml_Script_anon_40_7499_40_menu_options_draw_40_menu_options_init,gml_Script_anon_40_7977_40_menu_options_draw_40_menu_options_init,gml_Script_anon_40_8748_40_menu_options_draw_40_menu_options_init,gml_Script_anon_40_9282_40_menu_options_draw_40_menu_options_init,gml_Script_anon_40_9633_40_menu_options_draw_40_menu_options_init,gml_Script_anon_40_10023_40_menu_options_draw_40_menu_options_init,gml_Script_menu_options_draw,gml_GlobalScript_platformer_scripts,gml_Script_on_ground,gml_Script_on_wall,gml_Script_on_slope,gml_Script_on_platform,gml_Script_move_x,gml_Script_wall_above,gml_Script_move_y,gml_Script_round_vel,gml_Script_slope_move,gml_Script_wall_on_side,gml_Script_on_top,gml_Script_coll_x,gml_Script_coll_y,gml_Script_move_platform_x,gml_Script_move_platform_y,gml_Script_coll_x_list,gml_Script_coll_y_list,gml_Script_instances_reset_position,gml_Script_instances_update_previous_position,gml_GlobalScript_player_scripts,gml_Script_pl_hurt_player,gml_Script_pl_post_state,gml_GlobalScript_player_shoot_atk,gml_Script_pl_obtain_gun,gml_Script_pl_switch_gun,gml_Script_pl_shoot_atk,gml_GlobalScript_player_states,gml_Script_pl_jump,gml_Script_anon_40_4045_40_pl_state_free_40_player_states,gml_Script_pl_state_free,gml_Script_pl_state_dash,gml_Script_pl_state_room_exit,gml_Script_pl_state_room_enter,gml_Script_pl_state_hurt,gml_GlobalScript_set_new_room,gml_Script_room_get_type,gml_Script_set_new_room,gml_Script_anon_40_136_40_gml_Object_oBulBlood_Create_0,gml_Script_anon_40_269_40_gml_Object_oBulBlood_Create_0,gml_Script_anon_40_375_40_gml_Object_oBulBlood_Create_0,gml_Script_anon_40_130_40_gml_Object_oBulFlak_Create_0,gml_Script_anon_40_485_40_gml_Object_oBulFlak_Create_0,gml_Script_anon_40_730_40_gml_Object_oBulFlak_Create_0,gml_Script_anon_40_877_40_gml_Object_oBulFlak_Create_0,gml_Script_anon_40_139_40_gml_Object_oBulFlyingBomb_Create_0,gml_Script_anon_40_283_40_gml_Object_oBulFlyingBomb_Create_0,gml_Script_anon_40_74_40_gml_Object_oBulSkull_Create_0,gml_Script_anon_40_373_40_gml_Object_oBulSkull_Create_0,gml_Script_anon_40_43_40_gml_Object_oDoorTest_Create_0,gml_Script____struct___51_40_gml_Object_oEnClatter_Create_0,gml_Script_anon_40_244_40_gml_Object_oEnClatter_Create_0,gml_Script____struct___52_40_gml_Object_oEnCoffin_Create_0,gml_Script_anon_40_402_40_gml_Object_oEnCoffin_Create_0,gml_Script____struct___53_40_gml_Object_oEnDemonBomb_Create_0,gml_Script_anon_40_392_40_gml_Object_oEnDemonBomb_Create_0,gml_Script_anon_40_689_40_gml_Object_oEnDemonBomb_Create_0,gml_Script_anon_40_4387_40_gml_Object_oEnDemonBomb_Step_0,gml_Script_anon_40_326_40_gml_Object_oEnDemonSnake_Create_0,gml_Script_anon_40_292_40_gml_Object_oEnDemonSnakeBody_Create_0,gml_Script_anon_40_358_40_gml_Object_oEnDemonSnakeBody_Create_0,gml_Script_anon_40_216_40_gml_Object_oEnDrippler_Create_0,gml_Script_anon_40_97_40_gml_Object_oEnemyBullet_Create_0,gml_Script_anon_40_253_40_gml_Object_oEnemyBullet_Create_0,gml_Script_anon_40_375_40_gml_Object_oEnemyBullet_Create_0,gml_Script_anon_40_182_40_gml_Object_oEnEvilBalloon_Create_0,gml_Script_anon_40_4384_40_gml_Object_oEnExploder_Step_0,gml_Script____struct___54_40_gml_Object_oEnGhostshot_Create_0,gml_Script_anon_40_294_40_gml_Object_oEnGhostshot_Create_0,gml_Script____struct___55_40_gml_Object_oEnLeaper_Create_0,gml_Script_anon_40_170_40_gml_Object_oEntRisingWall_Create_0,gml_Script____struct___56_40_gml_Object_oEnZombie_Create_0,gml_Script_anon_40_474_40_gml_Object_oEnZombie_Create_0,gml_Script_anon_40_5878_40_gml_Object_oEnZombie_Step_0,gml_Script_anon_40_304_40_gml_Object_oExplosion_Step_0,gml_Script_anon_40_102_40_gml_Object_oFloatUmbrella_Create_0,gml_Script_anon_40_407_40_gml_Object_oFloatUmbrella_Step_0,gml_Script_anon_40_231_40_gml_Object_oFxGib_Create_0,gml_Script_anon_40_130_40_gml_Object_oGamePause_Create_0,gml_Script_anon_40_548_40_gml_Object_oGamePause_Create_0,gml_Script_anon_40_785_40_gml_Object_oGamePause_Create_0,gml_Script_anon_40_1025_40_gml_Object_oGamePause_Create_0,gml_Script____struct___58_40_gml_Object_oGameSetup_Create_0,gml_Script____struct___59_40_anon_40_1294_40_gml_Object_oGameSetup_Create_0,gml_Script_anon_40_1294_40_gml_Object_oGameSetup_Create_0,gml_Script____struct___60_40_gml_Object_oGameSpawner_Create_0,gml_Script____struct___61_40_gml_Object_oGameSpawner_Create_0,gml_Script____struct___62_40_gml_Object_oGameSpawner_Create_0,gml_Script____struct___63_40_gml_Object_oGameSpawner_Create_0,gml_Script____struct___64_40_gml_Object_oGameSpawner_Create_0,gml_Script____struct___65_40_gml_Object_oGameSpawner_Create_0,gml_Script____struct___66_40_gml_Object_oGameSpawner_Create_0,gml_Script____struct___67_40_gml_Object_oGameSpawner_Create_0,gml_Script_anon_40_991_40_gml_Object_oGameSpawner_Create_0,gml_Script_anon_40_189_40_gml_Object_oGiftFlying_Create_0,gml_Script_anon_40_293_40_gml_Object_oHitrunPlayer_Create_0,gml_Script_anon_40_880_40_gml_Object_oPlayer_Create_0,gml_Script_anon_40_216_40_gml_Object_oPlayerBulRegular_Create_0,gml_Script_anon_40_271_40_gml_Object_oPlayerBulRegular_Step_0,gml_Script_anon_40_1353_40_gml_Object_oPlayerBulRegular_Step_0,gml_Script_anon_40_1963_40_gml_Object_oPlayerBulRegular_Step_0,gml_Script_anon_40_411_40_gml_Object_oPlayerHitbox_Step_0,gml_Script_anon_40_152_40_gml_Object_oPropBomb_Create_0,gml_Script_anon_40_346_40_gml_Object_oPropBomb_Step_0,gml_Script_anon_40_143_40_gml_Object_oPropNuke_Create_0,gml_Script_anon_40_328_40_gml_Object_oPropNuke_Step_0,gml_Script_anon_40_657_40_gml_Object_oStageExit_Step_0,gml_Script_anon_40_254_40_gml_Object_oTestSpawner_Create_0,gml_Script_anon_40_107_40_gml_Object_oWaveTrigger_Create_0];
+JSON_game.ScriptNames=["gml_GlobalScript_all_macros","gml_GlobalScript_angle_lerp","gml_Script_angle_lerp","gml_GlobalScript_animation_end","gml_Script_animation_end","gml_GlobalScript_approach","gml_Script_approach","gml_GlobalScript_audio_play_sfx","gml_Script_audio_play_sfx","gml_GlobalScript_entity_inits","gml_Script_platformer_init","gml_Script_entity_init","gml_Script_anon@817@hittable_init@entity_inits","gml_Script_anon@988@hittable_init@entity_inits","gml_Script_hittable_init","gml_Script_anon@1337@hittablewall_init@entity_inits","gml_Script_anon@1392@hittablewall_init@entity_inits","gml_Script_hittablewall_init","gml_Script_anon@1777@player_init@entity_inits","gml_Script_player_init","gml_Script_anon@2446@prop_init@entity_inits","gml_Script_anon@2770@prop_init@entity_inits","gml_Script_prop_init","gml_Script_enemy_init","gml_Script_projectile_init","gml_Script_hitbox_init","gml_Script_pickup_init","gml_GlobalScript_entity_scripts","gml_Script_anon@362@ent_move_collide@entity_scripts","gml_Script_ent_move_collide","gml_Script_get_ent_targets","gml_Script_ent_state_machine","gml_Script_ent_prestate_event","gml_Script_ent_death_event","gml_Script_ent_spawnlist_index","gml_Script_anon@2404@hurtData@entity_scripts","gml_Script_hurtData","gml_Script_hurt_entity","gml_Script_ent_player_canhit","gml_Script_hurt_player","gml_Script_ent_add_knockback","gml_Script_loop_xoffset","gml_GlobalScript_game_init","gml_Script____struct___0","gml_Script____struct___1","gml_Script____struct___2","gml_Script_game_init","gml_Script_load_playerdata","gml_Script____struct___3@save_settings@game_init","gml_Script_save_settings","gml_Script____struct___4@save_playerdata@game_init","gml_Script_save_playerdata","gml_Script_choose_weighted","gml_Script_outside_view","gml_Script_sqr_ceil","gml_Script_anon@5557@color@game_init","gml_Script_color","gml_Script_draw_key_tip","gml_Script_timer_show","gml_GlobalScript_get_spawn_zone","gml_Script_get_spawn_zone","gml_Script_get_spawn_limits","gml_Script_get_spawn_state","gml_GlobalScript_gmcallback_imgloadbar","gml_Script_gmcallback_imgloadbar","gml_GlobalScript_gun_struct","gml_Script_get_gun_sprite","gml_Script_get_gun_name","gml_Script_get_gun","gml_Script____struct___8@___struct___7@___struct___6@___struct___5@gun_struct","gml_Script____struct___9@___struct___7@___struct___6@___struct___5@gun_struct","gml_Script____struct___7@___struct___6@___struct___5@gun_struct","gml_Script____struct___6@___struct___5@gun_struct","gml_Script____struct___14@___struct___13@___struct___12@___struct___5@gun_struct","gml_Script____struct___15@___struct___13@___struct___12@___struct___5@gun_struct","gml_Script____struct___13@___struct___12@___struct___5@gun_struct","gml_Script____struct___16@___struct___12@___struct___5@gun_struct","gml_Script____struct___12@___struct___5@gun_struct","gml_Script____struct___20@___struct___19@___struct___18@___struct___5@gun_struct","gml_Script____struct___21@___struct___19@___struct___18@___struct___5@gun_struct","gml_Script____struct___19@___struct___18@___struct___5@gun_struct","gml_Script____struct___18@___struct___5@gun_struct","gml_Script____struct___26@___struct___25@___struct___24@___struct___5@gun_struct","gml_Script____struct___27@___struct___25@___struct___24@___struct___5@gun_struct","gml_Script____struct___25@___struct___24@___struct___5@gun_struct","gml_Script____struct___28@___struct___24@___struct___5@gun_struct","gml_Script____struct___24@___struct___5@gun_struct","gml_Script____struct___32@___struct___31@___struct___30@___struct___5@gun_struct","gml_Script____struct___33@___struct___31@___struct___30@___struct___5@gun_struct","gml_Script____struct___31@___struct___30@___struct___5@gun_struct","gml_Script____struct___30@___struct___5@gun_struct","gml_Script____struct___38@___struct___37@___struct___36@___struct___5@gun_struct","gml_Script____struct___39@___struct___37@___struct___36@___struct___5@gun_struct","gml_Script____struct___37@___struct___36@___struct___5@gun_struct","gml_Script____struct___36@___struct___5@gun_struct","gml_Script____struct___44@___struct___43@___struct___42@___struct___5@gun_struct","gml_Script____struct___45@___struct___43@___struct___42@___struct___5@gun_struct","gml_Script____struct___43@___struct___42@___struct___5@gun_struct","gml_Script____struct___42@___struct___5@gun_struct","gml_Script____struct___5","gml_GlobalScript_key_get_string","gml_Script_key_get_string","gml_GlobalScript_listloop","gml_Script_listloop","gml_GlobalScript_menu_options_init","gml_Script____struct___48@menu_options_init@menu_options_init","gml_Script_menu_options_init","gml_Script____struct___49@pause_menu_options_init@menu_options_init","gml_Script_pause_menu_options_init","gml_Script____struct___50@game_over_optioms_init@menu_options_init","gml_Script_game_over_optioms_init","gml_Script_options_change","gml_Script_anon@6362@menu_options_draw@menu_options_init","gml_Script_anon@6778@menu_options_draw@menu_options_init","gml_Script_anon@7499@menu_options_draw@menu_options_init","gml_Script_anon@7977@menu_options_draw@menu_options_init","gml_Script_anon@8748@menu_options_draw@menu_options_init","gml_Script_anon@9282@menu_options_draw@menu_options_init","gml_Script_anon@9633@menu_options_draw@menu_options_init","gml_Script_anon@10023@menu_options_draw@menu_options_init","gml_Script_menu_options_draw","gml_GlobalScript_platformer_scripts","gml_Script_on_ground","gml_Script_on_wall","gml_Script_on_slope","gml_Script_on_platform","gml_Script_move_x","gml_Script_wall_above","gml_Script_move_y","gml_Script_round_vel","gml_Script_slope_move","gml_Script_wall_on_side","gml_Script_on_top","gml_Script_coll_x","gml_Script_coll_y","gml_Script_move_platform_x","gml_Script_move_platform_y","gml_Script_coll_x_list","gml_Script_coll_y_list","gml_Script_instances_reset_position","gml_Script_instances_update_previous_position","gml_GlobalScript_player_scripts","gml_Script_pl_hurt_player","gml_Script_pl_post_state","gml_GlobalScript_player_shoot_atk","gml_Script_pl_obtain_gun","gml_Script_pl_switch_gun","gml_Script_pl_shoot_atk","gml_GlobalScript_player_states","gml_Script_pl_jump","gml_Script_anon@4045@pl_state_free@player_states","gml_Script_pl_state_free","gml_Script_pl_state_dash","gml_Script_pl_state_room_exit","gml_Script_pl_state_room_enter","gml_Script_pl_state_hurt","gml_GlobalScript_set_new_room","gml_Script_room_get_type","gml_Script_set_new_room","gml_Script_anon@136@gml_Object_oBulBlood_Create_0","gml_Script_anon@269@gml_Object_oBulBlood_Create_0","gml_Script_anon@375@gml_Object_oBulBlood_Create_0","gml_Script_anon@130@gml_Object_oBulFlak_Create_0","gml_Script_anon@485@gml_Object_oBulFlak_Create_0","gml_Script_anon@730@gml_Object_oBulFlak_Create_0","gml_Script_anon@877@gml_Object_oBulFlak_Create_0","gml_Script_anon@139@gml_Object_oBulFlyingBomb_Create_0","gml_Script_anon@283@gml_Object_oBulFlyingBomb_Create_0","gml_Script_anon@110@gml_Object_oBullseyeFloor_Create_0","gml_Script_anon@42@gml_Object_oBullseyeFlying_Create_0","gml_Script_anon@74@gml_Object_oBulSkull_Create_0","gml_Script_anon@373@gml_Object_oBulSkull_Create_0","gml_Script_anon@43@gml_Object_oDoorTest_Create_0","gml_Script____struct___51@gml_Object_oEnAlienstar_Create_0","gml_Script_anon@315@gml_Object_oEnAlienstar_Create_0","gml_Script____struct___52@gml_Object_oEnClatter_Create_0","gml_Script_anon@245@gml_Object_oEnClatter_Create_0","gml_Script____struct___53@gml_Object_oEnCoffin_Create_0","gml_Script_anon@403@gml_Object_oEnCoffin_Create_0","gml_Script____struct___54@gml_Object_oEnDemonBomb_Create_0","gml_Script_anon@393@gml_Object_oEnDemonBomb_Create_0","gml_Script_anon@693@gml_Object_oEnDemonBomb_Create_0","gml_Script_anon@4391@gml_Object_oEnDemonBomb_Step_0","gml_Script_anon@350@gml_Object_oEnDemonSnake_Create_0","gml_Script_anon@364@gml_Object_oEnDemonSnakeBody_Create_0","gml_Script_anon@401@gml_Object_oEnDrippler_Create_0","gml_Script_anon@97@gml_Object_oEnemyBullet_Create_0","gml_Script_anon@253@gml_Object_oEnemyBullet_Create_0","gml_Script_anon@375@gml_Object_oEnemyBullet_Create_0","gml_Script_anon@209@gml_Object_oEnEvilBalloon_Create_0","gml_Script_anon@4388@gml_Object_oEnExploder_Step_0","gml_Script____struct___55@gml_Object_oEnGhostshot_Create_0","gml_Script_anon@295@gml_Object_oEnGhostshot_Create_0","gml_Script____struct___56@gml_Object_oEnLeaper_Create_0","gml_Script_anon@170@gml_Object_oEntRisingWall_Create_0","gml_Script____struct___57@gml_Object_oEnZombie_Create_0","gml_Script_anon@475@gml_Object_oEnZombie_Create_0","gml_Script_anon@5882@gml_Object_oEnZombie_Step_0","gml_Script_anon@304@gml_Object_oExplosion_Step_0","gml_Script_anon@102@gml_Object_oFloatUmbrella_Create_0","gml_Script_anon@407@gml_Object_oFloatUmbrella_Step_0","gml_Script_anon@231@gml_Object_oFxGib_Create_0","gml_Script_anon@130@gml_Object_oGamePause_Create_0","gml_Script_anon@548@gml_Object_oGamePause_Create_0","gml_Script_anon@785@gml_Object_oGamePause_Create_0","gml_Script_anon@1025@gml_Object_oGamePause_Create_0","gml_Script____struct___59@gml_Object_oGameSetup_Create_0","gml_Script____struct___60@anon@1294@gml_Object_oGameSetup_Create_0","gml_Script_anon@1294@gml_Object_oGameSetup_Create_0","gml_Script____struct___61@gml_Object_oGameSpawner_Create_0","gml_Script____struct___62@gml_Object_oGameSpawner_Create_0","gml_Script____struct___63@gml_Object_oGameSpawner_Create_0","gml_Script____struct___64@gml_Object_oGameSpawner_Create_0","gml_Script____struct___65@gml_Object_oGameSpawner_Create_0","gml_Script____struct___66@gml_Object_oGameSpawner_Create_0","gml_Script____struct___67@gml_Object_oGameSpawner_Create_0","gml_Script____struct___68@gml_Object_oGameSpawner_Create_0","gml_Script____struct___69@gml_Object_oGameSpawner_Create_0","gml_Script_anon@1026@gml_Object_oGameSpawner_Create_0","gml_Script_anon@234@gml_Object_oGiftFlying_Create_0","gml_Script_anon@554@gml_Object_oGiftFlying_Create_0","gml_Script_anon@293@gml_Object_oHitrunPlayer_Create_0","gml_Script_anon@904@gml_Object_oPlayer_Create_0","gml_Script_anon@216@gml_Object_oPlayerBulRegular_Create_0","gml_Script_anon@271@gml_Object_oPlayerBulRegular_Step_0","gml_Script_anon@1353@gml_Object_oPlayerBulRegular_Step_0","gml_Script_anon@1963@gml_Object_oPlayerBulRegular_Step_0","gml_Script_anon@411@gml_Object_oPlayerHitbox_Step_0","gml_Script_anon@152@gml_Object_oPropBomb_Create_0","gml_Script_anon@348@gml_Object_oPropBomb_Step_0","gml_Script_anon@143@gml_Object_oPropNuke_Create_0","gml_Script_anon@349@gml_Object_oPropNuke_Step_0","gml_Script_anon@657@gml_Object_oStageExit_Step_0","gml_Script_anon@269@gml_Object_oTestSpawner_Create_0","gml_Script_anon@131@gml_Object_oWaveTrigger_Create_0","gml_Script_anon@564@gml_Object_oWaveTrigger_Create_0"];
+JSON_game.Scripts=[gml_GlobalScript_all_macros,gml_GlobalScript_angle_lerp,gml_Script_angle_lerp,gml_GlobalScript_animation_end,gml_Script_animation_end,gml_GlobalScript_approach,gml_Script_approach,gml_GlobalScript_audio_play_sfx,gml_Script_audio_play_sfx,gml_GlobalScript_entity_inits,gml_Script_platformer_init,gml_Script_entity_init,gml_Script_anon_40_817_40_hittable_init_40_entity_inits,gml_Script_anon_40_988_40_hittable_init_40_entity_inits,gml_Script_hittable_init,gml_Script_anon_40_1337_40_hittablewall_init_40_entity_inits,gml_Script_anon_40_1392_40_hittablewall_init_40_entity_inits,gml_Script_hittablewall_init,gml_Script_anon_40_1777_40_player_init_40_entity_inits,gml_Script_player_init,gml_Script_anon_40_2446_40_prop_init_40_entity_inits,gml_Script_anon_40_2770_40_prop_init_40_entity_inits,gml_Script_prop_init,gml_Script_enemy_init,gml_Script_projectile_init,gml_Script_hitbox_init,gml_Script_pickup_init,gml_GlobalScript_entity_scripts,gml_Script_anon_40_362_40_ent_move_collide_40_entity_scripts,gml_Script_ent_move_collide,gml_Script_get_ent_targets,gml_Script_ent_state_machine,gml_Script_ent_prestate_event,gml_Script_ent_death_event,gml_Script_ent_spawnlist_index,gml_Script_anon_40_2404_40_hurtData_40_entity_scripts,gml_Script_hurtData,gml_Script_hurt_entity,gml_Script_ent_player_canhit,gml_Script_hurt_player,gml_Script_ent_add_knockback,gml_Script_loop_xoffset,gml_GlobalScript_game_init,gml_Script____struct___0,gml_Script____struct___1,gml_Script____struct___2,gml_Script_game_init,gml_Script_load_playerdata,gml_Script____struct___3_40_save_settings_40_game_init,gml_Script_save_settings,gml_Script____struct___4_40_save_playerdata_40_game_init,gml_Script_save_playerdata,gml_Script_choose_weighted,gml_Script_outside_view,gml_Script_sqr_ceil,gml_Script_anon_40_5557_40_color_40_game_init,gml_Script_color,gml_Script_draw_key_tip,gml_Script_timer_show,gml_GlobalScript_get_spawn_zone,gml_Script_get_spawn_zone,gml_Script_get_spawn_limits,gml_Script_get_spawn_state,gml_GlobalScript_gmcallback_imgloadbar,gml_Script_gmcallback_imgloadbar,gml_GlobalScript_gun_struct,gml_Script_get_gun_sprite,gml_Script_get_gun_name,gml_Script_get_gun,gml_Script____struct___8_40____struct___7_40____struct___6_40____struct___5_40_gun_struct,gml_Script____struct___9_40____struct___7_40____struct___6_40____struct___5_40_gun_struct,gml_Script____struct___7_40____struct___6_40____struct___5_40_gun_struct,gml_Script____struct___6_40____struct___5_40_gun_struct,gml_Script____struct___14_40____struct___13_40____struct___12_40____struct___5_40_gun_struct,gml_Script____struct___15_40____struct___13_40____struct___12_40____struct___5_40_gun_struct,gml_Script____struct___13_40____struct___12_40____struct___5_40_gun_struct,gml_Script____struct___16_40____struct___12_40____struct___5_40_gun_struct,gml_Script____struct___12_40____struct___5_40_gun_struct,gml_Script____struct___20_40____struct___19_40____struct___18_40____struct___5_40_gun_struct,gml_Script____struct___21_40____struct___19_40____struct___18_40____struct___5_40_gun_struct,gml_Script____struct___19_40____struct___18_40____struct___5_40_gun_struct,gml_Script____struct___18_40____struct___5_40_gun_struct,gml_Script____struct___26_40____struct___25_40____struct___24_40____struct___5_40_gun_struct,gml_Script____struct___27_40____struct___25_40____struct___24_40____struct___5_40_gun_struct,gml_Script____struct___25_40____struct___24_40____struct___5_40_gun_struct,gml_Script____struct___28_40____struct___24_40____struct___5_40_gun_struct,gml_Script____struct___24_40____struct___5_40_gun_struct,gml_Script____struct___32_40____struct___31_40____struct___30_40____struct___5_40_gun_struct,gml_Script____struct___33_40____struct___31_40____struct___30_40____struct___5_40_gun_struct,gml_Script____struct___31_40____struct___30_40____struct___5_40_gun_struct,gml_Script____struct___30_40____struct___5_40_gun_struct,gml_Script____struct___38_40____struct___37_40____struct___36_40____struct___5_40_gun_struct,gml_Script____struct___39_40____struct___37_40____struct___36_40____struct___5_40_gun_struct,gml_Script____struct___37_40____struct___36_40____struct___5_40_gun_struct,gml_Script____struct___36_40____struct___5_40_gun_struct,gml_Script____struct___44_40____struct___43_40____struct___42_40____struct___5_40_gun_struct,gml_Script____struct___45_40____struct___43_40____struct___42_40____struct___5_40_gun_struct,gml_Script____struct___43_40____struct___42_40____struct___5_40_gun_struct,gml_Script____struct___42_40____struct___5_40_gun_struct,gml_Script____struct___5,gml_GlobalScript_key_get_string,gml_Script_key_get_string,gml_GlobalScript_listloop,gml_Script_listloop,gml_GlobalScript_menu_options_init,gml_Script____struct___48_40_menu_options_init_40_menu_options_init,gml_Script_menu_options_init,gml_Script____struct___49_40_pause_menu_options_init_40_menu_options_init,gml_Script_pause_menu_options_init,gml_Script____struct___50_40_game_over_optioms_init_40_menu_options_init,gml_Script_game_over_optioms_init,gml_Script_options_change,gml_Script_anon_40_6362_40_menu_options_draw_40_menu_options_init,gml_Script_anon_40_6778_40_menu_options_draw_40_menu_options_init,gml_Script_anon_40_7499_40_menu_options_draw_40_menu_options_init,gml_Script_anon_40_7977_40_menu_options_draw_40_menu_options_init,gml_Script_anon_40_8748_40_menu_options_draw_40_menu_options_init,gml_Script_anon_40_9282_40_menu_options_draw_40_menu_options_init,gml_Script_anon_40_9633_40_menu_options_draw_40_menu_options_init,gml_Script_anon_40_10023_40_menu_options_draw_40_menu_options_init,gml_Script_menu_options_draw,gml_GlobalScript_platformer_scripts,gml_Script_on_ground,gml_Script_on_wall,gml_Script_on_slope,gml_Script_on_platform,gml_Script_move_x,gml_Script_wall_above,gml_Script_move_y,gml_Script_round_vel,gml_Script_slope_move,gml_Script_wall_on_side,gml_Script_on_top,gml_Script_coll_x,gml_Script_coll_y,gml_Script_move_platform_x,gml_Script_move_platform_y,gml_Script_coll_x_list,gml_Script_coll_y_list,gml_Script_instances_reset_position,gml_Script_instances_update_previous_position,gml_GlobalScript_player_scripts,gml_Script_pl_hurt_player,gml_Script_pl_post_state,gml_GlobalScript_player_shoot_atk,gml_Script_pl_obtain_gun,gml_Script_pl_switch_gun,gml_Script_pl_shoot_atk,gml_GlobalScript_player_states,gml_Script_pl_jump,gml_Script_anon_40_4045_40_pl_state_free_40_player_states,gml_Script_pl_state_free,gml_Script_pl_state_dash,gml_Script_pl_state_room_exit,gml_Script_pl_state_room_enter,gml_Script_pl_state_hurt,gml_GlobalScript_set_new_room,gml_Script_room_get_type,gml_Script_set_new_room,gml_Script_anon_40_136_40_gml_Object_oBulBlood_Create_0,gml_Script_anon_40_269_40_gml_Object_oBulBlood_Create_0,gml_Script_anon_40_375_40_gml_Object_oBulBlood_Create_0,gml_Script_anon_40_130_40_gml_Object_oBulFlak_Create_0,gml_Script_anon_40_485_40_gml_Object_oBulFlak_Create_0,gml_Script_anon_40_730_40_gml_Object_oBulFlak_Create_0,gml_Script_anon_40_877_40_gml_Object_oBulFlak_Create_0,gml_Script_anon_40_139_40_gml_Object_oBulFlyingBomb_Create_0,gml_Script_anon_40_283_40_gml_Object_oBulFlyingBomb_Create_0,gml_Script_anon_40_110_40_gml_Object_oBullseyeFloor_Create_0,gml_Script_anon_40_42_40_gml_Object_oBullseyeFlying_Create_0,gml_Script_anon_40_74_40_gml_Object_oBulSkull_Create_0,gml_Script_anon_40_373_40_gml_Object_oBulSkull_Create_0,gml_Script_anon_40_43_40_gml_Object_oDoorTest_Create_0,gml_Script____struct___51_40_gml_Object_oEnAlienstar_Create_0,gml_Script_anon_40_315_40_gml_Object_oEnAlienstar_Create_0,gml_Script____struct___52_40_gml_Object_oEnClatter_Create_0,gml_Script_anon_40_245_40_gml_Object_oEnClatter_Create_0,gml_Script____struct___53_40_gml_Object_oEnCoffin_Create_0,gml_Script_anon_40_403_40_gml_Object_oEnCoffin_Create_0,gml_Script____struct___54_40_gml_Object_oEnDemonBomb_Create_0,gml_Script_anon_40_393_40_gml_Object_oEnDemonBomb_Create_0,gml_Script_anon_40_693_40_gml_Object_oEnDemonBomb_Create_0,gml_Script_anon_40_4391_40_gml_Object_oEnDemonBomb_Step_0,gml_Script_anon_40_350_40_gml_Object_oEnDemonSnake_Create_0,gml_Script_anon_40_364_40_gml_Object_oEnDemonSnakeBody_Create_0,gml_Script_anon_40_401_40_gml_Object_oEnDrippler_Create_0,gml_Script_anon_40_97_40_gml_Object_oEnemyBullet_Create_0,gml_Script_anon_40_253_40_gml_Object_oEnemyBullet_Create_0,gml_Script_anon_40_375_40_gml_Object_oEnemyBullet_Create_0,gml_Script_anon_40_209_40_gml_Object_oEnEvilBalloon_Create_0,gml_Script_anon_40_4388_40_gml_Object_oEnExploder_Step_0,gml_Script____struct___55_40_gml_Object_oEnGhostshot_Create_0,gml_Script_anon_40_295_40_gml_Object_oEnGhostshot_Create_0,gml_Script____struct___56_40_gml_Object_oEnLeaper_Create_0,gml_Script_anon_40_170_40_gml_Object_oEntRisingWall_Create_0,gml_Script____struct___57_40_gml_Object_oEnZombie_Create_0,gml_Script_anon_40_475_40_gml_Object_oEnZombie_Create_0,gml_Script_anon_40_5882_40_gml_Object_oEnZombie_Step_0,gml_Script_anon_40_304_40_gml_Object_oExplosion_Step_0,gml_Script_anon_40_102_40_gml_Object_oFloatUmbrella_Create_0,gml_Script_anon_40_407_40_gml_Object_oFloatUmbrella_Step_0,gml_Script_anon_40_231_40_gml_Object_oFxGib_Create_0,gml_Script_anon_40_130_40_gml_Object_oGamePause_Create_0,gml_Script_anon_40_548_40_gml_Object_oGamePause_Create_0,gml_Script_anon_40_785_40_gml_Object_oGamePause_Create_0,gml_Script_anon_40_1025_40_gml_Object_oGamePause_Create_0,gml_Script____struct___59_40_gml_Object_oGameSetup_Create_0,gml_Script____struct___60_40_anon_40_1294_40_gml_Object_oGameSetup_Create_0,gml_Script_anon_40_1294_40_gml_Object_oGameSetup_Create_0,gml_Script____struct___61_40_gml_Object_oGameSpawner_Create_0,gml_Script____struct___62_40_gml_Object_oGameSpawner_Create_0,gml_Script____struct___63_40_gml_Object_oGameSpawner_Create_0,gml_Script____struct___64_40_gml_Object_oGameSpawner_Create_0,gml_Script____struct___65_40_gml_Object_oGameSpawner_Create_0,gml_Script____struct___66_40_gml_Object_oGameSpawner_Create_0,gml_Script____struct___67_40_gml_Object_oGameSpawner_Create_0,gml_Script____struct___68_40_gml_Object_oGameSpawner_Create_0,gml_Script____struct___69_40_gml_Object_oGameSpawner_Create_0,gml_Script_anon_40_1026_40_gml_Object_oGameSpawner_Create_0,gml_Script_anon_40_234_40_gml_Object_oGiftFlying_Create_0,gml_Script_anon_40_554_40_gml_Object_oGiftFlying_Create_0,gml_Script_anon_40_293_40_gml_Object_oHitrunPlayer_Create_0,gml_Script_anon_40_904_40_gml_Object_oPlayer_Create_0,gml_Script_anon_40_216_40_gml_Object_oPlayerBulRegular_Create_0,gml_Script_anon_40_271_40_gml_Object_oPlayerBulRegular_Step_0,gml_Script_anon_40_1353_40_gml_Object_oPlayerBulRegular_Step_0,gml_Script_anon_40_1963_40_gml_Object_oPlayerBulRegular_Step_0,gml_Script_anon_40_411_40_gml_Object_oPlayerHitbox_Step_0,gml_Script_anon_40_152_40_gml_Object_oPropBomb_Create_0,gml_Script_anon_40_348_40_gml_Object_oPropBomb_Step_0,gml_Script_anon_40_143_40_gml_Object_oPropNuke_Create_0,gml_Script_anon_40_349_40_gml_Object_oPropNuke_Step_0,gml_Script_anon_40_657_40_gml_Object_oStageExit_Step_0,gml_Script_anon_40_269_40_gml_Object_oTestSpawner_Create_0,gml_Script_anon_40_131_40_gml_Object_oWaveTrigger_Create_0,gml_Script_anon_40_564_40_gml_Object_oWaveTrigger_Create_0];
 const kgml_GlobalScript_all_macros=100000;
 const kgml_GlobalScript_angle_lerp=100001;
 const kgml_Script_angle_lerp=100002;
@@ -29633,219 +30573,230 @@ const kgml_Script_audio_play_sfx=100008;
 const kgml_GlobalScript_entity_inits=100009;
 const kgml_Script_platformer_init=100010;
 const kgml_Script_entity_init=100011;
-const kgml_Script_anon_40_790_40_hittable_init_40_entity_inits=100012;
-const kgml_Script_anon_40_961_40_hittable_init_40_entity_inits=100013;
+const kgml_Script_anon_40_817_40_hittable_init_40_entity_inits=100012;
+const kgml_Script_anon_40_988_40_hittable_init_40_entity_inits=100013;
 const kgml_Script_hittable_init=100014;
-const kgml_Script_anon_40_1310_40_hittablewall_init_40_entity_inits=100015;
-const kgml_Script_anon_40_1365_40_hittablewall_init_40_entity_inits=100016;
+const kgml_Script_anon_40_1337_40_hittablewall_init_40_entity_inits=100015;
+const kgml_Script_anon_40_1392_40_hittablewall_init_40_entity_inits=100016;
 const kgml_Script_hittablewall_init=100017;
-const kgml_Script_anon_40_1750_40_player_init_40_entity_inits=100018;
+const kgml_Script_anon_40_1777_40_player_init_40_entity_inits=100018;
 const kgml_Script_player_init=100019;
-const kgml_Script_anon_40_2392_40_prop_init_40_entity_inits=100020;
-const kgml_Script_anon_40_2716_40_prop_init_40_entity_inits=100021;
+const kgml_Script_anon_40_2446_40_prop_init_40_entity_inits=100020;
+const kgml_Script_anon_40_2770_40_prop_init_40_entity_inits=100021;
 const kgml_Script_prop_init=100022;
 const kgml_Script_enemy_init=100023;
 const kgml_Script_projectile_init=100024;
 const kgml_Script_hitbox_init=100025;
 const kgml_Script_pickup_init=100026;
 const kgml_GlobalScript_entity_scripts=100027;
-const kgml_Script_anon_40_345_40_ent_move_collide_40_entity_scripts=100028;
+const kgml_Script_anon_40_362_40_ent_move_collide_40_entity_scripts=100028;
 const kgml_Script_ent_move_collide=100029;
 const kgml_Script_get_ent_targets=100030;
 const kgml_Script_ent_state_machine=100031;
 const kgml_Script_ent_prestate_event=100032;
 const kgml_Script_ent_death_event=100033;
 const kgml_Script_ent_spawnlist_index=100034;
-const kgml_Script_anon_40_2338_40_hurtData_40_entity_scripts=100035;
+const kgml_Script_anon_40_2404_40_hurtData_40_entity_scripts=100035;
 const kgml_Script_hurtData=100036;
 const kgml_Script_hurt_entity=100037;
 const kgml_Script_ent_player_canhit=100038;
 const kgml_Script_hurt_player=100039;
 const kgml_Script_ent_add_knockback=100040;
-const kgml_GlobalScript_game_init=100041;
-const kgml_Script____struct___0=100042;
-const kgml_Script____struct___1=100043;
-const kgml_Script____struct___2=100044;
-const kgml_Script_game_init=100045;
-const kgml_Script_load_playerdata=100046;
-const kgml_Script____struct___3_40_save_settings_40_game_init=100047;
-const kgml_Script_save_settings=100048;
-const kgml_Script____struct___4_40_save_playerdata_40_game_init=100049;
-const kgml_Script_save_playerdata=100050;
-const kgml_Script_choose_weighted=100051;
-const kgml_Script_outside_view=100052;
-const kgml_Script_sqr_ceil=100053;
-const kgml_Script_anon_40_5557_40_color_40_game_init=100054;
-const kgml_Script_color=100055;
-const kgml_Script_draw_key_tip=100056;
-const kgml_Script_timer_show=100057;
-const kgml_GlobalScript_gmcallback_imgloadbar=100058;
-const kgml_Script_gmcallback_imgloadbar=100059;
-const kgml_GlobalScript_gun_struct=100060;
-const kgml_Script_get_gun_sprite=100061;
-const kgml_Script_get_gun_name=100062;
-const kgml_Script_get_gun=100063;
-const kgml_Script____struct___8_40____struct___7_40____struct___6_40____struct___5_40_gun_struct=100064;
-const kgml_Script____struct___9_40____struct___7_40____struct___6_40____struct___5_40_gun_struct=100065;
-const kgml_Script____struct___7_40____struct___6_40____struct___5_40_gun_struct=100066;
-const kgml_Script____struct___6_40____struct___5_40_gun_struct=100067;
-const kgml_Script____struct___14_40____struct___13_40____struct___12_40____struct___5_40_gun_struct=100068;
-const kgml_Script____struct___15_40____struct___13_40____struct___12_40____struct___5_40_gun_struct=100069;
-const kgml_Script____struct___13_40____struct___12_40____struct___5_40_gun_struct=100070;
-const kgml_Script____struct___16_40____struct___12_40____struct___5_40_gun_struct=100071;
-const kgml_Script____struct___12_40____struct___5_40_gun_struct=100072;
-const kgml_Script____struct___20_40____struct___19_40____struct___18_40____struct___5_40_gun_struct=100073;
-const kgml_Script____struct___21_40____struct___19_40____struct___18_40____struct___5_40_gun_struct=100074;
-const kgml_Script____struct___19_40____struct___18_40____struct___5_40_gun_struct=100075;
-const kgml_Script____struct___18_40____struct___5_40_gun_struct=100076;
-const kgml_Script____struct___26_40____struct___25_40____struct___24_40____struct___5_40_gun_struct=100077;
-const kgml_Script____struct___27_40____struct___25_40____struct___24_40____struct___5_40_gun_struct=100078;
-const kgml_Script____struct___25_40____struct___24_40____struct___5_40_gun_struct=100079;
-const kgml_Script____struct___28_40____struct___24_40____struct___5_40_gun_struct=100080;
-const kgml_Script____struct___24_40____struct___5_40_gun_struct=100081;
-const kgml_Script____struct___32_40____struct___31_40____struct___30_40____struct___5_40_gun_struct=100082;
-const kgml_Script____struct___33_40____struct___31_40____struct___30_40____struct___5_40_gun_struct=100083;
-const kgml_Script____struct___31_40____struct___30_40____struct___5_40_gun_struct=100084;
-const kgml_Script____struct___30_40____struct___5_40_gun_struct=100085;
-const kgml_Script____struct___38_40____struct___37_40____struct___36_40____struct___5_40_gun_struct=100086;
-const kgml_Script____struct___39_40____struct___37_40____struct___36_40____struct___5_40_gun_struct=100087;
-const kgml_Script____struct___37_40____struct___36_40____struct___5_40_gun_struct=100088;
-const kgml_Script____struct___36_40____struct___5_40_gun_struct=100089;
-const kgml_Script____struct___44_40____struct___43_40____struct___42_40____struct___5_40_gun_struct=100090;
-const kgml_Script____struct___45_40____struct___43_40____struct___42_40____struct___5_40_gun_struct=100091;
-const kgml_Script____struct___43_40____struct___42_40____struct___5_40_gun_struct=100092;
-const kgml_Script____struct___42_40____struct___5_40_gun_struct=100093;
-const kgml_Script____struct___5=100094;
-const kgml_GlobalScript_key_get_string=100095;
-const kgml_Script_key_get_string=100096;
-const kgml_GlobalScript_listloop=100097;
-const kgml_Script_listloop=100098;
-const kgml_GlobalScript_menu_options_init=100099;
-const kgml_Script____struct___48_40_menu_options_init_40_menu_options_init=100100;
-const kgml_Script_menu_options_init=100101;
-const kgml_Script____struct___49_40_pause_menu_options_init_40_menu_options_init=100102;
-const kgml_Script_pause_menu_options_init=100103;
-const kgml_Script____struct___50_40_game_over_optioms_init_40_menu_options_init=100104;
-const kgml_Script_game_over_optioms_init=100105;
-const kgml_Script_options_change=100106;
-const kgml_Script_anon_40_6362_40_menu_options_draw_40_menu_options_init=100107;
-const kgml_Script_anon_40_6778_40_menu_options_draw_40_menu_options_init=100108;
-const kgml_Script_anon_40_7499_40_menu_options_draw_40_menu_options_init=100109;
-const kgml_Script_anon_40_7977_40_menu_options_draw_40_menu_options_init=100110;
-const kgml_Script_anon_40_8748_40_menu_options_draw_40_menu_options_init=100111;
-const kgml_Script_anon_40_9282_40_menu_options_draw_40_menu_options_init=100112;
-const kgml_Script_anon_40_9633_40_menu_options_draw_40_menu_options_init=100113;
-const kgml_Script_anon_40_10023_40_menu_options_draw_40_menu_options_init=100114;
-const kgml_Script_menu_options_draw=100115;
-const kgml_GlobalScript_platformer_scripts=100116;
-const kgml_Script_on_ground=100117;
-const kgml_Script_on_wall=100118;
-const kgml_Script_on_slope=100119;
-const kgml_Script_on_platform=100120;
-const kgml_Script_move_x=100121;
-const kgml_Script_wall_above=100122;
-const kgml_Script_move_y=100123;
-const kgml_Script_round_vel=100124;
-const kgml_Script_slope_move=100125;
-const kgml_Script_wall_on_side=100126;
-const kgml_Script_on_top=100127;
-const kgml_Script_coll_x=100128;
-const kgml_Script_coll_y=100129;
-const kgml_Script_move_platform_x=100130;
-const kgml_Script_move_platform_y=100131;
-const kgml_Script_coll_x_list=100132;
-const kgml_Script_coll_y_list=100133;
-const kgml_Script_instances_reset_position=100134;
-const kgml_Script_instances_update_previous_position=100135;
-const kgml_GlobalScript_player_scripts=100136;
-const kgml_Script_pl_hurt_player=100137;
-const kgml_Script_pl_post_state=100138;
-const kgml_GlobalScript_player_shoot_atk=100139;
-const kgml_Script_pl_obtain_gun=100140;
-const kgml_Script_pl_switch_gun=100141;
-const kgml_Script_pl_shoot_atk=100142;
-const kgml_GlobalScript_player_states=100143;
-const kgml_Script_pl_jump=100144;
-const kgml_Script_anon_40_4045_40_pl_state_free_40_player_states=100145;
-const kgml_Script_pl_state_free=100146;
-const kgml_Script_pl_state_dash=100147;
-const kgml_Script_pl_state_room_exit=100148;
-const kgml_Script_pl_state_room_enter=100149;
-const kgml_Script_pl_state_hurt=100150;
-const kgml_GlobalScript_set_new_room=100151;
-const kgml_Script_room_get_type=100152;
-const kgml_Script_set_new_room=100153;
-const kgml_Script_anon_40_136_40_gml_Object_oBulBlood_Create_0=100154;
-const kgml_Script_anon_40_269_40_gml_Object_oBulBlood_Create_0=100155;
-const kgml_Script_anon_40_375_40_gml_Object_oBulBlood_Create_0=100156;
-const kgml_Script_anon_40_130_40_gml_Object_oBulFlak_Create_0=100157;
-const kgml_Script_anon_40_485_40_gml_Object_oBulFlak_Create_0=100158;
-const kgml_Script_anon_40_730_40_gml_Object_oBulFlak_Create_0=100159;
-const kgml_Script_anon_40_877_40_gml_Object_oBulFlak_Create_0=100160;
-const kgml_Script_anon_40_139_40_gml_Object_oBulFlyingBomb_Create_0=100161;
-const kgml_Script_anon_40_283_40_gml_Object_oBulFlyingBomb_Create_0=100162;
-const kgml_Script_anon_40_74_40_gml_Object_oBulSkull_Create_0=100163;
-const kgml_Script_anon_40_373_40_gml_Object_oBulSkull_Create_0=100164;
-const kgml_Script_anon_40_43_40_gml_Object_oDoorTest_Create_0=100165;
-const kgml_Script____struct___51_40_gml_Object_oEnClatter_Create_0=100166;
-const kgml_Script_anon_40_244_40_gml_Object_oEnClatter_Create_0=100167;
-const kgml_Script____struct___52_40_gml_Object_oEnCoffin_Create_0=100168;
-const kgml_Script_anon_40_402_40_gml_Object_oEnCoffin_Create_0=100169;
-const kgml_Script____struct___53_40_gml_Object_oEnDemonBomb_Create_0=100170;
-const kgml_Script_anon_40_392_40_gml_Object_oEnDemonBomb_Create_0=100171;
-const kgml_Script_anon_40_689_40_gml_Object_oEnDemonBomb_Create_0=100172;
-const kgml_Script_anon_40_4387_40_gml_Object_oEnDemonBomb_Step_0=100173;
-const kgml_Script_anon_40_326_40_gml_Object_oEnDemonSnake_Create_0=100174;
-const kgml_Script_anon_40_292_40_gml_Object_oEnDemonSnakeBody_Create_0=100175;
-const kgml_Script_anon_40_358_40_gml_Object_oEnDemonSnakeBody_Create_0=100176;
-const kgml_Script_anon_40_216_40_gml_Object_oEnDrippler_Create_0=100177;
-const kgml_Script_anon_40_97_40_gml_Object_oEnemyBullet_Create_0=100178;
-const kgml_Script_anon_40_253_40_gml_Object_oEnemyBullet_Create_0=100179;
-const kgml_Script_anon_40_375_40_gml_Object_oEnemyBullet_Create_0=100180;
-const kgml_Script_anon_40_182_40_gml_Object_oEnEvilBalloon_Create_0=100181;
-const kgml_Script_anon_40_4384_40_gml_Object_oEnExploder_Step_0=100182;
-const kgml_Script____struct___54_40_gml_Object_oEnGhostshot_Create_0=100183;
-const kgml_Script_anon_40_294_40_gml_Object_oEnGhostshot_Create_0=100184;
-const kgml_Script____struct___55_40_gml_Object_oEnLeaper_Create_0=100185;
-const kgml_Script_anon_40_170_40_gml_Object_oEntRisingWall_Create_0=100186;
-const kgml_Script____struct___56_40_gml_Object_oEnZombie_Create_0=100187;
-const kgml_Script_anon_40_474_40_gml_Object_oEnZombie_Create_0=100188;
-const kgml_Script_anon_40_5878_40_gml_Object_oEnZombie_Step_0=100189;
-const kgml_Script_anon_40_304_40_gml_Object_oExplosion_Step_0=100190;
-const kgml_Script_anon_40_102_40_gml_Object_oFloatUmbrella_Create_0=100191;
-const kgml_Script_anon_40_407_40_gml_Object_oFloatUmbrella_Step_0=100192;
-const kgml_Script_anon_40_231_40_gml_Object_oFxGib_Create_0=100193;
-const kgml_Script_anon_40_130_40_gml_Object_oGamePause_Create_0=100194;
-const kgml_Script_anon_40_548_40_gml_Object_oGamePause_Create_0=100195;
-const kgml_Script_anon_40_785_40_gml_Object_oGamePause_Create_0=100196;
-const kgml_Script_anon_40_1025_40_gml_Object_oGamePause_Create_0=100197;
-const kgml_Script____struct___58_40_gml_Object_oGameSetup_Create_0=100198;
-const kgml_Script____struct___59_40_anon_40_1294_40_gml_Object_oGameSetup_Create_0=100199;
-const kgml_Script_anon_40_1294_40_gml_Object_oGameSetup_Create_0=100200;
-const kgml_Script____struct___60_40_gml_Object_oGameSpawner_Create_0=100201;
-const kgml_Script____struct___61_40_gml_Object_oGameSpawner_Create_0=100202;
-const kgml_Script____struct___62_40_gml_Object_oGameSpawner_Create_0=100203;
-const kgml_Script____struct___63_40_gml_Object_oGameSpawner_Create_0=100204;
-const kgml_Script____struct___64_40_gml_Object_oGameSpawner_Create_0=100205;
-const kgml_Script____struct___65_40_gml_Object_oGameSpawner_Create_0=100206;
-const kgml_Script____struct___66_40_gml_Object_oGameSpawner_Create_0=100207;
-const kgml_Script____struct___67_40_gml_Object_oGameSpawner_Create_0=100208;
-const kgml_Script_anon_40_991_40_gml_Object_oGameSpawner_Create_0=100209;
-const kgml_Script_anon_40_189_40_gml_Object_oGiftFlying_Create_0=100210;
-const kgml_Script_anon_40_293_40_gml_Object_oHitrunPlayer_Create_0=100211;
-const kgml_Script_anon_40_880_40_gml_Object_oPlayer_Create_0=100212;
-const kgml_Script_anon_40_216_40_gml_Object_oPlayerBulRegular_Create_0=100213;
-const kgml_Script_anon_40_271_40_gml_Object_oPlayerBulRegular_Step_0=100214;
-const kgml_Script_anon_40_1353_40_gml_Object_oPlayerBulRegular_Step_0=100215;
-const kgml_Script_anon_40_1963_40_gml_Object_oPlayerBulRegular_Step_0=100216;
-const kgml_Script_anon_40_411_40_gml_Object_oPlayerHitbox_Step_0=100217;
-const kgml_Script_anon_40_152_40_gml_Object_oPropBomb_Create_0=100218;
-const kgml_Script_anon_40_346_40_gml_Object_oPropBomb_Step_0=100219;
-const kgml_Script_anon_40_143_40_gml_Object_oPropNuke_Create_0=100220;
-const kgml_Script_anon_40_328_40_gml_Object_oPropNuke_Step_0=100221;
-const kgml_Script_anon_40_657_40_gml_Object_oStageExit_Step_0=100222;
-const kgml_Script_anon_40_254_40_gml_Object_oTestSpawner_Create_0=100223;
-const kgml_Script_anon_40_107_40_gml_Object_oWaveTrigger_Create_0=100224;
+const kgml_Script_loop_xoffset=100041;
+const kgml_GlobalScript_game_init=100042;
+const kgml_Script____struct___0=100043;
+const kgml_Script____struct___1=100044;
+const kgml_Script____struct___2=100045;
+const kgml_Script_game_init=100046;
+const kgml_Script_load_playerdata=100047;
+const kgml_Script____struct___3_40_save_settings_40_game_init=100048;
+const kgml_Script_save_settings=100049;
+const kgml_Script____struct___4_40_save_playerdata_40_game_init=100050;
+const kgml_Script_save_playerdata=100051;
+const kgml_Script_choose_weighted=100052;
+const kgml_Script_outside_view=100053;
+const kgml_Script_sqr_ceil=100054;
+const kgml_Script_anon_40_5557_40_color_40_game_init=100055;
+const kgml_Script_color=100056;
+const kgml_Script_draw_key_tip=100057;
+const kgml_Script_timer_show=100058;
+const kgml_GlobalScript_get_spawn_zone=100059;
+const kgml_Script_get_spawn_zone=100060;
+const kgml_Script_get_spawn_limits=100061;
+const kgml_Script_get_spawn_state=100062;
+const kgml_GlobalScript_gmcallback_imgloadbar=100063;
+const kgml_Script_gmcallback_imgloadbar=100064;
+const kgml_GlobalScript_gun_struct=100065;
+const kgml_Script_get_gun_sprite=100066;
+const kgml_Script_get_gun_name=100067;
+const kgml_Script_get_gun=100068;
+const kgml_Script____struct___8_40____struct___7_40____struct___6_40____struct___5_40_gun_struct=100069;
+const kgml_Script____struct___9_40____struct___7_40____struct___6_40____struct___5_40_gun_struct=100070;
+const kgml_Script____struct___7_40____struct___6_40____struct___5_40_gun_struct=100071;
+const kgml_Script____struct___6_40____struct___5_40_gun_struct=100072;
+const kgml_Script____struct___14_40____struct___13_40____struct___12_40____struct___5_40_gun_struct=100073;
+const kgml_Script____struct___15_40____struct___13_40____struct___12_40____struct___5_40_gun_struct=100074;
+const kgml_Script____struct___13_40____struct___12_40____struct___5_40_gun_struct=100075;
+const kgml_Script____struct___16_40____struct___12_40____struct___5_40_gun_struct=100076;
+const kgml_Script____struct___12_40____struct___5_40_gun_struct=100077;
+const kgml_Script____struct___20_40____struct___19_40____struct___18_40____struct___5_40_gun_struct=100078;
+const kgml_Script____struct___21_40____struct___19_40____struct___18_40____struct___5_40_gun_struct=100079;
+const kgml_Script____struct___19_40____struct___18_40____struct___5_40_gun_struct=100080;
+const kgml_Script____struct___18_40____struct___5_40_gun_struct=100081;
+const kgml_Script____struct___26_40____struct___25_40____struct___24_40____struct___5_40_gun_struct=100082;
+const kgml_Script____struct___27_40____struct___25_40____struct___24_40____struct___5_40_gun_struct=100083;
+const kgml_Script____struct___25_40____struct___24_40____struct___5_40_gun_struct=100084;
+const kgml_Script____struct___28_40____struct___24_40____struct___5_40_gun_struct=100085;
+const kgml_Script____struct___24_40____struct___5_40_gun_struct=100086;
+const kgml_Script____struct___32_40____struct___31_40____struct___30_40____struct___5_40_gun_struct=100087;
+const kgml_Script____struct___33_40____struct___31_40____struct___30_40____struct___5_40_gun_struct=100088;
+const kgml_Script____struct___31_40____struct___30_40____struct___5_40_gun_struct=100089;
+const kgml_Script____struct___30_40____struct___5_40_gun_struct=100090;
+const kgml_Script____struct___38_40____struct___37_40____struct___36_40____struct___5_40_gun_struct=100091;
+const kgml_Script____struct___39_40____struct___37_40____struct___36_40____struct___5_40_gun_struct=100092;
+const kgml_Script____struct___37_40____struct___36_40____struct___5_40_gun_struct=100093;
+const kgml_Script____struct___36_40____struct___5_40_gun_struct=100094;
+const kgml_Script____struct___44_40____struct___43_40____struct___42_40____struct___5_40_gun_struct=100095;
+const kgml_Script____struct___45_40____struct___43_40____struct___42_40____struct___5_40_gun_struct=100096;
+const kgml_Script____struct___43_40____struct___42_40____struct___5_40_gun_struct=100097;
+const kgml_Script____struct___42_40____struct___5_40_gun_struct=100098;
+const kgml_Script____struct___5=100099;
+const kgml_GlobalScript_key_get_string=100100;
+const kgml_Script_key_get_string=100101;
+const kgml_GlobalScript_listloop=100102;
+const kgml_Script_listloop=100103;
+const kgml_GlobalScript_menu_options_init=100104;
+const kgml_Script____struct___48_40_menu_options_init_40_menu_options_init=100105;
+const kgml_Script_menu_options_init=100106;
+const kgml_Script____struct___49_40_pause_menu_options_init_40_menu_options_init=100107;
+const kgml_Script_pause_menu_options_init=100108;
+const kgml_Script____struct___50_40_game_over_optioms_init_40_menu_options_init=100109;
+const kgml_Script_game_over_optioms_init=100110;
+const kgml_Script_options_change=100111;
+const kgml_Script_anon_40_6362_40_menu_options_draw_40_menu_options_init=100112;
+const kgml_Script_anon_40_6778_40_menu_options_draw_40_menu_options_init=100113;
+const kgml_Script_anon_40_7499_40_menu_options_draw_40_menu_options_init=100114;
+const kgml_Script_anon_40_7977_40_menu_options_draw_40_menu_options_init=100115;
+const kgml_Script_anon_40_8748_40_menu_options_draw_40_menu_options_init=100116;
+const kgml_Script_anon_40_9282_40_menu_options_draw_40_menu_options_init=100117;
+const kgml_Script_anon_40_9633_40_menu_options_draw_40_menu_options_init=100118;
+const kgml_Script_anon_40_10023_40_menu_options_draw_40_menu_options_init=100119;
+const kgml_Script_menu_options_draw=100120;
+const kgml_GlobalScript_platformer_scripts=100121;
+const kgml_Script_on_ground=100122;
+const kgml_Script_on_wall=100123;
+const kgml_Script_on_slope=100124;
+const kgml_Script_on_platform=100125;
+const kgml_Script_move_x=100126;
+const kgml_Script_wall_above=100127;
+const kgml_Script_move_y=100128;
+const kgml_Script_round_vel=100129;
+const kgml_Script_slope_move=100130;
+const kgml_Script_wall_on_side=100131;
+const kgml_Script_on_top=100132;
+const kgml_Script_coll_x=100133;
+const kgml_Script_coll_y=100134;
+const kgml_Script_move_platform_x=100135;
+const kgml_Script_move_platform_y=100136;
+const kgml_Script_coll_x_list=100137;
+const kgml_Script_coll_y_list=100138;
+const kgml_Script_instances_reset_position=100139;
+const kgml_Script_instances_update_previous_position=100140;
+const kgml_GlobalScript_player_scripts=100141;
+const kgml_Script_pl_hurt_player=100142;
+const kgml_Script_pl_post_state=100143;
+const kgml_GlobalScript_player_shoot_atk=100144;
+const kgml_Script_pl_obtain_gun=100145;
+const kgml_Script_pl_switch_gun=100146;
+const kgml_Script_pl_shoot_atk=100147;
+const kgml_GlobalScript_player_states=100148;
+const kgml_Script_pl_jump=100149;
+const kgml_Script_anon_40_4045_40_pl_state_free_40_player_states=100150;
+const kgml_Script_pl_state_free=100151;
+const kgml_Script_pl_state_dash=100152;
+const kgml_Script_pl_state_room_exit=100153;
+const kgml_Script_pl_state_room_enter=100154;
+const kgml_Script_pl_state_hurt=100155;
+const kgml_GlobalScript_set_new_room=100156;
+const kgml_Script_room_get_type=100157;
+const kgml_Script_set_new_room=100158;
+const kgml_Script_anon_40_136_40_gml_Object_oBulBlood_Create_0=100159;
+const kgml_Script_anon_40_269_40_gml_Object_oBulBlood_Create_0=100160;
+const kgml_Script_anon_40_375_40_gml_Object_oBulBlood_Create_0=100161;
+const kgml_Script_anon_40_130_40_gml_Object_oBulFlak_Create_0=100162;
+const kgml_Script_anon_40_485_40_gml_Object_oBulFlak_Create_0=100163;
+const kgml_Script_anon_40_730_40_gml_Object_oBulFlak_Create_0=100164;
+const kgml_Script_anon_40_877_40_gml_Object_oBulFlak_Create_0=100165;
+const kgml_Script_anon_40_139_40_gml_Object_oBulFlyingBomb_Create_0=100166;
+const kgml_Script_anon_40_283_40_gml_Object_oBulFlyingBomb_Create_0=100167;
+const kgml_Script_anon_40_110_40_gml_Object_oBullseyeFloor_Create_0=100168;
+const kgml_Script_anon_40_42_40_gml_Object_oBullseyeFlying_Create_0=100169;
+const kgml_Script_anon_40_74_40_gml_Object_oBulSkull_Create_0=100170;
+const kgml_Script_anon_40_373_40_gml_Object_oBulSkull_Create_0=100171;
+const kgml_Script_anon_40_43_40_gml_Object_oDoorTest_Create_0=100172;
+const kgml_Script____struct___51_40_gml_Object_oEnAlienstar_Create_0=100173;
+const kgml_Script_anon_40_315_40_gml_Object_oEnAlienstar_Create_0=100174;
+const kgml_Script____struct___52_40_gml_Object_oEnClatter_Create_0=100175;
+const kgml_Script_anon_40_245_40_gml_Object_oEnClatter_Create_0=100176;
+const kgml_Script____struct___53_40_gml_Object_oEnCoffin_Create_0=100177;
+const kgml_Script_anon_40_403_40_gml_Object_oEnCoffin_Create_0=100178;
+const kgml_Script____struct___54_40_gml_Object_oEnDemonBomb_Create_0=100179;
+const kgml_Script_anon_40_393_40_gml_Object_oEnDemonBomb_Create_0=100180;
+const kgml_Script_anon_40_693_40_gml_Object_oEnDemonBomb_Create_0=100181;
+const kgml_Script_anon_40_4391_40_gml_Object_oEnDemonBomb_Step_0=100182;
+const kgml_Script_anon_40_350_40_gml_Object_oEnDemonSnake_Create_0=100183;
+const kgml_Script_anon_40_364_40_gml_Object_oEnDemonSnakeBody_Create_0=100184;
+const kgml_Script_anon_40_401_40_gml_Object_oEnDrippler_Create_0=100185;
+const kgml_Script_anon_40_97_40_gml_Object_oEnemyBullet_Create_0=100186;
+const kgml_Script_anon_40_253_40_gml_Object_oEnemyBullet_Create_0=100187;
+const kgml_Script_anon_40_375_40_gml_Object_oEnemyBullet_Create_0=100188;
+const kgml_Script_anon_40_209_40_gml_Object_oEnEvilBalloon_Create_0=100189;
+const kgml_Script_anon_40_4388_40_gml_Object_oEnExploder_Step_0=100190;
+const kgml_Script____struct___55_40_gml_Object_oEnGhostshot_Create_0=100191;
+const kgml_Script_anon_40_295_40_gml_Object_oEnGhostshot_Create_0=100192;
+const kgml_Script____struct___56_40_gml_Object_oEnLeaper_Create_0=100193;
+const kgml_Script_anon_40_170_40_gml_Object_oEntRisingWall_Create_0=100194;
+const kgml_Script____struct___57_40_gml_Object_oEnZombie_Create_0=100195;
+const kgml_Script_anon_40_475_40_gml_Object_oEnZombie_Create_0=100196;
+const kgml_Script_anon_40_5882_40_gml_Object_oEnZombie_Step_0=100197;
+const kgml_Script_anon_40_304_40_gml_Object_oExplosion_Step_0=100198;
+const kgml_Script_anon_40_102_40_gml_Object_oFloatUmbrella_Create_0=100199;
+const kgml_Script_anon_40_407_40_gml_Object_oFloatUmbrella_Step_0=100200;
+const kgml_Script_anon_40_231_40_gml_Object_oFxGib_Create_0=100201;
+const kgml_Script_anon_40_130_40_gml_Object_oGamePause_Create_0=100202;
+const kgml_Script_anon_40_548_40_gml_Object_oGamePause_Create_0=100203;
+const kgml_Script_anon_40_785_40_gml_Object_oGamePause_Create_0=100204;
+const kgml_Script_anon_40_1025_40_gml_Object_oGamePause_Create_0=100205;
+const kgml_Script____struct___59_40_gml_Object_oGameSetup_Create_0=100206;
+const kgml_Script____struct___60_40_anon_40_1294_40_gml_Object_oGameSetup_Create_0=100207;
+const kgml_Script_anon_40_1294_40_gml_Object_oGameSetup_Create_0=100208;
+const kgml_Script____struct___61_40_gml_Object_oGameSpawner_Create_0=100209;
+const kgml_Script____struct___62_40_gml_Object_oGameSpawner_Create_0=100210;
+const kgml_Script____struct___63_40_gml_Object_oGameSpawner_Create_0=100211;
+const kgml_Script____struct___64_40_gml_Object_oGameSpawner_Create_0=100212;
+const kgml_Script____struct___65_40_gml_Object_oGameSpawner_Create_0=100213;
+const kgml_Script____struct___66_40_gml_Object_oGameSpawner_Create_0=100214;
+const kgml_Script____struct___67_40_gml_Object_oGameSpawner_Create_0=100215;
+const kgml_Script____struct___68_40_gml_Object_oGameSpawner_Create_0=100216;
+const kgml_Script____struct___69_40_gml_Object_oGameSpawner_Create_0=100217;
+const kgml_Script_anon_40_1026_40_gml_Object_oGameSpawner_Create_0=100218;
+const kgml_Script_anon_40_234_40_gml_Object_oGiftFlying_Create_0=100219;
+const kgml_Script_anon_40_554_40_gml_Object_oGiftFlying_Create_0=100220;
+const kgml_Script_anon_40_293_40_gml_Object_oHitrunPlayer_Create_0=100221;
+const kgml_Script_anon_40_904_40_gml_Object_oPlayer_Create_0=100222;
+const kgml_Script_anon_40_216_40_gml_Object_oPlayerBulRegular_Create_0=100223;
+const kgml_Script_anon_40_271_40_gml_Object_oPlayerBulRegular_Step_0=100224;
+const kgml_Script_anon_40_1353_40_gml_Object_oPlayerBulRegular_Step_0=100225;
+const kgml_Script_anon_40_1963_40_gml_Object_oPlayerBulRegular_Step_0=100226;
+const kgml_Script_anon_40_411_40_gml_Object_oPlayerHitbox_Step_0=100227;
+const kgml_Script_anon_40_152_40_gml_Object_oPropBomb_Create_0=100228;
+const kgml_Script_anon_40_348_40_gml_Object_oPropBomb_Step_0=100229;
+const kgml_Script_anon_40_143_40_gml_Object_oPropNuke_Create_0=100230;
+const kgml_Script_anon_40_349_40_gml_Object_oPropNuke_Step_0=100231;
+const kgml_Script_anon_40_657_40_gml_Object_oStageExit_Step_0=100232;
+const kgml_Script_anon_40_269_40_gml_Object_oTestSpawner_Create_0=100233;
+const kgml_Script_anon_40_131_40_gml_Object_oWaveTrigger_Create_0=100234;
+const kgml_Script_anon_40_564_40_gml_Object_oWaveTrigger_Create_0=100235;
 var __yyg__SetImageIndexGML=
 function(frame)
 {
@@ -29933,24 +30884,24 @@ gml_Script____struct___49_40_pause_menu_options_init_40_menu_options_init.__yyg_
 gml_Script____struct___49_40_pause_menu_options_init_40_menu_options_init.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
 gml_Script____struct___50_40_game_over_optioms_init_40_menu_options_init.__yyg__is_constructor=!0;
 gml_Script____struct___50_40_game_over_optioms_init_40_menu_options_init.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___51_40_gml_Object_oEnClatter_Create_0.__yyg__is_constructor=!0;
-gml_Script____struct___51_40_gml_Object_oEnClatter_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___52_40_gml_Object_oEnCoffin_Create_0.__yyg__is_constructor=!0;
-gml_Script____struct___52_40_gml_Object_oEnCoffin_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___53_40_gml_Object_oEnDemonBomb_Create_0.__yyg__is_constructor=!0;
-gml_Script____struct___53_40_gml_Object_oEnDemonBomb_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___54_40_gml_Object_oEnGhostshot_Create_0.__yyg__is_constructor=!0;
-gml_Script____struct___54_40_gml_Object_oEnGhostshot_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___55_40_gml_Object_oEnLeaper_Create_0.__yyg__is_constructor=!0;
-gml_Script____struct___55_40_gml_Object_oEnLeaper_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___56_40_gml_Object_oEnZombie_Create_0.__yyg__is_constructor=!0;
-gml_Script____struct___56_40_gml_Object_oEnZombie_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___58_40_gml_Object_oGameSetup_Create_0.__yyg__is_constructor=!0;
-gml_Script____struct___58_40_gml_Object_oGameSetup_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___59_40_anon_40_1294_40_gml_Object_oGameSetup_Create_0.__yyg__is_constructor=!0;
-gml_Script____struct___59_40_anon_40_1294_40_gml_Object_oGameSetup_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script____struct___60_40_gml_Object_oGameSpawner_Create_0.__yyg__is_constructor=!0;
-gml_Script____struct___60_40_gml_Object_oGameSpawner_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___51_40_gml_Object_oEnAlienstar_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___51_40_gml_Object_oEnAlienstar_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___52_40_gml_Object_oEnClatter_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___52_40_gml_Object_oEnClatter_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___53_40_gml_Object_oEnCoffin_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___53_40_gml_Object_oEnCoffin_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___54_40_gml_Object_oEnDemonBomb_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___54_40_gml_Object_oEnDemonBomb_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___55_40_gml_Object_oEnGhostshot_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___55_40_gml_Object_oEnGhostshot_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___56_40_gml_Object_oEnLeaper_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___56_40_gml_Object_oEnLeaper_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___57_40_gml_Object_oEnZombie_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___57_40_gml_Object_oEnZombie_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___59_40_gml_Object_oGameSetup_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___59_40_gml_Object_oGameSetup_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___60_40_anon_40_1294_40_gml_Object_oGameSetup_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___60_40_anon_40_1294_40_gml_Object_oGameSetup_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
 gml_Script____struct___61_40_gml_Object_oGameSpawner_Create_0.__yyg__is_constructor=!0;
 gml_Script____struct___61_40_gml_Object_oGameSpawner_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
 gml_Script____struct___62_40_gml_Object_oGameSpawner_Create_0.__yyg__is_constructor=!0;
@@ -29965,8 +30916,12 @@ gml_Script____struct___66_40_gml_Object_oGameSpawner_Create_0.__yyg__is_construc
 gml_Script____struct___66_40_gml_Object_oGameSpawner_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
 gml_Script____struct___67_40_gml_Object_oGameSpawner_Create_0.__yyg__is_constructor=!0;
 gml_Script____struct___67_40_gml_Object_oGameSpawner_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
-gml_Script_anon_40_991_40_gml_Object_oGameSpawner_Create_0.__yyg__is_constructor=!0;
-gml_Script_anon_40_991_40_gml_Object_oGameSpawner_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___68_40_gml_Object_oGameSpawner_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___68_40_gml_Object_oGameSpawner_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script____struct___69_40_gml_Object_oGameSpawner_Create_0.__yyg__is_constructor=!0;
+gml_Script____struct___69_40_gml_Object_oGameSpawner_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
+gml_Script_anon_40_1026_40_gml_Object_oGameSpawner_Create_0.__yyg__is_constructor=!0;
+gml_Script_anon_40_1026_40_gml_Object_oGameSpawner_Create_0.prototype.SetImageIndexGML=__yyg__SetImageIndexGML;
 var g_instance_names=
 {
 	"x":[!0,!0,!0,null,null],"y":[!0,!0,!0,null,null],"xprevious":[!0,!0,!0,null,null],"yprevious":[!0,!0,!0,null,null],"xstart":[!0,!0,!0,null,null],"ystart":[!0,!0,!0,null,null],"hspeed":[!0,!0,!0,null,null],"vspeed":[!0,!0,!0,null,null],"direction":[!0,!0,!0,null,null],"speed":[!0,!0,!0,null,null],"friction":[!0,!0,!0,null,null],"gravity":[!0,!0,!0,null,null],"gravity_direction":[!0,!0,!0,null,null],"in_collision_tree":[!0,!1,!0,null,null],"object_index":[!0,!1,!1,null,null],"id":[!0,!1,!1,null,null],"alarm":[!0,!0,!0,null,null],"solid":[!0,!0,!0,null,null],"visible":[!0,!0,!0,null,null],"persistent":[!0,!0,!0,null,null],"managed":[!0,!1,!0,null,null],"depth":[!0,!0,!0,null,null],"bbox_left":[!0,!1,!1,null,null],"collision_space":[!0,!1,!1,null,null],"bbox_right":[!0,!1,!1,null,null],"bbox_top":[!0,!1,!1,null,null],"bbox_bottom":[!0,!1,!1,null,null],"sprite_index":[!0,!0,!0,null,null],"image_index":[!0,!0,!0,null,"SetImageIndexGML"],"image_single":[!0,!0,!0,null,null],"image_number":[!0,!1,!1,null,null],"sprite_width":[!0,!1,!1,null,null],"sprite_height":[!0,!1,!1,null,null],"sprite_xoffset":[!0,!1,!1,null,null],"sprite_yoffset":[!0,!1,!1,null,null],"image_xscale":[!0,!0,!0,null,null],"image_yscale":[!0,!0,!0,null,null],"image_angle":[!0,!0,!0,null,null],"image_alpha":[!0,!0,!0,null,null],"image_blend":[!0,!0,!0,null,null],"image_speed":[!0,!0,!0,null,null],"mask_index":[!0,!0,!0,null,null],"path_index":[!0,!1,!1,null,null],"path_position":[!0,!0,!0,null,null],"path_positionprevious":[!0,!0,!0,null,null],"path_speed":[!0,!0,!0,null,null],"path_scale":[!0,!0,!0,null,null],"path_orientation":[!0,!0,!0,null,null],"path_endaction":[!0,!0,!0,null,null],"timeline_index":[!0,!0,!0,null,null],"timeline_position":[!0,!0,!0,null,null],"timeline_speed":[!0,!0,!0,null,null],"timeline_running":[!0,!0,!0,null,null],"timeline_loop":[!0,!0,!0,null,null],"phy_rotation":[!0,!0,!0,null,null],"phy_position_x":[!0,!0,!0,null,null],"phy_position_y":[!0,!0,!0,null,null],"phy_angular_velocity":[!0,!0,!0,null,null],"phy_linear_velocity_x":[!0,!0,!0,null,null],"phy_linear_velocity_y":[!0,!0,!0,null,null],"phy_speed_x":[!0,!0,!0,null,null],"phy_speed_y":[!0,!0,!0,null,null],"phy_speed":[!0,!1,!0,null,null],"phy_angular_damping":[!0,!0,!0,null,null],"phy_linear_damping":[!0,!0,!0,null,null],"phy_bullet":[!0,!0,!0,null,null],"phy_fixed_rotation":[!0,!0,!0,null,null],"phy_active":[!0,!0,!0,null,null],"phy_mass":[!0,!1,!0,null,null],"phy_inertia":[!0,!1,!0,null,null],"phy_com_x":[!0,!1,!0,null,null],"phy_com_y":[!0,!1,!0,null,null],"phy_dynamic":[!0,!1,!0,null,null],"phy_kinematic":[!0,!1,!0,null,null],"phy_sleeping":[!0,!1,!0,null,null],"phy_position_xprevious":[!0,!0,!0,null,null],"phy_position_yprevious":[!0,!0,!0,null,null],"phy_collision_points":[!0,!1,!0,null,null],"layer":[!0,!0,!0,null,null],"in_sequence":[!0,!1,!0,null,null],"sequence_instance":[!0,!1,!0,null,null],"drawn_by_sequence":[!0,!1,!0,null,null],"on_ui_layer":[!0,!1,!0,null,null],"phy_collision_x":[!0,!1,!0,null,null],"phy_collision_y":[!0,!1,!0,null,null],"phy_col_normal_x":[!0,!1,!0,null,null],"phy_col_normal_y":[!0,!1,!0,null,null]}
@@ -33682,6 +34637,16 @@ function collision_circle(_Un,_Co,_Do,_Eo,_hk,_Yi,_Vn)
 	return collision_ellipse(_Un,_Co-_Eo,_Do-_Eo,_Co+_Eo,_Do+_Eo,_hk,_Yi,_Vn)}
 ;
 
+function collision_circle_list(_Un,_Co,_Do,_Eo,_hk,_Yi,_Vn,_B8,_to)
+{
+	var _nk=_lk._n6(yyGetInt32(_B8));
+	if(!_nk)
+	{
+		yyError("Error: invalid ds_list ID (collision_circle_list)");
+		return 0	}
+	return collision_ellipse_list(_Un,_Co-_Eo,_Do-_Eo,_Co+_Eo,_Do+_Eo,_hk,_Yi,_Vn,_B8,_to)}
+;
+
 function _Fo(_Un,_E7,_F7,_67,_77,_hk,_Yi,_Vn)
 {
 	_E7=yyGetReal(_E7);
@@ -33700,6 +34665,26 @@ function(_Yn)
 		{
 			return _Xn		}
 		return _0o(_1o,_Yn.id)	}
+	)}
+;
+
+function _Ho(_Un,_E7,_F7,_67,_77,_hk,_Yi,_Vn,_B8)
+{
+	_E7=yyGetReal(_E7);
+	_F7=yyGetReal(_F7);
+	_67=yyGetReal(_67);
+	_77=yyGetReal(_77);
+	_Yi=yyGetBool(_Yi);
+	return _Wn(_Un,yyGetInt32(_hk),yyGetBool(_Vn),_Xn,_E7,_F7,_67,_77,_Yi,
+function(_Yn)
+	{
+		if(_Yn._7o()!=_3o(_Un))
+		{
+			return _Xn		}
+		if(_Yn._Go(_E7,_F7,_67,_77,_Yi))
+		{
+			_B8.push(_0o(_1o,_Yn.id))		}
+		return _Xn	}
 	)}
 ;
 
@@ -33746,6 +34731,59 @@ function collision_ellipse(_Un,_E7,_F7,_67,_77,_hk,_Yi,_Vn)
 		var id=_Fo(_Un,_E7,_F7,_67,_77,_hk,_Yi,_Vn);
 		return id	}
 }
+;
+
+function collision_ellipse_list(_Un,_E7,_F7,_67,_77,_hk,_Yi,_Vn,_B8,_to)
+{
+	_E7=yyGetReal(_E7);
+	_F7=yyGetReal(_F7);
+	_67=yyGetReal(_67);
+	_77=yyGetReal(_77);
+	_Yi=yyGetBool(_Yi);
+	var _nk=_lk._n6(yyGetInt32(_B8));
+	if(!_nk)
+	{
+		yyError("Error: invalid ds_list ID (instance_position_list)");
+		return 0	}
+	var _uo=false;
+	var _vo=[];
+	if(_hk instanceof _5o)
+	{
+		var _ao=_hk.type;
+		if(_ao==_bo)
+		{
+			_Io(_E7,_F7,_67,_77,_hk,_vo,_Yi);
+			_uo=true		}
+	}
+	else if(_hk instanceof Array)
+	{
+		for(var i=0;i<_hk.length;i++)
+		{
+			var _do=_hk[i];
+			if((_do instanceof _5o)&&(_do.type==_bo))
+			{
+				_Io(_E7,_F7,_67,_77,_do,_vo,_Yi)			}
+			else 
+			{
+				_Ho(_Un,_E7,_F7,_67,_77,_do,_Yi,_Vn,_vo)			}
+		}
+		_uo=true	}
+	if(!_uo)_Ho(_Un,_E7,_F7,_67,_77,_hk,_Yi,_Vn,_vo);
+	var _c9=_vo.length;
+	var _Ao=(_E7+_67)*0.5;
+	var _Bo=(_F7+_77)*0.5;
+	_eo(_vo,_nk,_Ao,_Bo,_to);
+	return _c9}
+;
+
+function point_in_rectangle(_ho,_io,_E7,_F7,_67,_77)
+{
+	_ho=yyGetReal(_ho);
+	_io=yyGetReal(_io);
+	if((_ho>=yyGetReal(_E7)&&_ho<=yyGetReal(_67))&&(_io>=yyGetReal(_F7)&&_io<=yyGetReal(_77)))
+	{
+		return true	}
+	return false}
 ;
 
 function _3p(_ho,_io,_4p,_5p,_6p)
@@ -37524,6 +38562,29 @@ function mouse_check_button(_JJ)
 			case 5:if(_Og.__e[4])return 1;
 			else return 0;
 			case -1:if(_Og.__e[0]||_Og.__e[1]||_Og.__e[2]||_Og.__e[3]||_Og.__e[4])return 1;
+			else return 0		}
+	}
+	return 0}
+
+function mouse_check_button_pressed(_JJ)
+{
+
+		{
+		switch(yyGetInt32(_JJ))
+		{
+			case 0:if(_Og._Ve[0]||_Og._Ve[1]||_Og._Ve[2]||_Og._Ve[3]||_Og._Ve[4])return 0;
+			else return 1;
+			case 1:if(_Og._Ve[0])return 1;
+			else return 0;
+			case 2:if(_Og._Ve[1])return 1;
+			else return 0;
+			case 3:if(_Og._Ve[2])return 1;
+			else return 0;
+			case 4:if(_Og._Ve[3])return 1;
+			else return 0;
+			case 5:if(_Og._Ve[4])return 1;
+			else return 0;
+			case -1:if(_Og._Ve[0]||_Og._Ve[1]||_Og._Ve[2]||_Og._Ve[3]||_Og._Ve[4])return 1;
 			else return 0		}
 	}
 	return 0}
